@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
+	<RenderUI>
+		<string name="TITLE">GTA V - ASI Manager</string>
+		
+		<string name="RPF_NOTE">You need to install ASI Loader and OpenIV ASI plugin for your GTA V, otherwise game will not load modified RPF archive.</string>
+		<string name="ONLINE_NOTE">Do not play GTA Online with modified RPF you will be banned.</string>
+		
+		<string name="INSTALL">Install</string>
+		<string name="UPDATE">Update</string>
+		<string name="UNINSTALL">Uninstall</string>
+		
+		<string name="NOT_INSTALLED">NOT INSTALLED</string>
+		<string name="UPDATE_REQUIRED">UPDATE REQUIRED</string>
+		<string name="INSTALLED">INSTALLED</string>
+		<string name="DISABLED">DISABLED</string>
+		
+		<string name="ASI_LOADER">ASI Loader</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader is the tool that loads custom libraries with the file extension .asi into the game process.</string>
+		
+		<string name="OPENIV_ASI">OpenIV.ASI</string>
+		<string name="OPENIV_ASI_DESCRIPTION">This ASI Plugin is allow your game to load modified RPF archives. It is also provides support for “mods” folder.</string>
+		
+		<string name="OPEN_CAMERA_ASI">openCamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Enhances "Free Camera" boundary limitations in Rockstar Editor.</string>
+		
+		<string name="INSTALLATION_FAILED">The installation failed</string>
+		<string name="INSTALLATION_FAILED_TEXT">The installation failed, restart $AppName$ and try again.</string>
+		
+		<string name="UNINSTALL_FAILED">Uninstall failed</string>
+		<string name="UNINSTALL_FAILED_TEXT">Uninstall failed, restart $AppName$ and try again.</string>
+		
+		<string name="MODS_FOLDER_TITLE">Create "mods" folder</string>
+		<string name="MODS_FOLDER_TEXT">The "mods" folder allows you to keep all your original game files safe and have easiest one click way to switch between modified and original files.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Show notification while editing archive outside of “mods” folder</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Learn more about "mods" folder</string>
+	</RenderUI>
+</Translation>

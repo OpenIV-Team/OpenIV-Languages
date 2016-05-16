@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Package Installer - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Package installer</string>
+		<string name="INSTALL">Install</string>
+		<string name="INSTALLING">Installing</string>
+		<string name="DESCRIPTION">Description</string>
+		<string name="ADDITIONAL_INFORMATION">Additional information</string>
+		<string name="GREATED_BY">Created by</string>
+		<string name="SUPPORTED_GAMES">Supported games</string>
+		<string name="VERSION">Version</string>
+		<string name="LICENCE">License</string>
+		<string name="VIEW_LICENCE">View license</string>
+		<string name="LEARN_MORE">Learn more</string>
+		<string name="LINK_HOMEPAGE">Homepage</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Select content to install</string>
+		<string name="SELECT_LOCATION">Select location to install</string>
+		<string name="LOCATION_MODS_FOLDER">"mods" folder</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Install this mod into "mods" folder</string>
+		<string name="LOCATION_GAME_FOLDER">Game folder</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Install this mod directly into game folder</string>
+
+		<string name="INSTALLATION_SUCCEEDED">Installation succeeded</string>
+		<string name="RUN_GAME">Run $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Run game and check what you just got</string>
+
+		<string name="INSTALLATION_FAILED">The installation failed</string>
+
+		<string name="LOADING_ERROR_TITLE">Error loading package</string>
+		<string name="READING_ERROR_TITLE">Error reading package file</string>
+		<string name="INSTALLING_ERROR_TITLE">Package installation error</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Unknown error</string>
+		<string name="ERROR_CODE_UNKNOWN">Something happened.</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Package file is not valid ZIP file.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Unknown file extension. Package file must be .oiv or .zip.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Cannot access package file. Make sure it is not used by another process.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Package file does not exist.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Unable to open package file.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Unable to find "assembly.xml" file in this package. Probable file is not $AppName$ Package or file corrupted.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Unable to read "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Unknown format of "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">This package can’t be installed with your version of $AppName$.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">The "metadata" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">The metadata information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">The "assembly.xml" have invalid XML format or corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Unable to read package Id from "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">The "colors" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">The colors information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">The content information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">The "content" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Unable to find "content" folder in this package. Probable file is not $AppName$ Package or file corrupted.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">This package cannot be installed into $RageGAME$. Please check supported games list in additional information section.</string>
+
+	</RenderUI>
+</Translation>

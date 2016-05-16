@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ Placement Search'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Search for name</string>
+		<string name="SEARCH_FOR_HASH">Search for hash</string>
+
+		<string name="BANNER_TEXT_NAME">Type model name</string>
+		<string name="BANNER_TEXT_HASH">Type model hash</string>
+
+		<string name="SEARCH">Search</string>
+		<string name="STOP_SEARCH">Stop search</string>
+		<string name="INCORRECT_HASH">Incorrect hash</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" is not a valid hash value.</string>
+
+		<string name="FILE_INFORMATION">File information</string>
+		<string name="SHOW_DEFINITION">Show definition in IDE file</string>
+		<string name="SHOW_IDE">Show IDE File</string>
+		<string name="SHOW_ARCHIVE">Show archive</string>
+		<string name="SHOW_RESOURCE">Show resource file</string>
+
+		<string name="HELP_TITLE">Placement Search - help</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Use mouse to look around, move using these keys:
+			
+    W - Move forward
+    S - Move backward
+    A - Move left
+    D - Move right
+	
+    NumPad 8 - Move camera up
+    NumPad 2 - Move camera down
+    NumPad 4 - Move camera left
+    NumPad 6 - Move camera right
+	
+    Hold SHIFT - For faster movement
+    Hold CTRL - For slow movement
+    
+    Use mouse wheel for zooming.
+	
+    ESC - Close Placement Search window
+    Hold H - For temporarily hide HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>
