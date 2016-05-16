@@ -8,6 +8,7 @@
 			<btnWebNext Caption='Continue'/>
 			<btnGame Caption='Browse...' Hint='Select folder:'/>
 			<btnGameNext Caption='Continue'/>
+			<btnSetPermissions Caption='Set permissions'/> 
 			<btnWindowsNext Caption='Continue'/>
 			<btnBackupNext Caption='Continue'/>
 			<btnSocialNext Caption='Continue'/>
@@ -40,12 +41,14 @@
 					<Item Index='14' Value='Windows 7'/>
 					<Item Index='15' Value='$AppName$ is best working on Microsoft® Windows 7™'/>
 					<Item Index='16' Value='Your name:'/>
-					<Item Index='17' Value="Error: $AppName$ don't have access to work with this folder.\nRun $AppName$ with administrator rights."/>
+					<Item Index='17' Value="Error: $AppName$ don't have access to work with this folder.\nYou can set required permissions or run $AppName$ with administrator rights."/>
 					<Item Index='18' Value='Join $AppName$ community'/>
 					<Item Index='19' Value='$AppName$ - Confirmation'/>
 					<Item Index='20' Value='The configuration process is not finished yet.\nDo you want to exit?'/>
-					<Item Index='21' Value="Error: $AppName$ don't have access to work with '$RageEncryptionStorage$' file.\nRun $AppName$ with administrator rights."/>
+					<Item Index='21' Value="Error: $AppName$ don't have access to work with '$RageEncryptionStorage$' file.\nYou can set required permissions or run $AppName$ with administrator rights."/>
 					<Item Index='22' Value="Error: $RageGAME$ is running. Close game before using $AppName$."/>
+					<Item Index='23' Value="All done.\nThe permissions was set to your game folder."/>
+					<Item Index='24' Value="Unable to set permissions."/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>

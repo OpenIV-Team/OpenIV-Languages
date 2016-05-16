@@ -4,7 +4,7 @@
 	<RenderUI>
 		<string name="TITLE">GTA V - ASI Manager</string>
 		
-		<string name="RPF_NOTE">You need to install ASI Loader and OpenIV ASI plugin for your GTA V, otherwise game will not load modified RPF archive.</string>
+		<string name="RPF_NOTE">You need to install ASI Loader and OpenIV.ASI plugin for your GTA V, otherwise game will not load modified RPF archive.</string>
 		<string name="ONLINE_NOTE">Do not play GTA Online with modified RPF you will be banned.</string>
 		
 		<string name="INSTALL">Install</string>

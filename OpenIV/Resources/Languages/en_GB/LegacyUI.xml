@@ -94,16 +94,24 @@
 		</AeroWindow>
 		<!-- Others -->
 		<SearchBox BannerText="Filter"/>
-		<!-- GTA V (ASI) -->
+		<!-- Notification: GTA V (ASI) -->
 		<lbGTAVPluginTitle Caption="Install plugin for GTA V"/>
-		<lbGTAVPluginText Caption="You need to install ASI Loader and OpenIV ASI plugin for your GTA V, otherwise game will not load modified RPF archive.\nDo not play GTA Online with modified RPF you will be banned."/>
+		<lbGTAVPluginText Caption="You need to install ASI Loader and OpenIV.ASI plugin for your GTA V, otherwise game will not load modified RPF archive.\nDo not play GTA Online with modified RPF you will be banned."/>
 		<btnGTAVPluginAction Caption="ASI Manager"/>
+		<!-- Notification: copy to mods folder -->
+		<lbNotInModsTitle Caption='The "mods" folder'/>
 		<lbNotInModsText Caption='The archive you are currently editing is not located in "mods" folder.'/>
 		<btnHideThisNotification Caption="Hide this notification"/>
 		<btnCopyToMods Caption='Copy to "mods" folder'/>
 		<btnShowInMods Caption='Show in "mods" folder'/>
-		<lbCopyNewUpdateToMods Caption='You have outdated version of update.rpf in your "mods" folder.'/>
+		<!-- Notification: update.rpf -->
+		<lbCopyNewUpdateToModsTitle Caption='Grand Theft Auto V Title Update'/>
+		<lbCopyNewUpdateToMods Caption='You have outdated version of update.rpf in your "mods" folder. You need to copy new version of “update.rpf” into your “mods” folder, otherwise your game might crash.'/>
 		<btnCopyUpdateToMods Caption='Copy new version to "mods" folder'/>
+		<!-- Notification: Admin mode -->
+		<lbAdminModeTitle Caption='Administrator mode'/>
+		<lbAdminModeText Caption='Your $AppName$ is running as administrator. Some features like drag and drop from Windows File Explorer might not work. Usually, you no need to run OpenIV as administrator.'/>
+		<btnAdminModeAction Caption='What can I do?'/>
 	</MainWindow>
 
 	<ActionsModule>
@@ -136,7 +144,7 @@
 		<actOpen Caption="Open archive..." Hint="Open existing archive"/>
 		<actOpenPC Caption="Open content..." Hint=""/>
 		<actOpenArchiveProperties Caption="Archive properties" Hint=""/>
-		<actRebuild Caption="Rebuild" Hint="Rebuild current archive"/>
+		<actDefragmentation Caption="Defragmentation" Hint="Archive Defragmenter"/>
 		<actEditMode Caption="Edit mode" Hint=""/>
 		<actReadMode Caption="Read only mode" Hint=""/>
 		<actClose Caption="Close archive" Hint="Close current archive"/>
@@ -212,6 +220,8 @@
 		<actTreeCloseArchive Caption="Close archive" Hint=""/>
 		<actTreeCopyToModsFolder Caption='Copy to "mods" folder' Hint=""/>
 		<actTreeShowInModsFolder Caption='Show in "mods" folder' Hint=""/>
+		<actTreeCollapseThis Caption='Collapse this' Hint=""/>
+		<actTreeCollapseAll Caption='Collapse all' Hint=""/>
 		<!-- Strings -->
 		<Strings SetCount="100">
 			<Lines>
@@ -261,6 +271,9 @@
 				<Item Index="43" Value="Unable to delete files."/>
 				<Item Index="44" Value="Unable to replace file."/>
 				<Item Index="45" Value="Unable to create new file."/>
+				<Item Index="46" Value="Invalid characters in name."/>
+				<Item Index="47" Value="Specify a different name."/>
+				<Item Index="48" Value="There is already a item with the same name as the folder name you specified."/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -275,6 +288,21 @@
 		<cbDoNotShow Caption="Do not show this message again"/>
 	</EditModeHelpWindow>
 
+	<AdminModeWindow Caption="Administrator - $AppName$">
+		<lbText Caption="There is no real reason to run $AppName$ as Administrator. $AppName$ does not require any Administrator privileges to work properly. Otherwise when you run $AppName$ as Administrator some features like drag and drop from Windows File Explorer might not work. Most likely, you ran $AppName$ as Administrator because your game is installed somewhere in system folder (e.g. C:\Program Files\...) and normal user account do not have permissions to write to this folder.\n\nYou can set all required permissions to your game folder using this tool and then restart $AppName$ without Administrator right."/>
+		<btnSetPermissions Caption="Set permissions"/>
+		<btnClose Caption="Close"/>
+		<AeroWindow LinesCount="5">
+			<StringList>
+				<Item Index="0" Value="Error - $AppName$"/>
+				<Item Index="1" Value="All done.\nThe permissions was set to your game folder."/>
+				<Item Index="2" Value="Unable to set permissions.\nReturn code: "/>
+				<Item Index="3" Value="The game folder does not exist."/>
+				<Item Index="3" Value="The Set permissions tool not exist. Please reinstall $AppName$."/>
+			</StringList>
+		</AeroWindow>
+	</AdminModeWindow>
+	
 	<!-- Web window -->
 
 	<webWindow Caption="$WebName$ - ">
@@ -322,18 +350,20 @@
 		<cbShowRecycleConfirmation Caption="Show recycle confirmation"/>
 		<cbCloseArchivesAtStartGame Caption="Close all opened archvies at start game"/>
 		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Show notification while editing archive outside of "mods" folder'/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Clear search filter after opening archive'/>
 		<!-- Label's -->
 		<gbGamePath Caption="$RageGAME_SHORT$ directory"/>
 		<lbCurrentGamePath Caption="Current directory:"/>
 		<lbLang Caption="Select interface language:"/>
-		<lbWorkMode Caption="Default work mode:"/>
+		<lbWorkMode Caption="Default work mode"/>
 		<ttRageExe Caption="To get $AppName$ works, in this directory shoud be placed this file: $RageEncryptionStorage$"/>
-		<lbDefTextureFormat Caption="Default texture file format:"/>
-		<lbDefTextureFormatGlb Caption="Default texture file format:"/>
+		<lbDefTextureFormat Caption="Default texture file format"/>
+		<lbDefTextureFormatGlb Caption="Default texture file format"/>
 		<gbModels Caption="Models import (ODR/ODD/OFT)"/>
-		<lbDefaultGame Caption="Select default game:"/>
-		<lbRenderBackgroundColor Caption="Render background color:"/>
-		<lbCameraControl Caption="Camera control scheme:"/>
+		<lbDefaultGame Caption="Select default game"/>
+		<lbRenderBackgroundColor Caption="Render background color"/>
+		<lbCameraControl Caption="Camera control scheme"/>
+		<lbChooseTheme Caption="Choose a theme"/>
 		<!-- Work Mode's -->
 		<WorkMode>
 			<Items>
@@ -348,6 +378,13 @@
 				<Item Index="1" Value="Custom color"/>
 			</Items>
 		</cbRenderBackgroundColor>
+		<!-- App Theme -->
+		<cbAppTheme>
+			<Items>
+				<Item Index="0" Value="Light"/>
+				<Item Index="1" Value="Dark"/>
+			</Items>
+		</cbAppTheme>
 		<!-- String's -->
 		<AeroWindow LinesCount="10">
 			<StringList>

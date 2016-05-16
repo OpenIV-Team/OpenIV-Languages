@@ -63,5 +63,6 @@
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Export to openFormats (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>
 		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>	
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Export skeleton to openFormats (.skel)" Hint=""/>
 	</tools>
 </GlobalStrings>

@@ -38,12 +38,16 @@
 		</AeroWindow>
 	</OrganizeFavoritesWindow>
 
-	<!-- Rebuild tool -->
+	<!-- Archive Defragmenter -->
 
-	<RebuildToolWindow Caption='Rebuild tool - $AppName$'>
+	<DefragmenterWindow Caption='Archive Defragmenter - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="Archive defragmenter consolidates files inside archive to reduce archive size on your computer's hard disk."/>
+		<lbNoteSave Caption='All your changes already saved, you no need to use defragmentation after each editing.'/>
+		<lbNoteRevert Caption='The defragmentation feature will not revert any changes you made in archives.'/>
 		<!-- Actions -->
 		<actClose Caption='Close'/>
-		<actRebuild Caption='Rebuild'/>
+		<actRebuild Caption='Defragment'/>
 		<actAddFile Caption='Add files'/>
 		<actAddFolder Caption='Add folder'/>
 		<actRemoveFile Caption='Remove file'/>
@@ -61,15 +65,12 @@
 		<AeroWindow LinesCount='4'>
 			<StringList>
 				<Item Index='0' Value='All complete.'/>
-				<Item Index='1' Value='$AppName$ - Archive rebuilded'/>
+				<Item Index='1' Value='Archive Defragmenter - $AppName$'/>
 				<Item Index='2' Value='Open rebuilt archive?'/>
 				<Item Index='3' Value='Some files are not processed.'/>
 			</StringList>
 		</AeroWindow>
-		<!-- Labels -->
-		<lbNoteSave Caption='All your changes already saved, you no need to rebuild archive after each editing.'/>
-		<lbNoteRevert Caption='The rebuild feature will not revert any changes you made in archives.'/>
-	</RebuildToolWindow>
+	</DefragmenterWindow>
 
 	<!-- Archive properties -->
 
