@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Anwendungsfehler'>
+		<lbWindowTitle Caption="$AppName$ konnte ein Problem nicht lösen\nund muss jetzt neustarten."/>
+		<btnCloseApp Caption='$AppName$ schließen'/>
+		<lnkWeb1 Caption='Die offizielle Seite besuchen'/>
+		<lnkWeb2 Caption='Das internationale Supportforum besuchen'/>
+		<lnkWeb3 Caption='Das russische Supportforum besuchen'/>
+		<lbText2 Caption='Zusätzliche Werkzeuge'/>
+		<tbCopyInfo Caption='Fehlerinformationen kopieren'/>
+		<tbWin7Report Caption='Schritte aufzeichnen um das Problem zu reprouzieren' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Zeit: '/>
+				<Item Index='1' Value='Typ: '/>
+				<Item Index='2' Value='Nachricht: '/>
+				<Item Index='3' Value='Zusätzliche Informationen:'/>
+				<Item Index='4' Value='Es fehlen zusätzliche Informationen.'/>
+				<Item Index='5' Value='Die Fehlerinformationen wurden in die Zwischenablage kopiert.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

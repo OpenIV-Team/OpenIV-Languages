@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='About $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Version %D.%D (Build %D; Date %S)</string>
+		<string name="VERSION_LABEL_3">Version %D.%D.%D (Build %D; Date %S)</string>
+		<string name="THE_TEAM">The team</string>
+		<string name="THIRD_PARTY">Third party</string>
+		<string name="THIRD_PARTY_LINE_1">This application uses some parts</string>
+		<string name="THIRD_PARTY_LINE_2">which provided by third party.</string>
+		<string name="THANKS_TO">Thanks to</string>
+		<string name="ALPHABETICALLY">(alphabetically)</string>
+		<string name="SPECIAL_THANKS_TO">Special thanks to</string>
+		<string name="LICENSE_TERMS">The Software License Terms</string>
+	</RenderUI>
+</Translation>

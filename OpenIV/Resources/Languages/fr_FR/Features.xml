@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='Ajouter un favoris'>
+		<Label1 Caption='Nom:'/>
+		<Label2 Caption='Créer dans:'/>
+
+		<btnAdd Caption='Ajouter'/>
+		<btnCancel Caption='Annuler'/>
+		<btnNewFolder Caption='Nouveau dossier'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Favoris'/>
+				<Item Index='1' Value='Créer un dossier'/>
+				<Item Index='2' Value='Nom du dossier: '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='Organisation des favoris - $AppName$'>
+		<btnSave Caption='Sauvegarder'/>
+		<btnCancel Caption='Annuler'/>
+		<btnNewFolder Caption='Nouveau dossier'/>
+		<btnRemove Caption='Retirer'/>
+		<btnClear Caption='Effacer'/>
+
+		<Label1 Caption='Faites un glisser déposer pour organiser vos favoris.'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Favoris'/>
+				<Item Index='1' Value='Créer un dossier'/>
+				<Item Index='2' Value='Nom du dossier: '/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Rebuild tool -->
+
+	<RebuildToolWindow Caption='Outil Reconstruire - $AppName$'>
+		<!-- Actions -->
+		<actClose Caption='Fermer'/>
+		<actRebuild Caption='Reconstruire'/>
+		<actAddFile Caption='Ajouter des fichiers'/>
+		<actAddFolder Caption='Ajouter un dossier'/>
+		<actRemoveFile Caption='Retirer des fichiers'/>
+		<actClear Caption='Effacer la liste'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='Nom'/>
+				<Item Index='2' Caption='Emplacement'/>
+				<Item Index='3' Caption='Type'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='Terminé.'/>
+				<Item Index='1' Value='$AppName$ - Archive reconstruite'/>
+				<Item Index='2' Value='Ouvrir l′archive reconstruite?'/>
+				<Item Index='3' Value='Certains fichiers n′ont pas été traités.'/>
+			</StringList>
+		</AeroWindow>
+		<!-- Labels -->
+		<lbNoteSave Caption='Toutes vos modifications sont déjà sauvegardées, vous n′avez pas besoin de reconstruire l′archive après chaque édition.'/>
+		<lbNoteRevert Caption='La reconstruction ne reviendra pas sur les changements apportés aux archives.'/>
+	</RebuildToolWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption='Information d′archive'>
+		<!-- Button's -->
+		<btnClose Caption='Fermer'/>
+		<!-- Label's -->
+		<lbType Caption='Type:'/>
+		<lbVersion Caption='Version:'/>
+		<lbCount Caption='Nombre de fichiers:'/>
+
+		<lbCGame Caption='Jeu actuel:'/>
+		<lbCPlatform Caption='Plate-forme:'/>
+
+		<lbCodeModule Caption='Module:'/>
+		<lbCMVersion Caption='Version du module:'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='Importation openFormats - $AppName$'>
+		<!-- Label's -->
+		<lbOfFileName Caption='Importer un fichier:'/>
+		<lbOfFiles Caption='Importer des fichiers:'/>
+		<lbNewFileName Caption='Nouveau nom de fichier:'/>
+		<!-- Button's -->
+		<btnAdd Caption='Ajouter'/>
+		<btnRemove Caption='Retirer'/>
+		<btnCancel Caption='Annuler'/>
+		<btnOk Caption='Ok'/>
+		<tbLeanMore Caption='En savoir plus à propos d′openFormats'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='Protection mesh (prévenir les exportations avenir)'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption='Validateur openFormats - $AppName$'>
+		<lbTitle Caption='Rapport d′importation openFormats'/>
+		<btnClose Caption='Fermer'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value='Certains fichiers ne sont pas importés, plus d′informations ci-dessous.'/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(Line %D): Version de la ressource non prise en charge, actuelle: "%S" mais attendu "%D".'/>
+				<Item Index='2' Value='%S(Line %D): Version du format non prise en charge, actuelle: "%S" mais attendu "%D".'/>
+				<!-- Common errors -->
+				<Item Index='3' Value='Erreur fatale: Impossibilité d′initialiser Direct3D.'/>
+				<Item Index='4' Value='Erreur fatale: Fichier "%S" introuvable.'/>
+				<Item Index='5' Value='%S(Line %D): Fichier "%S" introuvable.'/>
+				<Item Index='6' Value='%S(Line %D): Fichier corrompu.'/>
+				<Item Index='7' Value='%S(Line %D): Propriété "%s" mais attendue "%s" trouvée.'/>
+				<Item Index='8' Value='%S(Line %D): Propriété "%s" introuvable.'/>
+				<Item Index='9' Value='%S(Line %D): Pas assez de paramètres actuel.'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(Line %D): Type de limite de collision inconnu "%S".'/>
+				<Item Index='11' Value='%S(Line %D): Collision trop grosse.'/>
+				<Item Index='12' Value='%S(Line %D): Collision corrompue.'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value='%S(Line %D): Nom d′ossature null.'/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(Line %D): Mesh est vérouillé.'/>
+				<Item Index='15' Value='%S(Line %D): Indice matériaux hors limites.'/>
+				<Item Index='16' Value="%S(Line %D): Le Shader ne peut être modifié."/>		
+				<Item Index='17' Value="%S(Line %D): Trop d′ossatures dans une géométrie, vous ne pouvez pas utiliser plus de 48 ossatures."/>
+
+				<Item Index='18' Value="%S(Line %D): %S"/>						
+			</StringList>
+		</AeroWindow>	
+	</openFormatsValidatorWindow>	
+
+</Translation>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<NavmeshViewerWindow Caption='$AppName$ Visualizador de navmesh' />		
+	<RenderUI>
+		<string name="HELP_TITLE">Visualizador de navmesh - ajuda</string>
+		<string name="EDGES">Bordas:</string>
+		<string name="PORTALS">Portais:</string>
+		<string name="BOUNDS">Limites (Bounds):</string>
+		<string name="DISPLAY_BOUNDS">Exibir Limites (Bounds):</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Use o mouse para olhar ao redor, mova usando essas teclas:
+			
+    W - Mover para frente
+    S - Mover para trás
+    A - Mover para esquerda
+    D - Mover para direita
+
+    NumPad 8 - Mover câmera para cima
+    NumPad 2 - Mover câmera para baixo
+    NumPad 4 - Mover câmera para esquerda
+    NumPad 6 - Mover câmera para direita
+
+    Segure SHIFT - Para movimento rápido
+    Segure CTRL - Para movimento lento
+    Use a roda do mouse para dá zoom.
+	
+Para alterar as opções de renderização use os links no  lado direito ou estas teclas de atalho:
+	
+    F1 - Alternar este painel de ajuda
+    C - Alternar modo de câmera
+    F - Alternar Edged Faces
+    P - Alternar pontos de exibição
+    G - Alternar geometria
+    ESC - Fechar esta janela de visualização
+	
+    Segure H - Para ocultar temporariamente o HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

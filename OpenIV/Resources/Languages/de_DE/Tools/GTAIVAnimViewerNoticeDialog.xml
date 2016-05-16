@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GTAIVAnimViewerNoticeDialog Caption='Animationswiedergabe - $AppName$'>
+		<!-- Label's -->
+		<lbTitle Caption='Animationswiedergabe'/>
+		<lbText Caption='Um Animationen wiederzugeben, nutze bitte die Animationswiedergabe, die aus dem Werkzeuge - Menü gestartet werden kann.'/>
+		<!-- Button's -->
+		<btnOk Caption='OK'/>
+		<btnRun Caption='Animationswiedergabe ausführen'/>
+	</GTAIVAnimViewerNoticeDialog>
+</Translation>

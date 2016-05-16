@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='Visionneuse de collisions $AppName$'>
+		<paneDictionary Caption='Entrées de dictionnaire'/>
+		<paneComposite Caption='Éléments composés'/>
+		<miLeft Caption='Gauche'/>
+		<miRight Caption='Droite'/>
+		<miCheckAll Caption='Cocher tout' />
+		<miUncheckAll Caption='Décocher tout' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Affichage Normal:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Type de limite:</string>
+		<string name="CHILD_COUNT">Child count:</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Visionneuse de collisions - aide</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Utilisez la souris pour regarder autour, déplacez à l′aide de ces touches:
+			
+    W - Avancer
+    S - Reculer
+    A - Aller à gauche
+    D - Aller à droite
+
+    NumPad 8 - Déplacer la caméra vers le haut
+    NumPad 2 - Déplacer la caméra vers le bas
+    NumPad 4 - Déplacer la caméra vers la gauche
+    NumPad 6 - Déplacer la caméra vers la droite
+
+    Maintenir SHIFT - Pour déplacer rapidement
+    Maintenir CTRL - Pour déplacer lentement
+    Utiliser la molette de la souris pour zoomer.
+		   
+Pour changer les options de rendu, utilisez les liens à droite ou ces touches:
+		   
+    F1 - Basculer en boîte d′aide
+    C - Basculer en mode caméra
+    F - Basculer en Edged Faces
+    P - Basculer en points d′affichage
+    N - Basculer en affichage normal
+    G - Basculer en géométrie
+    ESC - Fermer cette fenêtre de visionneuse
+	
+    Maintenir H - Pour cacher temporairement le HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

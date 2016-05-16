@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<!-- common -->
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_LINK">Clique aqui para obter ajuda</string>
+
+		<!-- Common words -->
+		<string name="TRUE">Verdad.</string>
+		<string name="FALSE">Falso</string>
+		<string name="YES">Sim</string>
+		<string name="NO">Não</string>
+		<string name="OK">Ok</string>
+		<string name="CANCEL">Cancelar</string>
+		<string name="CLOSE">Fechar</string>
+		<string name="SAVE">Salvar</string>
+		<string name="IMPORT">Importar</string>
+		<string name="SEARCH">Pesquisar</string>
+
+		<!-- Camera -->
+		<string name="CAMERA_MODE">Modo de câmera:</string>
+		<string name="CAMERA_MODE_FREE">Livre</string>
+		<string name="CAMERA_MODE_AROUND">Redor</string>
+
+		<!-- Options -->
+		<string name="SHOW_GRID">Mostrar grade:</string>
+		<string name="GEOMETRY">Geometria:</string>		
+		<string name="EDGED_FACES">Mostrar Edged Faces:</string>
+		<string name="DISPLAY_POINTS">Pontos de Exibição:</string>
+
+		<!-- Base information -->
+		<string name="POLYGONS">Polígonos:</string>
+		<string name="VERTICES">Vértices:</string>
+
+		<!-- LOD -->
+		<string name="LOD">Nível de Detalhes:</string>
+		<string name="LOD_HIGH">Alto</string>
+		<string name="LOD_MED">Méd</string>
+		<string name="LOD_LOW">Baixo</string>
+		<string name="LOD_VLOW">MBaixo</string>
+
+		<!-- Textures -->
+		<string name="USING_TEXTURES">Usando texturas:</string>
+		<string name="ADD_TEXTURE">[+] Adicionar textura</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Exportar texturas embutida ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ Ver texturas embutida ]</string>
+
+		<!-- Information -->
+		<string name="MORE_INFORMATION">[ Mais informação ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Exportar todas as texturas embutidas</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Exportar texturas embutidas selecionadas</string>
+		<string name="COUNT_">Quantid.: </string>
+		<string name="SELECT_OBJECT">Selecionar objeto</string>
+		<string name="COPY_SKELETON_INFO">Copiar informação do esqueleto (skeleton)</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Incapaz de copiar</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Falha ao copiar para o clipboard.</string>
+
+		<!-- Information tabs -->
+		<string name="INFO_GEOMETRIES">Geometrias</string>
+		<string name="INFO_SKELETON">Esqueleto</string>
+		<string name="INFO_SHADERS">Shaders</string>
+		<string name="INFO_TEXTURES">Texturas</string>
+
+		<!-- Information mesh tabs -->
+		<string name="TAB_LOD_HIGH">Alto</string>
+		<string name="TAB_LOD_MED">Médio</string>
+		<string name="TAB_LOD_LOW">Baixo</string>
+		<string name="TAB_LOD_VLOW">Muito Baixo</string>
+
+		<!-- Columns -->
+		<string name="COLUMN_SPS">SPS</string>
+		<string name="COLUMN_SHADER">Shader</string>
+		<string name="COLUMN_PARAMETERS">Parâmetros</string>
+
+		<string name="COLUMN_NAME">Nome</string>
+		<string name="COLUMN_TYPE">Tipo</string>
+		<string name="COLUMN_VALUE">Valor</string>
+
+		<string name="COLUMN_INDEX">Índice</string>
+		<string name="COLUMN_INDEX_COUNT">Quantid. de índice</string>
+		<string name="COLUMN_FACE_COUNT">Quantid. de face</string>
+		<string name="COLUMN_VERTEX_COUNT">Quantid. de vértice (vertex)</string>
+		
+		<!-- Export texture format dialog -->
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Por favor, selecione o formato de arquivo:</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Melhor escolha para propósitos comuns e de visualização.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Escolha esta se você deseja importar as texturas mais tarde.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">Imagem JPEG (*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">A qualidade pode ser perdida durante a exportação.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Imagem Bitmap (*.bmp)</string>
+
+	</RenderUI>
+</Translation>

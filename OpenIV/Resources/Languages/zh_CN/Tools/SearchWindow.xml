@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='$AppName$ - 全局搜索'>
+		<SearchBox BannerText="搜索"/>
+		<btnGoSearch Caption="搜索"/>
+		<ebSearchOptions Caption="高级搜索选项" ExpandCaption="高级搜索选项"/>
+		<cbArchives Caption="在档案中搜索"/>
+		<cbResources Caption="在资源中搜索"/>
+		<cbSoundsAndAudio Caption="在音频中搜索"/>
+		<cbScripts Caption="在脚本中搜索"/>
+		<cbTextFiles Caption="在文本中搜索"/>
+		<lbStopHint Caption="按ESC键以停止搜索"/>
+		<btnExportResults Caption="导出"/>
+		<btnExportAll Caption="导出所有文件"/>
+		<btnExportSelected Caption="导出选定文件"/>
+		<btnGoTo Caption="前往文件"/>
+		<btnOpenItem Caption="打开"/>
+		<btnExportItem Caption="导出"/>
+		<btnExportSelectedItems Caption="导出选定文件"/>
+		<btnExportAllItems Caption="导出所有文件"/>
+		<btnSelectAllItems Caption="选择全部"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='搜索'/>
+				<Item Index='1' Value='停止搜索'/>
+				<Item Index='2' Value='没有找到项目'/>
+				<Item Index='3' Value='找到%D个项目'/>
+				<Item Index='4' Value='没有选中的项目'/>
+				<Item Index='5' Value='已选择：%D'/>
+				<Item Index='6' Value="$AppName$无法打开文件。"/>
+				<Item Index='7' Value="没有结果可供导出。"/>
+				<Item Index='8' Value="请在导出前停止搜索。"/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

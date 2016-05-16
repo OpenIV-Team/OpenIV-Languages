@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PtxFileViewerWindow Caption='$AppName$ Modellvorschau'>
+		<paneDictionary Caption='Wörterbuch Elemente'/>
+	</PtxFileViewerWindow>
+	<RenderUI>
+		<string name="EXPORT_TO_FORMATS">In openFormats exportieren</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Modellvorschau - Hilfe</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Benutze die Maus um dich umzuschauen und diese Tasten für die Steuerung:
+			
+    W - Vorwärts bewegen
+    S - Rückwärts bewegen
+    A - Nach links bewegen
+    D - Nach rechts bewegen
+
+    NumPad 8 - Kamera nach oben bewegen
+    NumPad 2 - Kamera nach unten bewegen
+    NumPad 4 - Kamera nach links bewegen
+    NumPad 6 - Kamera nach rechts bewegen
+
+    SHIFT halten - Für schnellere Bewegung
+    STRG halten - Für langsamere Bewegung
+    Mausrad zum Zoomen benutzen.
+		   
+Um die Rendereinstellungen zu verändern nutze die Links auf der rechten Seite oder diese Hot-Keys:
+		   
+    F1 - Diese Hilfe anzeigen / ausblenden
+    F2 - Mehr Informationen anzeigen
+    C - Kameramodus wechseln
+    F - Scharfe Gesichter ein- / ausschalten
+    P - Anzeigepunkte ein- / ausblenden
+    G - Geometrie ein-/ausblenden
+    ESC - Dieses Anzeigefenster ausblenden
+	
+    H halten - HUD kurzzeitig verstecken
+]]>
+		</text>		
+	</RenderUI>
+</Translation>

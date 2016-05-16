@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='O программе...'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Версия %D.%D (Сборка %D; Дата %S)</string>
+		<string name="VERSION_LABEL_3">Версия %D.%D.%D (Сборка %D; Дата %S)</string>
+		<string name="THE_TEAM">Команда разработки</string>
+		<string name="THIRD_PARTY">Третьи стороны</string>
+		<string name="THIRD_PARTY_LINE_1">Это приложение использует некоторые части,</string>
+		<string name="THIRD_PARTY_LINE_2">которые, предоставлены третьими сторонами.</string>
+		<string name="THANKS_TO">Спасибо</string> 
+		<string name="ALPHABETICALLY">(в алфавитном порядке)</string>
+		<string name="SPECIAL_THANKS_TO">Особая благодарность</string>
+		<string name="LICENSE_TERMS">Условия лицензионного соглашения</string>
+	</RenderUI>
+</Translation>

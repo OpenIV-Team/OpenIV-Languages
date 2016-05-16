@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PtxFileViewerWindow Caption='$AppName$ - 模型浏览器'>
+		<paneDictionary Caption='字典元素'/>
+	</PtxFileViewerWindow>
+	<RenderUI>
+		<string name="EXPORT_TO_FORMATS">导出至openFormats</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">模型浏览器 - 帮助</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[使用鼠标来移动视角，使用以下按键来移动：
+			
+    W - 向前移动
+    S - 向后移动
+    A - 向左移动
+    D - 向右移动
+
+    小键盘 8 - 向上移动镜头
+    小键盘 2 - 向下移动镜头
+    小键盘 4 - 向左移动镜头
+    小键盘 6 - 向右移动镜头
+
+    按住SHIFT - 快速移动
+    按住CTRL - 慢速移动
+    使用鼠标滚轮来缩放。
+		   
+要改变渲染选项，使用右侧的选项或下列热键：
+	
+    F1 - 切换本帮助界面
+    F2 - 显示更多信息
+    C - 切换镜头模式
+    F - 切换边缘面
+    P - 切换显示顶点
+    G - 切换几何
+    ESC - 关闭本浏览器
+	
+    按住H - 临时隐藏HUD
+]]>
+		</text>		
+	</RenderUI>
+</Translation>

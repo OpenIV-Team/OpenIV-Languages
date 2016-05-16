@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ Visualizador de Animação'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Visualizador de animação</string>
+		<string name="START_PED">Animações de pedestres</string>
+		<string name="START_MAP">Animações de mapa</string>
+		<string name="START_CUT">Cut scenes</string>
+		<string name="CHANGE_PED_MODEL">Alterar modelo de pedestre</string>
+		<string name="SELECT_PED_MODEL">Selecionar modelo de pedestre</string>
+		<string name="LOADING___">carregando...</string>
+		<string name="EMPTY_CUTSCENE">Cut-scene vazio</string>
+		<string name="EMPTY_CUTSCENE_MSG">Incapaz de abrir cut-scene vazio.</string>
+		<string name="MISSED_ANIMATIONS">Animações perdidas</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ é incapaz de carregar algumas animações porque os arquivo foram perdidos.</string>
+		<string name="FRAMES_">Quadros: </string>
+		<string name="TIME_SCALE_X">Escala de tempo: x</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Visualizador de animação  - ajuda</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Selecione uma categoria e, em seguida, reproduza qualquer animação. ]]>
+		</text>
+	</RenderUI>
+</Translation>

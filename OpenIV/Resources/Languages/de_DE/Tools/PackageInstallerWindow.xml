@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+<PackageInstallerWindow2 Caption='Packetinstallationsprogramm - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Packetinstallationsprogramm</string>
+		<string name="INSTALL">Installieren</string>
+		<string name="INSTALLING">Wird installiert</string>
+		<string name="DESCRIPTION">Beschreibung</string>
+		<string name="ADDITIONAL_INFORMATION">Zusätzliche Informationen</string>
+		<string name="GREATED_BY">Erstellt von</string>
+		<string name="SUPPORTED_GAMES">Unterstützte Spiele</string>
+		<string name="VERSION">Version</string>
+		<string name="LICENCE">Lizenz</string>
+		<string name="VIEW_LICENCE">Lizenz lesen</string>
+		<string name="LEARN_MORE">Mehr erfahren</string>
+		<string name="LINK_HOMEPAGE">Webseite</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Inhalt zur Installation auswählen</string>
+		<string name="SELECT_LOCATION">Installationsziel auswählen</string>
+		<string name="LOCATION_MODS_FOLDER">"mods" Ordner</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Diese Mod in den "mods" Ordner installieren</string>
+		<string name="LOCATION_GAME_FOLDER">Spielverzeichnis</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Diese Mod direkt ins Spielverzeichnis installieren</string>
+
+		<string name="INSTALLATION_SUCCEEDED">Installation erfolgreich</string>
+		<string name="RUN_GAME">$RageGAME$ starten</string>
+		<string name="RUN_GAME_TEXT">Spiel ausführen und die Änderungen testen</string>
+
+		<string name="INSTALLATION_FAILED">Die Installation is fehlgeschlagen</string>
+
+		<string name="LOADING_ERROR_TITLE">Fehler beim Laden des Archives</string>
+		<string name="READING_ERROR_TITLE">Fehler beim Lesen des Archives</string>
+		<string name="INSTALLING_ERROR_TITLE">Archiv-Fehler bei der Installation</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Unbekannter Fehler</string>
+		<string name="ERROR_CODE_UNKNOWN">Es ist etwas passiert.</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Das Archiv ist kein gültiges ZIP Archiv.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Unbekannte Dateiendung. Das Archiv muss mit .oiv oder .zip enden.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Es kann nicht auf das Archiv zugegriffen werden. Gehe sicher, dass es nicht von einem anderen Prozess verwendet wird.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Das Archiv existiert nicht.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Das Archiv konnte nicht geöffnet werden.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">"assembly.xml" konnte nicht im Archiv gefunden werden. Es scheint sich bei diesem Archiv nicht um ein $AppName$ Archiv zu handeln oder die Datei ist kaputt.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Die Datei "assembly.xml" konnte nicht gelesen werden, die Datei scheint kaputt zu sein.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Die Datei "assembly.xml" ist nicht ordnungsgemäß formatiert, die Datei scheint kaputt zu sein.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Dieses Packet ist mit deiner Version von $AppName$ nicht kompatibel.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">Der "metadata" Tag in der "assembly.xml" Datei fehlt, die Datei scheint kaputt zu sein.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">Die Metadaten in der Datei "assembly.xml" fehlen, oder sind kaputt.</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">Das XML in der Datei "assembly.xml" ist nicht ordnungsgemäß formatiert.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Die Package ID konnte der Datei "assembly.xml" nicht entnommen werden.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">Der "colors" Tag fehlt in der Datei "assembly.xml", die Datei scheint kaputt zu sein.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">Die Farbinformationen in der Datei "assembly.xml" fehlen oder sind kaputt.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">Die Informationen zum Inhalt in der Datei "assembly.xml" fehlen oder sind kaputt.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">Das "content" Tag in der Datei "assembly.xml" fehlt, die Datei scheint kaputt zu sein.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Der "content" Ordner wurde in diesem Archiv nicht gefunden. Es scheint sich bei diesem Archiv nicht um ein $AppName$ Archiv zu handeln oder die Datei ist kaputt.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Dieses Archiv ist nicht mit $RageGAME$ kompatibel. Bitte gehe sicher, dass das Spiel von dieser Mod unterstützt wird.</string>
+
+	</RenderUI>
+</Translation>

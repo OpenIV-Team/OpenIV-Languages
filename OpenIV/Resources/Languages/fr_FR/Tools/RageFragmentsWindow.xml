@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Translation> 
+	<RageFragmentsWindow Caption='Visionneuse de modèles $AppName$'> 
+		<paneHierarchy Caption='Hiérarchie'/>
+		<pmiHigh Caption='Élevé (High)'/>
+		<pmiMed Caption='Moyen (Med)'/>
+		<pmiLow Caption='Bas (Low)'/>
+		<pmiVLow Caption='Très bas (VLow)'/>
+		<miLeft Caption='Gauche'/>
+		<miRight Caption='Droite'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Charger à partir du fichier externe'/>
+			</StringList>
+		</AeroWindow>
+	</RageFragmentsWindow>
+	<RenderUI>
+		<string name="TOGGLE_DAMAGED">Afficher dommages:</string>
+		<string name="HELP_TITLE">Visionneuse de modèles - aide</string>		
+		<string name="CHECK_ALL">Cocher tout</string>
+		<string name="UNCHECK_ALL">Décocher tout</string>
+		<string name="ALSO_HIDE_CHILDREN">Cacher aussi les Children</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Utilisez la souris pour regarder autour, déplacez à l′aide de ces touches:
+			
+    W - Avancer
+    S - Reculer
+    A - Aller à gauche
+    D - Aller à droite
+
+    NumPad 8 - Déplacer la caméra vers le haut
+    NumPad 2 - Déplacer la caméra vers le bas
+    NumPad 4 - Déplacer la caméra vers la gauche
+    NumPad 6 - Déplacer la caméra vers la droite
+
+    Maintenir SHIFT - Pour déplacer rapidement
+    Maintenir CTRL - Pour déplacer lentement
+    Utiliser la molette de la souris pour zoomer.
+	
+Pour ajouter des textures additionnelles, cliquez sur le lien "[+] Ajouter texture" en bas à droite de la fenêtre.
+Pour retirer une texture, cliquez sur le lien "[-]" à la suite du nom de la texture.
+
+Pour changer les options de rendu, utilisez les liens à droite ou ces touches:
+	
+    F1 - Basculer en boîte d′aide
+    F2 - Afficher plus d′informations
+    C - Basculer en mode caméra
+    F - Basculer en Edged Faces
+    P - Basculer en points d′affichage
+    G - Basculer en géométrie
+    L - Basculer en niveau de détails
+    ESC - Fermer cette fenêtre de visionneuse
+	
+    Maintenir H - Pour cacher temporairement le HUD
+]]>
+		</text>				
+	</RenderUI>
+</Translation>

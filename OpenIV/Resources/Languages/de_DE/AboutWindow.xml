@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='Über $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Version %D.%D (Build %D; Date %S)</string>
+		<string name="VERSION_LABEL_3">Version %D.%D.%D (Build %D; Date %S)</string>
+		<string name="THE_TEAM">Das Team</string>
+		<string name="THIRD_PARTY">Drittanbieter</string>
+		<string name="THIRD_PARTY_LINE_1">Diese Anwendung nutzt einige Teile,</string>
+		<string name="THIRD_PARTY_LINE_2">die von dritter Seite angeboten werden.</string>
+		<string name="THANKS_TO">Danke an</string>
+		<string name="ALPHABETICALLY">(alphabetisch)</string>
+		<string name="SPECIAL_THANKS_TO">Besonderen Dank auch an</string>
+		<string name="LICENSE_TERMS">Der Endbenutzer-Lizenzvertrag</string>
+	</RenderUI>
+</Translation>

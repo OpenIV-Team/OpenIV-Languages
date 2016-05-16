@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GTAIVAnimViewerNoticeDialog Caption='$AppName$ - 动画浏览器'>
+		<!-- Label's -->
+		<lbTitle Caption='动画浏览器'/>
+		<lbText Caption='请使用动画浏览器来浏览动画，你可以从工具菜单运行它。'/>
+		<!-- Button's -->
+		<btnOk Caption='好的'/>
+		<btnRun Caption='运行动画浏览器'/>
+	</GTAIVAnimViewerNoticeDialog>
+</Translation>

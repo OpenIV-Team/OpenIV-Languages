@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ Animationswiedergabe'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Animationswiedergabe</string>
+		<string name="START_PED">Person - Animationen</string>
+		<string name="START_MAP">Karten - Animationen</string>
+		<string name="START_CUT">Cutscenes</string>
+		<string name="CHANGE_PED_MODEL">Person austauschen</string>
+		<string name="SELECT_PED_MODEL">Person auswählen</string>
+		<string name="LOADING___">Lädt...</string>
+		<string name="EMPTY_CUTSCENE">Leere Cutscene</string>
+		<string name="EMPTY_CUTSCENE_MSG">Leere Cutscene konnte nicht geöffnet werden.</string>
+		<string name="MISSED_ANIMATIONS">Fehlende Animationen</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ konnte einige Animationen nicht laden, da die zugehörigen Dateien fehlen.</string>
+		<string name="FRAMES_">Bild: </string>
+		<string name="TIME_SCALE_X">Zeit: x</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Animationswiedergabe - Hilfe</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Wähle eine Kategorie, um dann eine Animation wiederzugeben. ]]>
+		</text>
+	</RenderUI>
+</Translation>

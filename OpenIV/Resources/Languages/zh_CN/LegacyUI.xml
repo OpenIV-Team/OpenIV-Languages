@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Main window -->
+
+	<MainWindow Caption='$AppName$'>
+		<FullScreenClose Hint='关闭'/>
+		<btnSwitchMode Caption='编辑模式' hint='切换编辑模式（F6）' showhint='True'/>
+		<btnCloseArchive hint='关闭档案（Shift + Backspace）' showhint='True'/>
+		<!-- String's -->
+		<AeroWindow LinesCount='70'>
+			<StringList>
+				<Item Index='0' Value='名称'/>
+				<Item Index='1' Value='类型'/>
+				<Item Index='2' Value='大小'/>
+				<Item Index='3' Value='属性'/>
+				<Item Index='4' Value='压缩'/>
+				<Item Index='5' Value='编辑模式'/>
+				<Item Index='6' Value=''/>
+				<Item Index='7' Value=''/>
+				<Item Index='8' Value='显示%D个项目'/>
+				<Item Index='9' Value='显示%D / %D个项目'/>
+				<Item Index='10' Value=' 项目'/>
+				<Item Index='11' Value=' bytes'/>
+				<Item Index='12' Value=' Kb'/>
+				<Item Index='13' Value=' Mb'/>
+				<Item Index='14' Value='进度...'/>
+				<Item Index='15' Value='当前文件： '/>
+				<Item Index='16' Value='未知'/>
+				<Item Index='17' Value='无打开文件'/>
+				<Item Index='18' Value='加密'/>
+				<Item Index='19' Value='加载档案中...'/>
+				<Item Index='20' Value='资源 [版本：%D]'/>
+				<Item Index='21' Value='[编辑模式]'/>
+				<Item Index='22' Value='[只读模式]'/>
+				<Item Index='23' Value='LANG: FREE STRING (23)'/>
+				<Item Index='24' Value='你将要启用编辑模式。所有变更都会被自动保存。'/>
+				<Item Index='25' Value='LANG: FREE STRING (25)'/>
+				<Item Index='26' Value='LANG: FREE STRING (26)'/>
+				<Item Index='27' Value='标签'/>
+				<Item Index='28' Value='添加标签'/>
+				<Item Index='29' Value='新标签：'/>
+				<Item Index='30' Value='没有选中的项目'/>
+				<Item Index='31' Value='已选中：%D'/>
+				<Item Index='32' Value='全屏模式（F11）'/>
+				<Item Index='33' Value='窗口模式（F11）'/>
+				<Item Index='34' Value='选择文件以预览。'/>
+				<Item Index='35' Value='无预览数据。'/>
+				<Item Index='36' Value='版本：%S'/>
+				<Item Index='37' Value='退出$AppName$'/>
+				<Item Index='38' Value='$AppName$选项'/>
+				<Item Index='39' Value='关闭文件'/>
+				<Item Index='40' Value='定住Pin'/>
+				<Item Index='41' Value='从列表中移除'/>
+				<Item Index='42' Value='最近文件'/>
+				<Item Index='43' Value='外部应用程序运行中...'/>
+				<Item Index='44' Value='确认文件变更'/>
+				<Item Index='45' Value='文件«%S»已被改变。在档案中更新变化？'/>
+				<Item Index='46' Value='位置'/>
+				<Item Index='47' Value='建构build'/>
+				<Item Index='48' Value='该档案是空的。'/>
+				<Item Index='49' Value='该文件夹是空的。'/>
+				<Item Index='50' Value='无项目符合搜索条件。'/>
+				<Item Index='51' Value='在Windows资源管理器中打开文件夹'/>
+				<Item Index='52' Value='在Windows资源管理器中查找'/>
+				<Item Index='53' Value='打开文件位置'/>
+				<Item Index='54' Value='$AppName$ - 打开位置'/>
+				<Item Index='55' Value='$AppName$无法打开该档案的位置。'/>
+				<Item Index='56' Value='YouTube频道'/>
+				<Item Index='57' Value='视频教程'/>
+				<Item Index='58' Value='很小（0 - 10 KB）'/>
+				<Item Index='59' Value='小（10 - 100 KB）'/>
+				<Item Index='60' Value='中（100 KB - 1 MB）'/>
+				<Item Index='61' Value='大（1 - 16 MB）'/>
+				<Item Index='62' Value='很大（16 - 128 MB）'/>
+				<Item Index='63' Value='巨大（> 128 MB）'/>
+				<Item Index='64' Value='文件夹'/>
+				<Item Index='65' Value=''/>
+				<Item Index='66' Value=''/>
+				<Item Index='67' Value=''/>
+				<Item Index='68' Value=''/>
+				<Item Index='69' Value=''/>
+			</StringList>
+		</AeroWindow>
+		<!-- Others -->
+		<SearchBox BannerText='搜索'/>
+		<!-- GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption='为GTA V安装插件'/>
+		<lbGTAVPluginText Caption='你需要为GTA V安装ASI Loader和OpenIV ASI插件，否则游戏将不会加载修改过的RPF档案。\n在有修改过的RPF档案存在时不要启动GTA Online，否则你将会被封禁。'/>
+		<btnGTAVPluginAction Caption='安装'/>
+	</MainWindow>	
+
+	<ActionsModule>
+		<!-- Main Menu -->
+		<mmFile Caption='文件'/>
+		<mmEdit Caption='编辑'/>
+		<mmNew Caption='新的'/>
+		<mmView Caption='查看'/>
+		<mmFavorites Caption='收藏'/>
+		<mmTools Caption='工具'/>
+		<mmHelp Caption='帮助'/>
+		<!-- Main Menu : File -->
+		<mmReopen Caption='重新打开'/>
+		<mmFilter Caption='过滤器'/>
+		<!-- Main Menu : View -->
+		<mmLayout Caption='布局'/>
+		<mmGroupBy Caption='分组依据'/>
+		<mmGoto Caption='前往'/>
+		<!-- Main Menu : View -->
+		<mmvIcon Caption='图标'/>
+		<mmvSmallIcon Caption='小图标'/>
+		<mmvList Caption='列表'/>
+		<mmvDetails Caption='详细信息'/>
+		<mmvTile Caption='平铺'/>	
+		<!-- Main Menu : Help -->
+
+		<!-- Path menu -->
+		<PMenu0 Caption='将地址复制为文本'/>
+		<!-- File Action's -->
+		<actCreate   Caption='建立档案...' Hint='建立新的档案'/>
+		<actOpen     Caption='打开档案...' Hint='打开已存在的档案'/>
+		<actOpenPC   Caption='打开内容...' Hint=''/>
+		<actOpenArchiveProperties  Caption='档案属性' Hint=''/>
+		<actRebuild  Caption='重建' Hint='重建当前档案'/>
+		<actEditMode Caption='编辑模式'  Hint=''/>
+		<actReadMode Caption='只读模式'  Hint=''/>
+		<actClose    Caption='关闭档案' Hint='关闭当前档案'/>
+		<actExit     Caption='退出' Hint='退出'/>
+		<actCloseAllArchives Caption='关闭所有档案' Hint='关闭所有打开的档案'/>
+		<!-- Edit Action's -->
+		<actPreview     Caption='查看...' Hint='查看文件'/>
+		<actEditFile    Caption='编辑...'    Hint='编辑文件'/>
+		<actViewAsHex   Caption='以十六进制查看...'  Hint='以十六进制查看'/>
+		<actViewAsText  Caption='以文本查看...'  Hint='以文本查看'/>
+		<actCopyPath    Caption='复制路径' Hint='复制当前文件的地址'/>
+		<actExtract     Caption='提取...'   Hint='提取文件'/>
+		<actSaveContent Caption='保存内容/导出' Hint='保存文件内容/导出'/>
+		<actRename      Caption='重命名' Hint='重命名文件'/>
+		<actAdd         Caption='添加'    Hint='添加新文件'/>
+		<actReplace     Caption='替换' Hint='替换当前文件'/>
+		<actRemove      Caption='删除'  Hint='删除当前文件'/>
+		<actExtractAll  Caption='提取全部...' Hint='提取全部文件'/>
+		<actCopyFileList Caption='复制文件列表' Hint=''/>
+		<actSelectAll Caption='全选' Hint=''/>
+		<actResourceObjectExplorer Caption='资源管理器Resource Explorer' Hint=''/>
+		<actShowInWindowsExplorer Caption='在Windows资源管理器中显示' Hint=''/>
+		<actItemAddToFavorites Caption='加入收藏...' Hint=''/>
+		<!-- New menu -->
+		<actMultipleImport Caption='导入openFormats' Hint='多重导入'/>
+		<actNewFolder   Caption='文件夹'  Hint='新建文件夹'/>		
+		<!-- View Action's -->
+		<actDirectoryTree Caption='目录树' Hint='显示或隐藏目录树'/>
+		<actToolBar       Caption='工具栏' Hint='显示或隐藏工具栏'/>
+		<actSearchBar     Caption='搜索及地址栏' Hint='显示或隐藏搜索及地址栏'/>
+		<actStatusBar     Caption='状态栏' Hint='状态栏'/>
+		<actLivePreView   Caption='预览窗格' Hint='预览窗格'/>
+		<actMainMenuBar   Caption='菜单栏' Hint='菜单栏'/>
+		<!-- Help Action's -->
+		<actReportBug    Caption="报告一个Bug" Hint=''/>
+		<actAbout        Caption='关于...' Hint='关于'/>
+		<actGoToWeb      Caption='前往网站...' Hint=''/>
+		<actSendFeedback Caption='发送反馈' Hint=''/>
+		<actUpdate       Caption='检查更新...' Hint=''/>
+		<actDonate       Caption='捐赠$AppName$...'      Hint=''/>
+		<actWebIV        Caption='注册$WebName$'      Hint=''/>
+		<actFAQ          Caption='常见问题' Hint=''/>
+		<!-- Social -->
+		<actSocialYouTube Caption='$AppName$ YouTube频道' Hint=''/>
+		<actSocialFacebook Caption='$AppName$ Facebook页面' Hint=''/>
+		<actSocialTwitter Caption='$AppName$ Twitter页面' Hint=''/>
+		<actSocialVKCom Caption='$AppName$ VK页面' Hint=''/>
+		<!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption='记录步骤以重现问题' Hint=''/>
+		<!-- Groups Action's -->
+		<actCollapseAll Caption='收起所有组' Hint=''/>
+		<actExpandAll   Caption='展开所有组' Hint=''/>
+		<actCollapseGroup Caption='收起组' Hint=''/>
+		<actExpandGroup Caption='展开组' Hint=''/>
+		<!-- Tools Action's -->
+		<actConfig     Caption='选项...' Hint='选项'/>
+		<!-- GoTo Action's -->
+		<actGoBack    Caption='返回' Hint=''/>
+		<actGoForward Caption='前进' Hint=''/>
+		<actGoUP      Caption='向上一级' Hint=''/>
+		<!-- Favorites -->
+		<actAddToFavorites    Caption='加入收藏...' Hint=''/>
+		<actOrganizeFavorites Caption='组织收藏...' Hint=''/>
+		<!-- Filter -->
+		<actFilterByName  Caption='以名称过滤' Hint=''/>
+		<actFilterByType  Caption='以类型过滤' Hint=''/>
+		<actFilterOnlyThis Caption='仅显示当前文件' Hint=''/>
+		<!-- Tree -->
+		<actTreeCopyAsPath Caption='复制路径Copy as path' Hint=''/>
+		<actTreeShowInWindowsExplorer Caption='在Windows资源管理器中显示' Hint=''/>
+		<actTreeCloseArchive Caption='关闭档案' Hint=''/>
+		<!-- Strings -->
+		<Strings SetCount='100'>
+			<Lines>
+				<Item Index='00' Value='目标文件夹：'/>
+				<Item Index='01' Value='预览'/>
+				<Item Index='02' Value='无打开文件'/>
+				<Item Index='03' Value='（无）'/>
+				<Item Index='04' Value='选择新档案的类型：'/>
+				<Item Index='05' Value='线性'/>
+				<Item Index='06' Value='分层'/>
+				<Item Index='07' Value='无名称'/>
+				<Item Index='08' Value='添加标签'/>
+				<Item Index='09' Value='删除'/>
+				<Item Index='10' Value='所有标签'/>
+				<Item Index='11' Value='$AppName$ - 重命名文件'/>
+				<Item Index='12' Value='新名称：'/>
+				<Item Index='13' Value='新建文件夹'/>
+				<Item Index='14' Value='新文件夹：'/>
+				<Item Index='15' Value='$RageGAME_SHORT$未找到。\n请在$AppName$选项中为$RageGAME_SHORT$指定正确的位置。'/>
+				<Item Index='16' Value='$AppName$ - 确认档案重建'/>
+				<Item Index='17' Value='你确定要重建档案«%S»吗？\n该操作可能需要几分钟。'/>
+				<Item Index='18' Value='打开内容'/>
+				<Item Index='19' Value='建立新的%S'/>
+				<Item Index='20' Value='输入名称：'/>
+				<Item Index='21' Value='$AppName$ - 未实现的功能'/>
+				<Item Index='22' Value='你尝试使用以下功能：%S\n在当前$AppName$中该功能尚未实现。请在下一版本中再试。'/>
+				<Item Index='23' Value='$AppName$ - 重建档案'/>
+				<Item Index='24' Value="你不能重建空的档案。"/>
+				<Item Index='25' Value='已有文件使用了此名称，请选择另一个名称。'/>
+				<Item Index='26' Value='$AppName$ - 添加新标签'/>
+				<Item Index='27' Value='Type new tag:'/>
+				<Item Index='28' Value='导出至%S'/>
+				<Item Index='29' Value='文件被加密，请安装未被加密版本的游戏。'/>
+				<Item Index='30' Value='$AppName$ - 文件不存在'/>
+				<Item Index='31' Value='打开文件错误：%S\n文件不存在。'/>
+				<Item Index='32' Value='版本：%D'/>
+				<Item Index='33' Value="$AppName$尚无法为$RageGAME_SHORT$创建档案。\n请稍后再试。"/>
+				<Item Index='34' Value="打开文件于"/>
+				<Item Index='35' Value="%s 于 %s"/>
+				<Item Index='36' Value="%s - %s中的搜索结果"/>
+				<Item Index='37' Value="%s - %s (%s)中的搜索结果"/>
+				<Item Index='38' Value="过滤器"/>
+				<Item Index='39' Value="$AppName$ - 错误"/>
+				<Item Index='40' Value="无法提取文件。"/>
+				<Item Index='41' Value="无法添加文件。"/>
+				<Item Index='42' Value="无法创建文件夹。"/>
+				<Item Index='43' Value="无法删除文件。"/>
+				<Item Index='44' Value="无法替换文件。"/>
+				<Item Index='45' Value="无法建立新文件。"/>
+			</Lines>
+		</Strings>
+	</ActionsModule>
+
+	<EditModeHelpWindow Caption='编辑模式 - $AppName$'>
+		<!-- Label's -->
+		<lbTitle Caption='编辑模式'/>
+		<lbText Caption='要添加或编辑文件，请切换至编辑模式。\n你可以在$AppName$设置中将编辑模式设为默认。'/>
+		<lbInfo Caption='“编辑模式”按钮允许你启用编辑模式'/>
+		<!-- Button's -->
+		<btnClose Caption='关闭'/>
+		<cbDoNotShow Caption='不要再次显示此信息'/>
+	</EditModeHelpWindow>
+
+	<!-- Web window -->
+
+	<webWindow Caption='$WebName$ - '>
+		<!-- Button's -->
+		<btnClose Caption='关闭'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='使用条款及隐私政策'/>
+			</StringList>
+		</AeroWindow>
+	</webWindow>
+
+	<!-- Configuration -->
+
+	<ConfigWindow Caption='$AppName$ - 选项'>
+		<!-- Tab's -->
+		<tabMain Caption='总体'/>
+		<tabLang Caption='语言'/>
+		<tabApps Caption='应用程序'/>
+		<tabFormats Caption='openFormats'/>
+		<tabTools Caption='工具'/>
+		<tabGame Caption='游戏'/>
+		<tabViewers Caption='浏览工具'/>
+		<!-- Button's -->
+		<btnClose Caption='关闭'/>
+		<!-- Action's -->
+		<actAppAdd  Caption='添加'/>
+		<actAppEdit Caption='编辑'/>
+		<actAppDel  Caption='删除'/>
+		<!-- Link's -->
+		<LnkWebApps Caption='为$RageGAME_SHORT$下载更多工具'/>
+		<LnkWebLangs Caption='翻译$AppName$至其他语言'/>
+		<tbChangeGame Caption='更改目录' />
+		<tbFileAssociation Caption='更改文件关联' />
+		<btnSaveShaderInformation Caption='保存openFormats着色器信息'/>
+		<!-- CheckBox's -->
+		<cbAlwaysOpenArchiveAfterRebuild Caption='总是在重建后打开档案'/>
+		<cbProtectModels Caption='默认启用保护网格选项（以防日后被导出）'/>
+		<cbNotExportTextureToFolder Caption='导出OTD时不要将贴图至于单独的文件夹中'/>
+		<cbMinimizeAtStartGame Caption='启动游戏时最小化$AppName$'/>
+		<cbInstallUpdatesAutomatically Caption='自动安装更新'/>
+		<cbRenderAntialiasing Caption='启用抗锯齿'/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption='对于实际文件，使用回收站而非直接删除'/>
+		<cbShowRecycleConfirmation Caption='显示回收站确认'/>
+		<cbCloseArchivesAtStartGame Caption='启动游戏时关闭所有打开的档案'/>
+		<!-- Label's -->
+		<gbGamePath Caption='$RageGAME_SHORT$目录'/>
+		<lbCurrentGamePath Caption='当前目录：'/>
+		<lbLang Caption='选择界面语言：'/>
+		<lbWorkMode Caption='默认工作模式：'/>
+		<ttRageExe Caption='为确保$AppName$正常工作，此目录内应存在以下文件：$RageEncryptionStorage$'/>
+		<lbDefTextureFormat Caption="默认贴图文件格式："/>
+		<lbDefTextureFormatGlb Caption="默认贴图文件格式："/>
+		<gbModels Caption='模型导入 (ODR/ODD)'/>
+		<lbDefaultGame Caption='选择默认游戏：'/>
+		<lbRenderBackgroundColor Caption='渲染背景颜色：'/>
+		<lbCameraControl Caption='镜头控制方式：'/>
+		<!-- Work Mode's -->
+		<WorkMode>
+			<Items>
+				<Item Index='0' Value='编辑'/>
+				<Item Index='1' Value='只读'/>
+			</Items>
+		</WorkMode>
+		<!-- Render Background Color -->
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index='0' Value='默认'/>
+				<Item Index='1' Value='自定义颜色'/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<!-- String's -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='选择文件夹：'/>
+				<Item Index='1' Value='可用语言'/>
+				<Item Index='2' Value='$AppName$ - 警告'/>
+				<Item Index='3' Value='你需要重新启动$AppName$以应用更改。'/>
+			</StringList>
+		</AeroWindow>
+	</ConfigWindow>
+
+	<ConfigAssociationWindow Caption='$AppName$ - 关联'>
+		<lbTitle Caption='将一个文件类型与$AppName$关联'/>
+		<FileTypes>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='类型'/>
+				<Item Index='2' Caption='描述'/>
+				<Item Index='3' Caption='支持的游戏'/>
+			</Columns>
+			<Groups>
+				<Item Index='0' Header='文件包'/>
+				<Item Index='1' Header='档案'/>
+				<Item Index='2' Header='资源'/>
+			</Groups>
+		</FileTypes>
+		<btnApply Caption='应用'/>
+		<btnCancel Caption='取消'/>
+		<AeroWindow LinesCount='0'>
+			<StringList>
+				<Item Index='0' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</ConfigAssociationWindow>
+
+	<!-- EULA Window -->
+	
+	<EULAWindow Caption="最终用户许可协议 - $AppName$">
+		<btnClose Caption='关闭'/>
+	</EULAWindow>
+</Translation>

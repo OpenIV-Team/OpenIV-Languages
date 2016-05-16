@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<HashGeneratorWindow Caption='Генератор хешей - $AppName$'>
+		<!-- Label's -->
+		<lbOutputFormat Caption='Выходной формат:' />
+		<!-- Button's -->
+		<btnLoadFromFile Caption='Загрузить с файла' />
+		<btnGenerate Caption='Генерировать' />
+		<btnSaveToFile Caption='Сохранить в файл' />
+		<cbCaseSensitive Caption='Учитывать регистр' />
+		<!-- Panel's -->
+		<pnlLeft Caption='Строки:' />
+		<pnlRight Caption='Хеши:' />    
+	</HashGeneratorWindow>
+</Translation>

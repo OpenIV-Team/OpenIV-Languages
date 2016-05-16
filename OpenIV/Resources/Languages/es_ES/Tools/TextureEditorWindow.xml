@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='$AppName$ Herramienta de Textura'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Visor de Textura'/>
+				<Item Index='1' Value='$AppName$ Editor de Textura'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">Vista:</string>
+		<string name="EXPORT_ALL">Exportar todas las texturas</string>
+		<string name="EXPORT_SELECTED">Exportar texturas seleccionadas</string>
+		<string name="ORIGINAL_SIZE">Tamaño original</string>
+		<string name="ALPHA_BACKGROUND">Fondo en Alpha</string>
+		<string name="SIZE_">Tamaño:</string>
+
+		<string name="RENAME">Renombrar</string>
+		<string name="REPLACE">Rmplazar</string>
+		<string name="DELETE">Borrar</string>
+		<string name="RENAME_TEXTURE">Renombrar texturas</string>
+		<string name="RENAME_TEXTURE_NAME">Introducir nuevo nombre</string>
+		<string name="RENAME_TEXTURE_ERROR">Ya existe una textura con este nombre.</string>
+		<string name="NO_IMAGE">No hay imagen</string>
+
+		<string name="NO_IMAGE_SELECTED">No hay imagen seleccionada</string>
+		<string name="WIDTH">Ancho</string>
+		<string name="HEIGHT">Alto</string>
+		<string name="PIXEL_FORMAT">Pixel format</string>
+		<string name="MIP_MAPS">MipMaps</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">Elige las opciones de importación</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Estas opciones van a ser ignoras mientras se importan archivos DDS. Usa archivos DSS para tener la mejor calidad.]]>
+		</text>
+		<string name="AUTO_MIPMAP">Generar automaticamente MipMaps levels</string>
+		<string name="TEXTURES_FORMAT">Formato de texturas (comprimido):</string>
+		<string name="AUTOMATICALLY">Automaticamente</string>
+		<string name="IMPORT_ERROR_FILES">Los siguientes archivos no están importados</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">Propiedades</string>
+		<string name="PROPERTIES_MIPMAP">Niveles de MipMap:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Formato Pixel:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Cuidado: La calidad puede disminuir mientras se cambian las propiedades.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">Incapaz de editar las propiedades de textura de "%S".</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">¿Quieres guardar los cambios?</string>
+
+		<!-- help -->
+		<string name="HELP_TITLE">Editor de Textura - ayuda</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Teclas de acceso rápido:
+			
+    Ctrl + Tab - Alternar modo de vista
+    Ctrl + A - Exportar todas las texturas
+    Ctrl + S - Exportar texturas seleccionadas
+    F1 - Alternar este panel de ayuda
+    ESC - Cerrar esta ventana
+    
+    Mantiene H - Para ocultar temporalmente el HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

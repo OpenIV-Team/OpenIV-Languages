@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ Buscador de Localización'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Buscar por nombre</string>
+		<string name="SEARCH_FOR_HASH">Buscar por hash</string>
+
+		<string name="BANNER_TEXT_NAME">Tipo de nombre del modelo</string>
+		<string name="BANNER_TEXT_HASH">Tipo de hash del modelo</string>
+
+		<string name="SEARCH">Buscar</string>
+		<string name="STOP_SEARCH">Parar búsqueda</string>
+		<string name="INCORRECT_HASH">Hash incorrecto</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" no es un valor valido de hash.</string>
+
+		<string name="FILE_INFORMATION">Información del archivo</string>
+		<string name="SHOW_DEFINITION">Mostrar definición en un archivo IDE</string>
+		<string name="SHOW_IDE">Mostrar archivo IDE</string>
+		<string name="SHOW_ARCHIVE">Mostrar archivo</string>
+		<string name="SHOW_RESOURCE">Mostrar archivo de recurso</string>
+
+		<string name="HELP_TITLE">Buscador de Localización - ayuda</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Usa el mouse para ver alrededor, muevete usando estas teclas:
+			
+    W - Mover adelante
+    S - Mover atrás
+    A - Mover a la izquierda
+    D - Mover a la derecha
+
+    NumPad 8 - Mover cámara arriba
+    NumPad 2 - Mover cámara abajo
+    NumPad 4 - Mover cámara izquierda
+    NumPad 6 - Mover cámara derecha
+
+    Mantiene SHIFT - Para moverte rápido
+    Mantiene CTRL - Para moverte despacio
+
+    Utiliza la rueda del mouse para hacer zoom.
+		   
+    ESC - Cerrar esta ventana
+    Mantiene H - Para ocultar temporalmente el HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

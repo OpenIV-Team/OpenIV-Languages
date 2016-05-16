@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='Засіб перегляду моделей $AppName$'>
+		<paneDictionary Caption='Dictionary entries'/>
+		<paneComposite Caption='Composite elements'/>
+		<miLeft Caption='На лівій стороні'/>
+		<miRight Caption='На правій стороні'/>
+		<miCheckAll Caption='Віділити всі' />
+		<miUncheckAll Caption='Зняти виділення' />
+	</CollisionViewerWindow>
+	<RenderUI>	
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Нормалі:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Тип:</string>
+		<string name="CHILD_COUNT">Кількість:</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Collision viewer — Довідка</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Використовуйте мишу, щоб озирнутися, для переміщення використовуйте наступні клавіші:
+			
+    W — Рухатися вперед
+    S — Рухатися назад
+    A — Рухатися вліво
+    D — Рухатися вправо
+
+    NumPad 8 — Рухати камеру вгору
+    NumPad 2 — Рухати камеру вниз
+    NumPad 4 — Рухати камеру вліво
+    NumPad 6 — Рухати камеру вправо
+
+    Затисніть SHIFT — Для швидкого переміщення
+    Затисніть CTRL — Для повільного переміщення
+    Використовуйте колесо миші для масштабування.
+		   
+Щоб змінити параметри відображення, використовуйте меню в правій частині вікна, або ці клавіші:
+		   
+    F1 — Приховати / показати цю довідку
+    C — Переключити режим камеры
+    F — Переключити показ ребер
+    P — Переключити показ вершин
+    N — Переключити показ нормалей
+    G — Переключити показ геометрії
+    ESC — Закрити вікно
+	
+    Затисніть H щоб тимчасово приховати інтерфейс.
+]]>
+		</text>
+	</RenderUI>
+</Translation>

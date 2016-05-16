@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Pesquisar - $AppName$'>
+		<SearchBox BannerText="Pesquisar"/>
+		<btnGoSearch Caption="Pesquisar"/>
+		<ebSearchOptions Caption="Opções de pesquisa avançada" ExpandCaption="Opções de pesquisa avançada"/>
+		<cbArchives Caption="Pesquisar em Arquivos"/>
+		<cbResources Caption="Pesquisar em Recursos"/>
+		<cbSoundsAndAudio Caption="Pesquisar em Áudio"/>
+		<cbScripts Caption="Pesquisar em Scripts"/>
+		<cbTextFiles Caption="Pesquisar em Texto"/>
+		<lbStopHint Caption="Para parar a pesquisa pressione ESC"/>
+		<btnExportResults Caption="Exportar"/>
+		<btnExportAll Caption="Exportar todos os arquivos"/>
+		<btnExportSelected Caption="Exportar arquivos selecionados"/>
+		<btnGoTo Caption="Ir para o arquivo"/>
+		<btnOpenItem Caption="Abrir"/>
+		<btnExportItem Caption="Exportar"/>
+		<btnExportSelectedItems Caption="Exportar arquivos selecionados"/>
+		<btnExportAllItems Caption="Exportar todos os arquivos"/>
+		<btnSelectAllItems Caption="Selecionar todos"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Pesquisar'/>
+				<Item Index='1' Value='Parar pesquisa'/>
+				<Item Index='2' Value='Itens não encontrados'/>
+				<Item Index='3' Value='%D item encontrado'/>
+				<Item Index='4' Value='Itens não selecionados'/>
+				<Item Index='5' Value='Selecionados: %D'/>
+				<Item Index='6' Value="$AppName$ não pode abrir o arquivo."/>
+				<Item Index='7' Value="Não houve resultados para exportar."/>
+				<Item Index='8' Value="Por favor, pare a pesquisa antes de exportar."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

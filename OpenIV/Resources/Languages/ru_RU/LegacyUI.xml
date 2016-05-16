@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Main window -->
+
+	<MainWindow Caption="$AppName$">
+		<FullScreenClose Hint="Закрыть"/>
+		<btnSwitchMode Caption="Редактирование" hint="переключить режим работы (F6)" showhint="True"/>
+		<btnCloseArchive hint="Закрыть архив (Shift + Backspace)" showhint="True"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="80">
+			<StringList>
+				<Item Index="0" Value="Имя"/>
+				<Item Index="1" Value="Тип"/>
+				<Item Index="2" Value="Размер"/>
+				<Item Index="3" Value="Атрибуты"/>
+				<Item Index="4" Value="Сжатый"/>
+				<Item Index="5" Value="Режим редактирования"/>
+				<Item Index="6" Value=""/>
+				<Item Index="7" Value=""/>
+				<Item Index="8" Value="Элементов: %D"/>
+				<Item Index="9" Value="Показано %D из %D элементов"/>
+				<Item Index="10" Value=" элементов"/>
+				<Item Index="11" Value=" Байт"/>
+				<Item Index="12" Value=" Кб"/>
+				<Item Index="13" Value=" Мб"/>
+				<Item Index="14" Value="Процесс..."/>
+				<Item Index="15" Value="Обработка: "/>
+				<Item Index="16" Value="Неизвестно"/>
+				<Item Index="17" Value="Нет открытых файлов"/>
+				<Item Index="18" Value="Шифрованный"/>
+				<Item Index="19" Value="Загрузка архива..."/>
+				<Item Index="20" Value="Ресурс [Версия: %D]"/>
+				<Item Index="21" Value="[Режим редактирования]"/>
+				<Item Index="22" Value="[Режим чтения]"/>
+				<Item Index="23" Value="LANG: FREE STRING (23)"/>
+				<Item Index="24" Value="Вы переходите в режим редактирования, все изменения будут сохраняться автоматически."/>
+				<Item Index="25" Value="LANG: FREE STRING (25)"/>
+				<Item Index="26" Value="LANG: FREE STRING (26)"/>
+				<Item Index="27" Value="Ключевые слова"/>
+				<Item Index="28" Value="Добавить ключевое слово"/>
+				<Item Index="29" Value="Введите ключевое слово:"/>
+				<Item Index="30" Value="Нет выбранных элементов"/>
+				<Item Index="31" Value="Выбрано элементов: %D"/>
+				<Item Index="32" Value="Развернуть на весь экран (F11)"/>
+				<Item Index="33" Value="Свернуть в окно (F11)"/>
+				<Item Index="34" Value="Выберите файл для предварительного просмотра."/>
+				<Item Index="35" Value="Нет данных для предварительного просмотра."/>
+				<Item Index="36" Value="Версия: %S"/>
+				<Item Index="37" Value="Выход из $AppName$"/>
+				<Item Index="38" Value="Параметры $AppName$"/>
+				<Item Index="39" Value="Закрыть файл"/>
+				<Item Index="40" Value="Закрепить"/>
+				<Item Index="41" Value="Удалить из списка"/>
+				<Item Index="42" Value="Последние файлы"/>
+				<Item Index="43" Value="Работает внешнее приложение..."/>
+				<Item Index="44" Value="Подтверждение изменения файла"/>
+				<Item Index="45" Value="Файл «%S» был изменен, обновить измененный файл в архиве?"/>
+				<Item Index="46" Value="Расположение"/>
+				<Item Index="47" Value="Сборка"/>
+				<Item Index="48" Value="Этот архив пуст."/>
+				<Item Index="49" Value="Эта папка пуста."/>
+				<Item Index="50" Value="Объекты, удовлетворяющие критериям поиска, не найдены."/>
+				<Item Index="51" Value="Открыть папку в Проводнике Windows"/>
+				<Item Index="52" Value="Найти в Проводнике Windows"/>
+				<Item Index="53" Value="Расположение файла"/>
+				<Item Index="54" Value="$AppName$ - Расположение файла"/>
+				<Item Index="55" Value="$AppName$ не может показать расположение этого файла."/>
+				<Item Index="56" Value="YouTube канал"/>
+				<Item Index="57" Value="Видео Уроки"/>
+				<Item Index="58" Value="Крошечные (0 - 10 КБ)"/>
+				<Item Index="59" Value="Маленькие (10 - 100 КБ)"/>
+				<Item Index="60" Value="Средние (100 КБ - 1 МБ)"/>
+				<Item Index="61" Value="Большие (1 - 16 МБ)"/>
+				<Item Index="62" Value="Огромные (16 - 128 МБ)"/>
+				<Item Index="63" Value="Гигантские (&gt; 128 МБ)"/>
+				<Item Index="64" Value="Папки"/>
+				<Item Index="65" Value="Фильтр: %s"/>
+				<Item Index="66" Value="$AppName$ - Уведомление"/>
+				<Item Index="67" Value="Вы можете снова включить это уведомление в настройках."/>
+				<Item Index="68" Value="Копирование..."/>
+				<Item Index="69" Value="$AppName$ - Подтверждение"/>
+				<Item Index="70" Value='Все изменения, сделанные в архиве "mods\update\update.rpf" будут потеряны.\nВы хотите продолжить?'/>
+				<Item Index="71" Value=""/>
+				<Item Index="72" Value=""/>
+				<Item Index="73" Value=""/>
+				<Item Index="74" Value=""/>
+				<Item Index="75" Value=""/>
+				<Item Index="76" Value=""/>
+				<Item Index="77" Value=""/>
+				<Item Index="78" Value=""/>
+				<Item Index="79" Value=""/>
+			</StringList>
+		</AeroWindow>
+		<!-- Others -->
+		<SearchBox BannerText="Фильтр"/>
+		<!-- Notification: GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption="Установите плагин для GTA V"/>
+		<lbGTAVPluginText Caption="Вам необходимо установить загрузчик ASI и OpenIV.ASI плагин для вашей GTA V, иначе игра не будет загружать отредактированные RPF архивы.\nНе пытайтесь играть в GTA Online с отредактированными RPF архивами, вы будете заблокированы."/>
+		<btnGTAVPluginAction Caption="ASI Менеджер"/>
+		<!-- Notification: copy to mods folder -->
+		<lbNotInModsTitle Caption='Папка "mods"'/>
+		<lbNotInModsText Caption='Архив, который вы в настоящее время редактируете не находится в папке "mods".'/>
+		<btnHideThisNotification Caption="Скрыть это уведомление"/>
+		<btnCopyToMods Caption='Копировать в папку "mods"'/>
+		<btnShowInMods Caption='Показать в папке "mods"'/>
+		<!-- Notification: update.rpf -->
+		<lbCopyNewUpdateToModsTitle Caption='Обновление Grand Theft Auto V'/>
+		<lbCopyNewUpdateToMods Caption='Ваша версия update.rpf в папке "mods" устарела. Вам необходимо скопировать новую версию "update.rpf" в папку "mods", иначе случае ваша игра может падать во время загрузки.'/>
+		<btnCopyUpdateToMods Caption='Копировать новую версию в папку "mods"'/>
+		<!-- Notification: Admin mode -->
+		<lbAdminModeTitle Caption='Запуск от имени Администратора'/>
+		<lbAdminModeText Caption='$AppName$ запущена от имени Администратора. Некоторые функции, например перетаскивание файлов из проводника Windows могут не работать. Как правило, вам не нужно запускать $AppName$ от имени Администратора.'/>
+		<btnAdminModeAction Caption='Что я могу сделать?'/>
+	</MainWindow>
+
+	<ActionsModule>
+		<!-- Main Menu -->
+		<mmFile Caption="Файл"/>
+		<mmEdit Caption="Правка"/>
+		<mmNew Caption="Создать"/>
+		<mmView Caption="Вид"/>
+		<mmFavorites Caption="Избранное"/>
+		<mmTools Caption="Инструменты"/>
+		<mmHelp Caption="Справка"/>
+		<!-- Main Menu : File -->
+		<mmReopen Caption="Недавние файлы"/>
+		<mmFilter Caption="Фильтровать"/>
+		<!-- Main Menu : View -->
+		<mmLayout Caption="Раскладка"/>
+		<mmGroupBy Caption="Группировка"/>
+		<mmGoto Caption="Переход"/>
+		<!-- Main Menu : View -->
+		<mmvIcon Caption="Обычные значки"/>
+		<mmvSmallIcon Caption="Мелкие значки"/>
+		<mmvList Caption="Список"/>
+		<mmvDetails Caption="Таблица"/>
+		<mmvTile Caption="Плитка"/>
+		<!-- Main Menu : Help -->
+		<!-- Path menu -->
+		<PMenu0 Caption="Копировать адрес"/>
+		<!-- File Action's -->
+		<actCreate Caption="Создать архив..." Hint="Создать новый архив"/>
+		<actOpen Caption="Открыть архив..." Hint="Открыть существующий архив"/>
+		<actOpenPC Caption="Открыть содержимое..." Hint=""/>
+		<actOpenArchiveProperties Caption="Свойства архива" Hint=""/>
+		<actDefragmentation Caption="Дефрагментация" Hint="Дефрагментация архива"/>
+		<actEditMode Caption="Режим редактирования" Hint=""/>
+		<actReadMode Caption="Режим чтения" Hint=""/>
+		<actClose Caption="Закрыть" Hint="Закрыть текущий архив"/>
+		<actExit Caption="Выход" Hint="Выход"/>
+		<actCloseAllArchives Caption="Закрыть все архивы" Hint="Закрыть все открытые архивы"/>
+		<!-- Edit Action's -->
+		<actPreview Caption="Просмотр..." Hint="Просмотр выбранного файла"/>
+		<actEditFile Caption="Редактировать..." Hint="Редактирование выбранного файла"/>
+		<actViewAsHex Caption="Посмотреть HEX..." Hint="Посмотреть HEX"/>
+		<actViewAsText Caption="Посмотреть как текст..." Hint="Посмотреть как текст"/>
+		<actCopyPath Caption="Копировать путь" Hint="Копировать путь к файлу"/>
+		<actExtract Caption="Извлечь..." Hint="Извлечь файл"/>
+		<actSaveContent Caption="Сохранить содержимое/Экспорт" Hint="Сохранить содержимое файла/Экспорт"/>
+		<actRename Caption="Переименовать" Hint="Переименовать файл"/>
+		<actAdd Caption="Добавить" Hint="Добавить новый файл в архив"/>
+		<actReplace Caption="Заменить" Hint="Заменить выбранный файл новым"/>
+		<actRemove Caption="Удалить" Hint="Удалить выбранный файл"/>
+		<actExtractAll Caption="Извлечь все..." Hint="Извлечь все файлы из архива"/>
+		<actCopyFileList Caption="Копировать список файлов" Hint=""/>
+		<actSelectAll Caption="Выделить все" Hint=""/>
+		<actResourceObjectExplorer Caption="Resource Explorer" Hint=""/>
+		<actShowInWindowsExplorer Caption="Показать в Проводнике Windows" Hint=""/>
+		<actItemAddToFavorites Caption="Добавить в избранное..." Hint=""/>
+		<actCopyToModsFolder Caption='Копировать в папку "mods"' Hint=""/>
+		<actShowInModsFolder Caption='Показать в папке "mods"' Hint=""/>
+		<!-- New menu -->
+		<actMultipleImport Caption="Импорт openFormats" Hint="Множественный импорт"/>
+		<actNewFolder Caption="Новая папка" Hint="Создать новую папку"/>
+		<!-- View Action's -->
+		<actDirectoryTree Caption="Дерево папок" Hint="Дерево папок"/>
+		<actToolBar Caption="Панель инструментов" Hint="Панель инструментов"/>
+		<actSearchBar Caption="Адрес и панель поиска" Hint="Адрес и панель поиска"/>
+		<actStatusBar Caption="Строка состояния" Hint="Строка состояния"/>
+		<actLivePreView Caption="Панель просмотра" Hint="Панель просмотра"/>
+		<actMainMenuBar Caption="Строка меню" Hint="Строка меню"/>
+		<!-- Help Action's -->
+		<actReportBug Caption="Сообщить об ошибке" Hint=""/>
+		<actAbout Caption="О программе..." Hint="О программе"/>
+		<actGoToWeb Caption="Посетить сайт в интернете..." Hint=""/>
+		<actSendFeedback Caption="Отправить отзыв..." Hint=""/>
+		<actUpdate Caption="Проверить обновление..." Hint=""/>
+		<actDonate Caption="Поддержать $AppName$..." Hint=""/>
+		<actWebIV Caption="Регистрация в $WebName$" Hint=""/>
+		<actFAQ Caption="Часто задаваемые вопросы и ответы" Hint=""/>
+		<!-- Social -->
+		<actSocialYouTube Caption="$AppName$ YouTube channel" Hint=""/>
+		<actSocialFacebook Caption="$AppName$ Facebook page" Hint=""/>
+		<actSocialTwitter Caption="$AppName$ on Twitter" Hint=""/>
+		<actSocialVKCom Caption="$AppName$ ВКонтакте" Hint=""/>
+		<!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="Запись шагов для воспроизведения проблемы" Hint=""/>
+		<!-- Groups Action's -->
+		<actCollapseAll Caption="Свернуть все группы" Hint=""/>
+		<actExpandAll Caption="Развернуть все группы" Hint=""/>
+		<actCollapseGroup Caption="Свернуть группу" Hint=""/>
+		<actExpandGroup Caption="Развернуть группу" Hint=""/>
+		<!-- Tools Action's -->
+		<actConfig Caption="Параметры..." Hint="Параметры $AppName$"/>
+		<!-- GoTo Action's -->
+		<actGoBack Caption="Назад" Hint=""/>
+		<actGoForward Caption="Вперед" Hint=""/>
+		<actGoUP Caption="На один уровень вверх" Hint=""/>
+		<!-- Favorites -->
+		<actAddToFavorites Caption="Добавить в избранное..." Hint=""/>
+		<actOrganizeFavorites Caption="Упорядочить избранное..." Hint=""/>
+		<!-- Filter -->
+		<actFilterByName Caption="По имени" Hint=""/>
+		<actFilterByType Caption="По типу" Hint=""/>
+		<actFilterOnlyThis Caption="Только этот элементе" Hint=""/>
+		<!-- Tree -->
+		<actTreeCopyAsPath Caption="Копировать как путь" Hint=""/>
+		<actTreeShowInWindowsExplorer Caption="Показать в Проводнике Windows" Hint=""/>
+		<actTreeCloseArchive Caption="Закрыть архив" Hint=""/>
+		<actTreeCopyToModsFolder Caption='Копировать в папку "mods"' Hint=""/>
+		<actTreeShowInModsFolder Caption='Показать в папке "mods"' Hint=""/>
+		<actTreeCollapseThis Caption='Свернуть эту ветку' Hint=""/>
+		<actTreeCollapseAll Caption='Свернуть всё' Hint=""/>
+		<!-- Strings -->
+		<Strings SetCount="100">
+			<Lines>
+				<Item Index="00" Value="Выберите папку:"/>
+				<Item Index="01" Value="Просмотр файла"/>
+				<Item Index="02" Value="Не было открытых файлов"/>
+				<Item Index="03" Value="(Нет)"/>
+				<Item Index="04" Value="Выберите тип нового архива:"/>
+				<Item Index="05" Value="Линейный"/>
+				<Item Index="06" Value="Иерархический"/>
+				<Item Index="07" Value="без имён"/>
+				<Item Index="08" Value="Добавить"/>
+				<Item Index="09" Value="Удалить"/>
+				<Item Index="10" Value="Все"/>
+				<Item Index="11" Value="$AppName$ - Переименование"/>
+				<Item Index="12" Value="Новое имя:"/>
+				<Item Index="13" Value="Создание новой папки"/>
+				<Item Index="14" Value="Новая папка:"/>
+				<Item Index="15" Value="Не найдена папка с установленной $RageGAME_SHORT$.\nПожалуйста, выберите правильное расположение $RageGAME_SHORT$ в настройках $AppName$."/>
+				<Item Index="16" Value="$AppName$ - Подтверждение пересборки архива"/>
+				<Item Index="17" Value="Вы действительно хотите пересобрать архив «%S»?\nЭта операция может занять несколько минут."/>
+				<Item Index="18" Value="Открыть содержимое"/>
+				<Item Index="19" Value="Создание файла %S"/>
+				<Item Index="20" Value="Введите имя:"/>
+				<Item Index="21" Value="$AppName$ - Не реализованная возможность"/>
+				<Item Index="22" Value="Вы попытались воспользоваться: %S\nВ этой версии $AppName$ эта возможность еще не реализована. Проверьте это в следющей версии."/>
+				<Item Index="23" Value="$AppName$ - Пересборка архива"/>
+				<Item Index="24" Value="Вы не можете пересобрать пустой архив."/>
+				<Item Index="25" Value="Файл с таким именем уже существует, выберите другое имя."/>
+				<Item Index="26" Value="$AppName$ - Добавить ключевое слово"/>
+				<Item Index="27" Value="Введите ключевое слово:"/>
+				<Item Index="28" Value="Экспорт в %S"/>
+				<Item Index="29" Value="Файл зашифрован, необходимо установить не зашифрованную версию игры."/>
+				<Item Index="30" Value="$AppName$ - файл не существует"/>
+				<Item Index="31" Value="Ошибка открытия файла: %S\nФайл не существует."/>
+				<Item Index="32" Value="Версия: %D"/>
+				<Item Index="33" Value="$AppName$ всё еще не может создавать архивы для $RageGAME_SHORT$.\nПожалуйста возвращайтесь позже."/>
+				<Item Index="34" Value="Открыть файл в"/>
+				<Item Index="35" Value="%s в %s"/>
+				<Item Index="36" Value="%s - Результат поиска в %s"/>
+				<Item Index="37" Value="%s - Результат поиска в %s (%s)"/>
+				<Item Index="38" Value="Фильтровать"/>
+				<Item Index="39" Value="$AppName$ - Ошибка"/>
+				<Item Index="40" Value="Невозможно извлечь файлы."/>
+				<Item Index="41" Value="Невозможно добавить файлы."/>
+				<Item Index="42" Value="Невозможно создать папку."/>
+				<Item Index="43" Value="Невозможно удалить файлы."/>
+				<Item Index="44" Value="Невозможно заменить файл."/>
+				<Item Index="45" Value="Невозможно создать новый файл."/>
+				<Item Index="46" Value="Недопустимые символы в имени."/>
+				<Item Index="47" Value="Укажите другое имя."/>
+				<Item Index="48" Value="Элемент с указанным вами именем уже существует."/>
+			</Lines>
+		</Strings>
+	</ActionsModule>
+
+	<EditModeHelpWindow Caption="Режим редактирования - $AppName$">
+		<!-- Label's -->
+		<lbTitle Caption="Режим редактирования"/>
+		<lbText Caption="Для добавления или изменения файлов, переключитесь в режим редактирования.\nВы можете выбрать режим редактирования в качестве режима работы по умолчанию в настройках $AppName$."/>
+		<lbInfo Caption='Кнопка "Редактирование" позволяет переключится в режим редактирования'/>
+		<!-- Button's -->
+		<btnClose Caption="Закрыть"/>
+		<cbDoNotShow Caption="Больше не показывать это сообщение"/>
+	</EditModeHelpWindow>
+	
+	<AdminModeWindow Caption="Администратор - $AppName$">
+		<lbText Caption="Никаких обоснованных причин для запуска $AppName$ от имени Администратора. Чтобы работать должным образом $AppName$ не требует каких-либо особых привилегий Администратора. Наоборот при запуске $AppName$ от имени Администратора некоторые функции, такие как перетаскивание файлов из Проводника Windows может не работать. Скорее всего, вы запустили $AppName$ от имени администратор, потому что ваша игра установлена в системной папке (например, C:\Program Files\...) и учётная запись обычного пользователя не имеет разрешения на запись в эту папку.\n\nВы можете установить все необходимые права доступа на папку с игрой с помощью этого инструмента, а затем перезапустить $AppName$ без права администратора."/>
+		<btnSetPermissions Caption="Установить права доступа"/>
+		<btnClose Caption="Закрыть"/>
+		<AeroWindow LinesCount="5">
+			<StringList>
+				<Item Index="0" Value="Ошибка - $AppName$"/>
+				<Item Index="1" Value="Все сделано.\nПрава доступа были установлены для вашей папки с игрой."/>
+				<Item Index="2" Value="Невозможно установить права доступа.\nВозвращенный код: "/>
+				<Item Index="3" Value="Папка с игрой не существует."/>
+				<Item Index="3" Value="Инструмент установки прав доступа не найден. Пожалуйста, переустановите $AppName$."/>
+			</StringList>
+		</AeroWindow>
+	</AdminModeWindow>
+
+	<!-- Web window -->
+
+	<webWindow Caption="$WebName$ - ">
+		<!-- Button's -->
+		<btnClose Caption="Закрыть"/>
+		<!-- Strings -->
+		<AeroWindow LinesCount="1">
+			<StringList>
+				<Item Index="0" Value="Условия использования и политика конфиденциальности"/>
+			</StringList>
+		</AeroWindow>
+	</webWindow>
+
+	<!-- Configuration -->
+
+	<ConfigWindow Caption="$AppName$ - Настройки">
+		<!-- Tab's -->
+		<tabMain Caption="Общие"/>
+		<tabLang Caption="Язык интерфейса"/>
+		<tabApps Caption="Приложения"/>
+		<tabFormats Caption="openFormats"/>
+		<tabTools Caption="Инстурменты"/>
+		<tabGame Caption="Игра"/>
+		<tabViewers Caption="Инструменты просмотра"/>
+		<!-- Button's -->
+		<btnClose Caption="Закрыть"/>
+		<!-- Action's -->
+		<actAppAdd Caption="Добавить"/>
+		<actAppEdit Caption="Параметры"/>
+		<actAppDel Caption="Удалить"/>
+		<!-- Link's -->
+		<LnkWebApps Caption="Загрузить другие приложения для $RageGAME_SHORT$"/>
+		<LnkWebLangs Caption="Перевести $AppName$ на другой язык"/>
+		<tbChangeGame Caption="Изменить папку"/>
+		<tbFileAssociation Caption="Настройки ассоциации файлов"/>
+		<btnSaveShaderInformation Caption="Сохранить информацию о шейдерах openFormats"/>
+		<!-- CheckBox's -->
+		<cbAlwaysOpenArchiveAfterRebuild Caption="Всегда открывать архив после пересборки"/>
+		<cbProtectModels Caption="Включить защиту геометрии по умолчанию\n(препятствует последующему экспорту)"/>
+		<cbNotExportTextureToFolder Caption="Не сохранять текстуры в отдельную папку во время экспорта OTD"/>
+		<cbMinimizeAtStartGame Caption="При запуске игры сворачивать $AppName$"/>
+		<cbInstallUpdatesAutomatically Caption="Устанавливать обновления автоматически"/>
+		<cbRenderAntialiasing Caption="Включить AntiAliasing"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Использовать Корзину вместо удаления при работе с реальными файлами"/>
+		<cbShowRecycleConfirmation Caption="Требовать подтверждения отправки в корзину"/>
+		<cbCloseArchivesAtStartGame Caption="При запуске игры закрывать все открытые архивы"/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Показывать уведомление во время редактирования архива за пределами папки "mods"'/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Очистить фильтр поиска после открытия нового архива'/>
+		<!-- Label's -->
+		<gbGamePath Caption="Путь к папке с $RageGAME_SHORT$"/>
+		<lbCurrentGamePath Caption="Текущая папка:"/>
+		<lbLang Caption="Выберите язык интерфейса:"/>
+		<lbWorkMode Caption="Режим работы по умолчанию"/>
+		<ttRageExe Caption="Для правильной работы $AppName$ в указанной папке должен находиться файл $RageEncryptionStorage$"/>
+		<lbDefTextureFormat Caption="Формат файлов текстур по умолчанию"/>
+		<lbDefTextureFormatGlb Caption="Формат файлов текстур по умолчанию"/>
+		<gbModels Caption="Импорт моделей (ODR/ODD/OFT)"/>
+		<lbDefaultGame Caption="Выберите игру по умолчанию"/>
+		<lbRenderBackgroundColor Caption="Render background color"/>
+		<lbCameraControl Caption="Схема управления камерой"/>
+		<lbChooseTheme Caption="Выберите тему"/>
+		<!-- Work Mode's -->
+		<WorkMode>
+			<Items>
+				<Item Index="0" Value="Редактирование"/>
+				<Item Index="1" Value="Только чтение"/>
+			</Items>
+		</WorkMode>
+		<!-- Render Background Color -->
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="По умолчанию"/>
+				<Item Index="1" Value="Пользовательский цвет"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<!-- App Theme -->
+		<cbAppTheme>
+			<Items>
+				<Item Index="0" Value="Светлая"/>
+				<Item Index="1" Value="Темная"/>
+			</Items>
+		</cbAppTheme>
+		<!-- String's -->
+		<AeroWindow LinesCount="10">
+			<StringList>
+				<Item Index="0" Value="Выберите папку:"/>
+				<Item Index="1" Value="Актуальные языки"/>
+				<Item Index="2" Value="$AppName$ - Предупреждение"/>
+				<Item Index="3" Value="Для вступления изменений в силу вам необходимо перезапустить $AppName$."/>
+				<Item Index="4" Value="Устаревшие языки"/>
+			</StringList>
+		</AeroWindow>
+	</ConfigWindow>
+
+	<ConfigAssociationWindow Caption="$AppName$ - Ассоциация">
+		<lbTitle Caption="Укажите типы файлов, которые должны быть ассоциированы с $AppName$"/>
+		<FileTypes>
+			<Columns>
+				<Item Index="0" Caption=""/>
+				<Item Index="1" Caption="Тип"/>
+				<Item Index="2" Caption="Описание"/>
+				<Item Index="3" Caption="Поддерживаемые игры"/>
+			</Columns>
+			<Groups>
+				<Item Index="0" Header="Packages"/>
+				<Item Index="1" Header="Архивы"/>
+				<Item Index="2" Header="Ресурсы"/>
+			</Groups>
+		</FileTypes>
+		<btnApply Caption="Применить"/>
+		<btnCancel Caption="Отмена"/>
+		<AeroWindow LinesCount="0">
+			<StringList>
+				<Item Index="0" Value=""/>
+			</StringList>
+		</AeroWindow>
+	</ConfigAssociationWindow>
+
+	<!-- EULA Window -->
+
+	<EULAWindow Caption="End User License Agreement - $AppName$">
+		<btnClose Caption="Закрыть"/>
+	</EULAWindow>
+</Translation>

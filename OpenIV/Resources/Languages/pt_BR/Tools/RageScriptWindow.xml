@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageScriptWindow Caption='Visualizador de SCO - '>
+		<!-- Button's -->
+		<btnSave Caption='Salvar código como texto'/>
+		<btnClose Caption='Fechar'/>
+		<btnASMBack Caption='&lt;&lt; Voltar'/>
+		<btnCFList Caption='Ocultar lista'/>
+		<btnCodeList Caption='Ocultar lista'/>
+		<!-- Tabs -->
+		<tbASM Caption='Código ASM'/>
+		<tbCFASM Caption='Código de Fluxo de Controle ASM'/>
+		<tbCODE Caption='Código de Alto Nível'/>
+		<Label1 Caption='Filtro:'/>
+		<!-- Menu -->
+		<N1 Caption='Saltar para endereço'/>
+		<N2 Caption='Copiar linha'/>
+		<N3 Caption='Filtrar este'/>
+		<!-- Text menu -->
+		<miCopyText Caption='Copiar'/>
+		<miFind Caption='Encontrar...'/>
+		<miSelectAll Caption='Selecionar todos'/>
+		<miCopyAll Caption='Copiar todos'/>
+		<!-- Save code menu -->
+		<N4 Caption='Salvar como texto'/>
+		<N5 Caption='Salvar como HTML'/>	
+		<!-- String's -->
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='Carregando arquivo SCO...'/>
+				<Item Index='1' Value='[PASSO1]'/>
+				<Item Index='2' Value='[PASSO2]'/>
+				<Item Index='3' Value='[PASSO3]'/>
+				<Item Index='4' Value='Mostrar todos'/>
+			</StringList>
+		</AeroWindow>
+	</RageScriptWindow>
+</Translation>

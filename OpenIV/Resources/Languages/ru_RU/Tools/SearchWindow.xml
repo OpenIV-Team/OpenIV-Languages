@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Поиск - $AppName$'>
+		<SearchBox BannerText="Поиск"/>
+		<btnGoSearch Caption="Найти"/>
+		<ebSearchOptions Caption="Дополнительные параметры поиска" ExpandCaption="Дополнительные параметры поиска"/>
+		<cbArchives Caption="Поиск в архивах"/>
+		<cbResources Caption="Поиск в ресурсах"/>
+		<cbSoundsAndAudio Caption="Поиск в звуках и музыке"/>
+		<cbScripts Caption="Поиск в скриптах"/>
+		<cbTextFiles Caption="Поиск в текстовых файлах"/>
+		<lbStopHint Caption="Для остановки поиска нажмите ESC"/>
+		<btnExportResults Caption="Экспорт"/>
+		<btnExportAll Caption="Экспортировать все файлы"/>
+		<btnExportSelected Caption="Экспортировать выбранные файлы"/>
+		<btnGoTo Caption="Перейти к файлу"/>
+		<btnOpenItem Caption="Открыть"/>
+		<btnExportItem Caption="Экспорт"/>
+		<btnExportSelectedItems Caption="Экспортировать выбранные файлы"/>
+		<btnExportAllItems Caption="Экспортировать все файлы"/>
+		<btnSelectAllItems Caption="Выделить всё"/>
+		<btnCopyName Caption="Копировать имя"/>
+		<btnCopyPathName Caption="Копировать путь"/>
+		<btnSaveContent Caption="Сохранить содержимое"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Найти'/>
+				<Item Index='1' Value='Остановить поиск'/>
+				<Item Index='2' Value='Нет найденных файлов'/>
+				<Item Index='3' Value='Найдено: %D'/>
+				<Item Index='4' Value='Нет выбранных файлов'/>
+				<Item Index='5' Value='Выбрано файлов: %D'/>
+				<Item Index='6' Value="$AppName$ не может открыть файл."/>
+				<Item Index='7' Value="Нет результатов для экспорта."/>
+				<Item Index='8' Value="Остановите поиск для экспорта."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

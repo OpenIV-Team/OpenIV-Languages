@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ - 动画浏览器'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">动画浏览器</string>
+		<string name="START_PED">行人动画</string>
+		<string name="START_MAP">地图动画</string>
+		<string name="START_CUT">过场动画</string>
+		<string name="CHANGE_PED_MODEL">变更行人模型</string>
+		<string name="SELECT_PED_MODEL">选择行人模型</string>
+		<string name="LOADING___">加载中...</string>
+		<string name="SEARCH">搜索</string>
+		<string name="EMPTY_CUTSCENE">空的过场动画</string>
+		<string name="EMPTY_CUTSCENE_MSG">无法打开空的过场动画。</string>
+		<string name="MISSED_ANIMATIONS">动画丢失</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$无法加载动画因为文件丢失。</string>
+		<string name="FRAMES_">帧率：</string>
+		<string name="TIME_SCALE_X">时间调整： x</string>
+		<!-- help -->
+		<string name="HELP_TITLE">动画浏览器 - 帮助</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ 选择类别并播放任意动画。 ]]>
+		</text>
+	</RenderUI>
+</Translation>

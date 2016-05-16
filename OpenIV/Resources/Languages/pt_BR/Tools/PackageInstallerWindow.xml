@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Instalador de Pacote - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Instalador de Pacote (Package Installer)</string>
+		<string name="INSTALL">Instalar</string>
+		<string name="INSTALLING">Instalando</string>
+		<string name="DESCRIPTION">Descrição</string>
+		<string name="ADDITIONAL_INFORMATION">Informação adicional</string>
+		<string name="GREATED_BY">Criado por</string>
+		<string name="SUPPORTED_GAMES">Jogos suportados</string>
+		<string name="VERSION">Versão</string>
+		<string name="LICENCE">Licença</string>
+		<string name="VIEW_LICENCE">Ver licença</string>
+		<string name="LEARN_MORE">Saiba mais</string>
+		<string name="LINK_HOMEPAGE">Página inicial</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Selecionar o conteúdo para instalar</string>
+		<string name="SELECT_LOCATION">Selecionar o local para instalar</string>
+		<string name="LOCATION_MODS_FOLDER">pasta "mods"</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Instalar este mod dentro da pasta "mods"</string>
+		<string name="LOCATION_GAME_FOLDER">Pasta do jogo</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Instalar este mod diretamente na pasta do jogo</string>
+
+		<string name="INSTALLATION_SUCCEEDED">Instalado com êxito</string>
+		<string name="RUN_GAME">Executar $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Execute o jogo e verifique o que você acabou de conseguir</string>
+
+		<string name="INSTALLATION_FAILED">A instalação falhou</string>
+
+		<string name="LOADING_ERROR_TITLE">Erro no carregamento do pacote</string>
+		<string name="READING_ERROR_TITLE">Erro na leitura do arquivo de pacote</string>
+		<string name="INSTALLING_ERROR_TITLE">Erro na instalação do pacote</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Erro desconhecido</string>
+		<string name="ERROR_CODE_UNKNOWN">Algo aconteceu.</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">O arquivo de pacote não é um arquivo ZIP válido.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Extensão de arquivo desconhecida. O arquivo de pacote deve ser .oiv ou .zip.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Não se pode acessar o arquivo de pacote. Certifique-se de que não é usado por outro processo.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">O arquivo do pacote não existe.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Incapaz de abrir arquivo de pacote.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Incapaz de encontrar o arquivo "assembly.xml" neste pacote. É provável que o arquivo não é um Pacote de $AppName$ ou o arquivo está corrompido.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Incapaz de ler "assembly.xml", é provável que o arquivo esteja corropido.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Formato desconhecido de "assembly.xml", é provável que o arquivo esteja corrompido.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Este pacote não pode ser instalado com a sua versão do $AppName$.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">A tag "metadata" está faltando no "assembly.xml", é provável que o arquivo esteja corrompido.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">A informação do metadata está faltando ou corrompida no "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">O "assembly.xml" têm um formato XML inválido ou corrompido.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Incapaz de ler a ID do pacote de "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">A tag "colors" está faltando no "assembly.xml", é provável que o arquivo esteja corrompido.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">As informações de cores (colors) está faltando ou corrompida no "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">A informação do conteúdo (content) está faltando ou corrompida no "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">A tag "content" está faltando no "assembly.xml", é provável que o arquivo esteja corrompido.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Incapaz de encontrar a pasta "content" neste pacote. É provável que o arquivo não é uma Pacote de $AppName$ ou o arquivo está corrompido.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Este pacote não pode ser instalado no $RageGAME$. Por favor verifique a lista de jogos suportados na seção de informação adicional.</string>
+
+	</RenderUI>
+</Translation>

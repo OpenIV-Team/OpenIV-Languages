@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ Recherche de placements'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Recherche de nom</string>
+		<string name="SEARCH_FOR_HASH">Recherche de hash</string>
+
+		<string name="BANNER_TEXT_NAME">Tapez le nom du modèle</string>
+		<string name="BANNER_TEXT_HASH">Tapez le nom du hash</string>
+
+		<string name="SEARCH">Rechercher</string>
+		<string name="STOP_SEARCH">Arrêter la recherche</string>
+		<string name="INCORRECT_HASH">Hash incorrect</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" n′est pas une valeur hash valide.</string>
+
+		<string name="FILE_INFORMATION">Informations sur les fichiers.</string>
+		<string name="SHOW_DEFINITION">Afficher la définition dans le fichier IDE</string>
+		<string name="SHOW_IDE">Afficher le fichier IDE</string>
+		<string name="SHOW_ARCHIVE">Afficher l′archive</string>
+		<string name="SHOW_RESOURCE">Afficher la ressource du fichier</string>
+
+		<string name="HELP_TITLE">Recherche de placements - aide</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Utilisez la souris pour regarder autour, déplacez à l′aide de ces touches:
+			
+    W - Avancer
+    S - Reculer
+    A - Aller à gauche
+    D - Aller à droite
+
+    NumPad 8 - Déplacer la caméra vers le haut
+    NumPad 2 - Déplacer la caméra vers le bas
+    NumPad 4 - Déplacer la caméra vers la gauche
+    NumPad 6 - Déplacer la caméra vers la droite
+
+    Maintenir SHIFT - Pour déplacer rapidement
+    Maintenir CTRL - Pour déplacer lentement
+
+    Utiliser la molette de la souris pour zoomer.
+	
+    ESC - Fermer la fenêtre de recherche de placement
+    Maintenir H - Pour cacher temporairement le HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<!-- common -->
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_LINK">Нажмите здесь, чтобы открыть справку</string>
+
+		<!-- Common words -->
+		<string name="TRUE">Да</string>
+		<string name="FALSE">Нет</string>
+		<string name="YES">Да</string>
+		<string name="NO">Нет</string>
+		<string name="OK">Ok</string>
+		<string name="CANCEL">Отмена</string>
+		<string name="CLOSE">Закрыть</string>
+		<string name="SAVE">Сохранить</string>
+		<string name="IMPORT">Импорт</string>
+		<string name="SEARCH">Поиск</string>
+
+		<!-- Camera -->
+		<string name="CAMERA_MODE">Камера:</string>
+		<string name="CAMERA_MODE_FREE">Полёт</string>
+		<string name="CAMERA_MODE_AROUND">Вокруг</string>
+
+		<!-- Options -->
+		<string name="SHOW_GRID">Сетка:</string>
+		<string name="GEOMETRY">Геометрия:</string>		
+		<string name="EDGED_FACES">Рёбра:</string>
+		<string name="DISPLAY_POINTS">Вершины:</string>
+
+		<!-- Base information -->
+		<string name="POLYGONS">Полигоны:</string>
+		<string name="VERTICES">Вертексы:</string>
+
+		<!-- LOD -->
+		<string name="LOD">Детализация:</string>
+		<string name="LOD_HIGH">High</string>
+		<string name="LOD_MED">Med</string>
+		<string name="LOD_LOW">Low</string>
+		<string name="LOD_VLOW">VLow</string>
+
+		<!-- Textures -->
+		<string name="USING_TEXTURES">Используемые текстуры:</string>
+		<string name="ADD_TEXTURE">[+] Добавить</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Сохранить вложенные текстуры ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ Просмотр вложенных текстур ]</string>
+
+		<!-- Information -->
+		<string name="MORE_INFORMATION">[ Больше информации ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Экспортировать все вложенные текстуры</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Экспортировать выбранную текстуру</string>
+		<string name="COUNT_">Количество: </string>
+		<string name="SELECT_OBJECT">Выберите объект</string>
+		<string name="COPY_SKELETON_INFO">Copy skeleton info</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Unable to copy</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Copy to clipboard failed.</string>
+
+		<!-- Information tabs -->
+		<string name="INFO_GEOMETRIES">Геометрии</string>
+		<string name="INFO_SKELETON">Скелет</string>
+		<string name="INFO_SHADERS">Шейдеры</string>
+		<string name="INFO_TEXTURES">Текстуры</string>
+
+		<!-- Information mesh tabs -->
+		<string name="TAB_LOD_HIGH">Высокий (High)</string>
+		<string name="TAB_LOD_MED">Средний (Med)</string>
+		<string name="TAB_LOD_LOW">Низкий (Low)</string>
+		<string name="TAB_LOD_VLOW">Очень низкий (VLow)</string>
+
+		<!-- Columns -->
+		<string name="COLUMN_SPS">SPS</string>
+		<string name="COLUMN_SHADER">Шейдер</string>
+		<string name="COLUMN_PARAMETERS">Параметры</string>
+
+		<string name="COLUMN_NAME">Имя</string>
+		<string name="COLUMN_TYPE">Тип</string>
+		<string name="COLUMN_VALUE">Значение</string>
+
+		<string name="COLUMN_INDEX">Индекс</string>
+		<string name="COLUMN_INDEX_COUNT">Index сount</string>
+		<string name="COLUMN_FACE_COUNT">Face сount</string>
+		<string name="COLUMN_VERTEX_COUNT">Vertex сount</string>
+
+		<!-- Export texture format dialog -->
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Пожалуйста, выберите формат файла:</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Лучший выбор для просмотра и общих задач.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Выберите это если хотите импортировать текстуры в будущем.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG Image (*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Во время экспорта качество будет потеряно.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap image (*.bmp)</string>
+
+	</RenderUI>
+</Translation>

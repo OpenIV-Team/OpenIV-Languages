@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<!-- common -->
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_LINK">Clickea aquí para obtener ayuda</string>
+
+		<!-- Common words -->
+		<string name="TRUE">Verdadero</string>
+		<string name="FALSE">Falso</string>
+		<string name="YES">Si</string>
+		<string name="NO">No</string>
+		<string name="OK">Ok</string>
+		<string name="CANCEL">Cancelar</string>
+		<string name="CLOSE">Cerrar</string>
+		<string name="SAVE">Guardar</string>
+		<string name="IMPORT">Importar</string>
+		<string name="SEARCH">Buscar</string>
+
+		<!-- Camera -->
+		<string name="CAMERA_MODE">Modo de cámara:</string>
+		<string name="CAMERA_MODE_FREE">Libre</string>
+		<string name="CAMERA_MODE_AROUND">Alrededor</string>
+
+		<!-- Options -->
+		<string name="SHOW_GRID">Mostrar cuadrícula:</string>
+		<string name="GEOMETRY">Gemotría:</string>		
+		<string name="EDGED_FACES">Mostrar bordes:</string>
+		<string name="DISPLAY_POINTS">Puntos de pantalla:</string>
+
+		<!-- Base information -->
+		<string name="POLYGONS">Poligonos:</string>
+		<string name="VERTICES">Vertices:</string>
+
+		<!-- LOD -->
+		<string name="LOD">Nivel de Detalle:</string>
+		<string name="LOD_HIGH">Alto</string>
+		<string name="LOD_MED">Med</string>
+		<string name="LOD_LOW">Bajo</string>
+		<string name="LOD_VLOW">MBajo</string>
+
+		<!-- Textures -->
+		<string name="USING_TEXTURES">Usando texturas:</string>
+		<string name="ADD_TEXTURE">[+] Añadir Texturas</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Exportar texturas incrustadas ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ Ver texturas incrustadas ]</string>
+
+		<!-- Information -->
+		<string name="MORE_INFORMATION">[ Más información ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Exportar todas las texturas incrustadas</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Exportar texturas incrustadas seleccionadas</string>
+		<string name="COUNT_">Cuenta: </string>
+		<string name="SELECT_OBJECT">Objeto seleccionado</string>
+		<string name="COPY_SKELETON_INFO">Copiar infromación del esqueleto</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Incapaz de copiar</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Copiado al portapapeles fallido.</string>
+
+		<!-- Information tabs -->
+		<string name="INFO_GEOMETRIES">Geometrías</string>
+		<string name="INFO_SKELETON">Esqueleto</string>
+		<string name="INFO_SHADERS">Shaders</string>
+		<string name="INFO_TEXTURES">Texturas</string>
+
+		<!-- Information mesh tabs -->
+		<string name="TAB_LOD_HIGH">Alto</string>
+		<string name="TAB_LOD_MED">Medio</string>
+		<string name="TAB_LOD_LOW">Bajo</string>
+		<string name="TAB_LOD_VLOW">Muy Bajo</string>
+
+		<!-- Columns -->
+		<string name="COLUMN_SPS">SPS</string>
+		<string name="COLUMN_SHADER">Shader</string>
+		<string name="COLUMN_PARAMETERS">Parametros</string>
+
+		<string name="COLUMN_NAME">Nombre</string>
+		<string name="COLUMN_TYPE">Tipo</string>
+		<string name="COLUMN_VALUE">Valor</string>
+
+		<string name="COLUMN_INDEX">Índice</string>
+		<string name="COLUMN_INDEX_COUNT">Contador de Índices</string>
+		<string name="COLUMN_FACE_COUNT">Contador de Caras</string>
+		<string name="COLUMN_VERTEX_COUNT">Contador de Vertices</string>
+		
+		<!-- Export texture format dialog -->
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Por favor, selecciona el formato del archivo:</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Best choose for common and viewing purpose.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Escoje esto si quieres importar las texturas luego.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG Imagen (*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Puede perderse calidad al exportar.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap Imagen (*.bmp)</string>
+
+	</RenderUI>
+</Translation>

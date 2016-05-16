@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Erreur d′application'>
+		<lbWindowTitle Caption="$AppName$ encourt un problème non pris en charge\net à maintenant besoin de redémarrer."/>
+		<btnCloseApp Caption='Fermer $AppName$'/>
+		<lnkWeb1 Caption='Voir le site officiel'/>
+		<lnkWeb2 Caption='Voir le forum de support internationnal'/>
+		<lnkWeb3 Caption='Voir le forum de support Russe'/>
+		<lbText2 Caption='Outils additionnels'/>
+		<tbCopyInfo Caption='Copier les informations d′erreurs'/>
+		<tbWin7Report Caption='Enregistreur d′actions utilisateur'/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Temps: '/>
+				<Item Index='1' Value='Type: '/>
+				<Item Index='2' Value='Message: '/>
+				<Item Index='3' Value='Information additionnelle:'/>
+				<Item Index='4' Value='Information additionnelle manquante.'/>
+				<Item Index='5' Value='Informations d′erreurs copiées dans le presse-papiers.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

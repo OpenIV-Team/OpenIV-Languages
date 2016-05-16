@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PreloaderWindow>
+		<WelcomeScreen>
+			<!-- Button's -->
+			<btnClose Caption='Fechar'/>
+			<btnEULANext Caption='Continuar'/>
+			<btnWebNext Caption='Continuar'/>
+			<btnGame Caption='Procurar...' Hint='Selecionar pasta:'/>
+			<btnGameNext Caption='Continuar'/>
+			<btnWindowsNext Caption='Continuar'/>
+			<btnBackupNext Caption='Continuar'/>
+			<btnSocialNext Caption='Continuar'/>
+			<btnSocialYouTube Caption='Canal do YouTube do $AppName$'/>
+			<btnSocialTwitter Caption='$AppName$ no Twitter'/>
+			<btnSocial_FB Caption='Página do Facebook do $AppName$'/>
+			<btnSocial_VK Caption='Página do VK do $AppName$'/>
+			<!-- Link's -->
+			<LnkWebLangs Caption='Traduzir o $AppName$ para outro idioma'/>
+			<LnkWebEULA Caption='Leia a licença aqui.'/>
+			<!-- CheckBox's -->
+			<cbAcceptEULA Caption='Eu li e concordo com os termos do Contrato de Licença do $AppName$.'/>
+			<!-- Strings -->
+			<StringList SetCount='30'>
+				<Lines>
+					<Item Index='00' Value='Termos de Uso do $AppName$'/>
+					<Item Index='01' Value='Antes de usar o $AppName$ você precisa ler e concordar com os seguintes termos de uso.'/>
+					<Item Index='02' Value='Serviço $WebName$'/>
+					<Item Index='03' Value='O serviço $WebName$ é feito com a intenção de troca de informação entre desenvolvedores e usuários finais do $AppName$. Se você se registrar no serviço, você poderá verificar atualizações do $AppName$ e usar outros recursos adicionais. Também o serviço $WebName$ coleta a informação de algumas estatísticas que é destinada a nos ajudar a melhorar o $AppName$ da maneira que seus usuários finais preferir.'/>
+					<Item Index='04' Value='Serviço temporariamente indisponível.'/>
+					<Item Index='05' Value='Escolher pasta $RageGAME$'/>
+					<Item Index='06' Value='Sem especificar a localização do jogo, $AppName$ não poderá abrir os arquivos de $RageGAME_SHORT$, visto que não há informação suficiente. Por favor, defina a localização correta do $RageGAME$ instalado abaixo.'/>
+					<Item Index='07' Value='Localização do $RageGAME$:'/>
+					<Item Index='08' Value='Erro: Esta pasta não existe.'/>
+					<Item Index='09' Value='Sucesso: $AppName$ pode trabalhar com esta pasta.'/>
+					<Item Index='10' Value="Erro: Esta pasta não contém o arquivo '$RageEncryptionStorage$'."/>
+					<Item Index='11' Value='Sucesso: $RageEncryptionStorage$, versão %s\n$AppName$ pode trabalhar com este arquivo.'/>
+					<Item Index='12' Value='Cópias de Segurança (Backups)'/>
+					<Item Index='13' Value='Não esqueça de fazer uma cópia de segurança (backup) de seus arquivos originais antes de editar.'/>
+					<Item Index='14' Value='Windows 7'/>
+					<Item Index='15' Value='$AppName$ é melhor trabalhando em Microsoft® Windows 7™'/>
+					<Item Index='16' Value='Seu nome:'/>
+					<Item Index='17' Value="Erro: $AppName$ não tem acesso para trabalhar com esta pasta.\nExecute o $AppName$ com os direitos de administrador."/>
+					<Item Index='18' Value='Junte-se a comunidade do $AppName$'/>
+					<Item Index='19' Value='$AppName$ - Confirmação'/>
+					<Item Index='20' Value='O processo de configuração ainda não está terminado.\Você deseja sair?'/>
+					<Item Index='21' Value="Erro: $AppName$ não tem acesso para trabalhar com o arquivo '$RageEncryptionStorage$'.\nExecute o $AppName$ com os direitos de administrador."/>
+					<Item Index='22' Value="Erro: $RageGAME$ está em execução. Feche o jogo antes de usar o $AppName$."/>
+				</Lines>
+			</StringList>
+		</WelcomeScreen>
+		<UpdateScreen>
+			<!-- Button's -->
+			<btnExit Caption='Sair'/>
+			<btnInstall Caption='Baixar e instalar'/>
+			<!-- Label's -->
+			<lbTitle Caption='Atualização do $AppName$'/>
+			<lbText Caption='Uma nova atualização está disponível para o $AppName$. Você precisa instalá-lo antes de iniciar o $AppName$.'/>
+			<lbStatus Caption='Tamanho do download: '/>
+			<cbInstallUpdatesAutomatically Caption='Instalar atualizações automaticamente'/>
+			<lbCurrentVersion Caption='Sua versão:'/>
+			<lbNewVersion Caption='Nova versão:'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='0' Value=' Mb'/>
+					<Item Index='1' Value='Preparando-se para baixar...'/>
+					<Item Index='2' Value='Baixado: %f de %f Mb'/>
+					<Item Index='3' Value='Atualizando...'/>
+					<Item Index='4' Value='Erro na atualização, por favor, tente novamente mais tarde.'/>
+					<Item Index='5' Value='%d.%d.%d (Compilação %d; Data %s)'/>
+					<Item Index='6' Value='Esta atualização contém correções de erros (bug fixes) e pequenas melhorias.'/>
+					<Item Index='7' Value='Esta atualização contém novos recursos, correções de bugs (bug fixes), mudanças na UI (Interface de Usuário) e grandes melhorias.'/>
+					<Item Index='8' Value=''/>
+					<Item Index='9' Value=''/>
+				</Lines>
+			</StringList>
+		</UpdateScreen>
+		<ChangeGameScreen>
+			<!-- Button's -->
+			<btnExit Caption='Sair'/>
+			<btnContinue Caption='Continuar'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='00' Value='Erro de aplicação fatal'/>
+					<Item Index='01' Value='Você colocou o $AppName$ dentro da mesma pasta com o arquivo "$RageEncryptionStorage$", e isso é errado.\nPor favor, coloque o $AppName$ em uma pasta separada.'/>
+					<Item Index='02' Value='Alterar pasta de $RageGAME$'/>
+					<Item Index='03' Value='Algo errado, por favor mude a pasta de $RageGAME$ abaixo e renicie o $AppName$.'/>
+					<Item Index='04' Value='Erro: Esta pasta não existe.'/>
+					<Item Index='05' Value='Sucesso: $AppName$ pode trabalhar com esta pasta.'/>
+					<Item Index='06' Value="Erro: Esta pasta não contém o arquivo '$RageEncryptionStorage$'."/>
+					<Item Index='07' Value='Sucesso: $RageEncryptionStorage$, versão %s\n$AppName$ pode trabalhar com este arquivo.'/>
+					<Item Index='08' Value='Procurar'/>
+					<Item Index='09' Value="Erro: $AppName$ não tem acesso para trabalhar com esta pasta.\nExecute o $AppName$ com os direitos de administrador."/>
+				</Lines>
+			</StringList>
+		</ChangeGameScreen>
+	</PreloaderWindow>
+</Translation>

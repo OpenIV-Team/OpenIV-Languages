@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Помилка'>
+		<lbWindowTitle Caption="$AppName$ зіткнувся з проблемою, яку не може вирішити,\n і повинен бути перезавантажений."/>
+		<btnCloseApp Caption='Закрити $AppName$'/>
+		<lnkWeb1 Caption='Відвідати офіційний сайт в Інтернеті'/>
+		<lnkWeb2 Caption='Відвідати інтернаціональний форум підтримки'/>
+		<lnkWeb3 Caption='Відвідати російськомовний форум підтримки'/>
+		<lbText2 Caption='Додаткові інструменти'/>
+		<tbCopyInfo Caption='Копіювати інформацію про помилку'/>
+		<tbWin7Report Caption='Запис кроків для відтворення проблеми' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Час: '/>
+				<Item Index='1' Value='Тип: '/>
+				<Item Index='2' Value='Повідомлення: '/>
+				<Item Index='3' Value='Додаткова інформація:'/>
+				<Item Index='4' Value='Додаткова інформація відсутня.'/>
+				<Item Index='5' Value='Інформація про помилку скопійована в буфер обміну.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

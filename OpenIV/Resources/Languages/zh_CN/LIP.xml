@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageInterfacePack version='150' ID='2052' icon="Flag.ico" active="true">
+	<!-- !!! To get your ID and ICON see "OpenIV.Beta\Languages\" on Dropbox -->
+	<Creator>
+		<Name>护眼の万元大钞</Name>
+		<web>http://www.OpenIV.com/</web>
+		<!-- You can use http:// or mailto: -->
+		<info/>
+		<game>american.gxt</game>
+	</Creator>
+	<WebHelp>
+		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
+	</WebHelp>
+</LanguageInterfacePack>

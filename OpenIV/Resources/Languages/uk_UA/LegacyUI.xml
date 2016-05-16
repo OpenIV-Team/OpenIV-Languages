@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Main window -->
+
+	<MainWindow Caption='$AppName$'>
+		<FullScreenClose Hint='Закрити'/>
+		<btnSwitchMode Caption='Редагування' hint='Переключити режим роботи (F6)' showhint='True'/>
+		<btnCloseArchive hint='Закрити архів (Shift + Backspace)' showhint='True'/>
+		<!-- String's -->
+		<AeroWindow LinesCount='70'>
+			<StringList>
+				<Item Index='0' Value='Ім’я'/>
+				<Item Index='1' Value='Тип'/>
+				<Item Index='2' Value='Розмір'/>
+				<Item Index='3' Value='Атрибути'/>
+				<Item Index='4' Value='Стиснутий'/>
+				<Item Index='5' Value='Режим редагування'/>
+				<Item Index='6' Value=''/>
+				<Item Index='7' Value=''/>
+				<Item Index='8' Value='Елементів: %D'/>
+				<Item Index='9' Value='Показано %D из %D елементів'/>
+				<Item Index='10' Value=' елементів'/>
+				<Item Index='11' Value=' байтів'/>
+				<Item Index='12' Value=' КБ'/>
+				<Item Index='13' Value=' МБ'/>
+				<Item Index='14' Value='Процес...'/>
+				<Item Index='15' Value='Обробка: '/>
+				<Item Index='16' Value='Невідомо'/>
+				<Item Index='17' Value='Нема відкритих файлів'/>
+				<Item Index='18' Value='Зашифрований'/>
+				<Item Index='19' Value='Завантаження архіва...'/>
+				<Item Index='20' Value='Ресурс [Версия: %D]'/>
+				<Item Index='21' Value='[Режим редагування]'/>
+				<Item Index='22' Value='[Режим перегляду]'/>
+				<Item Index='23' Value='LANG: FREE STRING (23)'/>
+				<Item Index='24' Value='Ви переходите в режим редагування, всі зміни будуть зберігатися автоматично.'/>
+				<Item Index='25' Value='LANG: FREE STRING (25)'/>
+				<Item Index='26' Value='LANG: FREE STRING (26)'/>
+				<Item Index='27' Value='Ключові слова'/>
+				<Item Index='28' Value='Додати ключове слово'/>
+				<Item Index='29' Value='Введіть ключове слово:'/>
+				<Item Index='30' Value='Нема вибраних елементів'/>
+				<Item Index='31' Value='Вибрано елементів: %D'/>
+				<Item Index='32' Value='Розгорнути на весь екран (F11)'/>
+				<Item Index='33' Value='Згорнути (F11)'/>
+				<Item Index='34' Value='Оберіть файл для попереднього перегляду.'/>
+				<Item Index='35' Value='Нема даних для попередьного перегляду.'/>
+				<Item Index='36' Value='Версія: %S'/>
+				<Item Index='37' Value='Вихід з $AppName$'/>
+				<Item Index='38' Value='Параметри $AppName$'/>
+				<Item Index='39' Value='Закрити файл'/>
+				<Item Index='40' Value='Закріпити'/>
+				<Item Index='41' Value='Видалити зі списку'/>
+				<Item Index='42' Value='Останні файли'/>
+				<Item Index='43' Value='Працює зовнішній додаток...'/>
+				<Item Index='44' Value='Підтвердження змінення файла'/>
+				<Item Index='45' Value='Файл «%S» був змінений, оновити змінений файл в архіві?'/>
+				<Item Index='46' Value='Розташування'/>
+				<Item Index='47' Value='Збірка'/>
+				<Item Index='48' Value='Цей архів пустий.'/>
+				<Item Index='49' Value='Ця тека пуста.'/>
+				<Item Index='50' Value='Не знайдено жодного об’єкту згідно критеріїв пошуку.'/>
+				<Item Index='51' Value='Відкрити теку в «Провіднику Windows»'/>
+				<Item Index='52' Value='Знайти в «Провіднику Windows»'/>
+				<Item Index='53' Value='Розташування файлу'/>
+				<Item Index='54' Value='$AppName$ — Розташування файлу'/>
+				<Item Index='55' Value='$AppName$ не може показати розташування цього файлу.'/>
+				<Item Index='56' Value='Канал на YouTube'/>
+				<Item Index='57' Value='Відеоуроки'/>
+				<Item Index='58' Value='Крихітні (0 - 10 КБ)'/>
+				<Item Index='59' Value='Маленькі (10 - 100 КБ)'/>
+				<Item Index='60' Value='Середні (100 КБ - 1 МБ)'/>
+				<Item Index='61' Value='Великі (1 - 16 МБ)'/>
+				<Item Index='62' Value='Величезні (16 - 128 МБ)'/>
+				<Item Index='63' Value='Гігантські (> 128 МБ)'/>
+				<Item Index='64' Value='Теки'/>
+				<Item Index='65' Value=''/>
+				<Item Index='66' Value=''/>
+				<Item Index='67' Value=''/>
+				<Item Index='68' Value=''/>
+				<Item Index='69' Value=''/>
+			</StringList>
+		</AeroWindow>
+		<!-- Others -->
+		<SearchBox BannerText='Пошук'/>		
+		<!-- GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption='Інсталювати плаґін для GTA V'/>
+		<lbGTAVPluginText Caption='Необхідно інсталювати ASI Loader та OpenIV ASI plugin для вашої GTA V, інакше гра не вантажитиме модифіковані RPF-архіви.\nНе грайте у GTA Online з модифікованими RPF, щоб не бути забаненими.'/>
+		<btnGTAVPluginAction Caption='Інсталювати'/>
+	</MainWindow>
+
+	<ActionsModule>
+		<!-- Main Menu -->
+		<mmFile Caption='Файл'/>
+		<mmEdit Caption='Правка'/>
+		<mmNew Caption='Створити'/>
+		<mmView Caption='Вигляд'/>
+		<mmFavorites Caption='Уподобане'/>
+		<mmTools Caption='Інструменти'/>
+		<mmHelp Caption='Довідка'/>
+		<!-- Main Menu : File -->
+		<mmReopen Caption='Недавні файли'/>
+		<mmFilter Caption='Фільтр'/>
+		<!-- Main Menu : View -->
+		<mmLayout Caption='Розкладка'/>
+		<mmGroupBy Caption='Групування'/>
+		<mmGoto Caption='Перехід'/>
+		<!-- Main Menu : View -->
+		<mmvIcon Caption='Звичайні значки'/>
+		<mmvSmallIcon Caption='Маленькі значки'/>
+		<mmvList Caption='Список'/>
+		<mmvDetails Caption='Таблиця'/>
+		<mmvTile Caption='Плитка'/>	
+		<!-- Main Menu : Help -->
+
+		<!-- Path menu -->
+		<PMenu0 Caption='Скопіювати адресу'/>
+		<!-- File Action's -->
+		<actCreate   Caption='Створити архів...' Hint='Створити новий архів'/>
+		<actOpen     Caption='Відкрити архів...' Hint='Відкрити існуючий архів'/>
+		<actOpenPC   Caption='Відкрити вміст...' Hint=''/>
+		<actOpenArchiveProperties  Caption='Властивості архіву' Hint=''/>
+		<actRebuild  Caption='Перезібрати' Hint='Перезібрати поточний архів'/>
+		<actEditMode Caption='Режим редагування' Hint=''/>
+		<actReadMode Caption='Режим перегляду'         Hint=''/>
+		<actClose    Caption='Закрити' Hint='Закрити поточний архів'/>
+		<actExit     Caption='Вихід'   Hint='Вихід'/>
+		<actCloseAllArchives Caption='Закрити всі архіви' Hint='Закрити всі відкриті архіви'/>
+		<!-- Edit Action's -->
+		<actPreview     Caption='Перегляд...'  Hint='Перегляд вибраного файла'/>
+		<actEditFile    Caption='Редагувати...'   Hint='Редагування вибраного файла'/>
+		<actViewAsHex   Caption='Переглянути HEX...'  Hint='Переглянути HEX'/>
+		<actViewAsText  Caption='Переглянути як текст...'  Hint='Переглянути як текст'/>
+		<actCopyPath    Caption='Копіювати шлях' Hint='Копіювати шлях до файла'/>
+		<actExtract     Caption='Видобути...'         Hint='видобути файл'/>
+		<actSaveContent Caption='Зберегти вміст/Експорт' Hint='Зберегти вміст файла/Експорт'/>
+		<actRename      Caption='Перейменувати'  Hint='Перейменувати файл'/>
+		<actAdd         Caption='Додати'       Hint='Додати новий файл в архів'/>
+		<actReplace     Caption='Замінити'       Hint='Замінити вибраний файл новим'/>
+		<actRemove      Caption='Видалити'        Hint='Видалити вибраний файл'/>
+		<actExtractAll  Caption='Видобути все...'    Hint='Видобути всі файли з архіву'/>
+		<actCopyFileList Caption='Копіювати список файлів' Hint=''/>
+		<actSelectAll Caption='Виділити все' Hint=''/>
+		<actResourceObjectExplorer Caption='Resource Explorer' Hint=''/>
+		<actShowInWindowsExplorer Caption='Показати в «Провіднику Windows»' Hint=''/>
+		<actItemAddToFavorites Caption='Додати до вподобань…' Hint=''/>
+		<!-- New menu -->
+		<actMultipleImport Caption='Імпорт openFormats' Hint='Множинний імпорт'/>
+		<actNewFolder   Caption='Нова тека'    Hint='Створити нову теку'/>
+		<!-- View Action's -->
+		<actDirectoryTree Caption='Дерево папок' Hint='Дерево папок'/>
+		<actToolBar       Caption='Панель інструментів' Hint='Панель інструментів'/>
+		<actSearchBar     Caption='Адреса і панель пошуку' Hint='Адреса і панель пошуку'/>
+		<actStatusBar     Caption='Рядок стану' Hint='Рядок стану'/>
+		<actLivePreView   Caption='Панель перегляду' Hint='Панель перегляду'/>
+		<actMainMenuBar   Caption='Рядок меню' Hint='Рядок меню'/>
+		<!-- Help Action's -->
+		<actReportBug    Caption="Заявити про помилку" Hint=''/>
+		<actAbout        Caption='Про OpenIV…' Hint='Про OpenIV…'/>
+		<actGoToWeb      Caption='Відвідати сайт в Інтернеті...' Hint=''/>
+		<actSendFeedback Caption='Відправити відгук...'           Hint=''/>
+		<actUpdate       Caption='Перевірити оновлення...'   Hint=''/>
+		<actDonate       Caption='Підтримати $AppName$...'      Hint=''/>
+		<actWebIV        Caption='Реєстрація у $WebName$'      Hint=''/>
+		<actFAQ          Caption='Часті запитання та відповіді' Hint=''/>
+		<!-- Social -->
+		<actSocialYouTube Caption='YouTube-канал $AppName$' Hint=''/>
+		<actSocialFacebook Caption='Сторінка $AppName$ у Facebook' Hint=''/>
+		<actSocialTwitter Caption='$AppName$ у Twitter' Hint=''/>
+		<actSocialVKCom Caption='Сторінка $AppName$ на VK.Com' Hint=''/>
+		<!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption='Запис рухів для відтворення проблеми' Hint=''/>
+		<!-- Groups Action's -->
+		<actCollapseAll Caption='Згорнути всі групи'   Hint=''/>
+		<actExpandAll   Caption='Розгорнути всі групи' Hint=''/>
+		<actCollapseGroup Caption='Згорнути групу' Hint=''/>
+		<actExpandGroup Caption='Розгорнути групу' Hint=''/>
+		<!-- Tools Action's -->
+		<actConfig     Caption='Параметри…' Hint='Параметри $AppName$'/>
+		<!-- GoTo Action's -->
+		<actGoBack    Caption='Назад' Hint=''/>
+		<actGoForward Caption='Вперед' Hint=''/>
+		<actGoUP      Caption='На один рівень вверх' Hint=''/>
+		<!-- Favorites -->
+		<actAddToFavorites    Caption='Додати до вподобань...' Hint=''/>
+		<actOrganizeFavorites Caption='Упорядкувати вподобння...' Hint=''/>
+		<!-- Filter -->
+		<actFilterByName  Caption='Фільтрувати за ім’ям' Hint=''/>
+		<actFilterByType  Caption='Фільтрувати за типом' Hint=''/>
+		<actFilterOnlyThis Caption='Показувати тільки цей тип' Hint=''/>
+		<!-- Tree -->
+		<actTreeCopyAsPath Caption='Копіювати шлях' Hint=''/>
+		<actTreeShowInWindowsExplorer Caption='Показати в «Провіднику Windows»' Hint=''/>
+		<actTreeCloseArchive Caption='Закрити архів' Hint=''/>
+		<!-- Strings -->
+		<Strings SetCount='100'>
+			<Lines>
+				<Item Index='00' Value='Оберіть папку:'/>
+				<Item Index='01' Value='Перегляд файлу'/>
+				<Item Index='02' Value='Не було відкритих файлів'/>
+				<Item Index='03' Value='(Нема)'/>
+				<Item Index='04' Value='Оберіть тип нового архіва:'/>
+				<Item Index='05' Value='Лінійний'/>
+				<Item Index='06' Value='Ієрархічний'/>
+				<Item Index='07' Value='без імен'/>
+				<Item Index='08' Value='Додати'/>
+				<Item Index='09' Value='Видалити'/>
+				<Item Index='10' Value='Все'/>
+				<Item Index='11' Value='$AppName$ — Перейменувати'/>
+				<Item Index='12' Value='Нове ім’я:'/>
+				<Item Index='13' Value='Створення нової теки'/>
+				<Item Index='14' Value='Нова тека:'/>
+				<Item Index='15' Value='Не знайдено теку з встановленою $RageGAME_SHORT$.\nБудь ласка, оберіть правильне розташування $RageGAME_SHORT$ в налаштуваннях $AppName$.'/>
+				<Item Index='16' Value='$AppName$ — Підтвердження перезбирання архіву'/>
+				<Item Index='17' Value='Ви cправді хочете перезібрати архів «%S»?\nЦя операція може зайняти декілька хвилин.'/>
+				<Item Index='18' Value='Відкрити вміст'/>
+				<Item Index='19' Value='Створення файлу %S'/>
+				<Item Index='20' Value='Введіть ім’я:'/>
+				<Item Index='21' Value='$AppName$ — Нереалізована можливість'/>
+				<Item Index='22' Value='Ви намагалися скористатися: %S\nВ цій версії $AppName$ ця можливість ще не реалізована. Перевірте її в наступній версії.'/>
+				<Item Index='23' Value='$AppName$ — Перезбирання архіву'/>
+				<Item Index='24' Value='Ви не можете перезібрати пустий архів.'/>
+				<Item Index='25' Value='Файл з таким ім’ям вже існує, оберіть інше ім’я.'/>
+				<Item Index='26' Value='$AppName$ — Додати ключове слово'/>
+				<Item Index='27' Value='Введіть ключове слово:'/>
+				<Item Index='28' Value='Експорт у %S'/>
+				<Item Index='29' Value='Файл зашифрований, необхідно встановити незашифровану версію гри.'/>
+				<Item Index='30' Value='$AppName$ — Файл не існує'/>
+				<Item Index='31' Value='Помилка відкриття файла: %S\nФайл не існує.'/>
+				<Item Index='32' Value='Версія: %D'/>
+				<Item Index='33' Value="$AppName$ все ще не може створювати архіви для $RageGAME_SHORT$.\nБудь ласка, поверніться пізніше."/>
+				<Item Index='34' Value="Відкрити файл в"/>
+				<Item Index='35' Value="%s в %s"/>
+				<Item Index='36' Value="%s — Результати пошуку в %s"/>
+				<Item Index='37' Value="%s — Результати пошуку в %s (%s)"/>
+				<Item Index='38' Value="Фільтр"/>
+				<Item Index='39' Value="$AppName$ — Помилка"/>
+				<Item Index='40' Value="Неможливо видобути файли."/>
+				<Item Index='41' Value="Неможливо додати файли."/>
+				<Item Index='42' Value="Неможливо створити теку."/>
+				<Item Index='43' Value="Неможливо видалити файли."/>
+				<Item Index='44' Value="Неможливо перемістити файли."/>
+				<Item Index='45' Value="Неможливо створити новий файл."/>
+			</Lines>
+		</Strings>
+	</ActionsModule>
+
+	<EditModeHelpWindow Caption='Режим редагування — $AppName$'>
+		<!-- Label's -->
+		<lbTitle Caption='Режим редагування'/>
+		<lbText Caption='Щоб додати або змінити файли, перейдіть в режим редагування.\nВи можете обрати режим редагування в якості режиму роботи за замовчуванням у налаштуваннях $AppName$.'/>
+		<lbInfo Caption='Кнопка „Редагування“ дозволяє перемкнутися в режим редагування'/>
+		<!-- Button's -->
+		<btnClose Caption='Закрити'/>
+		<cbDoNotShow Caption='Більше не показувати це повідомлення'/>
+	</EditModeHelpWindow>
+
+	<!-- Web window -->
+
+	<webWindow Caption='$WebName$ - '>
+		<!-- Button's -->
+		<btnClose Caption='Закрити'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0'  Value='Умови та конфіденційність'/>
+			</StringList>
+		</AeroWindow>
+	</webWindow>
+
+	<!-- Configuration -->
+
+	<ConfigWindow Caption='$AppName$ — Налаштування'>
+		<!-- Tab's -->
+		<tabMain Caption='Загальне'/>
+		<tabLang Caption='Мова інтерфейсу'/>
+		<tabApps Caption='Додатки'/>
+		<tabFormats Caption='openFormats'/>
+		<tabTools Caption='Інструменти'/>
+		<tabGame Caption='Гра'/>
+		<tabViewers Caption='Переглядачі'/>
+		<!-- Button's -->
+		<btnClose Caption='Закрити'/>
+		<!-- Action's -->
+		<actAppAdd  Caption='Додати'/>
+		<actAppEdit Caption='Параметри'/>
+		<actAppDel  Caption='Видалити'/>
+		<!-- Link's -->
+		<LnkWebApps Caption='Завантажити інші додатки для $RageGAME_SHORT$'/>
+		<LnkWebLangs Caption='Перекласти $AppName$ на іншу мову'/>
+		<tbChangeGame Caption='Змінити теку' />
+		<tbFileAssociation Caption='Налаштування асоціації файлів' />
+		<btnSaveShaderInformation Caption='Зберегти інформацію про шейдери openFormats'/>
+		<!-- CheckBox's -->
+		<cbAlwaysOpenArchiveAfterRebuild Caption='Завжди відкривати архів після перезбирання'/>
+		<cbProtectModels Caption='Увімкнути захист геометрії за замовчуванням\n(перешкоджає подальшому експортуванню)'/>
+		<cbNotExportTextureToFolder Caption='Не зберігати текстури в окрему папку під час експорту OTD'/>
+		<cbMinimizeAtStartGame Caption='Згорнути $AppName$ при запуску гри'/>
+		<cbInstallUpdatesAutomatically Caption='Інсталювати оновлення автоматично'/>
+		<cbRenderAntialiasing Caption='Увімкнути AntiAliasing'/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption='Для файлів поза архівів використовувати переміщення в кошик замість видалення'/>
+		<cbShowRecycleConfirmation Caption='Показувати підтвердження „Кошику“'/>
+		<cbCloseArchivesAtStartGame Caption='Закривати всі відкриті архіви при запуску гри'/>
+		<!-- Label's -->
+		<gbGamePath Caption='Шлях до папки з $RageGAME_SHORT$'/>
+		<lbCurrentGamePath Caption='Поточна папка:'/>
+		<lbLang Caption='Оберіть мову інтерфейсу:'/>
+		<lbWorkMode Caption='Режим роботи за замовчуванням:'/>
+		<ttRageExe Caption='Для правильної роботи $AppName$ у вказаній папці має знаходитися файл $RageEncryptionStorage$'/>
+		<lbDefTextureFormat Caption="Формат файлів текстур за замовчуванням:"/>
+		<lbDefTextureFormatGlb Caption="Формат файлів текстур за замовчуванням:"/>
+		<gbModels Caption='Імпорт моделей (ODR/ODD)'/>
+		<lbDefaultGame Caption='Оберіть гру за замовчуванням:'/>
+		<lbRenderBackgroundColor Caption='Колір фону рендера:'/>
+		<lbCameraControl Caption='Схема контролю камери:'/>
+		<!-- Work Mode's -->
+		<WorkMode>
+			<Items>
+				<Item Index='0' Value='Редагування'/>
+				<Item Index='1' Value='Тільки перегляд'/>
+			</Items>
+		</WorkMode>
+		<!-- Render Background Color -->
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index='0' Value='За замовчуванням'/>
+				<Item Index='1' Value='Колір користувача'/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<!-- String's -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='Оберіть теку:'/>
+				<Item Index='1' Value='Доступні мови'/>
+				<Item Index='2' Value='$AppName$ — Попередження'/>
+				<Item Index='3' Value='Для вступу змін в силу вам необхідно перезапустити $AppName$.'/>
+			</StringList>
+		</AeroWindow>
+	</ConfigWindow>
+
+	<ConfigAssociationWindow Caption='$AppName$ — Асоціація'>
+		<lbTitle Caption='Вкажіть типи файлів, які повинні бути асоційовані з $AppName$'/>
+		<FileTypes>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='Тип'/>
+				<Item Index='2' Caption='Опис'/>
+				<Item Index='3' Caption='Підтримувані ігри'/>
+			</Columns>
+			<Groups>
+				<Item Index='0' Header='Пакети'/>
+				<Item Index='1' Header='Архіви'/>
+				<Item Index='2' Header='Ресурси'/>
+			</Groups>
+		</FileTypes>
+		<btnApply Caption='Застосувати'/>
+		<btnCancel Caption='Скасувати'/>
+		<AeroWindow LinesCount='0'>
+			<StringList>
+				<Item Index='0' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</ConfigAssociationWindow>
+	
+	<!-- EULA Window -->
+	
+	<EULAWindow Caption="Ліцензійна угода користувача — $AppName$">
+		<btnClose Caption='Закрити'/>
+	</EULAWindow>
+</Translation>

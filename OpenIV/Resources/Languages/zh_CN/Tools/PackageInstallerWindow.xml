@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow Caption='$AppName$  - 文件包安装器'>
+
+	</PackageInstallerWindow>
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">文件包安装器</string>
+		<string name="LICENCE">许可</string>
+		<string name="PACKAGE_READING_ERROR">文件包读取错误</string>
+		<string name="NOT_VALID_ZIP">文件包不是有效的ZIP档案。</string>
+		<string name="PACKAGE_CORRUPTED">文件可能不是$AppName$文件包或文件已损坏。</string>
+		<string name="UNSUPPORTED_VERSION">不支持的文件包版本</string>
+		<string name="UNSUPPORTED_VERSION_TEXT">当前版本的$AppName$无法安装此文件包。</string>
+		<string name="ASSEMBLY_UNKNOWN_FORMAT">文件"assembly.xml"含有未知格式。</string>
+		<string name="ASSEMBLY_MISSED">文件"assembly.xml"在ZIP档案中丢失。</string>
+		<string name="NO_SUPPORTED_GAEME">没有支持的游戏。</string>
+		<string name="CREATED_BY_">创建自 </string>
+		<string name="FOR_">为 </string>
+		<string name="_AND_"> 及 </string>
+		<string name="DESCRIPTION">描述</string>
+		<string name="NOT_FOR_THIS_GAME">不支持此游戏</string>
+		<string name="NOT_FOR_THIS_GAME_TEXT">此文件包不支持此游戏。\n请为$AppName$选择正确的游戏。</string>
+		<string name="RUN_">运行 </string>
+		<string name="INSTALLATION_FAILED">安装失败</string>
+		<string name="INSTALLATION_FAILED_TEXT">安装过程中出现了错误。</string>
+		<string name="SELECT_GAME_">选择游戏：</string>
+		<string name="SELECT_CONTENT_">选择要安装的内容：</string>
+		<string name="BACK">Back</string>
+		<string name="INSTALLATION_WAIT">安装中，请稍候...</string>
+
+		<string name="INSTALLATION_DONE_">安装完成。</string>
+		<string name="RUN_GAME">运行游戏</string>
+		<string name="RUN_GAME_TEXT">运行游戏以检查效果</string>
+
+		<string name="NOTE_GAME_CONFIG">注意：在使用文件包安装器之前你需要在$AppName$中配置游戏。</string>
+		<string name="UNABLE_TO_LOAD_GAME">无法加载游戏</string>
+		<string name="UNABLE_TO_LOAD_GAME_TEXT">无法加载游戏配置。在使用文件包安装器之前你需要在$AppName$中配置游戏。</string>
+		
+		<string name="LOADING">加载中...</string>
+		<string name="APP_UPDATE_TITLE">$AppName$更新可用</string>
+		<string name="APP_UPDATE_TEXT">$AppName$有一项新的更新可用。在启动文件包安装器之前你需要安装该更新。</string>
+		<string name="APP_RESTART">重新启动$AppName$</string>
+
+	</RenderUI>
+</Translation>

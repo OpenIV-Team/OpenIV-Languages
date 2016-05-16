@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='Пошук розташування — $AppName$'>	
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Пошук за ім’ям</string>
+		<string name="SEARCH_FOR_HASH">Пошук за хеш-значенням</string>
+
+		<string name="BANNER_TEXT_NAME">Введіть ім’я моделі</string>
+		<string name="BANNER_TEXT_HASH">Введіть хеш-значення</string>
+
+		<string name="SEARCH">Пошук</string>
+		<string name="STOP_SEARCH">Зупинити</string>
+		<string name="INCORRECT_HASH">Неправильне хеш-значення</string>
+		<string name="INCORRECT_HASH_TEXT">Рядок "%S" не є хеш-значенням.</string>
+
+		<string name="FILE_INFORMATION">Інформація про файли</string>
+		<string name="SHOW_DEFINITION">Показати визначення в IDE-файлі</string>
+		<string name="SHOW_IDE">Показати IDE-файл</string>
+		<string name="SHOW_ARCHIVE">Показати архів</string>
+		<string name="SHOW_RESOURCE">Показати ресурс</string>
+
+		<string name="HELP_TITLE">Пошук розташування — допомога</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Використовуйте мишу, щоб озирнутися, для переміщення використовуйте такі клавіши:
+
+     W — Рухатися вперед
+     S — Рухатися назад
+     A — Рухатися вліво
+     D — Рухатися вправо
+
+     NumPad 8 — Рухати камеру вгору
+     NumPad 2 — Рухати камеру вниз
+     NumPad 4 — Рухати камеру вліво
+     NumPad 6 — Рухати камеру вправо
+
+     Затисніть SHIFT — Для швидкого переміщення
+     Затисніть CTRL — Для повільного переміщення
+
+     Використовуйте колесо миші для масштабування.
+
+     ESC — Закрити «Пошук розташування»
+     Затисніть H щоб тимчасово приховати інтерфейс.
+]]>
+		</text>
+	</RenderUI>
+</Translation>

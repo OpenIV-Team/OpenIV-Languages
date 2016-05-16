@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='Додати до уподобань'>
+		<Label1 Caption='Ім’я:'/>
+		<Label2 Caption='Створено:'/>
+
+		<btnAdd Caption='Додати'/>
+		<btnCancel Caption='Скасувати'/>
+		<btnNewFolder Caption='Нова тека'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Уподобання'/>
+				<Item Index='1' Value='Створити теку'/>
+				<Item Index='2' Value='Ім’я теки: '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='Упорядкувати уподобання'>
+		<btnSave Caption='Зберегти'/>
+		<btnCancel Caption='Скасувати'/>
+		<btnNewFolder Caption='Нова тека'/>
+		<btnRemove Caption='Видалити'/>
+		<btnClear Caption='Очистити'/>
+
+		<Label1 Caption='Використовувайте перетягування для упорядкування уподобань.'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Уподобання'/>
+				<Item Index='1' Value='Створити теку'/>
+				<Item Index='2' Value='Ім’я теки: '/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Rebuild tool -->
+
+	<RebuildToolWindow Caption='$AppName$ — Перезбирання архівів'>
+		<!-- Actions -->
+		<actClose Caption='Закрити'/>
+		<actRebuild Caption='Перезібрати'/>
+		<actAddFile Caption='Додати файли'/>
+		<actAddFolder Caption='Додати теку'/>
+		<actRemoveFile Caption='Видалити файл'/>
+		<actClear Caption='Очистити список'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='Ім’я'/>
+				<Item Index='2' Caption='Розташування'/>
+				<Item Index='3' Caption='Тип'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='Усе готово.'/>
+				<Item Index='1' Value='$AppName$ — Архів перезібраний'/>
+				<Item Index='2' Value='Відкрити перезібраний архів?'/>
+				<Item Index='3' Value='Деякі архіви не оброблені.'/>
+			</StringList>
+		</AeroWindow>
+	</RebuildToolWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption='Інформація про архів'>
+		<!-- Button's -->
+		<btnClose Caption='Закрити'/>
+		<!-- Label's -->
+		<lbType Caption='Тип:'/>
+		<lbVersion Caption='Версія:'/>
+		<lbCount Caption='Всього елементів:'/>
+
+		<lbCGame Caption='Поточна гра:'/>
+		<lbCPlatform Caption='Платформа:'/>
+
+		<lbCodeModule Caption='Модуль:'/>
+		<lbCMVersion Caption='Версія модуля:'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='$AppName$ — openFormats'>
+		<!-- Label's -->
+		<lbOfFileName Caption='Імпортований файл:'/>
+		<lbOfFiles Caption='Файли для імпорту:'/>
+		<lbNewFileName Caption='Ім’я нового файлу:'/>
+		<!-- Button's -->
+		<btnAdd Caption='Додати'/>
+		<btnRemove Caption='Приховати'/>
+		<btnCancel Caption='Скасувати'/>
+		<btnOk Caption='Далі'/>
+		<tbLeanMore Caption='Дізнатись більше про openFormats'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='Захист геометрії (перешкоджає подальшому експорту)'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption='$AppName$ — openFormats validator'>
+		<lbTitle Caption='Звіт про імпорт openFormats'/>
+		<btnClose Caption='Закрити'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value='Деякі файли не імпортовані, додаткова інформація доступна нижче.'/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(Рядок %D): Версія ресурса не підтримується : застосунок зіткнувся з "%S", але очікував "%D".'/>
+				<Item Index='2' Value='%S(Рядок %D): Версія формата не підтримується : застосунок зіткнувся з "%S", але очікував "%D".'/>
+				<!-- Common errors -->
+				<Item Index='3' Value='Фатальна помилка: Неможливо ініціалізувати Direct3D.'/>
+				<Item Index='4' Value='Фатальна помилкаr: Файл "%S" не знайдено.'/>
+				<Item Index='5' Value='%S(Рядок %D): Файл "%S" не знайдено.'/>
+				<Item Index='6' Value='%S(Рядок %D): Файл пошкоджено.'/>
+				<Item Index='7' Value='%S(Рядок %D): Властивість "%s" очікувано, але "%s" знайдено.'/>
+				<Item Index='8' Value='%S(Рядок %D): Властивість "%s" не знайдено.'/>
+				<Item Index='9' Value='%S(Рядок %D): Не вистачає фактичних параметрів.'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(Рядок %D): Невідомий тип колізії "%S".'/>
+				<Item Index='11' Value='%S(Рядок %D): Колізія занадто велика.'/>
+				<Item Index='12' Value='%S(Рядок %D): Колізію пошкоджено.'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value='%S(Рядок %D): Ім’я кості не вказано.'/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(Рядок %D): Меш заблоковано.'/>
+				<Item Index='15' Value='%S(Рядок %D): Індекс матеріалу поза межами.'/>
+				<Item Index='16' Value="%S(Рядок %D): Шейдер незаскінено."/>
+				<Item Index='17' Value="%S(Рядок %D): Забагато костей в одній геометрії, ви не можете використовувати більше 48."/>
+
+				<Item Index='18' Value="%S(Рядок %D): %S"/>		
+			</StringList>
+		</AeroWindow>	
+	</openFormatsValidatorWindow>
+
+</Translation>

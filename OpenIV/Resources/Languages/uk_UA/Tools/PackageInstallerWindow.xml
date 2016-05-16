@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow Caption='Інсталятор пакетів $AppName$'>
+
+	</PackageInstallerWindow>
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Інсталятор пакетів</string>
+		<string name="LICENCE">Ліцензія</string>
+		<string name="PACKAGE_READING_ERROR">Помилка читання архіву</string>
+		<string name="NOT_VALID_ZIP">Файл не є правильним ZIP-архівом.</string>
+		<string name="PACKAGE_CORRUPTED">Можливо, файл не є пакетом $AppName$, або він пошкоджений.</string>
+		<string name="UNSUPPORTED_VERSION">Непідтримувана версія пакету</string>
+		<string name="UNSUPPORTED_VERSION_TEXT">Цей пакет не може бути інстальований за допомогою поточної версії $AppName$.</string>
+		<string name="ASSEMBLY_UNKNOWN_FORMAT">Файл "assembly.xml" має невідомий формат.</string>
+		<string name="ASSEMBLY_MISSED">Файл "assembly.xml" відсутній в ZIP-архіві.</string>
+		<string name="NO_SUPPORTED_GAEME">Немає жодної підтримуваної гри.</string>
+		<string name="CREATED_BY_">Створений </string>
+		<string name="FOR_">для </string>
+		<string name="_AND_"> та </string>
+		<string name="DESCRIPTION">Опис</string>
+		<string name="NOT_FOR_THIS_GAME">Не для цієї гри</string>
+		<string name="NOT_FOR_THIS_GAME_TEXT">Цей пакет не підтримує поточну гру. Будь ласка, перезапустіть $AppName$ з необхідною грою.</string>
+		<string name="RUN_">Стартувати</string>
+		<string name="INSTALLATION_FAILED">Інсталяція скінчилася невдачею.</string>
+		<string name="INSTALLATION_FAILED_TEXT">Під час інсталяції сталися помилки.</string>
+		<string name="SELECT_GAME_">Оберіть гру:</string>
+		<string name="SELECT_CONTENT_">Оберіть варіант інсталяції: </string>
+		<string name="BACK">Назад</string>
+		<string name="INSTALLATION_WAIT">Виконується інсталяція, будь ласка, зачекайте...</string>
+		
+		<string name="INSTALLATION_DONE_">Інсталяцію завершено.</string>
+		<string name="RUN_GAME">Запустити гру</string>
+		<string name="RUN_GAME_TEXT">Запустити игру та подивитись на результат</string>
+		
+		<string name="NOTE_GAME_CONFIG">Увага: Вам необхідно налаштувати ігри в $AppName$ перед використанням інсталятора пакетів.</string>
+		<string name="UNABLE_TO_LOAD_GAME">Не вдалося завантажити гру</string>
+		<string name="UNABLE_TO_LOAD_GAME_TEXT">Не вдалося завантажити конфігурацію гри. Вам необхідно налаштувати гру в $AppName$ перед використанням інсталятора пакетів.</string>	
+
+		<string name="LOADING">Loading...</string>
+		<string name="APP_UPDATE_TITLE">Оновлення $AppName$</string>
+		<string name="APP_UPDATE_TEXT">Оновлення для $AppName$ доступно. Вам необхідно встановити це оновлення, інакше ви не зможете запустити інсталятор пакетів.</string>
+		<string name="APP_RESTART">Перезапустити $AppName$</string>
+		
+	</RenderUI>
+</Translation>

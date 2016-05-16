@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageScriptWindow Caption='Просмотр SCO - '>
+		<!-- Button's -->
+		<btnSave Caption='Сохранить как текст'/>
+		<btnClose Caption='Закрыть'/>
+		<btnASMBack Caption='&lt;&lt; Назад'/>
+		<btnCFList Caption='Скрыть список'/>
+		<btnCodeList Caption='Скрыть список'/>
+		<!-- Tabs -->
+		<tbASM Caption='ASM code'/>
+		<tbCFASM Caption='Control Flow ASM code'/>
+		<tbCODE Caption='High Level Code'/>
+		<Label1 Caption='Фильтр:'/>
+		<!-- Menu -->
+		<N1 Caption='Перейти к адресу'/>
+		<N2 Caption='Копировать линию'/>
+		<N3 Caption='Фильтровать по этому'/>
+		<!-- Text menu -->
+		<miCopyText Caption='Копировать'/>
+		<miFind Caption='Найти...'/>
+		<miSelectAll Caption='Выделить всё'/>
+		<miCopyAll Caption='Скопировать всё'/>
+		<!-- Save code menu -->
+		<N4 Caption='Сохранить как текст'/>
+		<N5 Caption='Сохранить как HTML'/>	
+		<!-- String's -->
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='Загрузка SCO файла...'/>
+				<Item Index='1' Value='[STEP1]'/>
+				<Item Index='2' Value='[STEP2]'/>
+				<Item Index='3' Value='[STEP3]'/>
+				<Item Index='4' Value='Показывать все'/>
+			</StringList>
+		</AeroWindow>
+	</RageScriptWindow>
+</Translation>

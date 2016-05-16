@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ - 定位搜索'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">查找名称</string>
+		<string name="SEARCH_FOR_HASH">查找哈希值</string>
+
+		<string name="BANNER_TEXT_NAME">类型模型名称</string>
+		<string name="BANNER_TEXT_HASH">类型模型哈希值</string>
+
+		<string name="SEARCH">搜索</string>
+		<string name="STOP_SEARCH">停止搜索</string>
+		<string name="INCORRECT_HASH">不正确的哈希值</string>
+		<string name="INCORRECT_HASH_TEXT">"%S"不是一个有效的哈希值。</string>
+
+		<string name="FILE_INFORMATION">文件信息</string>
+		<string name="SHOW_DEFINITION">显示IDE文件定义</string>
+		<string name="SHOW_IDE">显示IDE文件</string>
+		<string name="SHOW_ARCHIVE">显示档案</string>
+		<string name="SHOW_RESOURCE">显示资源文件</string>
+
+		<string name="HELP_TITLE">定位搜索 - 帮助</string>
+		<text name="HELP_TEXT">
+			<![CDATA[使用鼠标来移动视角，使用以下按键来移动：
+			
+    W - 向前移动
+    S - 向后移动
+    A - 向左移动
+    D - 向右移动
+
+    小键盘 8 - 向上移动镜头
+    小键盘 2 - 向下移动镜头
+    小键盘 4 - 向左移动镜头
+    小键盘 6 - 向右移动镜头
+
+    按住SHIFT - 快速移动
+    按住CTRL - 慢速移动
+    使用鼠标滚轮来缩放。
+	
+    ESC - 关闭定位搜索窗口
+    按住H - 临时隐藏HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

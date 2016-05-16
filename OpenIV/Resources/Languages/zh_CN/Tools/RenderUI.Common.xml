@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<!-- common -->
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_LINK">点击此处获取帮助</string>
+
+		<!-- Common words -->
+		<string name="TRUE">真</string>
+		<string name="FALSE">假</string>
+		<string name="YES">是</string>
+		<string name="NO">否</string>
+		<string name="OK">确定</string>
+		<string name="CANCEL">取消</string>
+		<string name="CLOSE">关闭</string>
+		<string name="SAVE">保存</string>
+		<string name="IMPORT">导入</string>
+
+		<!-- Camera -->
+		<string name="CAMERA_MODE">镜头模式：</string>
+		<string name="CAMERA_MODE_FREE">自由</string>
+		<string name="CAMERA_MODE_AROUND">环绕</string>
+
+		<!-- Options -->
+		<string name="SHOW_GRID">显示格线：</string>
+		<string name="GEOMETRY">几何：</string>		
+		<string name="EDGED_FACES">边缘面：</string>
+		<string name="DISPLAY_POINTS">显示顶点：</string>
+
+		<!-- Base information -->
+		<string name="POLYGONS">多边形：</string>
+		<string name="VERTICES">顶点：</string>
+
+		<!-- LOD -->
+		<string name="LOD">细节等级</string>
+		<string name="LOD_HIGH">高</string>
+		<string name="LOD_MED">中</string>
+		<string name="LOD_LOW">低</string>
+		<string name="LOD_VLOW">非常低</string>
+
+		<!-- Textures -->
+		<string name="USING_TEXTURES">使用贴图：</string>
+		<string name="ADD_TEXTURE">[+] 添加贴图</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ 导出内嵌贴图 ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ 浏览内嵌贴图 ]</string>
+
+		<!-- Information -->
+		<string name="MORE_INFORMATION">[ 更多信息 ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">导出所有内嵌贴图</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">导出选定内嵌贴图</string>
+		<string name="COUNT_">数量：</string>
+		<string name="SELECT_OBJECT">选择物件</string>
+		<string name="COPY_SKELETON_INFO">复制骨架信息</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">无法复制</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">复制到剪贴板失败。</string>
+
+		<!-- Information tabs -->
+		<string name="INFO_GEOMETRIES">几何</string>
+		<string name="INFO_SKELETON">骨架</string>
+		<string name="INFO_SHADERS">着色器</string>
+		<string name="INFO_TEXTURES">贴图</string>
+
+		<!-- Information mesh tabs -->
+		<string name="TAB_LOD_HIGH">高</string>
+		<string name="TAB_LOD_MED">中</string>
+		<string name="TAB_LOD_LOW">低</string>
+		<string name="TAB_LOD_VLOW">非常低</string>
+
+		<!-- Columns -->
+		<string name="COLUMN_SPS">SPS</string>
+		<string name="COLUMN_SHADER">着色器</string>
+		<string name="COLUMN_PARAMETERS">参数</string>
+
+		<string name="COLUMN_NAME">名称</string>
+		<string name="COLUMN_TYPE">类型</string>
+		<string name="COLUMN_VALUE">值</string>
+
+		<string name="COLUMN_INDEX">索引</string>
+		<string name="COLUMN_INDEX_COUNT">索引数量</string>
+		<string name="COLUMN_FACE_COUNT">面数量</string>
+		<string name="COLUMN_VERTEX_COUNT">顶点数量</string>
+		
+		<!-- Export texture format dialog -->
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">请选择文件格式：</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">浏览及寻常用途的最佳选择。</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">若想要在随后导入这些贴图，请选择此项。</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG Image (*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">导出时可能导致质量损失。</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap image (*.bmp)</string>
+
+	</RenderUI>
+</Translation>

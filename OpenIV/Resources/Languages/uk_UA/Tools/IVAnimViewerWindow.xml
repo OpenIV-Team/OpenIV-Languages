@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='Засіб перегляду анімації $AppName$'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Переглядач анімацій</string>
+		<string name="START_PED">Анімація персонажів</string>
+		<string name="START_MAP">Анімація об’єктів карти</string>
+		<string name="START_CUT">Кат-сцени</string>
+		<string name="CHANGE_PED_MODEL">Змінити модель</string>
+		<string name="SELECT_PED_MODEL">Оберіть модель персонажа</string>
+		<string name="LOADING___">завантаження…</string>
+		<string name="EMPTY_CUTSCENE">Пуста кат-сцена</string>
+		<string name="EMPTY_CUTSCENE_MSG">Неможливо відкрити пусту кат-сцену.</string>
+		<string name="MISSED_ANIMATIONS">Анімації відсутні</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ не може завантажити деякі анімації, оскільки файли відсутні.</string>
+		<string name="FRAMES_">Кадри: </string>
+		<string name="TIME_SCALE_X">Швидкість: x</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Переглядач анімацій — Допомога</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Оберіть категорію і відтворіть будь-яку анімацію. ]]>
+		</text>
+	</RenderUI>
+</Translation>

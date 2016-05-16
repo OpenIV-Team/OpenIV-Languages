@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='Засіб перегляду моделей $AppName$'>
+		<pmiCopyName Caption='Копіювати ім’я'/>
+		<pmiCopyHash Caption='Копіювати хеш-значення'/>
+		<pmiCopyNameAndHash Caption='Копіювати ім’я і хеш-значення'/>
+		<pmiHigh Caption='Високий (High)'/>
+		<pmiMed Caption='Середній (Med)'/>
+		<pmiLow Caption='Низький (Low)'/>
+		<pmiVLow Caption='Дуже низький (VLow)'/>
+		<miLeft Caption='На лівій стороні'/>
+		<miRight Caption='На правій стороні'/>
+		<miCheckAll Caption='Виділити всі' />
+		<miUncheckAll Caption='Скасувати виділення' />
+		<paneDictionary Caption='Елементи'/>
+		<cbMultipleRendering Caption='Множинний рендеринг'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Завантажити зі зовнішнього файлу'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_TITLE">Переглядач моделей - Довідка</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Використовуйте мишу, щоб озирнутися, для переміщення використовуйте такі клавіши:
+
+     W — Рухатися вперед
+     S — Рухатися назад
+     A — Рухатися вліво
+     D — Рухатися вправо
+
+     NumPad 8 — Рухати камеру вгору
+     NumPad 2 — Рухати камеру вниз
+     NumPad 4 — Рухати камеру вліво
+     NumPad 6 — Рухати камеру вправо
+
+     Затисніть SHIFT — Для швидкого переміщення
+     Затисніть CTRL — Для повільного переміщення
+     Використовуйте колесо миші для масштабування.
+
+Щоб додати додаткові текстури клацніть «[+] Додати» у правому нижньому куті вікна. Щоб видалити текстуру клацніть на посилання «[-]» біля імені текстури.
+
+Щоб змінити параметри відображення використовуйте меню в правій частині вікна, або ці клавіши:
+
+     F1 — Сховати / показати цю довідку
+     F2 — Сховати / показати інформацію про модель
+     C — Переключити режим камери
+     F — Переключити показ ребер
+     P — Переключити показ вершин
+     G — Переключити показ геометрії
+     L — Переключити рівень деталізації
+     ESC — Закрити вікно
+
+     Затисніть H щоб тимчасово приховати інтерфейс.
+]]>
+		</text>
+		<string name="CHECK_ALL">Виділити все</string>
+		<string name="UNCHECK_ALL">Скасувати виділення</string>
+		<string name="MULTIPLE_RENDERING">Множинний рендеринг</string>
+		<string name="BOUND_TYPE">Тип:</string>
+		<string name="CHILD_COUNT">Кількість:</string>
+	</RenderUI>
+</Translation>

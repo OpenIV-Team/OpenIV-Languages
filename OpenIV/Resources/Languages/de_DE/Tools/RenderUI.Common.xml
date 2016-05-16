@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<!-- common -->
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_LINK">Hier für Hilfe klicken</string>
+
+		<!-- Common words -->
+		<string name="TRUE">An</string>
+		<string name="FALSE">Aus</string>
+		<string name="YES">Ja</string>
+		<string name="NO">Nein</string>
+		<string name="OK">OK</string>
+		<string name="CANCEL">Abbrechen</string>
+		<string name="CLOSE">Schließen</string>
+		<string name="SAVE">Speichern</string>
+		<string name="IMPORT">Importieren</string>
+		<string name="SEARCH">Suchen</string>
+		
+		<!-- Camera -->
+		<string name="CAMERA_MODE">Kameramodus:</string>
+		<string name="CAMERA_MODE_FREE">Frei</string>
+		<string name="CAMERA_MODE_AROUND">Herum</string>
+
+		<!-- Options -->
+		<string name="SHOW_GRID">Grid anzeigen:</string>
+		<string name="GEOMETRY">Geometrie:</string>		
+		<string name="EDGED_FACES">Scharfe Flächen:</string>
+		<string name="DISPLAY_POINTS">Punkte anzeigen:</string>
+
+		<!-- Base information -->
+		<string name="POLYGONS">Vielecke:</string>
+		<string name="VERTICES">Eckpunkte:</string>
+
+		<!-- LOD -->
+		<string name="LOD">Detailstärke:</string>
+		<string name="LOD_HIGH">High</string>
+		<string name="LOD_MED">Med</string>
+		<string name="LOD_LOW">Low</string>
+		<string name="LOD_VLOW">VLow</string>
+
+		<!-- Textures -->
+		<string name="USING_TEXTURES">Texturen benutzen:</string>
+		<string name="ADD_TEXTURE">[+] Textur hinzufügen</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Eingebettete Texturen exportieren ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ Eingebettete Texturen anzeigen ]</string>
+
+		<!-- Information -->
+		<string name="MORE_INFORMATION">[ Mehr Informationen ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Alle eingebetteten Texturen exportieren</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Ausgewählte eingebettete Texturen exportieren</string>
+		<string name="COUNT_">Anzahl: </string>
+		<string name="SELECT_OBJECT">Objekt auswählen</string>
+		<string name="COPY_SKELETON_INFO">Sklettinfo kopieren</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Kopieren fehlgeschlagen</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Das Kopieren in die Zwischenablage ist fehlgeschlagen.</string>
+
+		<!-- Information tabs -->
+		<string name="INFO_GEOMETRIES">Geometrie</string>
+		<string name="INFO_SKELETON">Sklett</string>
+		<string name="INFO_SHADERS">Shader</string>
+		<string name="INFO_TEXTURES">Texturen</string>
+
+		<!-- Information mesh tabs -->
+		<string name="TAB_LOD_HIGH">Hoch</string>
+		<string name="TAB_LOD_MED">Medium</string>
+		<string name="TAB_LOD_LOW">Schwach</string>
+		<string name="TAB_LOD_VLOW">Sehr schwach</string>
+
+		<!-- Columns -->
+		<string name="COLUMN_SPS">SPS</string>
+		<string name="COLUMN_SHADER">Shader</string>
+		<string name="COLUMN_PARAMETERS">Parameter</string>
+
+		<string name="COLUMN_NAME">Name</string>
+		<string name="COLUMN_TYPE">Typ</string>
+		<string name="COLUMN_VALUE">Wert</string>
+
+		<string name="COLUMN_INDEX">Index</string>
+		<string name="COLUMN_INDEX_COUNT">Anzahl: Index</string>
+		<string name="COLUMN_FACE_COUNT">Flächen</string>
+		<string name="COLUMN_VERTEX_COUNT">Ecken</string>
+		
+		<!-- Export texture format dialog -->
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Bitte wähle ein Dateiformat:</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Beste Auswahl für allgemeine Zwecke.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Oberfläche (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Beste Auswahl zum späteren Import.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG - Bild (*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Beim Exportieren kann Qualität verloren gehen.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap - Bild (*.bmp)</string>
+
+	</RenderUI>
+</Translation>

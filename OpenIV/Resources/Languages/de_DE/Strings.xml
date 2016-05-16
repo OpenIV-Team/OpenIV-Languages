@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GlobalStrings>
+	<StringList>
+		<Item Index='00' Value='Fortschritt...'/>
+		<Item Index='01' Value='Aktuelle Datei: '/>
+		<Item Index='02' Value='Suche - $AppName$ '/>
+		<Item Index='03' Value='Sucht, bitte warten...'/>
+		<Item Index='04' Value='Schließen'/>
+		<Item Index='05' Value=''/>
+		<Item Index='06' Value='Ja'/>
+		<Item Index='07' Value='Nein'/>
+		<Item Index='08' Value=' Byte'/>
+		<Item Index='09' Value=' KB'/>
+		<Item Index='10' Value=' MB'/>
+		<Item Index='11' Value='Warnung, du bist im Bearbeitungsmodus!'/>
+		<Item Index='12' Value='Während du im Bearbeitungsmodus bist, werden alle Änderungen automatisch gespeichert.\nWillst du fortsetzen?'/>
+		<Item Index='13' Value='Zielverzeichnis:'/>
+		<Item Index='14' Value='Externe Anwendung funktioniert...'/>
+		<Item Index='15' Value='%S neu erstellen'/>
+		<Item Index='16' Value='$AppName$ - Information'/>
+		<Item Index='17' Value='Fehler beim Laden der Datei, wahrscheinlich ist sie kaputt.'/>
+		<Item Index='18' Value='$AppName$ - Fehler beim Öffnen der Datei'/>
+		<Item Index='19' Value='Unbekanntes Dateiformat.'/>
+		<Item Index='20' Value='%S version %D wird nicht unterstützt.'/>
+		<Item Index='21' Value="$AppName$ kann das Archiv nicht öffnen, Grund:\n"/>
+		<Item Index='22' Value='$AppName$ - Archiv erstellen'/>
+		<Item Index='23' Value="Der Archivname darf nicht leer sein."/>
+		<Item Index='24' Value='openFormats - Import'/>
+		<Item Index='25' Value='Unbekannte Dateierweiterung: %S'/>
+		<Item Index='26' Value='$AppName$ - DirectX Fehler'/>
+		<Item Index='27' Value='$AppName$ konnte Direct3D nicht initialisieren.'/>
+		<Item Index='28' Value='$RageGAME_SHORT$ starten'/>
+		<Item Index='29' Value="$AppName$ konnte die zugehöroge IDE - Datei nicht finden."/>
+		<Item Index='30' Value="$AppName$ kann die Datei nicht öffnen. Hier ist eine Liste mit möglichen Gründen:\n\nZugriff verweigert. Versuche $AppName$ mit Administratorrechten auszuführen.\nEin Anderer Prozess greift auf die Datei zu. Schließe andere Programme und versuch es noch einmal.\n\n"/>	
+		<Item Index='31' Value='Zielverzeichnis:'/>
+		<Item Index='32' Value='Archiv konnte nicht geöffnet werden: Unbekannter Fehler.'/>
+		<Item Index='33' Value='Archiv konnte nicht geöffnet werden: Pfad nicht gefunden.'/>
+		<Item Index='34' Value='Archiv konnte nicht geöffnet werden: Zugriff verweigert oder die Datei wird von einem anderen Programm benutzt.'/>
+		<Item Index='35' Value='Archiv konnte nicht geöffnet werden: Unbekanntes Dateiformat oder das Archiv ist beschädigt.'/>
+		<Item Index='36' Value='Archiv konnte nicht geöffnet werden: Beschädigtes Archiv.'/>
+		<Item Index='37' Value='Archiv konnte nicht geöffnet werden: Unbekannter Schlüssel, wahrscheinlich wurde das Archiv für eine andere Plattform oder ein anderes Spiel erstellt.'/>
+		<Item Index='38' Value='Neues Archiv konnte nicht erstellt werden.'/>
+		<Item Index='39' Value='$AppName$ - Kein Audiowiedergabegerät'/>
+		<Item Index='40' Value='Die Audiodatei konnte nicht wiedergegeben werden. Es ist kein Audiowiedergabegerät verfügbar.'/>
+	</StringList>
+	<tools>
+		<item Name="Tools.Common.Search" Title="Suche" Hint="Suche öffnen"/>
+		<item Name="Tools.GTAIV.PlacementSearch" Title="Platzsuche" Hint="Platzsuche öffnen"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Ort finden" Hint="Platzsuche"/>
+		<item Name="Tools.Common.HashGenerator" Title="Hash Generator" Hint="Hash Generator öffnen"/>
+		<item Name="Tools.Common.RunGame" Title="$RageGAME_SHORT$ öffnen" Hint="$RageGAME$ öffnen"/>	
+		<item Name="Files.GTAEngine.TextViewer" Title="GXT Vorschau" Hint=""/>		
+		<item Name="Files.Resources.TextureEditor" Title="Texturenvorschau" Hint=""/>
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Texturenbearbeitungswerkzeug" Hint=""/>				
+		<item Name="Files.Common.AudioPlayer" Title="Audiowiedergabe" Hint=""/>	
+		<item Name="Files.Resources.CollisionViewer" Title="Collision Viewer" Hint=""/>
+		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD Modell Vorschau" Hint=""/>
+		<item Name="Files.Resources.FragmentsViewer" Title="WFT Modell Vorschau" Hint=""/>
+		<item Name="Files.Resources.NavmeshViewer" Title="NavMesh Vorschau" Hint=""/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="In IDE finden" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Animationswiedergabe" Hint="Animationswiedergabe öffnen"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Packetinstallationsprogramm" Hint="Packetinstallationsprogramm öffnen"/>
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="In openFormats exportieren (.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 Vorschau" Hint=""/>		
+		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>
+	</tools>
+</GlobalStrings>
