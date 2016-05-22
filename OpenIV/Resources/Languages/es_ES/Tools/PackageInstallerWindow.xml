@@ -37,7 +37,11 @@
 		<string name="INSTALLING_ERROR_TITLE">Error en el paquete de instalación</string>
 
 		<string name="ERROR_GROUP_UNKNOWN">Error desconocido</string>
-		<string name="ERROR_CODE_UNKNOWN">Algo pasó.</string>
+		<string name="ERROR_CODE_UNKNOWN">Algo pasó. Por favor chequea el archivo log para los detalles del error.</string>
+ 		<string name="ERROR_INSTALLATION">Un error faltar a ocurrido durante la instalación. Por favor chequea el archivo log para los detalles del error.</string>
+ 		<string name="CHECK_LOG_FILE">Por favor chequea el archivo log para los detalles del error.</string>	
+ 		<string name="OPEN_INSTALLATION_LOG">Abrir el log de instalación</string>
+ 		<string name="OPEN_LOG_FILE">Abrir el archivo log</string>
 
 		<!-- LOADING -->
 		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">El archivo de paquete no es un archivo ZIP valido.</string>
@@ -63,6 +67,9 @@
 
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Este paquete no puede ser instalado en $RageGAME$. Por favor chequea la lista de juegos soportados en la sección de información adicional.</string>
-
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Algunos archivos están perdidos en el paquete de archivos.</string>
+		
+ 		<!-- Notes -->
+ 		<string name="INSTALL_NOTE_NO_UNINSTALL">Este paquete no puede ser desinstalado automáticamente.</string>		
 	</RenderUI>
 </Translation>

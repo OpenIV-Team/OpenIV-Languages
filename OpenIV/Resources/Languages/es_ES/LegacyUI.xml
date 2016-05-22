@@ -93,16 +93,24 @@
 		</AeroWindow>
 		<!-- Others -->
 		<SearchBox BannerText='Buscar'/>		
-		<!-- GTA V (ASI) -->
+		<!-- Notificacion: GTA V (ASI) -->
 		<lbGTAVPluginTitle Caption='Instalar plugin para GTA V'/>
 		<lbGTAVPluginText Caption='Tienes que instalar ASI Loader y el ASI plugin de OpenIV para tu GTA V, de lo contrario el juego no cargará archivos RPF modificados.\nNo juegues GTA Online con un RPF modificado, serás baneado.'/>
 		<btnGTAVPluginAction Caption="ASI Manager"/>
+		<!-- Notification: copy to mods folder -->
+		<lbNotInModsTitle Caption='La carpeta de "mods"'/>
 		<lbNotInModsText Caption='El archivo que estas editando actualmente no está localizado en la carpeta "mods".'/>
 		<btnHideThisNotification Caption="Esconder esta notificación."/>
 		<btnCopyToMods Caption='Copiar a la carpeta "mods"'/>
 		<btnShowInMods Caption='Mostrar en la carpeta "mods"'/>
-		<lbCopyNewUpdateToMods Caption='Tienes una versión desactualizada de update.rpf en tu carpeta de "mods"'/>
+		<!-- Notification: update.rpf -->
+		<lbCopyNewUpdateToModsTitle Caption='Grand Theft Auto V Actualización de Título'/>
+		<lbCopyNewUpdateToMods Caption='Tienes una versión desactualizada de update.rpf en tu carpeta de "mods". Tienes que copiar la nueva versión de de “update.rpf” dentro de tu carpeta de “mods”, de otra manera tu juego posiblemente deje de funcionar.'/>
 		<btnCopyUpdateToMods Caption='Copiar nueva versión a la carpeta de "mods"'/>
+		<!-- Notification: Admin mode -->
+ 		<lbAdminModeTitle Caption='Modo Administrador'/>
+ 		<lbAdminModeText Caption='Tu $AppName$ está funcionando en modo administrador. Algunas características como arrastrar y soltar desde el Explorador de Windows puede que no funcionen. Usualmente, usted no necesita iniciar $AppName$ en modo administrador.'/>
+ 		<btnAdminModeAction Caption='¿Qué puedo hacer?'/>
 	</MainWindow>	
 
 	<ActionsModule>
@@ -136,7 +144,7 @@
 		<actOpen     Caption='Abrir archivo...' Hint='Abrir archivo existente'/>
 		<actOpenPC   Caption='Abrir contenido...' Hint=''/>
 		<actOpenArchiveProperties  Caption='Propiedades del archivo' Hint=''/>
-		<actRebuild  Caption='Recopilar' Hint='Recopilar archivo actual'/>
+		<actDefragmentation Caption="Defragmentation" Hint="Archive Defragmenter"/>
 		<actEditMode Caption='Modo Edición'  Hint=''/>
 		<actReadMode Caption='Modo Lectura'  Hint=''/>
 		<actClose    Caption='Cerrar archivo' Hint='Cerrar archivo actual'/>
@@ -210,6 +218,10 @@
 		<actTreeCopyAsPath Caption='Copiar como ruta' Hint=''/>
 		<actTreeShowInWindowsExplorer Caption='Mostrar en el Explorador de Windows' Hint=''/>
 		<actTreeCloseArchive Caption='Cerrar archivo' Hint=''/>
+		<actTreeCopyToModsFolder Caption='Copiar a la carpeta de "mods"' Hint=""/>
+  		<actTreeShowInModsFolder Caption='Mostrar en la carpeta de "mods"' Hint=""/>
+		<actTreeCollapseThis Caption='Colapsar este' Hint=""/>
+		<actTreeCollapseAll Caption='Colapsar todos' Hint=""/>
 		<!-- Strings -->
 		<Strings SetCount='100'>
 			<Lines>
@@ -259,6 +271,9 @@
 				<Item Index='43' Value="Incapaz de borrar archivo."/>
 				<Item Index='44' Value="Incapaz de remplazar archivo."/>
 				<Item Index='45' Value="Incapaz de crear nuevo archivo."/>
+				<Item Index="46" Value="Caracteres invalidos en el nombre."/>
+				<Item Index="47" Value="Especifica un nombre diferente."/>
+				<Item Index="48" Value="Ya hay un item con el mismo nombre en la carpeta que usted especificó."/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -272,6 +287,21 @@
 		<btnClose Caption='Cerrar'/>
 		<cbDoNotShow Caption='No mostrar este mensaje de nuevo'/>
 	</EditModeHelpWindow>
+	
+	<AdminModeWindow Caption="Administrador - $AppName$">
+ 		<lbText Caption="No hay una razón real para iniciar $AppName$ en modo administrador. $AppName$ no requiere ningun privilegio de Administrador para funcionar correctamente. De otra manera cuando tu inicias $AppName$ como Administrador algunas características como arrastrar y soltar desde el Explorador de Windows puede que no funcionen. Es más probable que tu inicies $AppName$ como Administrador porque tu juego está instalado en algún lugar de las carpetas del sistema (b.g. C:\Archivos de Programa\...) y la cuenta de un user normal no tiene permisos para escribir en esta carpeta.\n\nTu puedes establecer todos los permisos requeridos a la carpeta de tu juego utilizando esta herramienta y luego reiniciando $AppName$ sin permisos de Administrador."/>
+ 		<btnSetPermissions Caption="Establecer permisos"/>
+ 		<btnClose Caption="Cerrar"/>
+ 		<AeroWindow LinesCount="5">
+ 			<StringList>
+ 				<Item Index="0" Value="Error - $AppName$"/>
+ 				<Item Index="1" Value="Todo hecho.\nLos permisos fueron establecidos a la carpeta de tu juego."/>
+ 				<Item Index="2" Value="Incapaz de establecer los permisos.\nCódigo de retorno: "/>
+ 				<Item Index="3" Value="La carpeta del juego no existe."/>
+ 				<Item Index="3" Value="La herramienta de Establecer permisos no existe. Por favor reinstalar $AppName$."/>
+ 			</StringList>
+ 		</AeroWindow>
+ 	</AdminModeWindow>
 
 	<!-- Web window -->
 
@@ -320,18 +350,20 @@
 		<cbShowRecycleConfirmation Caption='Mostrar confirmación de reciclaje'/>
 		<cbCloseArchivesAtStartGame Caption='Cerrar todos los archivos abiertos al iniciar el juego'/>
 		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Mostrar notificación mientras se esté editando un archivo fuera de la carpeta "mods"'/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Borrar filtrador de busqueda luego de abierto el archivo'/>
 		<!-- Label's -->
 		<gbGamePath Caption='Directorio de $RageGAME_SHORT$'/>
 		<lbCurrentGamePath Caption='Actual directorio:'/>
 		<lbLang Caption='Selecciona el lenguaje de la interfaz:'/>
-		<lbWorkMode Caption='Modo de trabajo por defecto:'/>
+		<lbWorkMode Caption='Modo de trabajo por defecto'/>
 		<ttRageExe Caption='Para hacer que $AppName$ trabaje, en este directorio tiene que estar el archivo: $RageEncryptionStorage$'/>
-		<lbDefTextureFormat Caption="Formato de archivo de textura por defecto:"/>
-		<lbDefTextureFormatGlb Caption="Formato de archivo de textura por defecto:"/>
+		<lbDefTextureFormat Caption="Formato de archivo de textura por defecto"/>
+		<lbDefTextureFormatGlb Caption="Formato de archivo de textura por defecto"/>
 		<gbModels Caption='Importar modelos (ODR/ODD/OFT)'/>
-		<lbDefaultGame Caption='Seleccionar juego por defecto:'/>
-		<lbRenderBackgroundColor Caption='Render del color de fondo:'/>
-		<lbCameraControl Caption='Esquema del control de la cámara:'/>
+		<lbDefaultGame Caption='Seleccionar juego por defecto'/>
+		<lbRenderBackgroundColor Caption='Render del color de fondo'/>
+		<lbCameraControl Caption='Esquema del control de la cámara'/>
+		<lbChooseTheme Caption="Elegir un tema"/>
 		<!-- Work Mode's -->
 		<WorkMode>
 			<Items>
@@ -346,6 +378,13 @@
 				<Item Index='1' Value='Color a elección'/>
 			</Items>
 		</cbRenderBackgroundColor>
+		<!-- App Theme -->
+ 		<cbAppTheme>
+ 			<Items>
+ 				<Item Index="0" Value="Luminoso"/>
+ 				<Item Index="1" Value="Oscuro"/>
+ 			</Items>
+ 		</cbAppTheme>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<SearchWindow Caption='Suche - $AppName$'>
 		<SearchBox BannerText="Suche"/>
@@ -20,6 +20,9 @@
 		<btnExportAllItems Caption="Alle Dateien exportieren"/>
 		<btnSelectAllItems Caption="Alles auswählen"/>
 		<!-- String's -->
+        <btnCopyName Caption="Namen kopieren"/>
+ 		<btnCopyPathName Caption="Pfad kopieren"/>
+ 		<btnSaveContent Caption="Inhalt speichern"/>
 		<AeroWindow LinesCount='10'>
 			<StringList>
 				<Item Index='0' Value='Suchen'/>

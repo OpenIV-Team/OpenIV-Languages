@@ -3,6 +3,7 @@
 	<ErrorWindow Caption='$AppName$ - Error de la apliación'>
 		<lbWindowTitle Caption="$AppName$ tuvo un problema que no pudo manejar, \y ahora debe reiniciarse."/>
 		<btnCloseApp Caption='Cerrar $AppName$'/>
+		<lbReportHere Caption='Por favor, reportar este error usando los siguientes enlaces:'/>
 		<lnkWeb1 Caption='Visita el sitio oficial'/>
 		<lnkWeb2 Caption='Visita el foro de soporte internacional'/>
 		<lnkWeb3 Caption='Visita el foro en ruso'/>

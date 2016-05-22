@@ -4,18 +4,18 @@
 	<!-- Main window -->
 
 	<MainWindow Caption="$AppName$">
-		<FullScreenClose Hint="Close"/>
-		<btnSwitchMode Caption="Edit mode" hint="Toggle edit mode (F6)" showhint="True"/>
-		<btnCloseArchive hint="Close archive (Shift + Backspace)" showhint="True"/>
+		<FullScreenClose Hint="Bezárás"/>
+		<btnSwitchMode Caption="Szerkesztő mód" hint="Szerkeztő mód gomb (F6)" showhint="True"/>
+		<btnCloseArchive hint="Arhívum bezárása (Shift + Backspace)" showhint="True"/>
 		<!-- String's -->
 		<AeroWindow LinesCount="80">
 			<StringList>
-				<Item Index="0" Value="Name"/>
-				<Item Index="1" Value="Type"/>
-				<Item Index="2" Value="Size"/>
-				<Item Index="3" Value="Attributes"/>
-				<Item Index="4" Value="Compressed"/>
-				<Item Index="5" Value="Edit mode"/>
+				<Item Index="0" Value="Név"/>
+				<Item Index="1" Value="Tipus"/>
+				<Item Index="2" Value="Méret"/>
+				<Item Index="3" Value="Attribútok"/>
+				<Item Index="4" Value="Tömörítés"/>
+				<Item Index="5" Value="Szerkesztés"/>
 				<Item Index="6" Value=""/>
 				<Item Index="7" Value=""/>
 				<Item Index="8" Value="%D items shown"/>
@@ -24,39 +24,39 @@
 				<Item Index="11" Value=" bytes"/>
 				<Item Index="12" Value=" KB"/>
 				<Item Index="13" Value=" MB"/>
-				<Item Index="14" Value="Progress..."/>
-				<Item Index="15" Value="Current file: "/>
-				<Item Index="16" Value="Unknown"/>
+				<Item Index="14" Value="Feldolgozás..."/>
+				<Item Index="15" Value="Aktuális file: "/>
+				<Item Index="16" Value="Ismeretlen"/>
 				<Item Index="17" Value="No open archive"/>
 				<Item Index="18" Value="Encrypted"/>
 				<Item Index="19" Value="Loading archive..."/>
 				<Item Index="20" Value="Resource [Version: %D]"/>
-				<Item Index="21" Value="[Edit mode]"/>
-				<Item Index="22" Value="[Read only mode]"/>
+				<Item Index="21" Value="[Szerkesztő Mód]"/>
+				<Item Index="22" Value="[Amatör Mód:)]"/>
 				<Item Index="23" Value="LANG: FREE STRING (23)"/>
 				<Item Index="24" Value="You are about to enable edit mode, all changes will be saved automatically."/>
 				<Item Index="25" Value="LANG: FREE STRING (25)"/>
 				<Item Index="26" Value="LANG: FREE STRING (26)"/>
-				<Item Index="27" Value="Tags"/>
-				<Item Index="28" Value="Add tag"/>
-				<Item Index="29" Value="New tag:"/>
+				<Item Index="27" Value="Cimkék"/>
+				<Item Index="28" Value="Cimke hozzáadása"/>
+				<Item Index="29" Value="Új cimke:"/>
 				<Item Index="30" Value="No selected items"/>
 				<Item Index="31" Value="Selected: %D"/>
-				<Item Index="32" Value="Full screen mode (F11)"/>
+				<Item Index="32" Value="Teljes képernyő (F11)"/>
 				<Item Index="33" Value="Window mode (F11)"/>
 				<Item Index="34" Value="Select file to preview."/>
 				<Item Index="35" Value="No preveiw data."/>
 				<Item Index="36" Value="Version: %S"/>
-				<Item Index="37" Value="Exit $AppName$"/>
-				<Item Index="38" Value="$AppName$ Options"/>
-				<Item Index="39" Value="Close file"/>
+				<Item Index="37" Value="Kilépés $AppName$"/>
+				<Item Index="38" Value="$AppName$ Opciók"/>
+				<Item Index="39" Value="File bezárása"/>
 				<Item Index="40" Value="Pin"/>
-				<Item Index="41" Value="Remove from list"/>
-				<Item Index="42" Value="Recent files"/>
+				<Item Index="41" Value="Eltávolítás a listából"/>
+				<Item Index="42" Value="előzmények"/>
 				<Item Index="43" Value="External application is working..."/>
-				<Item Index="44" Value="Confirmation of the file changes"/>
+				<Item Index="44" Value="Változtatások elfogadása"/>
 				<Item Index="45" Value="File «%S» has been changed. Update changes in archive?"/>
-				<Item Index="46" Value="Location"/>
+				<Item Index="46" Value="Helyek"/>
 				<Item Index="47" Value="build"/>
 				<Item Index="48" Value="This archive is empty."/>
 				<Item Index="49" Value="This folder is empty."/>
@@ -68,18 +68,18 @@
 				<Item Index="55" Value="$AppName$ is unalbe to open location of this archive."/>
 				<Item Index="56" Value="YouTube channel"/>
 				<Item Index="57" Value="Video tutorials"/>
-				<Item Index="58" Value="Tiny (0 - 10 KB)"/>
-				<Item Index="59" Value="Small (10 - 100 KB)"/>
-				<Item Index="60" Value="Medium (100 KB - 1 MB)"/>
-				<Item Index="61" Value="Large (1 - 16 MB)"/>
-				<Item Index="62" Value="Huge (16 - 128 MB)"/>
-				<Item Index="63" Value="Gigantic (&gt; 128 MB)"/>
-				<Item Index="64" Value="Folders"/>
-				<Item Index="65" Value="Filter %s"/>
+				<Item Index="58" Value="Pici (0 - 10 KB)"/>
+				<Item Index="59" Value="Kicsi (10 - 100 KB)"/>
+				<Item Index="60" Value="Közepes (100 KB - 1 MB)"/>
+				<Item Index="61" Value="Nagy (1 - 16 MB)"/>
+				<Item Index="62" Value="Óriási (16 - 128 MB)"/>
+				<Item Index="63" Value="Baszott nagy (&gt; 128 MB)"/>
+				<Item Index="64" Value="Mappák"/>
+				<Item Index="65" Value="Szűrés %s"/>
 				<Item Index="66" Value="$AppName$ - Notification"/>
 				<Item Index="67" Value="You can enable this notification back in options."/>
-				<Item Index="68" Value="Copying..."/>
-				<Item Index="69" Value="$AppName$ - Confirmation"/>
+				<Item Index="68" Value="Másolás..."/>
+				<Item Index="69" Value="$AppName$ - Ámen"/>
 				<Item Index="70" Value='The all changes you made in "mods\update\update.rpf" archive will be lost.\nDo you want to continue?'/>
 				<Item Index="71" Value=""/>
 				<Item Index="72" Value=""/>
@@ -92,106 +92,106 @@
 				<Item Index="79" Value=""/>
 			</StringList>
 		</AeroWindow>
-		<!-- Others -->
-		<SearchBox BannerText="Filter"/>
+		<!-- Egyebek -->
+		<SearchBox BannerText="Szűrés"/>
 		<!-- Notification: GTA V (ASI) -->
 		<lbGTAVPluginTitle Caption="Install plugin for GTA V"/>
 		<lbGTAVPluginText Caption="You need to install ASI Loader and OpenIV.ASI plugin for your GTA V, otherwise game will not load modified RPF archive.\nDo not play GTA Online with modified RPF you will be banned."/>
 		<btnGTAVPluginAction Caption="ASI Manager"/>
-		<!-- Notification: copy to mods folder -->
-		<lbNotInModsTitle Caption='The "mods" folder'/>
+		<!-- Notification: Másolás a MODS mappába -->
+		<lbNotInModsTitle Caption='A MODS mappa'/>
 		<lbNotInModsText Caption='The archive you are currently editing is not located in "mods" folder.'/>
 		<btnHideThisNotification Caption="Hide this notification"/>
-		<btnCopyToMods Caption='Copy to "mods" folder'/>
+		<btnCopyToMods Caption='Másolás a MODS mappába'/>
 		<btnShowInMods Caption='Show in "mods" folder'/>
 		<!-- Notification: update.rpf -->
 		<lbCopyNewUpdateToModsTitle Caption='Grand Theft Auto V Title Update'/>
 		<lbCopyNewUpdateToMods Caption='You have outdated version of update.rpf in your "mods" folder. You need to copy new version of “update.rpf” into your “mods” folder, otherwise your game might crash.'/>
-		<btnCopyUpdateToMods Caption='Copy new version to "mods" folder'/>
+		<btnCopyUpdateToMods Caption='Új verzió másolása a MODS mappába'/>
 		<!-- Notification: Admin mode -->
 		<lbAdminModeTitle Caption='Administrator mode'/>
-		<lbAdminModeText Caption='Your $AppName$ is running as administrator. Some features like drag and drop from Windows File Explorer might not work. Usually, you no need to run $AppName$ as administrator.'/>
+		<lbAdminModeText Caption='Your $AppName$ is running as administrator. Some features like drag and drop from Windows File Explorer might not work. Usually, you no need to run OpenIV as administrator.'/>
 		<btnAdminModeAction Caption='What can I do?'/>
 	</MainWindow>
 
 	<ActionsModule>
 		<!-- Main Menu -->
 		<mmFile Caption="File"/>
-		<mmEdit Caption="Edit"/>
-		<mmNew Caption="New"/>
-		<mmView Caption="View"/>
-		<mmFavorites Caption="Favorites"/>
-		<mmTools Caption="Tools"/>
-		<mmHelp Caption="Help"/>
+		<mmEdit Caption="Szerkesztés"/>
+		<mmNew Caption="Új"/>
+		<mmView Caption="Nézet"/>
+		<mmFavorites Caption="Kedvencek"/>
+		<mmTools Caption="Eszközök"/>
+		<mmHelp Caption="Segítség"/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption="Reopen"/>
-		<mmFilter Caption="Filter"/>
-		<!-- Main Menu : View -->
-		<mmLayout Caption="Layout"/>
-		<mmGroupBy Caption="Group by"/>
-		<mmGoto Caption="Go To"/>
-		<!-- Main Menu : View -->
-		<mmvIcon Caption="Icon"/>
-		<mmvSmallIcon Caption="Small icon"/>
-		<mmvList Caption="List"/>
-		<mmvDetails Caption="Details"/>
-		<mmvTile Caption="Tile"/>
-		<!-- Main Menu : Help -->
+		<mmReopen Caption="Előzmények"/>
+		<mmFilter Caption="Szűrők"/>
+		<!-- Main Menu : Nézet -->
+		<mmLayout Caption="Rétegek"/>
+		<mmGroupBy Caption="Csoport"/>
+		<mmGoto Caption="Menj"/>
+		<!-- Main Menu : Nézet -->
+		<mmvIcon Caption="Ikon"/>
+		<mmvSmallIcon Caption="Kis ikonok"/>
+		<mmvList Caption="Lista"/>
+		<mmvDetails Caption="Részletek"/>
+		<mmvTile Caption="Csempe"/>
+		<!-- Main Menu : Segítség -->
 		<!-- Path menu -->
-		<PMenu0 Caption="Copy Address (Path)"/>
+		<PMenu0 Caption="Cím másolása (Path)"/>
 		<!-- File Action's -->
-		<actCreate Caption="Create archive..." Hint="Create new archive"/>
-		<actOpen Caption="Open archive..." Hint="Open existing archive"/>
-		<actOpenPC Caption="Open content..." Hint=""/>
-		<actOpenArchiveProperties Caption="Archive properties" Hint=""/>
-		<actDefragmentation Caption="Defragmentation" Hint="Archive Defragmenter"/>
-		<actEditMode Caption="Edit mode" Hint=""/>
-		<actReadMode Caption="Read only mode" Hint=""/>
-		<actClose Caption="Close archive" Hint="Close current archive"/>
-		<actExit Caption="Exit" Hint="Exit"/>
-		<actCloseAllArchives Caption="Close all archives" Hint="Close all opened archives"/>
+		<actCreate Caption="Arhívum létrehozása..." Hint="Create new archive"/>
+		<actOpen Caption="Arhívum megnyitása..." Hint="Open existing archive"/>
+		<actOpenPC Caption="Tartalom megnyitása..." Hint=""/>
+		<actOpenArchiveProperties Caption="Arhívum tulajdonságai" Hint=""/>
+		<actDefragmentation Caption="Töredezésmentesítés" Hint="Archive Defragmenter"/>
+		<actEditMode Caption="Szerkesztő mód" Hint=""/>
+		<actReadMode Caption="Amatőr mód :)" Hint=""/>
+		<actClose Caption="Arhívum bezárása" Hint="Close current archive"/>
+		<actExit Caption="Kilépés" Hint="Exit"/>
+		<actCloseAllArchives Caption="Összes arhívum bezárása" Hint="Close all opened archives"/>
 		<!-- Edit Action's -->
-		<actPreview Caption="View..." Hint="View file"/>
-		<actEditFile Caption="Edit..." Hint="Edit file"/>
-		<actViewAsHex Caption="View in Hex..." Hint="View in Hex"/>
-		<actViewAsText Caption="View as text..." Hint="View as text"/>
-		<actCopyPath Caption="Copy path" Hint="Copy current file path"/>
-		<actExtract Caption="Extract..." Hint="Extract file"/>
-		<actSaveContent Caption="Save content/Export" Hint="Save file content/Export"/>
-		<actRename Caption="Rename" Hint="Rename file"/>
-		<actAdd Caption="Add" Hint="Add new file"/>
-		<actReplace Caption="Replace" Hint="Replace current file"/>
-		<actRemove Caption="Delete" Hint="Delete current file"/>
-		<actExtractAll Caption="Extract all..." Hint="Extract all files"/>
-		<actCopyFileList Caption="Copy file List" Hint=""/>
-		<actSelectAll Caption="Select all" Hint=""/>
+		<actPreview Caption="Nézet..." Hint="View file"/>
+		<actEditFile Caption="Szerkesztés..." Hint="Edit file"/>
+		<actViewAsHex Caption="HEX nézet..." Hint="View in Hex"/>
+		<actViewAsText Caption="TEXT nézet..." Hint="View as text"/>
+		<actCopyPath Caption="Path másolása" Hint="Copy current file path"/>
+		<actExtract Caption="Kibontás..." Hint="Extract file"/>
+		<actSaveContent Caption="Tartalom mentése/Exportálás" Hint="Save file content/Export"/>
+		<actRename Caption="Átnevezés" Hint="Rename file"/>
+		<actAdd Caption="Hozzáad" Hint="Add new file"/>
+		<actReplace Caption="Csere" Hint="Replace current file"/>
+		<actRemove Caption="Törlés" Hint="Delete current file"/>
+		<actExtractAll Caption="Összes kibontása..." Hint="Extract all files"/>
+		<actCopyFileList Caption="File lista másolása" Hint=""/>
+		<actSelectAll Caption="Összes kiválasztása" Hint=""/>
 		<actResourceObjectExplorer Caption="Resource Explorer" Hint=""/>
-		<actShowInWindowsExplorer Caption="Show in Windows Explorer" Hint=""/>
-		<actItemAddToFavorites Caption="Add to favorites..." Hint=""/>
-		<actCopyToModsFolder Caption='Copy to "mods" folder' Hint=""/>
-		<actShowInModsFolder Caption='Show in "mods" folder' Hint=""/>
+		<actShowInWindowsExplorer Caption="Mutassd a Windows Explorer-ben" Hint=""/>
+		<actItemAddToFavorites Caption="Kedvencekhez adás..." Hint=""/>
+		<actCopyToModsFolder Caption='Másolás a MODS mappába' Hint=""/>
+		<actShowInModsFolder Caption='Mutatás a MODS mappában' Hint=""/>
 		<!-- New menu -->
-		<actMultipleImport Caption="Import openFormats" Hint="Multiple Import"/>
-		<actNewFolder Caption="Folder" Hint="Create new folder"/>
+		<actMultipleImport Caption="Importálás az openFormat-ba" Hint="Multiple Import"/>
+		<actNewFolder Caption="Mappa" Hint="Új mappa"/>
 		<!-- View Action's -->
-		<actDirectoryTree Caption="Directory Tree" Hint="Show or hide directory tree"/>
+		<actDirectoryTree Caption="Mappa rendszer" Hint="Show or hide directory tree"/>
 		<actToolBar Caption="Tool Bar" Hint="Show or hide toolbar"/>
 		<actSearchBar Caption="Search and Address bar" Hint="Show or hide Search and Address bar"/>
 		<actStatusBar Caption="Status Bar" Hint="Status Bar"/>
 		<actLivePreView Caption="Preview Pane" Hint="Preview Pane"/>
 		<actMainMenuBar Caption="Menu bar" Hint="Menu bar"/>
 		<!-- Help Action's -->
-		<actReportBug Caption="Report a bug" Hint=""/>
-		<actAbout Caption="About..." Hint="About"/>
-		<actGoToWeb Caption="Go to website..." Hint=""/>
-		<actSendFeedback Caption="Send Feedback" Hint=""/>
-		<actUpdate Caption="Check for update..." Hint=""/>
-		<actDonate Caption="Donate $AppName$..." Hint=""/>
-		<actWebIV Caption="Sign up $WebName$" Hint=""/>
-		<actFAQ Caption="Frequently Asked Questions" Hint=""/>
+		<actReportBug Caption="Jelentés" Hint=""/>
+		<actAbout Caption="Rólunk..." Hint="About"/>
+		<actGoToWeb Caption="Oldal megnyitása..." Hint=""/>
+		<actSendFeedback Caption="Visszajelzés küldése" Hint=""/>
+		<actUpdate Caption="Frissítések keresése..." Hint=""/>
+		<actDonate Caption="Aggyáá PÍZT $AppName$..." Hint=""/>
+		<actWebIV Caption="Bejelentkezés $WebName$" Hint=""/>
+		<actFAQ Caption="GY.I.K." Hint=""/>
 		<!-- Social -->
-		<actSocialYouTube Caption="$AppName$ YouTube channel" Hint=""/>
-		<actSocialFacebook Caption="$AppName$ Facebook page" Hint=""/>
+		<actSocialYouTube Caption="$AppName$ YouTube " Hint=""/>
+		<actSocialFacebook Caption="$AppName$ Facebook " Hint=""/>
 		<actSocialTwitter Caption="$AppName$ on Twitter" Hint=""/>
 		<actSocialVKCom Caption="$AppName$ VK page" Hint=""/>
 		<!-- Only in Win7 and later -->
@@ -202,18 +202,18 @@
 		<actCollapseGroup Caption="Collapse group" Hint=""/>
 		<actExpandGroup Caption="Expand group" Hint=""/>
 		<!-- Tools Action's -->
-		<actConfig Caption="Options..." Hint="Options"/>
+		<actConfig Caption="Opciók..." Hint="Options"/>
 		<!-- GoTo Action's -->
-		<actGoBack Caption="Back" Hint=""/>
-		<actGoForward Caption="Forward" Hint=""/>
-		<actGoUP Caption="Up One level" Hint=""/>
+		<actGoBack Caption="Vissza" Hint=""/>
+		<actGoForward Caption="Előre" Hint=""/>
+		<actGoUP Caption="1 szinttel feljebb" Hint=""/>
 		<!-- Favorites -->
-		<actAddToFavorites Caption="Add to favorites..." Hint=""/>
-		<actOrganizeFavorites Caption="Organize favorites..." Hint=""/>
+		<actAddToFavorites Caption="Kedvencekhez adás..." Hint=""/>
+		<actOrganizeFavorites Caption="Kedvencek.." Hint=""/>
 		<!-- Filter -->
-		<actFilterByName Caption="Filter by name" Hint=""/>
-		<actFilterByType Caption="Filter by type" Hint=""/>
-		<actFilterOnlyThis Caption="Show only this" Hint=""/>
+		<actFilterByName Caption="Szűrés név szerint" Hint=""/>
+		<actFilterByType Caption="Szűrés tipus szerint" Hint=""/>
+		<actFilterOnlyThis Caption="Csak mutatás" Hint=""/>
 		<!-- Tree -->
 		<actTreeCopyAsPath Caption="Copy as path" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Show in Windows Explorer" Hint=""/>
@@ -233,19 +233,19 @@
 				<Item Index="05" Value="Linear"/>
 				<Item Index="06" Value="Hierarchical"/>
 				<Item Index="07" Value="without names"/>
-				<Item Index="08" Value="Add tag"/>
-				<Item Index="09" Value="Delete"/>
-				<Item Index="10" Value="all tags"/>
-				<Item Index="11" Value="$AppName$ - Rename file"/>
-				<Item Index="12" Value="New name:"/>
-				<Item Index="13" Value="Creating new folder"/>
-				<Item Index="14" Value="New folder:"/>
+				<Item Index="08" Value="Cimke hozzáadása"/>
+				<Item Index="09" Value="Törlés"/>
+				<Item Index="10" Value="Összes cimkes"/>
+				<Item Index="11" Value="$AppName$ - Átnevezés"/>
+				<Item Index="12" Value="Új név:"/>
+				<Item Index="13" Value="Új mappa létrehozása"/>
+				<Item Index="14" Value="Új mappa:"/>
 				<Item Index="15" Value="$RageGAME_SHORT$ not found.\nPlease set the correct location of $RageGAME_SHORT$ in your $AppName$ options."/>
 				<Item Index="16" Value="$AppName$ - Confirmation for archive rebuild"/>
 				<Item Index="17" Value="Are you sure you want to rebuild the archive «%S»?\n This operation may take several minutes."/>
 				<Item Index="18" Value="Open content"/>
-				<Item Index="19" Value="Creating new %S"/>
-				<Item Index="20" Value="Enter name:"/>
+				<Item Index="19" Value="Új létrehozása %S"/>
+				<Item Index="20" Value="Név:"/>
 				<Item Index="21" Value="$AppName$ - Not Implemented feature"/>
 				<Item Index="22" Value="You try using next feature: %S\nIn current $AppName$ is not implemented yet. Please check this in next version."/>
 				<Item Index="23" Value="$AppName$ - rebuild archive"/>
@@ -253,18 +253,18 @@
 				<Item Index="25" Value="A file with this name already exists, please, choose another name."/>
 				<Item Index="26" Value="$AppName$ - add new tag"/>
 				<Item Index="27" Value="Type new tag:"/>
-				<Item Index="28" Value="Export to %S"/>
+				<Item Index="28" Value="Exportálás %S"/>
 				<Item Index="29" Value="File is encrypted, please install not encrypted version of the game."/>
 				<Item Index="30" Value="$AppName$ - file not exist"/>
 				<Item Index="31" Value="Error open file: %S\nFile does not exist."/>
 				<Item Index="32" Value="Version: %D"/>
 				<Item Index="33" Value="$AppName$ is not able to create archives for $RageGAME_SHORT$ yet.\nPlease come back later."/>
-				<Item Index="34" Value="Open file in"/>
+				<Item Index="34" Value="Megyitás ezzel:"/>
 				<Item Index="35" Value="%s in %s"/>
-				<Item Index="36" Value="%s - Search Results in %s"/>
-				<Item Index="37" Value="%s - Search Results in %s (%s)"/>
+				<Item Index="36" Value="%s - Keresés Results in %s"/>
+				<Item Index="37" Value="%s - Keresés Results in %s (%s)"/>
 				<Item Index="38" Value="Filter"/>
-				<Item Index="39" Value="$AppName$ - Error"/>
+				<Item Index="39" Value="$AppName$ - Fos"/>
 				<Item Index="40" Value="Unable to extract files."/>
 				<Item Index="41" Value="Unable to add files."/>
 				<Item Index="42" Value="Unable to create folder."/>
@@ -278,13 +278,13 @@
 		</Strings>
 	</ActionsModule>
 
-	<EditModeHelpWindow Caption="Edit mode - $AppName$">
+	<EditModeHelpWindow Caption="Szerkesztő mód - $AppName$">
 		<!-- Label's -->
-		<lbTitle Caption="Edit mode"/>
+		<lbTitle Caption="Szerkesztő mód"/>
 		<lbText Caption="To add or edit files, please switch to Edit mode.\nYou can set Edit mode as default in $AppName$ configuration."/>
 		<lbInfo Caption='"Edit mode" button allows you enable Edit mode'/>
 		<!-- Button's -->
-		<btnClose Caption="Close"/>
+		<btnClose Caption="Bezárás"/>
 		<cbDoNotShow Caption="Do not show this message again"/>
 	</EditModeHelpWindow>
 
@@ -318,21 +318,21 @@
 
 	<!-- Configuration -->
 
-	<ConfigWindow Caption="$AppName$ - Options">
+	<ConfigWindow Caption="$AppName$ - Opciók">
 		<!-- Tab's -->
-		<tabMain Caption="General"/>
-		<tabLang Caption="Languages"/>
-		<tabApps Caption="Applications"/>
+		<tabMain Caption="Általános"/>
+		<tabLang Caption="Nyelvek"/>
+		<tabApps Caption="Programok"/>
 		<tabFormats Caption="openFormats"/>
-		<tabTools Caption="Tools"/>
-		<tabGame Caption="Game"/>
-		<tabViewers Caption="Viewing tools"/>
+		<tabTools Caption="Eszközök"/>
+		<tabGame Caption="Játék"/>
+		<tabViewers Caption="Megjelenés"/>
 		<!-- Button's -->
-		<btnClose Caption="Close"/>
+		<btnClose Caption="Bezárás"/>
 		<!-- Action's -->
-		<actAppAdd Caption="Add"/>
-		<actAppEdit Caption="Edit"/>
-		<actAppDel Caption="Delete"/>
+		<actAppAdd Caption="Hozzáadás"/>
+		<actAppEdit Caption="Szerkesztés"/>
+		<actAppDel Caption="Törlés"/>
 		<!-- Link's -->
 		<LnkWebApps Caption="Download more tools for $RageGAME_SHORT$"/>
 		<LnkWebLangs Caption="Translate $AppName$ into another language"/>
@@ -353,22 +353,22 @@
 		<cbClearSearchFilterAfterOpeningArchive Caption='Clear search filter after opening archive'/>
 		<!-- Label's -->
 		<gbGamePath Caption="$RageGAME_SHORT$ directory"/>
-		<lbCurrentGamePath Caption="Current directory:"/>
-		<lbLang Caption="Select interface language:"/>
-		<lbWorkMode Caption="Default work mode"/>
+		<lbCurrentGamePath Caption="Könyvtár:"/>
+		<lbLang Caption="Nyelv választésa:"/>
+		<lbWorkMode Caption="Alapértelmezett mód"/>
 		<ttRageExe Caption="To get $AppName$ works, in this directory shoud be placed this file: $RageEncryptionStorage$"/>
-		<lbDefTextureFormat Caption="Default texture file format"/>
-		<lbDefTextureFormatGlb Caption="Default texture file format"/>
-		<gbModels Caption="Models import (ODR/ODD/OFT)"/>
-		<lbDefaultGame Caption="Select default game"/>
-		<lbRenderBackgroundColor Caption="Render background color"/>
-		<lbCameraControl Caption="Camera control scheme"/>
-		<lbChooseTheme Caption="Choose a theme"/>
+		<lbDefTextureFormat Caption="Alapértelmezett formátum"/>
+		<lbDefTextureFormatGlb Caption="Alapértelmezett formátum"/>
+		<gbModels Caption="Model importálása (ODR/ODD/OFT)"/>
+		<lbDefaultGame Caption="Játék választása"/>
+		<lbRenderBackgroundColor Caption="Háttér szín"/>
+		<lbCameraControl Caption="Kamera kontroll"/>
+		<lbChooseTheme Caption="Téma választása"/>
 		<!-- Work Mode's -->
 		<WorkMode>
 			<Items>
-				<Item Index="0" Value="Edit"/>
-				<Item Index="1" Value="Read only"/>
+				<Item Index="0" Value="Szerkeszt"/>
+				<Item Index="1" Value="Olvas"/>
 			</Items>
 		</WorkMode>
 		<!-- Render Background Color -->
@@ -381,18 +381,18 @@
 		<!-- App Theme -->
 		<cbAppTheme>
 			<Items>
-				<Item Index="0" Value="Light"/>
-				<Item Index="1" Value="Dark"/>
+				<Item Index="0" Value="Világos"/>
+				<Item Index="1" Value="Sötét"/>
 			</Items>
 		</cbAppTheme>
 		<!-- String's -->
 		<AeroWindow LinesCount="10">
 			<StringList>
-				<Item Index="0" Value="Select folder:"/>
-				<Item Index="1" Value="Actual languages"/>
-				<Item Index="2" Value="$AppName$ - Warning"/>
-				<Item Index="3" Value="You need restart $AppName$ to apply changes."/>
-				<Item Index="4" Value="Outdated languages"/>
+				<Item Index="0" Value="Mappa választása:"/>
+				<Item Index="1" Value="Aktuáli nyelv"/>
+				<Item Index="2" Value="$AppName$ - Figyelem"/>
+				<Item Index="3" Value="Ujraindítás szükséges $AppName$ to apply changes."/>
+				<Item Index="4" Value="Más nyelvek"/>
 			</StringList>
 		</AeroWindow>
 	</ConfigWindow>

@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Main window -->
@@ -94,16 +94,24 @@
 		</AeroWindow>
 		<!-- Others -->
 		<SearchBox BannerText="Suche"/>	
-		<!-- GTA V (ASI) -->
+		<!-- Benachrichtigung: GTA V (ASI) -->
 		<lbGTAVPluginTitle Caption="GTA V Plugin für GTA V installieren"/>
 		<lbGTAVPluginText Caption="Du musst den ASI Loader und das OpenIV - Plugin für dein GTA V installieren, da das Spiel sonst keine modifizierten RPF - Archive laden wird.\nSpiele GTA Online nicht mit modifizierten RPF - Dateien, oder du wirst gebannt."/>
 		<btnGTAVPluginAction Caption="ASI Manager"/>
+        <!-- Benachrichtigung: In den mods Ordner kopieren -->
+ +		<lbNotInModsTitle Caption='Der "mods" Ordner'/>
 		<lbNotInModsText Caption='Das Archiv, das bearbeitet werden soll, befindet sich nicht im "mods" Ordner.'/>
 		<btnHideThisNotification Caption="Diese Benachrichtigung ausblenden"/>		
 		<btnCopyToMods Caption='In den "mods" Ordner kopieren'/>		
 		<btnShowInMods Caption='RPF im "mods" Ordner anzeigen'/>		
-		<lbCopyNewUpdateToMods Caption='Deine Version der update.rpf Datei ist nicht mehr aktuell.'/>		
-		<btnCopyUpdateToMods Caption='Neue Version in den "mods" Ordner kopieren'/>		
+		<!-- Benachrichtigung: update.rpf -->
+ +		<lbCopyNewUpdateToModsTitle Caption='Grand Theft Auto V Title Update'/>
+ +		<lbCopyNewUpdateToMods Caption='Deine Version der update.rpf im "mods" Ordner ist nicht mehr aktuell. Du musst eine neue Version der "update.rpf" in den "mods" Ordner kopieren, da dein Spiel sonst abstürzen könnte.'/>		
+		<btnCopyUpdateToMods Caption='Neue Version in den "mods" Ordner kopieren'/>
+        <!-- Benachrichtigung: Adminmodus -->
+ +		<lbAdminModeTitle Caption='$AppName$ wird als Administrator ausgeführt'/>
+ +		<lbAdminModeText Caption='$AppName$ wird als Administrator ausgeführt. Einige Funktionen, wie das ziehen von Dateien aus dem Windows Explorer funktionieren unter Umständen nicht. Das lässt sich beheben, indem man $AppName$ nicht mehr als Administrator ausführt. OpenIV as administrator.'/>
+ +		<btnAdminModeAction Caption='Was soll ich tun?'/>
 	</MainWindow>	
 
 	<ActionsModule>
@@ -136,7 +144,7 @@
 		<actOpen Caption="Archiv öffnen..." Hint="Bereits existierendes Archiv öffnen"/>
 		<actOpenPC Caption="Inhalt öffnen..." Hint=""/>
 		<actOpenArchiveProperties Caption="Archiveinstellungen" Hint=""/>
-		<actRebuild Caption="Rebuild" Hint="Aktuelles Archiv neuerstellen"/>
+		<actDefragmentation Caption="Defragmentieren" Hint="Archiv defragmentieren"/>
 		<actEditMode Caption="Bearbeitungsmodus"  Hint=""/>
 		<actReadMode Caption="Schreibgeschützter Modus"  Hint=""/>
 		<actClose Caption="Archiv schließen" Hint="Aktuelles Archiv schließen"/>
@@ -212,7 +220,9 @@
 		<actTreeCloseArchive Caption="Archiv schließen" Hint=""/>
 		<actTreeCopyToModsFolder Caption='In den "mods" Ordner kopieren' Hint=""/>		
 		<actTreeShowInModsFolder Caption='RPF im "mods" Ordner anzeigen' Hint=""/>
-		<!-- Strings -->
+		<actTreeCollapseThis Caption='Aktuelles Element einklappen' Hint=""/>
+ +		<actTreeCollapseAll Caption='Alle Elemente einklappen' Hint=""/>
+        <!-- Strings -->
 		<Strings SetCount="100">
 			<Lines>
 				<Item Index="00" Value="Zielverzeichnis:"/>
@@ -261,6 +271,9 @@
 				<Item Index="43" Value="Dateien konnten nicht gelöscht werden."/>
 				<Item Index="44" Value="Datei konnte nicht ersetzt werden."/>
 				<Item Index="45" Value="Neue Datei konnte nicht erstellt werden."/>
+                <Item Index="46" Value="Der Name enthält ungültige Zeichen."/>
+ 				<Item Index="47" Value="Gib einen anderen Namen ein."/>
+ 				<Item Index="48" Value="Es gibt bereits ein Element mit dem selben Namen, wie dem Angegebenen."/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -275,7 +288,22 @@
 		<cbDoNotShow Caption="Diese Nachricht nicht noch einmal anzeigen"/>
 	</EditModeHelpWindow>
 
-	<!-- Web window -->
+		<AdminModeWindow Caption="Administrator - $AppName$">
+ 		<lbText Caption="Es gibt keinen triftigen Grund, $AppName$ als Administrator auszuführen. $AppName$ erfordert keine Administratorrechte um ordnungsgemäß zu funktionieren. Im Gegenteil - Durch das Ausführen von $AppName$ mit Administratorrechten können einige Funktionen, wie das Ziehen von Elementen aus dem Windows Explorer, nicht richtig funktionieren. Vermutlich hast du $AppName$ als Administrator ausgeführt, weil die Berechtigungen für deinen Spieleordner falsch gesetzt sind und normale Benutzeraccounts nicht in diesen Ordner schreiben dürfen.\n\nMit diesem Tool lassen sich die richtigen Berechtigungen für deinen Spieleordner setzen, sodass du von nun an $AppName$ ohne Administratorberechtigungen ausführen kannst."/>
+ 		<btnSetPermissions Caption="Berechtigungen setzen"/>
+ 		<btnClose Caption="Schließen"/>
+ 		<AeroWindow LinesCount="5">
+ 			<StringList>
+ 				<Item Index="0" Value="Fehler - $AppName$"/>
+ 				<Item Index="1" Value="Alles erledigt.\nDie Berechtigungen für dein Spieleverzeichnis wurden gesetzt."/>
+ 				<Item Index="2" Value="Berechtigungen konnten nicht gesetzt werden.\nRückgabecode: "/>
+ 				<Item Index="3" Value="Das Spieleverzeichnis existiert nicht."/>
+ 				<Item Index="3" Value="Das Werkzeug zum verändern der Berechtigungen existiert nicht. Bitte installiere $AppName$ erneut."/>
+ 			</StringList>
+ 		</AeroWindow>
+ 	</AdminModeWindow>
+    
+    <!-- Web window -->
 
 	<webWindow Caption="$WebName$ - ">
 		<!-- Button's -->
@@ -322,18 +350,20 @@
 		<cbShowRecycleConfirmation Caption="Löschbestätigung anzeigen?"/>
 		<cbCloseArchivesAtStartGame Caption="Alle geöffneten Archive beim Start des Spiels schließen"/>
 		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Benachrichtigung anzeigen, wenn Bearbeitungsmodus außerhalb des "mods" Ordner aktiv ist'/>
+        <cbClearSearchFilterAfterOpeningArchive Caption='Suchfilter nach öffnen eines Archives leeren'/>
 		<!-- Label's -->
 		<gbGamePath Caption="$RageGAME_SHORT$ - Verzeichnis"/>
 		<lbCurrentGamePath Caption="Aktuelles Verzeichnis:"/>
 		<lbLang Caption="Sprache auswählen:"/>
-		<lbWorkMode Caption="Standard Bearbeitungsmodus:"/>
+		<lbWorkMode Caption="Standard Bearbeitungsmodus"/>
 		<ttRageExe Caption="Um $AppName$ zum Laufen zu bekommen sollte in diesem Verzeichnis diese Datei liegen: $RageEncryptionStorage$"/>
 		<lbDefTextureFormat Caption="Standard Texturendateiformat"/>
-		<lbDefTextureFormatGlb Caption="Standard Texturendateiformat:"/>
+		<lbDefTextureFormatGlb Caption="Standard Texturendateiformat"/>
 		<gbModels Caption="Modellimport (ODR/ODD/OFT)"/>
-		<lbDefaultGame Caption="Standardspiel auswählen:"/>
-		<lbRenderBackgroundColor Caption="Hintergrundfarbe beim Rendern:"/>
-		<lbCameraControl Caption="Kamera - Kontrollschema:"/>
+		<lbDefaultGame Caption="Standardspiel auswählen"/>
+		<lbRenderBackgroundColor Caption="Hintergrundfarbe beim Rendern"/>
+		<lbCameraControl Caption="Kamera - Kontrollschema"/>
+        <lbChooseTheme Caption="Theme wählen"/>
 		<!-- Work Mode's -->
 		<WorkMode>
 			<Items>
@@ -348,7 +378,14 @@
 				<Item Index="1" Value="Benutzerdefinierte Farbe"/>
 			</Items>
 		</cbRenderBackgroundColor>
-		<!-- String's -->
+		<!-- App Theme -->
+ +		<cbAppTheme>
+ +			<Items>
+ +				<Item Index="0" Value="Hell"/>
+ +				<Item Index="1" Value="Dunkel"/>
+ +			</Items>
+ +		</cbAppTheme>
+        <!-- String's -->
 		<AeroWindow LinesCount="10">
 			<StringList>
 				<Item Index="0" Value="Ordner auswählen:"/>

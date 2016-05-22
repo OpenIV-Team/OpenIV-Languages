@@ -1,10 +1,10 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
 	<RenderUI>
 		<string name="TITLE">GTA V - ASI Manager</string>
 		
-		<string name="RPF_NOTE">Du musst den ASI Loader und das OpenIV ASI Plugin für dein GTA V installieren, da das Spiel sonst keine modifizierten RPF Archive laden wird.</string>
+		<string name="RPF_NOTE">Du musst den ASI Loader und das OpenIV.ASI Plugin für dein GTA V installieren, da das Spiel sonst keine modifizierten RPF Archive laden wird.</string>
 		<string name="ONLINE_NOTE">Spiele GTA Online nicht mit modifizierten RPF - Dateien oder du wirst gebannt.</string>
 		
 		<string name="INSTALL">Installieren</string>

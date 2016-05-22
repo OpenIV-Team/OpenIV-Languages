@@ -8,6 +8,7 @@
 			<btnWebNext Caption='Continuar'/>
 			<btnGame Caption='Buscar...' Hint='Selecionar carpeta:'/>
 			<btnGameNext Caption='Continuar'/>
+			<btnSetPermissions Caption='Establecer permisos'/> 
 			<btnWindowsNext Caption='Continuar'/>
 			<btnBackupNext Caption='Continuar'/>
 			<btnSocialNext Caption='Continuar'/>
@@ -40,12 +41,14 @@
 					<Item Index='14' Value='Windows 7'/>
 					<Item Index='15' Value='$AppName$ es mejor trabajando con Microsoft® Windows 7™'/>
 					<Item Index='16' Value='Tu nombre:'/>
-					<Item Index='17' Value="Error: $AppName$ no tenemos acceso a trabajar con esta carpeta.\nAbre $AppName$ con permisos de administrador."/>
+					<Item Index='17' Value="Error: $AppName$ no tenemos acceso a trabajar con esta carpeta.\nUsted puede establecer los permisos requeridos or abrir $AppName$ con permisos de administrador."/>
 					<Item Index='18' Value='Únete a la comunidad de $AppName$'/>
 					<Item Index='19' Value='$AppName$ - Confirmación'/>
 					<Item Index='20' Value='El proceso de configuración no está terminado.\n¿Quieres irte?'/>
-					<Item Index='21' Value="Error: $AppName$ No tiene acceso para trabajar con '$RageEncryptionStorage$'.\nAbre $AppName$ con permisos de administrador."/>
+					<Item Index='21' Value="Error: $AppName$ No tiene acceso para trabajar con '$RageEncryptionStorage$'.\nUsted puede establecer los permisos requeridos or abrir $AppName$ con permisos de administrador."/>
 					<Item Index='22' Value="Error: $RageGAME$ esta en proceso. Cierra el juego antes de utilizar $AppName$."/>
+					<Item Index='23' Value="Todo hecho.\nLos permisos fueron establecidos a la carpeta de tu juego"/>
+ 					<Item Index='24' Value="Incapaz de establecer los permisos."/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>

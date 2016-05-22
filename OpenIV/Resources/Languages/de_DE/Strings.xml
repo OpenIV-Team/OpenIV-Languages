@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
 	<StringList>
 		<Item Index='00' Value='Fortschritt...'/>
@@ -63,5 +63,6 @@
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="In openFormats exportieren (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 Vorschau" Hint=""/>		
 		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>
+        <item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Sklett in openFormats (.skel)" Hint=""/>
 	</tools>
 </GlobalStrings>

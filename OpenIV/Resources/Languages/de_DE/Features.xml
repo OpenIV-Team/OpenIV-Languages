@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Favorites -->
@@ -38,12 +38,16 @@
 		</AeroWindow>
 	</OrganizeFavoritesWindow>
 
-	<!-- Rebuild tool -->
+	<!-- Archivdefragmentierungstool -->
 
-	<RebuildToolWindow Caption='$AppName$ - Rebuild Werkzeug - $AppName$'>
+	<DefragmenterWindow Caption='Archivdefragmentierungstool - $AppName$'>
+ +		<!-- Labels -->
+ +		<lbDescription Caption="Das Archivdefragmentierungstool ordnet die Dateien in Archiven neu an um Speicherplatz zu sparen."/>
+ +		<lbNoteSave Caption='Alle deine Änderungen wurden bereits gespeichert, du musst das Defragmentierungstool nicht nach jeder Veränderung benutzen.'/>
+ +		<lbNoteRevert Caption='Das Defragmentierungstool macht keine Änderungen an Archiven rückgängig.'/>
 		<!-- Actions -->
 		<actClose Caption='Schließen'/>
-		<actRebuild Caption='Neu erstellen'/>
+		<actRebuild Caption='Defragmentieren'/>
 		<actAddFile Caption='Dateien hinzufügen'/>
 		<actAddFolder Caption='Ordner hinzufügen'/>
 		<actRemoveFile Caption='Datei entfernen'/>
@@ -61,15 +65,12 @@
 		<AeroWindow LinesCount='4'>
 			<StringList>
 				<Item Index='0' Value='Alles fertig.'/>
-				<Item Index='1' Value='$AppName$ - Archiv neu erstellt'/>
+				<Item Index='1' Value='$AppName$ - Archivdefragmentierungstool'/>
 				<Item Index='2' Value='Erneut erstelltes Archiv öffnen?'/>
 				<Item Index='3' Value='Einige Dateien wurden nicht verarbeitet.'/>
 			</StringList>
 		</AeroWindow>
-		<!-- Labels -->		
-		<lbNoteSave Caption='Alle Änderungen wurden bereits gespeichert, du brauchst das Archiv nicht nach jeder Veränderung rebuilden.'/>		
-		<lbNoteRevert Caption='Das Rebuilden wird keine Veränderungen an den Archivdateien rückgängig machen.'/>
-	</RebuildToolWindow>
+    </DefragmenterWindow>
 
 	<!-- Archive properties -->
 

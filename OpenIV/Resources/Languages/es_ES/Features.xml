@@ -38,12 +38,16 @@
 		</AeroWindow>
 	</OrganizeFavoritesWindow>
 
-	<!-- Rebuild tool -->
+	<!-- Archive Defragmenter -->
 
-	<RebuildToolWindow Caption='$AppName$ - Herramienta de recopilar'>
+	<DefragmenterWindow Caption='Desfragmentador de Archivos - $AppName$'>
+ 		<!-- Labels -->
+ 		<lbDescription Caption="El desfragmentador de archivos consolida archivos dentro de archivos para reducir el tamaño de estos en el disco duro de tu computadora."/>
+ 		<lbNoteSave Caption='All your changes already saved, you no need to use defragmentation after each editing.'/>
+ 		<lbNoteRevert Caption='The defragmentation feature will not revert any changes you made in archives.'/>
 		<!-- Actions -->
 		<actClose Caption='Cerrar'/>
-		<actRebuild Caption='Recopilar'/>
+		<actRebuild Caption='Defragment'/>
 		<actAddFile Caption='Añadir archivo'/>
 		<actAddFolder Caption='Añadir carpeta'/>
 		<actRemoveFile Caption='Remover archivo'/>
@@ -61,15 +65,12 @@
 		<AeroWindow LinesCount='4'>
 			<StringList>
 				<Item Index='0' Value='Completado.'/>
-				<Item Index='1' Value='$AppName$ - Archivo recopilado'/>
+				<Item Index='1' Value='Desfragmentador de Archivos - $AppName$'/>
 				<Item Index='2' Value='¿Abrir el archivo recopilado?'/>
 				<Item Index='3' Value='Algunos archivos no están procesados.'/>
 			</StringList>
 		</AeroWindow>
-		<!-- Labels -->
-		<lbNoteSave Caption='Todos tus cambios ya han sido guardados, no necesitas recoinstruir los archivos después de cada edición.'/>
-		<lbNoteRevert Caption='La característica Reconstruir no revertirá ningún cambio que tu hayas hecho en los archivos.'/>
-	</RebuildToolWindow>
+	</DefragmenterWindow>
 
 	<!-- Archive properties -->
 

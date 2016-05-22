@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 <PackageInstallerWindow2 Caption='Packetinstallationsprogramm - $AppName$' />
 
@@ -23,7 +23,8 @@
 		<string name="SELECT_LOCATION">Installationsziel auswählen</string>
 		<string name="LOCATION_MODS_FOLDER">"mods" Ordner</string>
 		<string name="LOCATION_MODS_FOLDER_TEXT">Diese Mod in den "mods" Ordner installieren</string>
-		<string name="LOCATION_GAME_FOLDER">Spielverzeichnis</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED">Dieses Paket kann nicht in den "mods" Ordner installiert werden, da es keine RPF Archive betrifft.</string>
+        <string name="LOCATION_GAME_FOLDER">Spielverzeichnis</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Diese Mod direkt ins Spielverzeichnis installieren</string>
 
 		<string name="INSTALLATION_SUCCEEDED">Installation erfolgreich</string>
@@ -37,7 +38,12 @@
 		<string name="INSTALLING_ERROR_TITLE">Archiv-Fehler bei der Installation</string>
 
 		<string name="ERROR_GROUP_UNKNOWN">Unbekannter Fehler</string>
-		<string name="ERROR_CODE_UNKNOWN">Es ist etwas passiert.</string>
+		<string name="ERROR_CODE_UNKNOWN">Etwas ist passiert. Bitte lies das Log für weitere Details.</string>
+ 		<string name="ERROR_INSTALLATION">Ein schwerwiegender Fehler ist während der Installation aufgetreten. Bitte lies das Log für weitere Details.</string>
+ 		<string name="CHECK_LOG_FILE">Bitte lies das Log für weitere Details.</string>
+ 		
+ 		<string name="OPEN_INSTALLATION_LOG">Installationslog öffnen</string>
+ 		<string name="OPEN_LOG_FILE">Logdatei öffnen</string>
 
 		<!-- LOADING -->
 		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Das Archiv ist kein gültiges ZIP Archiv.</string>
@@ -63,6 +69,9 @@
 
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Dieses Archiv ist nicht mit $RageGAME$ kompatibel. Bitte gehe sicher, dass das Spiel von dieser Mod unterstützt wird.</string>
-
+        <string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Einige Dateien im Archiv fehlen.</string>
+ 		
+ 		<!-- Notes -->
+ 		<string name="INSTALL_NOTE_NO_UNINSTALL">Dieses Paket kann nicht automatisch entfernt werden.</string>
 	</RenderUI>
 </Translation>

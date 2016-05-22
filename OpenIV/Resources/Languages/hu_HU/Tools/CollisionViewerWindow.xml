@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='$AppName$ Collision viewer'>
+		<paneDictionary Caption='Dictionary entries'/>
+		<paneComposite Caption='Composite elements'/>
+		<miLeft Caption='Left'/>
+		<miRight Caption='Right'/>
+		<miCheckAll Caption='Check all' />
+		<miUncheckAll Caption='Uncheck all' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Show Normals:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Bound type:</string>
+		<string name="CHILD_COUNT">Child count:</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Collision viewer - help</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Use mouse to look around, move using these keys:
+			
+    W - Move forward
+    S - Move backward
+    A - Move left
+    D - Move right
+
+    NumPad 8 - Move camera up
+    NumPad 2 - Move camera down
+    NumPad 4 - Move camera left
+    NumPad 6 - Move camera right
+
+    Hold SHIFT - For faster movement
+    Hold CTRL - For slow movement
+    Use mouse wheel for zooming.
+		   
+To change render options use links in right side or these hot keys:
+		   
+    F1 - Toggle this help box
+    C - Toggle camera mode
+    F - Toggle Edged Faces
+    P - Toggle display points
+    N - Toggle show normals
+    G - Toggle geometry
+    ESC - Close this viewer window
+	
+    Hold H - For temporarily hide HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

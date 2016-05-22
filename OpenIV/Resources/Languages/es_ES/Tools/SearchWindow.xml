@@ -19,6 +19,9 @@
 		<btnExportSelectedItems Caption="Exportar archivos seleccionados"/>
 		<btnExportAllItems Caption="Exportar todos los archivos"/>
 		<btnSelectAllItems Caption="Seleccionar todo"/>
+		<btnCopyName Caption="Copiar nombre"/>
+ 		<btnCopyPathName Caption="Copiar ruta"/>
+ 		<btnSaveContent Caption="Guardar contenido"/>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>

@@ -4,6 +4,7 @@
 		<lbWindowTitle Caption="$AppName$ konnte ein Problem nicht lösen\nund muss jetzt neustarten."/>
 		<btnCloseApp Caption='$AppName$ schließen'/>
 		<lnkWeb1 Caption='Die offizielle Seite besuchen'/>
+		<lbReportHere Caption='Bitte melde diesen Fehler unter:'/>
 		<lnkWeb2 Caption='Das internationale Supportforum besuchen'/>
 		<lnkWeb3 Caption='Das russische Supportforum besuchen'/>
 		<lbText2 Caption='Zusätzliche Werkzeuge'/>

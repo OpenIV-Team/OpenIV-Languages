@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<PreloaderWindow>
 		<WelcomeScreen>
@@ -9,6 +9,7 @@
 			<btnGame Caption='Durchsuchen...' Hint='Ordner auswählen:'/>
 			<btnGameNext Caption='Fortsetzen'/>
 			<btnWindowsNext Caption='Fortsetzen'/>
+            <btnSetPermissions Caption='Berechtigungen setzen'/> 
 			<btnBackupNext Caption='Fortsetzen'/>
 			<btnSocialNext Caption='Fortsetzen'/>
 			<btnSocialYouTube Caption='$AppName$ YouTube - Kanal'/>
@@ -40,13 +41,15 @@
 					<Item Index='14' Value='Windows 7'/>
 					<Item Index='15' Value='$AppName$ funktioniert am besten auf Microsoft® Windows 7™'/>
 					<Item Index='16' Value='Dein Name:'/>
-					<Item Index='17' Value="Fehler: $AppName$ darf nicht mit diesem Ordner arbeiten.\nFühre $AppName$ mit Administratorrechten aus."/>
+					<Item Index='17' Value="Fehler: $AppName$ darf nicht mit diesem Ordner arbeiten.\nFühre $AppName$ mit Administratorrechten aus oder die erforderlichen Berechtigungen setzen."/>
 					<Item Index='18' Value='Werde Teil der $AppName$ - Community'/>
 					<Item Index='19' Value='$AppName$ - Bestätigung'/>
 					<Item Index='20' Value='Der Einstellungsprozess ist noch nicht abgeschlossen.\n Willst du $AppName$ trotzdem beenden?'/>
 					<Item Index='21' Value="Fehler: $AppName$ hat keinen Zugriff um mit der Datei '$RageEncryptionStorage$' zu arbeiten.\nFühre $AppName$ mit Administratorrechten aus."/>		
 					<Item Index='22' Value="Fehler: $RageGAME$ läuft zur Zeit. Bitte schließe das Spiel vor der Benutzung von $AppName$."/>
-				</Lines>
+				    <Item Index='23' Value="Alles erledigt.\nDie Berechtigungen wurden erfolgreich gesetzt."/>
+ 					<Item Index='24' Value="Berechtigungen konnten nicht gesetzt werden."/>
+                </Lines>
 			</StringList>
 		</WelcomeScreen>
 		<UpdateScreen>
