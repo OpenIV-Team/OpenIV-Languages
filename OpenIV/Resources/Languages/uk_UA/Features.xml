@@ -4,55 +4,59 @@
 	<!-- Favorites -->
 
 	<AddToFavoritesWindow Caption='Додати до уподобань'>
-		<Label1 Caption='Ім’я:'/>
-		<Label2 Caption='Створено:'/>
+		<Label1 Caption='Імʼя:'/>
+		<Label2 Caption='Додати в папку:'/>
 
 		<btnAdd Caption='Додати'/>
 		<btnCancel Caption='Скасувати'/>
-		<btnNewFolder Caption='Нова тека'/>
+		<btnNewFolder Caption='Створити папку'/>
 
 		<AeroWindow LinesCount='3'>
 			<StringList>
-				<Item Index='0' Value='Уподобання'/>
-				<Item Index='1' Value='Створити теку'/>
-				<Item Index='2' Value='Ім’я теки: '/>
+				<Item Index='0' Value='Уподобане'/>
+				<Item Index='1' Value='Створити папку'/>
+				<Item Index='2' Value='Імʼя папки: '/>
 			</StringList>
 		</AeroWindow>
 	</AddToFavoritesWindow>
 
-	<OrganizeFavoritesWindow Caption='Упорядкувати уподобання'>
+	<OrganizeFavoritesWindow Caption='Упорядкувати уподобання - $AppName$'>
 		<btnSave Caption='Зберегти'/>
 		<btnCancel Caption='Скасувати'/>
-		<btnNewFolder Caption='Нова тека'/>
+		<btnNewFolder Caption='Створити папку'/>
 		<btnRemove Caption='Видалити'/>
 		<btnClear Caption='Очистити'/>
 
-		<Label1 Caption='Використовувайте перетягування для упорядкування уподобань.'/>
+		<Label1 Caption='Використовуйте перетягування, щоб упорядкувати вподобане.'/>
 
 		<AeroWindow LinesCount='3'>
 			<StringList>
-				<Item Index='0' Value='Уподобання'/>
-				<Item Index='1' Value='Створити теку'/>
-				<Item Index='2' Value='Ім’я теки: '/>
+				<Item Index='0' Value='Уподобане'/>
+				<Item Index='1' Value='Створити папку'/>
+				<Item Index='2' Value='Імʼя папки: '/>
 			</StringList>
 		</AeroWindow>
 	</OrganizeFavoritesWindow>
 
-	<!-- Rebuild tool -->
+	<!-- Archive Defragmenter -->
 
-	<RebuildToolWindow Caption='$AppName$ — Перезбирання архівів'>
+	<DefragmenterWindow Caption='Дефрагментація архівів - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="Інструмент дефрагментації перетворює дані всередині архіву на неперервну послідовність файлів для заощадження місця на жорсткому диску."/>
+		<lbNoteSave Caption='Зроблені під час редагування зміни зберігаються незалежно від дефрагментації, тож не слід використовувати її після кожного редагування.'/>
+		<lbNoteRevert Caption='Дефрагментація не здатна скасувати зроблені зміни або відновити оригінальний стан файлів.'/>
 		<!-- Actions -->
 		<actClose Caption='Закрити'/>
-		<actRebuild Caption='Перезібрати'/>
+		<actRebuild Caption='Дефрагментувати'/>
 		<actAddFile Caption='Додати файли'/>
-		<actAddFolder Caption='Додати теку'/>
+		<actAddFolder Caption='Додати папку'/>
 		<actRemoveFile Caption='Видалити файл'/>
-		<actClear Caption='Очистити список'/>
+		<actClear Caption='Очистити'/>
 		<!-- Columns -->
 		<lvFiles>
 			<Columns>
 				<Item Index='0' Caption=''/>
-				<Item Index='1' Caption='Ім’я'/>
+				<Item Index='1' Caption='Імʼя'/>
 				<Item Index='2' Caption='Розташування'/>
 				<Item Index='3' Caption='Тип'/>
 			</Columns>
@@ -60,13 +64,13 @@
 		<!-- Messages -->
 		<AeroWindow LinesCount='4'>
 			<StringList>
-				<Item Index='0' Value='Усе готово.'/>
-				<Item Index='1' Value='$AppName$ — Архів перезібраний'/>
-				<Item Index='2' Value='Відкрити перезібраний архів?'/>
-				<Item Index='3' Value='Деякі архіви не оброблені.'/>
+				<Item Index='0' Value='Дефрагментацію зроблено.'/>
+				<Item Index='1' Value='Дефрагментація архівів - $AppName$'/>
+				<Item Index='2' Value='Відкрити дефрагментований архів?'/>
+				<Item Index='3' Value='Деякі файли не дефрагментовано.'/>
 			</StringList>
 		</AeroWindow>
-	</RebuildToolWindow>
+	</DefragmenterWindow>
 
 	<!-- Archive properties -->
 
@@ -76,65 +80,65 @@
 		<!-- Label's -->
 		<lbType Caption='Тип:'/>
 		<lbVersion Caption='Версія:'/>
-		<lbCount Caption='Всього елементів:'/>
+		<lbCount Caption='Усього елементів:'/>
 
-		<lbCGame Caption='Поточна гра:'/>
+		<lbCGame Caption='Гра:'/>
 		<lbCPlatform Caption='Платформа:'/>
 
-		<lbCodeModule Caption='Модуль:'/>
-		<lbCMVersion Caption='Версія модуля:'/>
+		<lbCodeModule Caption='Переглядач:'/>
+		<lbCMVersion Caption='Версія:'/>
 	</ArchivePropertiesWindow>
 
 	<!-- openFormats -->
 
-	<openFormatsImportWindow Caption='$AppName$ — openFormats'>
+	<openFormatsImportWindow Caption='Перетворювач openFormats - $AppName$'>
 		<!-- Label's -->
-		<lbOfFileName Caption='Імпортований файл:'/>
-		<lbOfFiles Caption='Файли для імпорту:'/>
-		<lbNewFileName Caption='Ім’я нового файлу:'/>
+		<lbOfFileName Caption='Файл для перетворення:'/>
+		<lbOfFiles Caption='Файли для перетворення:'/>
+		<lbNewFileName Caption='Імʼя нового файлу:'/>
 		<!-- Button's -->
 		<btnAdd Caption='Додати'/>
-		<btnRemove Caption='Приховати'/>
+		<btnRemove Caption='Видалити'/>
 		<btnCancel Caption='Скасувати'/>
 		<btnOk Caption='Далі'/>
-		<tbLeanMore Caption='Дізнатись більше про openFormats'/>
+		<tbLeanMore Caption='Дізнатися більше про openFormats'/>
 		<!-- Check box -->
-		<cbProtectMesh Caption='Захист геометрії (перешкоджає подальшому експорту)'/>
+		<cbProtectMesh Caption='Захист геометрії (забороняє подальше перетворення на openFormats)'/>
 	</openFormatsImportWindow>
 
-	<openFormatsValidatorWindow Caption='$AppName$ — openFormats validator'>
-		<lbTitle Caption='Звіт про імпорт openFormats'/>
+	<openFormatsValidatorWindow Caption='openFormats Validator - $AppName$'>
+		<lbTitle Caption='Звіт про перетворення openFormats'/>
 		<btnClose Caption='Закрити'/>
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
 			<StringList>
-				<Item Index='0' Value='Деякі файли не імпортовані, додаткова інформація доступна нижче.'/>
+				<Item Index='0' Value='Деякі файли не перетворено. Додаткова інформація розташована нижче.'/>
 				<!-- Version errors  -->
-				<Item Index='1' Value='%S(Рядок %D): Версія ресурса не підтримується : застосунок зіткнувся з "%S", але очікував "%D".'/>
-				<Item Index='2' Value='%S(Рядок %D): Версія формата не підтримується : застосунок зіткнувся з "%S", але очікував "%D".'/>
+				<Item Index='1' Value='“%S” (рядок %D): Непідтримувана версія ресурсу: виявлено версію %S, хоча було очікувано %D.'/>
+				<Item Index='2' Value='“%S” (рядок %D): Непідтримувана версія формату: виявлено версію %S, хоча було очікувано %D.'/>
 				<!-- Common errors -->
-				<Item Index='3' Value='Фатальна помилка: Неможливо ініціалізувати Direct3D.'/>
-				<Item Index='4' Value='Фатальна помилкаr: Файл "%S" не знайдено.'/>
-				<Item Index='5' Value='%S(Рядок %D): Файл "%S" не знайдено.'/>
-				<Item Index='6' Value='%S(Рядок %D): Файл пошкоджено.'/>
-				<Item Index='7' Value='%S(Рядок %D): Властивість "%s" очікувано, але "%s" знайдено.'/>
-				<Item Index='8' Value='%S(Рядок %D): Властивість "%s" не знайдено.'/>
-				<Item Index='9' Value='%S(Рядок %D): Не вистачає фактичних параметрів.'/>
+				<Item Index='3' Value='Критична помилка: Неможливо ініціалізувати Direct3D.'/>
+				<Item Index='4' Value='Критична помилка: Файл “%S” не знайдено.'/>
+				<Item Index='5' Value='“%S” (рядок %D): Файл “%S” не знайдено.'/>
+				<Item Index='6' Value='“%S” (рядок %D): Файл пошкоджено.'/>
+				<Item Index='7' Value='“%S” (рядок %D): Виявлено властивість “%s”, хоча було очікувано “%s”.'/>
+				<Item Index='8' Value='“%S” (рядок %D): Властивість “%s” не знайдено.'/>
+				<Item Index='9' Value='“%S” (рядок %D): Невірна кількість параметрів.'/>
 				<!-- Collision errors -->
-				<Item Index='10' Value='%S(Рядок %D): Невідомий тип колізії "%S".'/>
-				<Item Index='11' Value='%S(Рядок %D): Колізія занадто велика.'/>
-				<Item Index='12' Value='%S(Рядок %D): Колізію пошкоджено.'/>
+				<Item Index='10' Value='“%S” (рядок %D): Невідомий тип колізії “%S”.'/>
+				<Item Index='11' Value='“%S” (рядок %D): Модель колізії завелика.'/>
+				<Item Index='12' Value='“%S” (рядок %D): Модель колізії пошкоджено.'/>
 				<!-- Skeleton errors -->
-				<Item Index='13' Value='%S(Рядок %D): Ім’я кості не вказано.'/>
+				<Item Index='13' Value='“%S” (рядок %D): Деяка кістка не має імені.'/>
 				<!-- Geometry/Graphics/Drawables errors -->
-				<Item Index='14' Value='%S(Рядок %D): Меш заблоковано.'/>
-				<Item Index='15' Value='%S(Рядок %D): Індекс матеріалу поза межами.'/>
-				<Item Index='16' Value="%S(Рядок %D): Шейдер незаскінено."/>
-				<Item Index='17' Value="%S(Рядок %D): Забагато костей в одній геометрії, ви не можете використовувати більше 48."/>
+				<Item Index='14' Value='“%S” (рядок %D): Геометрію заблоковано.'/>
+				<Item Index='15' Value='“%S” (рядок %D): Номер матеріалу виходить за межі.'/>
+				<Item Index='16' Value="“%S” (рядок %D): Використано шейдер, що неможливо застосувати до моделі зі скелетом."/>		
+				<Item Index='17' Value="“%S” (рядок %D): Забагато кісток для однієї геометрії. Кількість кісток не може бути більша за 48."/>
 
-				<Item Index='18' Value="%S(Рядок %D): %S"/>		
+				<Item Index='18' Value="“%S” (рядок %D): %S"/>						
 			</StringList>
 		</AeroWindow>	
-	</openFormatsValidatorWindow>
+	</openFormatsValidatorWindow>	
 
 </Translation>

@@ -1,36 +1,39 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<SearchWindow Caption='$AppName$ - Глобальний пошук'>
-		<SearchBox BannerText="Пошук"/>
-		<btnGoSearch Caption="Знайти"/>
-		<ebSearchOptions Caption="Додаткові параметри пошуку" ExpandCaption="Додаткові параметри пошуку"/>
-		<cbArchives Caption="Пошук в архівах"/>
-		<cbResources Caption="Пошук в ресурсах"/>
-		<cbSoundsAndAudio Caption="Пошук в звуках і музиці"/>
-		<cbScripts Caption="Пошук в скриптах"/>
-		<cbTextFiles Caption="Пошук в текстових файлах"/>
-		<lbStopHint Caption="Для зупинки пошуку натисніть ESC"/>
-		<btnExportResults Caption="Експорт"/>
-		<btnExportAll Caption="Експортувати всі файли"/>
-		<btnExportSelected Caption="Експортувати виділені файли"/>
+	<SearchWindow Caption='Пошук - $AppName$'>
+		<SearchBox BannerText=""/>
+		<btnGoSearch Caption="Шукати"/>
+		<ebSearchOptions Caption="Інструменти пошуку" ExpandCaption="Інструменти пошуку"/>
+		<cbArchives Caption="У архівах"/>
+		<cbResources Caption="У ресурсах"/>
+		<cbSoundsAndAudio Caption="Серед звуків"/>
+		<cbScripts Caption="У скриптах"/>
+		<cbTextFiles Caption="У текстах"/>
+		<lbStopHint Caption="Натисніть Esc, щоб припинити"/>
+		<btnExportResults Caption="Видобути"/>
+		<btnExportAll Caption="Видобути всі файли"/>
+		<btnExportSelected Caption="Видобути вибрані файли"/>
 		<btnGoTo Caption="Перейти до файлу"/>
 		<btnOpenItem Caption="Відкрити"/>
-		<btnExportItem Caption="Експорт"/>
-		<btnExportSelectedItems Caption="Експортувати вибрані файли"/>
-		<btnExportAllItems Caption="Експортувати всі файли"/>
-		<btnSelectAllItems Caption="Виділити все"/>
+		<btnExportItem Caption="Видобути"/>
+		<btnExportSelectedItems Caption="Видобути вибрані файли"/>
+		<btnExportAllItems Caption="Видобути всі файли"/>
+		<btnSelectAllItems Caption="Вибрати все"/>
+		<btnCopyName Caption="Копіювати імʼя"/>
+		<btnCopyPathName Caption="Копіювати шлях"/>
+		<btnSaveContent Caption="Зберегти вміст"/>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
-				<Item Index='0' Value='Знайти'/>
-				<Item Index='1' Value='Зупинити пошук'/>
-				<Item Index='2' Value='Немає знайдених файлів'/>
-				<Item Index='3' Value='Знайдено: %D'/>
-				<Item Index='4' Value='Немає вибраних файлів'/>
-				<Item Index='5' Value='Виділено файлів: %D'/>
+				<Item Index='0' Value='Шукати'/>
+				<Item Index='1' Value='Припинити'/>
+				<Item Index='2' Value='Нічого не знайдено'/>
+				<Item Index='3' Value='%D ел. знайдено'/>
+				<Item Index='4' Value='Немає вибраних елементів'/>
+				<Item Index='5' Value='Вибраних елементів: %D'/>
 				<Item Index='6' Value="$AppName$ не може відкрити файл."/>
-				<Item Index='7' Value="Немає результатів для експорту."/>
-				<Item Index='8' Value="Зупинити пошук для експорту."/>
+				<Item Index='7' Value="Немає елементів для видобування."/>
+				<Item Index='8' Value="Будь ласка, припиніть пошук перед видобуванням."/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>

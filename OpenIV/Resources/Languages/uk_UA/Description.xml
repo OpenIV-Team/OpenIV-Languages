@@ -1,114 +1,103 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<Library folder="Папка" Default='Файл "%S"' RSC='Ресурс "%S"'>
+<Library folder="Папка" Default='Файл %S' RSC='Ресурс %S'>
 	<!-- GTA V -->
 	<type Name="Patch (XML)">
 		<ext>patch</ext>
 	</type>
-
 	<type Name="Meta (XML)">
 		<ext>meta</ext>
 	</type>
-
 	<type Name="База даних">
 		<ext>db</ext>
 	</type>
-
-	<type Name="Скріпт (текст)">
+	<type Name="Скрипт (текст)">
 		<ext>sc</ext>
 	</type>
-
-	<type Name="Scaleform flash">
+	<type Name="Scaleform Flash">
 		<ext>gfx</ext>
 	</type>
-
-	<type Name="User generated content">
+	<type Name="User generated content (JSON)">
 		<ext>ugc</ext>
 	</type>
-
 	<type Name="Collision bound">
 		<ext>bnd</ext>
 	</type>
-
 	<type Name="Metadata (PSO/RSC)">
 		<ext>pso</ext>
-		
 		<ext>ymt</ext>
 		<ext>ymf</ext>
-
 		<ext>xmt</ext>
 		<ext>xmf</ext>
-
 		<ext>cmt</ext>
 		<ext>cmf</ext>
 	</type>
-
 	<type Name="Particle effect">
 		<ext>ypt</ext>
 		<ext>xpt</ext>
 		<ext>cpt</ext>
 	</type>
-
 	<type Name="Waypoint record">
 		<ext>ywr</ext>
 		<ext>xwr</ext>
 		<ext>cwr</ext>
 	</type>
-
 	<type Name="JavaScript Object Notation">
 		<ext>json</ext>
 	</type>
-
 	<type Name="Map (PSO/RSC)">
 		<ext>ymap</ext>
 		<ext>xmap</ext>
 		<ext>cmap</ext>
 	</type>
-
 	<type Name="Definition Entries (PSO/RSC)">
 		<ext>ytyp</ext>
 		<ext>xtyp</ext>
 		<ext>ctyp</ext>
 	</type>
-
 	<type Name="Name table">
 		<ext>nametable</ext>
 	</type>
-
 	<type Name="Streaming">
 		<ext>srl</ext>
 	</type>
-
 	<!-- OpenIV -->
 	<type Name="OpenIV Mod Package">
 		<ext>oiv</ext>
 	</type>
-
 	<!-- Archives -->
-	<type Name="Rage Package File">
+	<type Name="RAGE Package File">
 		<ext>rpf</ext>
 	</type>
 	<type Name="GTA Image File">
 		<ext>img</ext>
 	</type>
-
+	<type Name="Архів ZIP">
+		<ext>zip</ext>
+	</type>
+	<type Name="Архів 7Z">
+		<ext>7z</ext>
+	</type>
+	<type Name="Архів RAR">
+		<ext>rar</ext>
+	</type>
 	<!-- Native media (Image and Video) -->
-	<type Name="Зображення PNG">
+	<type Name="Рисунок PNG">
 		<ext>png</ext>
 	</type>
-	<type Name="Зображення BMP">
+	<type Name="Рисунок BMP">
 		<ext>bmp</ext>
 	</type>
-	<type Name="Зображення GIF">
+	<type Name="Рисунок GIF">
 		<ext>gif</ext>
 	</type>
-	<type Name="Зображення JPEG">
+	<type Name="Рисунок JPEG">
 		<ext>jpeg</ext>
 		<ext>jpg</ext>
 	</type>
-	<type Name="Значок">
+	<type Name="Піктограма">
 		<ext>ico</ext>
 	</type>
-	<type Name="Truevision TGA Image">
+	<type Name="Рисунок TGA">
 		<ext>tga</ext>
 	</type>
 	<type Name="DirectDraw Surface">
@@ -124,16 +113,17 @@
 	<type Name="Wave sound">
 		<ext>wav</ext>
 	</type>
-
+	<type Name="MP4 Video File">
+		<ext>mp4</ext>
+	</type>
 	<!-- Web media -->
-	<type Name="HTML-документ">
+	<type Name="Веб-сторінка">
 		<ext>html</ext>
 		<ext>htm</ext>
 	</type>
 	<type Name="Shockwave Flash">
 		<ext>swf</ext>
 	</type>
-
 	<!-- Resources (RAGE) -->
 	<type Name="Script resource">
 		<ext>xsc</ext>
@@ -159,7 +149,7 @@
 		<ext>wat</ext>
 		<ext>yat</ext>
 	</type>
-	<type Name="Navigation mesh">
+	<type Name="Navmesh">
 		<ext>xnm</ext>
 		<ext>cnm</ext>
 		<ext>wnm</ext>
@@ -231,7 +221,7 @@
 		<ext>cbn</ext>
 		<ext>ybn</ext>
 	</type>
-	<type Name="Navigation mesh">
+	<type Name="Navmesh">
 		<ext>wnv</ext>
 		<ext>xnv</ext>
 		<ext>cnv</ext>
@@ -294,7 +284,6 @@
 	<type Name="Animation resource">
 		<ext>wan</ext>
 	</type>
-
 	<!-- Audio (RAGE) -->
 	<type Name="Audio Wave Container">
 		<ext>awc</ext>
@@ -306,26 +295,27 @@
 	<type Name="Audio File">
 		<ext>RAGE_AUDIO_FILE</ext>
 	</type>
-
 	<!-- Executables -->
-	<type Name="Виконуваний">
+	<type Name="Програма">
 		<ext>exe</ext>
 	</type>
-	<type Name="Виконуваний (XBOX 360)">
+	<type Name="Програма (Xbox 360)">
 		<ext>xex</ext>
 	</type>
-	<type Name="Розширення застосунку">
+	<type Name="Бібліотека динамічного компонування">
 		<ext>dll</ext>
 	</type>
-
-	<!--  -->
-	<type Name="Бінарний файл">
+	<type Name="Додаток ASI">
+		<ext>asi</ext>
+	</type>
+	<!-- Misc -->
+	<type Name="Двійковий файл">
 		<ext>bin</ext>
 	</type>
 	<type Name="Python script">
 		<ext>py</ext>
 	</type>
-	<type Name="Текстовий документ">
+	<type Name="Текстовий файл">
 		<ext>txt</ext>
 	</type>
 	<type Name="Material">
@@ -339,21 +329,22 @@
 	</type>
 	<type Name="Texture Conversion Params">
 		<ext>ctp</ext>
+		<ext>tcp</ext>
 	</type>
 	<type Name="Shader preset">
 		<ext>sps</ext>
 	</type>
-	<type Name="Текстова таблиця GTA">
+	<type Name="GTA text table">
 		<ext>gxt</ext>
 		<ext>gxt2</ext>
 	</type>
 	<type Name="Документ XML">
 		<ext>xml</ext>
 	</type>
-	<type Name="Параметри конфігурації">
+	<type Name="Файл конфігурації INI">
 		<ext>ini</ext>
 	</type>
-	<type Name="Скомпільований скрипт">
+	<type Name="Компільований скрипт">
 		<ext>sco</ext>
 	</type>
 	<type Name="Item Definition Entries">
@@ -365,11 +356,11 @@
 	<type Name="Car Recordings">
 		<ext>rrr</ext>
 	</type>
-	<type Name="Текстові дані">
+	<type Name="Файл даних">
 		<ext>dat</ext>
 		<ext>datnew</ext>
 	</type>
-	<type Name="Катcцена">
+	<type Name="Кат-сцена">
 		<ext>cut</ext>
 	</type>
 	<type Name="eXtended Placement Lists">
@@ -381,10 +372,10 @@
 		<ext>xlist</ext>
 		<ext>lst</ext>
 	</type>
-	<type Name="Значення, розділені комами">
+	<type Name="Текст із розділенням комами">
 		<ext>csv</ext>
 	</type>
-	<type Name="Лист Microsoft Office Excel 97–2003">
+	<type Name="Книга Excel 97–2003">
 		<ext>xls</ext>
 	</type>
 	<type Name="GTAIV Clip">
@@ -393,16 +384,16 @@
 	<type Name="GTAIV hash pack file">
 		<ext>pak</ext>
 	</type>
-	<type Name="Config">
+	<type Name="Файл конфігурації CFG">
 		<ext>cfg</ext>
 	</type>
-	<type Name="Ескіз зображення GTAIV Clip">
+	<type Name="GTAIV Clip Thumb image">
 		<ext>tag</ext>
 	</type>
-	<type Name="Файл анімації">
+	<type Name="Animation">
 		<ext>anim</ext>
 	</type>
-	<type Name="Шляхи">
+	<type Name="Paths">
 		<ext>nod</ext>
 	</type>
 	<type Name="Combat information">
@@ -414,10 +405,10 @@
 	<type Name="Zone">
 		<ext>zon</ext>
 	</type>
-	<type Name="Скомпільований шейдер">
+	<type Name="Компільований шейдер">
 		<ext>fxc</ext>
 	</type>
-	<type Name="Скомпільований шейдер (cell/ps3)">
+	<type Name="Компільований шейдер (Cell/PS3)">
 		<ext>cgx</ext>
 	</type>
 	<type Name="Audio Metadata">
@@ -430,34 +421,36 @@
 		<ext>DAT45</ext>
 		<ext>DAT46</ext>
 		<name>config/speech.dat</name>
-		<name>config/categories.dat</name>	
-		<name>config/curves.dat</name>	
-		<name>config/dlc_1_curves.dat</name>	
-		<name>config/dlc_1_game.dat</name>	
-		<name>config/dlc_1_sounds.dat</name>	
-		<name>config/dlc_1_speech.dat</name>	
-		<name>config/dlc_pre-order_curves.dat</name>	
-		<name>config/dlc_pre-order_game.dat</name>	
-		<name>config/dlc_pre-order_sounds.dat</name>	
-		<name>config/effects.dat</name>	
+		<name>config/categories.dat</name>
+		<name>config/curves.dat</name>
+		<name>config/dlc_1_curves.dat</name>
+		<name>config/dlc_1_game.dat</name>
+		<name>config/dlc_1_sounds.dat</name>
+		<name>config/dlc_1_speech.dat</name>
+		<name>config/dlc_pre-order_curves.dat</name>
+		<name>config/dlc_pre-order_game.dat</name>
+		<name>config/dlc_pre-order_sounds.dat</name>
+		<name>config/effects.dat</name>
 		<name>config/game.dat</name>
 		<name>config/sounds.dat</name>
 		<name>config/test_curves.dat</name>
 		<name>config/test_game.dat</name>
 		<name>config/test_sounds.dat</name>
-		<name>config/weapons.dat</name>	
-		<name>config/anim.dat</name>	
-		<name>config/dlc_3_sounds.dat</name>	
-		<name>config/dlc_3_game.dat</name>	
-		<name>config/dlc_3_curves.dat</name>	
-		<name>config/dlc_2_speech.dat</name>	
-		<name>config/dlc_2_sounds.dat</name>	
-		<name>config/dlc_2_game.dat</name>	
+		<name>config/weapons.dat</name>
+		<name>config/anim.dat</name>
+		<name>config/dlc_3_sounds.dat</name>
+		<name>config/dlc_3_game.dat</name>
+		<name>config/dlc_3_curves.dat</name>
+		<name>config/dlc_2_speech.dat</name>
+		<name>config/dlc_2_sounds.dat</name>
+		<name>config/dlc_2_game.dat</name>
 		<name>config/dlc_2_curves.dat</name>
 	</type>
 	<type Name="Пакетний файл">
-		<ext>cmd</ext>
 		<ext>bat</ext>
+	</type>
+	<type Name="Windows Command Script">
+		<ext>cmd</ext>
 	</type>
 	<type Name="Expressions">
 		<ext>expr</ext>
@@ -468,10 +461,7 @@
 	<type Name="Image FX">
 		<ext>ifx</ext>
 	</type>
-	<type Name="Texture Conversion Params">
-		<ext>tcp</ext>
-	</type>
-
+	<!-- Steam -->
 	<type Name="Steam script file">
 		<ext>vdf</ext>
 	</type>

@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='150' ID='1058' icon="Flag.ico" active="true">
-	<!-- !!! To get your ID and ICON see "OpenIV.Beta\Languages\" on Dropbox -->
+<LanguageInterfacePack version='280' ID='1058' icon="Flag.ico" active="true">
 	<Creator>
-		<Name>Seruy_V, Chipsman, NickITOS</Name>
-		<web>http://www.NTSCorp.ru/</web>
-		<!-- You can use http:// or mailto: -->
+		<Name>NickITOS</Name>
+		<web>nikiton-n@mail.ru</web>
+		<!-- You can use "http://" or "https://" or "mailto:" -->
 		<info/>
 		<game>american.gxt</game>
 	</Creator>
 	<WebHelp>
-		<FAQ>http://openiv.com/WebIV/flink.php?id=102</FAQ>
+		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
 	</WebHelp>
 </LanguageInterfacePack>

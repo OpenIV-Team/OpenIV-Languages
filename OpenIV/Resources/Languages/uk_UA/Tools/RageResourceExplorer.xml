@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<RageResourceExplorer Caption='Переглядач ресурсів — $AppName$'>
-		<btnCopy Caption='Скопіювати все'/>
-		<miCopyLine Caption='Копіювати'/>
+	<RageResourceExplorer Caption='$AppName$ - Переглядач ресурсів'>
+		<btnCopy Caption='Копіювати все'/>
+		<miCopyLine Caption='Копіювати рядок'/>
 	</RageResourceExplorer>
 
-	<RageResourceExplorer2 Caption='Переглядач ресурсів — $AppName$'>
+	<RageResourceExplorer2 Caption='$AppName$ - Переглядач ресурсів'>
 		<lbTree Caption="Дерево: "/>
 		<btnProperties Caption="Властивості"/>
 		<btnFields Caption="Поля"/>

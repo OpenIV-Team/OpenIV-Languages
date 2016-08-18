@@ -1,77 +1,76 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<TextureEditorWindow Caption='Засіб перегляду і редагування текстур $AppName$'>
+	<TextureEditorWindow Caption='Інструмент роботи з текстурами $AppName$'>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
-				<Item Index='0' Value='Засіб перегляду текстур $AppName$'/>
+				<Item Index='0' Value='Переглядач текстур $AppName$'/>
 				<Item Index='1' Value='Редактор текстур $AppName$'/>
 			</StringList>
 		</AeroWindow>
 	</TextureEditorWindow>
 	<RenderUI>
-		<string name="VIEW_">Вид:</string>
-		<string name="EXPORT_ALL">Експортувати все</string>
-		<string name="EXPORT_SELECTED">Експортувати</string>
-		<string name="ORIGINAL_SIZE">Повний розмір</string>
-		<string name="ALPHA_BACKGROUND">Альфа-фон</string>
+		<string name="VIEW_">Вигляд:</string>
+		<string name="EXPORT_ALL">Зберегти всі текстури</string>
+		<string name="EXPORT_SELECTED">Зберегти вибране</string>
+		<string name="ORIGINAL_SIZE">Зберегти розмір</string>
+		<string name="ALPHA_BACKGROUND">Клітчасте тло</string>
 		<string name="SIZE_">Розмір:</string>
 
-		<string name="RENAME">Ім’я</string>
+		<string name="RENAME">Нове імʼя</string>
 		<string name="REPLACE">Замінити</string>
 		<string name="DELETE">Видалити</string>
-		<string name="RENAME_TEXTURE">Перейменувати текстуру</string>
-		<string name="RENAME_TEXTURE_NAME">Введіть нове ім’я:</string>
-		<string name="RENAME_TEXTURE_ERROR">Текстура з таким ім’ям вже існує.</string>
+		<string name="RENAME_TEXTURE">Перейменування текстури</string>
+		<string name="RENAME_TEXTURE_NAME">Нове імʼя</string>
+		<string name="RENAME_TEXTURE_ERROR">Текстура з цим імʼям вже існує.</string>
 		<string name="NO_IMAGE">Зображення відсутнє</string>
 
 		<string name="NO_IMAGE_SELECTED">Зображення не вибрано</string>
 		<string name="WIDTH">Ширина</string>
 		<string name="HEIGHT">Висота</string>
-		<string name="PIXEL_FORMAT">Формат</string>
-		<string name="MIP_MAPS">MipMaps</string>
+		<string name="PIXEL_FORMAT">Стиснення</string>
+		<string name="MIP_MAPS">Рівней деталізації</string>
 
 		<!-- Import dialog -->
-		<string name="CHOOSE_IMPORT_OPTIONS">Оберіть параметри імпорту</string>
+		<string name="CHOOSE_IMPORT_OPTIONS">Додавання текстури</string>
 		<text name="IMPORT_QUALITY_NOTE">
-			<![CDATA[Ці параметри ігноруються при імпорті DDS-файлів.
-Використовуйте DDS-файли, щоб ​​отримати кращу якість.]]>
+			<![CDATA[Ці налаштування можна ігнорувати при додаванні DDS.
+Використовуйте формат DDS для найкращої якості.]]>
 		</text>
-		<string name="AUTO_MIPMAP">Автоматично створювати MipMap-рівні</string>
-		<string name="TEXTURES_FORMAT">Формат текстур (стиснення):</string>
+		<string name="AUTO_MIPMAP">Автоматично згенерувати рівні деталізації</string>
+		<string name="TEXTURES_FORMAT">Формат стиснення:</string>
 		<string name="AUTOMATICALLY">Автоматично</string>
-		<string name="IMPORT_ERROR_FILES">Наступні файли не були додані:</string>
+		<string name="IMPORT_ERROR_FILES">Такі файли не додано</string>
 
 		<!-- Properties dialog -->
 		<string name="PROPERTIES">Властивості</string>
-		<string name="PROPERTIES_MIPMAP">Рівні MipMap:</string>
-		<string name="PROPERTIES_PIXEL_FORMAT">Фомат текстур:</string>
+		<string name="PROPERTIES_MIPMAP">Рівней деталізації:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Стиснення:</string>
 		<text name="PROPERTIES_MOTE">
-			<![CDATA[Попередження:
-Під час зміни властивостей якість може бути втрачена.]]>
+			<![CDATA[Увага!
+Зміна параметрів може погіршити якість.]]>
 		</text>
-
-		<string name="PROPERTIES_NOT_AVAILABLE">Неможливо змінити влістивості "%S" текстури.</string>
+		<string name="PROPERTIES_NOT_AVAILABLE">Неможливо відредагувати властивість “%S”.</string>
 
 		<!-- Save changes dialog -->
-		<string name="SAVE_CHANGES_">Ви хочете зберегти зміни?</string>
+		<string name="SAVE_CHANGES_">Ви бажаєте зберегти зміни?</string>
 		
 		<!-- DirectX 10/11 -->
-		<string name="DX11_NOT_INIT_TITLE">DirectX 11 не досдупний</string>
-		<string name="DX11_NOT_INIT_TEXT">$AppName$ не може ініціалізувати пристрій для роботи з DirectX 11.\nМожливості редагування недоступні для цього файлу.</string>
-
+		<string name="DX11_NOT_INIT_TITLE">Помилка ініціалізації DirectX 11</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ не вдалося ініціалізувати DirectX 11.\nНеможливо редагувати цей файл.</string>
+		
 		<!-- help -->
-		<string name="HELP_TITLE">Редактор текстур — Довідка</string>
+		<string name="HELP_TITLE">Редактор текстур - Допомога</string>
 		<text name="HELP_TEXT">
-			<![CDATA[Доступні гарячі клавіші:
-	
-    Ctrl + Tab — Перемкнути вид
-    Ctrl + A — Експортувати всі текстури
-    Ctrl + S — Експортувати вибранні текстури
-    F1 — Сховати / показати цю довідку
-    ESC — Закрити вікно
-    
-    Затисніть H щоб тимчасово приховати інтерфейс.
+			<![CDATA[Редактор текстур підтримує такі комбінації клавіш:
+			
+    Ctrl+Tab — Змінити вигляд
+    Ctrl+A — Зберегти всі текстури
+    Ctrl+S — Зберегти вибрані текстури
+    F1 — Приховати/відобразити допоміжний текст
+    Esc — Закрити вікно переглядача
+    
+    Утримуйте H для приховування елементів інтерфейсу.
 ]]>
 		</text>
 	</RenderUI>

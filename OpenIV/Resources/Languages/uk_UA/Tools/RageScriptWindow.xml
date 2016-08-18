@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<RageScriptWindow Caption='Перегляд SCO — '>
+	<RageScriptWindow Caption='Переглядач SCO - '>
 		<!-- Button's -->
 		<btnSave Caption='Зберегти як текст'/>
 		<btnClose Caption='Закрити'/>
 		<btnASMBack Caption='&lt;&lt; Назад'/>
-		<btnCFList Caption='Сховати список'/>
-		<btnCodeList Caption='Приховати список'/>
+		<btnCFList Caption='Приховати'/>
+		<btnCodeList Caption='Приховати'/>
 		<!-- Tabs -->
 		<tbASM Caption='Асемблерний код'/>
-		<tbCFASM Caption='Control Flow асемблерний код'/>
+		<tbCFASM Caption='Оброблений асемблерний код'/>
 		<tbCODE Caption='Високорівневий код'/>
 		<Label1 Caption='Фільтр:'/>
 		<!-- Menu -->
-		<N1 Caption='Перейти за адресою'/>
+		<N1 Caption='Перейти до адреси'/>
 		<N2 Caption='Копіювати рядок'/>
-		<N3 Caption='Фільтрувати за командою'/>
+		<N3 Caption='Лише ця команда'/>
 		<!-- Text menu -->
 		<miCopyText Caption='Копіювати'/>
-		<miFind Caption='Знайти…'/>
-		<miSelectAll Caption='Виділити все'/>
-		<miCopyAll Caption='Скопіювати все'/>
+		<miFind Caption='Шукати…'/>
+		<miSelectAll Caption='Вибрати все'/>
+		<miCopyAll Caption='Копіювати все'/>
 		<!-- Save code menu -->
 		<N4 Caption='Зберегти як текст'/>
 		<N5 Caption='Зберегти як HTML'/>	
 		<!-- String's -->
 		<AeroWindow LinesCount='5'>
 			<StringList>
-				<Item Index='0' Value='Завантаження SCO файлу...'/>
+				<Item Index='0' Value='Триває завантаження SCO…'/>
 				<Item Index='1' Value='[STEP1]'/>
 				<Item Index='2' Value='[STEP2]'/>
 				<Item Index='3' Value='[STEP3]'/>
-				<Item Index='4' Value='Показувати все'/>
+				<Item Index='4' Value='Показати все'/>
 			</StringList>
 		</AeroWindow>
 	</RageScriptWindow>

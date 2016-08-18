@@ -1,66 +1,68 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
 	<StringList>
-		<Item Index='00' Value='Процес видобування файлів…'/>
+		<Item Index='00' Value='Триває видобування файлів…'/>
 		<Item Index='01' Value='Поточний файл: '/>
-		<Item Index='02' Value='$AppName$ — Пошук'/>
-		<Item Index='03' Value='Будь ласка, зачекайте, виконується пошук…'/>
+		<Item Index='02' Value='Пошук - $AppName$'/>
+		<Item Index='03' Value='Триває пошук…'/>
 		<Item Index='04' Value='Закрити'/>
 		<Item Index='05' Value=''/>
 		<Item Index='06' Value='Так'/>
-		<Item Index='07' Value='Ні'/>
-		<Item Index='08' Value=' байтів'/>
+		<Item Index='07' Value='Немає'/>
+		<Item Index='08' Value=' Б'/>
 		<Item Index='09' Value=' КБ'/>
 		<Item Index='10' Value=' МБ'/>
-		<Item Index='11' Value='Попередження режиму редагування'/>
-		<Item Index='12' Value='У режимі редагування всі зміни зберігатимуться автоматично.\nВідкрити архів в режимі редагування?'/>
-		<Item Index='13' Value='Оберіть теку:'/>
+		<Item Index='11' Value='Увага, активація режиму редагування!'/>
+		<Item Index='12' Value='Усі зміни в режимі редагування автоматично зберігатимуться.\nВи дійсно бажаєте продовжити?'/>
+		<Item Index='13' Value='Виберіть папку:'/>
 		<Item Index='14' Value='Працює зовнішній застосунок…'/>
-		<Item Index='15' Value='Створення файлу %S'/>
-		<Item Index='16' Value='$AppName$ — Інформация'/>
-		<Item Index='17' Value='Помилка завантаження файлу: можливо, файл пошкоджений.'/>
-		<Item Index='18' Value='$AppName$ — Помилка відкриття файлу'/>
-		<Item Index='19' Value='Файл не є архівом або має невідомий формат.'/>
-		<Item Index='20' Value='%S архіви версії %D не підтримуються.'/>
-		<Item Index='21' Value="$AppName$ не може відкрити архів, причина:\n"/>
-		<Item Index='22' Value='$AppName$ — Створення архіву'/>
-		<Item Index='23' Value='Ім’я архіву не може бути порожнім.'/>
-		<Item Index='24' Value='openFormats — Імпорт'/>
-		<Item Index='25' Value='Невідоме розширення формату файлу: %S'/>
-		<Item Index='26' Value='$AppName$ — Помилка DirectX'/>
+		<Item Index='15' Value='Триває створення файлу “%S”…'/>
+		<Item Index='16' Value='$AppName$ - Інформація'/>
+		<Item Index='17' Value='Помилка завантаження файлу. Імовірно, файл пошкоджено.'/>
+		<Item Index='18' Value='$AppName$ - Помилка роботи з файлом'/>
+		<Item Index='19' Value='Невідомий формат файлу.'/>
+		<Item Index='20' Value='$AppName$ не підтримує архіви %S версії %D.'/>
+		<Item Index='21' Value="$AppName$ не може відкрити архів:\n"/>
+		<Item Index='22' Value='$AppName$ - Створення архіву'/>
+		<Item Index='23' Value="Архів не може не мати імені."/>
+		<Item Index='24' Value='openFormats - Перетворення'/>
+		<Item Index='25' Value='$AppName$ не підтримує розширення %S'/>
+		<Item Index='26' Value='$AppName$ - Помилка DirectX'/>
 		<Item Index='27' Value='$AppName$ не може ініціалізувати Direct3D.'/>
 		<Item Index='28' Value='Запустити $RageGAME_SHORT$'/>
-		<Item Index='29' Value="$AppName$ не може знайти пов’язаний IDE—файл."/>
-		<Item Index='30' Value="$AppName$ не може відкрити файл. Список можливих причин:\n\nДоступ заборонено. Спробуйте запустити $AppName$ з правами адміністратора.\nФайл використовується іншим процесом. Закрийте інші програми та спробуйте ще раз.\n\n"/>	
-		<Item Index='31' Value='Оберіть теку:'/>
-		<Item Index='32' Value='Неможливо відкрити архів: Невідома помилка.'/>
-		<Item Index='33' Value='Неможливо відкрити архів: Шлях не знайдено.'/>
-		<Item Index='34' Value='Неможливо відкрити архів: Доступ заборонено, або файл використовується в іншому застосунку.'/>
-		<Item Index='35' Value='Неможливо відкрити архів: Невідомий формат файлу, або архів пошкоджено.'/>
-		<Item Index='36' Value='Неможливо відкрити архів: Архів пошкоджено.'/>
-		<Item Index='37' Value='Неможливо відкрити архів: Невідомий ключ шифрування, можливо, архів належить до іншої гри або платформи.'/>
-		<Item Index='38' Value='Неможливо створити новий архів.'/>
-		<Item Index='39' Value='$AppName$ — Немає звукового пристрою'/>
-		<Item Index='40' Value='Неможливо відтворити аудіофайл. Немає доступного звукового пристрою.'/>
+		<Item Index='29' Value="Не вдалося знайти повʼязаний файл IDE."/>
+		<Item Index='30' Value="Не вдалося відкрити файл.\n\nНемає дозволу на доступ. Спробуйте запустити $AppName$ із правами адміністратора.\nІнший процес використовує файл. Закрийте інші застосунки та спробуйте знов.\n\n"/>	
+		<Item Index='31' Value='Виберіть папку:'/>
+		<Item Index='32' Value='Не вдалося відкрити архів: Невідома помилка.'/>
+		<Item Index='33' Value='Не вдалося відкрити архів: Шлях не знайдено.'/>
+		<Item Index='34' Value='Не вдалося відкрити архів: Немає дозволу на доступ, або інший застосунок використовує файл.'/>
+		<Item Index='35' Value='Не вдалося відкрити архів: Невідомий формат файлу, або архів пошкоджено.'/>
+		<Item Index='36' Value='Не вдалося відкрити архів: Архів пошкоджено.'/>
+		<Item Index='37' Value='Не вдалося відкрити архів: Невідомий ключ шифрування. Можливо, цей архів належить іншій грі або іншій платформі.'/>
+		<Item Index='38' Value='Не вдалося створити архів.'/>
+		<Item Index='39' Value='$AppName$ - Немає пристрою відтворення звуку'/>
+		<Item Index='40' Value='Неможливо відтворити звуковий файл. Немає доступного пристрою відтворення звуку.'/>
 	</StringList>
 	<tools>
-		<item Name="Tools.Common.Search" Title="Глобальний пошук" Hint="Відкрити глобальний пошук"/>
-		<item Name="Tools.GTAIV.PlacementSearch" Title="Пошук розташування" Hint="Відкрити пошук розташування"/>
-		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Знайти розташування" Hint="Відкрити пошук розташування"/>
-		<item Name="Tools.Common.HashGenerator" Title="Генератор хеш-значень" Hint="Відкрити генератор хеш-значень"/>
-		<item Name="Tools.Common.RunGame" Title="Запустити $RageGAME_SHORT$" Hint="Запустити $RageGAME$"/>		
-		<item Name="Files.GTAEngine.TextViewer" Title="Переглядач GXT" Hint=""/>			
+		<item Name="Tools.Common.Search" Title="Пошук" Hint="Розпочати пошук"/>
+		<item Name="Tools.GTAIV.PlacementSearch" Title="Пошук розташування" Hint="Розпочати пошук розташування"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Знайти розташування" Hint="Розпочати пошук розташування"/>
+		<item Name="Tools.Common.HashGenerator" Title="Генератор геш-кодів" Hint="Відкрити генератор геш-кодів"/>
+		<item Name="Tools.Common.RunGame" Title="Запустити $RageGAME_SHORT$" Hint="Запуск $RageGAME$"/>	
+		<item Name="Files.GTAEngine.TextViewer" Title="Переглядач GXT" Hint=""/>		
 		<item Name="Files.Resources.TextureEditor" Title="Переглядач текстур" Hint=""/>
-		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Редагувач текстур" Hint=""/>			
-		<item Name="Files.Common.AudioPlayer" Title="Аудіовідтворювач" Hint=""/>	
-		<item Name="Files.Resources.CollisionViewer" Title="Переглядач колізій" Hint=""/>
-		<item Name="Files.Resources.DrawableViewer" Title="Переглядач WDR/WDD—моделей" Hint=""/>
-		<item Name="Files.Resources.FragmentsViewer" Title="Переглядач WFT—моделей" Hint=""/>
-		<item Name="Files.Resources.NavmeshViewer" Title="Переглядач навмешей" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Знайти в IDE" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="Переглядач анімацій" Hint="Відкрити переглядач анімацій"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Інсталювач пакетів" Hint="Відкрити інсталювач пакетів"/>
-		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Експортувати в openFormats (.oac)" Hint=""/>
-		<item Name="Files.GTAEngine.TextViewer2" Title="Переглядач GXT2" Hint=""/>	
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Редактор текстур" Hint=""/>				
+		<item Name="Files.Common.AudioPlayer" Title="Аудіопрогравач" Hint=""/>	
+		<item Name="Files.Resources.CollisionViewer" Title="Переглядач файлів колізії" Hint=""/>
+		<item Name="Files.Resources.DrawableViewer" Title="Переглядач моделей WDR/WDD" Hint=""/>
+		<item Name="Files.Resources.FragmentsViewer" Title="Переглядач моделей WFT" Hint=""/>
+		<item Name="Files.Resources.NavmeshViewer" Title="Переглядач навмешів" Hint=""/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Шукати в IDE" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Переглядач анімацій" Hint="Відкрити Переглядач анімацій"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Інсталювач пакетів" Hint="Відкрити Інсталювач пакетів"/>
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Зберегти як openFormats (.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="Переглядач GXT2" Hint=""/>
+		<item Name="Tools.GTAV.ASIManager" Title="Менеджер ASI" Hint="ASI Manager"/>	
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Зберегти скелет як openFormats (.skel)" Hint=""/>
 	</tools>
 </GlobalStrings>

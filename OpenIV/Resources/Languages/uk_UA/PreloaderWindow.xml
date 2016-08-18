@@ -3,70 +3,77 @@
 	<PreloaderWindow>
 		<WelcomeScreen>
 			<!-- Button's -->
-			<btnClose Caption='Вихід'/>
+			<btnClose Caption='Вийти'/>
 			<btnEULANext Caption='Далі'/>
 			<btnWebNext Caption='Далі'/>
-			<btnGame Caption='Огляд…' Hint='Оберіть теку:'/>
+			<btnGame Caption='Огляд...' Hint='Виберіть папку:'/>
 			<btnGameNext Caption='Далі'/>
+			<btnSetPermissions Caption='Отримати дозвіл на доступ до папки гри'/> 
 			<btnWindowsNext Caption='Далі'/>
 			<btnBackupNext Caption='Далі'/>
 			<btnSocialNext Caption='Далі'/>
 			<btnSocialYouTube Caption='Канал $AppName$ на YouTube'/>
-			<btnSocialTwitter Caption='$AppName$ у Твіттері'/>
+			<btnSocialTwitter Caption='Твіттер $AppName$'/>
 			<btnSocial_FB Caption='Сторінка $AppName$ у Facebook'/>
-			<btnSocial_VK Caption='Сторінка $AppName$ на VK.Com'/>
+			<btnSocial_VK Caption='Група $AppName$ у «ВКонтакті»'/>
 			<!-- Link's -->
-			<LnkWebLangs Caption='Перекласти $AppName$ на іншу мову'/>
-			<LnkWebEULA Caption='Прочитайте цю ліцензію.'/>
+			<LnkWebLangs Caption='Перекласти $AppName$ іншою мовою'/>
+			<LnkWebEULA Caption='Прочитайте текст ліцензійної угоди.'/>
 			<!-- CheckBox's -->
-			<cbAcceptEULA Caption='Мною прочитані і прийняті умови ліцензійної угоди $AppName$.'/>
+			<cbAcceptEULA Caption='Я прочитав текст і приймаю умови ліцензійної угоди $AppName$'/>
 			<!-- Strings -->
 			<StringList SetCount='30'>
 				<Lines>
 					<Item Index='00' Value='Умови використання $AppName$'/>
-					<Item Index='01' Value='Перед використанням $AppName$ вам необхідно прочитати і погодитися з нижчезазначеними умовами.'/>
+					<Item Index='01' Value='Перед використанням $AppName$ вам потрібно прочитати умови використання та погодитися з ними.'/>
 					<Item Index='02' Value='Сервіс $WebName$'/>
-					<Item Index='03' Value='Сервіс $WebName$ створений з ціллю покращення обміном інформацією між розробниками і користувачами $AppName$. Якщо ви зареєструєтесь в сервісі, ви зможете перевіряти оновлення $AppName$ і користуватися іншими додатковими веб-функціями. Також сервіс $WebName$ збирає деяку статистичну інформацію, яка дозволить нам розвивати $AppName$ в залежності від переваг користувачів.'/>
-					<Item Index='04' Value='На даний момент сервіс недоступний.'/>
-					<Item Index='05' Value='Вкажіть розташування $RageGAME$'/>
-					<Item Index='06' Value='Без вказання розташування гри $AppName$ не зможе відкривати файли $RageGAME_SHORT$, оскільки не буде мати достатньої для цього інформації. Будь ласка, введіть у поле нижче правильне розташування встановленої $RageGAME$.'/>
-					<Item Index='07' Value='Знаходження встановленої $RageGAME$:'/>
-					<Item Index='08' Value='Помилка: Вказаної директорії не існує.'/>
-					<Item Index='09' Value='Успішно: $AppName$ може працювати з вибраною директорією.'/>
-					<Item Index='10' Value="Помилка: Зазначена папка не містить необхідний файл $RageEncryptionStorage$."/>
-					<Item Index='11' Value='Успішно: $RageEncryptionStorage$, Версія %s\n$AppName$ може працювати з цим файлом.'/>
+					<Item Index='03' Value='Сервіс $WebName$ створено для обміну інформацією між розробниками та користувачами $AppName$. Обліковий запис сервісу дозволяє перевіряти оновлення $AppName$ і використовувати інші додаткові можливості. Також $WebName$ збирає деяку статистичну інформацію, що допоможе нам поліпшити $AppName$ згідно з бажаннями користувачів.'/>
+					<Item Index='04' Value='Сервіс тимчасово недоступний.'/>
+					<Item Index='05' Value='Виберіть папку $RageGAME$'/>
+					<Item Index='06' Value='Якщо ви не зазначите папку гри, $AppName$ не зможе відкрити файли $RageGAME_SHORT$ через нестачу інформації. Будь ласка, укажіть правильне розташування інстальованої $RageGAME$ нижче.'/>
+					<Item Index='07' Value='Папка $RageGAME$:'/>
+					<Item Index='08' Value='Помилка: Зазначена папка не існує.'/>
+					<Item Index='09' Value='Успіх: $AppName$ може працювати з цією папкою.'/>
+					<Item Index='10' Value="Помилка: Зазначена папка не містить файлу '$RageEncryptionStorage$'."/>
+					<Item Index='11' Value='Успіх: Знайдено $RageEncryptionStorage$, версія %s\n$AppName$ може працювати з цим файлом.'/>
 					<Item Index='12' Value='Резервні копії'/>
-					<Item Index='13' Value='Не забувайте робити резервні копії оригінальних файлів перед редагуванням.'/>
+					<Item Index='13' Value='Не забувайте робити резервні копії оригінальних файлів гри перед редагуванням.'/>
 					<Item Index='14' Value='Windows 7'/>
-					<Item Index='15' Value='Ми рекомендуємо Microsoft® Windows 7™ для використання всіх можливостей $AppName$'/>
-					<Item Index='16' Value='Ваше ім’я:'/>
-					<Item Index='17' Value="Помилка: $AppName$ не має доступу до вибраної теки.\nЗапустіть $AppName$ з правами адміністратора."/>
-					<Item Index='18' Value='Приєднатися до спільноти $AppName$'/>
-					<Item Index='19' Value='$AppName$ — Підтвердження'/>
-					<Item Index='20' Value='Процес конфігурації ще не закінчився.\nВи дійсно бажаєте вийти?'/>
+					<Item Index='15' Value='Ми радимо вам використовувати Microsoft® Windows 7™ для найкращого функціонування $AppName$'/>
+					<Item Index='16' Value='Ваше імʼя:'/>
+					<Item Index='17' Value="Помилка: $AppName$ не має дозволу на доступ до зазначеної папки.\nВи можете отримати його або запустити $AppName$ із правами адміністратора."/>
+					<Item Index='18' Value='Долучайтеся до спільноти $AppName$'/>
+					<Item Index='19' Value='$AppName$ - Підтвердження'/>
+					<Item Index='20' Value='Процес конфігурації ще не завершено.\nВи дійсно бажаєте вийти?'/>
+					<Item Index='21' Value="Помилка: $AppName$ не має дозволу на доступ до файлу '$RageEncryptionStorage$'.\nВи можете отримати його або запустити $AppName$ із правами адміністратора."/>
+					<Item Index='22' Value="Помилка: $RageGAME$ запущено. Закрийте гру перед використовуванням $AppName$."/>
+					<Item Index='23' Value="Дозвіл отримано.\n$AppName$ має дозвіл на доступ до папки гри."/>
+					<Item Index='24' Value="Не вдалося отримати дозвіл."/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>
 		<UpdateScreen>
 			<!-- Button's -->
-			<btnExit Caption='Вихід'/>
-			<btnInstall Caption='Звантажити та інсталювати'/>
+			<btnExit Caption='Вийти'/>
+			<btnInstall Caption='Завантажити та інсталювати'/>
 			<!-- Label's -->
 			<lbTitle Caption='Оновлення $AppName$'/>
-			<lbText Caption='Оновлення для $AppName$ доступно. Вам необхідно встановити це оновлення, інакше ви не зможете запустити $AppName$.'/>
-			<lbStatus Caption='Розмір звантажуваного файлу:'/>
+			<lbText Caption='Існує свіже оновлення $AppName$. Вам потрібно інсталювати його перед запуском $AppName$.'/>
+			<lbStatus Caption='Розмір файлу: '/>
 			<cbInstallUpdatesAutomatically Caption='Інсталювати оновлення автоматично'/>
+			<lbCurrentVersion Caption='Версія вашої копії $AppName$:'/>
+			<lbNewVersion Caption='Нова версія:'/>
 			<!-- Strings -->
 			<StringList SetCount='10'>
 				<Lines>
 					<Item Index='0' Value=' МБ'/>
-					<Item Index='1' Value='Підготування до звантаження...'/>
-					<Item Index='2' Value='Звантаження: %f МБ з %f МБ'/>
-					<Item Index='3' Value='Оновлення…'/>
-					<Item Index='4' Value='Помилка оновлення, будь ласка, спробуйте пізніше.'/>
-					<Item Index='5' Value=''/>
-					<Item Index='6' Value=""/>
-					<Item Index='7' Value=''/>
+					<Item Index='1' Value='Триває підготовка до завантаження…'/>
+					<Item Index='2' Value='Завантажено %f з %f МБ'/>
+					<Item Index='3' Value='Триває оновлення…'/>
+					<Item Index='4' Value='Помилка оновлення. Будь ласка, спробуйте пізніше.'/>
+					<Item Index='5' Value='%d.%d.%d (Збірка %d; Дата: %s)'/>
+					<Item Index='6' Value='Оновлення виправляє помилки та впроваджує невеликі поліпшення.'/>
+					<Item Index='7' Value='Оновлення виправляє помилки та впроваджує нові можливості, зміни інтерфейсу й значні поліпшення.'/>
 					<Item Index='8' Value=''/>
 					<Item Index='9' Value=''/>
 				</Lines>
@@ -74,21 +81,21 @@
 		</UpdateScreen>
 		<ChangeGameScreen>
 			<!-- Button's -->
-			<btnExit Caption='Вихід'/>
+			<btnExit Caption='Вийти'/>
 			<btnContinue Caption='Далі'/>
 			<!-- Strings -->
 			<StringList SetCount='10'>
 				<Lines>
-					<Item Index='00' Value='Критична помилка'/>
-					<Item Index='01' Value='Ви інсталювали $AppName$ в ту ж теку, що і $RageEncryptionStorage$, що не є правильним.\nБудь ласка, інсталюйте $AppName$ в окрему теку.'/>
-					<Item Index='02' Value='Укажіть розташування $RageGAME$'/>
-					<Item Index='03' Value='Щось неправильно, будь ласка, виберіть розташування $RageGAME$ в полі нижче і перезапустіть $AppName$.'/>
-					<Item Index='04' Value='Помилка: Вказана директорія не існує.'/>
-					<Item Index='05' Value='Успішно: $AppName$ може працювати з обраною директорією.'/>
-					<Item Index='06' Value="Помилка: Вказана тека не містить необхідний файл $RageEncryptionStorage$."/>
-					<Item Index='07' Value='Успішно: $RageEncryptionStorage$, Версія %s\n$AppName$ може працювати з цим файлом.'/>
+					<Item Index='00' Value='Критична помилка застосунку'/>
+					<Item Index='01' Value='Ви розташували $AppName$ в одній папці з файлом “$RageEncryptionStorage$”, що неправильно.\nБудь ласка, розташуйте $AppName$ в окремій папці.'/>
+					<Item Index='02' Value='Змініть папку $RageGAME$'/>
+					<Item Index='03' Value='Невідома помилка. Будь ласка, змініть папку $RageGAME$ нижче й перезапустіть $AppName$.'/>
+					<Item Index='04' Value='Помилка: Зазначена папка не існує.'/>
+					<Item Index='05' Value='Успіх: $AppName$ може працювати з цією папкою.'/>
+					<Item Index='06' Value="Помилка: Зазначена папка не містить файлу “$RageEncryptionStorage$”."/>
+					<Item Index='07' Value='Успіх: Знайдено $RageEncryptionStorage$, версія %s\n$AppName$ може працювати з цим файлом.'/>
 					<Item Index='08' Value='Огляд'/>
-					<Item Index='09' Value="Помилка: $AppName$ не має доступу до вибраної теки.\nЗапустіть $AppName$ з правами адміністратора."/>
+					<Item Index='09' Value="Помилка: $AppName$ не має дозволу на доступ до зазначеної папки.\nЗапустіть $AppName$ із правами адміністратора."/>
 				</Lines>
 			</StringList>
 		</ChangeGameScreen>
