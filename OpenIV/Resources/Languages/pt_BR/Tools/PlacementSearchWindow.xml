@@ -1,47 +1,47 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<PlacementSearchWindow Caption='$AppName$ Pesquisar localização'>
+	<PlacementSearchWindow Caption='Busca de Localização - $AppName$'>
 	</PlacementSearchWindow>
 
 	<RenderUI>
-		<string name="SEARCH_FOR_NAME">Pesquisar por name</string>
-		<string name="SEARCH_FOR_HASH">Pesquisar por hash</string>
+		<string name="SEARCH_FOR_NAME">Buscar por nome</string>
+		<string name="SEARCH_FOR_HASH">Buscar por hash</string>
 
-		<string name="BANNER_TEXT_NAME">Tipo de nome de modelo</string>
-		<string name="BANNER_TEXT_HASH">Tipo de hash de modelo</string>
+		<string name="BANNER_TEXT_NAME">Digite o nome do modelo</string>
+		<string name="BANNER_TEXT_HASH">Digite o hash do modelo</string>
 
-		<string name="SEARCH">Pesquisar</string>
-		<string name="STOP_SEARCH">Parar pesquisa</string>
+		<string name="SEARCH">Buscar</string>
+		<string name="STOP_SEARCH">Parar busca</string>
 		<string name="INCORRECT_HASH">Hash incorreto</string>
-		<string name="INCORRECT_HASH_TEXT">"%S" não é um valor válido de hash.</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" não é um valor de hash válido.</string>
 
-		<string name="FILE_INFORMATION">Informação do arquivo</string>
-		<string name="SHOW_DEFINITION">Mostrar definição no arquivo IDE</string>
+		<string name="FILE_INFORMATION">Informações do arquivo</string>
+		<string name="SHOW_DEFINITION">Mostrar definição em um arquivo IDE</string>
 		<string name="SHOW_IDE">Mostrar arquivo IDE</string>
 		<string name="SHOW_ARCHIVE">Mostrar arquivo</string>
 		<string name="SHOW_RESOURCE">Mostrar arquivo de recurso</string>
 
-		<string name="HELP_TITLE">Pesquisar localização - ajuda</string>
+		<string name="HELP_TITLE">Busca de Localização - Ajuda</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Use o mouse para olhar ao redor, mova usando essas teclas:
 			
     W - Mover para frente
     S - Mover para trás
-    A - Move para esquerda
-    D - Move para direita
-	
+    A - Mover para esquerda
+    D - Mover para direita
+
     NumPad 8 - Mover câmera para cima
     NumPad 2 - Mover câmera para baixo
     NumPad 4 - Mover câmera para esquerda
     NumPad 6 - Mover câmera para direita
 	
-    Segure SHIFT - Para movimento rápido
-    Segure CTRL - Para movimento lento
+    SHIFT - Para movimento rápido (segure o botão)
+    CTRL - Para movimento lento (segure o botão)
     
     Use a roda do mouse para dá zoom.
 	
-    ESC - Fechar a janela de Pesquisar localização
-    Segure H - Para ocultar temporariamente o HUD
+    ESC - Fechar a janela de Busca de Localização
+    H - Para ocultar temporariamente o HUD (segure o botão)
 ]]>
 		</text>
 	</RenderUI>

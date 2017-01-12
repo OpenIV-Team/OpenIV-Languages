@@ -6,16 +6,16 @@
 		<string name="HELP_LINK">Clique aqui para obter ajuda</string>
 
 		<!-- Common words -->
-		<string name="TRUE">Verdad.</string>
-		<string name="FALSE">Falso</string>
+		<string name="TRUE">Sim</string>
+		<string name="FALSE">Não</string>
 		<string name="YES">Sim</string>
 		<string name="NO">Não</string>
 		<string name="OK">Ok</string>
 		<string name="CANCEL">Cancelar</string>
 		<string name="CLOSE">Fechar</string>
 		<string name="SAVE">Salvar</string>
-		<string name="IMPORT">Importar</string>
-		<string name="SEARCH">Pesquisar</string>
+		<string name="IMPORT">Import.</string>
+		<string name="SEARCH">Buscar</string>
 
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Modo de câmera:</string>
@@ -24,40 +24,40 @@
 
 		<!-- Options -->
 		<string name="SHOW_GRID">Mostrar grade:</string>
-		<string name="GEOMETRY">Geometria:</string>		
-		<string name="EDGED_FACES">Mostrar Edged Faces:</string>
-		<string name="DISPLAY_POINTS">Pontos de Exibição:</string>
+		<string name="GEOMETRY">Mostrar geometria:</string>		
+		<string name="EDGED_FACES">Mostrar edged faces:</string>
+		<string name="DISPLAY_POINTS">Mostrar pontos:</string>
 
 		<!-- Base information -->
 		<string name="POLYGONS">Polígonos:</string>
 		<string name="VERTICES">Vértices:</string>
 
 		<!-- LOD -->
-		<string name="LOD">Nível de Detalhes:</string>
+		<string name="LOD">Nível de detalhes:</string>
 		<string name="LOD_HIGH">Alto</string>
 		<string name="LOD_MED">Méd</string>
 		<string name="LOD_LOW">Baixo</string>
 		<string name="LOD_VLOW">MBaixo</string>
 
 		<!-- Textures -->
-		<string name="USING_TEXTURES">Usando texturas:</string>
+		<string name="USING_TEXTURES">Usando as texturas:</string>
 		<string name="ADD_TEXTURE">[+] Adicionar textura</string>
 		<string name="EXPORT_EMBEDDED_TEXTURES">[ Exportar texturas embutida ]</string>
 		<string name="TO_TEXTURES_VIEWER">[ Ver texturas embutida ]</string>
 
 		<!-- Information -->
-		<string name="MORE_INFORMATION">[ Mais informação ]</string>
+		<string name="MORE_INFORMATION">[ Mais informações ]</string>
 		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Exportar todas as texturas embutidas</string>
 		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Exportar texturas embutidas selecionadas</string>
-		<string name="COUNT_">Quantid.: </string>
+		<string name="COUNT_">Total: </string>
 		<string name="SELECT_OBJECT">Selecionar objeto</string>
-		<string name="COPY_SKELETON_INFO">Copiar informação do esqueleto (skeleton)</string>
-		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Incapaz de copiar</string>
+		<string name="COPY_SKELETON_INFO">Copiar as informações do skeleton</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Não foi possível copiar</string>
 		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Falha ao copiar para o clipboard.</string>
 
 		<!-- Information tabs -->
 		<string name="INFO_GEOMETRIES">Geometrias</string>
-		<string name="INFO_SKELETON">Esqueleto</string>
+		<string name="INFO_SKELETON">Skeleton</string>
 		<string name="INFO_SHADERS">Shaders</string>
 		<string name="INFO_TEXTURES">Texturas</string>
 
@@ -77,12 +77,12 @@
 		<string name="COLUMN_VALUE">Valor</string>
 
 		<string name="COLUMN_INDEX">Índice</string>
-		<string name="COLUMN_INDEX_COUNT">Quantid. de índice</string>
-		<string name="COLUMN_FACE_COUNT">Quantid. de face</string>
-		<string name="COLUMN_VERTEX_COUNT">Quantid. de vértice (vertex)</string>
+		<string name="COLUMN_INDEX_COUNT">№ de índices</string>
+		<string name="COLUMN_FACE_COUNT">Faces</string>
+		<string name="COLUMN_VERTEX_COUNT">Vértices</string>
 		
 		<!-- Export texture format dialog -->
-		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Por favor, selecione o formato de arquivo:</string>
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Por favor, selecione o formato do arquivo:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Melhor escolha para propósitos comuns e de visualização.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>

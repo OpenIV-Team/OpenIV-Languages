@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<PtxFileViewerWindow Caption='$AppName$ Visualizador de Modelo'>
-		<paneDictionary Caption='Dicionário de elementos'/>
+	<PtxFileViewerWindow Caption='Visualizador de Modelo - $AppName$'>
+		<paneDictionary Caption='Elementos do dicionário'/>
 	</PtxFileViewerWindow>
 	<RenderUI>
 		<string name="EXPORT_TO_FORMATS">Exportar para openFormats</string>	
 		<!-- help -->
-		<string name="HELP_TITLE">Visualizador de Modelo - ajuda</string>		
+		<string name="HELP_TITLE">Visualizador de Modelo - Ajuda</string>		
 		<text name="HELP_TEXT">
 			<![CDATA[Use o mouse para olhar ao redor, mova usando essas teclas:
 			
@@ -20,21 +20,21 @@
     NumPad 4 - Mover câmera para esquerda
     NumPad 6 - Mover câmera para direita
 
-    Segure SHIFT - Para movimento rápido
-    Segure CTRL - Para movimento lento
+    SHIFT - Para movimento rápido (segure o botão)
+    CTRL - Para movimento lento (segure o botão)
     Use a roda do mouse para dá zoom.
 	
 Para alterar as opções de renderização use os links no lado direito ou estas teclas de atalho:
 	
-    F1 - Alternar este painel de ajuda
+    F1 - Alternar para este painel de ajuda
 	F2 - Mostrar mais informação
     C - Alternar modo de câmera
-    F - Alternar Edged Faces
-    P - Alternar pontos de exibição
-    G - Alternar geometria
+    F - Alternar para mostrar edged faces (superfície com arestas)
+    P - Alternar para mostrar pontos
+    G - Alternar para mostrar geometria
     ESC - Fechar esta janela de visualização
 	
-    Segure H - Para ocultar temporariamente o HUD
+    H - Para ocultar temporariamente o HUD (segure o botão)
 ]]>
 		</text>		
 	</RenderUI>

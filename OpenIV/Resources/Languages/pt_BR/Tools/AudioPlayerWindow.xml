@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<AudioPlayerWindow Caption='$AppName$ Reprodutor de Áudio'>
+	<AudioPlayerWindow Caption='Reprodutor de Áudio - $AppName$'>
 		<btnExportAll Caption='Exportar todos'/>
 		<btnOptions Caption='Opções'/>
-		<miPlayWhenOpen Caption='Começar a reproduzir quando o arquivo estiver aberto'/>
-		<miAutoPlayNext Caption='Reproduzir automáticamente a faixa seguinte'/>
+		<miPlayWhenOpen Caption='Iniciar reproduzindo quando o arquivo for aberto'/>
+		<miAutoPlayNext Caption='Reproduzir automaticamente a faixa seguinte'/>
 		<miPlay Caption='Reproduzir'/>
 		<miExport Caption='Exportar'/>
 		<miCopyName Caption='Copiar nome'/>
 		<miExportAllChannelsSeparately Caption='Exportar todos os canais separadamente'/>
-		<btnSort Caption='Classificar'/>
-		<miSortByName Caption='Classificar por nome'/>
-		<miSortByDuration Caption='Classificar por duração'/>
-		<miSortOrderAsc Caption='Classificar por ordem ascendente'/>
-		<miSortOrderDesc Caption='Classificar por ordem descendente'/>
+		<btnSort Caption='Ordenar'/>
+		<miSortByName Caption='Ordenar por nome'/>
+		<miSortByDuration Caption='Ordenar por duração'/>
+		<miSortOrderAsc Caption='Ordenar por ordem crescente'/>
+		<miSortOrderDesc Caption='Ordenar por ordem decrescente'/>
 		<!-- String's -->
 		<AeroWindow LinesCount='6'>
 			<StringList>

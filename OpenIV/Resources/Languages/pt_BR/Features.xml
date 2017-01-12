@@ -38,12 +38,16 @@
 		</AeroWindow>
 	</OrganizeFavoritesWindow>
 
-	<!-- Rebuild tool -->
+	<!-- Archive Defragmenter -->
 
-	<RebuildToolWindow Caption='Ferramenta de reconstrução - $AppName$'>
+	<DefragmenterWindow Caption='Desfragmentador de Arquivos - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="O Desfragmentador de Arquivo consolida arquivos dentro do arquivo para reduzir o tamanho do arquivo no disco rígido do seu computador."/>
+		<lbNoteSave Caption='Todas as suas alterações já estão salvas, você não precisa usar a desfragmentação após cada edição..'/>
+		<lbNoteRevert Caption='O recurso de desfragmentação não vai reverter qualquer alterações feitas nos arquivos.'/>
 		<!-- Actions -->
 		<actClose Caption='Fechar'/>
-		<actRebuild Caption='Recontruir'/>
+		<actRebuild Caption='Desfragmentar'/>
 		<actAddFile Caption='Adicionar arquivos'/>
 		<actAddFolder Caption='Adicionar pasta'/>
 		<actRemoveFile Caption='Remover arquivos'/>
@@ -53,33 +57,30 @@
 			<Columns>
 				<Item Index='0' Caption=''/>
 				<Item Index='1' Caption='Nome'/>
-				<Item Index='2' Caption='Location'/>
+				<Item Index='2' Caption='Local'/>
 				<Item Index='3' Caption='Tipo'/>
 			</Columns>
 		</lvFiles>
 		<!-- Messages -->
 		<AeroWindow LinesCount='4'>
 			<StringList>
-				<Item Index='0' Value='Todos completos.'/>
-				<Item Index='1' Value='$AppName$ - Arquivo reconstruido'/>
-				<Item Index='2' Value='Abrir arquivo reconstruído?'/>
-				<Item Index='3' Value='Alguns arquivos não são processados.'/>
+				<Item Index='0' Value='Arquivo(s) desfragmentado(s) com êxito!'/>
+				<Item Index='1' Value='$AppName$ - Arquivo(s) desfragmentado(s)'/>
+				<Item Index='2' Value='Você quer abrir o(s) arquivo(s) reconstruído(s)?'/>
+				<Item Index='3' Value='Alguns arquivos não foram processados.'/>
 			</StringList>
 		</AeroWindow>
-		<!-- Labels -->
-		<lbNoteSave Caption='Todas as suas alterações já estão salvas, você não precisa reconstruir o arquivo após cada edição..'/>
-		<lbNoteRevert Caption='O recurso de reconstruir não vai reverter qualquer alterações feitas nos arquivos.'/>
-	</RebuildToolWindow>
+	</DefragmenterWindow>
 
 	<!-- Archive properties -->
 
-	<ArchivePropertiesWindow Caption='Informação do arquivo'>
+	<ArchivePropertiesWindow Caption='Informações do arquivo'>
 		<!-- Button's -->
 		<btnClose Caption='Fechar'/>
 		<!-- Label's -->
 		<lbType Caption='Tipo:'/>
 		<lbVersion Caption='Versão:'/>
-		<lbCount Caption='Quantid. de itens:'/>
+		<lbCount Caption='Total de itens:'/>
 
 		<lbCGame Caption='Jogo atual:'/>
 		<lbCPlatform Caption='Plataforma atual:'/>
@@ -102,11 +103,11 @@
 		<btnOk Caption='Ok'/>
 		<tbLeanMore Caption='Saiba mais sobre o openFormats'/>
 		<!-- Check box -->
-		<cbProtectMesh Caption='Proteger malha (mesh) (evitar exportação futura)'/>
+		<cbProtectMesh Caption='Proteger mesh (evita exportação futura)'/>
 	</openFormatsImportWindow>
 
 	<openFormatsValidatorWindow Caption='Validador de openFormats - $AppName$'>
-		<lbTitle Caption='Relatório de importação de openFormats'/>
+		<lbTitle Caption='Relatar importação de openFormats'/>
 		<btnClose Caption='Fechar'/>
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
@@ -117,23 +118,23 @@
 				<Item Index='2' Value='%S(Line %D): Versão do formato não suportado, atual: "%S" mas esperado "%D".'/>
 				<!-- Common errors -->
 				<Item Index='3' Value='Erro fatal: Não foi possível inicializar o Direct3D.'/>
-				<Item Index='4' Value='Erro fatal: Arquivo "%S" não encontrado.'/>
-				<Item Index='5' Value='%S(Line %D): Arquivo "%S" não encontrado.'/>
-				<Item Index='6' Value='%S(Line %D): Arquivo corrompido.'/>
+				<Item Index='4' Value='Erro fatal: O arquivo "%S" não foi encontrado.'/>
+				<Item Index='5' Value='%S(Line %D): O arquivo "%S" não foi encontrado.'/>
+				<Item Index='6' Value='%S(Line %D): O arquivo está corrompido.'/>
 				<Item Index='7' Value='%S(Line %D): Propriedade "%s" esperado mas "%s" encontrado.'/>
-				<Item Index='8' Value='%S(Line %D): Propriedade "%s" não encontrado.'/>
-				<Item Index='9' Value='%S(Line %D): Parâmetros atuais não suficiente.'/>
+				<Item Index='8' Value='%S(Line %D): Propriedade "%s" não foi encontrada.'/>
+				<Item Index='9' Value='%S(Line %D): Os parâmetros atuais não são suficiente.'/>
 				<!-- Collision errors -->
-				<Item Index='10' Value='%S(Line %D): Tipo de limite de colisão desconhecido "%S".'/>
+				<Item Index='10' Value='%S(Line %D): Tipo de limite de colisão desconhecida "%S".'/>
 				<Item Index='11' Value='%S(Line %D): A colisão é muito grande.'/>
 				<Item Index='12' Value='%S(Line %D): A colisão está corrompida.'/>
 				<!-- Skeleton errors -->
-				<Item Index='13' Value='%S(Line %D): O nome do osso (bone) é nulo.'/>
+				<Item Index='13' Value='%S(Line %D): O nome do bone é nulo.'/>
 				<!-- Geometry/Graphics/Drawables errors -->
-				<Item Index='14' Value='%S(Line %D): A malha (mesh) está bloqueado.'/>
-				<Item Index='15' Value='%S(Line %D): Índice de matéria fora dos limites.'/>
-				<Item Index='16' Value="%S(Line %D): O shader não pode ser skinned."/>		
-				<Item Index='17' Value="%S(Line %D): Muitos ossos (bones) em uma geometria, você não pode usar mais de 48 ossos (bones)."/>
+				<Item Index='14' Value='%S(Line %D): A mesh está protegida.'/>
+				<Item Index='15' Value='%S(Line %D): O índice de matériais está fora dos limites.'/>
+				<Item Index='16' Value="%S(Line %D): O shader não pode ser modificado."/>		
+				<Item Index='17' Value="%S(Line %D): Muitos bones em uma geometria, você não pode usar mais de 48 bones."/>
 
 				<Item Index='18' Value="%S(Line %D): %S"/>						
 			</StringList>

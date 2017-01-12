@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<GTAIVAnimViewerNoticeDialog Caption='Visualizador de animação - $AppName$'>
+	<GTAIVAnimViewerNoticeDialog Caption='Visualizador de Animação - $AppName$'>
 		<!-- Label's -->
-		<lbTitle Caption='Visualizador de animação'/>
-		<lbText Caption='Para visualizar animações por favor use o Visualizador de animação, você pode executá-lo a partir do menu Ferramentas.'/>
+		<lbTitle Caption='Visualizador de Animação'/>
+		<lbText Caption='Para ver animações, por favor use o Visualizador de Animação, você pode iniciá-lo a partir do menu de Ferramentas.'/>
 		<!-- Button's -->
 		<btnOk Caption='Ok'/>
-		<btnRun Caption='Executar visualizador de animação'/>
+		<btnRun Caption='Iniciar o Visualizador de Animação'/>
 	</GTAIVAnimViewerNoticeDialog>
 </Translation>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<GXT2ViewerWindow Caption='$AppName$ Visualizador de GXT'>		
+	<GXT2ViewerWindow Caption='Visualizador de GXT - $AppName$'>		
 		<btnClose Caption='Fechar'/>
 	</GXT2ViewerWindow>
 </Translation>

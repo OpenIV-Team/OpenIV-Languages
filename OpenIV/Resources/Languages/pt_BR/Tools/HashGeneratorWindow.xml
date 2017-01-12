@@ -4,10 +4,10 @@
 		<!-- Label's -->
 		<lbOutputFormat Caption='Formato de saída:' />
 		<!-- Button's -->
-		<btnLoadFromFile Caption='Carregar do arquivo' />
+		<btnLoadFromFile Caption='Carregar de um arquivo' />
 		<btnGenerate Caption='Gerar' />
 		<btnSaveToFile Caption='Salvar como arquivo' />
-		<cbCaseSensitive Caption='Case Sensitive' />
+		<cbCaseSensitive Caption='Destinguir entre maiús. e minús.' />
 		<!-- Panel's -->
 		<pnlLeft Caption='Entrada:' />
 		<pnlRight Caption='Saída:' />    

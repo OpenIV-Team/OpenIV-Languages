@@ -1,38 +1,38 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<FiveAsiManagerWindow Caption='Gerenciador de ASI (ASI Manager) - $AppName$'/>
+	<FiveAsiManagerWindow Caption='Gerenciador de ASI - $AppName$'/>
 	<RenderUI>
-		<string name="TITLE">GTA V - Gerenciador de ASI (ASI Manager)</string>
+		<string name="TITLE">GTA V - Gerenciador de ASI</string>
 		
-		<string name="RPF_NOTE">Você precisa instalar os plug-ins ASI Loader e OpenIV ASI em seu GTA V, caso contrário, o jogo não vai carregar o arquivo RPF modificado.</string>
-		<string name="ONLINE_NOTE">Não jogue GTA Online com RPF modificado você será banido.</string>
+		<string name="RPF_NOTE">Você precisa instalar os plug-ins ASI Loader e OpenIV ASI em seu GTA V, caso contrário, o jogo não irá carregar o arquivo RPF modificado.</string>
+		<string name="ONLINE_NOTE">Não jogue GTA Online com um RPF modificado, você será banido.</string>
 		
 		<string name="INSTALL">Instalar</string>
 		<string name="UPDATE">Atualizar</string>
 		<string name="UNINSTALL">Desinstalar</string>
 		
 		<string name="NOT_INSTALLED">NÃO INSTALADO</string>
-		<string name="UPDATE_REQUIRED">ATUALIZAÇÃO NECESSÁRIA</string>
+		<string name="UPDATE_REQUIRED">REQUER ATUALIZAÇÃO</string>
 		<string name="INSTALLED">INSTALADO</string>
 		<string name="DISABLED">DESATIVADO</string>
 		
 		<string name="ASI_LOADER">ASI Loader</string>
-		<string name="ASI_LOADER_DESCRIPTION">ASI Loader é a ferramenta que carrega livrarias personalizadas com a extensão de arquivo .asi no processo do jogo.</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader é a ferramenta que carrega livrarias personalizadas com a extensão .asi no processo do jogo.</string>
 		
 		<string name="OPENIV_ASI">OpenIV.ASI</string>
-		<string name="OPENIV_ASI_DESCRIPTION">Este plug-in ASI permite que o seu jogo carregue arquivos RPF modificados. Além disso, fornece suporte para pasta “mods”.</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Este plug-in ASI permite que o seu jogo carregue arquivos RPF modificados. Além disso, fornece suporte para a pasta “mods”.</string>
 		
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
-		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Melhora o limite da "Câmera Livre (Free Camera)" com limitações no Editor Rockstar (Rockstar Editor).</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Melhora a "Câmera Livre", com limitações no Rockstar Editor.</string>
 		
-		<string name="INSTALLATION_FAILED">A instalação falhou</string>
-		<string name="INSTALLATION_FAILED_TEXT">A instalação falhou, reinicie o $AppName$ e tente novamente.</string>
+		<string name="INSTALLATION_FAILED">Falha na instalação</string>
+		<string name="INSTALLATION_FAILED_TEXT">Falha na instalação, reinicie o $AppName$ e tente novamente.</string>
 		
-		<string name="UNINSTALL_FAILED">A desinstalação falhou</string>
-		<string name="UNINSTALL_FAILED_TEXT">A desinstalação falhou, reinicie o $AppName$ e tente novamente.</string>
+		<string name="UNINSTALL_FAILED">Falha na desinstalação</string>
+		<string name="UNINSTALL_FAILED_TEXT">Falha na desinstalação, reinicie o $AppName$ e tente novamente.</string>
 		
 		<string name="MODS_FOLDER_TITLE">Criar pasta "mods"</string>
-		<string name="MODS_FOLDER_TEXT">A pasta "mods" permite que você mantenha todos os seus arquivos originais do jogo seguro e têm uma maneira mais fácil para alternar entre arquivos originais e modificados.</string>
+		<string name="MODS_FOLDER_TEXT">A pasta "mods" permite que você mantenha todos os arquivos originais do seu jogo seguros, e tenha uma forma mais fácil de alternar entre os arquivos originais e modificados, com apenas um clique.</string>
 		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Mostrar notificação enquanto estiver editando um arquivo fora da pasta “mods”</string>
 		<string name="MODS_FOLDER_LEARN_MORE">Saiba mais sobre a pasta "mods"</string>
 	</RenderUI>

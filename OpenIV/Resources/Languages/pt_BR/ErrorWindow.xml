@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<ErrorWindow Caption='$AppName$ - Erro de aplicação'>
-		<lbWindowTitle Caption="O $AppName$ se deparou com um problema que não poderia lidar,\ne agora ele precisa reniciar."/>
-		<btnCloseApp Caption='Fechar o $AppName$'/>
+		<lbWindowTitle Caption="O $AppName$ encontrou um problema que ele não podia lidar,\ne agora ele precisa reniciar."/>
+		<btnCloseApp Caption='Fechar $AppName$'/>
+		<lbReportHere Caption='Por favor, reporte este erro usando os seguintes links:'/>
 		<lnkWeb1 Caption='Visitar o site oficial'/>
-		<lnkWeb2 Caption='Visitar o fórum de suporte International'/>
+		<lnkWeb2 Caption='Visitar o fórum de suporte international'/>
 		<lnkWeb3 Caption='Visitar o fórum de suporte Russo'/>
 		<lbText2 Caption='Ferramentas adicionais'/>
-		<tbCopyInfo Caption='Copiar informação de erro'/>
-		<tbWin7Report Caption='Registrar passos para reproduzir um problema' Hint=''/>
+		<tbCopyInfo Caption='Copiar as informações do erro'/>
+		<tbWin7Report Caption='Registrar as ações do usuário para reproduzir um problema' Hint=''/>
 		<AeroWindow LinesCount='6'>
 			<StringList>
-				<Item Index='0' Value='Tempo: '/>
+				<Item Index='0' Value='Horas: '/>
 				<Item Index='1' Value='Tipo: '/>
 				<Item Index='2' Value='Mensagem: '/>
 				<Item Index='3' Value='Informação adicional:'/>
 				<Item Index='4' Value='Informação adicional está faltando.'/>
-				<Item Index='5' Value='Informação de erro copiada para o clipboard.'/>
+				<Item Index='5' Value='Informações do erro copiada para o clipboard.'/>
 			</StringList>
 		</AeroWindow>
 	</ErrorWindow>

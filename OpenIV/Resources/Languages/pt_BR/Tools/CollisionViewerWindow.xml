@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<CollisionViewerWindow Caption='$AppName$ Visualizador de colisão'>
-		<paneDictionary Caption='Dicionário de entradas'/>
+	<CollisionViewerWindow Caption='Visualizador de Colisão - $AppName$'>
+		<paneDictionary Caption='Entradas de dicionário'/>
 		<paneComposite Caption='Elementos compostos'/>
 		<miLeft Caption='Esquerda'/>
 		<miRight Caption='Direita'/>
@@ -10,12 +10,12 @@
 	</CollisionViewerWindow>
 	<RenderUI>
 		<!-- right side -->
-		<string name="SHOW_NORMALS">Mostrar Normals:</string>
+		<string name="SHOW_NORMALS">Mostrar normals:</string>
 		<!-- left side -->
-		<string name="BOUND_TYPE">Tipo de limite (bound):</string>
-		<string name="CHILD_COUNT">Quantid. de child:</string>	
+		<string name="BOUND_TYPE">Tipo de bound:</string>
+		<string name="CHILD_COUNT">Total de child:</string>	
 		<!-- help -->
-		<string name="HELP_TITLE">Visualizador de colisão - ajuda</string>
+		<string name="HELP_TITLE">Visualizador de Colisão — Ajuda</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Use o mouse para olhar ao redor, mova usando essas teclas:
 			
@@ -29,21 +29,21 @@
     NumPad 4 - Mover câmera para esquerda
     NumPad 6 - Mover câmera para direita
 
-    Segure SHIFT - Para movimento rápido
-    Segure CTRL - Para movimento lento
+    SHIFT - Para movimento rápido (segure o botão)
+    CTRL - Para movimento lento (segure o botão)
     Use a roda do mouse para dá zoom.
 		   
 Para alterar as opções de renderização use os links no  lado direito ou estas teclas de atalho:
 	   
-    F1 - Alternar este painel de ajuda
+    F1 - Alternar para este painel de ajuda
     C - Alternar modo de câmera
-    F - Alternar Edged Faces
-    P - Alternar pontos de exibição
-    N - Alternar mostrar normals
-    G - Alternar geometria
-    ESC - Fechar esta janela de visualização
+    F - Alternar para edged faces (superfície com arestas)
+    P - Alternar para mostrar pontos
+    N - Alternar para mostrar normals
+    G - Alternar para mostrar geometria
+    ESC - Fechar a janela deste visualizador
 	
-    Segure H - Para ocultar temporariamente o HUD
+    H - Para ocultar temporariamente o HUD (segure o botão)
 ]]>
 		</text>
 	</RenderUI>

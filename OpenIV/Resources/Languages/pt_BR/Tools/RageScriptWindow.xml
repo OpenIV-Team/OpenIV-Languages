@@ -9,7 +9,7 @@
 		<btnCodeList Caption='Ocultar lista'/>
 		<!-- Tabs -->
 		<tbASM Caption='Código ASM'/>
-		<tbCFASM Caption='Código de Fluxo de Controle ASM'/>
+		<tbCFASM Caption='Fluxo de controle de código ASM'/>
 		<tbCODE Caption='Código de Alto Nível'/>
 		<Label1 Caption='Filtro:'/>
 		<!-- Menu -->

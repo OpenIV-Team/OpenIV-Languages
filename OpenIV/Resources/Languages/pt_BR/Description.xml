@@ -10,7 +10,7 @@
 	<type Name="Data Base">
 		<ext>db</ext>
 	</type>
-	<type Name="Script (texto)">
+	<type Name="Script (text)">
 		<ext>sc</ext>
 	</type>
 	<type Name="Scaleform flash">
@@ -44,7 +44,7 @@
 	<type Name="JavaScript Object Notation">
 		<ext>json</ext>
 	</type>
-	<type Name="Mapa (PSO/RSC)">
+	<type Name="Map (PSO/RSC)">
 		<ext>ymap</ext>
 		<ext>xmap</ext>
 		<ext>cmap</ext>
@@ -54,50 +54,50 @@
 		<ext>xtyp</ext>
 		<ext>ctyp</ext>
 	</type>
-	<type Name="Tabela de nome (Name table)">
+	<type Name="Name table">
 		<ext>nametable</ext>
 	</type>
-	<type Name="Transmissão (Streaming)">
+	<type Name="Streaming">
 		<ext>srl</ext>
 	</type>
 	<!-- OpenIV -->
-	<type Name="Pacote de Mod OpenIV (OpenIV Mod Package)">
+	<type Name="OpenIV Mod Package">
 		<ext>oiv</ext>
 	</type>
 	<!-- Archives -->
-	<type Name="Pacote de Arquivo Rage (Rage Package File)">
+	<type Name="Rage Package File">
 		<ext>rpf</ext>
 	</type>
-	<type Name="Arquivo de Imagem do GTA (GTA Image File)">
+	<type Name="GTA Image File">
 		<ext>img</ext>
 	</type>
-	<type Name="Arquivo ZIP">
+	<type Name="ZIP Archive">
 		<ext>zip</ext>
 	</type>
-	<type Name="Arquivo 7Z">
+	<type Name="7Z Archive">
 		<ext>7z</ext>
 	</type>
-	<type Name="Arquivo WinRAR">
+	<type Name="WinRAR Archive">
 		<ext>rar</ext>
 	</type>
 	<!-- Native media (Image and Video) -->
 	<type Name="Portable Network Graphics">
 		<ext>png</ext>
 	</type>
-	<type Name="Imagem Bitmap">
+	<type Name="Bitmap image">
 		<ext>bmp</ext>
 	</type>
-	<type Name="Imagem GIF">
+	<type Name="GIF Image">
 		<ext>gif</ext>
 	</type>
-	<type Name="Imagem JPEG">
+	<type Name="JPEG Image">
 		<ext>jpeg</ext>
 		<ext>jpg</ext>
 	</type>
-	<type Name="Ícone">
+	<type Name="Icon">
 		<ext>ico</ext>
 	</type>
-	<type Name="Imagem Truevision TGA">
+	<type Name="Truevision TGA Image">
 		<ext>tga</ext>
 	</type>
 	<type Name="DirectDraw Surface">
@@ -390,28 +390,28 @@
 	<type Name="GTAIV Clip Thumbs image">
 		<ext>tag</ext>
 	</type>
-	<type Name="Animação">
+	<type Name="Animation">
 		<ext>anim</ext>
 	</type>
-	<type Name="Caminhos">
+	<type Name="Paths">
 		<ext>nod</ext>
 	</type>
-	<type Name="Informação de Combat">
+	<type Name="Combat information">
 		<ext>cmb</ext>
 	</type>
-	<type Name="Informação de Pedestre (ped)">
+	<type Name="Ped information">
 		<ext>ped</ext>
 	</type>
 	<type Name="Zone">
 		<ext>zon</ext>
 	</type>
-	<type Name="Shader compilado">
+	<type Name="Compiled shader">
 		<ext>fxc</ext>
 	</type>
-	<type Name="Shader compilado (cell/ps3)">
+	<type Name="Compiled shader (cell/ps3)">
 		<ext>cgx</ext>
 	</type>
-	<type Name="Áudio Metadata">
+	<type Name="Audio Metadata">
 		<ext>DAT11</ext>
 		<ext>DAT12</ext>
 		<ext>DAT15</ext>
@@ -446,10 +446,10 @@
 		<name>config/dlc_2_game.dat</name>
 		<name>config/dlc_2_curves.dat</name>
 	</type>
-	<type Name="Arquivo Batch">
+	<type Name="Batch file">
 		<ext>bat</ext>
 	</type>
-	<type Name="Script de Comando do Windows">
+	<type Name="Windows Command Script">
 		<ext>cmd</ext>
 	</type>
 	<type Name="Expressions">
@@ -458,11 +458,11 @@
 	<type Name="Tune">
 		<ext>tune</ext>
 	</type>
-	<type Name="Imagem de FX">
+	<type Name="Image FX">
 		<ext>ifx</ext>
 	</type>
 	<!-- Steam -->
-	<type Name="Arquivo de script da Steam">
+	<type Name="Steam script file">
 		<ext>vdf</ext>
 	</type>
 </Library>

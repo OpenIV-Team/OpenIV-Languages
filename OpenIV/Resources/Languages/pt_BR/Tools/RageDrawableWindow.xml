@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<RageDrawableWindow Caption='$AppName$ Visualizador de Modelo'>
+	<RageDrawableWindow Caption='Visualizador de Modelo - $AppName$'>
 		<pmiCopyName Caption='Copiar nome'/>
 		<pmiCopyHash Caption='Copiar hash'/>
 		<pmiCopyNameAndHash Caption='Copiar nome e hash'/>
@@ -12,8 +12,8 @@
 		<miRight Caption='Direita'/>
 		<miCheckAll Caption='Marcar todos' />
 		<miUncheckAll Caption='Desmarcar todos' />
-		<paneDictionary Caption='Dictionário de elementos'/>
-		<cbMultipleRendering Caption='Renderização Múltipla'/>
+		<paneDictionary Caption='Elementos do dictionário'/>
+		<cbMultipleRendering Caption='Renderização múltipla'/>
 		<AeroWindow LinesCount='1'>
 			<StringList>
 				<Item Index='0' Value='Carregar de um arquivo externo'/>
@@ -22,7 +22,7 @@
 	</RageDrawableWindow>
 	<RenderUI>	
 		<!-- help -->
-		<string name="HELP_TITLE">Visualizador de Modelo - ajuda</string>		
+		<string name="HELP_TITLE">Visualizador de Modelo - Ajuda</string>		
 		<text name="HELP_TEXT">
 			<![CDATA[Use o mouse para olhar ao redor, mova usando essas teclas:
 			
@@ -34,32 +34,32 @@
     NumPad 8 - Mover câmera para cima
     NumPad 2 - Mover câmera para baixo
     NumPad 4 - Mover câmera para esquerda
-    NumPad 6 - Move câmera para direita
+    NumPad 6 - Mover câmera para direita
 
-    Segure SHIFT - Para movimento rápido
-    Segure CTRL - Para movimento lento
+    SHIFT - Para movimento rápido (segure o botão)
+    CTRL - Para movimento lento (segure o botão)
     Use a roda do mouse para dá zoom.
 	
-Para adicionar texturas adicionais clique no link "[+] Adicionar textura" no ângulo inferior direito da janela. Para remover a textura, clique no link "[-]" por trás do nome da textura.
+Para adicionar texturas adicionais clique no link "[+] Adicionar textura" no ângulo inferior direito da janela. Para remover a textura, clique no link "[-]".
 
 Para alterar as opções de renderização use os links no lado direito ou estas teclas de atalho:
 	
-    F1 - Alternar este painel de ajuda
-    F2 - Mostrar mais informação
+    F1 - Alternar para este painel de ajuda
+    F2 - Mostrar mais informações
     C - Alternar modo de câmera
-    F - Alternar Edged Faces
-    P - Alternar pontos de exibição
-    G - Alternar geometria
-    L - Alternar Nível de Detalhes
+    F - Alternar para mostrar edged faces (superfície com arestas)
+    P - Alternar para mostrar pontos
+    G - Alternar para mostrar geometria
+    L - Alternar nível de detalhes
     ESC - Fechar esta janela de visualização
 	
-    Segure H - Para ocultar temporariamente o HUD
+    H - Para ocultar temporariamente o HUD (segure o botão)
 ]]>
 		</text>
-		<string name="CHECK_ALL">Marcar todos</string>
-		<string name="UNCHECK_ALL">Desmarcar todos</string>
-		<string name="MULTIPLE_RENDERING">Renderização Múltipla</string>
-		<string name="BOUND_TYPE">Tipo de limite (bound):</string>
-		<string name="CHILD_COUNT">Quantid. de child:</string>
+		<string name="CHECK_ALL">Marcar</string>
+		<string name="UNCHECK_ALL">Desmarcar</string>
+		<string name="MULTIPLE_RENDERING">Renderização múltipla</string>
+		<string name="BOUND_TYPE">Tipo de bound:</string>
+		<string name="CHILD_COUNT">Total de child:</string>
 	</RenderUI>
 </Translation>
