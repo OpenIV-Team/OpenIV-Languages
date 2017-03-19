@@ -2,14 +2,14 @@
 <Translation>
 	<HashGeneratorWindow Caption='Générateur Hash - $AppName$'>
 		<!-- Label's -->
-		<lbOutputFormat Caption='Format de sortie:' />
+		<lbOutputFormat Caption='Format de sortie :' />
 		<!-- Button's -->
-		<btnLoadFromFile Caption='Charger à partir du fichier' />
+		<btnLoadFromFile Caption='Charger depuis un fichier' />
 		<btnGenerate Caption='Générer' />
-		<btnSaveToFile Caption='Enregistrer dans un fichier' />
-		<cbCaseSensitive Caption='Sensible aux majuscules et minuscules' />
+		<btnSaveToFile Caption='Enregistrer un fichier' />
+		<cbCaseSensitive Caption='Sensible à la casse' />
 		<!-- Panel's -->
-		<pnlLeft Caption='Entrée:' />
-		<pnlRight Caption='Sortie:' />    
+		<pnlLeft Caption='Entrée :' />
+		<pnlRight Caption='Sortie :' />    
 	</HashGeneratorWindow>
 </Translation>

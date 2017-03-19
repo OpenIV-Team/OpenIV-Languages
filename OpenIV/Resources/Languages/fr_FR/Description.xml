@@ -13,16 +13,16 @@
 	<type Name="Script (texte)">
 		<ext>sc</ext>
 	</type>
-	<type Name="Mise à l′échelle (Scaleform Flash)">
+	<type Name="Scaleform flash">
 		<ext>gfx</ext>
 	</type>
-	<type Name="Contenu généré par l′utilisateur (JSON)">
+	<type Name="Contenu généré par l'utilisateur (JSON)">
 		<ext>ugc</ext>
 	</type>
-	<type Name="Limite de collision (Collision Bound)">
+	<type Name="Limites de collision">
 		<ext>bnd</ext>
 	</type>
-	<type Name="Données meta (PSO/RSC)">
+	<type Name="Métadonnée (PSO/RSC)">
 		<ext>pso</ext>
 		<ext>ymt</ext>
 		<ext>ymf</ext>
@@ -31,20 +31,20 @@
 		<ext>cmt</ext>
 		<ext>cmf</ext>
 	</type>
-	<type Name="Effets de particules">
+	<type Name="Effet de particules">
 		<ext>ypt</ext>
 		<ext>xpt</ext>
 		<ext>cpt</ext>
 	</type>
-	<type Name="Points de cheminement">
+	<type Name="Sauvegarde de waypoint">
 		<ext>ywr</ext>
 		<ext>xwr</ext>
 		<ext>cwr</ext>
 	</type>
-	<type Name="JavaScript Object Notation">
+	<type Name="Objet Javascript">
 		<ext>json</ext>
 	</type>
-	<type Name="Carte (PSO/RSC)">
+	<type Name="Map (PSO/RSC)">
 		<ext>ymap</ext>
 		<ext>xmap</ext>
 		<ext>cmap</ext>
@@ -54,21 +54,21 @@
 		<ext>xtyp</ext>
 		<ext>ctyp</ext>
 	</type>
-	<type Name="Tableaux de nom">
+	<type Name="Tableau de noms">
 		<ext>nametable</ext>
 	</type>
 	<type Name="Streaming">
 		<ext>srl</ext>
 	</type>
 	<!-- OpenIV -->
-	<type Name="Package de mods OpenIV">
+	<type Name="Paquetage de mod OpenIV">
 		<ext>oiv</ext>
 	</type>
 	<!-- Archives -->
-	<type Name="Package de fichiers RAGE">
+	<type Name="Paquetage RAGE">
 		<ext>rpf</ext>
 	</type>
-	<type Name="Images de fichiers GTA">
+	<type Name="Fichier d'image GTA">
 		<ext>img</ext>
 	</type>
 	<type Name="Archive ZIP">
@@ -80,7 +80,7 @@
 	<type Name="Archive WinRAR">
 		<ext>rar</ext>
 	</type>
-	<!-- Média natif (Image et Vidéo) -->
+	<!-- Native media (Image and Video) -->
 	<type Name="Portable Network Graphics">
 		<ext>png</ext>
 	</type>
@@ -90,33 +90,33 @@
 	<type Name="Image GIF">
 		<ext>gif</ext>
 	</type>
-	<type Name="Image JPEG">
+	<type Name="IMAGE JPEG">
 		<ext>jpeg</ext>
 		<ext>jpg</ext>
 	</type>
 	<type Name="Icône">
 		<ext>ico</ext>
 	</type>
-	<type Name="TGA Image Truevision">
+	<type Name="Image TGA">
 		<ext>tga</ext>
 	</type>
-	<type Name="Surface DirectDraw">
+	<type Name="Texture DirectDraw Surface">
 		<ext>dds</ext>
 	</type>
-	<type Name="Bink Vidéo">
+	<type Name="Vidéo Bink">
 		<ext>bik</ext>
 	</type>
-	<type Name="Fichier Média Audio/Video Windows">
+	<type Name="Fichier Windows Media">
 		<ext>wmv</ext>
 		<ext>wma</ext>
 	</type>
-	<type Name="Son wave">
+	<type Name="Son Wave">
 		<ext>wav</ext>
 	</type>
-	<type Name="Fichier vidéo MP4">
+	<type Name="Vidéo MP4">
 		<ext>mp4</ext>
 	</type>
-	<!-- Média web  -->
+	<!-- Web media -->
 	<type Name="Fichier HTML">
 		<ext>html</ext>
 		<ext>htm</ext>
@@ -124,26 +124,26 @@
 	<type Name="Shockwave Flash">
 		<ext>swf</ext>
 	</type>
-	<!-- Ressources (RAGE) -->
-	<type Name="Ressource Script">
+	<!-- Resources (RAGE) -->
+	<type Name="Ressource script">
 		<ext>xsc</ext>
 		<ext>csc</ext>
 		<ext>wsc</ext>
 		<ext>ysc</ext>
 	</type>
-	<type Name="Table des String">
+	<type Name="Tableau de textes">
 		<ext>xst</ext>
 		<ext>cst</ext>
 		<ext>wst</ext>
 		<ext>yst</ext>
 	</type>
-	<type Name="Ressource Texture">
+	<type Name="Ressource de texture">
 		<ext>xtx</ext>
 		<ext>ctx</ext>
 		<ext>wtx</ext>
 		<ext>ytx</ext>
 	</type>
-	<type Name="Pistes d′action">
+	<type Name="Pistes d'action">
 		<ext>xat</ext>
 		<ext>cat</ext>
 		<ext>wat</ext>
@@ -155,7 +155,7 @@
 		<ext>wnm</ext>
 		<ext>ynm</ext>
 	</type>
-	<type Name="Info Secteur">
+	<type Name="Information de secteur">
 		<ext>xsi</ext>
 		<ext>csi</ext>
 		<ext>wsi</ext>
@@ -179,7 +179,7 @@
 		<ext>ctd</ext>
 		<ext>ytd</ext>
 	</type>
-	<type Name="Dictionnaire d′animations">
+	<type Name="Dictionnaire d'animations">
 		<ext>wad</ext>
 		<ext>xad</ext>
 		<ext>cad</ext>
@@ -191,19 +191,19 @@
 		<ext>cbd</ext>
 		<ext>ybd</ext>
 	</type>
-	<type Name="Dictionnaire de dessinables">
+	<type Name="Dictionnaire">
 		<ext>wdd</ext>
 		<ext>xdd</ext>
 		<ext>cdd</ext>
 		<ext>ydd</ext>
 	</type>
-	<type Name="Objets Dessinables">
+	<type Name="Objet étirable">
 		<ext>wdr</ext>
 		<ext>xdr</ext>
 		<ext>cdr</ext>
 		<ext>ydr</ext>
 	</type>
-	<type Name="Fragment d′objets">
+	<type Name="Objet fragmenté">
 		<ext>wft</ext>
 		<ext>xft</ext>
 		<ext>cft</ext>
@@ -227,49 +227,49 @@
 		<ext>cnv</ext>
 		<ext>ynv</ext>
 	</type>
-	<type Name="Mélange de formes (Blendshapes)">
+	<type Name="Blendshapes">
 		<ext>wbs</ext>
 		<ext>xbs</ext>
 		<ext>cbs</ext>
 		<ext>ybs</ext>
 	</type>
-	<type Name="Bibliothèque d′effets de particules">
+	<type Name="Bibliothèque d'effets de particules">
 		<ext>wpfl</ext>
 		<ext>xpfl</ext>
 		<ext>cpfl</ext>
 		<ext>ypfl</ext>
 	</type>
-	<type Name="Dossiers véhicules">
+	<type Name="Sauvegarde de véhicules">
 		<ext>xvr</ext>
 		<ext>cvr</ext>
 		<ext>wvr</ext>
 		<ext>yvr</ext>
 	</type>
-	<type Name="Dossier piétons">
+	<type Name="Sauvegarde de personnages">
 		<ext>xpr</ext>
 		<ext>cpr</ext>
 		<ext>wpr</ext>
 		<ext>ypr</ext>
 	</type>
-	<type Name="Mode de trajet">
+	<type Name="Noeud de chemin d'accès">
 		<ext>xnd</ext>
 		<ext>cnd</ext>
 		<ext>wnd</ext>
 		<ext>ynd</ext>
 	</type>
-	<type Name="Dictionnaire de Clip">
+	<type Name="Dictionnaire de clips">
 		<ext>xcd</ext>
 		<ext>ccd</ext>
 		<ext>wcd</ext>
 		<ext>ycd</ext>
 	</type>
-	<type Name="Dictionnaire d′expressions">
+	<type Name="Dictionnaire d'expressions">
 		<ext>xed</ext>
 		<ext>ced</ext>
 		<ext>wed</ext>
 		<ext>yed</ext>
 	</type>
-	<type Name="Dictionnaire de mélanges de formes">
+	<type Name="Dictionnaire de blendshapes">
 		<ext>xsd</ext>
 		<ext>csd</ext>
 		<ext>wsd</ext>
@@ -281,89 +281,89 @@
 		<ext>wld</ext>
 		<ext>yld</ext>
 	</type>
-	<type Name="Ressource animation">
+	<type Name="Ressources d'animations">
 		<ext>wan</ext>
 	</type>
 	<!-- Audio (RAGE) -->
-	<type Name="Conteneur Audio Wave">
+	<type Name="Conteneur d'audio wave">
 		<ext>awc</ext>
 	</type>
 	<!-- Audio (OpenIV) -->
-	<type Name="Banque de Sons">
+	<type Name="Banque de sons">
 		<ext>RAGE_SOUND_BANK</ext>
 	</type>
-	<type Name="Fichiers Audios">
+	<type Name="Fichier audio">
 		<ext>RAGE_AUDIO_FILE</ext>
 	</type>
-	<!-- Exécutables -->
-	<type Name="Exécutable">
+	<!-- Executables -->
+	<type Name="Éxécutable">
 		<ext>exe</ext>
 	</type>
-	<type Name="Exécutable (XBOX 360)">
+	<type Name="Éxécutable (XBOX 360)">
 		<ext>xex</ext>
 	</type>
-	<type Name="Bibliothèque Dynamic-link">
+	<type Name="Extension de l'application">
 		<ext>dll</ext>
 	</type>
-	<type Name="Plugin ASI (Bibliothèque Dynamic-link)">
+	<type Name="Plugin ASI">
 		<ext>asi</ext>
 	</type>
-	<!-- Divers -->
+	<!-- Misc -->
 	<type Name="Données binaires">
 		<ext>bin</ext>
 	</type>
-	<type Name="Script Python ">
+	<type Name="Script python">
 		<ext>py</ext>
 	</type>
 	<type Name="Texte brut">
 		<ext>txt</ext>
 	</type>
-	<type Name="Matériel">
+	<type Name="Matière">
 		<ext>mtl</ext>
 	</type>
 	<type Name="Règles de texte">
 		<ext>tr</ext>
 	</type>
-	<type Name="Sous-titre cinématiques">
+	<type Name="Sous-titres de cinématique">
 		<ext>cutsub</ext>
 	</type>
-	<type Name="Paramètres de conversion texture">
+	<type Name="Paramètres de conversion de texture">
 		<ext>ctp</ext>
 		<ext>tcp</ext>
 	</type>
-	<type Name="Shader prédéfinis">
+	<type Name="Préréglage de shaders">
 		<ext>sps</ext>
 	</type>
-	<type Name="Table de textes GTA">
+	<type Name="Tableau de textes GTA">
 		<ext>gxt</ext>
 		<ext>gxt2</ext>
 	</type>
-	<type Name="Texte XML">
+	<type Name="Fichier XML">
 		<ext>xml</ext>
 	</type>
-	<type Name="Texte de configuration">
+	<type Name="Fichier de configuration">
 		<ext>ini</ext>
 	</type>
-	<type Name="Script compilés">
+	<type Name="Script compilé">
 		<ext>sco</ext>
 	</type>
-	<type Name="Entrée de définition d′objets">
+	<type Name="Entrée de définitions d'objet">
 		<ext>ide</ext>
 	</type>
-	<type Name="Listes de placements d′objets">
+	<type Name="Liste de placement d'objet">
 		<ext>ipl</ext>
 	</type>
-	<type Name="Enregistrement voitures">
+	<type Name="Sauvegarde de voitures">
 		<ext>rrr</ext>
 	</type>
-	<type Name="Donées">
+	<type Name="Données">
 		<ext>dat</ext>
 		<ext>datnew</ext>
 	</type>
-	<type Name="Cinématiques">
+	<type Name="Cinématique">
 		<ext>cut</ext>
 	</type>
-	<type Name="Listes de placements étendues">
+	<type Name="Liste de placements étendue">
 		<ext>xpl</ext>
 		<ext>wpl</ext>
 	</type>
@@ -372,46 +372,46 @@
 		<ext>xlist</ext>
 		<ext>lst</ext>
 	</type>
-	<type Name="Virgules à valeurs séparées (CSV)">
+	<type Name="Valeurs séparées par des virgules">
 		<ext>csv</ext>
 	</type>
-	<type Name="Liste Microsoft Office Excel 97-2003">
+	<type Name="Tableau Microsoft Excel 97-2003">
 		<ext>xls</ext>
 	</type>
-	<type Name="Clip GTAIV">
+	<type Name="Clip GTA IV">
 		<ext>cli</ext>
 	</type>
-	<type Name="Pack de fichiers hash GTAIV">
+	<type Name="Pack de codes GTA IV">
 		<ext>pak</ext>
 	</type>
-	<type Name="Configuration">
+	<type Name="Config">
 		<ext>cfg</ext>
 	</type>
-	<type Name="Clip Thumbs image GTAIV">
+	<type Name="Vignettes de clip GTA IV">
 		<ext>tag</ext>
 	</type>
 	<type Name="Animation">
 		<ext>anim</ext>
 	</type>
-	<type Name="Chemins">
+	<type Name="Chemins d'accès">
 		<ext>nod</ext>
 	</type>
 	<type Name="Informations de combat">
 		<ext>cmb</ext>
 	</type>
-	<type Name="Informations piétons">
+	<type Name="Informations de personnage">
 		<ext>ped</ext>
 	</type>
 	<type Name="Zone">
 		<ext>zon</ext>
 	</type>
-	<type Name="Shader compilés">
+	<type Name="Shader compilé">
 		<ext>fxc</ext>
 	</type>
-	<type Name="Shader compilés (cell/ps3)">
+	<type Name="Shader compilé (cell/ps3)">
 		<ext>cgx</ext>
 	</type>
-	<type Name="Audio Metadata">
+	<type Name="Métadonnées audio">
 		<ext>DAT11</ext>
 		<ext>DAT12</ext>
 		<ext>DAT15</ext>
@@ -449,16 +449,16 @@
 	<type Name="Fichier Batch">
 		<ext>bat</ext>
 	</type>
-	<type Name="Commandes Script Windows">
+	<type Name="Script de commandes Windows">
 		<ext>cmd</ext>
 	</type>
 	<type Name="Expressions">
 		<ext>expr</ext>
 	</type>
-	<type Name="Réglage">
+	<type Name="Musique">
 		<ext>tune</ext>
 	</type>
-	<type Name="Image FX">
+	<type Name="Effet d'image">
 		<ext>ifx</ext>
 	</type>
 	<!-- Steam -->

@@ -2,15 +2,15 @@
 <Translation>
 	<AboutWindow3 Caption='À propos de $AppName$'/>
 	<RenderUI>
-		<string name="VERSION_LABEL_2">Version %D.%D (Révision %D; Date %S)</string>
-		<string name="VERSION_LABEL_3">Version %D.%D.%D (Révision %D; Date %S)</string>
-		<string name="THE_TEAM">L′équipe</string>
-		<string name="THIRD_PARTY">Tierces fonctions</string>
-		<string name="THIRD_PARTY_LINE_1">Cette application utilise certaines fonctions</string>
-		<string name="THIRD_PARTY_LINE_2">qui proviennent d′une source tierce</string>
-		<string name="THANKS_TO">Remerciements à</string>
-		<string name="ALPHABETICALLY">(alphabétiquement)</string>
-		<string name="SPECIAL_THANKS_TO">Remerciements spécials à</string>
-		<string name="LICENSE_TERMS">Termes et conditions de licence du logiciel</string>
+		<string name="VERSION_LABEL_2">Version %D.%D (Build %D; Date %S)</string>
+		<string name="VERSION_LABEL_3">Version %D.%D.%D (Build %D; Date %S)</string>
+		<string name="THE_TEAM">L'équipe</string>
+		<string name="THIRD_PARTY">Fonctions tierces</string>
+		<string name="THIRD_PARTY_LINE_1">Ce logiciel utilise des fonctions</string>
+		<string name="THIRD_PARTY_LINE_2">fournies par un tiers.</string>
+		<string name="THANKS_TO">Merci à</string>
+		<string name="ALPHABETICALLY">(par ordre alphabétique)</string>
+		<string name="SPECIAL_THANKS_TO">Remerciement spécial à</string>
+		<string name="LICENSE_TERMS">Conditions de licence</string>
 	</RenderUI>
 </Translation>

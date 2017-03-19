@@ -4,36 +4,36 @@
 	<RenderUI>
 		<string name="TITLE">GTA V - ASI Manager</string>
 		
-		<string name="RPF_NOTE">Vous devez installer le plugin ASI Loader et OpenIV ASI pour GTA V, autrement, le jeu ne pourra pas charger les archives RPF modifiés.</string>
-		<string name="ONLINE_NOTE">Ne jouez pas à GTA Online avec des archives RPF modifiés, car vous serez banni.</string>
+		<string name="RPF_NOTE">Vous devez installer les plugins ASI Loader et OpenIV.ASI pour GTA V, sinon le jeu ne chargera pas les archives RPF modifiées.</string>
+		<string name="ONLINE_NOTE">Ne jouez pas à GTA Online avec des fichiers modifiés, ou vous serez banni.</string>
 		
 		<string name="INSTALL">Installer</string>
 		<string name="UPDATE">Mise à jour</string>
 		<string name="UNINSTALL">Désinstaller</string>
 		
-		<string name="NOT_INSTALLED">PAS INSTALLER</string>
-		<string name="UPDATE_REQUIRED">MISE A JOUR RECQUISE</string>
-		<string name="INSTALLED">INSTALLER</string>
-		<string name="DISABLED">DÉSACTIVÉE</string>
+		<string name="NOT_INSTALLED">NON INSTALLÉ</string>
+		<string name="UPDATE_REQUIRED">MISE A JOUR REQUISE</string>
+		<string name="INSTALLED">INSTALLÉ</string>
+		<string name="DISABLED">DÉSACTIVÉ</string>
 		
 		<string name="ASI_LOADER">ASI Loader</string>
-		<string name="ASI_LOADER_DESCRIPTION">ASI Loader est un outil qui charge des bibliothèques personnalisées avec l′extension de fichier .asi dans le processus du jeu.</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader est l'outil qui charge des bibliothèques personnalisées d'extension .asi dans le jeu.</string>
 		
 		<string name="OPENIV_ASI">OpenIV.ASI</string>
-		<string name="OPENIV_ASI_DESCRIPTION">Ce plugin ASI permet à votre jeu de charger des fichiers RPF modifiés. Il fournit également un support pour le dossier "mods".</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Ce plugin ASI permet au jeu de charger des archives RPF modifiées. Il permet également l'utilisation du dossier « mods ».</string>
 		
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
-		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Améliore les limitations de la "Caméra Libre" dans l′éditeur Rockstar.</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Désactive la limitation de distance de la caméra libre dans l'Éditeur Rockstar.</string>
 		
-		<string name="INSTALLATION_FAILED">L′installation a échoué</string>
-		<string name="INSTALLATION_FAILED_TEXT">L′installation a échoué, redémarrez $AppName$ et réessayez à nouveau.</string>
+		<string name="INSTALLATION_FAILED">The installation failed</string>
+		<string name="INSTALLATION_FAILED_TEXT">The installation failed, restart $AppName$ and try again.</string>
 		
-		<string name="UNINSTALL_FAILED">Echec de la désinstallation</string>
-		<string name="UNINSTALL_FAILED_TEXT">Echec de la désinstallation, redémarrez $AppName$ et réessayez à nouveau.</string>
+		<string name="UNINSTALL_FAILED">Échec de la désinstallation</string>
+		<string name="UNINSTALL_FAILED_TEXT">La désinstallation a échoué. Redémarrez $AppName$ et réessayez.</string>
 		
-		<string name="MODS_FOLDER_TITLE">Créer un dossier "mods"</string>
-		<string name="MODS_FOLDER_TEXT">Le dossier "mods" vous permet de garder une version du jeu originale de façon sécurisée, et d′avoir un moyen facile de basculer entre les fichiers modifiés et originaux.</string>
-		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Afficher une notification lors de l′édition d′archives à l′extérieur du dossier "mods"</string>
-		<string name="MODS_FOLDER_LEARN_MORE">En savoir plus à propos du dossier "mods"</string>
+		<string name="MODS_FOLDER_TITLE">Créer le dossier « mods »</string>
+		<string name="MODS_FOLDER_TEXT">Le dossier « mods » permet de ne pas altérer les fichiers originaux du jeu et de repasser simplement des fichiers modifiés aux fichiers originaux.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Afficher une notification lors de l'édition de fichiers qui ne sont pas dans « mods »</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Apprendre davantage concernant le dossier « mods »</string>
 	</RenderUI>
 </Translation>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<AudioPlayerWindow Caption='Lecteur audio $AppName$'>
-		<btnExportAll Caption='Exporter tout'/>
+		<btnExportAll Caption='Tout exporter'/>
 		<btnOptions Caption='Options'/>
-		<miPlayWhenOpen Caption='Commencez à jouer lorsque le fichier est ouvert'/>
-		<miAutoPlayNext Caption='Jouer automatiquement la piste suivante'/>
-		<miPlay Caption='Jouer'/>
+		<miPlayWhenOpen Caption="Lire à l'ouverture du fichier"/>
+		<miAutoPlayNext Caption='Lire automatiquement la piste suivante'/>
+		<miPlay Caption='Lire'/>
 		<miExport Caption='Exporter'/>
 		<miCopyName Caption='Copier le nom'/>
 		<miExportAllChannelsSeparately Caption='Exporter tous les canaux séparément'/>
@@ -18,8 +18,8 @@
 		<AeroWindow LinesCount='6'>
 			<StringList>
 				<Item Index='0' Value='Hz'/>
-				<Item Index='1' Value='%D articles, %D min.'/>
-				<Item Index='2' Value='%D articles, %D sec.'/>
+				<Item Index='1' Value='%D items, %D min.'/>
+				<Item Index='2' Value='%D items, %D sec.'/>
 				<Item Index='3' Value=''/>
 				<Item Index='4' Value=''/>
 				<Item Index='5' Value=''/>

@@ -1,68 +1,78 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<PackageInstallerWindow2 Caption='Installeur de packages - $AppName$' />
+	<PackageInstallerWindow2 Caption='Installateur de paquetage - $AppName$' />
 
 	<RenderUI>
-		<string name="PACKAGE_INSTALLER">Installeur de packages</string>
+		<string name="PACKAGE_INSTALLER">Installateur de paquetage</string>
 		<string name="INSTALL">Installer</string>
 		<string name="INSTALLING">Installation</string>
 		<string name="DESCRIPTION">Description</string>
-		<string name="ADDITIONAL_INFORMATION">Information additionnelle</string>
+		<string name="ADDITIONAL_INFORMATION">Informations supplémentaires</string>
 		<string name="GREATED_BY">Créé par</string>
-		<string name="SUPPORTED_GAMES">Jeux pris en charge</string>
+		<string name="SUPPORTED_GAMES">Jeu(x) pris en charge : </string>
 		<string name="VERSION">Version</string>
-		<string name="LICENCE">License</string>
-		<string name="VIEW_LICENCE">Voir la license</string>
+		<string name="LICENCE">Licence</string>
+		<string name="VIEW_LICENCE">Voir la licence</string>
 		<string name="LEARN_MORE">En savoir plus</string>
-		<string name="LINK_HOMEPAGE">Page d′accueil</string>
+		<string name="LINK_HOMEPAGE">Page d'accueil</string>
 		<string name="LINK_FACEBOOK">Facebook</string>
 		<string name="LINK_TWITTER">Twitter</string>
 		<string name="LINK_YOUTUBE">YouTube</string>
 
-		<string name="SELECT_CONTENT">Choisissez le contenu à installer</string>
-		<string name="SELECT_LOCATION">Choisissez l′emplacement à installer</string>
-		<string name="LOCATION_MODS_FOLDER">Dossier "mods"</string>
-		<string name="LOCATION_MODS_FOLDER_TEXT">Installer ce mod dans le dossier "mods"</string>
-		<string name="LOCATION_GAME_FOLDER">Dossier du jeu</string>
-		<string name="LOCATION_GAME_FOLDER_TEXT">Installer ce mod directement dans le dossier du jeu</string>
+		<string name="SELECT_CONTENT">Sélectionnez le fichier à installer</string>
+		<string name="SELECT_LOCATION">Où installer le fichier ?</string>
+		<string name="LOCATION_MODS_FOLDER">Dossier « mods »</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Installer ce paquetage dans le dossier « mods »</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED">Ce paquetage ne peut pas être installé dans le dossier « mods » car il ne modifie aucune archive RPF</string>
+		<string name="LOCATION_GAME_FOLDER">Dossier principal</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Installer ce paquetage directement dans le dossier du jeu</string>
+		
+		<string name="INSTALLATION_SUCCEEDED">Installation terminée</string>
+		<string name="RUN_GAME">Lancer $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Lancez le jeu pour voir les modifications</string>
 
-		<string name="INSTALLATION_SUCCEEDED">Installation réussie</string>
-		<string name="RUN_GAME">Démarrer $RageGAME$</string>
-		<string name="RUN_GAME_TEXT">Démarre le jeu et vérifie ce que vous venez de faire</string>
+		<string name="INSTALLATION_FAILED">Installation échouée</string>
 
-		<string name="INSTALLATION_FAILED">L′installation a échoué</string>
-
-		<string name="LOADING_ERROR_TITLE">Erreur de chargement du package</string>
-		<string name="READING_ERROR_TITLE">Erreur de lecture du package</string>
-		<string name="INSTALLING_ERROR_TITLE">Erreur d′installation du package</string>
+		<string name="LOADING_ERROR_TITLE">Erreur lors du chargement du paquetage</string>
+		<string name="READING_ERROR_TITLE">Erreur lors de la lecture du paquetage</string>
+		<string name="INSTALLING_ERROR_TITLE">Erreur d'installation</string>
 
 		<string name="ERROR_GROUP_UNKNOWN">Erreur inconnue</string>
-		<string name="ERROR_CODE_UNKNOWN">Quelque chose est arrivé.</string>
+		<string name="ERROR_CODE_UNKNOWN">Quelque chose s'est mal déroulé. Regardez dans les fichiers de logs pour plus de détails.</string>
+		<string name="ERROR_INSTALLATION">Erreur fatale durant l'installation. Regardez dans les fichiers de logs pour plus de détails.</string>
+		<string name="CHECK_LOG_FILE">Merci de regarder dans les fichiers de logs pour plus de détails.</string>
+		
+		<string name="OPEN_INSTALLATION_LOG">Ouvrir les logs de l'installation</string>
+		<string name="OPEN_LOG_FILE">Ouvrir les logs du fichier</string>
 
 		<!-- LOADING -->
-		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Le fichier du package n′est pas un fichier ZIP valide.</string>
-		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Extension de fichier inconnu. Le fichier du package doit être en .oiv ou .zip.</string>
-		<string name="LOADING_ERROR_FILE_NO_ACCESS">Vous ne pouvez pas accéder au fichier du package. Assurez-vous qu′il ne soit pas utilisé par un autre processus.</string>
-		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Le fichier du package n′existe pas.</string>
-		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Impossible d′ouvrir le fichier du package.</string>
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Ce paquetage n'est pas un fichier .zip valide.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Extension non reconnue. Le fichier doit être un .zip ou un .oiv.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Impossible d'accéder au paquetage. Assurez-vous qu'il ne soit pas utilisé par un autre processus.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Ce paquetage n'existe pas.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Impossible d'ouvrir ce paquetage.</string>
 
 		<!-- READING -->
-		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Impossible de trouver le fichier "assembly.xml" dans ce package. Le fichier du package n′est peut-être pas pour $AppName$ ou celui-ci est corrompu.</string>
-		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Impossible de lire "assembly.xml", le fichier est peut-être corrompu.</string>
-		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Format du fichier "assembly.xml" inconnu, le fichier est peut-être corrompu.</string>
-		<string name="READING_ERROR_UNSUPPORTED_VERSION">Ce package ne peut pas être installé avec votre version de $AppName$.</string>
-		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">Le tag "metadata" est manquant dans "assembly.xml", le fichier est peut-être corrompu</string>
-		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">Les informations metadata sont manquantes ou corrompues dans "assembly.xml".</string>
-		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">Le fichier "assembly.xml" a un format XML invalide ou corrompu.</string>
-		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Impossible de lire l′id du package depuis "assembly.xml".</string>
-		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">Le tag "couleurs" est manquant dans "assembly.xml", le fichier est peut-être corrompu.</string>
-		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">Les informations de couleurs sont manquantes ou corrompues dans "assembly.xml".</string>
-		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">Les informations contenues dans "assembly.xml" sont manquantes ou corrompues.</string>
-		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">Le tag "contenu" est manquant dans "assembly.xml",  le fichier est peut-être corrompu.</string>
-		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Impossible de trouver le dossier "contenu" dans ce package. Le fichier du package n′est peut-être pas pour $AppName$ ou celui-ci est corrompu.</string>
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Le fichier « assembly.xml » est introuvable. Le fichier sélectionné n'est probablement pas un paquetage $AppName$, ou le fichier est corrompu.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Le fichier « assembly.xml » est illisible, le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Le format du fichier « assembly.xml » est inconnu, le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Le paquetage sélectionné ne peut pas être installé avec cette version de $AppName$.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">Le tag « metadata » est introuvable dans le fichier « assembly.xml », le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">L'information metadata est manquante ou corrompue dans le fichier « assembly.xml ».</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">Le format XML du fichier « assembly.xml » est incorrect ou corrompu.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Impossible de lire l'ID du paquetage dans le fichier « assembly.xml ».</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">Le tag « colors » est introuvable dans le fichier « assembly.xml », le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">L'information des couleurs est manquante ou corrompue dans le fichier « assembly.xml ».</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">Certaines informations sont manquantes ou corrompues dans le fichier « assembly.xml ».</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">Le tag « content » et introuvable dans le fichier « assembly.xml », le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Le dossier « content » est introuvable. Le fichier sélectionné n'est probablement pas un paquetage $AppName$, ou le fichier est corrompu.</string>
 
 		<!-- INSTALLING -->
-		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Ce package ne peut pas être installé dans $RageGAME$. Merci de vérifier la liste des jeux supportés dans la section Informations supplémentaires.</string>
-
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Ce paquetage ne peut pas être installé dans $RageGAME$. Merci de vous référer à la liste des jeux pris en charge dans la description du paquetage.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Certains fichiers sont manquants dans le paquetage.</string>
+		
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">Attention, ce paquetage ne pourra pas être désinstallé automatiquement.</string>
+		
 	</RenderUI>
 </Translation>

@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Some translations may be inaccurate here - Certaines traductions peuvent être inexactes ici -->
 <Translation>
-	<RageScriptWindow Caption='Visionneuse SCO - '>
+	<RageScriptWindow Caption='Visionneuse SCO - $AppName$'>
 		<!-- Button's -->
-		<btnSave Caption='Enregistrez le code sous forme de texte'/>
+		<btnSave Caption='Sauvegarder le code vers un fichier texte'/>
 		<btnClose Caption='Fermer'/>
 		<btnASMBack Caption='&lt;&lt; Retour'/>
 		<btnCFList Caption='Cacher la liste'/>
@@ -11,19 +12,19 @@
 		<tbASM Caption='Code ASM'/>
 		<tbCFASM Caption='Flux de contrôle de code ASM'/>
 		<tbCODE Caption='Code de niveau élevé'/>
-		<Label1 Caption='Filtre:'/>
+		<Label1 Caption='Filtre :'/>
 		<!-- Menu -->
-		<N1 Caption='Aller à l′adresse'/>
-		<N2 Caption='Copier ligne'/>
-		<N3 Caption='Filtrer ceci'/>
+		<N1 Caption="Aller à l'adresse"/>
+		<N2 Caption='Copier la ligne'/>
+		<N3 Caption='Filtrer'/>
 		<!-- Text menu -->
 		<miCopyText Caption='Copier'/>
 		<miFind Caption='Trouver...'/>
-		<miSelectAll Caption='Sélectionner Tout'/>
-		<miCopyAll Caption='Copier tout'/>
+		<miSelectAll Caption='Tout sélectionner'/>
+		<miCopyAll Caption='Tout copier'/>
 		<!-- Save code menu -->
-		<N4 Caption='Enregistrer en tant que texte'/>
-		<N5 Caption='Enregistrer au format HTML'/>	
+		<N4 Caption='Sauvegarder dans un fichier texte'/>
+		<N5 Caption='Sauvegarder au format HTML'/>	
 		<!-- String's -->
 		<AeroWindow LinesCount='5'>
 			<StringList>
@@ -31,7 +32,7 @@
 				<Item Index='1' Value='[ÉTAPE1]'/>
 				<Item Index='2' Value='[ÉTAPE2]'/>
 				<Item Index='3' Value='[ÉTAPE3]'/>
-				<Item Index='4' Value='Afficher tout'/>
+				<Item Index='4' Value='Tout afficher'/>
 			</StringList>
 		</AeroWindow>
 	</RageScriptWindow>

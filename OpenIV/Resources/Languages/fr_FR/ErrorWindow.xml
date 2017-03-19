@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<ErrorWindow Caption='$AppName$ - Erreur d′application'>
-		<lbWindowTitle Caption="$AppName$ encourt un problème non pris en charge\net à maintenant besoin de redémarrer."/>
+	<ErrorWindow Caption='$AppName$ - Erreur'>
+		<lbWindowTitle Caption="$AppName$ a rencontré une erreur et doit\nredémarrer."/>
 		<btnCloseApp Caption='Fermer $AppName$'/>
-		<lnkWeb1 Caption='Voir le site officiel'/>
-		<lnkWeb2 Caption='Voir le forum de support internationnal'/>
-		<lnkWeb3 Caption='Voir le forum de support Russe'/>
-		<lbText2 Caption='Outils additionnels'/>
-		<tbCopyInfo Caption='Copier les informations d′erreurs'/>
-		<tbWin7Report Caption='Enregistreur d′actions utilisateur'/>
+		<lbReportHere Caption='Merci de reporter cette erreur en utilisant ces liens :'/>
+		<lnkWeb1 Caption='Visiter le site officiel'/>
+		<lnkWeb2 Caption='Visiter le forum international'/>
+		<lnkWeb3 Caption='Visiter le forum russe'/>
+		<lbText2 Caption='Outils additionnels :'/>
+		<tbCopyInfo Caption="Copier les informations de l'erreur"/>
+		<tbWin7Report Caption='Enregistrez les étapes pour reproduire ce problème' Hint=''/>
 		<AeroWindow LinesCount='6'>
 			<StringList>
-				<Item Index='0' Value='Temps: '/>
-				<Item Index='1' Value='Type: '/>
-				<Item Index='2' Value='Message: '/>
-				<Item Index='3' Value='Information additionnelle:'/>
-				<Item Index='4' Value='Information additionnelle manquante.'/>
-				<Item Index='5' Value='Informations d′erreurs copiées dans le presse-papiers.'/>
+				<Item Index='0' Value='Temps : '/>
+				<Item Index='1' Value='Type : '/>
+				<Item Index='2' Value='Message : '/>
+				<Item Index='3' Value='Informations supplémentaires:'/>
+				<Item Index='4' Value='Des informations supplémentaires sont manquantes.'/>
+				<Item Index='5' Value="Les informations d'erreur ont été copiées dans le presse-papier."/>
 			</StringList>
 		</AeroWindow>
 	</ErrorWindow>

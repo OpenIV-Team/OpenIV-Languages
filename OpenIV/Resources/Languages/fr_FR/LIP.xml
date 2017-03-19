@@ -1,5 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='270' ID='1036' icon="Flag.ico" active="true">
+<LanguageInterfacePack version='280' ID='1036' icon="Flag.ico" active="true">
+	<Creator>
+		<Name>Mimile38 - GTA Network France</Name>
+		<web>http://www.gtanf.com/</web>
+		<!-- You can use "http://" or "https://" or "mailto:" -->
+		<info/>
+		<game>american.gxt</game>
+	</Creator>
 	<Creator>
 		<Name>KinguruGTAV</Name>
 		<web>kinguruGTAV@outlook.fr</web>

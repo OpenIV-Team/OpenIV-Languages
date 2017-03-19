@@ -2,66 +2,67 @@
 <GlobalStrings>
 	<StringList>
 		<Item Index='00' Value='Progression...'/>
-		<Item Index='01' Value='Fichier actuel: '/>
-		<Item Index='02' Value='Rechercher - $AppName$'/>
-		<Item Index='03' Value='Recherche, veuillez patienter...'/>
+		<Item Index='01' Value='Fichier actuel : '/>
+		<Item Index='02' Value='Recherche - $AppName$'/>
+		<Item Index='03' Value='Recherche en cours, patientez...'/>
 		<Item Index='04' Value='Fermer'/>
 		<Item Index='05' Value=''/>
 		<Item Index='06' Value='Oui'/>
 		<Item Index='07' Value='Non'/>
-		<Item Index='08' Value=' Octets'/>
-		<Item Index='09' Value=' KB'/>
-		<Item Index='10' Value=' MB'/>
-		<Item Index='11' Value='Attention, vous êtes en Mode édition!'/>
-		<Item Index='12' Value='Pendant le Mode édition, tous les changements seront sauvegardés automatiquement.\nVoulez-vous continuer?'/>
-		<Item Index='13' Value='Destination du dossier:'/>
-		<Item Index='14' Value='Une application externe fonctionne...'/>
-		<Item Index='15' Value='Création d′un nouveau %S'/>
+		<Item Index='08' Value=' octets'/>
+		<Item Index='09' Value=' Ko'/>
+		<Item Index='10' Value=' Mo'/>
+		<Item Index='11' Value='Basculement en Mode Édition'/>
+		<Item Index='12' Value='En Mode Édition, tous les changements effectués seront automatiquement sauvegardés.\nContinuer ?'/>
+		<Item Index='13' Value='Dossier de destination :'/>
+		<Item Index='14' Value='Une application externe est en fonctionnement...'/>
+		<Item Index='15' Value="Création d'un nouveau %S"/>
 		<Item Index='16' Value='$AppName$ - Information'/>
-		<Item Index='17' Value='Erreur lors du chargement du fichier, celui-ci est peut-être corrompu.'/>
-		<Item Index='18' Value='$AppName$ - Erreur lors de l′ouverture du fichier'/>
+		<Item Index='17' Value='Erreur lors du chargement du fichier, le fichier est probablement corrompu.'/>
+		<Item Index='18' Value="$AppName$ - Erreur lors de l'ouverture du fichier"/>
 		<Item Index='19' Value='Format du fichier inconnu.'/>
-		<Item Index='20' Value='%S version %D n′est pas pris en charge.'/>
-		<Item Index='21' Value="$AppName$ ne peut ouvrir l'archive, raison:\n"/>
+		<Item Index='20' Value='%S version %D non supportée.'/>
+		<Item Index='21' Value="$AppName$ ne peut pas ouvrir l'archive :\n"/>
 		<Item Index='22' Value='$AppName$ - Créer archive'/>
-		<Item Index='23' Value="Le nom de l'archive ne peut être laissé vide."/>
+		<Item Index='23' Value="L'archive doit avoir un nom."/>
 		<Item Index='24' Value='openFormats - Importation'/>
-		<Item Index='25' Value='Extension de fichier inconnu: %S'/>
-		<Item Index='26' Value='$AppName$ - Erreur DirectX'/>
+		<Item Index='25' Value='Format de fichier inconnu : %S'/>
+		<Item Index='26' Value='$AppName$ - erreur DirectX'/>
 		<Item Index='27' Value='$AppName$ ne peut pas initialiser Direct3D.'/>
-		<Item Index='28' Value='Démarrer $RageGAME_SHORT$'/>
-		<Item Index='29' Value="$AppName$ ne trouve pas l'emplacement du fichier IDE associé."/>
-		<Item Index='30' Value="$AppName$ n'arrive pas à ouvrir le fichier. Voici une liste des raisons possibles:\n\nAccès refusé. Éssayez de démarrer $AppName$ en mode administrateur.\nUn autre programme utilise ce fichier. Fermez ces programmes, et réessayez à nouveau.\n\n"/>	
-		<Item Index='31' Value='Destination du dossier:'/>
-		<Item Index='32' Value='Impossible d′ouvrir l′archive: Erreur inconnue.'/>
-		<Item Index='33' Value='Impossible d′ouvrir l′archive: Chemin non trouvé.'/>
-		<Item Index='34' Value='Impossible d′ouvrir l′archive: Accès refusé ou fichier en cours d′utilisation par un autre programme.'/>
-		<Item Index='35' Value='Impossible d′ouvrir l′archive: Format du fichier inconnu ou l′archive est corrompue.'/>
-		<Item Index='36' Value='Impossible d′ouvrir l′archive: L′archive est corrompue.'/>
-		<Item Index='37' Value='Impossible d′ouvrir l′archive: Clé de cryptage inconnue, l′archive est peut-être pour un autre jeu ou plateforme.'/>
-		<Item Index='38' Value='Impossible de créer une nouvelle archive.'/>
-		<Item Index='39' Value='$AppName$ - Aucun dispositif de lecture audio'/>
-		<Item Index='40' Value='Impossible de lire le fichier audio. Aucun dispositif de lecture audio disponible.'/>
+		<Item Index='28' Value='Lancer $RageGAME_SHORT$'/>
+		<Item Index='29' Value="$AppName$ ne peut pas localiser le fichier IDE associé."/>
+		<Item Index='30' Value="$AppName$ ne peut pas ouvrir le fichier. Liste des raisons probables :\n\nAccès refusé. Essayez de lancer $AppName$ en tant qu'administrateur.\nLe fichier est ouvert dans un autre programme. Fermez les autres programmes et réessayez.\n\n"/>	
+		<Item Index='31' Value='Dossier de destination :'/>
+		<Item Index='32' Value="Impossible d'ouvrir l'archive : erreur inconnue"/>
+		<Item Index='33' Value="Impossible d'ouvrir l'archive : Chemin d'accès introuvabe"/>
+		<Item Index='34' Value="Impossible d'ouvrir l'archive : Accès refusé ou fichier ouvert dans un autre programme."/>
+		<Item Index='35' Value="Impossible d'ouvrir l'archive : Format inconnu ou archive corrompue."/>
+		<Item Index='36' Value="Impossible d'ouvrir l'archive : L'archive est corrompue."/>
+		<Item Index='37' Value="Impossible d'ouvrir l'archive : Clé de chiffrement inconnue, l'archive est probablement pour un autre jeu ou une autre plateforme."/>
+		<Item Index='38' Value="Impossible de créer une archive."/>
+		<Item Index='39' Value='$AppName$ - Aucune sortie audio'/>
+		<Item Index='40' Value='Impossible de lire ce fichier. Aucune sortie audio trouvée.'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.Search" Title="Rechercher" Hint="Ouvrir la recherche"/>
-		<item Name="Tools.GTAIV.PlacementSearch" Title="Rechercher l′emplacement" Hint="Ouvrir la recherche de l′emplacement"/>
-		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Trouver l′emplacement" Hint="Ouvrir l′emplacement trouvé"/>
-		<item Name="Tools.Common.HashGenerator" Title="Générateur Hash" Hint="Ouvrir le générateur hash"/>
-		<item Name="Tools.Common.RunGame" Title="Démarrer $RageGAME_SHORT$" Hint="Démarrer $RageGAME$"/>	
+		<item Name="Tools.GTAIV.PlacementSearch" Title="Recherche de placement" Hint="Ouvrir la recherche de placement"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Trouver l'emplacement" Hint="Ouvrir la recherche de placement"/>
+		<item Name="Tools.Common.HashGenerator" Title="Générateur de code" Hint="Ouvrir le générateur de code"/>
+		<item Name="Tools.Common.RunGame" Title="Lancer $RageGAME_SHORT$" Hint="Lancer $RageGAME$"/>	
 		<item Name="Files.GTAEngine.TextViewer" Title="Visionneuse GXT" Hint=""/>		
 		<item Name="Files.Resources.TextureEditor" Title="Visionneuse de textures" Hint=""/>
 		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Éditeur de textures" Hint=""/>				
 		<item Name="Files.Common.AudioPlayer" Title="Lecteur audio" Hint=""/>	
 		<item Name="Files.Resources.CollisionViewer" Title="Visionneuse de collisions" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="Visionneuse de modèles WDR/WDD" Hint=""/>
-		<item Name="Files.Resources.FragmentsViewer" Title="Visionneuse de modèles WFT" Hint=""/>
-		<item Name="Files.Resources.NavmeshViewer" Title="Visionneuse de Nav Mesh" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Trouver dans l′IDE" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="Visionneuse d′animations" Hint="Ouvrir la visionneuse d′animations"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Installateur de packages" Hint="Ouvrir l′installateur de packages"/>
-		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Exporter vers openFormats (.oac)" Hint=""/>
+		<item Name="Files.Resources.FragmentsViewer" Title="Visionneuse de mordèles WFT" Hint=""/>
+		<item Name="Files.Resources.NavmeshViewer" Title="Visionneuse Nav Mesh" Hint=""/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Trouver dans l'IDE" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Visionneuse d'animations" Hint="Ouvrir la visionneuse d'animations"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Installateur de paquetages" Hint="Ouvrir l'installateur de paquetages"/>
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Exporter en openFormats (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="Visionneuse GXT2" Hint=""/>
 		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>	
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Exporter le squelette en openFormats (.skel)" Hint=""/>
 	</tools>
 </GlobalStrings>
