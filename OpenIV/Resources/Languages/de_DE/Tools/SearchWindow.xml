@@ -3,26 +3,31 @@
 	<SearchWindow Caption='Suche - $AppName$'>
 		<SearchBox BannerText="Suche"/>
 		<btnGoSearch Caption="Suchen"/>
-		<ebSearchOptions Caption="Erweiterte Suchoptionen" ExpandCaption="Erweiterte Suchoptionen"/>
-		<cbArchives Caption="In Archiven suchen"/>
-		<cbResources Caption="In Ressourcen suchen"/>
+		<lbSearchOptions Caption="Suchoptionen:"/>
+ 		<lbSearchArea Caption="Suchbereich:"/>
+ 		<cbSearchArea>
+ 			<Items>
+ 				<Item Index="0" Value='Überall suchen'/>
+ 				<Item Index="1" Value="Nur im Spieleverzeichnis suchen"/>
+ 				<Item Index="2" Value='Nur im $ModsFolder$ Ordner suchen'/>
+ 			</Items>
+ 		</cbSearchArea>
 		<cbSoundsAndAudio Caption="In Audios suchen"/>
-		<cbScripts Caption="In Skripten suchen"/>
-		<cbTextFiles Caption="In Texten suchen"/>
 		<lbStopHint Caption="Um den Suchvorgang abzubrechen drücke ESC"/>
-		<btnExportResults Caption="Exportieren"/>
-		<btnExportAll Caption="Alle Dateien exportieren"/>
-		<btnExportSelected Caption="Ausgewählte Dateien exportieren"/>
-		<btnGoTo Caption="Zu Datei gehen"/>
+		<btnExtractResults Caption="Exportergebnisse"/>
+		<btnExtractAll Caption="Alle Dateien exportieren"/>
+		<btnExtractSelected Caption="Ausgewählte Dateien extrahieren"/>
+        <btnGoTo Caption="Zu Datei gehen"/>
 		<btnOpenItem Caption="Öffnen"/>
-		<btnExportItem Caption="Exportieren"/>
-		<btnExportSelectedItems Caption="Ausgewählte Dateien exportieren"/>
-		<btnExportAllItems Caption="Alle Dateien exportieren"/>
+		<btnExtractItem Caption="Exportieren"/>
+		<btnExtractSelectedItems Caption="Ausgewählte Dateien exportieren"/>
+		<btnExtractAllItems Caption="Alle Dateien exportieren"/>
 		<btnSelectAllItems Caption="Alles auswählen"/>
-		<!-- String's -->
         <btnCopyName Caption="Namen kopieren"/>
  		<btnCopyPathName Caption="Pfad kopieren"/>
  		<btnSaveContent Caption="Inhalt speichern"/>
+        <btnSaveRawContent Caption="Rohdaten speichern"/>
+        <!-- Strings -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
 				<Item Index='0' Value='Suchen'/>
