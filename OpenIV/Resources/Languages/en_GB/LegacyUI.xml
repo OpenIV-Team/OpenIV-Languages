@@ -80,8 +80,8 @@
 				<Item Index="67" Value="You can enable this notification back in options."/>
 				<Item Index="68" Value="Copying..."/>
 				<Item Index="69" Value="$AppName$ - Confirmation"/>
-				<Item Index="70" Value='The all changes you made in "mods\update\update.rpf" archive will be lost.\nDo you want to continue?'/>
-				<Item Index="71" Value=""/>
+				<Item Index="70" Value='The all changes you made in "$ModsFolderPath$update\update.rpf" archive will be lost.\nDo you want to continue?'/>
+				<Item Index="71" Value='Search "%s" in all archives'/>
 				<Item Index="72" Value=""/>
 				<Item Index="73" Value=""/>
 				<Item Index="74" Value=""/>
@@ -95,23 +95,26 @@
 		<!-- Others -->
 		<SearchBox BannerText="Filter"/>
 		<!-- Notification: GTA V (ASI) -->
-		<lbGTAVPluginTitle Caption="Install plugin for GTA V"/>
-		<lbGTAVPluginText Caption="You need to install ASI Loader and OpenIV.ASI plugin for your GTA V, otherwise game will not load modified RPF archive.\nDo not play GTA Online with modified RPF you will be banned."/>
+		<lbGTAVPluginTitle Caption="Install plugin for $RageGAME_SHORT$"/>
+		<lbGTAVPluginText Caption="You need to install ASI Loader and $ModsFolderAsi$ plugin for your $RageGAME_SHORT$, otherwise game will not load modified RPF archive.\nDo not play $RageGAME_MP$ with modified RPF you will be banned."/>
 		<btnGTAVPluginAction Caption="ASI Manager"/>
 		<!-- Notification: copy to mods folder -->
-		<lbNotInModsTitle Caption='The "mods" folder'/>
-		<lbNotInModsText Caption='The archive you are currently editing is not located in "mods" folder.'/>
-		<btnHideThisNotification Caption="Hide this notification"/>
-		<btnCopyToMods Caption='Copy to "mods" folder'/>
-		<btnShowInMods Caption='Show in "mods" folder'/>
+		<lbNotInModsTitle Caption='The $ModsFolder$ folder'/>
+		<lbNotInModsText Caption='The archive you are currently editing is not located in $ModsFolder$ folder.'/>
+		<lbEditModeDisabledDueToModsFolder Caption='The editing capabilities have been disabled for this archive.\nNavigate to $ModsFolder$ folder, or allow editing in the settings.'/>
+		<btnCopyToMods Caption='Copy to $ModsFolder$ folder'/>
+		<btnShowInMods Caption='Show in $ModsFolder$ folder'/>
+		<btnChangeModsFolderSettings Caption="Change $ModsFolder$ folder settings"/>
 		<!-- Notification: update.rpf -->
-		<lbCopyNewUpdateToModsTitle Caption='Grand Theft Auto V Title Update'/>
-		<lbCopyNewUpdateToMods Caption='You have outdated version of update.rpf in your "mods" folder. You need to copy new version of “update.rpf” into your “mods” folder, otherwise your game might crash.'/>
-		<btnCopyUpdateToMods Caption='Copy new version to "mods" folder'/>
+		<lbCopyNewUpdateToModsTitle Caption='$RageGAME$ Title Update'/>
+		<lbCopyNewUpdateToMods Caption='You have outdated version of update.rpf in your $ModsFolder$ folder. You need to copy new version of “update.rpf” into your $ModsFolder$ folder, otherwise your game might crash.'/>
+		<btnCopyUpdateToMods Caption='Copy new version to $ModsFolder$ folder'/>
 		<!-- Notification: Admin mode -->
 		<lbAdminModeTitle Caption='Administrator mode'/>
 		<lbAdminModeText Caption='Your $AppName$ is running as administrator. Some features like drag and drop from Windows File Explorer might not work. Usually, you no need to run $AppName$ as administrator.'/>
 		<btnAdminModeAction Caption='What can I do?'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='Clear search filter'/>
 	</MainWindow>
 
 	<ActionsModule>
@@ -158,6 +161,7 @@
 		<actCopyPath Caption="Copy path" Hint="Copy current file path"/>
 		<actExtract Caption="Extract..." Hint="Extract file"/>
 		<actSaveContent Caption="Save content/Export" Hint="Save file content/Export"/>
+		<actSaveRawContent Caption="Save raw content" Hint="Export raw file data"/>
 		<actRename Caption="Rename" Hint="Rename file"/>
 		<actAdd Caption="Add" Hint="Add new file"/>
 		<actReplace Caption="Replace" Hint="Replace current file"/>
@@ -168,8 +172,8 @@
 		<actResourceObjectExplorer Caption="Resource Explorer" Hint=""/>
 		<actShowInWindowsExplorer Caption="Show in Windows Explorer" Hint=""/>
 		<actItemAddToFavorites Caption="Add to favorites..." Hint=""/>
-		<actCopyToModsFolder Caption='Copy to "mods" folder' Hint=""/>
-		<actShowInModsFolder Caption='Show in "mods" folder' Hint=""/>
+		<actCopyToModsFolder Caption='Copy to $ModsFolder$ folder' Hint=""/>
+		<actShowInModsFolder Caption='Show in $ModsFolder$ folder' Hint=""/>
 		<!-- New menu -->
 		<actMultipleImport Caption="Import openFormats" Hint="Multiple Import"/>
 		<actNewFolder Caption="Folder" Hint="Create new folder"/>
@@ -218,8 +222,8 @@
 		<actTreeCopyAsPath Caption="Copy as path" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Show in Windows Explorer" Hint=""/>
 		<actTreeCloseArchive Caption="Close archive" Hint=""/>
-		<actTreeCopyToModsFolder Caption='Copy to "mods" folder' Hint=""/>
-		<actTreeShowInModsFolder Caption='Show in "mods" folder' Hint=""/>
+		<actTreeCopyToModsFolder Caption='Copy to $ModsFolder$ folder' Hint=""/>
+		<actTreeShowInModsFolder Caption='Show in $ModsFolder$ folder' Hint=""/>
 		<actTreeCollapseThis Caption='Collapse this' Hint=""/>
 		<actTreeCollapseAll Caption='Collapse all' Hint=""/>
 		<!-- Strings -->
@@ -319,72 +323,74 @@
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Options">
-		<!-- Tab's -->
-		<tabMain Caption="General"/>
+		<!-- Languages -->
 		<tabLang Caption="Languages"/>
-		<tabApps Caption="Applications"/>
-		<tabFormats Caption="openFormats"/>
-		<tabTools Caption="Tools"/>
-		<tabGame Caption="Game"/>
-		<tabViewers Caption="Viewing tools"/>
-		<!-- Button's -->
-		<btnClose Caption="Close"/>
-		<!-- Action's -->
-		<actAppAdd Caption="Add"/>
-		<actAppEdit Caption="Edit"/>
-		<actAppDel Caption="Delete"/>
-		<!-- Link's -->
-		<LnkWebApps Caption="Download more tools for $RageGAME_SHORT$"/>
+		<lbLang Caption="Select interface language"/>
 		<LnkWebLangs Caption="Translate $AppName$ into another language"/>
-		<tbChangeGame Caption="Change directory"/>
-		<tbFileAssociation Caption="Change file association"/>
-		<btnSaveShaderInformation Caption="Save openFormats shader infromation"/>
-		<!-- CheckBox's -->
-		<cbAlwaysOpenArchiveAfterRebuild Caption="Always open archive after rebuild"/>
-		<cbProtectModels Caption="Enable protected mesh option by default (prevent future export)"/>
-		<cbNotExportTextureToFolder Caption="Do not place textures in separate folder while export OTD"/>
-		<cbMinimizeAtStartGame Caption="Minimize $AppName$ at start game"/>
-		<cbInstallUpdatesAutomatically Caption="Install updates automatically"/>
-		<cbRenderAntialiasing Caption="Enable AntiAliasing"/>
-		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="For real files use recycle bin instead of delete"/>
-		<cbShowRecycleConfirmation Caption="Show recycle confirmation"/>
-		<cbCloseArchivesAtStartGame Caption="Close all opened archvies at start game"/>
-		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Show notification while editing archive outside of "mods" folder'/>
-		<cbClearSearchFilterAfterOpeningArchive Caption='Clear search filter after opening archive'/>
-		<!-- Label's -->
+		<!-- Game -->
+		<tabGame Caption="Game"/>
 		<gbGamePath Caption="$RageGAME_SHORT$ directory"/>
 		<lbCurrentGamePath Caption="Current directory:"/>
-		<lbLang Caption="Select interface language:"/>
-		<lbWorkMode Caption="Default work mode"/>
+		<tbChangeGame Caption="Change directory"/>
 		<ttRageExe Caption="To get $AppName$ works, in this directory shoud be placed this file: $RageEncryptionStorage$"/>
-		<lbDefTextureFormat Caption="Default texture file format"/>
-		<lbDefTextureFormatGlb Caption="Default texture file format"/>
-		<gbModels Caption="Models import (ODR/ODD/OFT)"/>
+		<!-- General -->
+		<tabMain Caption="General"/>
 		<lbDefaultGame Caption="Select default game"/>
-		<lbRenderBackgroundColor Caption="Render background color"/>
-		<lbCameraControl Caption="Camera control scheme"/>
-		<lbChooseTheme Caption="Choose a theme"/>
-		<!-- Work Mode's -->
+		<lbWorkMode Caption="Default work mode"/>
 		<WorkMode>
 			<Items>
 				<Item Index="0" Value="Edit"/>
 				<Item Index="1" Value="Read only"/>
 			</Items>
 		</WorkMode>
-		<!-- Render Background Color -->
-		<cbRenderBackgroundColor>
-			<Items>
-				<Item Index="0" Value="Default"/>
-				<Item Index="1" Value="Custom color"/>
-			</Items>
-		</cbRenderBackgroundColor>
-		<!-- App Theme -->
+		<lbDefTextureFormatGlb Caption="Default texture file format"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption="Always open archive after rebuild"/>
+		<cbMinimizeAtStartGame Caption="Minimize $AppName$ at start game"/>
+		<cbInstallUpdatesAutomatically Caption="Install updates automatically"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="For real files use recycle bin instead of delete"/>
+		<cbShowRecycleConfirmation Caption="Show recycle confirmation"/>
+		<cbCloseArchivesAtStartGame Caption="Close all opened archvies at start game"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Clear search filter after opening archive'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Use alternative (old) way of adding folders after drag and drop'/>
+		<tbFileAssociation Caption="Change file association"/>
+		<!-- "mods" folder -->
+		<tabModsFolder Caption="$ModsFolder$ folder"/>
+		<lbModsFolderText Caption="On this page you can change settings related to $ModsFolder$ folder."/>
+		<lbModsFolderNote1 Caption="The settings below are inaccessible because $ModsFolderAsi$ is not installed."/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Show notification while editing archive outside of $ModsFolder$ folder'/>
+		<cbAllowEditModeOnlyInModsFolder Caption='Allow edit mode only for archives inside $ModsFolder$ folder'/>
+		<!-- Tools -->
+		<tabViewers Caption="Tools"/>
+		<lbChooseTheme Caption="Choose a theme"/>
 		<cbAppTheme>
 			<Items>
 				<Item Index="0" Value="Light"/>
 				<Item Index="1" Value="Dark"/>
 			</Items>
 		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Render background color"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="Default"/>
+				<Item Index="1" Value="Custom color"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="Camera control scheme"/>
+		<cbRenderAntialiasing Caption="Enable AntiAliasing"/>
+		<lbChooseEditorTheme Caption="Choose color scheme for text editor"/>
+		<!-- openFormats -->
+		<tabFormats Caption="openFormats"/>
+		<lbDefTextureFormat Caption="Default texture file format"/>
+		<cbNotExportTextureToFolder Caption="Do not place textures in separate folder while export OTD"/>
+		<gbModels Caption="Models import (ODR/ODD/OFT)"/>
+		<cbProtectModels Caption="Enable protected mesh option by default (prevent future export)"/>
+		<btnSaveShaderInformation Caption="Save openFormats shader infromation"/>
+		<!-- Misc + old -->
+		<btnClose Caption="Close"/>
+		<actAppAdd Caption="Add"/>
+		<actAppEdit Caption="Edit"/>
+		<actAppDel Caption="Delete"/>
+		<LnkWebApps Caption="Download more tools for $RageGAME_SHORT$"/>
 		<!-- String's -->
 		<AeroWindow LinesCount="10">
 			<StringList>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='Текстовый процессор $AppName$'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Инструмент просмотра текста $AppName$'/>
+				<Item Index='1' Value='Текстовый редактор $AppName$'/>
+				<Item Index='2' Value='Найти...'/>
+				<Item Index='3' Value='Найти выделенный текст...'/>
+			</StringList>
+		</AeroWindow>
+		
+		<!-- Editor actions -->
+		<ActionEditCut Caption="Вырезать"/>
+		<ActionEditCopy Caption="Копировать"/>
+		<ActionEditPaste Caption="Вставить"/>
+		<ActionEditDelete Caption="Удалить"/>
+		<ActionEditSelectAll Caption="Выделить все"/>
+		<ActionEditDuplicateLine Caption="Дублировать текущую строку"/>
+		<ActionEditRemoveLine Caption="Удалить строку"/>
+		<ActionEditUpperCase Caption="ПРОПИСНЫЕ"/>
+		<ActionEditLoverCase Caption="строчные"/>
+	</TextEditorWindow>
+	
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">Экспорт</string>
+		<string name="EXPORT_TEXT">Экспортировать простой текст (*.txt)</string>
+		<string name="EXPORT_HTML">Экспортировать форматированный текст (*.html)</string>
+		
+		<!-- Ribbon -->
+		<string name="TAB_HOME">Главная</string>
+		<string name="TAB_SEARCH">Поиск</string>
+		<string name="WORD_WRAP">Перенос слов</string>
+		<string name="SHOW_SPECIAL_CHARS">Показать специальные символы</string>
+		<string name="SEARCH_OPTIONS_MENU">Параметры поиска</string>
+		<string name="SEARCH_BANNER_TEXT">Найти</string>
+		<string name="SEARCH_DOWN">Поиск вниз</string>
+		<string name="SEARCH_UP">Поиск вверх</string>
+		<string name="SEARCH_ALL">Все</string>
+		<string name="SEARCH_ALL_HINT">Найти все</string>
+		<string name="SEARCH_SET_SELECTION_AREA">Выбрать область поиска</string>
+		<string name="GOTO_LINE">Перейти к строке</string>
+		
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">Режим поиска</string>
+		<string name="SEARCH_MODE_NORMAL">Обычный</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Регулярное выражение</string>
+		<string name="SEARCH_MODE_WILDCARD">Расширенный (Wildcard)</string>
+		<string name="SEARCH_AREA">Область поиска</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">Весь документ</string>
+		<string name="SEARCH_AREA_IN_SELECTION">В выделенном</string>
+		<string name="SEARCH_OPTIONS">Настройки</string>
+		<string name="SEARCH_ON_TYPING">Мгновенный поиск</string>
+		<string name="CASE_SENSITIVE">Учитывать регистр</string>
+		<string name="WHOLE_WORDS_ONLY">Только целые слова</string>
+		<string name="WRAP_AROUND">Зациклить поиск</string>
+		<string name="HIGHLIGHT_RESULTS">Подсвечивать результаты</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">Вы хотите сохранить изменения?</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">Не удалось сохранить файл</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$ не удалось сохранить изменения, пожалуйста попробуйте ещё раз позже.</string>
+		<string name="GOTO_LINE_TITLE">Перейти к строке..</string>
+		<string name="GOTO_LINE_PROMT">Введите номер строки:</string>
+		<string name="GOTO_LINE_NOTE">Для перехода вперёд или назад относительно текущего положения используйте знаки + и -. Пример: +4 соответствует переходу вперёд на четыре строки.</string>
+		<string name="GO">Перейти</string>
+	</RenderUI>
+</Translation>

@@ -12,5 +12,6 @@
 		<string name="ALPHABETICALLY">(alphabetically)</string>
 		<string name="SPECIAL_THANKS_TO">Special thanks to</string>
 		<string name="LICENSE_TERMS">The Software License Terms</string>
+		<string name="LOCALIZATION">Localization contributors</string>
 	</RenderUI>
 </Translation>

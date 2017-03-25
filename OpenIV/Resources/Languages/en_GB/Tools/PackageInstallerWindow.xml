@@ -21,11 +21,15 @@
 
 		<string name="SELECT_CONTENT">Select content to install</string>
 		<string name="SELECT_LOCATION">Select location to install</string>
-		<string name="LOCATION_MODS_FOLDER">"mods" folder</string>
-		<string name="LOCATION_MODS_FOLDER_TEXT">Install this mod into "mods" folder</string>
-		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED">This package cannot be installed into "mods" folder because it does not affect any RPF archives.</string>
+		<string name="LOCATION_MODS_FOLDER">$ModsFolder$ folder</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Install this mod into $ModsFolder$ folder</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">This package cannot be installed into $ModsFolder$ folder because $ModsFolder$ does not supported by current game ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">This package cannot be installed into $ModsFolder$ folder because $ModsFolder$ does not supported by package format.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">This package cannot be installed into $ModsFolder$ folder because it does not affect any RPF archives.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">This package cannot be installed into $ModsFolder$ folder because $ModsFolderAsi$ is not installed.</string>
 		<string name="LOCATION_GAME_FOLDER">Game folder</string>
-		<string name="LOCATION_GAME_FOLDER_TEXT">Install this mod directly into game folder</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Install this mod directly into the game folder</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">This package cannot be installed into the game folder because it is disabled in $ModsFolder$ folder settings.</string>
 		
 		<string name="INSTALLATION_SUCCEEDED">Installation succeeded</string>
 		<string name="RUN_GAME">Run $RageGAME$</string>
@@ -38,8 +42,10 @@
 		<string name="INSTALLING_ERROR_TITLE">Package installation error</string>
 
 		<string name="ERROR_GROUP_UNKNOWN">Unknown error</string>
+		<string name="ERROR_GROUP_FATAL">Fatal error</string>
 		<string name="ERROR_CODE_UNKNOWN">Something happened. Please check log file for error details.</string>
 		<string name="ERROR_INSTALLATION">A fatal error occurred during installation. Please check log file for error details.</string>
+		<string name="ERROR_MSXML">MSXML is not installed. It is required to use Package Installer.</string>
 		<string name="CHECK_LOG_FILE">Please check log file for error details.</string>
 		
 		<string name="OPEN_INSTALLATION_LOG">Open installation log</string>
@@ -69,7 +75,8 @@
 
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">This package cannot be installed into $RageGAME$. Please check supported games list in additional information section.</string>
-		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Some files are missing in the package archive.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Some files are missing in the package archive. Please contact package author.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Some files have incorrect ingame path. Please contact package author.</string>
 		
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">This package cannot be uninstalled automatically.</string>

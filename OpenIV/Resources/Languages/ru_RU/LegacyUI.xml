@@ -95,23 +95,26 @@
 		<!-- Others -->
 		<SearchBox BannerText="Фильтр"/>
 		<!-- Notification: GTA V (ASI) -->
-		<lbGTAVPluginTitle Caption="Установите плагин для GTA V"/>
-		<lbGTAVPluginText Caption="Вам необходимо установить загрузчик ASI и OpenIV.ASI плагин для вашей GTA V, иначе игра не будет загружать отредактированные RPF архивы.\nНе пытайтесь играть в GTA Online с отредактированными RPF архивами, вы будете заблокированы."/>
+		<lbGTAVPluginTitle Caption="Установите плагин для $RageGAME_SHORT$"/>
+		<lbGTAVPluginText Caption="Вам необходимо установить загрузчик ASI и $ModsFolderAsi$ плагин для вашей $RageGAME_SHORT$, иначе игра не будет загружать отредактированные RPF архивы.\nНе пытайтесь играть в $RageGAME_MP$ с отредактированными RPF архивами, вы будете заблокированы."/>
 		<btnGTAVPluginAction Caption="ASI Менеджер"/>
 		<!-- Notification: copy to mods folder -->
-		<lbNotInModsTitle Caption='Папка "mods"'/>
-		<lbNotInModsText Caption='Архив, который вы в настоящее время редактируете не находится в папке "mods".'/>
-		<btnHideThisNotification Caption="Скрыть это уведомление"/>
-		<btnCopyToMods Caption='Копировать в папку "mods"'/>
-		<btnShowInMods Caption='Показать в папке "mods"'/>
+		<lbNotInModsTitle Caption='Папка $ModsFolder$'/>
+		<lbNotInModsText Caption='Архив, который вы в настоящее время редактируете не находится в папке $ModsFolder$.'/>
+		<lbEditModeDisabledDueToModsFolder Caption='Функции редактирования для данного архива были отключены.\nПерейдите в папку $ModsFolder$ или разрешите редактирование в настройках.'/>
+		<btnCopyToMods Caption='Копировать в папку $ModsFolder$'/>
+		<btnShowInMods Caption='Показать в папке $ModsFolder$'/>
+		<btnChangeModsFolderSettings Caption="Изменить параметры папки $ModsFolder$"/>
 		<!-- Notification: update.rpf -->
-		<lbCopyNewUpdateToModsTitle Caption='Обновление Grand Theft Auto V'/>
-		<lbCopyNewUpdateToMods Caption='Ваша версия update.rpf в папке "mods" устарела. Вам необходимо скопировать новую версию "update.rpf" в папку "mods", иначе случае ваша игра может падать во время загрузки.'/>
-		<btnCopyUpdateToMods Caption='Копировать новую версию в папку "mods"'/>
+		<lbCopyNewUpdateToModsTitle Caption='Обновление $RageGAME$'/>
+		<lbCopyNewUpdateToMods Caption='Ваша версия update.rpf в папке $ModsFolder$ устарела. Вам необходимо скопировать новую версию "update.rpf" в папку $ModsFolder$, иначе ваша игра может падать во время загрузки.'/>
+		<btnCopyUpdateToMods Caption='Копировать новую версию в папку $ModsFolder$'/>
 		<!-- Notification: Admin mode -->
 		<lbAdminModeTitle Caption='Запуск от имени Администратора'/>
 		<lbAdminModeText Caption='$AppName$ запущена от имени Администратора. Некоторые функции, например перетаскивание файлов из проводника Windows могут не работать. Как правило, вам не нужно запускать $AppName$ от имени Администратора.'/>
 		<btnAdminModeAction Caption='Что я могу сделать?'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='Очистить поисковый фильтр'/>
 	</MainWindow>
 
 	<ActionsModule>
@@ -158,6 +161,7 @@
 		<actCopyPath Caption="Копировать путь" Hint="Копировать путь к файлу"/>
 		<actExtract Caption="Извлечь..." Hint="Извлечь файл"/>
 		<actSaveContent Caption="Сохранить содержимое/Экспорт" Hint="Сохранить содержимое файла/Экспорт"/>
+		<actSaveRawContent Caption="Save raw content" Hint="Export raw file data"/>
 		<actRename Caption="Переименовать" Hint="Переименовать файл"/>
 		<actAdd Caption="Добавить" Hint="Добавить новый файл в архив"/>
 		<actReplace Caption="Заменить" Hint="Заменить выбранный файл новым"/>
@@ -168,8 +172,8 @@
 		<actResourceObjectExplorer Caption="Resource Explorer" Hint=""/>
 		<actShowInWindowsExplorer Caption="Показать в Проводнике Windows" Hint=""/>
 		<actItemAddToFavorites Caption="Добавить в избранное..." Hint=""/>
-		<actCopyToModsFolder Caption='Копировать в папку "mods"' Hint=""/>
-		<actShowInModsFolder Caption='Показать в папке "mods"' Hint=""/>
+		<actCopyToModsFolder Caption='Копировать в папку $ModsFolder$' Hint=""/>
+		<actShowInModsFolder Caption='Показать в папке $ModsFolder$' Hint=""/>
 		<!-- New menu -->
 		<actMultipleImport Caption="Импорт openFormats" Hint="Множественный импорт"/>
 		<actNewFolder Caption="Новая папка" Hint="Создать новую папку"/>
@@ -319,72 +323,74 @@
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Настройки">
-		<!-- Tab's -->
-		<tabMain Caption="Общие"/>
+		<!-- Languages -->
 		<tabLang Caption="Язык интерфейса"/>
-		<tabApps Caption="Приложения"/>
-		<tabFormats Caption="openFormats"/>
-		<tabTools Caption="Инстурменты"/>
-		<tabGame Caption="Игра"/>
-		<tabViewers Caption="Инструменты просмотра"/>
-		<!-- Button's -->
-		<btnClose Caption="Закрыть"/>
-		<!-- Action's -->
-		<actAppAdd Caption="Добавить"/>
-		<actAppEdit Caption="Параметры"/>
-		<actAppDel Caption="Удалить"/>
-		<!-- Link's -->
-		<LnkWebApps Caption="Загрузить другие приложения для $RageGAME_SHORT$"/>
+		<lbLang Caption="Выберите язык интерфейса:"/>
 		<LnkWebLangs Caption="Перевести $AppName$ на другой язык"/>
-		<tbChangeGame Caption="Изменить папку"/>
-		<tbFileAssociation Caption="Настройки ассоциации файлов"/>
-		<btnSaveShaderInformation Caption="Сохранить информацию о шейдерах openFormats"/>
-		<!-- CheckBox's -->
-		<cbAlwaysOpenArchiveAfterRebuild Caption="Всегда открывать архив после пересборки"/>
-		<cbProtectModels Caption="Включить защиту геометрии по умолчанию\n(препятствует последующему экспорту)"/>
-		<cbNotExportTextureToFolder Caption="Не сохранять текстуры в отдельную папку во время экспорта OTD"/>
-		<cbMinimizeAtStartGame Caption="При запуске игры сворачивать $AppName$"/>
-		<cbInstallUpdatesAutomatically Caption="Устанавливать обновления автоматически"/>
-		<cbRenderAntialiasing Caption="Включить AntiAliasing"/>
-		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Использовать Корзину вместо удаления при работе с реальными файлами"/>
-		<cbShowRecycleConfirmation Caption="Требовать подтверждения отправки в корзину"/>
-		<cbCloseArchivesAtStartGame Caption="При запуске игры закрывать все открытые архивы"/>
-		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Показывать уведомление во время редактирования архива за пределами папки "mods"'/>
-		<cbClearSearchFilterAfterOpeningArchive Caption='Очистить фильтр поиска после открытия нового архива'/>
-		<!-- Label's -->
+		<!-- Game -->
+		<tabGame Caption="Игра"/>
 		<gbGamePath Caption="Путь к папке с $RageGAME_SHORT$"/>
 		<lbCurrentGamePath Caption="Текущая папка:"/>
-		<lbLang Caption="Выберите язык интерфейса:"/>
-		<lbWorkMode Caption="Режим работы по умолчанию"/>
+		<tbChangeGame Caption="Изменить папку"/>
 		<ttRageExe Caption="Для правильной работы $AppName$ в указанной папке должен находиться файл $RageEncryptionStorage$"/>
-		<lbDefTextureFormat Caption="Формат файлов текстур по умолчанию"/>
-		<lbDefTextureFormatGlb Caption="Формат файлов текстур по умолчанию"/>
-		<gbModels Caption="Импорт моделей (ODR/ODD/OFT)"/>
+		<!-- General -->
+		<tabMain Caption="Общие"/>
 		<lbDefaultGame Caption="Выберите игру по умолчанию"/>
-		<lbRenderBackgroundColor Caption="Render background color"/>
-		<lbCameraControl Caption="Схема управления камерой"/>
-		<lbChooseTheme Caption="Выберите тему"/>
-		<!-- Work Mode's -->
+		<lbWorkMode Caption="Режим работы по умолчанию"/>
 		<WorkMode>
 			<Items>
 				<Item Index="0" Value="Редактирование"/>
 				<Item Index="1" Value="Только чтение"/>
 			</Items>
 		</WorkMode>
-		<!-- Render Background Color -->
-		<cbRenderBackgroundColor>
-			<Items>
-				<Item Index="0" Value="По умолчанию"/>
-				<Item Index="1" Value="Пользовательский цвет"/>
-			</Items>
-		</cbRenderBackgroundColor>
-		<!-- App Theme -->
+		<lbDefTextureFormatGlb Caption="Формат файлов текстур по умолчанию"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption="Всегда открывать архив после пересборки"/>
+		<cbMinimizeAtStartGame Caption="При запуске игры сворачивать $AppName$"/>
+		<cbInstallUpdatesAutomatically Caption="Устанавливать обновления автоматически"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Использовать Корзину вместо удаления при работе с реальными файлами"/>
+		<cbShowRecycleConfirmation Caption="Требовать подтверждения отправки в корзину"/>
+		<cbCloseArchivesAtStartGame Caption="При запуске игры закрывать все открытые архивы"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Очистить фильтр поиска после открытия нового архива'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Использовать альтернативный (старый) метод добавления папки при перетаскивании'/>
+		<tbFileAssociation Caption="Настройки ассоциации файлов"/>
+		<!-- "mods" folder -->
+		<tabModsFolder Caption="Папка $ModsFolder$"/>
+		<lbModsFolderText Caption="На этой вкладке вы можете изменять настройки, относящиеся к папке $ModsFolder$."/>
+		<lbModsFolderNote1 Caption="Эти настройки недоступны, так как плагин $ModsFolderAsi$ не установлен."/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Показывать уведомление во время редактирования архива за пределами папки "mods"'/>
+		<cbAllowEditModeOnlyInModsFolder Caption='Разрешить редактирование архивов только в папке $ModsFolder$'/>
+		<!-- Tools -->
+		<tabTools Caption="Инстурменты"/>
+		<lbChooseTheme Caption="Выберите тему"/>
 		<cbAppTheme>
 			<Items>
 				<Item Index="0" Value="Светлая"/>
 				<Item Index="1" Value="Темная"/>
 			</Items>
 		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Render background color"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="По умолчанию"/>
+				<Item Index="1" Value="Пользовательский цвет"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="Схема управления камерой"/>
+		<cbRenderAntialiasing Caption="Включить AntiAliasing"/>
+		<lbChooseEditorTheme Caption="Выберите цветовую схему для текстового редактора"/>
+		<!-- openFormats -->
+		<tabFormats Caption="openFormats"/>
+		<lbDefTextureFormat Caption="Формат файлов текстур по умолчанию"/>
+		<cbNotExportTextureToFolder Caption="Не сохранять текстуры в отдельную папку во время экспорта OTD"/>
+		<gbModels Caption="Импорт моделей (ODR/ODD/OFT)"/>
+		<cbProtectModels Caption="Включить защиту геометрии по умолчанию\n(препятствует последующему экспорту)"/>
+		<btnSaveShaderInformation Caption="Сохранить информацию о шейдерах openFormats"/>
+		<!-- Misc + old -->
+		<btnClose Caption="Закрыть"/>
+		<actAppAdd Caption="Добавить"/>
+		<actAppEdit Caption="Параметры"/>
+		<actAppDel Caption="Удалить"/>
+		<LnkWebApps Caption="Загрузить другие приложения для $RageGAME_SHORT$"/>
 		<!-- String's -->
 		<AeroWindow LinesCount="10">
 			<StringList>

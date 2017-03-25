@@ -1,12 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='280' ID='2057' icon="Flag.ico" active="true">
-	<Creator>
-		<Name>OpenIV Team</Name>
-		<web>http://openiv.com/</web>
-		<!-- You can use "http://" or "https://" or "mailto:" -->
-		<info/>
-		<game>american.gxt</game>
-	</Creator>
+<LanguageInterfacePack version='290' ID='2057' active="true">
+	<Contributors>
+		<Contributor link="http://openiv.com/">OpenIV Team</Contributor>
+	</Contributors>
 	<WebHelp>
 		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
 	</WebHelp>

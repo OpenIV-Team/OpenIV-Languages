@@ -12,5 +12,6 @@
 		<string name="ALPHABETICALLY">(в алфавитном порядке)</string>
 		<string name="SPECIAL_THANKS_TO">Особая благодарность</string>
 		<string name="LICENSE_TERMS">Условия лицензионного соглашения</string>
+		<string name="LOCALIZATION">Локализаторы</string>
 	</RenderUI>
 </Translation>

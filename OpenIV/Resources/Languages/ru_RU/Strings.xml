@@ -42,6 +42,11 @@
 		<Item Index='38' Value='Невозможно создать новый архив.'/>		
 		<Item Index='39' Value='$AppName$ - Нет устройствa воспроизведения звука'/>
 		<Item Index='40' Value='Не удается воспроизвести звуковой файл. Нет доступного устройства воспроизведения звука.'/>
+		<Item Index='41' Value='$AppName$ не удалось найти обработчик для этого файла.\nПуть к файлу: "%s"'/>
+		<Item Index='42' Value='$AppName$ не удалось найти или открыть этот файл.\nПуть к файлу: "%s"'/>
+		<Item Index='43' Value='Невозможно открыть этот файл, поскольку его размер превышает 256 МБ.'/>
+		<Item Index='44' Value='$AppName$ не удалось показать содержимое этого файла. Файл не может быть сохранён как XML, код ошибки: %s'/>
+		<Item Index='45' Value='$AppName$ не может открыть этот файл. Код ошибки: %s'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.Search" Title="Поиск" Hint="Открыть поиск"/>
@@ -64,5 +69,6 @@
 		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>	
 		<item Name="Tools.GTAV.ASIManager" Title="ASI Менеджер" Hint="ASI Менеджер"/>
 		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Экспорт скелета в openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Редактировать вложенные текстуры" Hint=""/>
 	</tools>
 </GlobalStrings>

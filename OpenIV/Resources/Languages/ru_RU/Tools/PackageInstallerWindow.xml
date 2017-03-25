@@ -21,12 +21,16 @@
 
 		<string name="SELECT_CONTENT">Выберите вариант для установки</string>
 		<string name="SELECT_LOCATION">Выберите место для установки</string>
-		<string name="LOCATION_MODS_FOLDER">Папка "mods"</string>
-		<string name="LOCATION_MODS_FOLDER_TEXT">Установить этот мод в папку "mods"</string>
-		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED">Этот мод не может быть установлен в папку "mods" потому что он не содержит изменений для RPF архивов.</string>
+		<string name="LOCATION_MODS_FOLDER">Папка $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Установить этот мод в папку $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Этот мод не может быть установлен в папку $ModsFolder$ так как папка $ModsFolder$ не поддерживается текущей игрой ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Этот мод не может быть установлен в папку $ModsFolder$ так как папка $ModsFolder$ не поддерживается форматом пакета.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Этот мод не может быть установлен в папку $ModsFolder$ так как он не содержит изменений для RPF архивов.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Этот мод не может быть установлен в папку $ModsFolder$ так как плагин $ModsFolderAsi$ не установлен.</string>
 		<string name="LOCATION_GAME_FOLDER">Папка игры</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Установить этот мод в папку с игрой</string>
-
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Этот мод не может быть установлен в папку игры так как эта возможность отключена в настройках папки $ModsFolder$.</string>
+		
 		<string name="INSTALLATION_SUCCEEDED">Установка завершена</string>
 		<string name="RUN_GAME">Запустить $RageGAME$</string>
 		<string name="RUN_GAME_TEXT">Запустить игру и посмотреть, что получилось</string>
@@ -38,8 +42,10 @@
 		<string name="INSTALLING_ERROR_TITLE">Ошибка установки пакета</string>
 
 		<string name="ERROR_GROUP_UNKNOWN">Неизвестная ошибка</string>
+		<string name="ERROR_GROUP_FATAL">Критическая ошибка</string>
 		<string name="ERROR_CODE_UNKNOWN">Что-то произошло. Пожалуйста, проверьте файл журнала для подробной информации об ошибках.</string>
 		<string name="ERROR_INSTALLATION">Во время установки произошла критическая ошибка. Пожалуйста, проверьте файл журнала для подробной информации об ошибках.</string>
+		<string name="ERROR_MSXML">MSXML не установлен, он необходим для использования Package Installer.</string>
 		<string name="CHECK_LOG_FILE">Пожалуйста, проверьте файл журнала для подробной информации об ошибках.</string>
 		
 		<string name="OPEN_INSTALLATION_LOG">Открыть журнал установки</string>
@@ -70,8 +76,10 @@
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">This package cannot be installed into $RageGAME$. Please check supported games list in additional information section.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Some files are missing in the package archive.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Some files have incorrect ingame path. Please contact package author.</string>
 		
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Этот мод не может быть удалён автоматически.</string>
+		
 	</RenderUI>
 </Translation>

@@ -4,8 +4,8 @@
 	<RenderUI>
 		<string name="TITLE">GTA V - ASI Менеджер</string>
 		
-		<string name="RPF_NOTE">Вам необходимо установить загрузчик ASI и OpenIV.ASI плагин для вашей GTA V, иначе игра не будет загружать отредактированные RPF архивы.</string>
-		<string name="ONLINE_NOTE">Не пытайтесь играть в GTA Online с отредактированными RPF архивами, вы будете заблокированы.</string>
+		<string name="RPF_NOTE">Вам необходимо установить загрузчик ASI и $ModsFolderAsi$ плагин для вашей $RageGAME_SHORT$, иначе игра не будет загружать отредактированные RPF архивы.</string>
+		<string name="ONLINE_NOTE">Не пытайтесь играть в $RageGAME_MP$ с отредактированными RPF архивами, вы будете заблокированы.</string>
 		
 		<string name="INSTALL">Установить</string>
 		<string name="UPDATE">Обновить</string>
@@ -19,7 +19,7 @@
 		<string name="ASI_LOADER">ASI Loader</string>
 		<string name="ASI_LOADER_DESCRIPTION">ASI Loader is the tool that loads custom libraries with the file extension .asi into the game process.</string>
 		
-		<string name="OPENIV_ASI">OpenIV.ASI</string>
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
 		<string name="OPENIV_ASI_DESCRIPTION">This ASI Plugin is allow your game to load modified RPF archives. It is also provides support for “mods” folder.</string>
 		
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
@@ -30,10 +30,12 @@
 		
 		<string name="UNINSTALL_FAILED">Uninstall failed</string>
 		<string name="UNINSTALL_FAILED_TEXT">Uninstall failed, restart $AppName$ and try again.</string>
-		
-		<string name="MODS_FOLDER_TITLE">Создать папку "mods"</string>
-		<string name="MODS_FOLDER_TEXT">Папка "mods" позволяет вам сохранить оригинальные файлы игры не тронутыми, а также обеспечивает самый простой способ переключения между оригинальными и измененными файлами.</string>
-		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Показывать уведомление во время редактирования архива за пределами папки "mods"</string>
-		<string name="MODS_FOLDER_LEARN_MORE">Узнать больше о папке "mods"</string>
+
+		<string name="MODS_FOLDER_TITLE">Создать папку $ModsFolder$?</string>
+		<string name="MODS_FOLDER_TEXT">Папка $ModsFolder$ позволяет вам сохранить оригинальные файлы игры не тронутыми, а также обеспечивает самый простой способ переключения между оригинальными и измененными файлами.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Показывать уведомление во время редактирования архива за пределами папки $ModsFolder$</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Разрешить редактирование архивов только в папке $ModsFolder$</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">Вы можете изменить эти параметры в настройках $AppName$ в любое время.</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Узнать больше о папке $ModsFolder$</string>
 	</RenderUI>
 </Translation>

@@ -91,5 +91,12 @@
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Во время экспорта качество будет потеряно.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap image (*.bmp)</string>
 
+		<!-- Edit -->
+		<string name="UNDO">Отменить</string>
+		<string name="REDO">Повторить</string>
+		<string name="CUT">Вырезать</string>
+		<string name="COPY">Копировать</string>
+		<string name="PASTE">Вставить</string>
+		
 	</RenderUI>
 </Translation>
