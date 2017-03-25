@@ -91,5 +91,12 @@
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Quality can be lost while exporting.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap image (*.bmp)</string>
 
+		<!-- Edit -->
+		<string name="UNDO">Undo</string>
+		<string name="REDO">Redo</string>
+		<string name="CUT">Cut</string>
+		<string name="COPY">Copy</string>
+		<string name="PASTE">Paste</string>
+		
 	</RenderUI>
 </Translation>
