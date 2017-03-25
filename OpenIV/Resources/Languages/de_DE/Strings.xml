@@ -42,27 +42,33 @@
 		<Item Index='38' Value='Neues Archiv konnte nicht erstellt werden.'/>
 		<Item Index='39' Value='$AppName$ - Kein Audiowiedergabegerät'/>
 		<Item Index='40' Value='Die Audiodatei konnte nicht wiedergegeben werden. Es ist kein Audiowiedergabegerät verfügbar.'/>
+        <Item Index='41' Value='$AppName$ konnte keinen Handler für die Datei finden.\nDateipfad: "%s"'/>
+ 		<Item Index='42' Value='$AppName$ konnte die Datei nicht finden oder öffnen.\nDateipfad: "%s"'/>
+ 		<Item Index='43' Value='$AppName$ konnte die Datei nicht öffnen, da sie größer als 256 Megabyte ist.'/>
+ 		<Item Index='44' Value='$AppName$ kann den Inhalt dieser Datei nicht anzeigen. Die Datei kann nicht als XML gespeichert werden, Fehlercode: %s'/>
+ 		<Item Index='45' Value='$AppName$ konnte die Datei nicht öffnen. Fehlercode: %s'/>
 	</StringList>
 	<tools>
+        <item Name="Tools.Common.RunGame" Title="$RageGAME_SHORT$ starten" Hint="$RageGAME$ starten"/>
 		<item Name="Tools.Common.Search" Title="Suche" Hint="Suche öffnen"/>
+        <item Name="Tools.Common.HashGenerator" Title="Hashgenerator" Hint="Hashgenerator öffnen"/>
+ 		<item Name="Tools.Common.PackageInstaller" Title="Paketinstallationsprogramm" Hint="Paketinstallationsprogramm öffnen"/>
 		<item Name="Tools.GTAIV.PlacementSearch" Title="Platzsuche" Hint="Platzsuche öffnen"/>
 		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Ort finden" Hint="Platzsuche"/>
-		<item Name="Tools.Common.HashGenerator" Title="Hash Generator" Hint="Hash Generator öffnen"/>
-		<item Name="Tools.Common.RunGame" Title="$RageGAME_SHORT$ öffnen" Hint="$RageGAME$ öffnen"/>	
-		<item Name="Files.GTAEngine.TextViewer" Title="GXT Vorschau" Hint=""/>		
+	    <item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="In IDE finden" Hint=""/>
+ 		<item Name="Tools.GTAIV.AnimViewer" Title="Animationswiedergabe" Hint="Animationswiedergabe öffnen"/>
+ 		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>	
+ 		<item Name="Files.Common.AudioPlayer" Title="Audiowiedergabe" Hint=""/>	
+ 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="In openFormats exportieren (.oac)" Hint=""/>
+ 		<item Name="Files.GTAEngine.TextViewer" Title="GXT Vorschau" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 Vorschau" Hint=""/>
 		<item Name="Files.Resources.TextureEditor" Title="Texturenvorschau" Hint=""/>
-		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Texturenbearbeitungswerkzeug" Hint=""/>				
-		<item Name="Files.Common.AudioPlayer" Title="Audiowiedergabe" Hint=""/>	
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Texturenbearbeitungswerkzeug" Hint=""/>
 		<item Name="Files.Resources.CollisionViewer" Title="Collision Viewer" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD Modell Vorschau" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="WFT Modell Vorschau" Hint=""/>
 		<item Name="Files.Resources.NavmeshViewer" Title="NavMesh Vorschau" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="In IDE finden" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="Animationswiedergabe" Hint="Animationswiedergabe öffnen"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Packetinstallationsprogramm" Hint="Packetinstallationsprogramm öffnen"/>
-		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="In openFormats exportieren (.oac)" Hint=""/>
-		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 Vorschau" Hint=""/>		
-		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>
         <item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Sklett in openFormats (.skel)" Hint=""/>
+        <item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Eingebettete Texturen bearbeiten" Hint="Mit dem Bearbeitungsprogramm für eingebtette Texturen bearbeiten"/>
 	</tools>
 </GlobalStrings>

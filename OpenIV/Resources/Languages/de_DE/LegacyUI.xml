@@ -80,8 +80,8 @@
 				<Item Index="67" Value="Diese Benachrichtigung kann in den Einstellungen wieder aktiviert werden."/>
 				<Item Index="68" Value="Kopieren..."/>
 				<Item Index="69" Value="$AppName$ - Bestätigung"/>
-				<Item Index="70" Value='Alle Veränderungen am Archiv "mods\update\update.rpf" werden verloren gehen.\nMöchtest du fortfahren?'/>		
-				<Item Index="71" Value=""/>		
+				<Item Index="70" Value='Alle Veränderungen am Archiv "$ModsFolderPath$update\update.rpf" werden verloren gehen.\nMöchtest du fortfahren?'/>		
+				<Item Index="71" Value='Nach "%s" in allen Archiven suchen'/>		
 				<Item Index="72" Value=""/>		
 				<Item Index="73" Value=""/>		
 				<Item Index="74" Value=""/>		
@@ -95,23 +95,26 @@
 		<!-- Others -->
 		<SearchBox BannerText="Suche"/>	
 		<!-- Benachrichtigung: GTA V (ASI) -->
-		<lbGTAVPluginTitle Caption="GTA V Plugin für GTA V installieren"/>
-		<lbGTAVPluginText Caption="Du musst den ASI Loader und das OpenIV - Plugin für dein GTA V installieren, da das Spiel sonst keine modifizierten RPF - Archive laden wird.\nSpiele GTA Online nicht mit modifizierten RPF - Dateien, oder du wirst gebannt."/>
+		<lbGTAVPluginTitle Caption="GTA V Plugin für $RageGAME_SHORT$ installieren"/>
+		<lbGTAVPluginText Caption="Du musst den ASI Loader und das $ModsFolderAsi$ - Plugin für dein $RageGAME_SHORT$ installieren, da das Spiel sonst keine modifizierten RPF - Archive laden wird.\nSpiele $RageGAME_MP$ nicht mit modifizierten RPF - Dateien, oder du wirst gebannt."/>
 		<btnGTAVPluginAction Caption="ASI Manager"/>
         <!-- Benachrichtigung: In den mods Ordner kopieren -->
- +		<lbNotInModsTitle Caption='Der "mods" Ordner'/>
-		<lbNotInModsText Caption='Das Archiv, das bearbeitet werden soll, befindet sich nicht im "mods" Ordner.'/>
-		<btnHideThisNotification Caption="Diese Benachrichtigung ausblenden"/>		
-		<btnCopyToMods Caption='In den "mods" Ordner kopieren'/>		
-		<btnShowInMods Caption='RPF im "mods" Ordner anzeigen'/>		
+ 		<lbNotInModsTitle Caption='Der $ModsFolder$ Ordner'/>
+		<lbNotInModsText Caption='Das Archiv, das bearbeitet werden soll, befindet sich nicht im $ModsFolder$ Ordner.'/>
+		<lbEditModeDisabledDueToModsFolder Caption='Dieses Archiv darf nicht bearbeitet werden.\nRufe den $ModsFolder$ Ordner auf, oder ändere die Option in den Einstellungen.'/>		
+		<btnCopyToMods Caption='In den $ModsFolder$ Ordner kopieren'/>		
+		<btnShowInMods Caption='RPF im $ModsFolder$ Ordner anzeigen'/>
+        <btnChangeModsFolderSettings Caption='$ModsFolder$ Ordner - Einstellungen ändern'/>
 		<!-- Benachrichtigung: update.rpf -->
- +		<lbCopyNewUpdateToModsTitle Caption='Grand Theft Auto V Title Update'/>
- +		<lbCopyNewUpdateToMods Caption='Deine Version der update.rpf im "mods" Ordner ist nicht mehr aktuell. Du musst eine neue Version der "update.rpf" in den "mods" Ordner kopieren, da dein Spiel sonst abstürzen könnte.'/>		
-		<btnCopyUpdateToMods Caption='Neue Version in den "mods" Ordner kopieren'/>
+ 		<lbCopyNewUpdateToModsTitle Caption='$RageGAME$ Title Update'/>
+ 		<lbCopyNewUpdateToMods Caption='Deine Version der update.rpf im $ModsFolder$ Ordner ist nicht mehr aktuell. Du musst eine neue Version der "update.rpf" in den $ModsFolder$ Ordner kopieren, da dein Spiel sonst abstürzen könnte.'/>		
+		<btnCopyUpdateToMods Caption='Neue Version in den $ModsFolder$ Ordner kopieren'/>
         <!-- Benachrichtigung: Adminmodus -->
- +		<lbAdminModeTitle Caption='$AppName$ wird als Administrator ausgeführt'/>
- +		<lbAdminModeText Caption='$AppName$ wird als Administrator ausgeführt. Einige Funktionen, wie das ziehen von Dateien aus dem Windows Explorer funktionieren unter Umständen nicht. Das lässt sich beheben, indem man $AppName$ nicht mehr als Administrator ausführt. OpenIV as administrator.'/>
- +		<btnAdminModeAction Caption='Was soll ich tun?'/>
+ 		<lbAdminModeTitle Caption='$AppName$ wird als Administrator ausgeführt'/>
+ 		<lbAdminModeText Caption='$AppName$ wird als Administrator ausgeführt. Einige Funktionen, wie das ziehen von Dateien aus dem Windows Explorer funktionieren unter Umständen nicht. Das lässt sich beheben, indem man $AppName$ nicht mehr als Administrator ausführt.'/>
+ 		<btnAdminModeAction Caption='Was soll ich tun?'/>
+        <!-- Suchfunktionen -->
+ 		<taskClearSearchFilter Caption='Suchfilter aufheben'/>
 	</MainWindow>	
 
 	<ActionsModule>
@@ -158,6 +161,7 @@
 		<actCopyPath Caption="Pfad kopieren" Hint="Aktuellen Dateipfad kopieren"/>
 		<actExtract Caption="Extrahieren..." Hint="Datei extrahieren"/>
 		<actSaveContent Caption="Inhalt speichern / exportieren" Hint="Dateiinhalt speichern / exportieren"/>
+        <actSaveRawContent Caption="Rohdaten speichern" Hint="Rohdaten exportieren"/>
 		<actRename Caption="Umbenennen" Hint="Datei umbenennen"/>
 		<actAdd Caption="Hinzufügen" Hint="Neue Datei hinzufügen"/>
 		<actReplace Caption="Ersetzen" Hint="Aktuelle Datei ersetzen"/>
@@ -168,8 +172,8 @@
 		<actResourceObjectExplorer Caption="Ressourcen Explorer" Hint=""/>
 		<actShowInWindowsExplorer Caption="Im Windows Explorer anzeigen" Hint=""/>
 		<actItemAddToFavorites Caption="Zu Favoriten hinzufügen..." Hint=""/>
-		<actCopyToModsFolder Caption='In den "mods" Ordner kopieren' Hint=""/>		
-		<actShowInModsFolder Caption='RPF im "mods" Ordner anzeigen' Hint=""/>
+		<actCopyToModsFolder Caption='In den $ModsFolder$ Ordner kopieren' Hint=""/>		
+		<actShowInModsFolder Caption='RPF im $ModsFolder$ Ordner anzeigen' Hint=""/>
 		<!-- New menu -->
 		<actMultipleImport Caption="openFormats - Datei importieren" Hint="Mehrfach - Import"/>
 		<actNewFolder Caption="Ordner"  Hint="Neuen Ordner erstellen"/>		
@@ -218,10 +222,10 @@
 		<actTreeCopyAsPath Caption="Als Pfad kopieren" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Im Windows Explorer anzeigen" Hint=""/>
 		<actTreeCloseArchive Caption="Archiv schließen" Hint=""/>
-		<actTreeCopyToModsFolder Caption='In den "mods" Ordner kopieren' Hint=""/>		
-		<actTreeShowInModsFolder Caption='RPF im "mods" Ordner anzeigen' Hint=""/>
+		<actTreeCopyToModsFolder Caption='In den $ModsFolder$ Ordner kopieren' Hint=""/>
+		<actTreeShowInModsFolder Caption='RPF im $ModsFolder$ Ordner anzeigen' Hint=""/>
 		<actTreeCollapseThis Caption='Aktuelles Element einklappen' Hint=""/>
- +		<actTreeCollapseAll Caption='Alle Elemente einklappen' Hint=""/>
+ 		<actTreeCollapseAll Caption='Alle Elemente einklappen' Hint=""/>
         <!-- Strings -->
 		<Strings SetCount="100">
 			<Lines>
@@ -319,73 +323,75 @@
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Optionen">
-		<!-- Tab's -->
-		<tabMain Caption="Allgemein"/>
-		<tabLang Caption="Sprachen"/>
-		<tabApps Caption="Anwendungen"/>
-		<tabFormats Caption="openFormats"/>
-		<tabTools Caption="Werkzeuge"/>
-		<tabGame Caption="Spiel"/>
-		<tabViewers Caption="Anzeigewerkzeuge"/>
-		<!-- Button's -->
-		<btnClose Caption="Schließen"/>
-		<!-- Action's -->
-		<actAppAdd  Caption="Hinzufügen"/>
-		<actAppEdit Caption="Bearbeiten"/>
-		<actAppDel  Caption="Entfernen"/>
-		<!-- Link's -->
-		<LnkWebApps Caption="Noch mehr Werkzeuge für $RageGAME_SHORT$ herunterladen"/>
+    <!-- Sprachen -->
+  		<tabLang Caption="Sprachen"/>
+		<lbLang Caption="Sprache auswählen"/>        
 		<LnkWebLangs Caption="$AppName$ in eine andere Sprache übersetzen"/>
+        <!-- Spiel -->
+ 		<tabGame Caption="Spiel"/>
+ 		<gbGamePath Caption="$RageGAME_SHORT$ Verzeichnis"/>
+ 		<lbCurrentGamePath Caption="Aktuelles Verzeichnis:"/>
 		<tbChangeGame Caption="Verzeichnis ändern" />
-		<tbFileAssociation Caption="Dateizuordnungen ändern" />
-		<btnSaveShaderInformation Caption="openFormats - Shaderinformationen speichern"/>
-		<!-- CheckBox's -->
+		<ttRageExe Caption="Um die Funktionalität von $AppName$ zu gewährleisten, muss sich folgende Datei in diesem Ordner befinden: $RageEncryptionStorage$"/>
+ 		<!-- Allgemein -->
+ 		<tabMain Caption="Allgemein"/>
+ 		<lbDefaultGame Caption="Standard-Spiel festlegen"/>
+ 		<lbWorkMode Caption="Standard Bearbeitungsmodus"/>
+ 		<WorkMode>
+ 			<Items>
+                <Item Index="0" Value="Baearbeitungsmodus"/>
+				<Item Index="1" Value="Schreibgeschützer Modus"/>
+ 			</Items>
+ 		</WorkMode>
+ 		<lbDefTextureFormatGlb Caption="Standard Texturendateiformat"/>
 		<cbAlwaysOpenArchiveAfterRebuild Caption="Archiv immer nach Neuerstellung öffnen"/>
-		<cbProtectModels Caption="Geschützer Mesh - Option standardmäßig aktivieren (um Export in der Zukunft zu unterbinden)"/>
-		<cbNotExportTextureToFolder Caption="Texturen nicht in seperaten Ordner platzieren, während OTD exportiert wird"/>
 		<cbMinimizeAtStartGame Caption="$AppName$ beim Start eines Spiels minimieren"/>
 		<cbInstallUpdatesAutomatically Caption="Updates automatisch installieren"/>
-		<cbRenderAntialiasing Caption="AntiAliasing aktivieren"/>
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Für echte Dateien den Papierkorb benutzen anstatt sie zu löschen"/>
 		<cbShowRecycleConfirmation Caption="Löschbestätigung anzeigen?"/>
 		<cbCloseArchivesAtStartGame Caption="Alle geöffneten Archive beim Start des Spiels schließen"/>
-		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Benachrichtigung anzeigen, wenn Bearbeitungsmodus außerhalb des "mods" Ordner aktiv ist'/>
         <cbClearSearchFilterAfterOpeningArchive Caption='Suchfilter nach öffnen eines Archives leeren'/>
-		<!-- Label's -->
-		<gbGamePath Caption="$RageGAME_SHORT$ - Verzeichnis"/>
-		<lbCurrentGamePath Caption="Aktuelles Verzeichnis:"/>
-		<lbLang Caption="Sprache auswählen:"/>
-		<lbWorkMode Caption="Standard Bearbeitungsmodus"/>
-		<ttRageExe Caption="Um $AppName$ zum Laufen zu bekommen sollte in diesem Verzeichnis diese Datei liegen: $RageEncryptionStorage$"/>
-		<lbDefTextureFormat Caption="Standard Texturendateiformat"/>
-		<lbDefTextureFormatGlb Caption="Standard Texturendateiformat"/>
-		<gbModels Caption="Modellimport (ODR/ODD/OFT)"/>
-		<lbDefaultGame Caption="Standardspiel auswählen"/>
-		<lbRenderBackgroundColor Caption="Hintergrundfarbe beim Rendern"/>
-		<lbCameraControl Caption="Kamera - Kontrollschema"/>
+        <cbUseAlternativeWayOfAddingFolders Caption="Den alt(ernativ)en Weg benutzen, um Ordner durch Drag n' drop hinzuzufügen"/>
+ 		<tbFileAssociation Caption="Dateizuordnungen ändern"/>
+ 		<!-- "mods" Ordner -->
+ 		<tabModsFolder Caption="$ModsFolder$ Ordner"/>
+ 		<lbModsFolderText Caption="Auf dieser Seite lassen sich auf den $ModsFolder$ Ordner bezogene Einstellungen anpassen."/>
+ 		<lbModsFolderNote1 Caption="Die unteren Einstellungen können nicht angepasst werden, da das $ModsFolderAsi$ - Plugin nicht installiert ist."/>
+ 		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Benachrichtigung bei Bearbeitung eines Archivs außerhalb des $ModsFolder$ Ordners anzeigen'/>
+ 		<cbAllowEditModeOnlyInModsFolder Caption='Bearbeitungsmodus nur für den $ModsFolder$ Ordner erlauben'/>
+ 		<!-- Werkzeuge -->
+ 		<tabViewers Caption="Tools"/>
         <lbChooseTheme Caption="Theme wählen"/>
-		<!-- Work Mode's -->
-		<WorkMode>
-			<Items>
-				<Item Index="0" Value="Baearbeitungsmodus"/>
-				<Item Index="1" Value="Schreibgeschützer Modus"/>
+		<cbAppTheme>
+            <Items>
+				<Item Index="0" Value="Hell"/>
+				<Item Index="1" Value="Dunkel"/>
 			</Items>
-		</WorkMode>
-		<!-- Render Background Color -->
+		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Hintergrundfarbe beim Rendern"/>
 		<cbRenderBackgroundColor>
 			<Items>
 				<Item Index="0" Value="Standard"/>
 				<Item Index="1" Value="Benutzerdefinierte Farbe"/>
 			</Items>
 		</cbRenderBackgroundColor>
-		<!-- App Theme -->
- +		<cbAppTheme>
- +			<Items>
- +				<Item Index="0" Value="Hell"/>
- +				<Item Index="1" Value="Dunkel"/>
- +			</Items>
- +		</cbAppTheme>
-        <!-- String's -->
+		<lbCameraControl Caption="Kamera - Kontrollschema"/>
+ 		<cbRenderAntialiasing Caption="AntiAliasing aktivieren"/>
+ 		<lbChooseEditorTheme Caption="Farbschema für Texteditor wählen"/>
+ 		<!-- openFormats -->
+ 		<tabFormats Caption="openFormats"/>
+ 		<lbDefTextureFormat Caption="Standard Texturendateiformat"/>
+ 		<cbNotExportTextureToFolder Caption="Texturen nicht in seperaten Ordner platzieren, während OTD exportiert wird"/>
+ 		<gbModels Caption="Modellimport (ODR/ODD/OFT)"/>
+ 		<cbProtectModels Caption="Geschützer Mesh - Option standardmäßig aktivieren (um Export in der Zukunft zu unterbinden)"/>
+ 		<btnSaveShaderInformation Caption="openFormats - Shaderinformationen speichern"/>
+ 		<!-- Sonstiges + Altes -->
+ 		<btnClose Caption="Schließen"/>
+ 		<actAppAdd  Caption="Hinzufügen"/>
+		<actAppEdit Caption="Bearbeiten"/>
+		<actAppDel  Caption="Entfernen"/>
+ 		<LnkWebApps Caption="Noch mehr Werkzeuge für $RageGAME_SHORT$ herunterladen"/>
+        <!-- Strings -->
 		<AeroWindow LinesCount="10">
 			<StringList>
 				<Item Index="0" Value="Ordner auswählen:"/>

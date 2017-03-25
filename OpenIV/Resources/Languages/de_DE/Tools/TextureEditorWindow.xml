@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<TextureEditorWindow Caption='$AppName$ Texturenwerkzeug'>
 		<!-- String's -->
@@ -26,7 +26,7 @@
 		<string name="NO_IMAGE">Kein Bild</string>
 
 		<string name="NO_IMAGE_SELECTED">Es wurde kein Bild ausgewählt</string>
-		<string name="WIDTH">Weite</string>
+		<string name="WIDTH">Breite</string>
 		<string name="HEIGHT">Höhe</string>
 		<string name="PIXEL_FORMAT">Pixelformat</string>
 		<string name="MIP_MAPS">MipMaps</string>

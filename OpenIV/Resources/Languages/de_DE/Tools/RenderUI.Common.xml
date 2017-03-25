@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<!-- common -->
 	<RenderUI>
@@ -91,5 +91,12 @@
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Beim Exportieren kann Qualität verloren gehen.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap - Bild (*.bmp)</string>
 
+        <!-- Bearbeiten -->
+ 		<string name="UNDO">Rückgängig</string>
+ 		<string name="REDO">Wiederholen</string>
+ 		<string name="CUT">Ausschneiden</string>
+ 		<string name="COPY">Kopieren</string>
+ 		<string name="PASTE">Einfügen</string>
+ 		
 	</RenderUI>
 </Translation>

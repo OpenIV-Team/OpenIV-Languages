@@ -2,10 +2,10 @@
 <Translation>
 	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
 	<RenderUI>
-		<string name="TITLE">GTA V - ASI Manager</string>
+		<string name="TITLE">$RageGAME_SHORT$ - ASI Manager</string>
 		
-		<string name="RPF_NOTE">Du musst den ASI Loader und das OpenIV.ASI Plugin für dein GTA V installieren, da das Spiel sonst keine modifizierten RPF Archive laden wird.</string>
-		<string name="ONLINE_NOTE">Spiele GTA Online nicht mit modifizierten RPF - Dateien oder du wirst gebannt.</string>
+		<string name="RPF_NOTE">Du musst den ASI Loader und das $ModsFolderAsi$ Plugin für dein $RageGAME_SHORT$ installieren, da das Spiel sonst keine modifizierten RPF Archive laden wird.</string>
+		<string name="ONLINE_NOTE">Spiele $RageGAME_MP$ nicht mit modifizierten RPF - Dateien oder du wirst gebannt.</string>
 		
 		<string name="INSTALL">Installieren</string>
 		<string name="UPDATE">Aktualisieren</string>
@@ -19,8 +19,8 @@
 		<string name="ASI_LOADER">ASI Loader</string>
 		<string name="ASI_LOADER_DESCRIPTION">ASI Loader ist ein Tool, das veränderte Bibliotheken mit der Endung .asi an den Spielprozess anhängt.</string>		
 		
-		<string name="OPENIV_ASI">OpenIV.asi</string>
-		<string name="OPENIV_ASI_DESCRIPTION">Dieses ASI ASI Plugin erlaubt es dem Spiel modifizierte RPF Archive zu laden. Es bietet außerdem die Möglichkeit zur Benutzung des “mods” Ordners.</string>		
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Dieses ASI Plugin erlaubt es dem Spiel modifizierte RPF Archive zu laden. Es bietet außerdem die Möglichkeit zur Benutzung des $ModsFolder$ Ordners.</string>		
 				
 		<string name="OPEN_CAMERA_ASI">openCamera</string>		
 		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Entfernt die Beschränkungen der freien Kamera im Rockstar Editor.</string>		
@@ -31,9 +31,11 @@
 		<string name="UNINSTALL_FAILED">Entfernen fehlgeschlagen</string>		
 		<string name="UNINSTALL_FAILED_TEXT">Das Entfernen ist fehlgeschlagen, starte $AppName$ neu und versuche es erneut.</string>		
 				
-		<string name="MODS_FOLDER_TITLE">"mods" Ordner erstellen</string>		
-		<string name="MODS_FOLDER_TEXT">Der "mods" Ordner ermöglicht es, deine Spieldateien sicher zu halten und einfach zwischen modifizierten Dateien und Originaldateien zu wechseln.</string>		
-		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Benachrichtigung anzeigen, wenn Bearbeitungsmodus außerhalb des “mods” Ordner aktiv ist</string>		
-		<string name="MODS_FOLDER_LEARN_MORE">Mehr über den "mods" Ordner erfahren</string>
+		<string name="MODS_FOLDER_TITLE">$ModsFolder$ Ordner erstellen</string>		
+		<string name="MODS_FOLDER_TEXT">Der $ModsFolder$ Ordner ermöglicht es, deine Spieldateien sicher zu halten und einfach zwischen modifizierten Dateien und Originaldateien zu wechseln.</string>		
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Benachrichtigung anzeigen, wenn Bearbeitungsmodus außerhalb des $ModsFolder$ Ordner aktiv ist</string>
+        <string name="MODS_FOLDER_EDIT_MODE_CHECK">Bearbeitungsmodus nur im $ModsFolder$ Ordner erlauben</string>
+ 		<string name="MODS_FOLDER_SETTINGS_NOTE">Diese Einstellung kann jederzeit in den $AppName$ Einstellungen geändert werden.</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Mehr über den $ModsFolder$ Ordner erfahren</string>
 	</RenderUI>
 </Translation>
