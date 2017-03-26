@@ -6,7 +6,7 @@
 		<!-- Button's -->
 		<btnLoadFromFile Caption='Cargar desde Archivo' />
 		<btnGenerate Caption='Generar' />
-		<btnSaveToFile Caption='Guardar a archivo' />
+		<btnSaveToFile Caption='Guardar a un archivo' />
 		<cbCaseSensitive Caption='Distingue mayúsculas y minúsculas' />
 		<!-- Panel's -->
 		<pnlLeft Caption='Entrada:' />

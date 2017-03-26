@@ -6,7 +6,7 @@
 	</RageResourceExplorer>
 
 	<RageResourceExplorer2 Caption='$AppName$ - Visor de Modelos'>
-		<lbTree Caption="Arbol: "/>
+		<lbTree Caption="Árbol: "/>
 		<btnProperties Caption="Propiedades"/>
 		<btnFields Caption="Campos"/>
 		<tabProperties Caption="Propiedades"/>

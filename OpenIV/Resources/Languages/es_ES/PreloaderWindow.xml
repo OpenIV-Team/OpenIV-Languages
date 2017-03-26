@@ -27,10 +27,10 @@
 					<Item Index='00' Value='$AppName$ Términos de uso'/>
 					<Item Index='01' Value='Antes de usar $AppName$ tienes que leer los siguientes términos de uso.'/>
 					<Item Index='02' Value='$WebName$ servicio'/>
-					<Item Index='03' Value='$WebName$ el servicio esta hecho con el proposito de intercambiar información con los desarrolladores y los usuarios finales de $AppName$. Si quieres registrate en el servicio, vas a estar habilitado de chequear las actualizaciones de $AppName$ y usar otras funciones adicionales. También $WebName$ el servicio colecta algunas estadísticas de  información cuales están destinadas para ayudarnos a mejorar $AppName$ en el camino que el usuario prefiera.'/>
+					<Item Index='03' Value='$WebName$ el servicio esta hecho con el proposito de intercambiar información con los desarrolladores y los usuarios finales de $AppName$. Si quieres registrate en el servicio, vas a estar habilitado de chequear las actualizaciones de $AppName$ y usar otras funciones adicionales. También $WebName$ el servicio colecta algunas estadísticas de información cuales están destinadas para ayudarnos a mejorar $AppName$ en el camino que el usuario prefiera.'/>
 					<Item Index='04' Value='Servicio temporalmente indisponible.'/>
 					<Item Index='05' Value='Elige la carpeta de $RageGAME$'/>
-					<Item Index='06' Value='Sin especificar la localización del juego $AppName$ no puede abrir $RageGAME_SHORT$ archivos que no tengan la suficiente información. Por favor introduce la correcta localización de los $RageGAME$ instalados.'/>
+					<Item Index='06' Value='Si no especifica la localización del juego, $AppName$ no puede abrir archivos procedentes de $RageGAME_SHORT$ que no tengan la suficiente información. Por favor introduce la correcta localización del $RageGAME$ instalado.'/>
 					<Item Index='07' Value='$RageGAME$ Localización:'/>
 					<Item Index='08' Value='Error: Esta carpeta no existe.'/>
 					<Item Index='09' Value='Éxito: $AppName$ puede trabajar con esta carpeta'/>
@@ -41,11 +41,11 @@
 					<Item Index='14' Value='Windows 7'/>
 					<Item Index='15' Value='$AppName$ es mejor trabajando con Microsoft® Windows 7™'/>
 					<Item Index='16' Value='Tu nombre:'/>
-					<Item Index='17' Value="Error: $AppName$ no tenemos acceso a trabajar con esta carpeta.\nUsted puede establecer los permisos requeridos or abrir $AppName$ con permisos de administrador."/>
+					<Item Index='17' Value="Error: $AppName$ no tiene acceso a trabajar con esta carpeta.\nUsted puede establecer los permisos requeridos o abrir $AppName$ con permisos de administrador."/>
 					<Item Index='18' Value='Únete a la comunidad de $AppName$'/>
 					<Item Index='19' Value='$AppName$ - Confirmación'/>
-					<Item Index='20' Value='El proceso de configuración no está terminado.\n¿Quieres irte?'/>
-					<Item Index='21' Value="Error: $AppName$ No tiene acceso para trabajar con '$RageEncryptionStorage$'.\nUsted puede establecer los permisos requeridos or abrir $AppName$ con permisos de administrador."/>
+					<Item Index='20' Value='El proceso de configuración no está terminado.\n¿Segunro quieres salir?'/>
+					<Item Index='21' Value="Error: $AppName$ No tiene acceso para trabajar con '$RageEncryptionStorage$'.\nUsted puede establecer los permisos requeridos o abrir $AppName$ con permisos de administrador."/>
 					<Item Index='22' Value="Error: $RageGAME$ esta en proceso. Cierra el juego antes de utilizar $AppName$."/>
 					<Item Index='23' Value="Todo hecho.\nLos permisos fueron establecidos a la carpeta de tu juego"/>
  					<Item Index='24' Value="Incapaz de establecer los permisos."/>
@@ -73,7 +73,7 @@
 					<Item Index='4' Value='Error al actualizar, por favor intentelo más tarde.'/>
 					<Item Index='5' Value='%d.%d.%d (Build %d; Fecha %s)'/>
 					<Item Index='6' Value='Esta actualización contine arreglos de errores y pequeñas mejoras.'/>
-					<Item Index='7' Value='Esta actualización contine nuevas características, arreglos de errores cambios en la interfaz e importantes mejoras.'/>
+					<Item Index='7' Value='Esta actualización contine nuevas características, arreglos de errores, cambios en la interfaz e importantes mejoras.'/>
 					<Item Index='8' Value=''/>
 					<Item Index='9' Value=''/>
 				</Lines>

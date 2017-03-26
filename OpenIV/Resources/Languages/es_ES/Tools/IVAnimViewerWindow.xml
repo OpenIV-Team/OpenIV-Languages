@@ -14,7 +14,7 @@
 		<string name="EMPTY_CUTSCENE">Cinemática vacia</string>
 		<string name="EMPTY_CUTSCENE_MSG">Incapaz de abrir cinemática vacia.</string>
 		<string name="MISSED_ANIMATIONS">Animaciones perdidas</string>
-		<string name="MISSED_ANIMATIONS_MSG">$AppName$ es incapaz de cargar algunas animaciones porque los archivos no se encuentran.</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ es incapaz de cargar algunas animaciones porque los archivos no se encuentran en el directorio.</string>
 		<string name="FRAMES_">Cuadros: </string>
 		<string name="TIME_SCALE_X">Escala de tiempo: x</string>
 		<!-- help -->

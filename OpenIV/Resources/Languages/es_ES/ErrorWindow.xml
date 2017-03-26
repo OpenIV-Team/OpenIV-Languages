@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<ErrorWindow Caption='$AppName$ - Error de la apliación'>
-		<lbWindowTitle Caption="$AppName$ tuvo un problema que no pudo manejar, \y ahora debe reiniciarse."/>
+		<lbWindowTitle Caption="$AppName$ tuvo un problema que no pudo manejar, \ny ahora debe reiniciarse."/>
 		<btnCloseApp Caption='Cerrar $AppName$'/>
 		<lbReportHere Caption='Por favor, reportar este error usando los siguientes enlaces:'/>
 		<lnkWeb1 Caption='Visita el sitio oficial'/>

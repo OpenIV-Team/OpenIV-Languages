@@ -3,16 +3,20 @@
 	<SearchWindow Caption='$AppName$ - Búsqueda Global'>
 		<SearchBox BannerText="Buscar"/>
 		<btnGoSearch Caption="Buscar"/>
-		<ebSearchOptions Caption="Opciones avanzadas de búsqueda" ExpandCaption="Opciones avanzadas de búsqueda"/>
-		<cbArchives Caption="Buscar en archivos"/>
-		<cbResources Caption="Buscar en recursos"/>
+		<lbSearchOptions Caption="Opciones de busqueda:"/>
+ 		<lbSearchArea Caption="Buscar area:"/>
+ 		<cbSearchArea>
+ 			<Items>
+ 				<Item Index="0" Value='Buscar en todos los archivos'/>
+ 				<Item Index="1" Value="Buscar solo en la carpeta del juego"/>
+ 				<Item Index="2" Value='Buscar solo en la carpeta de $ModsFolder$'/>
+ 			</Items>
+ 		</cbSearchArea>
 		<cbSoundsAndAudio Caption="Buscar en audio"/>
-		<cbScripts Caption="Buscar en Scripts"/>
-		<cbTextFiles Caption="Buscar en Texto"/>
 		<lbStopHint Caption="Para parar la busqueda preciona ESC"/>
-		<btnExportResults Caption="Exportar"/>
-		<btnExportAll Caption="Exportar todos los archivos"/>
-		<btnExportSelected Caption="Exportar archivos seleccionados"/>
+		<btnExtractResults Caption="Extraer resultados"/>
+ 		<btnExtractAll Caption="Extraer todos los archivos"/>
+ 		<btnExtractSelected Caption="Extraer archivos seleccionados"/>
 		<btnGoTo Caption="Ir a archivo"/>
 		<btnOpenItem Caption="Abrir"/>
 		<btnExportItem Caption="Exportar"/>
@@ -22,6 +26,7 @@
 		<btnCopyName Caption="Copiar nombre"/>
  		<btnCopyPathName Caption="Copiar ruta"/>
  		<btnSaveContent Caption="Guardar contenido"/>
+		<btnSaveRawContent Caption="Guardar contenido sin procesar"/>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
@@ -32,8 +37,8 @@
 				<Item Index='4' Value='No hay items seleccionados'/>
 				<Item Index='5' Value='Seleccionados: %D'/>
 				<Item Index='6' Value="$AppName$ no puede abrir el archivo."/>
-				<Item Index='7' Value="No hay resultados para exportar."/>
-				<Item Index='8' Value="Por favor, para de buscar luego de exportar."/>
+				<Item Index='7' Value="No hay resultados para extraer."/>
+				<Item Index='8' Value="Por favor, para de buscar luego de extraer."/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>

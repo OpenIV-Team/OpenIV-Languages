@@ -31,7 +31,7 @@
 		<ext>cmt</ext>
 		<ext>cmf</ext>
 	</type>
-	<type Name="Efecto de Partículas">
+	<type Name="Efectos de Partículas">
 		<ext>ypt</ext>
 		<ext>xpt</ext>
 		<ext>cpt</ext>
@@ -57,7 +57,7 @@
 	<type Name="Nombre del equipo">
 		<ext>nametable</ext>
 	</type>
-	<type Name="Trasmitiendo">
+	<type Name="Streaming">
 		<ext>srl</ext>
 	</type>
 	<!-- OpenIV -->
@@ -94,7 +94,7 @@
 		<ext>jpeg</ext>
 		<ext>jpg</ext>
 	</type>
-	<type Name="Icono">
+	<type Name="Ícono">
 		<ext>ico</ext>
 	</type>
 	<type Name="Imagen TGA">
@@ -360,7 +360,7 @@
 		<ext>dat</ext>
 		<ext>datnew</ext>
 	</type>
-	<type Name="Scena de Cinemática">
+	<type Name="Escena de Cinemática">
 		<ext>cut</ext>
 	</type>
 	<type Name="eXtended Placement Lists">
@@ -412,14 +412,21 @@
 		<ext>cgx</ext>
 	</type>
 	<type Name="Metadata de Audio">
-		<ext>DAT11</ext>
-		<ext>DAT12</ext>
-		<ext>DAT15</ext>
-		<ext>DAT16</ext>
-		<ext>DAT19</ext>
-		<ext>DAT20</ext>
-		<ext>DAT45</ext>
-		<ext>DAT46</ext>
+		<ext>DAT4</ext>
+		<ext>DAT10</ext>
+  		<ext>DAT11</ext>
+  		<ext>DAT12</ext>
+  		<ext>DAT15</ext>
+  		<ext>DAT16</ext>
+  		<ext>DAT19</ext>
+  		<ext>DAT20</ext>
+		<ext>DAT22</ext>
+  		<ext>DAT45</ext>
+  		<ext>DAT46</ext>
+		<ext>DAT54</ext>
+		<ext>DAT149</ext>
+		<ext>DAT150</ext>
+		<ext>DAT151</ext>
 		<name>config/speech.dat</name>
 		<name>config/categories.dat</name>
 		<name>config/curves.dat</name>

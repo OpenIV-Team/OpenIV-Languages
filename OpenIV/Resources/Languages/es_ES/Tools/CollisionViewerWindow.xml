@@ -17,7 +17,7 @@
 		<!-- help -->
 		<string name="HELP_TITLE">Visor de Colisión - ayuda</string>
 		<text name="HELP_TEXT">
-			<![CDATA[Usa el mouse para ver alrededor, muevete usando estas teclas:
+			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
 			
     W - Mover adelante
     S - Mover atrás
@@ -33,7 +33,7 @@
     Mantiene CTRL - Para moverte despacio
     Utiliza la rueda del mouse para hacer zoom.
 		   
-Para cambiar las opciones de render usa estas teclas:
+Para cambiar las opciones de render usa las siguientes teclas:
 		   
     F1 - Alternar este panel de ayuda
     C - Alternar modo de camara

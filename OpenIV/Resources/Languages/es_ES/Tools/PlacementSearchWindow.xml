@@ -23,7 +23,7 @@
 
 		<string name="HELP_TITLE">Buscador de Localización - ayuda</string>
 		<text name="HELP_TEXT">
-			<![CDATA[Usa el mouse para ver alrededor, muevete usando estas teclas:
+			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
 			
     W - Mover adelante
     S - Mover atrás

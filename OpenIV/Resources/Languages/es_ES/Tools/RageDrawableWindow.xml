@@ -12,7 +12,7 @@
 		<miRight Caption='Derecha'/>
 		<miCheckAll Caption='Seleccionar todos' />
 		<miUncheckAll Caption='Deseleccionar todos' />
-		<paneDictionary Caption='Dictionary elements'/>
+		<paneDictionary Caption='Elementos del diccionario'/>
 		<cbMultipleRendering Caption='Multiple render'/>
 		<AeroWindow LinesCount='1'>
 			<StringList>
@@ -24,7 +24,7 @@
 		<!-- help -->
 		<string name="HELP_TITLE">Visor de Modelos - Ayuda</string>		
 		<text name="HELP_TEXT">
-			<![CDATA[Usa el mouse para ver alrededor, muevete usando estas teclas:
+			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
 			
     W - Mover adelante
     S - Mover atrás
@@ -40,7 +40,7 @@
     Mantiene CTRL - Para moverte despacio
     Utiliza la rueda del mouse para hacer zoom.
 	
-Para añadir texturas adicionales click on "[+] Añadir Texturas" en la parte de abajo a la derecha en el ángulo de la ventana. Para remover la textura clickea en "[-]".
+Para añadir texturas adicionales cliquea en "[+] Añadir Texturas" en la parte de abajo a la derecha en el ángulo de la ventana. Para remover la textura cliquea en "[-]".
 
 Para cambiar las opciones de render usa estas teclas:
 		   

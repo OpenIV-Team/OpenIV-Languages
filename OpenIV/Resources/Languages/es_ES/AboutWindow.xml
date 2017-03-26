@@ -7,10 +7,11 @@
 		<string name="THE_TEAM">El equipo</string>
 		<string name="THIRD_PARTY">Terceros</string>
 		<string name="THIRD_PARTY_LINE_1">Esta aplicación usa algunas partes</string>
-		<string name="THIRD_PARTY_LINE_2">cual estan proporcionadas por terceros.</string>
+		<string name="THIRD_PARTY_LINE_2">las cuales estan proporcionadas por terceros.</string>
 		<string name="THANKS_TO">Agradecimientos a</string>
 		<string name="ALPHABETICALLY">(alfabéticamente)</string>
 		<string name="SPECIAL_THANKS_TO">Agradecimientos especiales a</string>
 		<string name="LICENSE_TERMS">Terminos de lincencia del software.</string>
+		<string name="LOCALIZATION">Colaboradores de traducción</string>
 	</RenderUI>
 </Translation>

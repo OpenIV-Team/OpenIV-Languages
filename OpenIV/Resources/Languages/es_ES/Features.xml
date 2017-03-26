@@ -43,11 +43,11 @@
 	<DefragmenterWindow Caption='Desfragmentador de Archivos - $AppName$'>
  		<!-- Labels -->
  		<lbDescription Caption="El desfragmentador de archivos consolida archivos dentro de archivos para reducir el tamaño de estos en el disco duro de tu computadora."/>
- 		<lbNoteSave Caption='All your changes already saved, you no need to use defragmentation after each editing.'/>
- 		<lbNoteRevert Caption='The defragmentation feature will not revert any changes you made in archives.'/>
+ 		<lbNoteSave Caption='Todos tus cambios ya han sido guardados, no necesitas usar el desfragmentador luego de cada edición.'/>
+ 		<lbNoteRevert Caption='El desfragmentador no va a revertir ningun cambio que hayas hecho en los archivos.'/>
 		<!-- Actions -->
 		<actClose Caption='Cerrar'/>
-		<actRebuild Caption='Defragment'/>
+		<actRebuild Caption='Desfragmentar'/>
 		<actAddFile Caption='Añadir archivo'/>
 		<actAddFolder Caption='Añadir carpeta'/>
 		<actRemoveFile Caption='Remover archivo'/>
@@ -133,8 +133,8 @@
 				<!-- Geometry/Graphics/Drawables errors -->
 				<Item Index='14' Value='%S(Line %D): El modelo está protegido.'/>
 				<Item Index='15' Value='%S(Line %D): El índice de materiales está fuera de los límites.'/>
-				<Item Index='16' Value="%S(Line %D): Shader can't be skinned."/>		
-				<Item Index='17' Value="%S(Line %D): Muchos huesos para un modelo, no puedes usar más de 48 huesos."/>
+				<Item Index='16' Value="%S(Line %D): Un Shader no puede ser articulado."/>		
+				<Item Index='17' Value="%S(Line %D): Demasiados huesos para un modelo, no puedes usar más de 48 huesos."/>
 
 				<Item Index='18' Value="%S(Line %D): %S"/>						
 			</StringList>

@@ -3,7 +3,7 @@
 	<!-- common -->
 	<RenderUI>
 		<!-- help -->
-		<string name="HELP_LINK">Clickea aquí para obtener ayuda</string>
+		<string name="HELP_LINK">Cliquea aquí para obtener ayuda</string>
 
 		<!-- Common words -->
 		<string name="TRUE">Verdadero</string>
@@ -84,12 +84,19 @@
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Por favor, selecciona el formato del archivo:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
-		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Best choose for common and viewing purpose.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Mejor opción para el propósito común y de visión.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>
-		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Escoje esto si quieres importar las texturas luego.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Escoje este si quieres importar las texturas luego.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG Imagen (*.jpg)</string>
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Puede perderse calidad al exportar.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap Imagen (*.bmp)</string>
 
+		<!-- Edit -->
+ 		<string name="UNDO">Deshacer</string>
+ 		<string name="REDO">Rehacer</string>
+ 		<string name="CUT">Cortar</string>
+ 		<string name="COPY">Copiar</string>
+ 		<string name="PASTE">Pegar</string>
+ 	
 	</RenderUI>
 </Translation>
