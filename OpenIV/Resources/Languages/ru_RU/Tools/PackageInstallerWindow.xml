@@ -75,7 +75,7 @@
 
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">This package cannot be installed into $RageGAME$. Please check supported games list in additional information section.</string>
-		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Some files are missing in the package archive.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Some files are missing in the package archive. Please contact package author.</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Some files have incorrect ingame path. Please contact package author.</string>
 		
 		<!-- Notes -->

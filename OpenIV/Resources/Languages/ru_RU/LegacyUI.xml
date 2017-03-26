@@ -360,7 +360,7 @@
 		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Показывать уведомление во время редактирования архива за пределами папки "mods"'/>
 		<cbAllowEditModeOnlyInModsFolder Caption='Разрешить редактирование архивов только в папке $ModsFolder$'/>
 		<!-- Tools -->
-		<tabTools Caption="Инстурменты"/>
+		<tabViewers Caption="Инстурменты"/>
 		<lbChooseTheme Caption="Выберите тему"/>
 		<cbAppTheme>
 			<Items>
