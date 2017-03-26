@@ -8,7 +8,7 @@
 			<btnWebNext Caption='Continue'/>
 			<btnGame Caption='Browse...' Hint='Select folder:'/>
 			<btnGameNext Caption='Continue'/>
-			<btnSetPermissions Caption='Set permissions'/> 
+			<btnSetPermissions Caption='Set permissions'/>
 			<btnWindowsNext Caption='Continue'/>
 			<btnBackupNext Caption='Continue'/>
 			<btnSocialNext Caption='Continue'/>
@@ -20,14 +20,14 @@
 			<LnkWebLangs Caption='Translate $AppName$ into another language'/>
 			<LnkWebEULA Caption='Read the license here.'/>
 			<!-- CheckBox's -->
-			<cbAcceptEULA Caption='I have read and agree to the therms of the $AppName$ License Agreement.'/>
+			<cbAcceptEULA Caption='I have read and agree to the terms of the $AppName$ License Agreement.'/>
 			<!-- Strings -->
 			<StringList SetCount='30'>
 				<Lines>
 					<Item Index='00' Value='$AppName$ Terms of Use'/>
 					<Item Index='01' Value='Before using $AppName$ you need to read and agree the following terms of use.'/>
 					<Item Index='02' Value='$WebName$ service'/>
-					<Item Index='03' Value='$WebName$ service is made on purpose to exchange of information between developers and end users of $AppName$. If you register in the service, you will be able to check updates of $AppName$ and use other additional features. Also $WebName$ service collects some statistics infomation which is intended to help us to improve $AppName$ in ways its end users prefer.'/>
+					<Item Index='03' Value='$WebName$ service is made on purpose to exchange of information between developers and end users of $AppName$. If you register in the service, you will be able to check updates of $AppName$ and use other additional features. Also $WebName$ service collects some statistics information which is intended to help us to improve $AppName$ in ways its end users prefer.'/>
 					<Item Index='04' Value='Service Temporarily Unavailable.'/>
 					<Item Index='05' Value='Choose $RageGAME$ folder'/>
 					<Item Index='06' Value='Without specifying the game location, $AppName$ cannot open $RageGAME_SHORT$ files as it would not have enough information. Please set correct location of the installed $RageGAME$ below.'/>

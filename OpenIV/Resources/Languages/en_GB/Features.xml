@@ -43,7 +43,7 @@
 	<DefragmenterWindow Caption='Archive Defragmenter - $AppName$'>
 		<!-- Labels -->
 		<lbDescription Caption="Archive defragmenter consolidates files inside archive to reduce archive size on your computer's hard disk."/>
-		<lbNoteSave Caption='All your changes already saved, you no need to use defragmentation after each editing.'/>
+		<lbNoteSave Caption='All your changes are saved already, you do not need to use defragmentation after each editing.'/>
 		<lbNoteRevert Caption='The defragmentation feature will not revert any changes you made in archives.'/>
 		<!-- Actions -->
 		<actClose Caption='Close'/>
@@ -117,7 +117,7 @@
 				<Item Index='1' Value='%S(Line %D): Not supported resource version, actual: "%S" but expected "%D".'/>
 				<Item Index='2' Value='%S(Line %D): Not supported format version, actual: "%S" but expected "%D".'/>
 				<!-- Common errors -->
-				<Item Index='3' Value='Fatal error: Uneble to initalize Direct3D.'/>
+				<Item Index='3' Value='Fatal error: Unable to initialize Direct3D.'/>
 				<Item Index='4' Value='Fatal error: File "%S" not found.'/>
 				<Item Index='5' Value='%S(Line %D): File "%S" not found.'/>
 				<Item Index='6' Value='%S(Line %D): File corrupted.'/>
@@ -133,12 +133,12 @@
 				<!-- Geometry/Graphics/Drawables errors -->
 				<Item Index='14' Value='%S(Line %D): Mesh is locked.'/>
 				<Item Index='15' Value='%S(Line %D): Material index out of bounds.'/>
-				<Item Index='16' Value="%S(Line %D): Shader can't be skinned."/>		
+				<Item Index='16' Value="%S(Line %D): Shader can't be skinned."/>
 				<Item Index='17' Value="%S(Line %D): Too many bones in one geometry, you can't use more than 48 bones."/>
 
-				<Item Index='18' Value="%S(Line %D): %S"/>						
+				<Item Index='18' Value="%S(Line %D): %S"/>
 			</StringList>
-		</AeroWindow>	
-	</openFormatsValidatorWindow>	
+		</AeroWindow>
+	</openFormatsValidatorWindow>
 
 </Translation>

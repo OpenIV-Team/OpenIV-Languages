@@ -19,7 +19,7 @@
 		<Item Index='15' Value='Creating new %S'/>
 		<Item Index='16' Value='$AppName$ - Information'/>
 		<Item Index='17' Value='Error loading file, probable file is corrupt.'/>
-		<Item Index='18' Value='$AppName$ - Error occured while opening file'/>
+		<Item Index='18' Value='$AppName$ - Error occurred while opening file'/>
 		<Item Index='19' Value='Unknown file format.'/>
 		<Item Index='20' Value='%S version %D is not supported.'/>
 		<Item Index='21' Value="$AppName$ can't open archive, reason:\n"/>
@@ -28,10 +28,10 @@
 		<Item Index='24' Value='openFormats - Import'/>
 		<Item Index='25' Value='Unknown file format extension: %S'/>
 		<Item Index='26' Value='$AppName$ - DirectX error'/>
-		<Item Index='27' Value='$AppName$ is unable to initalize Direct3D.'/>
+		<Item Index='27' Value='$AppName$ is unable to initialize Direct3D.'/>
 		<Item Index='28' Value='Run $RageGAME_SHORT$'/>
 		<Item Index='29' Value="$AppName$ is unable to locate associated IDE file."/>
-		<Item Index='30' Value="$AppName$ is unable to open file. Here is list of possible reasons:\n\nAccess denied. Try to run $AppName$ with administrator right.\nAnother process uses file. Close other programs and try again.\n\n"/>	
+		<Item Index='30' Value="$AppName$ is unable to open file. Here is list of possible reasons:\n\nAccess denied. Try to run $AppName$ with administrator right.\nAnother process uses file. Close other programs and try again.\n\n"/>
 		<Item Index='31' Value='Destination folder:'/>
 		<Item Index='32' Value='Unable to open archive: Unknown error.'/>
 		<Item Index='33' Value='Unable to open archive: Path not found.'/>
@@ -57,13 +57,13 @@
 		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Find location" Hint="Open placement search"/>
 		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Find in IDE" Hint=""/>
 		<item Name="Tools.GTAIV.AnimViewer" Title="Animation viewer" Hint="Open animation viewer"/>
-		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>	
-		<item Name="Files.Common.AudioPlayer" Title="Audio player" Hint=""/>	
+		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>
+		<item Name="Files.Common.AudioPlayer" Title="Audio player" Hint=""/>
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Export to openFormats (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer" Title="GXT viewer" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>
 		<item Name="Files.Resources.TextureEditor" Title="Textures viewer" Hint=""/>
-		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Textures editor" Hint=""/>				
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Textures editor" Hint=""/>
 		<item Name="Files.Resources.CollisionViewer" Title="Collision viewer" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD Models viewer" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="WFT Models viewer" Hint=""/>
