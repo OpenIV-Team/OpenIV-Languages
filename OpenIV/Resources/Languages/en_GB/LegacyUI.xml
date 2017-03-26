@@ -55,7 +55,7 @@
 				<Item Index="42" Value="Recent files"/>
 				<Item Index="43" Value="External application is working..."/>
 				<Item Index="44" Value="Confirmation of the file changes"/>
-				<Item Index="45" Value="File %S» has been changed. Update changes in archive?"/>
+				<Item Index="45" Value="File «%S» has been changed. Update changes in archive?"/>
 				<Item Index="46" Value="Location"/>
 				<Item Index="47" Value="build"/>
 				<Item Index="48" Value="This archive is empty."/>
