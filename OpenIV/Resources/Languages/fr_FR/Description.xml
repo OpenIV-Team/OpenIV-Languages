@@ -412,14 +412,21 @@
 		<ext>cgx</ext>
 	</type>
 	<type Name="Métadonnées audio">
+		<ext>DAT4</ext>
+		<ext>DAT10</ext>
 		<ext>DAT11</ext>
 		<ext>DAT12</ext>
 		<ext>DAT15</ext>
 		<ext>DAT16</ext>
 		<ext>DAT19</ext>
 		<ext>DAT20</ext>
+		<ext>DAT22</ext>
 		<ext>DAT45</ext>
 		<ext>DAT46</ext>
+		<ext>DAT54</ext>
+		<ext>DAT149</ext>
+		<ext>DAT150</ext>
+		<ext>DAT151</ext>
 		<name>config/speech.dat</name>
 		<name>config/categories.dat</name>
 		<name>config/curves.dat</name>

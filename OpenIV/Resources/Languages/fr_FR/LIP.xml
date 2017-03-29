@@ -1,19 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='280' ID='1036' icon="Flag.ico" active="true">
-	<Creator>
-		<Name>Mimile38 - GTA Network France</Name>
-		<web>http://www.gtanf.com/</web>
-		<!-- You can use "http://" or "https://" or "mailto:" -->
-		<info/>
-		<game>american.gxt</game>
-	</Creator>
-	<Creator>
-		<Name>KinguruGTAV</Name>
-		<web>kinguruGTAV@outlook.fr</web>
-		<!-- You can use "http://" or "https://" or "mailto:" -->
-		<info/>
-		<game>american.gxt</game>
-	</Creator>
+<LanguageInterfacePack version='290' ID='1036' active="true">
+	<Contributors>
+		<Contributor link="http://www.gtanf.com/">Mimile38 - GTA Network France</Contributor>
+		<Contributor link="kinguruGTAV@outlook.fr">KinguruGTAV</Contributor>
+	</Contributors>
 	<WebHelp>
 		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
 	</WebHelp>

@@ -42,27 +42,33 @@
 		<Item Index='38' Value="Impossible de créer une archive."/>
 		<Item Index='39' Value='$AppName$ - Aucune sortie audio'/>
 		<Item Index='40' Value='Impossible de lire ce fichier. Aucune sortie audio trouvée.'/>
+		<Item Index='41' Value="$AppName$ ne prend pas en charge ce fichier.\nChemin d'accès : %s"/>
+		<Item Index='42' Value="$AppName$ ne trouve pas ou ne peut pas ouvrir ce fichier.\nChemin d'accès : %s"/>
+		<Item Index='43' Value='$AppName$ ne peut pas ouvrir ce fichier car sa taille est supérieur à 256 Mo.'/>
+		<Item Index='44' Value="$AppName$ ne peut pas afficher le contenu de ce fichier. Le fichier ne peut pas être sauvegardé en XML, code d'erreur : %s"/>
+		<Item Index='45' Value="$AppName$ ne peut pas ouvrir ce fichier. Code d'erreur : %s"/>
 	</StringList>
 	<tools>
+		<item Name="Tools.Common.RunGame" Title="Lancer $RageGAME_SHORT$" Hint="Lancer $RageGAME$"/>
 		<item Name="Tools.Common.Search" Title="Rechercher" Hint="Ouvrir la recherche"/>
+		<item Name="Tools.Common.HashGenerator" Title="Générateur de code" Hint="Ouvrir le générateur de code"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Installateur de paquetages" Hint="Ouvrir l'installateur de paquetages"/>
 		<item Name="Tools.GTAIV.PlacementSearch" Title="Recherche de placement" Hint="Ouvrir la recherche de placement"/>
 		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Trouver l'emplacement" Hint="Ouvrir la recherche de placement"/>
-		<item Name="Tools.Common.HashGenerator" Title="Générateur de code" Hint="Ouvrir le générateur de code"/>
-		<item Name="Tools.Common.RunGame" Title="Lancer $RageGAME_SHORT$" Hint="Lancer $RageGAME$"/>	
-		<item Name="Files.GTAEngine.TextViewer" Title="Visionneuse GXT" Hint=""/>		
-		<item Name="Files.Resources.TextureEditor" Title="Visionneuse de textures" Hint=""/>
-		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Éditeur de textures" Hint=""/>				
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Trouver dans l'IDE" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Visionneuse d'animations" Hint="Ouvrir la visionneuse d'animations"/>
+		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>	
 		<item Name="Files.Common.AudioPlayer" Title="Lecteur audio" Hint=""/>	
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Exporter en openFormats (.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer" Title="Visionneuse GXT" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="Visionneuse GXT2" Hint=""/>		
+		<item Name="Files.Resources.TextureEditor" Title="Visionneuse de textures" Hint=""/>
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Éditeur de textures" Hint=""/>
 		<item Name="Files.Resources.CollisionViewer" Title="Visionneuse de collisions" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="Visionneuse de modèles WDR/WDD" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="Visionneuse de mordèles WFT" Hint=""/>
 		<item Name="Files.Resources.NavmeshViewer" Title="Visionneuse Nav Mesh" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Trouver dans l'IDE" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="Visionneuse d'animations" Hint="Ouvrir la visionneuse d'animations"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Installateur de paquetages" Hint="Ouvrir l'installateur de paquetages"/>
-		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Exporter en openFormats (.oac)" Hint=""/>
-		<item Name="Files.GTAEngine.TextViewer2" Title="Visionneuse GXT2" Hint=""/>
-		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>	
 		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Exporter le squelette en openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Editer des textures intégrées" Hint="Editer avec l'éditeur de textures intégrées"/>
 	</tools>
 </GlobalStrings>

@@ -3,25 +3,30 @@
 	<SearchWindow Caption='Recherche - $AppName$'>
 		<SearchBox BannerText="Rechercher"/>
 		<btnGoSearch Caption="Rechercher"/>
-		<ebSearchOptions Caption="Recherche avancée" ExpandCaption="Paramètres de recherche avancée"/>
-		<cbArchives Caption="Chercher dans les archives"/>
-		<cbResources Caption="Chercher dans les ressources"/>
+		<lbSearchOptions Caption="Options de recherche:"/>
+		<lbSearchArea Caption="Zone de recherche:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Chercher partout'/>
+				<Item Index="1" Value="Chercher seulement dans le répertoire du jeu"/>
+				<Item Index="2" Value='Chercher seulement dans le dossier $ModsFolder$'/>
+			</Items>
+		</cbSearchArea>
 		<cbSoundsAndAudio Caption="Chercher dans les fichiers audio"/>
-		<cbScripts Caption="Chercher dans les scripts"/>
-		<cbTextFiles Caption="Chercher dans les fichiers texte"/>
 		<lbStopHint Caption="Appuyez sur Échap pour arrêter la recherche"/>
-		<btnExportResults Caption="Exporter"/>
-		<btnExportAll Caption="Exporter tous les fichiers"/>
-		<btnExportSelected Caption="Exporter les fichiers sélectionnés"/>
+		<btnExtractResults Caption="Extraire les résultats"/>
+		<btnExtractAll Caption="Extraire tous les fichiers"/>
+		<btnExtractSelected Caption="Extraire les fichiers sélectionnés"/>
 		<btnGoTo Caption="Aller à l'emplacement du fichier"/>
 		<btnOpenItem Caption="Ouvrir"/>
-		<btnExportItem Caption="Exporter"/>
-		<btnExportSelectedItems Caption="Exporter les fichiers sélectionnés"/>
-		<btnExportAllItems Caption="Exporter tous les fichiers"/>
+		<btnExtractItem Caption="Extraire"/>
+		<btnExtractSelectedItems Caption="Extraire les fichiers sélectionnés"/>
+		<btnExtractAllItems Caption="Extraire tous les fichiers"/>
 		<btnSelectAllItems Caption="Tout sélectionner"/>
 		<btnCopyName Caption="Copier le nom"/>
 		<btnCopyPathName Caption="Copier le chemin d'accès"/>
 		<btnSaveContent Caption="Sauvegarder le contenu"/>
+		<btnSaveRawContent Caption="Sauvegarder contenu raw"/>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
@@ -32,8 +37,8 @@
 				<Item Index='4' Value='Aucun fichier sélectionné'/>
 				<Item Index='5' Value='Sélectionnés : %D'/>
 				<Item Index='6' Value="$AppName$ ne peut pas ouvrir ce fichier."/>
-				<Item Index='7' Value="Aucun résultat pour cette exportation."/>
-				<Item Index='8' Value="Arrêtez la recherche avant d'exporter."/>
+				<Item Index='7' Value="Aucun résultat pour cette extraction."/>
+				<Item Index='8' Value="Arrêtez la recherche avant d'extraire."/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>

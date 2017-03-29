@@ -91,6 +91,13 @@
 		<string name="EXPORT_TEXTURE_FORMAT_JPG">Image JPEG (*.jpg)</string>
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Ce format peut diminuer la qualité de la texture.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Image bitmap (*.bmp)</string>
+		
+		<!-- Edit -->
+		<string name="UNDO">Annuler</string>
+		<string name="REDO">Rétablir</string>
+		<string name="CUT">Couper</string>
+		<string name="COPY">Copier</string>
+		<string name="PASTE">Coller</string>
 
 	</RenderUI>
 </Translation>
