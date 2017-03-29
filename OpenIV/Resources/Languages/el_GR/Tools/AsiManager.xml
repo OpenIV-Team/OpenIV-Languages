@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
+	<RenderUI>
+		<string name="TITLE">$RageGAME_SHORT$ - Διαχειριστής ASI</string>
+		
+		<string name="RPF_NOTE">Πρέπει να εγκαταστήσετε το φορτωτή ASI και το πρόσθετο του $ModsFolderAsi$ για το $RageGAME_SHORT$, διαφορετικά το παιχνίδι δεν θα μπορεί να φορτώσει τροποποιημένες αρχειοθήκες RPF.</string>
+		<string name="ONLINE_NOTE">Μην παίζετε $RageGAME_MP$ με τροποποιημένες αρχειοθήκες RPF, διαφορετικά θα αποβληθείτε.</string>
+		
+		<string name="INSTALL">Εγκατάσταση</string>
+		<string name="UPDATE">Ενημέρωση</string>
+		<string name="UNINSTALL">Απεγκατάσταση</string>
+		
+		<string name="NOT_INSTALLED">ΜΗ ΕΓΚΑΤΕΣΤΗΜΕΝΟ</string>
+		<string name="UPDATE_REQUIRED">ΑΠΑΙΤΕΙΤΑΙ ΕΝΗΜΕΡΩΣΗ</string>
+		<string name="INSTALLED">ΕΓΚΑΤΕΣΤΗΜΕΝΟ</string>
+		<string name="DISABLED">ΑΠΕΝΕΡΓΟΠΟΙΗΜΕΝΟ</string>
+		
+		<string name="ASI_LOADER">Φορτωτής ASI</string>
+		<string name="ASI_LOADER_DESCRIPTION">Ο φορτωτής ASI είναι το εργαλείο που φορτώνει προσαρμοσμένες βιβλιοθήκες με την κατάληξη .asi στο παιχνίδι.</string>
+		
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Αυτό το πρόσθετο ASI επιτρέπει στο παιχνίδι να φορτώνει τροποποιημένες αρχειοθήκες RPF. Επίσης παρέχει υποστήριξη για τον φάκελο $ModsFolder$.</string>
+		
+		<string name="OPEN_CAMERA_ASI">openCamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Αναβαθμίζει τα όρια τής "Ελεύθερης κάμερας" στο Rockstar Editor.</string>
+		
+		<string name="INSTALLATION_FAILED">Η εγκατάσταση απέτυχε</string>
+		<string name="INSTALLATION_FAILED_TEXT">Η εγκατάσταση απέτυχε, επανεκκινήστε το $AppName$ και δοκιμάστε ξανά.</string>
+		
+		<string name="UNINSTALL_FAILED">Η απεγκατάσταση απέτυχε</string>
+		<string name="UNINSTALL_FAILED_TEXT">Η απεγκατάσταση απέτυχε, επανεκκινήστε το $AppName$ και δοκιμάστε ξανά.</string>
+
+		<string name="MODS_FOLDER_TITLE">Δημιουργία φακέλου $ModsFolder$;</string>
+		<string name="MODS_FOLDER_TEXT">Ο φάκελος $ModsFolder$ επιτρέπει να διατηρήσετε όλα τα αυθεντικά αρχεία του παιχνιδιού ασφαλή και ταυτόχρονα προσφέρει τον ευκολότερο τρόπο για εναλλαγή ανάμεσα στα αυθεντικά και τα τροποποιημένα αρχεία του παιχνιδιού.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Προβολή ειδοποίησης κατά την επεξεργασία αρχειοθήκης εκτός του φακέλου $ModsFolder$</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Να επιτρέπεται η Λειτουργία επεξεργασίας για αρχεία μόνο μέσα στο φάκελο $ModsFolder$</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">Μπορείτε να αλλάξετε αυτή τη ρύθμιση οποιαδήποτε στιγμή στις ρυθμίσεις του $AppName$.</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Μάθετε περισσότερα για το φάκελο $ModsFolder$</string>
+	</RenderUI>
+</Translation>

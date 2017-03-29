@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='Αναζητητής τοποθετήσεων $AppName$'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Αναζήτηση με όνομα</string>
+		<string name="SEARCH_FOR_HASH">Αναζήτηση με τιμή hash</string>
+
+		<string name="BANNER_TEXT_NAME">Εισαγωγή ονόματος μοντέλου</string>
+		<string name="BANNER_TEXT_HASH">Εισαγωγή τιμής hash μοντέλου</string>
+
+		<string name="SEARCH">Αναζήτηση</string>
+		<string name="STOP_SEARCH">Διακοπή αναζήτησης</string>
+		<string name="INCORRECT_HASH">Λανθαμένη τιμή hash</string>
+		<string name="INCORRECT_HASH_TEXT">Το "%S" δεν είναι μία έγκυρη τιμή hash.</string>
+
+		<string name="FILE_INFORMATION">Πληροφορίες αρχείου</string>
+		<string name="SHOW_DEFINITION">Προβολής ορισμού σε αρχείο IDE</string>
+		<string name="SHOW_IDE">Προβολή αρχείου IDE</string>
+		<string name="SHOW_ARCHIVE">Προβολή αρχειοθήκης</string>
+		<string name="SHOW_RESOURCE">Προβολή αρχείου πόρου</string>
+
+		<string name="HELP_TITLE">Αναζητητής τοποθετήσεων - βοήθεια</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Χρησιμοποιείτε το ποντίκι για να περιηγηθείτε, μετακινηθείτε χρησιμοποιώντας αυτά τα κουμπιά:
+			
+    W - Κύλιση μπροστά
+    S - Κύλιση πίσω
+    A - Κύλιση αριστερά
+    D - Κύλιση δεξιά
+
+    NumPad 8 - Μετακίνηση κάμερας προς τα πάνω
+    NumPad 2 - Μετακίνηση κάμερας προς τα κάτω
+    NumPad 4 - Μετακίνηση κάμερας προς τα αριστερά
+    NumPad 6 - Μετακίνηση κάμερας προς τα δεξιά
+
+    Κράτημα SHIFT - Για ταχύτερη κίνηση
+    Κράτημα CTRL - Για βραδύτερη κίνηση
+    Χρήση του τροχού ποντικιού για μεγέθυνση και σμίκρυνση.
+	
+    ESC - Κλείσιμο του παραθύρου τοποθετήσεων
+	Κράτημα H - Για προσωρινό κρύψιμο HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

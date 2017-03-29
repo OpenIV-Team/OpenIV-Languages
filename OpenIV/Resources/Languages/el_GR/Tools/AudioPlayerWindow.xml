@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AudioPlayerWindow Caption='Αναπαραγωγητής ήχου $AppName$'>
+		<btnExportAll Caption='Εξαγωγή όλων'/>
+		<btnOptions Caption='Ρυθμίσεις'/>
+		<miPlayWhenOpen Caption='Εκκίνηση αναπαραγωγής κατά το άνοιγμα του αρχείου'/>
+		<miAutoPlayNext Caption='Αυτόματη αναπαραγωγή του επόμενου κομματιού'/>
+		<miPlay Caption='Αναπαραγωγή'/>
+		<miExport Caption='Εξαγωγή'/>
+		<miCopyName Caption='Αντιγραφή ονόματος'/>
+		<miExportAllChannelsSeparately Caption='Εξαγωγή όλων των καναλιών ξεχωριστά'/>
+		<btnSort Caption='Ταξινόμηση'/>
+		<miSortByName Caption='Ταξινόμηση κατά όνομα'/>
+		<miSortByDuration Caption='Ταξινόμηση κατά διάρκεια'/>
+		<miSortOrderAsc Caption='Αύξουσα ταξινόμηση'/>
+		<miSortOrderDesc Caption='Φθίνουσα ταξινόμηση'/>
+		<!-- String's -->
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Hz'/>
+				<Item Index='1' Value='%D στοιχεία, %D λεπ.'/>
+				<Item Index='2' Value='%D στοιχεία, %D δευτ.'/>
+				<Item Index='3' Value=''/>
+				<Item Index='4' Value=''/>
+				<Item Index='5' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</AudioPlayerWindow>	
+</Translation>

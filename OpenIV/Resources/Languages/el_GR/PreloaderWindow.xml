@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PreloaderWindow>
+		<WelcomeScreen>
+			<!-- Button's -->
+			<btnClose Caption='Κλείσμο'/>
+			<btnEULANext Caption='Συνέχεια'/>
+			<btnWebNext Caption='Συνέχεια'/>
+			<btnGame Caption='Αναζήτηση...' Hint='Επιλογή φακέλου:'/>
+			<btnGameNext Caption='Συνέχεια'/>
+			<btnSetPermissions Caption='Ορισμός δικαιωμάτων'/> 
+			<btnWindowsNext Caption='Συνέχεια'/>
+			<btnBackupNext Caption='Συνέχεια'/>
+			<btnSocialNext Caption='Συνέχεια'/>
+			<btnSocialYouTube Caption='Το $AppName$ στο YouTube'/>
+			<btnSocialTwitter Caption='Το $AppName$ στο Twitter'/>
+			<btnSocial_FB Caption='Το $AppName$ στο Facebook'/>
+			<btnSocial_VK Caption='Το $AppName$ στο VK'/>
+			<!-- Link's -->
+			<LnkWebLangs Caption='Μετάφραση $AppName$ σε άλλη γλώσσα'/>
+			<LnkWebEULA Caption='Διαβάστε την άδεια χρήσης εδώ.'/>
+			<!-- CheckBox's -->
+			<cbAcceptEULA Caption='Έχω διαβάσει και αποδέχομαι τους όρους της άδειας συμφωνίας χρήσης του $AppName$.'/>
+			<!-- Strings -->
+			<StringList SetCount='30'>
+				<Lines>
+					<Item Index='00' Value='Όροι χρήσης $AppName$'/>
+					<Item Index='01' Value='Πριν χρησιμοποιήσετε το $AppName$, πρέπει να διαβάσετε και να αποδεχθείτε τους παρακάτω όρους χρήσης.'/>
+					<Item Index='02' Value='Υπηρεσία $WebName$'/>
+					<Item Index='03' Value='Η υπηρεσία $WebName$ δημιουργήθηκε με σκοπό την ανταλλαγή πληροφοριών μεταξύ προγραμματιστών και τελικών χρηστών του $AppName$. Αν εγγραφείτε σε αυτήν την υπηρεσία, θα μπορείτε να ελέγχετε για ενημερώσεις του $AppName$ και να χρησιμοποιείτε επιπλέον δυνατότητες. Επίσης η υπηρεσία $WebName$ συλλέγει μερικά σταστιστικά τα οποία προορίζονται για να μας βοηθήσουν να βελτιώσουμε το $AppName$ όπως οι τελικοί του χρήστες επιθυμούν.'/>
+					<Item Index='04' Value='Η υπηρεσία δεν έιναι διαθέσιμη προσωρινά.'/>
+					<Item Index='05' Value='Επιλογή φακέλου του $RageGAME$'/>
+					<Item Index='06' Value='Χωρίς τη διευκρίνιση του φακέλου του παιχνιδιού, το $AppName$ δεν μπορεί να ανοίξει τα αρχεία του $RageGAME_SHORT$ επειδή δεν έχει αρκετές πληροφορίες. Παρακαλώ ορίστε την σωστή τοποθεσία του εγκατεστημένου $RageGAME$ παρακάτω.'/>
+					<Item Index='07' Value='Τοποθεσία $RageGAME$:'/>
+					<Item Index='08' Value='Σφάλμα: Αυτός ο φάκελος δεν υπάρχει.'/>
+					<Item Index='09' Value='Επιτυχία: Το $AppName$ λειτουργεί με αυτόν τον φάκελο.'/>
+					<Item Index='10' Value="Σφάλμα: Αυτός ο φάκελος δεν περιέχει το αρχείο '$RageEncryptionStorage$'."/>
+					<Item Index='11' Value='Επιτυχία: $RageEncryptionStorage$, έκδοση %s\nΤο $AppName$ λειτουργεί με αυτόν τον φάκελο.'/>
+					<Item Index='12' Value='Αντίγραφα ασφαλείας'/>
+					<Item Index='13' Value='Μην ξεχάσετε να κρατήσετε αντίγραφα των αρχικών αρχείων πριν την επεξεργασία τους.'/>
+					<Item Index='14' Value='Windows 7'/>
+					<Item Index='15' Value='Το $AppName$ λειτουργεί καλύτερα σε Microsoft® Windows 7™'/>
+					<Item Index='16' Value='Το όνομά σας:'/>
+					<Item Index='17' Value="Σφάλμα: Το $AppName$ δεν έχει πρόσβαση σε αυτόν τον φάκελο.\nΜπορείτε να ορίσετε τα κατάλληλα δικαιώματα ή να εκκινήσετε το $AppName$ με δικαιώματα διαχειριστή."/>
+					<Item Index='18' Value='Συμμετοχή στην κοινότητα $AppName$'/>
+					<Item Index='19' Value='$AppName$ - Επιβεβαίωση'/>
+					<Item Index='20' Value='Η εργασία ρύθμισης δεν έχει ολοκληρωθεί.\nΣίγουρα επιθυμείτε να αποχωρήσετε'/>
+					<Item Index='21' Value="Σφάλμα: Το $AppName$ δεν έχει πρόσβαση στο αρχείο '$RageEncryptionStorage$'.\nΜπορείτε να ορίσετε τα κατάλληλα δικαιώματα ή να εκκινήσετε το $AppName$ με δικαιώματα διαχειριστή."/>
+					<Item Index='22' Value="Σφάλμα: Το $RageGAME$ εκτελείτε. Κλείστε το παιχνίδι πριν χρησιμοποιήσετε το $AppName$."/>
+					<Item Index='23' Value="Όλα έτοιμα.\nΤα δικαιώματα ορίστηκαν για τον φάκελο του παιχνιδιού."/>
+					<Item Index='24' Value="Αδυναμία ορισμού δικαιωμάτων."/>
+				</Lines>
+			</StringList>
+		</WelcomeScreen>
+		<UpdateScreen>
+			<!-- Button's -->
+			<btnExit Caption='Έξοδος'/>
+			<btnInstall Caption='Λήψη κι εγκατάσταση'/>
+			<!-- Label's -->
+			<lbTitle Caption='Ενημέρωση $AppName$'/>
+			<lbText Caption='Μία νέα ενημέρωση είναι διαθέσιμη για το $AppName$. Πρέπει να την εγκαταστήσετε πριν εκκινήσετε το $AppName$.'/>
+			<lbStatus Caption='Μέγεθος λήψης: '/>
+			<cbInstallUpdatesAutomatically Caption='Αυτόματη εγκατάσταση ενημερώσεων'/>
+			<lbCurrentVersion Caption='Εγκατεστημένη έκδοση:'/>
+			<lbNewVersion Caption='Νέα έκδοση:'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='0' Value=' MB'/>
+					<Item Index='1' Value='Προετοιμασία για λήψη...'/>
+					<Item Index='2' Value='Εγινε λήψη: %f από %f MB'/>
+					<Item Index='3' Value='Γίνεται ενημέρωση...'/>
+					<Item Index='4' Value='Σφάλμα ενημέρωσης, δοκιμάστε αργότερα.'/>
+					<Item Index='5' Value='%d.%d.%d (Δομή %d· Ημερομηνία %s)'/>
+					<Item Index='6' Value='Αυτή η ενημέρωση περιέχει επιδιορθώσεις σφαλμάτων και μικρές βελτιώσεις.'/>
+					<Item Index='7' Value='Αυτή η έκδοση περιέχει νέες δυνατότητες, επιδιορθώσεις σφαλμάτων, αλλαγές στο Περιβάλλον εργασίας χρήστη (UI) και μεγάλες βελτιώσεις.'/>
+					<Item Index='8' Value=''/>
+					<Item Index='9' Value=''/>
+				</Lines>
+			</StringList>
+		</UpdateScreen>
+		<ChangeGameScreen>
+			<!-- Button's -->
+			<btnExit Caption='Έξοδος'/>
+			<btnContinue Caption='Συνέχεια'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='00' Value='Ανεπανόρθωτο σφάλμα εφαρμογής'/>
+					<Item Index='01' Value='Έχετε τοποθετήσει το $AppName$ στον ίδιο φάκελο με το αρχείο "$RageEncryptionStorage$", κι αυτό δεν επιτρέπεται.\nΠαρακαλώ τοποθετήστε το $AppName$ σε διαφορετικό φάκελο.'/>
+					<Item Index='02' Value='Αλλαγή φακέλου $RageGAME$'/>
+					<Item Index='03' Value='Κάτι πήγε λάθος, παρακαλώ αλλάξτε τον φάκελο του $RageGAME$ παρακάτω και επανεκκινήστε το $AppName$.'/>
+					<Item Index='04' Value='Σφάλμα: Αυτός ο φάκελος δεν υπάρχει.'/>
+					<Item Index='05' Value='Επιτυχία: Το $AppName$ λειτουργεί με αυτόν τον φάκελο.'/>
+					<Item Index='06' Value="Σφάλμα: Αυτός ο φάκελος δεν περιέχει το αρχείο '$RageEncryptionStorage$'."/>
+					<Item Index='07' Value='Επιτυχία: $RageEncryptionStorage$, έκδοση %s\nΤο $AppName$ λειτουργεί με αυτό το αρχείο.'/>
+					<Item Index='08' Value='Αναζήτηση'/>
+					<Item Index='09' Value="Σφάλμα: Το $AppName$ δεν έχει πρόσβαση σε αυτόν τον φάκελο.\nΕκκινήστε το $AppName$ με δικαιώματα διαχειριστή."/>
+				</Lines>
+			</StringList>
+		</ChangeGameScreen>
+	</PreloaderWindow>
+</Translation>

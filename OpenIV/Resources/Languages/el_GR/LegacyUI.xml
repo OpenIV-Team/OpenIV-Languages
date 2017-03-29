@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Main window -->
+
+	<MainWindow Caption="$AppName$">
+		<FullScreenClose Hint="Κλείσιμο"/>
+		<btnSwitchMode Caption="Λειτουργία επεξεργασίας" hint="Εναλλαγή Λειτουργίας επεξεργασίας (F6)" showhint="True"/>
+		<btnCloseArchive hint="Κλείσιμο αρχειοθήκης (Shift + Backspace)" showhint="True"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="80">
+			<StringList>
+				<Item Index="0" Value="Όνομα"/>
+				<Item Index="1" Value="Τύπος"/>
+				<Item Index="2" Value="Μέγεθος"/>
+				<Item Index="3" Value="Χαρακτηριστικά"/>
+				<Item Index="4" Value="Συμπίεση"/>
+				<Item Index="5" Value="Λειτουργία επεξεργασίας"/>
+				<Item Index="6" Value=""/>
+				<Item Index="7" Value=""/>
+				<Item Index="8" Value="Προβάλλονται %D στοιχεία"/>
+				<Item Index="9" Value="Προβάλλονται %D από τα %D στοιχεία"/>
+				<Item Index="10" Value=" στοιχεία"/>
+				<Item Index="11" Value=" bytes"/>
+				<Item Index="12" Value=" KB"/>
+				<Item Index="13" Value=" MB"/>
+				<Item Index="14" Value="Πρόοδος..."/>
+				<Item Index="15" Value="Τρέχον αρχείο: "/>
+				<Item Index="16" Value="Άγνωστο"/>
+				<Item Index="17" Value="Καμμία ανοιχτή αρχειοθήκη"/>
+				<Item Index="18" Value="Κρυπτογραφημένο"/>
+				<Item Index="19" Value="Φόρτωση αρχειοθήκης..."/>
+				<Item Index="20" Value="Πόρος [Έκδοση: %D]"/>
+				<Item Index="21" Value="[Λειτουργία επεξεργασίας]"/>
+				<Item Index="22" Value="[Λειτουργία μόνο για ναάγνωση]"/>
+				<Item Index="23" Value="LANG: FREE STRING (23)"/>
+				<Item Index="24" Value="Εισέρχεστε σε Λειτουργία επεξεργασίας, όλες οι αλλαγές θα αποθηκεύονται αυτόματα."/>
+				<Item Index="25" Value="LANG: FREE STRING (25)"/>
+				<Item Index="26" Value="LANG: FREE STRING (26)"/>
+				<Item Index="27" Value="Ετικέτες"/>
+				<Item Index="28" Value="Προσθήκη ετικέτας"/>
+				<Item Index="29" Value="Νέα ετικέτα:"/>
+				<Item Index="30" Value="Κανένα επιλεγμένο στοιχείο"/>
+				<Item Index="31" Value="Επιλέχθηκαν: %D"/>
+				<Item Index="32" Value="Λειτουργία πλήρης οθόνης (F11)"/>
+				<Item Index="33" Value="Λειτουργία παραθύρου (F11)"/>
+				<Item Index="34" Value="Επιλέξτε αρχείο για προεπισκόπηση."/>
+				<Item Index="35" Value="Δεν υπάρχουν δεδομένα προεπισκόπησης."/>
+				<Item Index="36" Value="Έκδοση: %S"/>
+				<Item Index="37" Value="Έξοδος από το $AppName$"/>
+				<Item Index="38" Value="Ρυθμίσεις $AppName$"/>
+				<Item Index="39" Value="Κλείσιμο αρχείου"/>
+				<Item Index="40" Value="Καρφίτσωμα"/>
+				<Item Index="41" Value="Αφαίρεση από τη λίστα"/>
+				<Item Index="42" Value="Πρόσφατα αρχεία"/>
+				<Item Index="43" Value="Εξωτερική εφαρμογή σε λειτουργία..."/>
+				<Item Index="44" Value="Επιβεβαίωση των αλλάγων στα αρχεία"/>
+				<Item Index="45" Value="Το αρχείο «%S» έχει τροποποιηθεί. Ενημέρωση των αλλαγών στην αρχειοθήκη;"/>
+				<Item Index="46" Value="Τοποθεσία"/>
+				<Item Index="47" Value="δομή"/>
+				<Item Index="48" Value="Αυτή η αρχειοθήκη είναι κενή."/>
+				<Item Index="49" Value="Αυτός ο φάκελος είναι κενός."/>
+				<Item Index="50" Value="Δεν βρέθηκαν στοιχεία σύμφωνα με την αναζήτηση."/>
+				<Item Index="51" Value="Άνοιγμα φακέλου στην Εξερεύνηση αρχείων των Windows"/>
+				<Item Index="52" Value="Εύρεση στην Εξερεύνηση αρχείων των Windows"/>
+				<Item Index="53" Value="Άνοιγμα θέσης αρχείου"/>
+				<Item Index="54" Value="$AppName$ - Άνοιγμα τοποθεσίας"/>
+				<Item Index="55" Value="Το $AppName$ δεν μπορεί να ανοίξει την τοποθεσία της αρχειοθήκης."/>
+				<Item Index="56" Value="Κανάλι στο YouTube"/>
+				<Item Index="57" Value="Βίντεο εκμάθησης"/>
+				<Item Index="58" Value="Μικροσκοπικό (0 - 10 KB)"/>
+				<Item Index="59" Value="Μικρό (10 - 100 KB)"/>
+				<Item Index="60" Value="Μεσαίο (100 KB - 1 MB)"/>
+				<Item Index="61" Value="Μεγάλο (1 - 16 MB)"/>
+				<Item Index="62" Value="Τεράστιο (16 - 128 MB)"/>
+				<Item Index="63" Value="Γιγαντιαίο (&gt; 128 MB)"/>
+				<Item Index="64" Value="Φάκελοι"/>
+				<Item Index="65" Value="Φίλτρο %s"/>
+				<Item Index="66" Value="$AppName$ - Ειδοποίηση"/>
+				<Item Index="67" Value="Η ειδοποίηση μπορεί να ξαναενεργοποιηθεί στις Ρυθμίσεις."/>
+				<Item Index="68" Value="Αντιγραφή..."/>
+				<Item Index="69" Value="$AppName$ - Επιβεβαίωση"/>
+				<Item Index="70" Value='Όλες οι αλλαγές που πραγματοποιήθηκαν στην αρχειοθήκη "$ModsFolderPath$update\update.rpf" θα χαθούν.\nΘέλετε να συνεχίσετε'/>
+				<Item Index="71" Value='Αναζήτηση "%s" σε όλες τις αρχειοθήκες'/>
+				<Item Index="72" Value=""/>
+				<Item Index="73" Value=""/>
+				<Item Index="74" Value=""/>
+				<Item Index="75" Value=""/>
+				<Item Index="76" Value=""/>
+				<Item Index="77" Value=""/>
+				<Item Index="78" Value=""/>
+				<Item Index="79" Value=""/>
+			</StringList>
+		</AeroWindow>
+		<!-- Others -->
+		<SearchBox BannerText="Φίλτρο"/>
+		<!-- Notification: GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption="Εγκατάσταση προσθήκης για το $RageGAME_SHORT$"/>
+		<lbGTAVPluginText Caption="Πρέπει να εγκαταστήσετε τον φορτωτή ASI και την προσθήκη $ModsFolderAsi$ για το $RageGAME_SHORT$, διαφορετικά δε θα φορτώνονται οι τροποποιημένες αρχειοθήκες RPF.\nΜην παίζετε το $RageGAME_MP$ με τροποποιημένες αρχειοθήκες RPF, θα αποκλειστείτε."/>
+		<btnGTAVPluginAction Caption="Διαχειριστής ASI"/>
+		<!-- Notification: copy to mods folder -->
+		<lbNotInModsTitle Caption='Ο φάκελος $ModsFolder$'/>
+		<lbNotInModsText Caption='Η αρχειοθήκη που επεξεργάζεστε δεν βρίσκεται στο φάκελο $ModsFolder$.'/>
+		<lbEditModeDisabledDueToModsFolder Caption='Οι δυνατότητες επεξεργασίας έχουν απενεργοποιηθεί για αυτήν την αρχειοθήκη.\nΠλοηγηθείτε στον φάκελο $ModsFolder$, ή επιτρέψτε την επεξεργασία στις Ρυθμίσεις.'/>
+		<btnCopyToMods Caption='Αντιγραφή στο φάκελο $ModsFolder$'/>
+		<btnShowInMods Caption='Προβολή στο φάκελο $ModsFolder$'/>
+		<btnChangeModsFolderSettings Caption="Αλλάξτε τις ρυθμίσεις του φακέλου $ModsFolder$"/>
+		<!-- Notification: update.rpf -->
+		<lbCopyNewUpdateToModsTitle Caption='Ενημέρωση $RageGAME$'/>
+		<lbCopyNewUpdateToMods Caption='Διαθέτετε μία παλιά έκδοση του update.rpf στο φάκελο $ModsFolder$. Πρέπει να αντιγράψετε την νέα έκδοση του “update.rpf” στο φάκελο $ModsFolder$, διαφορετικά το παιχνίδι μπορεί να αντιμετωπίσει σφάλματα.'/>
+		<btnCopyUpdateToMods Caption='Αντιγραφή νέας έκδοσης στο φάκελο $ModsFolder$'/>
+		<!-- Notification: Admin mode -->
+		<lbAdminModeTitle Caption='Λειτουργία διαχειριστή'/>
+		<lbAdminModeText Caption='Το $AppName$ εκτελείται ως διαχειριστής. Μερικές δυνατότητες, όπως η μεταφορά κι απόθεση από την Εξερεύνηση αρχείων των Windows μπορεί να μη λειτουργούν. Συνήθως, δεν χρειάζεται να εκτελείτε το $AppName$ ως διαχειριστής.'/>
+		<btnAdminModeAction Caption='Τι μπορώ να κάνω;'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='Καθαρισμός φίλτρων αναζήτησης'/>
+	</MainWindow>
+
+	<ActionsModule>
+		<!-- Main Menu -->
+		<mmFile Caption="Αρχείο"/>
+		<mmEdit Caption="Επεξεργασία"/>
+		<mmNew Caption="Νέο"/>
+		<mmView Caption="Προβολή"/>
+		<mmFavorites Caption="Αγαπημένα"/>
+		<mmTools Caption="Εργαλεία"/>
+		<mmHelp Caption="Βοήθεια"/>
+		<!-- Main Menu : File -->
+		<mmReopen Caption="Άνοιγμα εκ νέου"/>
+		<mmFilter Caption="Φίλτρο"/>
+		<!-- Main Menu : View -->
+		<mmLayout Caption="Διάταξη"/>
+		<mmGroupBy Caption="Ομαδοποίηση κατά"/>
+		<mmGoto Caption="Πήγαινε"/>
+		<!-- Main Menu : View -->
+		<mmvIcon Caption="Εικονίδια"/>
+		<mmvSmallIcon Caption="Μικρά εικονίδια"/>
+		<mmvList Caption="Λίστα"/>
+		<mmvDetails Caption="Λεπτομέρειες"/>
+		<mmvTile Caption="Τίτλος"/>
+		<!-- Main Menu : Help -->
+		<!-- Path menu -->
+		<PMenu0 Caption="Αντιγραφή διεύθυνσης (διαδρομή)"/>
+		<!-- File Action's -->
+		<actCreate Caption="Δημιουργία αρχειοθήκης..." Hint="Δημιουργία νέας αρχειοθήκης"/>
+		<actOpen Caption="Άνοιγμα αρχειοθήκης..." Hint="Άνοιγμα υπάρχουσας αρχειοθήκης"/>
+		<actOpenPC Caption="Άνοιγμα περιεχομένου..." Hint=""/>
+		<actOpenArchiveProperties Caption="Ιδιότητες αρχειοθήκης" Hint=""/>
+		<actDefragmentation Caption="Ανασυγκρότηση" Hint="Ανασυγκρότηση αρχειοθήκης"/>
+		<actEditMode Caption="Λειτουργία επεξεργασίας" Hint=""/>
+		<actReadMode Caption="Λειτουργία μόνο ανάγνωσης" Hint=""/>
+		<actClose Caption="Κλείσιμο αρχειοθήκης" Hint="Κλείσιμο τρέχουσας αρχειοθήκης"/>
+		<actExit Caption="Έξοδος" Hint="Έξοδος"/>
+		<actCloseAllArchives Caption="Κλείσιμο όλων των αρχειοθηκών" Hint="Κλείσιμο όλων των ανοιχτών αρχειοθηκών"/>
+		<!-- Edit Action's -->
+		<actPreview Caption="Προβολή..." Hint="Προβολή αρχείου"/>
+		<actEditFile Caption="Επεξεργασία..." Hint="Επεξεργασία αρχείου"/>
+		<actViewAsHex Caption="Προβολή σε Hex..." Hint="Προβολή σε Hex"/>
+		<actViewAsText Caption="Προβολή ως κείμενο..." Hint="Προβολή ως κείμενο"/>
+		<actCopyPath Caption="Αντιγραφή διαδρομής" Hint="Αντιγραφή διαδρομής του τρέχοντος αρχείου"/>
+		<actExtract Caption="Εξαγωγή..." Hint="Εξαγωγή αρχείου"/>
+		<actSaveContent Caption="Αποθήκευση περιεχομένου/Εξαγωγή" Hint="Αποθήκευση περιεχομένου/Εξαγωγή"/>
+		<actSaveRawContent Caption="Εξαγωγή ανεπεξέργαστου περιεχομένου" Hint="Εξαγωγή ανεπεξέργαστων δεδομένων περιεχομένου"/>
+		<actRename Caption="Μετονομασία" Hint="Μετονομασία αρχείου"/>
+		<actAdd Caption="Προσθήκη" Hint="Προσθήκη νέου αρχείου"/>
+		<actReplace Caption="Αντικατάσταση" Hint="Αντικατάσταση τρέχοντος αρχείου"/>
+		<actRemove Caption="Διαγραφή" Hint="Διαγραφή τρέχοντος αρχείου"/>
+		<actExtractAll Caption="Εξαγωγή όλων..." Hint="Εξαγωγή όλων των αρχείων"/>
+		<actCopyFileList Caption="Αντιγραφή λίστας αρχείων" Hint=""/>
+		<actSelectAll Caption="Επιλογή όλων" Hint=""/>
+		<actResourceObjectExplorer Caption="Εξερευνητής πόρων" Hint=""/>
+		<actShowInWindowsExplorer Caption="Προβολή στην Εξερεύνηση αρχείων των Windows" Hint=""/>
+		<actItemAddToFavorites Caption="Προσθήκη στα αγαπημένα..." Hint=""/>
+		<actCopyToModsFolder Caption='Αντιγραφή στο φάκελο $ModsFolder$' Hint=""/>
+		<actShowInModsFolder Caption='Προβολή στο φάκελο $ModsFolder$' Hint=""/>
+		<!-- New menu -->
+		<actMultipleImport Caption="Εισαγωγή openFormats" Hint="Πολλαπλή εισαγωγή"/>
+		<actNewFolder Caption="Φάκελος" Hint="Δημιουργία νέου φακέλου"/>
+		<!-- View Action's -->
+		<actDirectoryTree Caption="Δέντρο καταλόγων" Hint="Προβολή ή απόκρυψη Δέντρου καταλόγων"/>
+		<actToolBar Caption="Γραμμή εργαλείων" Hint="Προβολή ή απόκρυψη της Γραμμής εργαλείων"/>
+		<actSearchBar Caption="Γραμμή διεύθυνσης και αναζήτησης" Hint="Προβολή ή απόκρυψη της Γραμμής διεύθυνσης και αναζήτησης"/>
+		<actStatusBar Caption="Γραμμή κατάστασης" Hint="Γραμμή κατάστασης"/>
+		<actLivePreView Caption="Παράθυρο προεπισκόπησης" Hint="Παράθυρο προεπισκόπησης"/>
+		<actMainMenuBar Caption="Γραμμή μενού" Hint="Γραμμή νερού"/>
+		<!-- Help Action's -->
+		<actReportBug Caption="Αναφορά σφάλματος" Hint=""/>
+		<actAbout Caption="Πληροφορίες..." Hint="Πληροφορίες"/>
+		<actGoToWeb Caption="Επίσκεψη ιστοσελίδας..." Hint=""/>
+		<actSendFeedback Caption="Αποστολή ανάδρασης" Hint=""/>
+		<actUpdate Caption="Έλεγχος για ενημερώσεις..." Hint=""/>
+		<actDonate Caption="Δωρεά στο $AppName$..." Hint=""/>
+		<actWebIV Caption="Εγγραφή στο $WebName$" Hint=""/>
+		<actFAQ Caption="Συνήθεις ερωτήσεις" Hint=""/>
+		<!-- Social -->
+		<actSocialYouTube Caption="Το $AppName$ στο YouTube" Hint=""/>
+		<actSocialFacebook Caption="Το $AppName$ στο Facebook" Hint=""/>
+		<actSocialTwitter Caption="Το $AppName$ στο Twitter" Hint=""/>
+		<actSocialVKCom Caption="Το $AppName$ στο VK" Hint=""/>
+		<!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="Καταγραφή βημάτων για την αναπαραγωγή ενός προβλήματος" Hint=""/>
+		<!-- Groups Action's -->
+		<actCollapseAll Caption="Σύμπτυξη όλων των ομάδων" Hint=""/>
+		<actExpandAll Caption="Ανάπτυξη όλων των ομάδων" Hint=""/>
+		<actCollapseGroup Caption="Σύμπτυξη ομάδας" Hint=""/>
+		<actExpandGroup Caption="Ανάπτυξη ομάδας" Hint=""/>
+		<!-- Tools Action's -->
+		<actConfig Caption="Ρυθμίσεις..." Hint="Ρυθμίσεις"/>
+		<!-- GoTo Action's -->
+		<actGoBack Caption="Πίσω" Hint=""/>
+		<actGoForward Caption="Μπροστά" Hint=""/>
+		<actGoUP Caption="Ένα επίπεδο πάνω" Hint=""/>
+		<!-- Favorites -->
+		<actAddToFavorites Caption="Προσθήκη στα αγαπημένα..." Hint=""/>
+		<actOrganizeFavorites Caption="Οργάνωση αγαπημένων..." Hint=""/>
+		<!-- Filter -->
+		<actFilterByName Caption="Φιλτράρισμα κατά όνομα" Hint=""/>
+		<actFilterByType Caption="Φιλτράρισμα κατά τύπο" Hint=""/>
+		<actFilterOnlyThis Caption="Προβολή μόνο αυτού" Hint=""/>
+		<!-- Tree -->
+		<actTreeCopyAsPath Caption="Αντιγραφή ως διαδρομή" Hint=""/>
+		<actTreeShowInWindowsExplorer Caption="Προβολή στην Εξερεύνηση αρχείων των Windows" Hint=""/>
+		<actTreeCloseArchive Caption="Κλείσιμο αρχειοθήκης" Hint=""/>
+		<actTreeCopyToModsFolder Caption='Αντιγραφή στο φάκελο $ModsFolder$' Hint=""/>
+		<actTreeShowInModsFolder Caption='Προβολή στο φάκελο $ModsFolder$' Hint=""/>
+		<actTreeCollapseThis Caption='Σύμπτυξη αυτού' Hint=""/>
+		<actTreeCollapseAll Caption='Σύμπτυξη όλων' Hint=""/>
+		<!-- Strings -->
+		<Strings SetCount="100">
+			<Lines>
+				<Item Index="00" Value="Φάκελος προορισμού:"/>
+				<Item Index="01" Value="Προεπισκόπηση"/>
+				<Item Index="02" Value="Κανένα ανοιχτό αρχείο"/>
+				<Item Index="03" Value="(χωρίς)"/>
+				<Item Index="04" Value="Επιλογή τύπου της νέας αρχειοθήκης:"/>
+				<Item Index="05" Value="Γραμμική"/>
+				<Item Index="06" Value="Ιεραρχική"/>
+				<Item Index="07" Value="Χωρίς ονόματα"/>
+				<Item Index="08" Value="Προσθήκη ετικέτας"/>
+				<Item Index="09" Value="Διαγραφή"/>
+				<Item Index="10" Value="όλες οι ετικέτες"/>
+				<Item Index="11" Value="$AppName$ - Μετονομασία αρχείου"/>
+				<Item Index="12" Value="Νέο όνομα:"/>
+				<Item Index="13" Value="Δημιουργία νέου φακέλου"/>
+				<Item Index="14" Value="Νέος φάκελος:"/>
+				<Item Index="15" Value="Το $RageGAME_SHORT$ δεν βρέθηκε.\nΠαρακαλώ ορίστε τη σωστή τοποθεσία του $RageGAME_SHORT$ στις Ρυθμίσεις του $AppName$."/>
+				<Item Index="16" Value="$AppName$ - Επιβεβαίωση για αναδόμηση αρχειοθήκης"/>
+				<Item Index="17" Value="Είστε σίγουροι ότι θέλετε να αναδομήσετε την αρχειοθήκη «%S»;\n This operation may take several minutes."/>
+				<Item Index="18" Value="Άνοιγμα περιεχομένου"/>
+				<Item Index="19" Value="Δημιουργία νέου %S"/>
+				<Item Index="20" Value="Εισαγωγή ονόματος:"/>
+				<Item Index="21" Value="$AppName$ - Δεν έχει ενσωματωθεί η δυνατότητα"/>
+				<Item Index="22" Value="Προσπαθείτε να χρησιμοποιήσετε μία μελλοντική δυνατότητα: %S\nΣτην τρέχουσα έκδοση του $AppName$ δεν είναι ακόμη ενσωματωμένη, δοκιμάστε στην επόμενη έκδοση."/>
+				<Item Index="23" Value="$AppName$ - αναδόμηση αρχειοθήκης"/>
+				<Item Index="24" Value="Δεν είναι δυνατή η αναδόμηση κενής αρχειοθήκης."/>
+				<Item Index="25" Value="Υπάρχει ήδη ένα αρχείο με αυτό το όνομα, παρακαλώ επιλέξτε ένα άλλο όνομα."/>
+				<Item Index="26" Value="$AppName$ - προσθήκη νέας ετικέτας"/>
+				<Item Index="27" Value="Πληκτρολόγηση νέας ετικέτας:"/>
+				<Item Index="28" Value="Εξαγωγή σε %S"/>
+				<Item Index="29" Value="Το αρχείο είναι κρυπτογραφημένο, παρακαλώ εγκαταστήστε μία μη κρυπτογραφημένη έκδοση του παιχνιδιού."/>
+				<Item Index="30" Value="$AppName$ - το αρχείο δεν βρέθηκε"/>
+				<Item Index="31" Value="Σφάλμα ανοίγματος αρχείου: %S\nΤο αρχείο δεν υπάρχει."/>
+				<Item Index="32" Value="Έκδοση: %D"/>
+				<Item Index="33" Value="Το $AppName$ δεν μπορεί ακόμη να δημιουργήσει αρχιοθήκες για το $RageGAME_SHORT$.\nΠαρακαλώ επιστρέψτε αργότερα."/>
+				<Item Index="34" Value="Άνοιγμα αρχείου με"/>
+				<Item Index="35" Value="%s στο %s"/>
+				<Item Index="36" Value="%s - Αποτελέσματα αναζήτησης στο %s"/>
+				<Item Index="37" Value="%s - Αποτελέσματα αναζήτησης στο %s (%s)"/>
+				<Item Index="38" Value="Φίλτρο"/>
+				<Item Index="39" Value="$AppName$ - Σφάλμα"/>
+				<Item Index="40" Value="Αδυναμία εξαγωγής αρχείων."/>
+				<Item Index="41" Value="Αδυναμία προσθήκης αρχείων."/>
+				<Item Index="42" Value="Αδυναμία δημιουργίας φακέλου."/>
+				<Item Index="43" Value="Αδυναμία διαγραφής αρχείου."/>
+				<Item Index="44" Value="Αδυναμία αντικατάστασης φακέλου."/>
+				<Item Index="45" Value="Αδυναμία δημιουργίας νέου αρχείου."/>
+				<Item Index="46" Value="Μη έγκυροι χαρακτήρες στο όνομα αρχείου."/>
+				<Item Index="47" Value="Καθορίστε διαφορετικό όνομα αρχείου."/>
+				<Item Index="48" Value="Υπάρχει ήδη ένα στοιχείο με το ίδιο όνομα με το φάκελο που καθορίσατε."/>
+			</Lines>
+		</Strings>
+	</ActionsModule>
+
+	<EditModeHelpWindow Caption="Λειτουργία επεξεργασίας - $AppName$">
+		<!-- Label's -->
+		<lbTitle Caption="Λειτουργία επεξεργασίας"/>
+		<lbText Caption="Για να προσθέσετε ή να επεξεργαστείτε αρχεία, παρακαλώ εισέλθετε σε Λειτουργία επεξεργασίας.\nΜπορείτε να ορίσετε τη Λειτουργία επεξεργασίας ως την προεπιλεγμένη στις ρυθμίσεις του $AppName$."/>
+		<lbInfo Caption='Το κουμπί "Λειτουργία επεξεργασίας" επιτρέπει την ενεργοποίηση της Λειτουργίας επεξεργασίας'/>
+		<!-- Button's -->
+		<btnClose Caption="Κλείσιμο"/>
+		<cbDoNotShow Caption="Μην ξαναδείξεις αυτό το μήνυμα"/>
+	</EditModeHelpWindow>
+
+	<AdminModeWindow Caption="Διαχειριστής - $AppName$">
+		<lbText Caption="Δεν υπάρχει πραγματικός λόγος να εκκινήσετε το $AppName$ ως Διαχειριστής. Το $AppName$ δεν απαιτεί δικαιώματα Διαχειριστή για να λειτουργήσει σωστά. Διαφορετικά, μερικές δυνατότητες, όπως η μεταφορά κι απόθεση από την Εξερεύνηση αρχείων των Windows μπορεί να μη λειτουργούν. Πιθανόν, εκτελέσατε το $AppName$ ως Διαχειριστής επειδή το παιχνίδι είναι εγκατεστημένο σε κάποιον φάκελο του συστήματος (π.χ. C:\Program Files\...) όπου ο απλός λογαριασμός χρήστη δεν έχει άδεια για εγγραφές σε αυτόν τον φάκελο.\n\nΜπορείτε να ορίσετε τα απαιτούμενα δικαιώματα του φακέλου του παιχνιδιού χρησιμοποιώντας αυτήν την εφαρμογή και μετά να επανεκκινήσετε το $AppName$ χωρίς δικαιώματα Διαχειριστή."/>
+		<btnSetPermissions Caption="Καθορίστε δικαιώματα"/>
+		<btnClose Caption="Κλείσιμο"/>
+		<AeroWindow LinesCount="5">
+			<StringList>
+				<Item Index="0" Value="Σφάλμα - $AppName$"/>
+				<Item Index="1" Value="Όλα έτοιμα.\nΤα δικαιώματα ορίστηκαν για τον φάκελο του παιχνιδιού."/>
+				<Item Index="2" Value="Αδυναμία ορισμού δικαιωμάτων.\nΚωδικός επιστροφής: "/>
+				<Item Index="3" Value="Ο φάκελος του παιχνιδιού δεν υπάρχει."/>
+				<Item Index="3" Value="Το Εργαλείο καθορισμού δικαιωμάτων δεν υπάρχει. Παρακαλώ επανεγκαταστήστε το $AppName$."/>
+			</StringList>
+		</AeroWindow>
+	</AdminModeWindow>
+	
+	<!-- Web window -->
+
+	<webWindow Caption="$WebName$ - ">
+		<!-- Button's -->
+		<btnClose Caption="Κλείσιμο"/>
+		<!-- Strings -->
+		<AeroWindow LinesCount="1">
+			<StringList>
+				<Item Index="0" Value="Όροι χρήσης και Πολιτική απορρήτου"/>
+			</StringList>
+		</AeroWindow>
+	</webWindow>
+
+	<!-- Configuration -->
+
+	<ConfigWindow Caption="$AppName$ - Ρυθμίσεις">
+		<!-- Languages -->
+		<tabLang Caption="Γλώσσες"/>
+		<lbLang Caption="Επιλογή γλώσσας διεπαφής"/>
+		<LnkWebLangs Caption="Μεταφράστε το $AppName$ σε άλλη γλώσσα"/>
+		<!-- Game -->
+		<tabGame Caption="Παιχνίδι"/>
+		<gbGamePath Caption="Προορισμός $RageGAME_SHORT$"/>
+		<lbCurrentGamePath Caption="Τρέχων προορισμός:"/>
+		<tbChangeGame Caption="Αλλαγή καταλόγου"/>
+		<ttRageExe Caption="Για να λειτουργήσει το $AppName$, σε αυτόν τον κατάλογο πρέπει να βρίσκεται το $RageEncryptionStorage$"/>
+		<!-- General -->
+		<tabMain Caption="Γενικά"/>
+		<lbDefaultGame Caption="Επιλογή παιχνιδιού για προεπιλογή"/>
+		<lbWorkMode Caption="Προεπιλεγμένη λειτουργία"/>
+		<WorkMode>
+			<Items>
+				<Item Index="0" Value="Επεξεργασία"/>
+				<Item Index="1" Value="Μόνο ανάγνωση"/>
+			</Items>
+		</WorkMode>
+		<lbDefTextureFormatGlb Caption="Προεπιλεγμένος τύπος αρχείων υφής"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption="Πάντοτε άνοιγμα της αρχειοθήκης μετά την αναδόμηση"/>
+		<cbMinimizeAtStartGame Caption="Ελαχιστοποίηση του $AppName$ μετά την εκτέλεση του παιχνιδιού"/>
+		<cbInstallUpdatesAutomatically Caption="Αυτόματη εγκατάσταση ενημερώσεων"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Για πραγματικά αρχεία χρησιμοποιήστε τον Κάδο ανακύκλωσης αντί για τη Διαγραφή"/>
+		<cbShowRecycleConfirmation Caption="Εμφάνιση παραθύρου για επιβεβαίωση διαγραφής"/>
+		<cbCloseArchivesAtStartGame Caption="Κλείσιμο όλων των ανοιχτών αρχειοθηκών μετά την εκτέλεση του παιχνιδιού"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Καθαρισμός του φίλτρου αναζήτησης μετά το άνοιγμα αρχειοθήκης'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Χρήση εναλλακτικού (παλιού) τρόπου προσθήκης φακέλων μετά από μεταφορά και απόθεση'/>
+		<tbFileAssociation Caption="Αλλαγή συσχετισμών αρχείων"/>
+		<!-- "mods" folder -->
+		<tabModsFolder Caption="Φάκελος $ModsFolder$"/>
+		<lbModsFolderText Caption="Σε αυτήν την σελίδα μπορούν να αλλάξουν ρυθμίσεις σχετικές με το φάκελο $ModsFolder$."/>
+		<lbModsFolderNote1 Caption="Οι παρακάτω ρυθμίσεις δεν είναι προσβάσιμες επειδή δεν εχει εγκατασταθεί το $ModsFolderAsi$"/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Προβολή ειδοποίησης κατά την επεξεργασία αρχείου εκτός του φακέλου $ModsFolder$'/>
+		<cbAllowEditModeOnlyInModsFolder Caption='Να επιτρέπεται η λειτουργία επεξεργασίας μόνο για αρχιοθήκες μέσα στο φάκελο $ModsFolder$'/>
+		<!-- Tools -->
+		<tabViewers Caption="Εργαλεία"/>
+		<lbChooseTheme Caption="Επιλογή θέματος"/>
+		<cbAppTheme>
+			<Items>
+				<Item Index="0" Value="Ανοιχτό"/>
+				<Item Index="1" Value="Σκούρο"/>
+			</Items>
+		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Χρώμα παρασκηνίου απόδοσης"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="Προεπιλεγμένο"/>
+				<Item Index="1" Value="Προσαρμοσμένο"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="Συνδυασμός ελέγχου κάμερας"/>
+		<cbRenderAntialiasing Caption="Ενεργοποίηση λειτουργίας εξαμόλυνσης"/>
+		<lbChooseEditorTheme Caption="Επιλογή συνδυασμού χρώματος για τον επεξεργαστή κειμένου"/>
+		<!-- openFormats -->
+		<tabFormats Caption="openFormats"/>
+		<lbDefTextureFormat Caption="Προεπιλεγμένος τύπος αρχείων υφής"/>
+		<cbNotExportTextureToFolder Caption="Να μην τοποθετούνται αρχεία υφής σε ξεχωριστό φάκελο όταν εξάγωνται OTD"/>
+		<gbModels Caption="Εισαγωγή μοντέλων (ODR/ODD/OFT)"/>
+		<cbProtectModels Caption="Ενεργοποίηση επιλογής προστατευόμενου πλέγματος από προεπιλογή (αποτροπή μελλοντικής εξαγωγής)"/>
+		<btnSaveShaderInformation Caption="Αποθήκευση πληροφοριών σκίασης openFormats"/>
+		<!-- Misc + old -->
+		<btnClose Caption="Κλείσιμο"/>
+		<actAppAdd Caption="Προσθήκη"/>
+		<actAppEdit Caption="Επεξεργασία"/>
+		<actAppDel Caption="Διαγραφή"/>
+		<LnkWebApps Caption="Λήψη περισσότερων εργαλείων για το $RageGAME_SHORT$"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="10">
+			<StringList>
+				<Item Index="0" Value="Επιλογή φακέλου:"/>
+				<Item Index="1" Value="Τρέχουσες γλώσσες"/>
+				<Item Index="2" Value="$AppName$ - Προειδοποίηση"/>
+				<Item Index="3" Value="Πρέπει να επανεκκίνησετε το $AppName$ για να εφαρμοστούν οι αλλαγές."/>
+				<Item Index="4" Value="Παρωχημένες γλώσσες"/>
+			</StringList>
+		</AeroWindow>
+	</ConfigWindow>
+
+	<ConfigAssociationWindow Caption="$AppName$ - Συσχετισμοί">
+		<lbTitle Caption="Συσχετισμός ενός τύπου αρχείου με το $AppName$"/>
+		<FileTypes>
+			<Columns>
+				<Item Index="0" Caption=""/>
+				<Item Index="1" Caption="Τύπος"/>
+				<Item Index="2" Caption="Περιγραφή"/>
+				<Item Index="3" Caption="Υποστηριζόμενα παιχνίδια"/>
+			</Columns>
+			<Groups>
+				<Item Index="0" Header="Πακέτα"/>
+				<Item Index="1" Header="Αρχειοθήκες"/>
+				<Item Index="2" Header="Πόροι"/>
+			</Groups>
+		</FileTypes>
+		<btnApply Caption="Εφαρμογή"/>
+		<btnCancel Caption="Ακύρωση"/>
+		<AeroWindow LinesCount="0">
+			<StringList>
+				<Item Index="0" Value=""/>
+			</StringList>
+		</AeroWindow>
+	</ConfigAssociationWindow>
+
+	<!-- EULA Window -->
+
+	<EULAWindow Caption="Άδεια Χρήσης Τελικού Χρήστη - $AppName$">
+		<btnClose Caption="Κλείσιμο"/>
+	</EULAWindow>
+</Translation>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Σφάλμα εφαρμογής'>
+		<lbWindowTitle Caption="Το $AppName$ αντιμετώπισε πρόβλημα που δεν μπορούσε να χειριστεί,\nκαι τώρα πρέπει να επανεκκινηθεί."/>
+		<btnCloseApp Caption='Κλείσιμο $AppName$'/>
+		<lbReportHere Caption='Παρακαλώ αναφέρετε το πρόβλημα χρησιμοποιώντας τους παρακάτω συνδέσμους:'/>
+		<lnkWeb1 Caption='Επίσκεψη επίσημης ιστοσελίδας'/>
+		<lnkWeb2 Caption='Επίσκεψη του παγκοσμίου φόρουμ υποστήριξης'/>
+		<lnkWeb3 Caption='Επίσκεψη του ρωσικού φόρουμ υποστήριξης'/>
+		<lbText2 Caption='Επιπλέον εργαλεία'/>
+		<tbCopyInfo Caption='Αντιγραφή πληροφοριών σφάλματος'/>
+		<tbWin7Report Caption='Καταγραφή βημάτων για την αναπαραγωγή ενός προβλήματος' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Χρόνος: '/>
+				<Item Index='1' Value='Τύπος: '/>
+				<Item Index='2' Value='Μήνυμα: '/>
+				<Item Index='3' Value='Επιπλέον πληροφορίες:'/>
+				<Item Index='4' Value='Οι επιπλέον πληροφορίες λείπουν.'/>
+				<Item Index='5' Value='Οι πληροφορίες του σφάλματος αντιγράφηκαν στο πρόχειρο.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<HashGeneratorWindow Caption='Γεννήτρια hash - $AppName$'>
+		<!-- Label's -->
+		<lbOutputFormat Caption='Μορφή εξόδου:' />
+		<!-- Button's -->
+		<btnLoadFromFile Caption='Εισαγωγή από αρχείο' />
+		<btnGenerate Caption='Δημιουργία' />
+		<btnSaveToFile Caption='Απουήκευση σε αρχείο' />
+		<cbCaseSensitive Caption='Συμφωνία πεζών-κεφαλαίων' />
+		<!-- Panel's -->
+		<pnlLeft Caption='Είσοδος:' />
+		<pnlRight Caption='Έξοδος:' />    
+	</HashGeneratorWindow>
+</Translation>

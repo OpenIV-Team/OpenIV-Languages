@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='Εργαλείο κειμένου $AppName$'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Προβολέας κειμένου $AppName$'/>
+				<Item Index='1' Value='Επεξεργαστής κειμένου $AppName$'/>
+				<Item Index='2' Value='Εύρεση...'/>
+				<Item Index='3' Value='Εύρεση επιλεγμένου...'/>
+			</StringList>
+		</AeroWindow>
+		
+		<!-- Editor actions -->
+		<ActionEditCut Caption="Αποκοπή"/>
+		<ActionEditCopy Caption="Αντιγραφή"/>
+		<ActionEditPaste Caption="Επικόλληση"/>
+		<ActionEditDelete Caption="Διαγραφή"/>
+		<ActionEditSelectAll Caption="Επιλογή όλων"/>
+		<ActionEditDuplicateLine Caption="Διπλασιασμός τρέχουσας γραμμής"/>
+		<ActionEditRemoveLine Caption="Αφαίρεση γραμμής"/>
+		<ActionEditUpperCase Caption="ΚΕΦΑΛΑΊΑ"/>
+		<ActionEditLoverCase Caption="πεζά"/>
+	</TextEditorWindow>
+	
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">Εξαγωγή</string>
+		<string name="EXPORT_TEXT">Εξαγωγή απλού κειμένου (*.txt)</string>
+		<string name="EXPORT_HTML">Εξαγωγή μορφοποιημένου κειμένου (*.html)</string>
+		
+		<!-- Ribbon -->
+		<string name="TAB_HOME">Αρχική</string>
+		<string name="TAB_SEARCH">Εύρεση</string>
+		<string name="WORD_WRAP">Αναδίπλωση λέξεων</string>
+		<string name="SHOW_SPECIAL_CHARS">Προβολή ειδικών χαρακτήρων</string>
+		<string name="SEARCH_OPTIONS_MENU">Επιλογές αναζήτησης</string>
+		<string name="SEARCH_BANNER_TEXT">Εύρεση</string>
+		<string name="SEARCH_DOWN">Εύρεση προς τα κάτω</string>
+		<string name="SEARCH_UP">Εύρεση προς τα επάνω</string>
+		<string name="SEARCH_ALL">Όλα</string>
+		<string name="SEARCH_ALL_HINT">Εύρεση όλων</string>
+		<string name="SEARCH_SET_SELECTION_AREA">Ορισμός επιλογής</string>
+		<string name="GOTO_LINE">Μετάβαση στη γραμμή</string>
+		
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">Λειτουργία εύρεσης</string>
+		<string name="SEARCH_MODE_NORMAL">Κανονική</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Κανονική έκφραση</string>
+		<string name="SEARCH_MODE_WILDCARD">Χαρακτήρας μπαλαντέρ</string>
+		<string name="SEARCH_AREA">Περιοχή εύρεσης</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">Σε όλο το εύρος</string>
+		<string name="SEARCH_AREA_IN_SELECTION">Επιλεγμένα</string>
+		<string name="SEARCH_OPTIONS">Επιλογές</string>
+		<string name="SEARCH_ON_TYPING">Εύρεση κατά την πληκτρολόγηση</string>
+		<string name="CASE_SENSITIVE">Διάκριση πεζών-κεφαλαίων</string>
+		<string name="WHOLE_WORDS_ONLY">Μόνο ολόκληρες λέξεις</string>
+		<string name="WRAP_AROUND">Αναδίπλωση γύρω</string>
+		<string name="HIGHLIGHT_RESULTS">Επισήμανση αποτελεσμάτων</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">Θέλετε να αποθηκεύσετε τις αλλαγές;</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">Αδυναμία αποθήκευσης αρχείου</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">Το $AppName$ δεν μπορεί να αποθηκεύσει τις αλλαγές, δοκιμάστε ξανά αργότερα.</string>
+		<string name="GOTO_LINE_TITLE">Μετάβαση στη γραμμή...</string>
+		<string name="GOTO_LINE_PROMT">Εισάγετε αριθμό γραμμής:</string>
+		<string name="GOTO_LINE_NOTE">Εισάγετε + ή - για να μετακινηθείτε ανάλογα με την τρέχουσα τοποθεσία. Π.χ: Το +4 θα προχωρήσει 4 γραμμές μπροστά.</string>
+		<string name="GO">Μετάβαση</string>
+	</RenderUI>
+</Translation>

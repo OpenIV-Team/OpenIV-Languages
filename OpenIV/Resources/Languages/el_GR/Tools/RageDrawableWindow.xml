@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='Προβολέας μοντέλων $AppName$'>
+		<pmiCopyName Caption='Αντιγραφή ονόματος'/>
+		<pmiCopyHash Caption='Αντιγραφή τιμής hash'/>
+		<pmiCopyNameAndHash Caption='Αντιγραφή ονόματος και τιμής hash'/>
+		<pmiHigh Caption='Υψηλή (High)'/>
+		<pmiMed Caption='Μεσαία (Med)'/>
+		<pmiLow Caption='Χαμηλή (Low)'/>
+		<pmiVLow Caption='Πολύ χαμηλή (VLow)'/>
+		<miLeft Caption='Αριστερά'/>
+		<miRight Caption='Δεξιά'/>
+		<miCheckAll Caption='Επιλογή όλων' />
+		<miUncheckAll Caption='Αποεπιλογή όλων' />
+		<paneDictionary Caption='Στοιχεία λεηικού'/>
+		<cbMultipleRendering Caption='Πολλαπλή απόδοση'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Φόρτωση από εξωτερικό αρχείο'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>	
+		<!-- help -->
+		<string name="HELP_TITLE">Προβολέας μοντέλων - βοήθεια</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Χρησιμοποιείτε το ποντίκι για να περιηγηθείτε, μετακινηθείτε χρησιμοποιώντας αυτά τα κουμπιά:
+			
+    W - Κύλιση μπροστά
+    S - Κύλιση πίσω
+    A - Κύλιση αριστερά
+    D - Κύλιση δεξιά
+
+    NumPad 8 - Μετακίνηση κάμερας προς τα πάνω
+    NumPad 2 - Μετακίνηση κάμερας προς τα κάτω
+    NumPad 4 - Μετακίνηση κάμερας προς τα αριστερά
+    NumPad 6 - Μετακίνηση κάμερας προς τα δεξιά
+
+    Κράτημα SHIFT - Για ταχύτερη κίνηση
+    Κράτημα CTRL - Για βραδύτερη κίνηση
+    Χρήση του τροχού ποντικιού για μεγέθυνση και σμίκρυνση.
+	
+Για να προσθέσετε επιπλέον υφές, επιλέξτε το σύνδεσμο "[+] Προσθήκη" κάτω-δεξιά του παραθύρου. Για αφαίρεση υφής, επιλέξτε το σύνδεσμο "[-]" που προηγείται του ονόματος του αρχείου.
+
+Για να αλλάξετε τις ρυθμίσεις απόδοσης χρησιμοποιήστε τους συνδέσμους στα δεξιά, ή αυτά τα πλήκτρο συντόμευσης:
+		   
+	F1 - Εναλλαγή αυτού του πλαισίου βοήθειας
+	F2 - Προβολή περισσότερων πληροφοριών
+	C - Εναλλαγή λειτουργίας κάμερας
+	F - Εναλλαγή οξέων προσόψεων
+	P - Εναλλαγή σημείων προβολής
+	G - Εναλλαγή γεωμετρίας
+	L - Εναλλαγή επιπέδου λεπτομερειών 
+	ESC - Κλείσιμο αυτού του παραθύρου
+	
+	Κράτημα H - Για προσωρινή απόκρυψη HUD
+]]>
+		</text>
+		<string name="CHECK_ALL">Επιλογή όλων</string>
+		<string name="UNCHECK_ALL">Αποεπιλογή όλων</string>
+		<string name="MULTIPLE_RENDERING">Πολλαπλή απόδοση</string>
+		<string name="BOUND_TYPE">Τύπος ορίου:</string>
+		<string name="CHILD_COUNT">Θυγατρικά:</string>
+	</RenderUI>
+</Translation>

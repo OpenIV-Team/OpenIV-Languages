@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Εγκαταστατής πακέτων - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Εγκαταστατής πακέτων</string>
+		<string name="INSTALL">Εγκατάσταση</string>
+		<string name="INSTALLING">Εγκατάσταση</string>
+		<string name="DESCRIPTION">Περιγραφή</string>
+		<string name="ADDITIONAL_INFORMATION">Επιπλέον πληροφορίες</string>
+		<string name="GREATED_BY">Δημιουργήθηκε από</string>
+		<string name="SUPPORTED_GAMES">Υποστηριζόμενα παιχνίδια</string>
+		<string name="VERSION">Έκδοση</string>
+		<string name="LICENCE">Άδεια</string>
+		<string name="VIEW_LICENCE">Προβολή άδειας</string>
+		<string name="LEARN_MORE">Μάθετε περισσότερα</string>
+		<string name="LINK_HOMEPAGE">Σελίδα ιστού</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Επιλέξτε το περιεχόμενο που θα εγκατασταθεί</string>
+		<string name="SELECT_LOCATION">Επιλέξτε την τοποθεσία εγκατάστασης</string>
+		<string name="LOCATION_MODS_FOLDER">Φάκελος $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Εγκατάσταση αυτής της τροποποίησης στο φάκελο $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί στο φάκελο $ModsFolder$ επειδή ο φάκλος $ModsFolder$ δεν υποστηρίζει το τρέχον πρόγραμμα ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί στο φάκελο $ModsFolder$ επειδή ο φάκλος $ModsFolder$ δεν υποστηρίζει τον τύπου του πακέτου.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί στο φάκελο $ModsFolder$ επειδή δεν επηρεάζει καμμία αρχειοθήκη RPF.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί στο φάκελο $ModsFolder$ επειδή το $ModsFolderAsi$ δεν έχει εγκατασταθεί.</string>
+		<string name="LOCATION_GAME_FOLDER">Φάκελος παιχνιδιού</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Εγκατάσταση αυτής της τροποποίησης απευθείας στο φάκελο του παιχνιδιού</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί στο φάκελο του παιχνιδιού επειδή η δυνατότητα έχει απενεργοποιηθεί στις ρυθμίσεις του φακέλου $ModsFolder$.</string>
+		
+		<string name="INSTALLATION_SUCCEEDED">Επιτυχής εγκατάστασης</string>
+		<string name="RUN_GAME">Εκκίνηση $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Εκκινείστε το παιχνίδι και δείτε τις αλλαγές</string>
+
+		<string name="INSTALLATION_FAILED">Η εγκατάσταση απέτυχε</string>
+
+		<string name="LOADING_ERROR_TITLE">Σφάλμα φόρτωσης πακέτου</string>
+		<string name="READING_ERROR_TITLE">Σφάλμα ανάγνωσης πακέτου</string>
+		<string name="INSTALLING_ERROR_TITLE">Σφάλμα εγκατάστασης πακέτου</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Άγνωστο σφάλμα</string>
+		<string name="ERROR_GROUP_FATAL">Ανεπανόρθωτο σφάλμα</string>
+		<string name="ERROR_CODE_UNKNOWN">Κάτι συνέβη. Παρακαλώ ελέγξτε το αρχείο καταγραφών για λεπτομέρειες.</string>
+		<string name="ERROR_INSTALLATION">Ένα ανεπανόρθωτο σφάλμα προέκυψε κατά την εγκατάσταση. Παρακαλώ ελέγξτε το αρχείο καταγραφών για λεπτομέρειες.</string>
+		<string name="ERROR_MSXML">MSXML is not installed. It is required to use Package Installer.</string>
+		<string name="CHECK_LOG_FILE">Παρακαλώ ελέγξτε το αρχείο καταγραφών για λεπτομέρειες.</string>
+		
+		<string name="OPEN_INSTALLATION_LOG">Άνοιγμα καταγραφών εγκατάστασης</string>
+		<string name="OPEN_LOG_FILE">Άνοιγμα αρχείου καταγραφών</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Το αρχείο πακέτου δεν είναι ένα έγκυρο αρχείο ZIP.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Άγνωστος τύπος αρχείου. Το άρχειο πακέτου πρέπει να είναι τύπου .oiv ή .zip.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Αδύνατη η πρόσβαση στο αρχείο. Σιγουρευτείτε ότι δεν χρησιμοποιείτε από άλλη διεργασία.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Το αρχείο πακέτου δεν υπάρχει.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Αδυναμία ανοίγματος του αρχείου πακέτου.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Το αρχείο "assembly.xml" δεν βρέθηκε σε αυτό το πακέτο. Πιθανόν το αρχείο να μην είναι πακέτο του $AppName$ ή να είναι φθαρμένο.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Αδυναμία ανάγνωσης του "assembly.xml", πιθανόν το αρχείο να είναι φθαρμένο.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Άγνωστη μορφή του "assembly.xml", πιθανόν το αρχείο να είναι φθαρμένο.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί χρησιμοποιώντας αυτήν την έκδοση του $AppName$.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">Η ετικέτα των μεταδεδομένων λείπει από το "assembly.xml", πιθανόν το αρχείο να είναι φθαρμένο.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">Οι πληροφορίες των μεταδεδομένων λείπουν ή έχουν φθαρεί στο "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">Το "assembly.xml" δεν είναι σε έγκυρη μορφή XML ή έχει φθαρεί.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Αδυναμία ανάγνωσης του "Package ID" από το "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">Η ετικέτα των χρωμάτων λείπει από το "assembly.xml", πιθανόν το αρχείο να είναι φθαρμένο.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">Οι πληροφορίες των χρωμάτων λείπουν ή έχουν φθαρεί στο "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">Οι πληροφορίες του περιεχομένου λείπουν ή έχουν φθαρεί στο "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">Η ετικέτα του περιεχομένου λείπει από το "assembly.xml", πιθανόν το αρχείο να είναι φθαρμένο</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Αδυναμία εύρεσης του φακέλου "content" σε αυτό το πακέτο. Πιθανόν το αρχείο να μην είναι πακέτο του $AppName$ ή να είναι φθαρμένο.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί στο $RageGAME$. Παρακαλώ ελέγξτε τα υποστηριζόμενα παιχνίδια στην ενότητα πρόσθετων πληροφοριών.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Μερικά αρχεία λείπουν από την αρχειοθήκη του πακέτου. Παρακαλώ επικοινωνήστε με τον δημιουργό του πακέτου.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Μερικά αρχεία έχουν λανθασμένη διαδρομή ως προς τα αρχεία του παιχνιδιού. Παρακαλώ επικοινωνήστε με τον δημιουργό του πακέτου.</string>
+		
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">Αυτό το πακέτο δεν μπορεί να απεγκατασταθεί αυτόματα</string>
+		
+	</RenderUI>
+</Translation>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GXTViewerWindow Caption='Προβολέας GXT - $AppName$'>		
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='Λίστα πινάκων GXT'/>
+				<Item Index='1' Value='Κλειδί'/>
+				<Item Index='2' Value='Τιμή'/>
+				<Item Index='3' Value='Αριθμός πινάκων:'/>
+				<Item Index='4' Value=''/>
+			</StringList>
+		</AeroWindow>
+		<btnExport Caption='Εξαγωγή σε αρχείου κειμένου'/>
+	</GXTViewerWindow>
+</Translation>

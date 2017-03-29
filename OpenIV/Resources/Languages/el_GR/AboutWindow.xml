@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='About $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Έκδοση %D.%D (Δομή %D· Ημερομηνία %S)</string>
+		<string name="VERSION_LABEL_3">Έκδοση %D.%D.%D (Δομή %D· Ημερομηνία %S)</string>
+		<string name="THE_TEAM">Η όμαδα</string>
+		<string name="THIRD_PARTY">Τρίτοι</string>
+		<string name="THIRD_PARTY_LINE_1">Η εφαρμογή χρησιμοποιεί τμήματα</string>
+		<string name="THIRD_PARTY_LINE_2">που παρέχονται από τρίτους.</string>
+		<string name="THANKS_TO">Ευχαριστίες στους</string>
+		<string name="ALPHABETICALLY">(αλφαβητικά)</string>
+		<string name="SPECIAL_THANKS_TO">Ειδικές ευχαριστίες στη</string>
+		<string name="LICENSE_TERMS">Οι όροι άδειας χρήσης για λογισμικό</string>
+		<string name="LOCALIZATION">Συμβάλλοντες στην τοπικοποίηση</string>
+	</RenderUI>
+</Translation>
