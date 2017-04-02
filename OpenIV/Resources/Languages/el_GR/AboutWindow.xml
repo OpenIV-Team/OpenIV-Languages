@@ -4,7 +4,7 @@
 	<RenderUI>
 		<string name="VERSION_LABEL_2">Έκδοση %D.%D (Δομή %D· Ημερομηνία %S)</string>
 		<string name="VERSION_LABEL_3">Έκδοση %D.%D.%D (Δομή %D· Ημερομηνία %S)</string>
-		<string name="THE_TEAM">Η όμαδα</string>
+		<string name="THE_TEAM">Η ομάδα</string>
 		<string name="THIRD_PARTY">Τρίτοι</string>
 		<string name="THIRD_PARTY_LINE_1">Η εφαρμογή χρησιμοποιεί τμήματα</string>
 		<string name="THIRD_PARTY_LINE_2">που παρέχονται από τρίτους.</string>

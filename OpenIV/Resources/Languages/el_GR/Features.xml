@@ -8,7 +8,7 @@
 		<Label2 Caption='Δημιουργία στο:'/>
 
 		<btnAdd Caption='Προσθήκη'/>
-		<btnCancel Caption='Άκύρωση'/>
+		<btnCancel Caption='Ακύρωση'/>
 		<btnNewFolder Caption='Νέος φάκελος'/>
 
 		<AeroWindow LinesCount='3'>

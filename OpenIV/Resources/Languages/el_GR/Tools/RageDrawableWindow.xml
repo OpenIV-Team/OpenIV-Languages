@@ -12,7 +12,7 @@
 		<miRight Caption='Δεξιά'/>
 		<miCheckAll Caption='Επιλογή όλων' />
 		<miUncheckAll Caption='Αποεπιλογή όλων' />
-		<paneDictionary Caption='Στοιχεία λεηικού'/>
+		<paneDictionary Caption='Στοιχεία λεξικού'/>
 		<cbMultipleRendering Caption='Πολλαπλή απόδοση'/>
 		<AeroWindow LinesCount='1'>
 			<StringList>

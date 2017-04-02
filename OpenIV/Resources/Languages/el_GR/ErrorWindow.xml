@@ -17,7 +17,7 @@
 				<Item Index='2' Value='Μήνυμα: '/>
 				<Item Index='3' Value='Επιπλέον πληροφορίες:'/>
 				<Item Index='4' Value='Οι επιπλέον πληροφορίες λείπουν.'/>
-				<Item Index='5' Value='Οι πληροφορίες του σφάλματος αντιγράφηκαν στο πρόχειρο.'/>
+				<Item Index='5' Value='Οι πληροφορίες του σφάλματος αντιγράφησαν στο πρόχειρο.'/>
 			</StringList>
 		</AeroWindow>
 	</ErrorWindow>

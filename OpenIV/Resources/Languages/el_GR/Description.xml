@@ -19,7 +19,7 @@
 	<type Name="Περιεχόμενο που έχει δημιουργηθεί από χρήστες (JSON)">
 		<ext>ugc</ext>
 	</type>
-	<type Name="Όριο συγκρούσης">
+	<type Name="Όριο σύγκρουσης">
 		<ext>bnd</ext>
 	</type>
 	<type Name="Μεταδεδομένα (PSO/RSC)">

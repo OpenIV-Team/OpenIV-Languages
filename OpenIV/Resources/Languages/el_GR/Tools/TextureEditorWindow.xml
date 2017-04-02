@@ -57,7 +57,7 @@
 		
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">Το DirectX 11 δεν είναι διαθέσιμο</string>
-		<string name="DX11_NOT_INIT_TEXT">Το $AppName$ δεν μπορεί να εκκινήση τη συσκευή DirectX 11.\nΗ δυνατότητες επεξεργασίας δεν είναι διαθέσιμες για αυτό το αρχείο.</string>
+		<string name="DX11_NOT_INIT_TEXT">Το $AppName$ δεν μπορεί να εκκίνηση τη συσκευή DirectX 11.\nΗ δυνατότητες επεξεργασίας δεν είναι διαθέσιμες για αυτό το αρχείο.</string>
 		
 		<!-- help -->
 		<string name="HELP_TITLE">Επεξεργαστής υφών - βοήθεια</string>

@@ -31,7 +31,7 @@
 		<Item Index='27' Value='Το $AppName$ δεν μπορεί να εκκινήσει το Direct3D.'/>
 		<Item Index='28' Value='Εκκίνηση $RageGAME_SHORT$'/>
 		<Item Index='29' Value="Το $AppName$ δεν μπορεί να εντοπίσει το συσχετισμένο αρχείο IDE."/>
-		<Item Index='30' Value="Το $AppName$ δεν μπορεί να ανοίξει το αρχείο. Ορίστε μία λίστα πιθανών αιτιών:\n\nΑπαγορεύεται η πρόσβαση. Δοκιμάστε να εκκινήσετε το $AppName$ με δικαιώματα διαχειρηστή.\nΆλλη διεργασία χρησιμοποιεί το αρχείο. Κλείστε άλλα προγράμματα και δοκιμάστε ξανά.\n\n"/>	
+		<Item Index='30' Value="Το $AppName$ δεν μπορεί να ανοίξει το αρχείο. Ορίστε μία λίστα πιθανών αιτιών:\n\nΑπαγορεύεται η πρόσβαση. Δοκιμάστε να εκκινήσετε το $AppName$ με δικαιώματα διαχειριστή.\nΆλλη διεργασία χρησιμοποιεί το αρχείο. Κλείστε άλλα προγράμματα και δοκιμάστε ξανά.\n\n"/>	
 		<Item Index='31' Value='Φάκελος προορισμού:'/>
 		<Item Index='32' Value='Αδυναμία ανοίγματος αρχειοθήκης: Άγνωστο σφάλμα.'/>
 		<Item Index='33' Value='Αδυναμία ανοίγματος αρχειοθήκης: Η διεύθυνση δεν βρέθηκε.'/>
@@ -43,10 +43,10 @@
 		<Item Index='39' Value='$AppName$ - Δεν υπάρχει συσκευή αναπαραγωγής ήχου'/>
 		<Item Index='40' Value='Αδυναμία αναπαραγωγής αρχείου ήχου. Δεν υπάρχει διαθέσιμη συσκευή αναπαραγωγής ήχου.'/>
 		<Item Index='41' Value='Το $AppName$ δεν μπορεί να βρει κατάλληλο πρόγραμμα χειρισμού αρχείων.\nΔιαδρομή αρχείου: "%s"'/>
-		<Item Index='42' Value='Το $AppName$ δεν μπορεί να βρει ή να ανοίξει αυτό το αρχείο.\nFile path: "%s"'/>
+		<Item Index='42' Value='Το $AppName$ δεν μπορεί να βρει ή να ανοίξει αυτό το αρχείο.\nΔιαδρομή αρχείου: "%s"'/>
 		<Item Index='43' Value='Το $AppName$ δεν μπορεί να ανοίξει αυτό το αρχείο γιατί ξεπερνάει τα 256 Megabytes.'/>
 		<Item Index='44' Value='Το $AppName$ δεν μπορεί να δείξει το περιεχόμενο αυτού του αρχείου. Το αρχείο δεν μπορεί να αποθηκευτεί ως XML, κωδικός σφάλματος: %s'/>
-		<Item Index='45' Value='Το $AppName$ δεν μπορεί να ανοίξει αυτό το αρχείο. Error code: %s'/>
+		<Item Index='45' Value='Το $AppName$ δεν μπορεί να ανοίξει αυτό το αρχείο. Κωδικός σφάλματος: %s'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="Εκκίνηση $RageGAME_SHORT$" Hint="Εκκίνηση $RageGAME$"/>
@@ -54,11 +54,11 @@
 		<item Name="Tools.Common.HashGenerator" Title="Γεννήτρια hash" Hint="Άνοιγμα Γεννήτριας hash"/>
 		<item Name="Tools.Common.PackageInstaller" Title="Εγκαταστατής πακέτων" Hint="Άνοιγμα Εγκαταστατή πακέτων"/>
 		<item Name="Tools.GTAIV.PlacementSearch" Title="Αναζητητής θέσης" Hint="Άνοιγμα Αναζητητή θέσης"/>
-		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Εύρεση τοποθεσίας" Hint="Άνοιγα Αναζητητή θέσης"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Εύρεση τοποθεσίας" Hint="Άνοιγμα Αναζητητή θέσης"/>
 		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Εύρεση στο IDE" Hint=""/>
 		<item Name="Tools.GTAIV.AnimViewer" Title="Προβολέας κινήσεων" Hint="Άνοιγμα Προβολέα κινήσεων"/>
 		<item Name="Tools.GTAV.ASIManager" Title="Διαχειριστής ASI" Hint="Διαχειριστής ASI"/>	
-		<item Name="Files.Common.AudioPlayer" Title="Αναπαραγωγέας ήχου" Hint=""/>	
+		<item Name="Files.Common.AudioPlayer" Title="Αναπαραγωγός ήχου" Hint=""/>	
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Εξαγωγή σε openFormats (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer" Title="Προβολέας GXT" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="Προβολέας GXT2" Hint=""/>

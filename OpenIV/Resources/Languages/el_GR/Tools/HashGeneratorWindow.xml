@@ -6,7 +6,7 @@
 		<!-- Button's -->
 		<btnLoadFromFile Caption='Εισαγωγή από αρχείο' />
 		<btnGenerate Caption='Δημιουργία' />
-		<btnSaveToFile Caption='Απουήκευση σε αρχείο' />
+		<btnSaveToFile Caption='Αποθήκευση σε αρχείο' />
 		<cbCaseSensitive Caption='Συμφωνία πεζών-κεφαλαίων' />
 		<!-- Panel's -->
 		<pnlLeft Caption='Είσοδος:' />

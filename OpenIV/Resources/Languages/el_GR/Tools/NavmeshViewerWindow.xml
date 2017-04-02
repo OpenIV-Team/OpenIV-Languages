@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<NavmeshViewerWindow Caption='$AppName$ Navmesh viewer' />		
+	<NavmeshViewerWindow Caption='Προβολέας NavMesh $AppName$' />		
 	<RenderUI>
 		<string name="HELP_TITLE">Προβολέας NavMesh - βοήθεια</string>
 		<string name="EDGES">Άκρες:</string>

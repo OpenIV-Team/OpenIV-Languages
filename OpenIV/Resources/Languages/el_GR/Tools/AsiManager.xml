@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
+	<FiveAsiManagerWindow Caption='Διαχειριστής ASI - $AppName$'/>
 	<RenderUI>
 		<string name="TITLE">$RageGAME_SHORT$ - Διαχειριστής ASI</string>
 		
