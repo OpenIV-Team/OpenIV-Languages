@@ -81,7 +81,7 @@
 				<Item Index="68" Value="Копирование..."/>
 				<Item Index="69" Value="$AppName$ - Подтверждение"/>
 				<Item Index="70" Value='Все изменения, сделанные в архиве "mods\update\update.rpf" будут потеряны.\nВы хотите продолжить?'/>
-				<Item Index="71" Value=""/>
+				<Item Index="71" Value='Искать "%s" во всех архивах'/>
 				<Item Index="72" Value=""/>
 				<Item Index="73" Value=""/>
 				<Item Index="74" Value=""/>

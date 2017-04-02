@@ -56,8 +56,8 @@
     Зажмите H - Для временного скрытия интерфейса
 ]]>
 		</text>
-		<string name="CHECK_ALL">Check all</string>
-		<string name="UNCHECK_ALL">Uncheck all</string>
+		<string name="CHECK_ALL">Отметить все</string>
+		<string name="UNCHECK_ALL">Снять выделение</string>
 		<string name="MULTIPLE_RENDERING">Множественный рендеринг</string>
 		<string name="BOUND_TYPE">Тип:</string>
 		<string name="CHILD_COUNT">Количество:</string>

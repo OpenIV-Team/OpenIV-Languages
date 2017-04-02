@@ -17,8 +17,8 @@
 	<RenderUI>
 		<string name="TOGGLE_DAMAGED">Поврежденный вид:</string>	
 		<string name="HELP_TITLE">Model Viewer - Справка</string>
-		<string name="CHECK_ALL">Check all</string>
-		<string name="UNCHECK_ALL">Uncheck all</string>
+		<string name="CHECK_ALL">Отметить все</string>
+		<string name="UNCHECK_ALL">Снять выделение</string>
 		<string name="ALSO_HIDE_CHILDREN">Also hide children</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Используйте мышь, чтобы осмотреться, для перемещения используйте следующие клавиши:
