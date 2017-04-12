@@ -2,10 +2,10 @@
 <Translation>
 	<FiveAsiManagerWindow Caption='Менеджер ASI - $AppName$'/>
 	<RenderUI>
-		<string name="TITLE">GTA V - Менеджер ASI</string>
+		<string name="TITLE">$RageGAME_SHORT$ - Менеджер ASI</string>
 		
-		<string name="RPF_NOTE">Вам потрібно інсталювати завантажувач ASI та додаток OpenIV.ASI до GTA V, інакше гра не завантажуватиме відредаговані архіви RPF.</string>
-		<string name="ONLINE_NOTE">Не намагайтеся грати у GTA Online з відредагованими архівами RPF, інакше ваш профіль Social Club може бути заблокований.</string>
+		<string name="RPF_NOTE">Вам потрібно інсталювати завантажувач ASI та додаток $ModsFolderAsi$ до $RageGAME_SHORT$, інакше гра не завантажуватиме відредаговані архіви RPF.</string>
+		<string name="ONLINE_NOTE">Не намагайтеся грати у $RageGAME_MP$ з відредагованими архівами RPF, інакше ваш профіль Social Club може бути заблокований.</string>
 		
 		<string name="INSTALL">Інсталювати</string>
 		<string name="UPDATE">Оновити</string>
@@ -19,8 +19,8 @@
 		<string name="ASI_LOADER">Завантажувач ASI</string>
 		<string name="ASI_LOADER_DESCRIPTION">Завантажувач ASI — це бібліотека динамічного компонування, що завантажує користувацькі бібліотеки з розширенням .asi в памʼять процесу гри.</string>
 		
-		<string name="OPENIV_ASI">OpenIV.ASI</string>
-		<string name="OPENIV_ASI_DESCRIPTION">Цей ASI-додаток дозволяє грі завантажувати відредаговані архіви RPF та забезпечує її взаємодію з папкою “mods”.</string>
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Цей ASI-додаток дозволяє грі завантажувати відредаговані архіви RPF та забезпечує її взаємодію з папкою “$ModsFolder$”.</string>
 		
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
 		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Прибирає обмеження переміщування Вільної камери в Редакторі Rockstar.</string>
@@ -31,9 +31,11 @@
 		<string name="UNINSTALL_FAILED">Помилка видалення</string>
 		<string name="UNINSTALL_FAILED_TEXT">Сталася помилка видалення. Перезапустіть $AppName$ та спробуйте знов.</string>
 		
-		<string name="MODS_FOLDER_TITLE">Створити папку “mods”</string>
-		<string name="MODS_FOLDER_TEXT">Папка “mods” дозволить вам модифікувати гру без редагування оригінальних файлів та швидко перемикатися між оригінальними та модифікованими файлами гри.</string>
-		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Показувати сповіщення під час редагування архівів поза папкою “mods”</string>
-		<string name="MODS_FOLDER_LEARN_MORE">Дізнатися більше про папку “mods”</string>
+		<string name="MODS_FOLDER_TITLE">Створити папку “$ModsFolder”</string>
+		<string name="MODS_FOLDER_TEXT">Папка “$ModsFolder” дозволить вам модифікувати гру без редагування оригінальних файлів та швидко перемикатися між оригінальними та модифікованими файлами гри.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Показувати сповіщення під час редагування архівів поза папкою “$ModsFolder”</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Дозволяти редагувати архіви лише всередині папки “$ModsFolder”</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">Ви можете змінити ці налаштування будь-коли в розділі налаштувань $AppName$.</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Дізнатися більше про папку “$ModsFolder”</string>
 	</RenderUI>
 </Translation>

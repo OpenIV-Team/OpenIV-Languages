@@ -18,7 +18,7 @@
 		<N3 Caption='Лише ця команда'/>
 		<!-- Text menu -->
 		<miCopyText Caption='Копіювати'/>
-		<miFind Caption='Шукати…'/>
+		<miFind Caption='Шукати...'/>
 		<miSelectAll Caption='Вибрати все'/>
 		<miCopyAll Caption='Копіювати все'/>
 		<!-- Save code menu -->
