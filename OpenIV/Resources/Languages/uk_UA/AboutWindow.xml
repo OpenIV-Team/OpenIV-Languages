@@ -12,5 +12,6 @@
 		<string name="ALPHABETICALLY">(за алфавітним порядком)</string>
 		<string name="SPECIAL_THANKS_TO">Окрема подяка</string>
 		<string name="LICENSE_TERMS">Умови ліцензійної угоди</string>
+		<string name="LOCALIZATION">Перекладачи</string>
 	</RenderUI>
 </Translation>

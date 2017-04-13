@@ -80,8 +80,8 @@
 				<Item Index="67" Value="Ви можете знов увімкнути це сповіщення в розділі налаштувань."/>
 				<Item Index="68" Value="Триває копіювання…"/>
 				<Item Index="69" Value="$AppName$ - Підтвердження"/>
-				<Item Index="70" Value='Ви втратите всі зміни, що зроблено в архіві “mods\update\update.rpf”.\nВи дійсно бажаєте продовжити?'/>
-				<Item Index="71" Value=""/>
+				<Item Index="70" Value='Ви втратите всі зміни, що зроблено в архіві “$ModsFolderPath$update\update.rpf”.\nВи дійсно бажаєте продовжити?'/>
+				<Item Index="71" Value="Шукати “%s” в усіх архівах"/>
 				<Item Index="72" Value=""/>
 				<Item Index="73" Value=""/>
 				<Item Index="74" Value=""/>
@@ -95,23 +95,26 @@
 		<!-- Others -->
 		<SearchBox BannerText="Фільтр"/>
 		<!-- Notification: GTA V (ASI) -->
-		<lbGTAVPluginTitle Caption="Інсталюйте додаток до GTA V"/>
-		<lbGTAVPluginText Caption="Вам потрібно інсталювати завантажувач ASI та додаток OpenIV.ASI до GTA V, інакше гра не завантажуватиме відредаговані архіви RPF.\nНе намагайтеся грати у GTA Online з відредагованими архівами RPF, інакше ваш профіль Social Club може бути заблокований."/>
+		<lbGTAVPluginTitle Caption="Інсталюйте додаток до $RageGAME_SHORT$"/>
+		<lbGTAVPluginText Caption="Вам потрібно інсталювати завантажувач ASI та додаток $ModsFolderAsi$ до $RageGAME_SHORT$, інакше гра не завантажуватиме відредаговані архіви RPF.\nНе намагайтеся грати у $RageGAME_MP$ з відредагованими архівами RPF, інакше ваш профіль Social Club може бути заблокований."/>
 		<btnGTAVPluginAction Caption="Менеджер ASI"/>
 		<!-- Notification: copy to mods folder -->
-		<lbNotInModsTitle Caption='Папка “mods”'/>
-		<lbNotInModsText Caption='Архів, що ви зараз редагуєте, розташований не в папці “mods”.'/>
-		<btnHideThisNotification Caption="Приховати це сповіщення"/>
-		<btnCopyToMods Caption='Копіювати в папку “mods”'/>
-		<btnShowInMods Caption='Відкрити в папці “mods”'/>
+		<lbNotInModsTitle Caption='Папка “$ModsFolder$”'/>
+		<lbNotInModsText Caption='Архів, що ви зараз редагуєте, розташований не в папці “$ModsFolder$”.'/>
+		<lbEditModeDisabledDueToModsFolder Caption='Неможливо редагувати цей архів.\nПерейдіть до папки “$ModsFolder$” або дозвольте редагування в розділі налаштувань.'/>
+		<btnCopyToMods Caption='Копіювати в папку “$ModsFolder$”'/>
+		<btnShowInMods Caption='Відкрити в папці “$ModsFolder$”'/>
+		<btnChangeModsFolderSettings Caption="Змінити налаштування папки “$ModsFolder$”"/>
 		<!-- Notification: update.rpf -->
-		<lbCopyNewUpdateToModsTitle Caption='Оновлення Grand Theft Auto V'/>
-		<lbCopyNewUpdateToMods Caption='У папці “mods” виявлено застарілу версію файлу “update.rpf”. Вам потрібно скопіювати нову версію “update.rpf” в папку “mods”, інакше процес гри може аварійно завершитись.'/>
-		<btnCopyUpdateToMods Caption='Копіювати нову версію в папку “mods”'/>
+		<lbCopyNewUpdateToModsTitle Caption='Оновлення $RageGAME$'/>
+		<lbCopyNewUpdateToMods Caption='У папці “$ModsFolder$” знайдено застарілу версію файлу “update.rpf”. Вам потрібно скопіювати нову версію “update.rpf” в папку “$ModsFolder$”, інакше процес гри може аварійно завершитись.'/>
+		<btnCopyUpdateToMods Caption='Копіювати нову версію в папку “$ModsFolder$”'/>
 		<!-- Notification: Admin mode -->
 		<lbAdminModeTitle Caption='Режим адміністратора'/>
 		<lbAdminModeText Caption='$AppName$ запущено із правами адміністратора. Деякі функції, наприклад перетягування файлів із Провідника Windows і назад, можуть не працювати. Зазвичай запускати $AppName$ із правами адміністратора не потрібно.'/>
 		<btnAdminModeAction Caption='Що я можу зробити?'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='Очистити пошуковий фільтр'/>
 	</MainWindow>
 
 	<ActionsModule>
@@ -158,6 +161,7 @@
 		<actCopyPath Caption="Копіювати шлях" Hint="Копіювати шлях до вибраного файлу"/>
 		<actExtract Caption="Видобути…" Hint="Видобути файл"/>
 		<actSaveContent Caption="Зберегти вміст" Hint="Зберегти вміст файлу"/>
+		<actSaveRawContent Caption="Зберегти необроблений вміст" Hint="Експортувати необроблений вміст файлу"/>
 		<actRename Caption="Перейменувати" Hint="Перейменувати файл"/>
 		<actAdd Caption="Додати" Hint="Додати новий файл"/>
 		<actReplace Caption="Замінити" Hint="Замінити вибраний файл"/>
@@ -168,8 +172,8 @@
 		<actResourceObjectExplorer Caption="Переглядач ресурсів" Hint=""/>
 		<actShowInWindowsExplorer Caption="Відкрити у Провіднику Windows" Hint=""/>
 		<actItemAddToFavorites Caption="Додати до уподобань…" Hint=""/>
-		<actCopyToModsFolder Caption='Копіювати в папку “mods”' Hint=""/>
-		<actShowInModsFolder Caption='Відкрити в папці “mods”' Hint=""/>
+		<actCopyToModsFolder Caption='Копіювати в папку “$ModsFolder$”' Hint=""/>
+		<actShowInModsFolder Caption='Відкрити в папці “$ModsFolder$”' Hint=""/>
 		<!-- New menu -->
 		<actMultipleImport Caption="Перетворення openFormats" Hint="Множинне перетворення"/>
 		<actNewFolder Caption="Папку" Hint="Створити нову папку"/>
@@ -218,8 +222,8 @@
 		<actTreeCopyAsPath Caption="Копіювати шлях" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Відкрити у Провіднику Windows" Hint=""/>
 		<actTreeCloseArchive Caption="Закрити архів" Hint=""/>
-		<actTreeCopyToModsFolder Caption='Копіювати в папку “mods”' Hint=""/>
-		<actTreeShowInModsFolder Caption='Відкрити в папці “mods”' Hint=""/>
+		<actTreeCopyToModsFolder Caption='Копіювати в папку “$ModsFolder$”' Hint=""/>
+		<actTreeShowInModsFolder Caption='Відкрити в папці “$ModsFolder$”' Hint=""/>
 		<actTreeCollapseThis Caption='Згорнути' Hint=""/>
 		<actTreeCollapseAll Caption='Згорнути все' Hint=""/>
 		<!-- Strings -->
@@ -261,8 +265,8 @@
 				<Item Index="33" Value="$AppName$ ще не вміє створювати архіви $RageGAME_SHORT$.\nБудь ласка, почекайте на наступню версію."/>
 				<Item Index="34" Value="Відкрити файл за допомогою"/>
 				<Item Index="35" Value="%s у %s"/>
-				<Item Index="36" Value="%s - Результати пошуку у “%s”"/>
-				<Item Index="37" Value="%s - Результати пошуку у “%s” (%s)"/>
+				<Item Index="36" Value="%s - Результати пошуку в “%s”"/>
+				<Item Index="37" Value="%s - Результати пошуку в “%s” (%s)"/>
 				<Item Index="38" Value="Фільтр"/>
 				<Item Index="39" Value="$AppName$ - Помилка"/>
 				<Item Index="40" Value="Не вдалося видобути файли."/>
@@ -282,7 +286,7 @@
 		<!-- Label's -->
 		<lbTitle Caption="Режим редагування"/>
 		<lbText Caption="Увімкніть режим редагування, щоб додати або відредагувати файли.\nВи можете встановити його як режим за промовчанням в розділі налаштувань $AppName$."/>
-		<lbInfo Caption='Увімкнути режим можна за допомогою кнопки «Редагування»'/>
+		<lbInfo Caption='Увімкнути режим можна за допомогою кнопки «Редагування».'/>
 		<!-- Button's -->
 		<btnClose Caption="Закрити"/>
 		<cbDoNotShow Caption="Більше не показувати це повідомлення"/>
@@ -319,72 +323,74 @@
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Налаштування">
-		<!-- Tab's -->
-		<tabMain Caption="Загальні"/>
+		<!-- Languages -->
 		<tabLang Caption="Мова"/>
-		<tabApps Caption="Застосунки"/>
-		<tabFormats Caption="openFormats"/>
-		<tabTools Caption="Інструменти"/>
-		<tabGame Caption="Гра"/>
-		<tabViewers Caption="Переглядачі"/>
-		<!-- Button's -->
-		<btnClose Caption="Закрити"/>
-		<!-- Action's -->
-		<actAppAdd Caption="Додати"/>
-		<actAppEdit Caption="Редагувати"/>
-		<actAppDel Caption="Видалити"/>
-		<!-- Link's -->
-		<LnkWebApps Caption="Завантажити більше інструментів для модинґу $RageGAME_SHORT$"/>
+		<lbLang Caption="Виберіть мову інтерфейсу"/>
 		<LnkWebLangs Caption="Перекласти $AppName$ іншою мовою"/>
-		<tbChangeGame Caption="Змінити каталог"/>
-		<tbFileAssociation Caption="$AppName$ як програма за промовчанням"/>
-		<btnSaveShaderInformation Caption="Зберегти інформацію про шейдери openFormats"/>
-		<!-- CheckBox's -->
-		<cbAlwaysOpenArchiveAfterRebuild Caption="Завжди відкривати архів після дефрагментації, якщо оброблено один архів"/>
-		<cbProtectModels Caption="Увімкнути опцію захисту геометрії (забороняє подальше перетворення на openFormats) за промовчанням"/>
-		<cbNotExportTextureToFolder Caption="Не зберігати текстури в окремі папки при перетворюванні .#td"/>
-		<cbMinimizeAtStartGame Caption="Згортати $AppName$ при запуску гри"/>
-		<cbInstallUpdatesAutomatically Caption="Інсталювати оновлення автоматично"/>
-		<cbRenderAntialiasing Caption="Увімкнути екранне згладжування (anti-aliasing)"/>
-		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Використовувати Кошик замість видалення при роботі з елементами поза архівами"/>
-		<cbShowRecycleConfirmation Caption="Відображати підтвердження переміщування елементів до Кошика"/>
-		<cbCloseArchivesAtStartGame Caption="Закривати відкриті архіви при запуску гри"/>
-		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Відображати сповіщення під час редагування архівів поза папкою “mods”'/>
-		<cbClearSearchFilterAfterOpeningArchive Caption='Очищати фільтр після відкриття архіву'/>
-		<!-- Label's -->
+		<!-- Game -->
+		<tabGame Caption="Гра"/>
 		<gbGamePath Caption="Каталог $RageGAME_SHORT$"/>
 		<lbCurrentGamePath Caption="Поточний каталог:"/>
-		<lbLang Caption="Виберіть мову інтерфейсу:"/>
-		<lbWorkMode Caption="Режим роботи за промовчанням"/>
-		<ttRageExe Caption="Щоб $AppName$ працював, каталог мусить містити файл “$RageEncryptionStorage$”"/>
-		<lbDefTextureFormat Caption="Формат текстур за промовчанням"/>
-		<lbDefTextureFormatGlb Caption="Формат текстур за промовчанням"/>
-		<gbModels Caption="Перетворення моделей ODR/ODD/OFT"/>
+		<tbChangeGame Caption="Змінити каталог"/>
+		<ttRageExe Caption="Для правильної роботи $AppName$ каталог має містити “$RageEncryptionStorage$”."/>
+		<!-- General -->
+		<tabMain Caption="Загальні"/>
 		<lbDefaultGame Caption="Виберіть гру за промовчанням"/>
-		<lbRenderBackgroundColor Caption="Колір тла переглядачів"/>
-		<lbCameraControl Caption="Схема керування камерою"/>
-		<lbChooseTheme Caption="Виберіть тему"/>
-		<!-- Work Mode's -->
+		<lbWorkMode Caption="Режим роботи за промовчанням"/>
 		<WorkMode>
 			<Items>
 				<Item Index="0" Value="Редагування"/>
 				<Item Index="1" Value="Лише читання"/>
 			</Items>
 		</WorkMode>
-		<!-- Render Background Color -->
-		<cbRenderBackgroundColor>
-			<Items>
-				<Item Index="0" Value="За промовчанням"/>
-				<Item Index="1" Value="Користувацький колір"/>
-			</Items>
-		</cbRenderBackgroundColor>
-		<!-- App Theme -->
+		<lbDefTextureFormatGlb Caption="Формат текстур за промовчанням"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption="Завжди відкривати архів після дефрагментації, якщо оброблено один архів"/>
+		<cbMinimizeAtStartGame Caption="Згортати $AppName$ при запуску гри"/>
+		<cbInstallUpdatesAutomatically Caption="Інсталювати оновлення автоматично"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Використовувати Кошик замість видалення при роботі з елементами поза архівами"/>
+		<cbShowRecycleConfirmation Caption="Відображати підтвердження переміщування елементів до Кошика"/>
+		<cbCloseArchivesAtStartGame Caption="Закривати відкриті архіви при запуску гри"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Очищати фільтр після відкриття архіву'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Альтернативний (старий) спосіб додавання папок при перетягуванні'/>
+		<tbFileAssociation Caption="Налаштування асоціації файлів"/>
+		<!-- "mods" folder -->
+		<tabModsFolder Caption="Папка “$ModsFolder$”"/>
+		<lbModsFolderText Caption="Тут ви можете змінити налаштування, повʼязані з папкою “$ModsFolder$”."/>
+		<lbModsFolderNote1 Caption="Налаштування нижче недоступні, бо $ModsFolderAsi$ не інстальовано."/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption="Відображати сповіщення під час редагування архівів поза папкою “ModsFolder$”"/>
+		<cbAllowEditModeOnlyInModsFolder Caption='Дозволити редагування лише для архівів у папці “ModsFolder$”'/>
+		<!-- Tools -->
+		<tabViewers Caption="Переглядачі"/>
+		<lbChooseTheme Caption="Виберіть тему"/>
 		<cbAppTheme>
 			<Items>
 				<Item Index="0" Value="Світла"/>
 				<Item Index="1" Value="Темна"/>
 			</Items>
 		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Колір тла переглядачів"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="За промовчанням"/>
+				<Item Index="1" Value="Користувацький колір"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="Схема керування камерою"/>
+		<cbRenderAntialiasing Caption="Увімкнути екранне згладжування (anti-aliasing)"/>
+		<lbChooseEditorTheme Caption="Вибрати кольорову схему текстового редактора"/>
+		<!-- openFormats -->
+		<tabFormats Caption="openFormats"/>
+		<lbDefTextureFormat Caption="Формат текстур за промовчанням"/>
+		<cbNotExportTextureToFolder Caption="Не зберігати текстури в окремі папки при перетворюванні .#td"/>
+		<gbModels Caption="Перетворення моделей ODR/ODD/OFT"/>
+		<cbProtectModels Caption="Увімкнути захист геометрії (забороняє подальше перетворення на openFormats) за промовчанням"/>
+		<btnSaveShaderInformation Caption="Зберегти інформацію про шейдери openFormats"/>
+		<!-- Misc + old -->
+		<btnClose Caption="Закрити"/>
+		<actAppAdd Caption="Додати"/>
+		<actAppEdit Caption="Редагувати"/>
+		<actAppDel Caption="Видалити"/>
+		<LnkWebApps Caption="Завантажити більше інструментів для модингу $RageGAME_SHORT$"/>
 		<!-- String's -->
 		<AeroWindow LinesCount="10">
 			<StringList>

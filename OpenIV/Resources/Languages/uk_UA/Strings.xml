@@ -42,27 +42,33 @@
 		<Item Index='38' Value='Не вдалося створити архів.'/>
 		<Item Index='39' Value='$AppName$ - Немає пристрою відтворення звуку'/>
 		<Item Index='40' Value='Неможливо відтворити звуковий файл. Немає доступного пристрою відтворення звуку.'/>
+		<Item Index='41' Value='$AppName$ не може знайти дескриптор файлу.\nШлях до файлу: “%s”.'/>
+		<Item Index='42' Value='$AppName$ не може знайти або відкрити файл.\nШлях до файлу: “%s”.'/>
+		<Item Index='43' Value='$AppName$ не може відкрити файл, бо його розмір більше за 256 МБ.'/>
+		<Item Index='44' Value='$AppName$ не може відкрити вміст файлу. Неможливо зберегти файл XML. Код помилки: %s.'/>
+		<Item Index='45' Value='$AppName$ не може відкрити файл. Код помилки: %s.'/>
 	</StringList>
 	<tools>
-		<item Name="Tools.Common.Search" Title="Пошук" Hint="Розпочати пошук"/>
+		<item Name="Tools.Common.RunGame" Title="Запуск $RageGAME_SHORT$" Hint="Запустити $RageGAME$"/>
+ 		<item Name="Tools.Common.Search" Title="Пошук" Hint="Розпочати пошук"/>
+		<item Name="Tools.Common.HashGenerator" Title="Генератор хеш-кодів" Hint="Відкрити генератор хеш-кодів"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Інсталювач пакунків" Hint="Відкрити Інсталювач пакунків"/>
 		<item Name="Tools.GTAIV.PlacementSearch" Title="Пошук розташування" Hint="Розпочати пошук розташування"/>
 		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Знайти розташування" Hint="Розпочати пошук розташування"/>
-		<item Name="Tools.Common.HashGenerator" Title="Генератор геш-кодів" Hint="Відкрити генератор геш-кодів"/>
-		<item Name="Tools.Common.RunGame" Title="Запустити $RageGAME_SHORT$" Hint="Запуск $RageGAME$"/>	
-		<item Name="Files.GTAEngine.TextViewer" Title="Переглядач GXT" Hint=""/>		
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Знайти в IDE" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Переглядач анімацій" Hint="Відкрити переглядач анімацій"/>
+		<item Name="Tools.GTAV.ASIManager" Title="Менеджер ASI" Hint="Відкрити Менеджер ASI"/>	
+		<item Name="Files.Common.AudioPlayer" Title="Аудіопрогравач" Hint=""/>	
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Зберегти як openFormats (*.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer" Title="Переглядач GXT" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="Переглядач GXT2" Hint=""/>
 		<item Name="Files.Resources.TextureEditor" Title="Переглядач текстур" Hint=""/>
 		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Редактор текстур" Hint=""/>				
-		<item Name="Files.Common.AudioPlayer" Title="Аудіопрогравач" Hint=""/>	
 		<item Name="Files.Resources.CollisionViewer" Title="Переглядач файлів колізії" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="Переглядач моделей WDR/WDD" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="Переглядач моделей WFT" Hint=""/>
 		<item Name="Files.Resources.NavmeshViewer" Title="Переглядач навмешів" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Шукати в IDE" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="Переглядач анімацій" Hint="Відкрити Переглядач анімацій"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Інсталювач пакетів" Hint="Відкрити Інсталювач пакетів"/>
-		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Зберегти як openFormats (.oac)" Hint=""/>
-		<item Name="Files.GTAEngine.TextViewer2" Title="Переглядач GXT2" Hint=""/>
-		<item Name="Tools.GTAV.ASIManager" Title="Менеджер ASI" Hint="ASI Manager"/>	
-		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Зберегти скелет як openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Зберегти скелет як openFormats (*.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Редагувати вбудовані текстури" Hint="Відкрити Редактор вбудованих текстур"/>
 	</tools>
 </GlobalStrings>

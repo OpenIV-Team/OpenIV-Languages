@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<HashGeneratorWindow Caption='Генератор геш-кодів - $AppName$'>
+	<HashGeneratorWindow Caption='Генератор хеш-кодів - $AppName$'>
 		<!-- Label's -->
 		<lbOutputFormat Caption='Вихідний формат:' />
 		<!-- Button's -->
@@ -10,6 +10,6 @@
 		<cbCaseSensitive Caption='З урахуванням регістра' />
 		<!-- Panel's -->
 		<pnlLeft Caption='Текстові рядки:' />
-		<pnlRight Caption='Геш-коди:' />    
+		<pnlRight Caption='Хеш-коди:' />    
 	</HashGeneratorWindow>
 </Translation>

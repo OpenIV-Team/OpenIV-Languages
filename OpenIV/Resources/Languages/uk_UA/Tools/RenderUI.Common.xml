@@ -91,5 +91,12 @@
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">При збереженні можлива втрата якості.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap image (*.bmp)</string>
 
+		<!-- Edit -->
+		<string name="UNDO">Назад</string>
+		<string name="REDO">Уперед</string>
+		<string name="CUT">Вирізати</string>
+		<string name="COPY">Копіювати</string>
+		<string name="PASTE">Уставити</string>		
+
 	</RenderUI>
 </Translation>

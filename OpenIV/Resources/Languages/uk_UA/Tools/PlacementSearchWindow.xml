@@ -5,15 +5,15 @@
 
 	<RenderUI>
 		<string name="SEARCH_FOR_NAME">Шукати за імʼям</string>
-		<string name="SEARCH_FOR_HASH">Шукати за гешем</string>
+		<string name="SEARCH_FOR_HASH">Шукати за хешем</string>
 
 		<string name="BANNER_TEXT_NAME">Уведіть імʼя моделі</string>
-		<string name="BANNER_TEXT_HASH">Уведіть геш-код моделі</string>
+		<string name="BANNER_TEXT_HASH">Уведіть хеш-код моделі</string>
 
 		<string name="SEARCH">Шукати</string>
 		<string name="STOP_SEARCH">Припинити</string>
-		<string name="INCORRECT_HASH">Недійсний геш-код</string>
-		<string name="INCORRECT_HASH_TEXT">“%S” не є допустимим геш-кодом.</string>
+		<string name="INCORRECT_HASH">Недійсний хеш-код</string>
+		<string name="INCORRECT_HASH_TEXT">“%S” не є допустимим хеш-кодом.</string>
 
 		<string name="FILE_INFORMATION">Інформація про файл</string>
 		<string name="SHOW_DEFINITION">Відкрити рядок у файлі IDE</string>
