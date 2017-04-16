@@ -52,8 +52,8 @@
 		<string name="COUNT_">Total: </string>
 		<string name="SELECT_OBJECT">Selecionar objeto</string>
 		<string name="COPY_SKELETON_INFO">Copiar as informações do skeleton</string>
-		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Não foi possível copiar</string>
-		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Falha ao copiar para o clipboard.</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Não é possível copiar</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Falha ao copiar para a área de transferência.</string>
 
 		<!-- Information tabs -->
 		<string name="INFO_GEOMETRIES">Geometrias</string>
@@ -90,6 +90,12 @@
 		<string name="EXPORT_TEXTURE_FORMAT_JPG">Imagem JPEG (*.jpg)</string>
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">A qualidade pode ser perdida durante a exportação.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Imagem Bitmap (*.bmp)</string>
-
+		<!-- Edit -->
+		<string name="UNDO">Desfazer</string>
+		<string name="REDO">Refazer</string>
+		<string name="CUT">Cortar</string>
+		<string name="COPY">Copiar</string>
+		<string name="PASTE">Colar</string>
+		
 	</RenderUI>
 </Translation>

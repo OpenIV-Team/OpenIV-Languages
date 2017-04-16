@@ -7,7 +7,7 @@
 		<string name="INSTALL">Instalar</string>
 		<string name="INSTALLING">Instalando</string>
 		<string name="DESCRIPTION">Descrição</string>
-		<string name="ADDITIONAL_INFORMATION">Informação adicional</string>
+		<string name="ADDITIONAL_INFORMATION">Informações adicionais</string>
 		<string name="GREATED_BY">Criado por</string>
 		<string name="SUPPORTED_GAMES">Jogos suportados</string>
 		<string name="VERSION">Versão</string>
@@ -21,15 +21,19 @@
 
 		<string name="SELECT_CONTENT">Selecionar o conteúdo para instalar</string>
 		<string name="SELECT_LOCATION">Selecionar o local para instalar</string>
-		<string name="LOCATION_MODS_FOLDER">pasta "mods"</string>
-		<string name="LOCATION_MODS_FOLDER_TEXT">Instalar este mod dentro da pasta "mods"</string>
-		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED">Esta pacote não pode ser instalado dentro da pasta "mods", porque ele não afeta nenhum arquivo RPF.</string>
+		<string name="LOCATION_MODS_FOLDER">pasta $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Instalar este mod na pasta $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Este pacote não pode ser instalado na pasta $ModsFolder$, porque a pasta $ModsFolder$ não é suportada pelo jogo ($RageGAME$) atual.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Este pacote não pode ser instalado na pasta $ModsFolder$, porque a pasta $ModsFolder$ não é suportada pelo formato do pacote.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Este pacote não pode ser instalado na pasta $ModsFolder$, porque não afeta quaisquer arquivos do RPF.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Este pacote não pode ser instalado na pasta $ModsFolder$, porque o $ModsFolderAsi$ não está instalado.</string>
 		<string name="LOCATION_GAME_FOLDER">Pasta do jogo</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Instalar este mod diretamente na pasta do jogo</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Este pacote não pode ser instalado na pasta do jogo, porque está desativado nas configurações da pasta $ModsFolder$.</string>
 
 		<string name="INSTALLATION_SUCCEEDED">Instalado com êxito</string>
-		<string name="RUN_GAME">Iniciar $RageGAME$</string>
-		<string name="RUN_GAME_TEXT">Inicie o jogo e verifique o que você conseguiu</string>
+		<string name="RUN_GAME">Executar o $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Execute o jogo e dê uma olhada no que você conseguiu</string>
 
 		<string name="INSTALLATION_FAILED">Falha na instalação</string>
 
@@ -38,42 +42,44 @@
 		<string name="INSTALLING_ERROR_TITLE">Erro na instalação do pacote</string>
 
 		<string name="ERROR_GROUP_UNKNOWN">Erro desconhecido.</string>
-		<string name="ERROR_CODE_UNKNOWN">Algo aconteceu. Por favor, verifique o arquivo de log para ver detalhes do erro.</string>
-		<string name="ERROR_INSTALLATION">Um erro fatal ocorreu durante a instalação. Por favor, verifique o arquivo de log para ver detalhes do erro.</string>
-		<string name="CHECK_LOG_FILE">Por favor, verifique o arquivo de log para ver detalhes do erro.</string>
+		<string name="ERROR_GROUP_FATAL">Erro fatal</string>
+		<string name="ERROR_CODE_UNKNOWN">Algo aconteceu. Por favor, verifique o arquivo de registro para ver detalhes do erro.</string>
+		<string name="ERROR_INSTALLATION">Um erro fatal ocorreu durante a instalação. Por favor, verifique o arquivo de registro para ver detalhes do erro.</string>
+		<string name="ERROR_MSXML">O MSXML não está instalado. É necessário para usar o Instalador de Pacotes.</string>		
+		<string name="CHECK_LOG_FILE">Por favor, verifique o arquivo de registro para ver detalhes do erro.</string>
 		
-		<string name="OPEN_INSTALLATION_LOG">Abrir log de instalação</string>
-		<string name="OPEN_LOG_FILE">Abrir arquivo de log</string>
+		<string name="OPEN_INSTALLATION_LOG">Abrir registro de instalação</string>
+		<string name="OPEN_LOG_FILE">Abrir arquivo de registro</string>
 		
 		<!-- LOADING -->
 		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">O arquivo do pacote não é um arquivo ZIP válido.</string>
 		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Extensão de arquivo desconhecida. O arquivo do pacote deve ser .OIV ou .ZIP.</string>
 		<string name="LOADING_ERROR_FILE_NO_ACCESS">Não é possível acessar o arquivo do pacote. Certifique-se de que não é usado por outro processo.</string>
 		<string name="LOADING_ERROR_FILE_NOT_EXISTS">O arquivo do pacote não existe.</string>
-		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Não foi possível abrir o arquivo do pacote.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Não é possível abrir o arquivo do pacote.</string>
 
 		<!-- READING -->
-		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Não foi possível encontrar o arquivo "assembly.xml" neste pacote. É provável que o arquivo não é um Pacote do $AppName$ ou o arquivo está corrompido.</string>
-		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Não foi possível ler "assembly.xml", é provável que o arquivo esteja corrompido.</string>
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Não é possível localizar o arquivo "assembly.xml" neste pacote. É provável que o arquivo não é um Pacote do $AppName$ ou o arquivo está corrompido.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Não é possível ler "assembly.xml", é provável que o arquivo esteja corrompido.</string>
 		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Formato desconhecido de "assembly.xml", é provável que o arquivo esteja corrompido.</string>
 		<string name="READING_ERROR_UNSUPPORTED_VERSION">Este pacote não pode ser instalado com a sua versão do $AppName$.</string>
 		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">A tag "metadata" está faltando no "assembly.xml", é provável que o arquivo esteja corrompido.</string>
 		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">As informações do metadata está faltando ou corrompida no "assembly.xml".</string>
 		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">O "assembly.xml" têm um formato XML inválido ou corrompido.</string>
-		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Não foi possível ler a ID do pacote de "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Não é possível ler a ID do pacote de "assembly.xml".</string>
 		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">A tag "colors" está faltando no "assembly.xml", é provável que o arquivo esteja corrompido.</string>
 		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">As informações de cores está faltando ou corrompida no "assembly.xml".</string>
 		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">As informações do conteúdo está faltando ou corrompida no "assembly.xml".</string>
 		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">A tag "content" está faltando no "assembly.xml", é provável que o arquivo esteja corrompido.</string>
-		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Não foi possível encontrar a pasta "content" neste pacote. É provável que o arquivo não é uma Pacote do $AppName$ ou o arquivo está corrompido.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Não é possível localizar a pasta "content" neste pacote. É provável que o arquivo não é uma Pacote do $AppName$ ou o arquivo está corrompido.</string>
 
 		<!-- INSTALLING -->
-		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Este pacote não pode ser instalado no $RageGAME$. Por favor, verifique a lista de jogos suportados na seção de informação adicional.</string>
-		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Está faltando alguns arquivos no arquivo do pacote.</string>
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Este pacote não pode ser instalado no $RageGAME$. Por favor, verifique a lista de jogos suportados na seção de informações adicionais.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Está faltando alguns arquivos no arquivo do pacote. Por favor, entre em contato com o autor do pacote.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Alguns arquivos estão incorretos no caminho do jogo. Por favor, entre em contato com o autor do pacote.</string>
 
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Este pacote não pode ser desinstalado automaticamente.</string>
 		
 	</RenderUI>
 </Translation>
-

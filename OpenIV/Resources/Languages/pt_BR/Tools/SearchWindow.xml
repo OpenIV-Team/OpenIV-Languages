@@ -3,25 +3,30 @@
 	<SearchWindow Caption='Busca - $AppName$'>
 		<SearchBox BannerText="Buscar"/>
 		<btnGoSearch Caption="Buscar"/>
-		<ebSearchOptions Caption="Opções de busca avançada" ExpandCaption="Opções de busca avançada"/>
-		<cbArchives Caption="Buscar em Arquivos"/>
-		<cbResources Caption="Buscar em Recursos"/>
+		<lbSearchOptions Caption="Opções de busca:"/>
+		<lbSearchArea Caption="Área de busca:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Buscar em todos os lugares'/>
+				<Item Index="1" Value="Buscar somente na pasta do jogo"/>
+				<Item Index="2" Value='Buscar somente na pasta $ModsFolder$'/>
+			</Items>
+		</cbSearchArea>
 		<cbSoundsAndAudio Caption="Buscar em Áudio"/>
-		<cbScripts Caption="Buscar em Scripts"/>
-		<cbTextFiles Caption="Buscar em Texto"/>
 		<lbStopHint Caption="Para parar a busca, pressione a tecla ESC"/>
-		<btnExportResults Caption="Exportar"/>
-		<btnExportAll Caption="Exportar todos os arquivos"/>
-		<btnExportSelected Caption="Exportar arquivos selecionados"/>
+		<btnExtractResults Caption="Extrair resultados"/>
+		<btnExtractAll Caption="Extrair todos os arquivos"/>
+		<btnExtractSelected Caption="Extrair arquivos selecionados"/>
 		<btnGoTo Caption="Ir para o arquivo"/>
 		<btnOpenItem Caption="Abrir"/>
-		<btnExportItem Caption="Exportar"/>
-		<btnExportSelectedItems Caption="Exportar arquivos selecionados"/>
-		<btnExportAllItems Caption="Exportar todos os arquivos"/>
+		<btnExtractItem Caption="Extrair"/>
+		<btnExtractSelectedItems Caption="Extrair arquivos selecionados"/>
+		<btnExtractAllItems Caption="Extrair todos os arquivos"/>
 		<btnSelectAllItems Caption="Selecionar todos"/>
 		<btnCopyName Caption="Copiar nome"/>
 		<btnCopyPathName Caption="Copiar caminho"/>
 		<btnSaveContent Caption="Salvar conteúdo"/>
+		<btnSaveRawContent Caption="Salvar conteúdo bruto"/>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
@@ -32,7 +37,7 @@
 				<Item Index='4' Value='Nenhum item foi selecionado'/>
 				<Item Index='5' Value='Selecionado(s): %D'/>
 				<Item Index='6' Value="O $AppName$ não pode abrir o arquivo."/>
-				<Item Index='7' Value="Não há resultados para exportar."/>
+				<Item Index='7' Value="Nenhum resultado para exportar."/>
 				<Item Index='8' Value="Por favor, pare a busca antes de exportar."/>
 			</StringList>
 		</AeroWindow>

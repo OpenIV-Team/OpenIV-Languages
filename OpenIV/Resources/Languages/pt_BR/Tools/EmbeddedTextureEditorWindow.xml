@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<EmbeddedTextureEditorWindow Caption='Editor de Textura Embutido' />
+
+	<RenderUI>
+		<string name="EMBEDDED_TEXTURE_EDITOR">Editor de Textura Embutido</string>
+		
+		<string name="ERROR_GROUP_UNKNOWN">Erro desconhecido</string>
+		<string name="ERROR_CODE_UNKNOWN">Algo aconteceu.</string>
+		<string name="LOADING_ERROR_TITLE">Erro ao carregar o arquivo</string>
+		<string name="LOADING_ERROR_OPEN_FILE">Não é possível abrir o arquivo, provavelmente o arquivo está corrompido ou tem formato desconhecido.</string>
+		<string name="SAVING_ERROR_TITLE">Erro ao salvar o arquivo</string>
+		<string name="SAVING_ERROR_UNABLE_TO_SAVE_FILE">Não é possível salvar o arquivo.</string>
+		
+		<string name="SELECT_OBJECT_TITLE">Selecionar objeto</string>
+		<string name="N_ITEMS">%D itens</string>
+		<string name="N_FROM_N_ITEMS">%D de %D itens</string>
+		
+		<string name="RENAME">Renomear</string>
+		<string name="ADD_TEXTURE">Adicionar textura</string>
+		<string name="EDIT_TEXTURE">Editar textura</string>
+		<string name="REPLACE_TEXTURE">Substituir textura</string>
+		<string name="REMOVE_TEXTURE">Excluir textura</string>
+		<string name="EDIT_PROPERTIES">Editar propriedades</string>
+		
+		<string name="ACTUAL_SIZE">Tamanho atual</string>
+		<string name="FIT_TO_WINDOW">Ajustar à janela</string>
+		
+		<string name="SHOW_INFO">Mostrar informações</string>
+		<string name="HIDE_INFO">Ocultar informações</string>
+		
+		<string name="TEXTURE_INFO">Informações</string>
+		<string name="SLOT_NAME">Encaixe</string>
+		<string name="TEXTURE_NAME">Nome da textura</string>
+		<string name="PIXEL_FORMAT">Formato de pixel</string>
+		<string name="DIMENSIONS">Dimensões</string>
+		<string name="MIP_MAPS">Mipmaps</string>
+		<string name="DATA_SIZE">Tamanho dos dados</string>
+		<string name="USAGE">Uso</string>
+		<string name="EXPORT_TEXTURE">Exportar textura</string>
+		
+		<string name="SAVING">Salvando...</string>
+		
+	</RenderUI>
+</Translation>

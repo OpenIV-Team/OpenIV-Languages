@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='Ferramenta de Texto - $AppName$'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Visualizador de Texto - $AppName$'/>
+				<Item Index='1' Value='Editor de Texto - $AppName$'/>
+				<Item Index='2' Value='Localizar...'/>
+				<Item Index='3' Value='Localizar selecionado...'/>
+			</StringList>
+		</AeroWindow>
+		
+		<!-- Editor actions -->
+		<ActionEditCut Caption="Cortar"/>
+		<ActionEditCopy Caption="Copiar"/>
+		<ActionEditPaste Caption="Colar"/>
+		<ActionEditDelete Caption="Excluir"/>
+		<ActionEditSelectAll Caption="Selecionar tudo"/>
+		<ActionEditDuplicateLine Caption="Duplicar linha atual"/>
+		<ActionEditRemoveLine Caption="Remover linha"/>
+		<ActionEditUpperCase Caption="MAIÚSCULO"/>
+		<ActionEditLoverCase Caption="minúsculo"/>
+	</TextEditorWindow>
+	
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">Exportar</string>
+		<string name="EXPORT_TEXT">Exportar texto simples (*.txt)</string>
+		<string name="EXPORT_HTML">Exportar texto formatado (*.html)</string>
+		
+		<!-- Ribbon -->
+		<string name="TAB_HOME">Início</string>
+		<string name="TAB_SEARCH">Buscar</string>
+		<string name="WORD_WRAP">Quebra de linha</string>
+		<string name="SHOW_SPECIAL_CHARS">Mostrar caracteres especiais</string>
+		<string name="SEARCH_OPTIONS_MENU">Opções de busca</string>
+		<string name="SEARCH_BANNER_TEXT">Localizar o quê?</string>
+		<string name="SEARCH_DOWN">Buscar para baixo</string>
+		<string name="SEARCH_UP">Buscar para cima</string>
+		<string name="SEARCH_ALL">Todos</string>
+		<string name="SEARCH_ALL_HINT">Localizar tudo</string>
+		<string name="SEARCH_SET_SELECTION_AREA">Definir seleção</string>
+		<string name="GOTO_LINE">Ir para a linha</string>
+		
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">Modo de busca</string>
+		<string name="SEARCH_MODE_NORMAL">Normal</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Expressão regular</string>
+		<string name="SEARCH_MODE_WILDCARD">Caracteres curinga</string>
+		<string name="SEARCH_AREA">Área de busca</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">Escopo inteiro</string>
+		<string name="SEARCH_AREA_IN_SELECTION">Na seleção</string>
+		<string name="SEARCH_OPTIONS">Opções</string>
+		<string name="SEARCH_ON_TYPING">Buscar enquanto digita</string>
+		<string name="CASE_SENSITIVE">Maiúsculo e minúsculo</string>
+		<string name="WHOLE_WORDS_ONLY">Somente palavras int.</string>
+		<string name="WRAP_AROUND">Envolver em torno</string>
+		<string name="HIGHLIGHT_RESULTS">Destacar resultados</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">Você quer salvar as alterações?</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">Não é possível salvar o arquivo</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">O $AppName$ é incapaz de salvar as alterações do arquivo, tente novamente mais tarde.</string>
+		<string name="GOTO_LINE_TITLE">Ir para a linha...</string>
+		<string name="GOTO_LINE_PROMT">Insira o número da linha:</string>
+		<string name="GOTO_LINE_NOTE">Insira + ou - para mover em relação ao local atual. Exemplo: +4 avançará quatro linhas.</string>
+		<string name="GO">Ir</string>
+	</RenderUI>
+</Translation>

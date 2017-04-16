@@ -3,7 +3,7 @@
 	<AudioPlayerWindow Caption='Reprodutor de Áudio - $AppName$'>
 		<btnExportAll Caption='Exportar todos'/>
 		<btnOptions Caption='Opções'/>
-		<miPlayWhenOpen Caption='Iniciar reproduzindo quando o arquivo for aberto'/>
+		<miPlayWhenOpen Caption='Iniciar a reprodução quando o arquivo for aberto'/>
 		<miAutoPlayNext Caption='Reproduzir automaticamente a faixa seguinte'/>
 		<miPlay Caption='Reproduzir'/>
 		<miExport Caption='Exportar'/>

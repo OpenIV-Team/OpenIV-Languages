@@ -5,8 +5,8 @@
 
 	<MainWindow Caption="$AppName$">
 		<FullScreenClose Hint="Fechar"/>
-		<btnSwitchMode Caption="Modo editar" hint="Alterar para o modo editar (F6)" showhint="True"/>
-		<btnCloseArchive hint="Fechar arquivo (Shift + Espaço)" showhint="True"/>
+		<btnSwitchMode Caption="Modo de edição" hint="Alternar para o modo de edição (F6)" showhint="True"/>
+		<btnCloseArchive hint="Fechar arquivo (Shift + Backspace)" showhint="True"/>
 		<!-- String's -->
 		<AeroWindow LinesCount="80">
 			<StringList>
@@ -15,11 +15,11 @@
 				<Item Index="2" Value="Tamanho"/>
 				<Item Index="3" Value="Atributos"/>
 				<Item Index="4" Value="Compactado"/>
-				<Item Index="5" Value="Modo editar"/>
+				<Item Index="5" Value="Modo de edição"/>
 				<Item Index="6" Value=""/>
 				<Item Index="7" Value=""/>
 				<Item Index="8" Value="%D item(ns) sendo exibido(s)"/>
-				<Item Index="9" Value="%D de %D itens mostrados"/>
+				<Item Index="9" Value="%D de %D itens exibidos"/>
 				<Item Index="10" Value=" itens"/>
 				<Item Index="11" Value=" bytes"/>
 				<Item Index="12" Value=" KB"/>
@@ -27,14 +27,14 @@
 				<Item Index="14" Value="Progresso..."/>
 				<Item Index="15" Value="Arquivo atual: "/>
 				<Item Index="16" Value="Desconhecido"/>
-				<Item Index="17" Value="Arquivo não aberto"/>
+				<Item Index="17" Value="Nenhum arquivo aberto"/>
 				<Item Index="18" Value="Criptografado"/>
 				<Item Index="19" Value="Carregando arquivo..."/>
 				<Item Index="20" Value="Recurso [Versão: %D]"/>
-				<Item Index="21" Value="[Modo editar]"/>
+				<Item Index="21" Value="[Modo de edição]"/>
 				<Item Index="22" Value="[Modo somente leitura]"/>
 				<Item Index="23" Value="LANG: FREE STRING (23)"/>
-				<Item Index="24" Value="Você está prestes a ativar o modo editar, todas as alterações serão salvas automaticamente."/>
+				<Item Index="24" Value="Você está prestes a ativar o modo de edição, todas as alterações serão salvas automaticamente."/>
 				<Item Index="25" Value="LANG: FREE STRING (25)"/>
 				<Item Index="26" Value="LANG: FREE STRING (26)"/>
 				<Item Index="27" Value="Tags"/>
@@ -53,19 +53,19 @@
 				<Item Index="40" Value="Fixar"/>
 				<Item Index="41" Value="Remover da lista"/>
 				<Item Index="42" Value="Arquivos recentes"/>
-				<Item Index="43" Value="A aplicação externa está trabalhando..."/>
-				<Item Index="44" Value="Confirmação da alterações de arquivo"/>
+				<Item Index="43" Value="A aplicação externa está sendo executada..."/>
+				<Item Index="44" Value="Confirmação das alterações do arquivo"/>
 				<Item Index="45" Value="O arquivo «%S» foi alterado. Atualizar alterações no arquivo?"/>
-				<Item Index="46" Value="Localização"/>
+				<Item Index="46" Value="Local"/>
 				<Item Index="47" Value="compilação"/>
 				<Item Index="48" Value="Este arquivo está vazio."/>
 				<Item Index="49" Value="Esta pasta está vazia."/>
-				<Item Index="50" Value="Nenhum item corresponde à pesquisa."/>
+				<Item Index="50" Value="Nenhum item corresponde à busca."/>
 				<Item Index="51" Value="Abrir pasta no Explorador de Arquivos"/>
-				<Item Index="52" Value="Encontrar no Explorador de Arquivos"/>
+				<Item Index="52" Value="Localizar no Explorador de Arquivos"/>
 				<Item Index="53" Value="Abrir local do arquivo"/>
 				<Item Index="54" Value="$AppName$ - Abrir local"/>
-				<Item Index="55" Value="O $AppName$ é não é capaz de abrir o local deste arquivo."/>
+				<Item Index="55" Value="O $AppName$ é incapaz de abrir o local deste arquivo."/>
 				<Item Index="56" Value="Canal do YouTube"/>
 				<Item Index="57" Value="Vídeo tutoriais"/>
 				<Item Index="58" Value="Minúsculo (0 - 10 KB)"/>
@@ -80,8 +80,8 @@
 				<Item Index="67" Value="Você pode ativar esta notificação de volta em opções."/>
 				<Item Index="68" Value="Copiando..."/>
 				<Item Index="69" Value="$AppName$ - Confirmação"/>
-				<Item Index="70" Value='Todas as alterações feita no arquivo "mods\update\update.rpf" podem ser perdidas.\nVocê quer continuar?'/>
-				<Item Index="71" Value=""/>
+				<Item Index="70" Value='Todas as alterações feitas no arquivo "$ModsFolderPath$update\update.rpf" serão perdidas.\nVocê quer continuar?'/>
+				<Item Index="71" Value='Buscar "%s" em todos os arquivos'/>
 				<Item Index="72" Value=""/>
 				<Item Index="73" Value=""/>
 				<Item Index="74" Value=""/>
@@ -95,23 +95,26 @@
 		<!-- Others -->
 		<SearchBox BannerText="Filtrar"/>
 		<!-- Notification: GTA V (ASI) -->
-		<lbGTAVPluginTitle Caption="Instalar o plug-in para GTA V"/>
-		<lbGTAVPluginText Caption="Você precisa instalar os plug-ins ASI Loader e OpenIV ASI em seu GTA V, caso contrário, o jogo não vai carregar o arquivo RPF modificado.\nNão jogue GTA Online com um RPF modificado, você será banido."/>
+		<lbGTAVPluginTitle Caption="Instalar plugin para $RageGAME_SHORT$"/>
+		<lbGTAVPluginText Caption="Você precisa instalar os plugins ASI Loader e $ModsFolderAsi$ para $RageGAME_SHORT$, caso contrário, o jogo não vai carregar o arquivo RPF modificado.\nNão jogue $RageGAME_MP$ com RPF modificado, você será banido."/>
 		<btnGTAVPluginAction Caption="Gerenciador de ASI"/>
 		<!-- Notification: copy to mods folder -->
-		<lbNotInModsTitle Caption='Pasta "mods"'/>
-		<lbNotInModsText Caption='O arquivo que você está editando no momento não está localizado na pasta "mods".'/>
-		<btnHideThisNotification Caption="Ocultar esta notificação"/>
-		<btnCopyToMods Caption='Copiar para pasta "mods"'/>
-		<btnShowInMods Caption='Mostrar na pasta "mods"'/>
+		<lbNotInModsTitle Caption='Pasta $ModsFolder$'/>
+		<lbNotInModsText Caption='O arquivo que você está editando no momento não está localizado na pasta $ModsFolder$.'/>
+		<lbEditModeDisabledDueToModsFolder Caption='Os recursos de edição foram desativados para esse arquivo.\nNavegue até a pasta $ModsFolder$, ou permita a edição nas configurações.'/>
+		<btnCopyToMods Caption='Copiar para pasta $ModsFolder$'/>
+		<btnShowInMods Caption='Mostrar na pasta $ModsFolder$'/>
+		<btnChangeModsFolderSettings Caption="Alterar configurações da pasta $ModsFolder$"/>
 		<!-- Notification: update.rpf -->
-		<lbCopyNewUpdateToModsTitle Caption='Atualização do título Grand Theft Auto V (Title Update)'/>
-		<lbCopyNewUpdateToMods Caption='Você possui uma versão desatualizada de update.rpf na sua pasta "mods".'/>
-		<btnCopyUpdateToMods Caption='Copiar nova versão para pasta "mods"'/>
+		<lbCopyNewUpdateToModsTitle Caption='Atualização do título $RageGAME$'/>
+		<lbCopyNewUpdateToMods Caption='Você tem a versão desatualizada do update.rpf na sua pasta $ModsFolder$. Você precisa copiar a nova versão do "update.rpf" para dentro da sua pasta $ModsFolder$, caso contrário, seu jogo pode falhar.'/>
+		<btnCopyUpdateToMods Caption='Copiar nova versão para a pasta $ModsFolder$'/>
 		<!-- Notification: Admin mode -->
 		<lbAdminModeTitle Caption='Modo administrador'/>
-		<lbAdminModeText Caption='O seu $AppName$ está sendo executado como Administrador. Alguns recursos como arrastar e soltar do Explorador de Arquivos do Windows pode não funcionar. Normalmente, você não precisa iniciar o $AppName$ como Administrador.'/>
+		<lbAdminModeText Caption='O seu $AppName$ está sendo executado como Administrador. Alguns recursos como arrastar e soltar do Explorador de Arquivos do Windows pode não funcionar. Normalmente, você não precisa executar o $AppName$ como Administrador.'/>
 		<btnAdminModeAction Caption='O que eu posso fazer?'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='Limpar filtro de busca'/>
 	</MainWindow>
 
 	<ActionsModule>
@@ -145,7 +148,7 @@
 		<actOpenPC Caption="Abrir conteúdo..." Hint=""/>
 		<actOpenArchiveProperties Caption="Propriedades do arquivo" Hint=""/>
 		<actDefragmentation Caption="Desfragmentação" Hint="Desfragmentador de Arquivo"/>
-		<actEditMode Caption="Modo editar" Hint=""/>
+		<actEditMode Caption="Modo de edição" Hint=""/>
 		<actReadMode Caption="Modo somente leitura" Hint=""/>
 		<actClose Caption="Fechar arquivo" Hint="Fechar o arquivo atual"/>
 		<actExit Caption="Sair" Hint="Sair"/>
@@ -157,26 +160,27 @@
 		<actViewAsText Caption="Ver como texto..." Hint="Ver como texto"/>
 		<actCopyPath Caption="Copiar caminho" Hint="Copiar caminho atual do arquivo"/>
 		<actExtract Caption="Extrair..." Hint="Extrair arquivo"/>
-		<actSaveContent Caption="Salvar conteúdo/Exportar" Hint="Salvar conteúdo/Exportar"/>
+		<actSaveContent Caption="Salvar conteúdo/Exportar" Hint="Salvar o conteúdo do arquivo/Exportar"/>
+		<actSaveRawContent Caption="Salvar conteúdo bruto" Hint="Exportar dados do arquivo bruto"/>
 		<actRename Caption="Renomear" Hint="Renomear arquivo"/>
 		<actAdd Caption="Adicionar" Hint="Adicionar novo arquivo"/>
 		<actReplace Caption="Substituir" Hint="Substituir o arquivo atual"/>
-		<actRemove Caption="Apagar" Hint="Excluir o arquivo atual"/>
+		<actRemove Caption="Excluir" Hint="Excluir o arquivo atual"/>
 		<actExtractAll Caption="Extrair todos..." Hint="Extrair todos os arquivos"/>
 		<actCopyFileList Caption="Copiar lista de arquivos" Hint=""/>
 		<actSelectAll Caption="Selecionar todos" Hint=""/>
 		<actResourceObjectExplorer Caption="Explorador de Recursos" Hint=""/>
 		<actShowInWindowsExplorer Caption="Mostrar no Explorador de Arquivos" Hint=""/>
 		<actItemAddToFavorites Caption="Adicionar aos favoritos..." Hint=""/>
-		<actCopyToModsFolder Caption='Copiar para pasta "mods"' Hint=""/>
-		<actShowInModsFolder Caption='Mostrar na pasta "mods"' Hint=""/>
+		<actCopyToModsFolder Caption='Copiar para pasta $ModsFolder$' Hint=""/>
+		<actShowInModsFolder Caption='Mostrar na pasta $ModsFolder$' Hint=""/>
 		<!-- New menu -->
 		<actMultipleImport Caption="Importar openFormats" Hint="Importação Múltipla"/>
 		<actNewFolder Caption="Pasta" Hint="Criar nova pasta"/>
 		<!-- View Action's -->
 		<actDirectoryTree Caption="Árvore de Diretório" Hint="Mostrar ou ocultar árvore de diretório"/>
 		<actToolBar Caption="Barra de Ferramenta" Hint="Mostrar ou ocultar barra de ferramenta"/>
-		<actSearchBar Caption="Barra de Endereço e Pesquisa" Hint="Mostrar ou ocultar Endereço e Pesquisa"/>
+		<actSearchBar Caption="Barra de Endereço e Busca" Hint="Mostrar ou ocultar Endereço e Busca"/>
 		<actStatusBar Caption="Barra de Estado" Hint="Barra de Estado"/>
 		<actLivePreView Caption="Painel de Visualização" Hint="Painel de Visualização"/>
 		<actMainMenuBar Caption="Barra de Menu" Hint="Barra de Menu"/>
@@ -185,7 +189,7 @@
 		<actAbout Caption="Sobre..." Hint="About"/>
 		<actGoToWeb Caption="Ir para o site..." Hint=""/>
 		<actSendFeedback Caption="Enviar comentários" Hint=""/>
-		<actUpdate Caption="Verificar atualização..." Hint=""/>
+		<actUpdate Caption="Verificar atualizações..." Hint=""/>
 		<actDonate Caption="Doar ao $AppName$..." Hint=""/>
 		<actWebIV Caption="Inscrever-se no $WebName$" Hint=""/>
 		<actFAQ Caption="Perguntas frequentes (FAQ)" Hint=""/>
@@ -197,9 +201,9 @@
 		<!-- Only in Win7 and later -->
 		<actWin7ReportTool Caption="Registrar as ações do usuário para reproduzir um problema" Hint=""/>
 		<!-- Groups Action's -->
-		<actCollapseAll Caption="Colapsar todos os grupos" Hint=""/>
+		<actCollapseAll Caption="Recolher todos os grupos" Hint=""/>
 		<actExpandAll Caption="Expandir todos os grupos" Hint=""/>
-		<actCollapseGroup Caption="Colapsar grupo" Hint=""/>
+		<actCollapseGroup Caption="Recolher grupo" Hint=""/>
 		<actExpandGroup Caption="Expandir grupo" Hint=""/>
 		<!-- Tools Action's -->
 		<actConfig Caption="Opções..." Hint="Opções"/>
@@ -216,12 +220,12 @@
 		<actFilterOnlyThis Caption="Mostrar apenas este" Hint=""/>
 		<!-- Tree -->
 		<actTreeCopyAsPath Caption="Copiar como caminho" Hint=""/>
-		<actTreeShowInWindowsExplorer Caption="Mostrar no Explorador de Arquivos" Hint=""/>
+		<actTreeShowInWindowsExplorer Caption="Mostrar no Explorador de Arquivos do Windows" Hint=""/>
 		<actTreeCloseArchive Caption="Fechar arquivo" Hint=""/>
-		<actTreeCopyToModsFolder Caption='Copiar para pasta "mods"' Hint=""/>
-		<actTreeShowInModsFolder Caption='Mostar na pasta "mods"' Hint=""/>
-		<actTreeCollapseThis Caption='Collapse this' Hint=""/>
-		<actTreeCollapseAll Caption='Collapse all' Hint=""/>
+		<actTreeCopyToModsFolder Caption='Copiar para pasta $ModsFolder$' Hint=""/>
+		<actTreeShowInModsFolder Caption='Mostar na pasta $ModsFolder$' Hint=""/>
+		<actTreeCollapseThis Caption='Recolher este' Hint=""/>
+		<actTreeCollapseAll Caption='Recolher todos' Hint=""/>
 		<!-- Strings -->
 		<Strings SetCount="100">
 			<Lines>
@@ -234,7 +238,7 @@
 				<Item Index="06" Value="Hierárquica"/>
 				<Item Index="07" Value="sem nomes"/>
 				<Item Index="08" Value="Adicionar tag"/>
-				<Item Index="09" Value="Apagar"/>
+				<Item Index="09" Value="Excluir"/>
 				<Item Index="10" Value="todas as tags"/>
 				<Item Index="11" Value="$AppName$ - Renomear arquivo"/>
 				<Item Index="12" Value="Novo nome:"/>
@@ -242,15 +246,15 @@
 				<Item Index="14" Value="Nova pasta:"/>
 				<Item Index="15" Value="O $RageGAME_SHORT$ não foi encontrado.\nPor favor, defina o local correto do $RageGAME_SHORT$ nas opções do $AppName$."/>
 				<Item Index="16" Value="$AppName$ - Confirmação para reconstruir arquivo"/>
-				<Item Index="17" Value="Você tem certeza de que deseja reconstruir o arquivo «%S»?\n Esta operação pode levar vários minutos."/>
+				<Item Index="17" Value="Você tem certeza de que deseja reconstruir o arquivo «%S»?\n Esta operação pode levar alguns minutos."/>
 				<Item Index="18" Value="Abrir conteúdo"/>
 				<Item Index="19" Value="Criar novo %S"/>
-				<Item Index="20" Value="Introduzir nome:"/>
+				<Item Index="20" Value="Insira o nome:"/>
 				<Item Index="21" Value="$AppName$ - Recurso não implementado"/>
-				<Item Index="22" Value="Você tentou usar o seguite recurso: %S\nNo atual $AppName$ não esta implementado ainda. Por favor, verificar isso na próxima versão."/>
+				<Item Index="22" Value="Você tentou usar o seguinte recurso: %S\nNo $AppName$ atual ainda não está implementado. Por favor, verificar isso na próxima versão."/>
 				<Item Index="23" Value="$AppName$ - recontruir arquivo"/>
 				<Item Index="24" Value="Você não pode reconstruir um arquivo vazio."/>
-				<Item Index="25" Value="Um arquivo com este nome já existe, por favor, escolha outro nome."/>
+				<Item Index="25" Value="Um arquivo com este nome já existe, por favor escolha outro nome."/>
 				<Item Index="26" Value="$AppName$ - adicionar nova tag"/>
 				<Item Index="27" Value="Digite a nova tag:"/>
 				<Item Index="28" Value="Exportar para %S"/>
@@ -261,16 +265,16 @@
 				<Item Index="33" Value="O $AppName$ não é capaz de criar arquivos para $RageGAME_SHORT$ ainda.\nPor favor, volte mais tarde."/>
 				<Item Index="34" Value="Abrir arquivo em"/>
 				<Item Index="35" Value="%s em %s"/>
-				<Item Index="36" Value="%s - Resultados da pesquisa em %s"/>
-				<Item Index="37" Value="%s - Resultados da pesquisa em %s (%s)"/>
+				<Item Index="36" Value="%s - Resultados da busca em %s"/>
+				<Item Index="37" Value="%s - Resultados da busca em %s (%s)"/>
 				<Item Index="38" Value="Filtrar"/>
 				<Item Index="39" Value="$AppName$ - Erro"/>
-				<Item Index="40" Value="Não foi possível extrair os arquivos."/>
-				<Item Index="41" Value="Não foi possível adicionar os arquivos."/>
-				<Item Index="42" Value="Não foi possível criar a pasta."/>
-				<Item Index="43" Value="Não foi possível apagar os arquivos."/>
-				<Item Index="44" Value="Não foi possível substituir o arquivo."/>
-				<Item Index="45" Value="Não foi possível criar um novo arquivo."/>
+				<Item Index="40" Value="Não é possível extrair os arquivos."/>
+				<Item Index="41" Value="Não é possível adicionar os arquivos."/>
+				<Item Index="42" Value="Não é possível criar a pasta."/>
+				<Item Index="43" Value="Não é possível excluir os arquivos."/>
+				<Item Index="44" Value="Não é possível substituir o arquivo."/>
+				<Item Index="45" Value="Não é possível criar um novo arquivo."/>
 				<Item Index="46" Value="Carateres inválidos no nome."/>
 				<Item Index="47" Value="Especifique um nome diferente."/>
 				<Item Index="48" Value="Já existe um item com o mesmo nome da pasta que você especificou"/>
@@ -278,27 +282,27 @@
 		</Strings>
 	</ActionsModule>
 
-	<EditModeHelpWindow Caption="Modo editar - $AppName$">
+	<EditModeHelpWindow Caption="Modo de edição - $AppName$">
 		<!-- Label's -->
-		<lbTitle Caption="Modo editar"/>
-		<lbText Caption="Para adicionar ou editar arquivos, por favor alternar para o Modo editar.\nVocê pode definir o Modo editar como padrão na configuração do $AppName$."/>
-		<lbInfo Caption='O botão "Modo editar" permite que você ative o Modo editar'/>
+		<lbTitle Caption="Modo de edição"/>
+		<lbText Caption="Para adicionar ou editar arquivos, por favor mude para o Modo de edição.\nVocê pode definir o Modo de edição como padrão na configuração do $AppName$."/>
+		<lbInfo Caption='O botão "Modo de edição" permite que você ative o Modo de edição'/>
 		<!-- Button's -->
 		<btnClose Caption="Fechar"/>
 		<cbDoNotShow Caption="Não mostrar esta mensagem novamente"/>
 	</EditModeHelpWindow>
 	
 	<AdminModeWindow Caption="Administrador - $AppName$">
-		<lbText Caption="Não há nenhuma razão real para iniciar o $AppName$ como Administrador. O $AppName$ não precisa de qualquer privilégio de Administrador para funcionar corretamente. Caso contrário ao iniciar o $AppName$ como Administrador alguns recursos como arrastar e soltar do Explorador de Arquivos do Windows podem não funcionar. Muito provavelmente, você iniciou o $AppName$ como Administrador porque o seu jogo está instalado em algum lugar na pasta do sistema (ex. C:\Arquivos de Programas\...) e a conta normal do usuário não tem permissões para gravar nesta pasta.\n\nVocê pode definir todas as permissões necessárias para a pasta do jogo usando esta ferramenta e, em seguida, reinicie o $AppName$ sem direitos de Administrador."/>
-		<btnSetPermissions Caption="Definir permissões"/>
+		<lbText Caption="Não há nenhuma razão real para executar o $AppName$ como Administrador. O $AppName$ não requer privilégios de Administrador para funcionar corretamente. Caso contrário, quando você executar o $AppName$ como Administrador, alguns recursos como arrastar e soltar do Explorador de Arquivos do Windows pode não funcionar. Muito provavelmente, você executou o $AppName$ como Administrador porque seu jogo está instalado em algum lugar na pasta do sistema (ex: C:\Arquivos de Programas\...) e a conta de usuário normal não tem permissões para gravar nessa pasta.\n\nVocê pode definir todas as permissões necessárias para a pasta do seu jogo usando esta ferramenta e, em seguida, reinicie o $AppName$ sem direito de Administrador."/>
+		<btnSetPermissions Caption="Set permissions"/>
 		<btnClose Caption="Fechar"/>
 		<AeroWindow LinesCount="5">
 			<StringList>
 				<Item Index="0" Value="Erro - $AppName$"/>
-				<Item Index="1" Value="Tudo feito.\nAs permissões foram definidas para a pasta do jogo."/>
-				<Item Index="2" Value="Não foi possível definir permissões.\nCódigo de retorno: "/>
+				<Item Index="1" Value="Tudo feito.\nAs permissões foram definidas para a pasta do seu jogo."/>
+				<Item Index="2" Value="Não é possível definir permissões.\nCódigo de retorno: "/>
 				<Item Index="3" Value="A pasta do jogo não existe."/>
-				<Item Index="3" Value="A ferramenta Definir permissões não existe. Por favor, reinstale o $AppName$."/>
+				<Item Index="3" Value="A ferramenta Set permissions não existe. Por favor, reinstale o $AppName$."/>
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
@@ -319,77 +323,79 @@
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Opções">
-		<!-- Tab's -->
-		<tabMain Caption="Geral"/>
+		<!-- Languages -->
 		<tabLang Caption="Idiomas"/>
-		<tabApps Caption="Aplicações"/>
-		<tabFormats Caption="openFormats"/>
-		<tabTools Caption="Ferramentas"/>
-		<tabGame Caption="Jogo"/>
-		<tabViewers Caption="Ferramentas de visualização"/>
-		<!-- Button's -->
-		<btnClose Caption="Fechar"/>
-		<!-- Action's -->
-		<actAppAdd Caption="Adicionar"/>
-		<actAppEdit Caption="Editar"/>
-		<actAppDel Caption="Apagar"/>
-		<!-- Link's -->
-		<LnkWebApps Caption="Baixe mais ferramentas para $RageGAME_SHORT$"/>
+		<lbLang Caption="Selecionar o idioma da interface"/>
 		<LnkWebLangs Caption="Traduzir o $AppName$ para outros idiomas"/>
-		<tbChangeGame Caption="Alterar diretório"/>
-		<tbFileAssociation Caption="Alterar associação de arquivo"/>
-		<btnSaveShaderInformation Caption="Salvar informações do openFormats shader"/>
-		<!-- CheckBox's -->
-		<cbAlwaysOpenArchiveAfterRebuild Caption="Sempre abrir o arquivo depois de reconstruir"/>
-		<cbProtectModels Caption="Ativar opção de mesh protegida por padrão (evita exportação futura)"/>
-		<cbNotExportTextureToFolder Caption="Não colocar as texturas em uma pasta separada, enquanto exporta o arquivo OTD"/>
-		<cbMinimizeAtStartGame Caption="Minimizar o $AppName$ ao iniciar o jogo"/>
-		<cbInstallUpdatesAutomatically Caption="Instalar atualizações automaticamente"/>
-		<cbRenderAntialiasing Caption="Ativar Anti-Aliasing"/>
-		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Para os arquivos reais utilizar a lixeira em vez de apagar"/>
-		<cbShowRecycleConfirmation Caption="Mostrar confirmação de exclusão"/>
-		<cbCloseArchivesAtStartGame Caption="Fechar todos os arquivos abertos ao iniciar o jogo"/>
-		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Mostrar notificação enquanto estiver editando um arquivo fora da pasta "mods"'/>
-		<cbClearSearchFilterAfterOpeningArchive Caption='Limpar filtro de pesquisa após abrir arquivo'/>
-		<!-- Label's -->
+		<!-- Game -->
+		<tabGame Caption="Jogo"/>
 		<gbGamePath Caption="Diretório do $RageGAME_SHORT$"/>
 		<lbCurrentGamePath Caption="Diretório atual:"/>
-		<lbLang Caption="Selecionar idioma da interface:"/>
-		<lbWorkMode Caption="Modo trabalho por padão:"/>
-		<ttRageExe Caption="Para fazer com que o $AppName$ trabalhe, neste diretório deve ser colocado este arquivo: $RageEncryptionStorage$"/>
-		<lbDefTextureFormat Caption="Formato de arquivo de textura por padrão:"/>
-		<lbDefTextureFormatGlb Caption="Formato de arquivo de textura por padrão:"/>
-		<gbModels Caption="Importar modelos (ODR/ODD/OFT)"/>
-		<lbDefaultGame Caption="Selecionar jogo por padrão:"/>
-		<lbRenderBackgroundColor Caption="Cor de fundo da renderização:"/>
-		<lbCameraControl Caption="Esquema de controle da câmera:"/>
-		<lbChooseTheme Caption="Escolher um tema"/>
-		<!-- Work Mode's -->
+		<tbChangeGame Caption="Alterar diretório"/>
+		<ttRageExe Caption="Para fazer o $AppName$ funcionar, neste diretório deve ser colocado este arquivo: $RageEncryptionStorage$"/>
+		<!-- General -->
+		<tabMain Caption="Geral"/>
+		<lbDefaultGame Caption="Selecionar o jogo padrão"/>
+		<lbWorkMode Caption="Modo de trabalho padrão"/>
 		<WorkMode>
 			<Items>
-				<Item Index="0" Value="Editar"/>
+				<Item Index="0" Value="Edição"/>
 				<Item Index="1" Value="Somente leitura"/>
 			</Items>
 		</WorkMode>
-		<!-- Render Background Color -->
-		<cbRenderBackgroundColor>
-			<Items>
-				<Item Index="0" Value="Padrão"/>
-				<Item Index="1" Value="Cor personalizada"/>
-			</Items>
-		</cbRenderBackgroundColor>
-		<!-- App Theme -->
+		<lbDefTextureFormatGlb Caption="Formato de arquivo de textura padrão"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption="Abrir arquivo sempre após a reconstrução"/>
+		<cbMinimizeAtStartGame Caption="Minimizar o $AppName$ ao iniciar o jogo"/>
+		<cbInstallUpdatesAutomatically Caption="Instalar atualizações automaticamente"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Para arquivos reais use a lixeira em vez de excluir"/>
+		<cbShowRecycleConfirmation Caption="Mostrar confirmação de exclusão"/>
+		<cbCloseArchivesAtStartGame Caption="Fechar todos os arquivos abertos ao iniciar o jogo"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Limpar filtro de busca após abrir o arquivo'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Use a maneira alternativa (antiga) de adicionar pastas após arrastar e soltar'/>
+		<tbFileAssociation Caption="Alterar associação de arquivo"/>
+		<!-- "mods" folder -->
+		<tabModsFolder Caption="Pasta $ModsFolder$"/>
+		<lbModsFolderText Caption="Nesta página você pode alterar as configurações relacionadas à pasta $ModsFolder$."/>
+		<lbModsFolderNote1 Caption="As configurações abaixo são inacessíveis porque o $ModsFolderAsi$ não está instalado."/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Mostrar notificação ao editar arquivo fora da pasta $ModsFolder$'/>
+		<cbAllowEditModeOnlyInModsFolder Caption='Permitir modo de edição somente para arquivos dentro da pasta $ModsFolder$'/>
+		<!-- Tools -->
+		<tabViewers Caption="Ferramentas"/>
+		<lbChooseTheme Caption="Escolher um tema"/>
 		<cbAppTheme>
 			<Items>
 				<Item Index="0" Value="Claro"/>
 				<Item Index="1" Value="Escuro"/>
 			</Items>
 		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Cor de fundo da renderização"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="Padrão"/>
+				<Item Index="1" Value="Cor personalizada"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="Esquema de controle da câmera"/>
+		<cbRenderAntialiasing Caption="Ativar Anti-Aliasing"/>
+		<lbChooseEditorTheme Caption="Escolher o esquema de cores para o editor de texto"/>
+		<!-- openFormats -->
+		<tabFormats Caption="openFormats"/>
+		<lbDefTextureFormat Caption="Formato de arquivo de textura padrão"/>
+		<cbNotExportTextureToFolder Caption="Não colocar texturas em pasta separada enquanto exporta o arquivo OTD"/>
+		<gbModels Caption="Importar modelos (ODR/ODD/OFT)"/>
+		<cbProtectModels Caption="Ativar opção de mesh protegida por padrão (evita exportação futura)"/>
+		<btnSaveShaderInformation Caption="Salvar informações do shader openFormats"/>
+        <!-- Misc + old -->
+		<btnClose Caption="Fechar"/>
+		<actAppAdd Caption="Adicionar"/>
+		<actAppEdit Caption="Editar"/>
+		<actAppDel Caption="Excluir"/>
+		<LnkWebApps Caption="Baixar mais ferramentas para $RageGAME_SHORT$"/>
 		<!-- String's -->
 		<AeroWindow LinesCount="10">
 			<StringList>
 				<Item Index="0" Value="Selecionar pasta:"/>
-				<Item Index="1" Value="Idiomas atuais"/>
+				<Item Index="1" Value="Idiomas atualizados"/>
 				<Item Index="2" Value="$AppName$ - Aviso"/>
 				<Item Index="3" Value="Você precisa reiniciar o $AppName$ para aplicar as alterações."/>
 				<Item Index="4" Value="Idiomas desatualizados"/>

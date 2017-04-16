@@ -7,7 +7,7 @@
 		<btnLoadFromFile Caption='Carregar de um arquivo' />
 		<btnGenerate Caption='Gerar' />
 		<btnSaveToFile Caption='Salvar como arquivo' />
-		<cbCaseSensitive Caption='Destinguir entre maiús. e minús.' />
+		<cbCaseSensitive Caption='MAIÚSCULAS e minúsculas' />
 		<!-- Panel's -->
 		<pnlLeft Caption='Entrada:' />
 		<pnlRight Caption='Saída:' />    

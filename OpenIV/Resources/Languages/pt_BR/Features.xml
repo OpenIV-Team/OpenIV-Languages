@@ -44,7 +44,7 @@
 		<!-- Labels -->
 		<lbDescription Caption="O Desfragmentador de Arquivo consolida arquivos dentro do arquivo para reduzir o tamanho do arquivo no disco rígido do seu computador."/>
 		<lbNoteSave Caption='Todas as suas alterações já estão salvas, você não precisa usar a desfragmentação após cada edição..'/>
-		<lbNoteRevert Caption='O recurso de desfragmentação não vai reverter qualquer alterações feitas nos arquivos.'/>
+		<lbNoteRevert Caption='O recurso de desfragmentação não vai reverter quaisquer alterações feitas nos arquivos.'/>
 		<!-- Actions -->
 		<actClose Caption='Fechar'/>
 		<actRebuild Caption='Desfragmentar'/>
@@ -107,7 +107,7 @@
 	</openFormatsImportWindow>
 
 	<openFormatsValidatorWindow Caption='Validador de openFormats - $AppName$'>
-		<lbTitle Caption='Relatar importação de openFormats'/>
+		<lbTitle Caption='Importar relatório do openFormats'/>
 		<btnClose Caption='Fechar'/>
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
@@ -117,7 +117,7 @@
 				<Item Index='1' Value='%S(Line %D): Versão do recurso não suportado, atual: "%S" mas esperado "%D".'/>
 				<Item Index='2' Value='%S(Line %D): Versão do formato não suportado, atual: "%S" mas esperado "%D".'/>
 				<!-- Common errors -->
-				<Item Index='3' Value='Erro fatal: Não foi possível inicializar o Direct3D.'/>
+				<Item Index='3' Value='Erro fatal: Não é possível inicializar o Direct3D.'/>
 				<Item Index='4' Value='Erro fatal: O arquivo "%S" não foi encontrado.'/>
 				<Item Index='5' Value='%S(Line %D): O arquivo "%S" não foi encontrado.'/>
 				<Item Index='6' Value='%S(Line %D): O arquivo está corrompido.'/>

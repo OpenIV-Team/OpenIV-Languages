@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<ErrorWindow Caption='$AppName$ - Erro de aplicação'>
-		<lbWindowTitle Caption="O $AppName$ encontrou um problema que ele não podia lidar,\ne agora ele precisa reniciar."/>
-		<btnCloseApp Caption='Fechar $AppName$'/>
+		<lbWindowTitle Caption="O $AppName$ encontrou um problema\ne precisa ser fechado."/>
+		<btnCloseApp Caption='Fechar o $AppName$'/>
 		<lbReportHere Caption='Por favor, reporte este erro usando os seguintes links:'/>
 		<lnkWeb1 Caption='Visitar o site oficial'/>
 		<lnkWeb2 Caption='Visitar o fórum de suporte international'/>
@@ -15,9 +15,9 @@
 				<Item Index='0' Value='Horas: '/>
 				<Item Index='1' Value='Tipo: '/>
 				<Item Index='2' Value='Mensagem: '/>
-				<Item Index='3' Value='Informação adicional:'/>
-				<Item Index='4' Value='Informação adicional está faltando.'/>
-				<Item Index='5' Value='Informações do erro copiada para o clipboard.'/>
+				<Item Index='3' Value='Informações adicionais:'/>
+				<Item Index='4' Value='Está faltando informações adicionais.'/>
+				<Item Index='5' Value='Informações do erro copiada para a área de transferência.'/>
 			</StringList>
 		</AeroWindow>
 	</ErrorWindow>

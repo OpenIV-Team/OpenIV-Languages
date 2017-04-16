@@ -6,7 +6,7 @@
 			<btnClose Caption='Fechar'/>
 			<btnEULANext Caption='Continuar'/>
 			<btnWebNext Caption='Continuar'/>
-			<btnGame Caption='Procurar...' Hint='Selecionar pasta:'/>
+			<btnGame Caption='Buscar...' Hint='Selecionar pasta:'/>
 			<btnGameNext Caption='Continuar'/>
 			<btnSetPermissions Caption='Definir permissões'/> 
 			<btnWindowsNext Caption='Continuar'/>
@@ -17,7 +17,7 @@
 			<btnSocial_FB Caption='$AppName$ no Facebook'/>
 			<btnSocial_VK Caption='$AppName$ no VK'/>
 			<!-- Link's -->
-			<LnkWebLangs Caption='Traduzir o $AppName$ para outro idioma'/>
+			<LnkWebLangs Caption='Traduzir o $AppName$ para outros idiomas'/>
 			<LnkWebEULA Caption='Leia a licença aqui.'/>
 			<!-- CheckBox's -->
 			<cbAcceptEULA Caption='Eu li e concordo com os termos do Contrato de Licença do $AppName$.'/>
@@ -39,16 +39,16 @@
 					<Item Index='12' Value='Backups'/>
 					<Item Index='13' Value='Não esqueça de fazer backup de seus arquivos originais antes de editar.'/>
 					<Item Index='14' Value='Windows 7'/>
-					<Item Index='15' Value='O $AppName$ trabalha melhor no Microsoft® Windows 7™'/>
+					<Item Index='15' Value='O $AppName$ funciona melhor no Microsoft® Windows 7™'/>
 					<Item Index='16' Value='Seu nome:'/>
-					<Item Index='17' Value="Erro: O $AppName$ não tem acesso para trabalhar com esta pasta.\nInicie o $AppName$ com direitos de administrador."/>
-					<Item Index='18' Value='Junte-se a comunidade do $AppName$'/>
+					<Item Index='17' Value="Erro: O $AppName$ não tem permissão para acessar esta pasta.\nExecute o $AppName$ com direitos de administrador."/>
+					<Item Index='18' Value='Junte-se à comunidade do $AppName$'/>
 					<Item Index='19' Value='$AppName$ - Confirmação'/>
 					<Item Index='20' Value='O processo de configuração ainda não foi concluído.\nVocê quer sair?'/>
-					<Item Index='21' Value="Erro: O $AppName$ não tem acesso para trabalhar com o arquivo '$RageEncryptionStorage$'.\Inicie o $AppName$ com direitos de administrador."/>
+					<Item Index='21' Value="Erro: O $AppName$ não tem permissão para acessar o arquivo '$RageEncryptionStorage$'.\Execute o $AppName$ com direitos de administrador."/>
 					<Item Index='22' Value="Erro: O $RageGAME$ está em execução. Feche o jogo antes de usar o $AppName$."/>
 					<Item Index='23' Value="Tudo feito.\nAs permissões foram definidas para a pasta do jogo."/>
-					<Item Index='24' Value="Não foi possível definir permissões."/>
+					<Item Index='24' Value="Não é possível definir permissões."/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>
@@ -58,7 +58,7 @@
 			<btnInstall Caption='Baixar e instalar'/>
 			<!-- Label's -->
 			<lbTitle Caption='Atualização do $AppName$'/>
-			<lbText Caption='Uma nova atualização está disponível para o $AppName$. Você precisa instalá-la antes de iniciar o $AppName$.'/>
+			<lbText Caption='Uma nova atualização está disponível para o $AppName$. Você precisa instalá-la antes de executar o $AppName$.'/>
 			<lbStatus Caption='Tamanho do download: '/>
 			<cbInstallUpdatesAutomatically Caption='Instalar atualizações automaticamente'/>
 			<lbCurrentVersion Caption='Sua versão:'/>
@@ -68,9 +68,9 @@
 				<Lines>
 					<Item Index='0' Value=' Mb'/>
 					<Item Index='1' Value='Preparando-se para baixar...'/>
-					<Item Index='2' Value='Baixado(s): %f de %f Mb'/>
+					<Item Index='2' Value='Baixado: %f de %f Mb'/>
 					<Item Index='3' Value='Atualizando...'/>
-					<Item Index='4' Value='Erro ao atualizar, por favor, tente novamente mais tarde.'/>
+					<Item Index='4' Value='Erro ao atualizar, por favor tente novamente mais tarde.'/>
 					<Item Index='5' Value='%d.%d.%d (Compilação %d; Data %s)'/>
 					<Item Index='6' Value='Esta atualização contém correção de bugs e pequenas melhorias.'/>
 					<Item Index='7' Value='Esta atualização contém novos recursos, correção de bugs, mudanças na interface e grandes melhorias.'/>
@@ -86,7 +86,7 @@
 			<!-- Strings -->
 			<StringList SetCount='10'>
 				<Lines>
-					<Item Index='00' Value='Erro de aplicação fatal'/>
+					<Item Index='00' Value='Erro fatal da aplicação'/>
 					<Item Index='01' Value='Você colocou o $AppName$ dentro da mesma pasta com o arquivo "$RageEncryptionStorage$", e isso está errado.\nPor favor, coloque o $AppName$ em uma pasta separada.'/>
 					<Item Index='02' Value='Alterar pasta do $RageGAME$'/>
 					<Item Index='03' Value='Algo errado, por favor mude a pasta do $RageGAME$ abaixo e renicie o $AppName$.'/>
@@ -95,7 +95,7 @@
 					<Item Index='06' Value="Erro: Esta pasta não contém o arquivo '$RageEncryptionStorage$'."/>
 					<Item Index='07' Value='Êxito: $RageEncryptionStorage$, versão %s\nO $AppName$ pode trabalhar com este arquivo.'/>
 					<Item Index='08' Value='Procurar'/>
-					<Item Index='09' Value="Erro: O $AppName$ não tem acesso para trabalhar com esta pasta.\nInicie o $AppName$ com direitos de administrador."/>
+					<Item Index='09' Value="Erro: O $AppName$ não tem permissão para acessar esta pasta.\nExecute o $AppName$ com direitos de administrador."/>
 				</Lines>
 			</StringList>
 		</ChangeGameScreen>

@@ -18,7 +18,7 @@
 		<N3 Caption='Filtrar este'/>
 		<!-- Text menu -->
 		<miCopyText Caption='Copiar'/>
-		<miFind Caption='Encontrar...'/>
+		<miFind Caption='Localizar...'/>
 		<miSelectAll Caption='Selecionar todos'/>
 		<miCopyAll Caption='Copiar todos'/>
 		<!-- Save code menu -->
@@ -31,7 +31,7 @@
 				<Item Index='1' Value='[PASSO1]'/>
 				<Item Index='2' Value='[PASSO2]'/>
 				<Item Index='3' Value='[PASSO3]'/>
-				<Item Index='4' Value='Mostrar todos'/>
+				<Item Index='4' Value='Exibir todos'/>
 			</StringList>
 		</AeroWindow>
 	</RageScriptWindow>

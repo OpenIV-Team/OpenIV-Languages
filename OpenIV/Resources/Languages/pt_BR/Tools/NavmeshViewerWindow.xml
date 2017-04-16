@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<NavmeshViewerWindow Caption='Visualizador de Navmesh - $AppName$' />	
+	<NavmeshViewerWindow Caption='Visualizador de NavMesh - $AppName$' />	
 	<RenderUI>
-		<string name="HELP_TITLE">Visualizador de Navmesh - Ajuda</string>
+		<string name="HELP_TITLE">Visualizador de NavMesh - Ajuda</string>
 		<string name="EDGES">Edges:</string>
 		<string name="PORTALS">Portals:</string>
 		<string name="BOUNDS">Bounds:</string>

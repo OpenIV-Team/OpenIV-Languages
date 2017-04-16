@@ -12,10 +12,10 @@
 		<Item Index='08' Value=' bytes'/>
 		<Item Index='09' Value=' KB'/>
 		<Item Index='10' Value=' MB'/>
-		<Item Index='11' Value='Atenção, você está entrando no modo edição!'/>
-		<Item Index='12' Value='Enquanto estiver no modo edição, todas as alterações serão salvas automaticamente.\nVocê quer continuar?'/>
+		<Item Index='11' Value='Atenção, você está entrando no modo de edição!'/>
+		<Item Index='12' Value='Enquanto estiver no modo de edição, todas as alterações serão salvas automaticamente.\nVocê quer continuar?'/>
 		<Item Index='13' Value='Pasta de destino:'/>
-		<Item Index='14' Value='A aplicação externa está trabalhando...'/>
+		<Item Index='14' Value='A aplicação externa está sendo executada...'/>
 		<Item Index='15' Value='Criar novo %S'/>
 		<Item Index='16' Value='$AppName$ - Informação'/>
 		<Item Index='17' Value='Erro durante o carregamento do arquivo, provavelmente o arquivo está corrompido.'/>
@@ -27,42 +27,48 @@
 		<Item Index='23' Value="O nome do arquivo não pode ser nulo."/>
 		<Item Index='24' Value='openFormats - Importar'/>
 		<Item Index='25' Value='Extensão de formato de arquivo desconhecido: %S'/>
-		<Item Index='26' Value='$AppName$ - Erro de DirectX'/>
+		<Item Index='26' Value='$AppName$ - Erro do DirectX'/>
 		<Item Index='27' Value='O $AppName$ é incapaz de inicializar o Direct3D.'/>
-		<Item Index='28' Value='Iniciar $RageGAME_SHORT$'/>
+		<Item Index='28' Value='Executar o $RageGAME_SHORT$'/>
 		<Item Index='29' Value="O $AppName$ é incapaz de localizar os arquivos IDE associados."/>
 		<Item Index='30' Value="O $AppName$ é incapaz de abrir o arquivo. Aqui está uma lista de possíveis razões:\n\nAcesso negado. Tente executar o $AppName$ com direitos de administrador.\nOutro processo está utilizando o arquivo. Feche os outros programas e tente novamente.\n\n"/>	
 		<Item Index='31' Value='Pasta de destino:'/>
-		<Item Index='32' Value='Não foi possível abrir o arquivo: Erro desconhecido.'/>
-		<Item Index='33' Value='Não foi possível abrir o arquivo: Caminho não encontrado.'/>
-		<Item Index='34' Value='Não foi possível abrir o arquivo: Acesso negado ou o arquivo está sendo usado por outro programa.'/>
-		<Item Index='35' Value='Não foi possível abrir o arquivo: Formato de arquivo desconhecido ou o arquivo está corrompido.'/>
-		<Item Index='36' Value='Não foi possível abrir o arquivo: O arquivo está corrompido.'/>
-		<Item Index='37' Value='Não foi possível abrir o arquivo: Chave de criptografia desconhecida, provavelmente o arquivo seja para um jogo ou plataforma diferente.'/>
-		<Item Index='38' Value='Não foi possível criar um novo arquivo.'/>
-		<Item Index='39' Value='$AppName$ - Não há nenhum dispositivo de reprodução de áudio'/>
-		<Item Index='40' Value='Não foi possível reproduzir o arquivo de áudio. Não há nenhum dispositivo de reprodução de áudio disponível.'/>
+		<Item Index='32' Value='Não é possível abrir o arquivo: Erro desconhecido.'/>
+		<Item Index='33' Value='Não é possível abrir o arquivo: Caminho não encontrado.'/>
+		<Item Index='34' Value='Não é possível abrir o arquivo: Acesso negado ou o arquivo está sendo usado por outro programa.'/>
+		<Item Index='35' Value='Não é possível abrir o arquivo: Formato de arquivo desconhecido ou o arquivo está corrompido.'/>
+		<Item Index='36' Value='Não é possível abrir o arquivo: O arquivo está corrompido.'/>
+		<Item Index='37' Value='Não é possível abrir o arquivo: Chave de criptografia desconhecida, provavelmente o arquivo seja para um jogo ou plataforma diferente.'/>
+		<Item Index='38' Value='Não é possível criar um novo arquivo.'/>
+		<Item Index='39' Value='$AppName$ - Nenhum dispositivo de reprodução de áudio'/>
+		<Item Index='40' Value='Não é possível reproduzir o arquivo de áudio. Nenhum dispositivo de reprodução de áudio disponível.'/>
+		<Item Index='41' Value='O $AppName$ é incapaz de localizar o manipulador para este arquivo.\nCaminho do arquivo: "%s"'/>
+		<Item Index='42' Value='O $AppName$ é incapaz de localizar ou abrir este arquivo.\nCaminho do arquivo: "%s"'/>
+		<Item Index='43' Value='O $AppName$ não pode abrir este arquivo porque ele é maior que 256 Megabytes.'/>
+		<Item Index='44' Value='O $AppName$ é incapaz de mostrar o conteúdo deste arquivo. O arquivo não pode ser salvo como XML, código do erro: %s'/>
+		<Item Index='45' Value='O $AppName$ é incapaz de abrir este arquivo. Código do erro: %s'/>
 	</StringList>
 	<tools>
+		<item Name="Tools.Common.RunGame" Title="Executar o $RageGAME_SHORT$" Hint="Executar o $RageGAME$"/>	
 		<item Name="Tools.Common.Search" Title="Buscar" Hint="Abrir a busca"/>
-		<item Name="Tools.GTAIV.PlacementSearch" Title="Busca de Localização" Hint="Abrir a Busca de Localização"/>
-		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Encontrar localização" Hint="Abrir a Busca de Localização"/>
 		<item Name="Tools.Common.HashGenerator" Title="Gerador de Hash" Hint="Abrir o Gerador de Hash"/>
-		<item Name="Tools.Common.RunGame" Title="Iniciar $RageGAME_SHORT$" Hint="Iniciar $RageGAME$"/>	
-		<item Name="Files.GTAEngine.TextViewer" Title="Visualizador de GXT" Hint=""/>		
-		<item Name="Files.Resources.TextureEditor" Title="Visualizador de textura" Hint=""/>
-		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Editor de textura" Hint=""/>				
+		<item Name="Tools.Common.PackageInstaller" Title="Instalador de Pacote" Hint="Abrir o Instalador de Pacote"/>		
+		<item Name="Tools.GTAIV.PlacementSearch" Title="Buscar Localização Geográfica" Hint="Abrir a Busca de Localização Geográfica"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Encontrar localização" Hint="Abrir a Busca de Localização Geográfica"/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Localizar no IDE" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Visualizador de Animação" Hint="Abrir o Visualizador de Animação"/>
+		<item Name="Tools.GTAV.ASIManager" Title="Gerenciador de ASI" Hint="Gerenciador de ASI"/>
 		<item Name="Files.Common.AudioPlayer" Title="Reprodutor de áudio" Hint=""/>	
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Exportar para openFormats (.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer" Title="Visualizador de GXT" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="Visualizador de GXT2" Hint=""/>
+		<item Name="Files.Resources.TextureEditor" Title="Visualizador de textura" Hint=""/>
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Editor de textura" Hint=""/>
 		<item Name="Files.Resources.CollisionViewer" Title="Visualizador de colisão" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="Visualizador de modelo WDR/WDD" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="Visualizador de modelo WFT" Hint=""/>
-		<item Name="Files.Resources.NavmeshViewer" Title="Visualizador de Nav Mesh" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Encontrar no IDE" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="Visualizador de Animação" Hint="Abrir o Visualizador de Animação"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Instalador de Pacote" Hint="Abrir o Instalador de Pacote"/>
-		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Exportar para openFormats (.oac)" Hint=""/>
-		<item Name="Files.GTAEngine.TextViewer2" Title="Visualizador de GXT2" Hint=""/>
-		<item Name="Tools.GTAV.ASIManager" Title="Gerenciador de ASI" Hint="Gerenciador de ASI"/>
-		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Exportar skeleton para openFormats (.skel)" Hint=""/>		
+		<item Name="Files.Resources.NavmeshViewer" Title="Visualizador de NavMesh" Hint=""/>
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Exportar skeleton para openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Editar texturas embutidas" Hint="Editar com o Editor de Texturas Embutido"/>		
 	</tools>
 </GlobalStrings>

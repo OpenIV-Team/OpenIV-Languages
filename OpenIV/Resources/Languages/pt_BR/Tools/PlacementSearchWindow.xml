@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<PlacementSearchWindow Caption='Busca de Localização - $AppName$'>
+	<PlacementSearchWindow Caption='Buscar Localização Geográfica - $AppName$'>
 	</PlacementSearchWindow>
 
 	<RenderUI>
@@ -19,9 +19,9 @@
 		<string name="SHOW_DEFINITION">Mostrar definição em um arquivo IDE</string>
 		<string name="SHOW_IDE">Mostrar arquivo IDE</string>
 		<string name="SHOW_ARCHIVE">Mostrar arquivo</string>
-		<string name="SHOW_RESOURCE">Mostrar arquivo de recurso</string>
+		<string name="SHOW_RESOURCE">Mostrar arquivo do recurso</string>
 
-		<string name="HELP_TITLE">Busca de Localização - Ajuda</string>
+		<string name="HELP_TITLE">Buscar Localização Geográfica - Ajuda</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Use o mouse para olhar ao redor, mova usando essas teclas:
 			
@@ -40,7 +40,7 @@
     
     Use a roda do mouse para dá zoom.
 	
-    ESC - Fechar a janela de Busca de Localização
+    ESC - Fechar a janela de Buscar Localização Geográfica
     H - Para ocultar temporariamente o HUD (segure o botão)
 ]]>
 		</text>

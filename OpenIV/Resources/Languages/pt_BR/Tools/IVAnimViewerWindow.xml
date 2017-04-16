@@ -11,14 +11,14 @@
 		<string name="CHANGE_PED_MODEL">Alterar modelo de pedestre</string>
 		<string name="SELECT_PED_MODEL">Selecionar modelo de pedestre</string>
 		<string name="LOADING___">carregando...</string>
-		<string name="EMPTY_CUTSCENE">Cutscene vazio</string>
-		<string name="EMPTY_CUTSCENE_MSG">Incapaz de abrir cutscene vazio.</string>
+		<string name="EMPTY_CUTSCENE">O cutscene está vazio</string>
+		<string name="EMPTY_CUTSCENE_MSG">Não é possível abrir o cutscene vazio.</string>
 		<string name="MISSED_ANIMATIONS">Animações perdidas</string>
-		<string name="MISSED_ANIMATIONS_MSG">O $AppName$ é incapaz de carregar algumas animações porque os arquivo foram perdidos.</string>
+		<string name="MISSED_ANIMATIONS_MSG">O $AppName$ é incapaz de carregar algumas animações, porque os arquivo foram perdidos.</string>
 		<string name="FRAMES_">Frames: </string>
 		<string name="TIME_SCALE_X">Escala de tempo: x</string>
 		<!-- help -->
-		<string name="HELP_TITLE">Visualizador de Animações — Ajuda</string>
+		<string name="HELP_TITLE">Visualizador de Animação — Ajuda</string>
 		<text name="HELP_TEXT">
 			<![CDATA[ Selecione uma categoria e, em seguida, reproduza alguma animação. ]]>
 		</text>
