@@ -21,11 +21,11 @@
 
 		<string name="SELECT_CONTENT">Selecionar o conteúdo para instalar</string>
 		<string name="SELECT_LOCATION">Selecionar o local para instalar</string>
-		<string name="LOCATION_MODS_FOLDER">pasta $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER">Pasta $ModsFolder$</string>
 		<string name="LOCATION_MODS_FOLDER_TEXT">Instalar este mod na pasta $ModsFolder$</string>
-		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Este pacote não pode ser instalado na pasta $ModsFolder$, porque a pasta $ModsFolder$ não é suportada pelo jogo ($RageGAME$) atual.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Este pacote não pode ser instalado na pasta $ModsFolder$, porque a pasta $ModsFolder$ não é suportada pelo jogo atual ($RageGAME$).</string>
 		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Este pacote não pode ser instalado na pasta $ModsFolder$, porque a pasta $ModsFolder$ não é suportada pelo formato do pacote.</string>
-		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Este pacote não pode ser instalado na pasta $ModsFolder$, porque não afeta quaisquer arquivos do RPF.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Este pacote não pode ser instalado na pasta $ModsFolder$, porque não altera nenhum arquivo RPF.</string>
 		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Este pacote não pode ser instalado na pasta $ModsFolder$, porque o $ModsFolderAsi$ não está instalado.</string>
 		<string name="LOCATION_GAME_FOLDER">Pasta do jogo</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Instalar este mod diretamente na pasta do jogo</string>
@@ -33,7 +33,7 @@
 
 		<string name="INSTALLATION_SUCCEEDED">Instalado com êxito</string>
 		<string name="RUN_GAME">Executar o $RageGAME$</string>
-		<string name="RUN_GAME_TEXT">Execute o jogo e dê uma olhada no que você conseguiu</string>
+		<string name="RUN_GAME_TEXT">Execute o jogo e dê uma olhada no que conseguiu</string>
 
 		<string name="INSTALLATION_FAILED">Falha na instalação</string>
 
