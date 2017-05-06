@@ -1,38 +1,38 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
 	<StringList>
-		<Item Index='00' Value='Progress...'/>
-		<Item Index='01' Value='Current file: '/>
-		<Item Index='02' Value='Search - $AppName$'/>
-		<Item Index='03' Value='Searching, please wait...'/>
-		<Item Index='04' Value='Close'/>
+		<Item Index='00' Value='进行中...'/>
+		<Item Index='01' Value='当前文件: '/>
+		<Item Index='02' Value='搜索 - $AppName$'/>
+		<Item Index='03' Value='搜索中, 请稍候t...'/>
+		<Item Index='04' Value='关闭'/>
 		<Item Index='05' Value=''/>
-		<Item Index='06' Value='Yes'/>
-		<Item Index='07' Value='No'/>
-		<Item Index='08' Value=' bytes'/>
+		<Item Index='06' Value='是'/>
+		<Item Index='07' Value='无'/>
+		<Item Index='08' Value=' B'/>
 		<Item Index='09' Value=' KB'/>
 		<Item Index='10' Value=' MB'/>
-		<Item Index='11' Value='Warning, you are in editing mode!'/>
-		<Item Index='12' Value='While in editing mode, all changes will automatically saved.\nDo you want to continue?'/>
-		<Item Index='13' Value='Destination folder:'/>
-		<Item Index='14' Value='External application is working...'/>
-		<Item Index='15' Value='Creating new %S'/>
-		<Item Index='16' Value='$AppName$ - Information'/>
-		<Item Index='17' Value='Error loading file, probable file is corrupt.'/>
-		<Item Index='18' Value='$AppName$ - Error occured while opening file'/>
-		<Item Index='19' Value='Unknown file format.'/>
-		<Item Index='20' Value='%S version %D is not supported.'/>
-		<Item Index='21' Value="$AppName$ can't open archive, reason:\n"/>
-		<Item Index='22' Value='$AppName$ - Create archive'/>
-		<Item Index='23' Value="Archive name can't be null."/>
-		<Item Index='24' Value='openFormats - Import'/>
-		<Item Index='25' Value='Unknown file format extension: %S'/>
-		<Item Index='26' Value='$AppName$ - DirectX error'/>
+		<Item Index='11' Value='警告, 编辑模式已打开'/>
+		<Item Index='12' Value='编辑模式中,所有操作会自动保存.\n是否继续?'/>
+		<Item Index='13' Value='目标文件夹:'/>
+		<Item Index='14' Value='外部应用程序工作中...'/>
+		<Item Index='15' Value='创建新的 %S'/>
+		<Item Index='16' Value='$AppName$ - 信息'/>
+		<Item Index='17' Value='加载文件出错,错误可能的文件是损坏。'/>
+		<Item Index='18' Value='$AppName$ - 打开文件时发生错误'/>
+		<Item Index='19' Value='未知文件格式'/>
+		<Item Index='20' Value='%S 版本 %D 不受支持。'/>
+		<Item Index='21' Value="$AppName$ 不能打开, 原因:\n"/>
+		<Item Index='22' Value='$AppName$ - 创建档案'/>
+		<Item Index='23' Value="档案名不能为空。"/>
+		<Item Index='24' Value='openFormats - 导入'/>
+		<Item Index='25' Value='未知文件格式扩展名: %S'/>
+		<Item Index='26' Value='$AppName$ - DirectX 错误'/>
 		<Item Index='27' Value='$AppName$ is unable to initalize Direct3D.'/>
-		<Item Index='28' Value='Run $RageGAME_SHORT$'/>
+		<Item Index='28' Value='运行 $RageGAME_SHORT$'/>
 		<Item Index='29' Value="$AppName$ is unable to locate associated IDE file."/>
 		<Item Index='30' Value="$AppName$ is unable to open file. Here is list of possible reasons:\n\nAccess denied. Try to run $AppName$ with administrator right.\nAnother process uses file. Close other programs and try again.\n\n"/>	
-		<Item Index='31' Value='Destination folder:'/>
+		<Item Index='31' Value='目标文件夹:'/>
 		<Item Index='32' Value='Unable to open archive: Unknown error.'/>
 		<Item Index='33' Value='Unable to open archive: Path not found.'/>
 		<Item Index='34' Value='Unable to open archive: Access denied or file is used in another program.'/>
@@ -42,26 +42,33 @@
 		<Item Index='38' Value='Unable to create new archive.'/>
 		<Item Index='39' Value='$AppName$ - No audio playback device'/>
 		<Item Index='40' Value='Unable to play audio file. No audio playback device available.'/>
+		<Item Index='41' Value='$AppName$ is unable to find handler for this file.\nFile path: "%s"'/>
+		<Item Index='42' Value='$AppName$ is unable to find or open this file.\nFile path: "%s"'/>
+		<Item Index='43' Value='$AppName$ cannot open this file because it is larger than 256 Megabytes.'/>
+		<Item Index='44' Value='$AppName$ is unable to show content of this file. File can not be saved as XML, error code: %s'/>
+		<Item Index='45' Value='$AppName$ is unable to open this file. Error code: %s'/>
 	</StringList>
 	<tools>
-		<item Name="Tools.Common.Search" Title="Search" Hint="Open search"/>
+		<item Name="Tools.Common.Search" Title="全局搜索" Hint="进行搜索"/>
 		<item Name="Tools.GTAIV.PlacementSearch" Title="Placement search" Hint="Open placement search"/>
 		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Find location" Hint="Open placement search"/>
-		<item Name="Tools.Common.HashGenerator" Title="Hash Generator" Hint="Open hash generator"/>
-		<item Name="Tools.Common.RunGame" Title="Run $RageGAME_SHORT$" Hint="Run $RageGAME$"/>	
+		<item Name="Tools.Common.HashGenerator" Title="哈希生成器" Hint="Open hash generator"/>
+		<item Name="Tools.Common.RunGame" Title="运行 $RageGAME_SHORT$" Hint="Run $RageGAME$"/>	
 		<item Name="Files.GTAEngine.TextViewer" Title="GXT viewer" Hint=""/>		
-		<item Name="Files.Resources.TextureEditor" Title="Textures viewer" Hint=""/>
-		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Textures editor" Hint=""/>				
-		<item Name="Files.Common.AudioPlayer" Title="Audio player" Hint=""/>	
+		<item Name="Files.Resources.TextureEditor" Title="贴图浏览器" Hint=""/>
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="贴图编辑器" Hint=""/>				
+		<item Name="Files.Common.AudioPlayer" Title="音频播放器" Hint=""/>	
 		<item Name="Files.Resources.CollisionViewer" Title="Collision viewer" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD Models viewer" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="WFT Models viewer" Hint=""/>
 		<item Name="Files.Resources.NavmeshViewer" Title="Nav Mesh viewer" Hint=""/>
 		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Find in IDE" Hint=""/>
 		<item Name="Tools.GTAIV.AnimViewer" Title="Animation viewer" Hint="Open animation viewer"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Package Installer" Hint="Open Package Installer"/>
+		<item Name="Tools.Common.PackageInstaller" Title="自动安装包安装器" Hint="Open Package Installer"/>
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Export to openFormats (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>
-		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>	
+		<item Name="Tools.GTAV.ASIManager" Title="必装插件" Hint="ASI Manager"/>	
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Export skeleton to openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="编辑内嵌贴图" Hint="Edit with Embedded Texture Editor"/>
 	</tools>
 </GlobalStrings>
