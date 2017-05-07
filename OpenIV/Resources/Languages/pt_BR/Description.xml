@@ -7,7 +7,7 @@
 	<type Name="Meta (XML)">
 		<ext>meta</ext>
 	</type>
-	<type Name="Base de dados">
+	<type Name="Banco de dados">
 		<ext>db</ext>
 	</type>
 	<type Name="Script (texto)">
@@ -16,7 +16,7 @@
 	<type Name="Scaleform flash">
 		<ext>gfx</ext>
 	</type>
-	<type Name="Conteúdo gerado por usuários (JSON)">
+	<type Name="Conteúdo gerado pelo usuário (JSON)">
 		<ext>ugc</ext>
 	</type>
 	<type Name="Collision bound">
@@ -31,7 +31,7 @@
 		<ext>cmt</ext>
 		<ext>cmf</ext>
 	</type>
-	<type Name="Efeito de partículas">
+	<type Name="Efeitos de partículas">
 		<ext>ypt</ext>
 		<ext>xpt</ext>
 		<ext>cpt</ext>
@@ -41,7 +41,7 @@
 		<ext>xwr</ext>
 		<ext>cwr</ext>
 	</type>
-	<type Name="Notação de Objeto JavaScript">
+	<type Name="Notação de objetos JavaScript">
 		<ext>json</ext>
 	</type>
 	<type Name="Mapa (PSO/RSC)">
@@ -65,10 +65,10 @@
 		<ext>oiv</ext>
 	</type>
 	<!-- Archives -->
-	<type Name="Arquivo de Pacote RAGE">
+	<type Name="Arquivo de pacote RAGE">
 		<ext>rpf</ext>
 	</type>
-	<type Name="Arquivo de Imagem do GTA">
+	<type Name="Arquivo de imagem do GTA">
 		<ext>img</ext>
 	</type>
 	<type Name="Arquivo ZIP">
@@ -103,7 +103,7 @@
 	<type Name="DirectDraw Surface">
 		<ext>dds</ext>
 	</type>
-	<type Name="Vídeo Bink">
+	<type Name="Bink Video">
 		<ext>bik</ext>
 	</type>
 	<type Name="Arquivo de Áudio/Vídeo do Windows Media">
@@ -341,7 +341,7 @@
 	<type Name="Texto em XML">
 		<ext>xml</ext>
 	</type>
-	<type Name="Texto de config">
+	<type Name="Arquivo de configuração">
 		<ext>ini</ext>
 	</type>
 	<type Name="Script compilado">
@@ -378,7 +378,7 @@
 	<type Name="Lista do Microsoft Office Excel 97-2003">
 		<ext>xls</ext>
 	</type>
-	<type Name="Clip do GTAIV">
+	<type Name="Clip do GTA IV">
 		<ext>cli</ext>
 	</type>
 	<type Name="Arquivo de pacote hash do GTA IV">
@@ -456,7 +456,7 @@
 	<type Name="Arquivo batch">
 		<ext>bat</ext>
 	</type>
-	<type Name="Script de Comando do Windows">
+	<type Name="Script de comando do Windows">
 		<ext>cmd</ext>
 	</type>
 	<type Name="Expressões">
