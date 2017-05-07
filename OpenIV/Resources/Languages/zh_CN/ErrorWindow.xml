@@ -1,8 +1,9 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<ErrorWindow Caption='$AppName$ - 应用程序错误'>
 		<lbWindowTitle Caption="$AppName$ 遇到了一个无法处理的问题，\n现在需要重启。"/>
 		<btnCloseApp Caption='关闭 $AppName$'/>
+		<lbReportHere Caption='到下列链接反馈此错误：'/>
 		<lnkWeb1 Caption='访问官方网站'/>
 		<lnkWeb2 Caption='访问国际支持论坛'/>
 		<lnkWeb3 Caption='访问俄语支持论坛'/>

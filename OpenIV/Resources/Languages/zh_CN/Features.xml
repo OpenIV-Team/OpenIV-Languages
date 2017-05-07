@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Favorites -->
@@ -20,7 +20,7 @@
 		</AeroWindow>
 	</AddToFavoritesWindow>
 
-	<OrganizeFavoritesWindow Caption='组织收藏'>
+	<OrganizeFavoritesWindow Caption='组织收藏 - $AppName$'>
 		<btnSave Caption='保存'/>
 		<btnCancel Caption='取消'/>
 		<btnNewFolder Caption='新建文件夹'/>
@@ -38,9 +38,13 @@
 		</AeroWindow>
 	</OrganizeFavoritesWindow>
 
-	<!-- Rebuild tool -->
+	<!-- Archive Defragmenter -->
 
-	<RebuildToolWindow Caption='$AppName$ - 重建工具'>
+	<DefragmenterWindow Caption='重建 - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="重新整理RPF文件内的文件碎片以优化文件体积"/>
+		<lbNoteSave Caption='你所做的更改已自动保存, 每次编辑后并不用必需重建。'/>
+		<lbNoteRevert Caption='重建不会改变文件内容'/>
 		<!-- Actions -->
 		<actClose Caption='关闭'/>
 		<actRebuild Caption='重建'/>
@@ -61,16 +65,16 @@
 		<AeroWindow LinesCount='4'>
 			<StringList>
 				<Item Index='0' Value='全部完成。'/>
-				<Item Index='1' Value='$AppName$ - 档案已重建'/>
-				<Item Index='2' Value='打开已重建的档案？'/>
+				<Item Index='1' Value='$AppName$ - 文件已重建'/>
+				<Item Index='2' Value='打开已重建的文件？'/>
 				<Item Index='3' Value='部分文件未做处理。'/>
 			</StringList>
 		</AeroWindow>
-	</RebuildToolWindow>
+	</DefragmenterWindow>
 
 	<!-- Archive properties -->
 
-	<ArchivePropertiesWindow Caption='档案信息'>
+	<ArchivePropertiesWindow Caption='RPF信息'>
 		<!-- Button's -->
 		<btnClose Caption='关闭'/>
 		<!-- Label's -->

@@ -1,139 +1,126 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Library folder="文件夹" Default='%S 文件' RSC='%S 资源'>
+<?xml version="1.0" encoding="UTF-8"?>
+<Library folder="文件夹" Default='%S 文件' RSC='%S Resource'>
 	<!-- GTA V -->
+	<type Name="日志">
+		<ext>log</ext>
+	</type>
 	<type Name="Patch (XML)">
 		<ext>patch</ext>
 	</type>
-
-	<type Name="Meta (XML)">
+	<type Name="数据">
 		<ext>meta</ext>
 	</type>
-
 	<type Name="数据库">
 		<ext>db</ext>
 	</type>
-
-	<type Name="脚本（文本）">
+	<type Name="脚本">
 		<ext>sc</ext>
 	</type>
-
 	<type Name="Scaleform flash">
 		<ext>gfx</ext>
 	</type>
-
-	<type Name="User generated content">
+	<type Name="User generated content (JSON)">
 		<ext>ugc</ext>
 	</type>
-
 	<type Name="Collision bound">
 		<ext>bnd</ext>
 	</type>
-
-	<type Name="Metadata (PSO/RSC)">
+	<type Name="数据（加密）">
 		<ext>pso</ext>
-
 		<ext>ymt</ext>
 		<ext>ymf</ext>
-		
 		<ext>xmt</ext>
 		<ext>xmf</ext>
-
 		<ext>cmt</ext>
 		<ext>cmf</ext>
 	</type>
-
 	<type Name="Particle effect">
 		<ext>ypt</ext>
 		<ext>xpt</ext>
 		<ext>cpt</ext>
 	</type>
-
 	<type Name="Waypoint record">
 		<ext>ywr</ext>
 		<ext>xwr</ext>
 		<ext>cwr</ext>
 	</type>
-
 	<type Name="JavaScript Object Notation">
 		<ext>json</ext>
 	</type>
-
 	<type Name="Map (PSO/RSC)">
 		<ext>ymap</ext>
 		<ext>xmap</ext>
 		<ext>cmap</ext>
 	</type>
-
 	<type Name="Definition Entries (PSO/RSC)">
 		<ext>ytyp</ext>
 		<ext>xtyp</ext>
 		<ext>ctyp</ext>
 	</type>
-
 	<type Name="Name table">
 		<ext>nametable</ext>
 	</type>
-
 	<type Name="Streaming">
 		<ext>srl</ext>
 	</type>
-
 	<!-- OpenIV -->
-	<type Name="OpenIV Mod Package">
+	<type Name="自动安装包">
 		<ext>oiv</ext>
 	</type>
-
 	<!-- Archives -->
-	<type Name="Rage Package File">
+	<type Name="文件包">
 		<ext>rpf</ext>
 	</type>
 	<type Name="GTA Image File">
 		<ext>img</ext>
 	</type>
-
+	<type Name="压缩包">
+		<ext>zip</ext>
+	</type>
+	<type Name="压缩包">
+		<ext>7z</ext>
+	</type>
+	<type Name="压缩包">
+		<ext>rar</ext>
+	</type>
 	<!-- Native media (Image and Video) -->
-	<type Name="PNG 图像">
+	<type Name="图像">
 		<ext>png</ext>
-	</type>
-	<type Name="BMP 图像">
 		<ext>bmp</ext>
-	</type>
-	<type Name="GIF 图像">
 		<ext>gif</ext>
-	</type>
-	<type Name="JPEG 图像">
 		<ext>jpeg</ext>
 		<ext>jpg</ext>
 	</type>
 	<type Name="图标">
 		<ext>ico</ext>
 	</type>
-	<type Name="Truevision TGA 图像">
+	<type Name="TGA图像">
 		<ext>tga</ext>
 	</type>
-	<type Name="DirectDraw Surface">
+	<type Name="DDS贴图">
 		<ext>dds</ext>
 	</type>
 	<type Name="Bink Video">
 		<ext>bik</ext>
 	</type>
-	<type Name="Windows多媒体音/视频文件">
+	<type Name="Windows Media Audio/Video file">
 		<ext>wmv</ext>
 		<ext>wma</ext>
 	</type>
 	<type Name="Wave sound">
 		<ext>wav</ext>
 	</type>
-
+	<type Name="MP4 Video File">
+		<ext>mp4</ext>
+	</type>
 	<!-- Web media -->
-	<type Name="HTML 文件">
+	<type Name="HTML file">
 		<ext>html</ext>
 		<ext>htm</ext>
 	</type>
 	<type Name="Shockwave Flash">
 		<ext>swf</ext>
 	</type>
-
 	<!-- Resources (RAGE) -->
 	<type Name="Script resource">
 		<ext>xsc</ext>
@@ -183,13 +170,13 @@
 		<ext>wtb</ext>
 		<ext>ytb</ext>
 	</type>
-	<type Name="Texture dictionary">
+	<type Name="贴图库">
 		<ext>wtd</ext>
 		<ext>xtd</ext>
 		<ext>ctd</ext>
 		<ext>ytd</ext>
 	</type>
-	<type Name="Animation dictionary">
+	<type Name="动画库">
 		<ext>wad</ext>
 		<ext>xad</ext>
 		<ext>cad</ext>
@@ -213,7 +200,7 @@
 		<ext>cdr</ext>
 		<ext>ydr</ext>
 	</type>
-	<type Name="Fragment object">
+	<type Name="模型库">
 		<ext>wft</ext>
 		<ext>xft</ext>
 		<ext>cft</ext>
@@ -294,38 +281,38 @@
 	<type Name="Animation resource">
 		<ext>wan</ext>
 	</type>
-
 	<!-- Audio (RAGE) -->
 	<type Name="Audio Wave Container">
 		<ext>awc</ext>
 	</type>
 	<!-- Audio (OpenIV) -->
-	<type Name="音库">
+	<type Name="Sound Bank">
 		<ext>RAGE_SOUND_BANK</ext>
 	</type>
-	<type Name="音频文件">
+	<type Name="Audio File">
 		<ext>RAGE_AUDIO_FILE</ext>
 	</type>
-
 	<!-- Executables -->
-	<type Name="执行文件">
+	<type Name="可执行文件">
 		<ext>exe</ext>
 	</type>
-	<type Name="执行文件（XBOX 360）">
+	<type Name="Executable (XBOX 360)">
 		<ext>xex</ext>
 	</type>
-	<type Name="动态链接库">
+	<type Name="动态运行库">
 		<ext>dll</ext>
 	</type>
-
-	<!--  -->
-	<type Name="二进制数据">
+	<type Name="ASI插件">
+		<ext>asi</ext>
+	</type>
+	<!-- Misc -->
+	<type Name="2进制数据">
 		<ext>bin</ext>
 	</type>
 	<type Name="Python script">
 		<ext>py</ext>
 	</type>
-	<type Name="文本文档">
+	<type Name="文本">
 		<ext>txt</ext>
 	</type>
 	<type Name="Material">
@@ -339,21 +326,22 @@
 	</type>
 	<type Name="Texture Conversion Params">
 		<ext>ctp</ext>
+		<ext>tcp</ext>
 	</type>
 	<type Name="Shader preset">
 		<ext>sps</ext>
 	</type>
-	<type Name="GTA文本表格">
+	<type Name="文本表">
 		<ext>gxt</ext>
 		<ext>gxt2</ext>
 	</type>
-	<type Name="XML文本">
+	<type Name="XML文件">
 		<ext>xml</ext>
 	</type>
-	<type Name="配置设置">
+	<type Name="配置文件">
 		<ext>ini</ext>
 	</type>
-	<type Name="已编译脚本">
+	<type Name="Compiled script">
 		<ext>sco</ext>
 	</type>
 	<type Name="Item Definition Entries">
@@ -365,26 +353,26 @@
 	<type Name="Car Recordings">
 		<ext>rrr</ext>
 	</type>
-	<type Name="数据">
+	<type Name="Data">
 		<ext>dat</ext>
 		<ext>datnew</ext>
 	</type>
-	<type Name="过场动画">
+	<type Name="CUT scene">
 		<ext>cut</ext>
 	</type>
 	<type Name="eXtended Placement Lists">
 		<ext>xpl</ext>
 		<ext>wpl</ext>
 	</type>
-	<type Name="列表">
+	<type Name="List">
 		<ext>list</ext>
 		<ext>xlist</ext>
 		<ext>lst</ext>
 	</type>
-	<type Name="逗号分隔值">
+	<type Name="表格">
 		<ext>csv</ext>
 	</type>
-	<type Name="Microsoft Office Excel 97-2003 列表">
+	<type Name="表格">
 		<ext>xls</ext>
 	</type>
 	<type Name="GTAIV Clip">
@@ -396,13 +384,13 @@
 	<type Name="Config">
 		<ext>cfg</ext>
 	</type>
-	<type Name="GTAIV Clip 缩略图">
+	<type Name="GTAIV Clip Thumbs image">
 		<ext>tag</ext>
 	</type>
-	<type Name="动画">
+	<type Name="Animation">
 		<ext>anim</ext>
 	</type>
-	<type Name="路径">
+	<type Name="Paths">
 		<ext>nod</ext>
 	</type>
 	<type Name="Combat information">
@@ -414,10 +402,10 @@
 	<type Name="Zone">
 		<ext>zon</ext>
 	</type>
-	<type Name="已编译着色器">
+	<type Name="Compiled shader">
 		<ext>fxc</ext>
 	</type>
-	<type Name="已编译着色器（cell/ps3）">
+	<type Name="Compiled shader (cell/ps3)">
 		<ext>cgx</ext>
 	</type>
 	<type Name="Audio Metadata">
@@ -430,34 +418,36 @@
 		<ext>DAT45</ext>
 		<ext>DAT46</ext>
 		<name>config/speech.dat</name>
-		<name>config/categories.dat</name>	
-		<name>config/curves.dat</name>	
-		<name>config/dlc_1_curves.dat</name>	
-		<name>config/dlc_1_game.dat</name>	
-		<name>config/dlc_1_sounds.dat</name>	
-		<name>config/dlc_1_speech.dat</name>	
-		<name>config/dlc_pre-order_curves.dat</name>	
-		<name>config/dlc_pre-order_game.dat</name>	
-		<name>config/dlc_pre-order_sounds.dat</name>	
-		<name>config/effects.dat</name>	
+		<name>config/categories.dat</name>
+		<name>config/curves.dat</name>
+		<name>config/dlc_1_curves.dat</name>
+		<name>config/dlc_1_game.dat</name>
+		<name>config/dlc_1_sounds.dat</name>
+		<name>config/dlc_1_speech.dat</name>
+		<name>config/dlc_pre-order_curves.dat</name>
+		<name>config/dlc_pre-order_game.dat</name>
+		<name>config/dlc_pre-order_sounds.dat</name>
+		<name>config/effects.dat</name>
 		<name>config/game.dat</name>
 		<name>config/sounds.dat</name>
 		<name>config/test_curves.dat</name>
 		<name>config/test_game.dat</name>
 		<name>config/test_sounds.dat</name>
 		<name>config/weapons.dat</name>
-		<name>config/anim.dat</name>	
-		<name>config/dlc_3_sounds.dat</name>	
-		<name>config/dlc_3_game.dat</name>	
-		<name>config/dlc_3_curves.dat</name>	
-		<name>config/dlc_2_speech.dat</name>	
-		<name>config/dlc_2_sounds.dat</name>	
-		<name>config/dlc_2_game.dat</name>	
-		<name>config/dlc_2_curves.dat</name>		
+		<name>config/anim.dat</name>
+		<name>config/dlc_3_sounds.dat</name>
+		<name>config/dlc_3_game.dat</name>
+		<name>config/dlc_3_curves.dat</name>
+		<name>config/dlc_2_speech.dat</name>
+		<name>config/dlc_2_sounds.dat</name>
+		<name>config/dlc_2_game.dat</name>
+		<name>config/dlc_2_curves.dat</name>
 	</type>
-	<type Name="批处理文件">
-		<ext>cmd</ext>
+	<type Name="Batch file">
 		<ext>bat</ext>
+	</type>
+	<type Name="Windows Command Script">
+		<ext>cmd</ext>
 	</type>
 	<type Name="Expressions">
 		<ext>expr</ext>
@@ -468,10 +458,7 @@
 	<type Name="Image FX">
 		<ext>ifx</ext>
 	</type>
-	<type Name="Texture Conversion Params">
-		<ext>tcp</ext>
-	</type>
-
+	<!-- Steam -->
 	<type Name="Steam script file">
 		<ext>vdf</ext>
 	</type>
