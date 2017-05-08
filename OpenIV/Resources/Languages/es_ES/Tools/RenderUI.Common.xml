@@ -24,13 +24,13 @@
 
 		<!-- Options -->
 		<string name="SHOW_GRID">Mostrar cuadrícula:</string>
-		<string name="GEOMETRY">Gemotría:</string>		
+		<string name="GEOMETRY">Geometría:</string>		
 		<string name="EDGED_FACES">Mostrar bordes:</string>
 		<string name="DISPLAY_POINTS">Puntos de pantalla:</string>
 
 		<!-- Base information -->
-		<string name="POLYGONS">Poligonos:</string>
-		<string name="VERTICES">Vertices:</string>
+		<string name="POLYGONS">Polígonos:</string>
+		<string name="VERTICES">Vértices:</string>
 
 		<!-- LOD -->
 		<string name="LOD">Nivel de Detalle:</string>
@@ -62,15 +62,15 @@
 		<string name="INFO_TEXTURES">Texturas</string>
 
 		<!-- Information mesh tabs -->
-		<string name="TAB_LOD_HIGH">Alto</string>
-		<string name="TAB_LOD_MED">Medio</string>
-		<string name="TAB_LOD_LOW">Bajo</string>
-		<string name="TAB_LOD_VLOW">Muy Bajo</string>
+		<string name="TAB_LOD_HIGH">Alta</string>
+		<string name="TAB_LOD_MED">Media</string>
+		<string name="TAB_LOD_LOW">Baja</string>
+		<string name="TAB_LOD_VLOW">Muy Baja</string>
 
 		<!-- Columns -->
 		<string name="COLUMN_SPS">SPS</string>
 		<string name="COLUMN_SHADER">Shader</string>
-		<string name="COLUMN_PARAMETERS">Parametros</string>
+		<string name="COLUMN_PARAMETERS">Parámetros</string>
 
 		<string name="COLUMN_NAME">Nombre</string>
 		<string name="COLUMN_TYPE">Tipo</string>
@@ -79,7 +79,7 @@
 		<string name="COLUMN_INDEX">Índice</string>
 		<string name="COLUMN_INDEX_COUNT">Contador de Índices</string>
 		<string name="COLUMN_FACE_COUNT">Contador de Caras</string>
-		<string name="COLUMN_VERTEX_COUNT">Contador de Vertices</string>
+		<string name="COLUMN_VERTEX_COUNT">Contador de Vértices</string>
 		
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Por favor, selecciona el formato del archivo:</string>
