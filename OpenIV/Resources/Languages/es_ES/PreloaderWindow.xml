@@ -27,7 +27,7 @@
 					<Item Index='00' Value='$AppName$ Términos de uso'/>
 					<Item Index='01' Value='Antes de usar $AppName$ tienes que leer los siguientes términos de uso.'/>
 					<Item Index='02' Value='$WebName$ servicio'/>
-					<Item Index='03' Value='$WebName$ el servicio esta hecho con el proposito de intercambiar información con los desarrolladores y los usuarios finales de $AppName$. Si quieres registrate en el servicio, vas a estar habilitado de chequear las actualizaciones de $AppName$ y usar otras funciones adicionales. También $WebName$ el servicio colecta algunas estadísticas de información cuales están destinadas para ayudarnos a mejorar $AppName$ en el camino que el usuario prefiera.'/>
+					<Item Index='03' Value='$WebName$ el servicio está hecho con el proposito de intercambiar información con los desarrolladores y los usuarios finales de $AppName$. Si quieres registrate en el servicio, vas a estar habilitado de chequear las actualizaciones de $AppName$ y usar otras funciones adicionales. También $WebName$ el servicio colecta algunas estadísticas de información cuales están destinadas para ayudarnos a mejorar $AppName$ en el camino que el usuario prefiera.'/>
 					<Item Index='04' Value='Servicio temporalmente indisponible.'/>
 					<Item Index='05' Value='Elige la carpeta de $RageGAME$'/>
 					<Item Index='06' Value='Si no especifica la localización del juego, $AppName$ no puede abrir archivos procedentes de $RageGAME_SHORT$ que no tengan la suficiente información. Por favor introduce la correcta localización del $RageGAME$ instalado.'/>
@@ -44,9 +44,9 @@
 					<Item Index='17' Value="Error: $AppName$ no tiene acceso a trabajar con esta carpeta.\nUsted puede establecer los permisos requeridos o abrir $AppName$ con permisos de administrador."/>
 					<Item Index='18' Value='Únete a la comunidad de $AppName$'/>
 					<Item Index='19' Value='$AppName$ - Confirmación'/>
-					<Item Index='20' Value='El proceso de configuración no está terminado.\n¿Segunro quieres salir?'/>
+					<Item Index='20' Value='El proceso de configuración no está terminado.\n¿Seguro quieres salir?'/>
 					<Item Index='21' Value="Error: $AppName$ No tiene acceso para trabajar con '$RageEncryptionStorage$'.\nUsted puede establecer los permisos requeridos o abrir $AppName$ con permisos de administrador."/>
-					<Item Index='22' Value="Error: $RageGAME$ esta en proceso. Cierra el juego antes de utilizar $AppName$."/>
+					<Item Index='22' Value="Error: $RageGAME$ está en proceso. Cierra el juego antes de utilizar $AppName$."/>
 					<Item Index='23' Value="Todo hecho.\nLos permisos fueron establecidos a la carpeta de tu juego"/>
  					<Item Index='24' Value="Incapaz de establecer los permisos."/>
 				</Lines>
@@ -89,7 +89,7 @@
 					<Item Index='00' Value='Error fatal en la aplicación'/>
 					<Item Index='01' Value='Tienes puesto $AppName$ en la misma carpeta del archivo "$RageEncryptionStorage$", y esto está mal.\nPor favor pon $AppName$ en una carpeta separada.'/>
 					<Item Index='02' Value='Cambiar $RageGAME$ de carpeta'/>
-					<Item Index='03' Value='Algo anda mal, por favor cambiar la carpeta de $RageGAME$ y reinicia $AppName$.'/>
+					<Item Index='03' Value='Algo anda mal, por favor cambia la carpeta de $RageGAME$ y reinicia $AppName$.'/>
 					<Item Index='04' Value='Error: Esta carpeta no existe.'/>
 					<Item Index='05' Value='Éxito: $AppName$ puede trabajar con esta carpeta.'/>
 					<Item Index='06' Value="Error: Esta carpeta no contiene la llave de encriptación del archivo '$RageEncryptionStorage$'."/>
