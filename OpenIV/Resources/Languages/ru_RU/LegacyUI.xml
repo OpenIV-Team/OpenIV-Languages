@@ -217,7 +217,7 @@
 		<!-- Filter -->
 		<actFilterByName Caption="По имени" Hint=""/>
 		<actFilterByType Caption="По типу" Hint=""/>
-		<actFilterOnlyThis Caption="Только этот элементе" Hint=""/>
+		<actFilterOnlyThis Caption="Только этот элемент" Hint=""/>
 		<!-- Tree -->
 		<actTreeCopyAsPath Caption="Копировать как путь" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Показать в Проводнике Windows" Hint=""/>
@@ -360,7 +360,7 @@
 		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Показывать уведомление во время редактирования архива за пределами папки "mods"'/>
 		<cbAllowEditModeOnlyInModsFolder Caption='Разрешить редактирование архивов только в папке $ModsFolder$'/>
 		<!-- Tools -->
-		<tabViewers Caption="Инстурменты"/>
+		<tabViewers Caption="Инструменты"/>
 		<lbChooseTheme Caption="Выберите тему"/>
 		<cbAppTheme>
 			<Items>
