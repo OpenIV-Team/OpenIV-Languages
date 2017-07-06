@@ -1,44 +1,44 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<SearchWindow Caption='Search - $AppName$'>
-		<SearchBox BannerText="Search"/>
-		<btnGoSearch Caption="Search"/>
-		<lbSearchOptions Caption="Search options:"/>
-		<lbSearchArea Caption="Search area:"/>
+	<SearchWindow Caption='Arama - $AppName$'>
+		<SearchBox BannerText="Ara"/>
+		<btnGoSearch Caption="Ara"/>
+		<lbSearchOptions Caption="Arama ayarları:"/>
+		<lbSearchArea Caption="Arama bölgesi:"/>
 		<cbSearchArea>
 			<Items>
-				<Item Index="0" Value='Search everywhere'/>
-				<Item Index="1" Value="Search in game folder only"/>
-				<Item Index="2" Value='Search in $ModsFolder$ folder only'/>
+				<Item Index="0" Value='Her yeri ara'/>
+				<Item Index="1" Value="Sadece oyun klasörünü ara"/>
+				<Item Index="2" Value='Sadece $ModsFolder$ klasörünü ara'/>
 			</Items>
 		</cbSearchArea>
-		<cbSoundsAndAudio Caption="Search in Audio"/>
-		<lbStopHint Caption="To stop searching press ESC"/>
-		<btnExtractResults Caption="Extract results"/>
-		<btnExtractAll Caption="Extract all files"/>
-		<btnExtractSelected Caption="Extract selected files"/>
-		<btnGoTo Caption="Go to file"/>
-		<btnOpenItem Caption="Open"/>
-		<btnExtractItem Caption="Extract"/>
-		<btnExtractSelectedItems Caption="Extract selected files"/>
-		<btnExtractAllItems Caption="Extract all files"/>
-		<btnSelectAllItems Caption="Select all"/>
-		<btnCopyName Caption="Copy name"/>
-		<btnCopyPathName Caption="Copy path"/>
-		<btnSaveContent Caption="Save content"/>
-		<btnSaveRawContent Caption="Save raw content"/>
+		<cbSoundsAndAudio Caption="Seslerde ara"/>
+		<lbStopHint Caption="Aramayı durdurmak için ESC'ye basın"/>
+		<btnExtractResults Caption="Sonuçları çıkart"/>
+		<btnExtractAll Caption="Tüm dosyaları çıkart"/>
+		<btnExtractSelected Caption="Seçilen dosyaları çıkart"/>
+		<btnGoTo Caption="Dosyaya git"/>
+		<btnOpenItem Caption="Aç"/>
+		<btnExtractItem Caption="Çıkart"/>
+		<btnExtractSelectedItems Caption="Seçilen dosyaları çıkart"/>
+		<btnExtractAllItems Caption="Tüm dosyaları çıkart"/>
+		<btnSelectAllItems Caption="Hepsini seç"/>
+		<btnCopyName Caption="İsmini kopyala"/>
+		<btnCopyPathName Caption="Yolunu kopyala"/>
+		<btnSaveContent Caption="İçeriği kaydet"/>
+		<btnSaveRawContent Caption="Direkt içeriği kaydet"/>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
-				<Item Index='0' Value='Search'/>
-				<Item Index='1' Value='Stop search'/>
-				<Item Index='2' Value='No items found'/>
-				<Item Index='3' Value='%D items found'/>
-				<Item Index='4' Value='No selected items'/>
-				<Item Index='5' Value='Selected: %D'/>
-				<Item Index='6' Value="$AppName$ can't open file."/>
-				<Item Index='7' Value="No results for extracting."/>
-				<Item Index='8' Value="Please, stop search before extracting."/>
+				<Item Index='0' Value='Ara'/>
+				<Item Index='1' Value='Aramayı durdur'/>
+				<Item Index='2' Value='Hiç sonuç bulunamadı'/>
+				<Item Index='3' Value='%D sonuç bulundu'/>
+				<Item Index='4' Value='Seçilmiş sonuç yok'/>
+				<Item Index='5' Value='Seçilen: %D'/>
+				<Item Index='6' Value="$AppName$ dosyayı açamıyor."/>
+				<Item Index='7' Value="Çıkartmak için sonuç yok."/>
+				<Item Index='8' Value="Çıkartma yapmadan önce lütfen aramayı durdurun."/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>

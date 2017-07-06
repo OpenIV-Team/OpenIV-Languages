@@ -1,49 +1,49 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<CollisionViewerWindow Caption='$AppName$ Collision viewer'>
-		<paneDictionary Caption='Dictionary entries'/>
-		<paneComposite Caption='Composite elements'/>
-		<miLeft Caption='Left'/>
-		<miRight Caption='Right'/>
-		<miCheckAll Caption='Check all' />
-		<miUncheckAll Caption='Uncheck all' />
+	<CollisionViewerWindow Caption='$AppName$ Çarpışma Modeli Görüntüleyicisi'>
+		<paneDictionary Caption='Sözlük girdileri'/>
+		<paneComposite Caption='Komposit elementler'/>
+		<miLeft Caption='Sol'/>
+		<miRight Caption='Sağ'/>
+		<miCheckAll Caption='Hepsini işaretle' />
+		<miUncheckAll Caption='Hepsinin işaretini kaldır' />
 	</CollisionViewerWindow>
 	<RenderUI>
 		<!-- right side -->
-		<string name="SHOW_NORMALS">Show Normals:</string>
+		<string name="SHOW_NORMALS">Normalleri göster:</string>
 		<!-- left side -->
-		<string name="BOUND_TYPE">Bound type:</string>
-		<string name="CHILD_COUNT">Child count:</string>	
+		<string name="BOUND_TYPE">Bağ tipi:</string>
+		<string name="CHILD_COUNT">Alt element sayısı:</string>	
 		<!-- help -->
-		<string name="HELP_TITLE">Collision viewer - help</string>
+		<string name="HELP_TITLE">Çarpışma Modeli Görüntüleyicisi - yardım</string>
 		<text name="HELP_TEXT">
-			<![CDATA[Use mouse to look around, move using these keys:
+			<![CDATA[Fareyi kullanarak etrafa bakının, aşağıdaki tuşlar ile hareket edin:
 			
-    W - Move forward
-    S - Move backward
-    A - Move left
-    D - Move right
+    W - İleri git
+    S - Geri git
+    A - Sola git
+    D - Sağa git
 
-    NumPad 8 - Move camera up
-    NumPad 2 - Move camera down
-    NumPad 4 - Move camera left
-    NumPad 6 - Move camera right
+    NumPad 8 - Kamerayı yukarı hareket ettir
+    NumPad 2 - Kamerayı aşağı hareket ettir
+    NumPad 4 - Kamerayı sola hareket ettir
+    NumPad 6 - Kamerayı sağa hareket ettir
 
-    Hold SHIFT - For faster movement
-    Hold CTRL - For slow movement
-    Use mouse wheel for zooming.
+    Daha hızlı hareket için SHIFT'i basılı tut
+    Daha yavaş hareket için CTRL'i basılı tut
+    Yakınlaştırmak için fare tekerleğini kullan.
 		   
-To change render options use links in right side or these hot keys:
+Render seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
 		   
-    F1 - Toggle this help box
-    C - Toggle camera mode
-    F - Toggle Edged Faces
-    P - Toggle display points
-    N - Toggle show normals
-    G - Toggle geometry
-    ESC - Close this viewer window
+    F1 - Bu yardım kutusunu açıp kapatır
+    C - Kamera modunu değiştirir
+    F - Kenarlı yüzleri açıp kapatır
+    P - Noktaların görüntülenmesini açıp kapatır
+    N - Normallerin görüntülenmesini açıp kapatır
+    G - Geometriyi açıp kapatır
+    ESC - Bu görüntüleyici penceresini kapatır
 	
-    Hold H - For temporarily hide HUD
+    HUD'u geçici olarak gizlemek için H'yi basılı tutun.
 ]]>
 		</text>
 	</RenderUI>

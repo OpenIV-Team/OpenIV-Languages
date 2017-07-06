@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<ErrorWindow Caption='$AppName$ - Application error'>
-		<lbWindowTitle Caption="$AppName$ ran into a problem that it couldn't handle,\nand now it needs to restart."/>
-		<btnCloseApp Caption='Close $AppName$'/>
-		<lbReportHere Caption='Please report this error using the following links:'/>
-		<lnkWeb1 Caption='Visit official site'/>
-		<lnkWeb2 Caption='Visit International support forum'/>
-		<lnkWeb3 Caption='Visit Russian support forum'/>
-		<lbText2 Caption='Additional tools'/>
-		<tbCopyInfo Caption='Copy error information'/>
-		<tbWin7Report Caption='Record steps to reproduce a problem' Hint=''/>
+	<ErrorWindow Caption='$AppName$ - Uygulama hatası'>
+		<lbWindowTitle Caption="$AppName$ halledemeyeceği bir hatayla karşılaştı,\nve yeniden başlatılması gerekiyor."/>
+		<btnCloseApp Caption='$AppName$&apos;i kapat'/>
+		<lbReportHere Caption='Lütfen bu hatayı aşağıdaki linklerden bildirin:'/>
+		<lnkWeb1 Caption='Sitemizi ziyaret edin'/>
+		<lnkWeb2 Caption='Uluslararası destek forumunu ziyaret edin'/>
+		<lnkWeb3 Caption='Rus destek forumunu ziyaret edin'/>
+		<lbText2 Caption='Ek araçlar'/>
+		<tbCopyInfo Caption='Hata bilgisini kopyala'/>
+		<tbWin7Report Caption='Bu hatayı oluşturan adımları kaydet' Hint=''/>
 		<AeroWindow LinesCount='6'>
 			<StringList>
-				<Item Index='0' Value='Time: '/>
-				<Item Index='1' Value='Type: '/>
-				<Item Index='2' Value='Message: '/>
-				<Item Index='3' Value='Additional information:'/>
-				<Item Index='4' Value='Additional information is missing.'/>
-				<Item Index='5' Value='Error information copied to the clipboard.'/>
+				<Item Index='0' Value='Zaman: '/>
+				<Item Index='1' Value='Tip: '/>
+				<Item Index='2' Value='Mesaj: '/>
+				<Item Index='3' Value='Ek bilgi:'/>
+				<Item Index='4' Value='Ek bilgi yok.'/>
+				<Item Index='5' Value='Hata bilgisi kopyalandı.'/>
 			</StringList>
 		</AeroWindow>
 	</ErrorWindow>

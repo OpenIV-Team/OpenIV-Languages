@@ -103,7 +103,7 @@
 		<btnOk Caption='Tamam'/>
 		<tbLeanMore Caption='openFormats ile ilgili daha fazla şey öğren'/>
 		<!-- Check box -->
-		<cbProtectMesh Caption='Meshi koru (sonradan çıkartılmasını engelle)'/>
+		<cbProtectMesh Caption='Ağı koru (sonradan çıkartılmasını engelle)'/>
 	</openFormatsImportWindow>
 
 	<openFormatsValidatorWindow Caption='openFormats doğrulayıcı - $AppName$'>
@@ -120,20 +120,20 @@
 				<Item Index='3' Value='Kritik hata: Direct3D başlatılamadı.'/>
 				<Item Index='4' Value='Kritik hata: "%S" dosyası bulunamadı.'/>
 				<Item Index='5' Value='%S(Satır %D):"%S" dosyası bulunamadı.'/>
-				<Item Index='6' Value='%S(Satır %D): Dosya bozuk	.'/>
-				<Item Index='7' Value='%S(Satır %D): Property "%s" expected but "%s" found.'/>
-				<Item Index='8' Value='%S(Satır %D): Property "%s" not found.'/>
-				<Item Index='9' Value='%S(Satır %D): Not enough actual parameters.'/>
+				<Item Index='6' Value='%S(Satır %D): Dosya bozuk.'/>
+				<Item Index='7' Value='%S(Satır %D): "%s" değeri beklenirken "%s" değeri bulundu.'/>
+				<Item Index='8' Value='%S(Satır %D): "%s" değeri bulunamadı.'/>
+				<Item Index='9' Value='%S(Satır %D): Yetersiz parametreler.'/>
 				<!-- Collision errors -->
-				<Item Index='10' Value='%S(Satır %D): Unknown collision bound type "%S".'/>
-				<Item Index='11' Value='%S(Satır %D): Collision too big.'/>
-				<Item Index='12' Value='%S(Satır %D): Collision corrupted.'/>
+				<Item Index='10' Value='%S(Satır %D): Bilinmeyen çarpışma modeli bağ tipi "%S".'/>
+				<Item Index='11' Value='%S(Satır %D): Çarpışma modeli çok büyük.'/>
+				<Item Index='12' Value='%S(Satır %D): Çarpışma modeli bozuk.'/>
 				<!-- Skeleton errors -->
 				<Item Index='13' Value='%S(Satır %D): Kemik ismi boş.'/>
 				<!-- Geometry/Graphics/Drawables errors -->
-				<Item Index='14' Value='%S(Satır %D): Mesh kitli.'/>
-				<Item Index='15' Value='%S(Satır %D): Material index sınırların dışında.'/>
-				<Item Index='16' Value="%S(Satır %D): Shader skinlenemez."/>
+				<Item Index='14' Value='%S(Satır %D): Ağ kilitli.'/>
+				<Item Index='15' Value='%S(Satır %D): Materyal indeks sınırların dışında.'/>
+				<Item Index='16' Value="%S(Satır %D): Gölgelendirme düzenlenemez."/>
 				<Item Index='17' Value="%S(Satır %D): Bir geometri için çok fazla kemik var, 48 kemikten daha fazlasını kullanamazsınız."/>
 
 				<Item Index='18' Value="%S(Satır %D): %S"/>
