@@ -1,26 +1,26 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<IVAnimViewerWindow Caption='$AppName$ Animation Viewer'>
+	<IVAnimViewerWindow Caption='$AppName$ Animasyon Göstericisi'>
 
 	</IVAnimViewerWindow>
 	<RenderUI>
-		<string name="START_TITLE">Animation viewer</string>
-		<string name="START_PED">Ped animations</string>
-		<string name="START_MAP">Map animations</string>
-		<string name="START_CUT">Cut scenes</string>
-		<string name="CHANGE_PED_MODEL">Change ped model</string>
-		<string name="SELECT_PED_MODEL">Select ped model</string>
-		<string name="LOADING___">loading...</string>
-		<string name="EMPTY_CUTSCENE">Empty cut-scene</string>
-		<string name="EMPTY_CUTSCENE_MSG">Unable to open empty cut-scene.</string>
-		<string name="MISSED_ANIMATIONS">Missed animations</string>
-		<string name="MISSED_ANIMATIONS_MSG">$AppName$ is unable to load some animations because files are missed.</string>
-		<string name="FRAMES_">Frames: </string>
-		<string name="TIME_SCALE_X">Time scale: x</string>
+		<string name="START_TITLE">Animasyon Göstericisi</string>
+		<string name="START_PED">Yaya animasyonları</string>
+		<string name="START_MAP">Harita animasyonları</string>
+		<string name="START_CUT">Ara sahneler</string>
+		<string name="CHANGE_PED_MODEL">Yaya modelini değiştir</string>
+		<string name="SELECT_PED_MODEL">Yaya modelini seç</string>
+		<string name="LOADING___">yükleniyor...</string>
+		<string name="EMPTY_CUTSCENE">Boş ara sahne</string>
+		<string name="EMPTY_CUTSCENE_MSG">Boş ara sahne açılamadı.</string>
+		<string name="MISSED_ANIMATIONS">Bulunamayan animasyonlar</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ bazı animasyonları yükleyemedi çünkü dosyalar kayıp.</string>
+		<string name="FRAMES_">Kareler: </string>
+		<string name="TIME_SCALE_X">Zaman ölçeği: x</string>
 		<!-- help -->
-		<string name="HELP_TITLE">Animation viewer - help</string>
+		<string name="HELP_TITLE">Animasyon Göstericisi - yardım</string>
 		<text name="HELP_TEXT">
-			<![CDATA[ Select category and then play any animation. ]]>
+			<![CDATA[ Kategoriyi seçin ve sonra istediğiniz animasyonu oynatın. ]]>
 		</text>
 	</RenderUI>
 </Translation>

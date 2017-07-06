@@ -1,40 +1,40 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<PtxFileViewerWindow Caption='$AppName$ Model Viewer'>
-		<paneDictionary Caption='Dictionary elements'/>
+	<PtxFileViewerWindow Caption='$AppName$ Model Görüntüleyici'>
+		<paneDictionary Caption='Sözlük elemanları'/>
 	</PtxFileViewerWindow>
 	<RenderUI>
-		<string name="EXPORT_TO_FORMATS">Export to openFormats</string>	
+		<string name="EXPORT_TO_FORMATS">openFormats olarak çıkart</string>	
 		<!-- help -->
-		<string name="HELP_TITLE">Model Viewer - help</string>		
+		<string name="HELP_TITLE">Model Görüntüleyici - yardım</string>		
 		<text name="HELP_TEXT">
-			<![CDATA[Use mouse to look around, move using these keys:
+			<![CDATA[Fareyi kullanarak etrafa bakının, aşağıdaki tuşlar ile hareket edin:
 			
-    W - Move forward
-    S - Move backward
-    A - Move left
-    D - Move right
+    W - İleri git
+    S - Geri git
+    A - Sola git
+    D - Sağa git
 
-    NumPad 8 - Move camera up
-    NumPad 2 - Move camera down
-    NumPad 4 - Move camera left
-    NumPad 6 - Move camera right
+    NumPad 8 - Kamerayı yukarı hareket ettir
+    NumPad 2 - Kamerayı aşağı hareket ettir
+    NumPad 4 - Kamerayı sola hareket ettir
+    NumPad 6 - Kamerayı sağa hareket ettir
 
-    Hold SHIFT - For faster movement
-    Hold CTRL - For slow movement
-    Use mouse wheel for zooming.
+    Daha hızlı hareket için SHIFT'i basılı tut
+    Daha yavaş hareket için CTRL'i basılı tut
+    Yakınlaştırmak için fare tekerleğini kullan.
+		   
+Render seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
+		   
+    F1 - Bu yardım kutusunu açıp kapatır
+	F2 - Daha fazla bilgi gösterir
+    C - Kamera modunu değiştirir
+    F - Kenarlı yüzleri açıp kapatır
+    P - Noktaların görüntülenmesini açıp kapatır
+    G - Geometriyi açıp kapatır
+    ESC - Bu görüntüleyici penceresini kapatır
 	
-To change render options use links in right side or these hot keys:
-	
-    F1 - Toggle this help box
-	F2 - Show more information
-    C - Toggle camera mode
-    F - Toggle Edged Faces
-    P - Toggle display points
-    G - Toggle geometry
-    ESC - Close this viewer window
-	
-    Hold H - For temporarily hide HUD
+    HUD'u geçici olarak gizlemek için H'yi basılı tutun.
 ]]>
 		</text>		
 	</RenderUI>

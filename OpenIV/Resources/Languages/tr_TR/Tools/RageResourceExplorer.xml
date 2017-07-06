@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<RageResourceExplorer Caption='$AppName$ - Resource explorer'>
-		<btnCopy Caption='Copy all'/>
-		<miCopyLine Caption='Copy line'/>
+	<RageResourceExplorer Caption='$AppName$ - Kaynak Görüntüleyici'>
+		<btnCopy Caption='Hepsini kopyala'/>
+		<miCopyLine Caption='Satırı kopyala'/>
 	</RageResourceExplorer>
 
-	<RageResourceExplorer2 Caption='$AppName$ - Resource explorer'>
-		<lbTree Caption="Tree: "/>
-		<btnProperties Caption="Properties"/>
-		<btnFields Caption="Fields"/>
-		<tabProperties Caption="Properties"/>
-		<tabFields Caption="Fields"/>
+	<RageResourceExplorer2 Caption='$AppName$ - Kaynak Görüntüleyici'>
+		<lbTree Caption="Birim: "/>
+		<btnProperties Caption="Özellikler"/>
+		<btnFields Caption="Değerler"/>
+		<tabProperties Caption="Özellikler"/>
+		<tabFields Caption="Değerler"/>
 	</RageResourceExplorer2>
 </Translation>

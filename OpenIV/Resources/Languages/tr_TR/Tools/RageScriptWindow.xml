@@ -1,37 +1,37 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<RageScriptWindow Caption='SCO Viewer - '>
+	<RageScriptWindow Caption='SCO Görüntüleyici - '>
 		<!-- Button's -->
-		<btnSave Caption='Save code as text'/>
-		<btnClose Caption='Close'/>
-		<btnASMBack Caption='&lt;&lt; Back'/>
-		<btnCFList Caption='Hide list'/>
-		<btnCodeList Caption='Hide list'/>
+		<btnSave Caption='Kodu metin olarak kopyala'/>
+		<btnClose Caption='Kapat'/>
+		<btnASMBack Caption='&lt;&lt; Geri'/>
+		<btnCFList Caption='Listeyi gizle'/>
+		<btnCodeList Caption='Listeyi gizle'/>
 		<!-- Tabs -->
-		<tbASM Caption='ASM code'/>
-		<tbCFASM Caption='Control Flow ASM code'/>
-		<tbCODE Caption='High Level Code'/>
-		<Label1 Caption='Filter:'/>
+		<tbASM Caption='ASM kodu'/>
+		<tbCFASM Caption='ASM kodu Kontrol Akışı'/>
+		<tbCODE Caption='Yüksek Seviye Kod'/>
+		<Label1 Caption='Filtre:'/>
 		<!-- Menu -->
-		<N1 Caption='Jump to address'/>
-		<N2 Caption='Copy line'/>
-		<N3 Caption='Filter this'/>
+		<N1 Caption='Adrese git'/>
+		<N2 Caption='Satırı kopyala'/>
+		<N3 Caption='Bunu filtrele'/>
 		<!-- Text menu -->
-		<miCopyText Caption='Copy'/>
-		<miFind Caption='Find...'/>
-		<miSelectAll Caption='Select all'/>
-		<miCopyAll Caption='Copy all'/>
+		<miCopyText Caption='Kopyala'/>
+		<miFind Caption='Bul...'/>
+		<miSelectAll Caption='Hepsini seç'/>
+		<miCopyAll Caption='Hepsini kopyala'/>
 		<!-- Save code menu -->
-		<N4 Caption='Save as text'/>
-		<N5 Caption='Save as HTML'/>	
+		<N4 Caption='Metin olarak kaydet'/>
+		<N5 Caption='HTML olarak kaydet'/>	
 		<!-- String's -->
 		<AeroWindow LinesCount='5'>
 			<StringList>
-				<Item Index='0' Value='Loading SCO File...'/>
-				<Item Index='1' Value='[STEP1]'/>
-				<Item Index='2' Value='[STEP2]'/>
-				<Item Index='3' Value='[STEP3]'/>
-				<Item Index='4' Value='Show all'/>
+				<Item Index='0' Value='SCO Dosyası Yükleniyor...'/>
+				<Item Index='1' Value='[ADIM1]'/>
+				<Item Index='2' Value='[ADIM2]'/>
+				<Item Index='3' Value='[ADIM3]'/>
+				<Item Index='4' Value='Hepsini göster'/>
 			</StringList>
 		</AeroWindow>
 	</RageScriptWindow>

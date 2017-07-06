@@ -3,100 +3,100 @@
 	<!-- common -->
 	<RenderUI>
 		<!-- help -->
-		<string name="HELP_LINK">Click here for help</string>
+		<string name="HELP_LINK">Yardun için buraya tıklayın</string>
 
 		<!-- Common words -->
-		<string name="TRUE">True</string>
-		<string name="FALSE">False</string>
-		<string name="YES">Yes</string>
-		<string name="NO">No</string>
-		<string name="OK">Ok</string>
-		<string name="CANCEL">Cancel</string>
-		<string name="CLOSE">Close</string>
-		<string name="SAVE">Save</string>
-		<string name="IMPORT">Import</string>
-		<string name="SEARCH">Search</string>
+		<string name="TRUE">Doğru</string>
+		<string name="FALSE">Yanlış</string>
+		<string name="YES">Evet</string>
+		<string name="NO">Hayır</string>
+		<string name="OK">Tamam</string>
+		<string name="CANCEL">İptal</string>
+		<string name="CLOSE">Kapat</string>
+		<string name="SAVE">Kaydet</string>
+		<string name="IMPORT">Al</string>
+		<string name="SEARCH">Ara</string>
 
 		<!-- Camera -->
-		<string name="CAMERA_MODE">Camera mode:</string>
-		<string name="CAMERA_MODE_FREE">Free</string>
-		<string name="CAMERA_MODE_AROUND">Around</string>
+		<string name="CAMERA_MODE">Kamera modu:</string>
+		<string name="CAMERA_MODE_FREE">Serbest</string>
+		<string name="CAMERA_MODE_AROUND">Etrafında</string>
 
 		<!-- Options -->
-		<string name="SHOW_GRID">Show grid:</string>
-		<string name="GEOMETRY">Geometry:</string>		
-		<string name="EDGED_FACES">Edged Faces:</string>
-		<string name="DISPLAY_POINTS">Display Points:</string>
+		<string name="SHOW_GRID">Tabloyu göster:</string>
+		<string name="GEOMETRY">Geometri:</string>		
+		<string name="EDGED_FACES">Kenarlı Yüzler:</string>
+		<string name="DISPLAY_POINTS">Noktaları Göster:</string>
 
 		<!-- Base information -->
-		<string name="POLYGONS">Polygons:</string>
-		<string name="VERTICES">Vertices:</string>
+		<string name="POLYGONS">Poligonlar:</string>
+		<string name="VERTICES">Köşeler:</string>
 
 		<!-- LOD -->
-		<string name="LOD">Level of Detail:</string>
-		<string name="LOD_HIGH">High</string>
-		<string name="LOD_MED">Med</string>
-		<string name="LOD_LOW">Low</string>
-		<string name="LOD_VLOW">VLow</string>
+		<string name="LOD">Detay seviyesi:</string>
+		<string name="LOD_HIGH">Yksk</string>
+		<string name="LOD_MED">Ort</string>
+		<string name="LOD_LOW">Dşk</string>
+		<string name="LOD_VLOW">ÇDşk</string>
 
 		<!-- Textures -->
-		<string name="USING_TEXTURES">Using textures:</string>
-		<string name="ADD_TEXTURE">[+] Add texture</string>
-		<string name="EXPORT_EMBEDDED_TEXTURES">[ Export embedded textures ]</string>
-		<string name="TO_TEXTURES_VIEWER">[ View embedded textures ]</string>
+		<string name="USING_TEXTURES">Kullanılan dokular:</string>
+		<string name="ADD_TEXTURE">[+] Doku ekle</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Gömülü dokuları çıkart ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ Gömülü dokuları göster ]</string>
 
 		<!-- Information -->
-		<string name="MORE_INFORMATION">[ More information ]</string>
-		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Export all embedded textures</string>
-		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Export selected embedded textures</string>
-		<string name="COUNT_">Count: </string>
-		<string name="SELECT_OBJECT">Select object</string>
-		<string name="COPY_SKELETON_INFO">Copy skeleton info</string>
-		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Unable to copy</string>
-		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Copy to clipboard failed.</string>
+		<string name="MORE_INFORMATION">[ Daha fazla bilgi ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Tüm gömülü dokuları çıkart</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Seçilen gömülü dokuları çıkart</string>
+		<string name="COUNT_">Sayı: </string>
+		<string name="SELECT_OBJECT">Objeyi seç</string>
+		<string name="COPY_SKELETON_INFO">İskelet bilgisini kopyala</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Kopyalama başarısız</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Panoya kopyalanamadı.</string>
 
 		<!-- Information tabs -->
-		<string name="INFO_GEOMETRIES">Geometries</string>
-		<string name="INFO_SKELETON">Skeleton</string>
-		<string name="INFO_SHADERS">Shaders</string>
-		<string name="INFO_TEXTURES">Textures</string>
+		<string name="INFO_GEOMETRIES">Geometriler</string>
+		<string name="INFO_SKELETON">İskelet</string>
+		<string name="INFO_SHADERS">Gölgelendirmeler</string>
+		<string name="INFO_TEXTURES">Doku</string>
 
 		<!-- Information mesh tabs -->
-		<string name="TAB_LOD_HIGH">High</string>
-		<string name="TAB_LOD_MED">Medium</string>
-		<string name="TAB_LOD_LOW">Low</string>
-		<string name="TAB_LOD_VLOW">Very Low</string>
+		<string name="TAB_LOD_HIGH">Yüksek</string>
+		<string name="TAB_LOD_MED">Orta</string>
+		<string name="TAB_LOD_LOW">Düşük</string>
+		<string name="TAB_LOD_VLOW">Çok Düşük</string>
 
 		<!-- Columns -->
 		<string name="COLUMN_SPS">SPS</string>
-		<string name="COLUMN_SHADER">Shader</string>
-		<string name="COLUMN_PARAMETERS">Parameters</string>
+		<string name="COLUMN_SHADER">Gölgelendirme</string>
+		<string name="COLUMN_PARAMETERS">Parametereler</string>
 
-		<string name="COLUMN_NAME">Name</string>
-		<string name="COLUMN_TYPE">Type</string>
-		<string name="COLUMN_VALUE">Value</string>
+		<string name="COLUMN_NAME">İsim</string>
+		<string name="COLUMN_TYPE">Tip</string>
+		<string name="COLUMN_VALUE">Değer</string>
 
-		<string name="COLUMN_INDEX">Index</string>
-		<string name="COLUMN_INDEX_COUNT">Index сount</string>
-		<string name="COLUMN_FACE_COUNT">Face сount</string>
-		<string name="COLUMN_VERTEX_COUNT">Vertex сount</string>
+		<string name="COLUMN_INDEX">İndeks</string>
+		<string name="COLUMN_INDEX_COUNT">İndeks sayısı</string>
+		<string name="COLUMN_FACE_COUNT">Yüz sayısı</string>
+		<string name="COLUMN_VERTEX_COUNT">Tepe sayısı</string>
 		
 		<!-- Export texture format dialog -->
-		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Please, select file format:</string>
-		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
-		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Best choose for common and viewing purpose.</string>
-		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>
-		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Choose this if you want to import those textures later.</string>
-		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG Image (*.jpg)</string>
-		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Quality can be lost while exporting.</string>
-		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap image (*.bmp)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Lütfen dosya formatını seçin:</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Taşınabilir Ağ Grafiği (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Görüntüleme ve ortak kullanım için en iyi seçim.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Yüzeyi (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Bu dosyaları daha sonra burada kullanmak istiyorsanız bunu seçin.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG Resmi (*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Çıkartırken kalite kaybolabilir.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap resmi (*.bmp)</string>
 
 		<!-- Edit -->
-		<string name="UNDO">Undo</string>
-		<string name="REDO">Redo</string>
-		<string name="CUT">Cut</string>
-		<string name="COPY">Copy</string>
-		<string name="PASTE">Paste</string>
+		<string name="UNDO">Geri al</string>
+		<string name="REDO">İleri al</string>
+		<string name="CUT">Kes</string>
+		<string name="COPY">Kopyala</string>
+		<string name="PASTE">Yapıştır</string>
 		
 	</RenderUI>
 </Translation>

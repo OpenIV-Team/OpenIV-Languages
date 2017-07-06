@@ -2,40 +2,40 @@
 <Translation>
 	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
 	<RenderUI>
-		<string name="TITLE">$RageGAME_SHORT$ - ASI Manager</string>
+		<string name="TITLE">$RageGAME_SHORT$ - ASI Yardımcısı</string>
 		
-		<string name="RPF_NOTE">You need to install ASI Loader and $ModsFolderAsi$ plugin for your $RageGAME_SHORT$, otherwise game will not load modified RPF archive.</string>
-		<string name="ONLINE_NOTE">Do not play $RageGAME_MP$ with modified RPF you will be banned.</string>
+		<string name="RPF_NOTE">$RageGAME_SHORT$ için ASI Yükleyicisi ve $ModsFolderAsi$ plugin'lerini yüklemelisiniz, yoksa oyununuz modifiye edilmiş RPF arşivlerini yüklemez.</string>
+		<string name="ONLINE_NOTE">Modifiye edilmiş RPF'ler ile $RageGAME_MP$ oynamayın, yoksa uzaklaştırma alırsınız.</string>
 		
-		<string name="INSTALL">Install</string>
-		<string name="UPDATE">Update</string>
-		<string name="UNINSTALL">Uninstall</string>
+		<string name="INSTALL">Yükle</string>
+		<string name="UPDATE">Güncelle</string>
+		<string name="UNINSTALL">Kaldır</string>
 		
-		<string name="NOT_INSTALLED">NOT INSTALLED</string>
-		<string name="UPDATE_REQUIRED">UPDATE REQUIRED</string>
-		<string name="INSTALLED">INSTALLED</string>
-		<string name="DISABLED">DISABLED</string>
+		<string name="NOT_INSTALLED">YÜKLENMEDİ</string>
+		<string name="UPDATE_REQUIRED">GÜNCELLEME GEREKİYOR</string>
+		<string name="INSTALLED">YÜKLENDİ</string>
+		<string name="DISABLED">DEVRE DIŞI</string>
 		
-		<string name="ASI_LOADER">ASI Loader</string>
-		<string name="ASI_LOADER_DESCRIPTION">ASI Loader is the tool that loads custom libraries with the file extension .asi into the game process.</string>
+		<string name="ASI_LOADER">ASI Yükleyicisi</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Yükleyicisi oyununuza .asi dosya uzantılı kişiselleştirilmiş kütüphaneleri yükleyen araçtır.</string>
 		
 		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
-		<string name="OPENIV_ASI_DESCRIPTION">This ASI Plugin is allow your game to load modified RPF archives. It is also provides support for $ModsFolder$ folder.</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Bu ASI Plugin'i oyununuzun modifiye edilmiş RPF arşivlerini yüklemesini sağlıyor. Ek olarak $ModsFolder$ klasörünü destekler.</string>
 		
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
-		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Enhances "Free Camera" boundary limitations in Rockstar Editor.</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Rockstar Editor'deki "Serbest Kamera" sınırını kaldırır.</string>
 		
-		<string name="INSTALLATION_FAILED">The installation failed</string>
-		<string name="INSTALLATION_FAILED_TEXT">The installation failed, restart $AppName$ and try again.</string>
+		<string name="INSTALLATION_FAILED">Yükleme başarısız</string>
+		<string name="INSTALLATION_FAILED_TEXT">Yükleme başarısız oldu, $AppName$'i yeniden başlatıp tekrar deneyin.</string>
 		
-		<string name="UNINSTALL_FAILED">Uninstall failed</string>
-		<string name="UNINSTALL_FAILED_TEXT">Uninstall failed, restart $AppName$ and try again.</string>
+		<string name="UNINSTALL_FAILED">Kaldırma başarısız</string>
+		<string name="UNINSTALL_FAILED_TEXT">Kaldırma başarısız oldu, $AppName$'i yeniden başlatıp tekrar deneyin.</string>
 
-		<string name="MODS_FOLDER_TITLE">Create $ModsFolder$ folder?</string>
-		<string name="MODS_FOLDER_TEXT">The $ModsFolder$ folder allows you to keep all your original game files safe and have easiest one click way to switch between modified and original files.</string>
-		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Show notification while editing archive outside of $ModsFolder$ folder</string>
-		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Allow edit mode only for archives inside $ModsFolder$ folder</string>
-		<string name="MODS_FOLDER_SETTINGS_NOTE">You can change this settings at any time in $AppName$ options.</string>
-		<string name="MODS_FOLDER_LEARN_MORE">Learn more about $ModsFolder$ folder</string>
+		<string name="MODS_FOLDER_TITLE">$ModsFolder$ klasörü oluşturulsun mu?</string>
+		<string name="MODS_FOLDER_TEXT">$ModsFolder$ klasörü tüm orjinal oyun dosyalarınızın güvende olmasını ve bir tuşla modlu ve modsuz oyun arasında geçiş yapabilmenize olanak sağlıyor.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">$ModsFolder$ klasörünün dışında bir arşivi düzenlerken bildirim göster</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Sadece $ModsFolder$ klasöründeki arşivleri düzenlememe izin ver</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">Bu ayarı istediğiniz zaman $AppName$ ayarlarından değiştirebilirsiniz.</string>
+		<string name="MODS_FOLDER_LEARN_MORE">$ModsFolder$ klasörü hakkında daha fazla bilgi</string>
 	</RenderUI>
 </Translation>

@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<HashGeneratorWindow Caption='Hash Generator - $AppName$'>
+	<HashGeneratorWindow Caption='Hash Üreticisi - $AppName$'>
 		<!-- Label's -->
-		<lbOutputFormat Caption='Output format:' />
+		<lbOutputFormat Caption='Çıkış formatı:' />
 		<!-- Button's -->
-		<btnLoadFromFile Caption='Load from File' />
-		<btnGenerate Caption='Generate' />
-		<btnSaveToFile Caption='Save to File' />
-		<cbCaseSensitive Caption='Case Sensitive' />
+		<btnLoadFromFile Caption='Dosyadan yükle' />
+		<btnGenerate Caption='Üret' />
+		<btnSaveToFile Caption='Dosyaya kaydet' />
+		<cbCaseSensitive Caption='Büyük/Küçük harf duyarlı' />
 		<!-- Panel's -->
-		<pnlLeft Caption='Input:' />
-		<pnlRight Caption='Output:' />    
+		<pnlLeft Caption='Girdi:' />
+		<pnlRight Caption='Çıktı:' />    
 	</HashGeneratorWindow>
 </Translation>

@@ -1,76 +1,76 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<TextureEditorWindow Caption='$AppName$ Texture tool'>
+	<TextureEditorWindow Caption='$AppName$ Doku aracı'>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
-				<Item Index='0' Value='$AppName$ Texture viewer'/>
-				<Item Index='1' Value='$AppName$ Texture editor'/>
+				<Item Index='0' Value='$AppName$ Doku görüntüleyici'/>
+				<Item Index='1' Value='$AppName$ Doku düzenleyici'/>
 			</StringList>
 		</AeroWindow>
 	</TextureEditorWindow>
 	<RenderUI>
-		<string name="VIEW_">View:</string>
-		<string name="EXPORT_ALL">Export all textures</string>
-		<string name="EXPORT_SELECTED">Export selected</string>
-		<string name="ORIGINAL_SIZE">Original size</string>
-		<string name="ALPHA_BACKGROUND">Alpha background</string>
-		<string name="SIZE_">Size:</string>
+		<string name="VIEW_">Göster:</string>
+		<string name="EXPORT_ALL">Tüm dokuları çıkart</string>
+		<string name="EXPORT_SELECTED">Seçileni çıkart</string>
+		<string name="ORIGINAL_SIZE">Orjinal boyut</string>
+		<string name="ALPHA_BACKGROUND">Saydam arka plan</string>
+		<string name="SIZE_">Boyut:</string>
 
-		<string name="RENAME">Rename</string>
-		<string name="REPLACE">Replace</string>
-		<string name="DELETE">Delete</string>
-		<string name="RENAME_TEXTURE">Rename texture</string>
-		<string name="RENAME_TEXTURE_NAME">Enter new name</string>
-		<string name="RENAME_TEXTURE_ERROR">Texture with this name already exist.</string>
-		<string name="NO_IMAGE">No image</string>
+		<string name="RENAME">Yeniden adlandır</string>
+		<string name="REPLACE">Değiştir</string>
+		<string name="DELETE">Sil</string>
+		<string name="RENAME_TEXTURE">Dokuyu yeniden adlandır</string>
+		<string name="RENAME_TEXTURE_NAME">Yeni isim girin</string>
+		<string name="RENAME_TEXTURE_ERROR">Bu isimle bir doku zaten mevcut.</string>
+		<string name="NO_IMAGE">Resim yok</string>
 
-		<string name="NO_IMAGE_SELECTED">No image selected</string>
-		<string name="WIDTH">Width</string>
-		<string name="HEIGHT">Height</string>
-		<string name="PIXEL_FORMAT">Pixel Format</string>
+		<string name="NO_IMAGE_SELECTED">Seçilmiş resim yok</string>
+		<string name="WIDTH">Genişlik</string>
+		<string name="HEIGHT">Yükseklik</string>
+		<string name="PIXEL_FORMAT">Piksel Formatı</string>
 		<string name="MIP_MAPS">MipMaps</string>
 
 		<!-- Import dialog -->
-		<string name="CHOOSE_IMPORT_OPTIONS">Choose import options</string>
+		<string name="CHOOSE_IMPORT_OPTIONS">Alma ayarlarını seçin</string>
 		<text name="IMPORT_QUALITY_NOTE">
-			<![CDATA[This options will be ignored while importing DDS files.
-Use DDS files for getting best quality.]]>
+			<![CDATA[Bu ayarlara DDS dosyalarını alırken göz atılmaz.
+En iyi kalite için DDS dosyalarını kullanın.]]>
 		</text>
-		<string name="AUTO_MIPMAP">Automatically generate MipMap levels</string>
-		<string name="TEXTURES_FORMAT">Textures format (compression):</string>
-		<string name="AUTOMATICALLY">Automatically</string>
-		<string name="IMPORT_ERROR_FILES">The following files are not imported</string>
+		<string name="AUTO_MIPMAP">MipMap seviyelerini otomatik olarak üret</string>
+		<string name="TEXTURES_FORMAT">Doku formatı (sıkıştırma):</string>
+		<string name="AUTOMATICALLY">Otomatik</string>
+		<string name="IMPORT_ERROR_FILES">Bu dosyalar alınamadı</string>
 
 		<!-- Properties dialog -->
-		<string name="PROPERTIES">Properties</string>
-		<string name="PROPERTIES_MIPMAP">MipMap levels:</string>
-		<string name="PROPERTIES_PIXEL_FORMAT">Pixel format:</string>
+		<string name="PROPERTIES">Özellikler</string>
+		<string name="PROPERTIES_MIPMAP">MipMap seviyeleri:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Piksel formatı:</string>
 		<text name="PROPERTIES_MOTE">
-			<![CDATA[Warning:
-Quality can be lost while properties changing.]]>
+			<![CDATA[Uyarı:
+Özellikler değiştirilirken kalite düşebilir.]]>
 		</text>
-		<string name="PROPERTIES_NOT_AVAILABLE">Unable to edit "%S" texture properties.</string>
+		<string name="PROPERTIES_NOT_AVAILABLE">"%S" dosyasının doku özellikleri değiştirilemedi.</string>
 
 		<!-- Save changes dialog -->
-		<string name="SAVE_CHANGES_">Do you want to save changes?</string>
+		<string name="SAVE_CHANGES_">Değişiklikleri kaydetmek istiyor musunuz?</string>
 		
 		<!-- DirectX 10/11 -->
-		<string name="DX11_NOT_INIT_TITLE">DirectX 11 is not available</string>
-		<string name="DX11_NOT_INIT_TEXT">$AppName$ is unable to initialize DirectX 11 device.\nEditing features is not available for this file.</string>
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11 kullanılabilir değil</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ DirectX 11 aracını kullanamıyor.\nDüzenleme araçları bu dosya için mevcut değil.</string>
 		
 		<!-- help -->
-		<string name="HELP_TITLE">Texture editor - help</string>
+		<string name="HELP_TITLE">Doku düzenleyici - yardım</string>
 		<text name="HELP_TEXT">
-			<![CDATA[Available hotkeys:
+			<![CDATA[Mevcut tuşlar:
 			
-    Ctrl + Tab - Toggle view mode
-    Ctrl + A - Export all textures
-    Ctrl + S - Export selected textures
-    F1 - Toggle this help box
-    ESC - Close this viewer window
+    Ctrl + Tab - Gösterme modunu değiştir
+    Ctrl + A - Tüm dokuları çıkart
+    Ctrl + S - Seçilen dokuları çıkart
+    F1 - Bu yardım kutusunu göster
+    ESC - Bu gösterici penceresini kapat
     
-    Hold H - For temporarily hide HUD
+    Geçici olarak HUD'u gizlemek için H tuşuna basılı tutun
 ]]>
 		</text>
 	</RenderUI>

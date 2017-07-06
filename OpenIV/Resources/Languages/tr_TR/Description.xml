@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Library folder="Folder" Default='%S File' RSC='%S Resource'>
 	<!-- GTA V -->
-	<type Name="Patch (XML)">
+	<type Name="Yama (XML)">
 		<ext>patch</ext>
 	</type>
 	<type Name="Meta (XML)">
 		<ext>meta</ext>
 	</type>
-	<type Name="Data Base">
+	<type Name="Bilgi Veritabanı">
 		<ext>db</ext>
 	</type>
 	<type Name="Script (text)">
@@ -16,10 +16,10 @@
 	<type Name="Scaleform flash">
 		<ext>gfx</ext>
 	</type>
-	<type Name="User generated content (JSON)">
+	<type Name="Kullanıcı tarafından üretilmiş içerik (JSON)">
 		<ext>ugc</ext>
 	</type>
-	<type Name="Collision bound">
+	<type Name="Çarpışma alanı sınırı">
 		<ext>bnd</ext>
 	</type>
 	<type Name="Metadata (PSO/RSC)">
@@ -31,93 +31,93 @@
 		<ext>cmt</ext>
 		<ext>cmf</ext>
 	</type>
-	<type Name="Particle effect">
+	<type Name="Partikül efekti">
 		<ext>ypt</ext>
 		<ext>xpt</ext>
 		<ext>cpt</ext>
 	</type>
-	<type Name="Waypoint record">
+	<type Name="Waypoint kayıtları">
 		<ext>ywr</ext>
 		<ext>xwr</ext>
 		<ext>cwr</ext>
 	</type>
-	<type Name="JavaScript Object Notation">
+	<type Name="JavaScript Obje Notasyonu">
 		<ext>json</ext>
 	</type>
-	<type Name="Map (PSO/RSC)">
+	<type Name="Harita (PSO/RSC)">
 		<ext>ymap</ext>
 		<ext>xmap</ext>
 		<ext>cmap</ext>
 	</type>
-	<type Name="Definition Entries (PSO/RSC)">
+	<type Name="Tanım Girişleri (PSO/RSC)">
 		<ext>ytyp</ext>
 		<ext>xtyp</ext>
 		<ext>ctyp</ext>
 	</type>
-	<type Name="Name table">
+	<type Name="İsim Tablosu">
 		<ext>nametable</ext>
 	</type>
-	<type Name="Streaming">
+	<type Name="Yayın">
 		<ext>srl</ext>
 	</type>
 	<!-- OpenIV -->
-	<type Name="OpenIV Mod Package">
+	<type Name="OpenIV Mod Paketi">
 		<ext>oiv</ext>
 	</type>
 	<!-- Archives -->
-	<type Name="Rage Package File">
+	<type Name="Rage Paket Dosyası">
 		<ext>rpf</ext>
 	</type>
-	<type Name="GTA Image File">
+	<type Name="GTA Resim Dosyası">
 		<ext>img</ext>
 	</type>
-	<type Name="ZIP Archive">
+	<type Name="ZIP Arşivi">
 		<ext>zip</ext>
 	</type>
-	<type Name="7Z Archive">
+	<type Name="7Z Arşivi">
 		<ext>7z</ext>
 	</type>
-	<type Name="WinRAR Archive">
+	<type Name="WinRAR Arşivi">
 		<ext>rar</ext>
 	</type>
 	<!-- Native media (Image and Video) -->
-	<type Name="Portable Network Graphics">
+	<type Name="Taşınabilir Ağ Grafiği">
 		<ext>png</ext>
 	</type>
-	<type Name="Bitmap image">
+	<type Name="Bitmap Resmi">
 		<ext>bmp</ext>
 	</type>
-	<type Name="GIF Image">
+	<type Name="GIF Resmi">
 		<ext>gif</ext>
 	</type>
-	<type Name="JPEG Image">
+	<type Name="JPEG Resmi">
 		<ext>jpeg</ext>
 		<ext>jpg</ext>
 	</type>
-	<type Name="Icon">
+	<type Name="Simge">
 		<ext>ico</ext>
 	</type>
-	<type Name="Truevision TGA Image">
+	<type Name="Truevision TGA Resmi">
 		<ext>tga</ext>
 	</type>
-	<type Name="DirectDraw Surface">
+	<type Name="DirectDraw Yüzeyi">
 		<ext>dds</ext>
 	</type>
-	<type Name="Bink Video">
+	<type Name="Bink Videosu">
 		<ext>bik</ext>
 	</type>
-	<type Name="Windows Media Audio/Video file">
+	<type Name="Windows Media Ses/Video dosyası">
 		<ext>wmv</ext>
 		<ext>wma</ext>
 	</type>
-	<type Name="Wave sound">
+	<type Name="Wave sesi">
 		<ext>wav</ext>
 	</type>
-	<type Name="MP4 Video File">
+	<type Name="MP4 Video Dosyası">
 		<ext>mp4</ext>
 	</type>
 	<!-- Web media -->
-	<type Name="HTML file">
+	<type Name="HTML dosyası">
 		<ext>html</ext>
 		<ext>htm</ext>
 	</type>
@@ -125,103 +125,103 @@
 		<ext>swf</ext>
 	</type>
 	<!-- Resources (RAGE) -->
-	<type Name="Script resource">
+	<type Name="Script kaynağı">
 		<ext>xsc</ext>
 		<ext>csc</ext>
 		<ext>wsc</ext>
 		<ext>ysc</ext>
 	</type>
-	<type Name="String table">
+	<type Name="Metin Tablosu">
 		<ext>xst</ext>
 		<ext>cst</ext>
 		<ext>wst</ext>
 		<ext>yst</ext>
 	</type>
-	<type Name="Texture resource">
+	<type Name="Doku Kaynağı">
 		<ext>xtx</ext>
 		<ext>ctx</ext>
 		<ext>wtx</ext>
 		<ext>ytx</ext>
 	</type>
-	<type Name="Action tracks">
+	<type Name="Aksiyon kayıtları">
 		<ext>xat</ext>
 		<ext>cat</ext>
 		<ext>wat</ext>
 		<ext>yat</ext>
 	</type>
-	<type Name="Nav mesh">
+	<type Name="Navigasyon ağı">
 		<ext>xnm</ext>
 		<ext>cnm</ext>
 		<ext>wnm</ext>
 		<ext>ynm</ext>
 	</type>
-	<type Name="Sector info">
+	<type Name="Sektör bilgisi">
 		<ext>xsi</ext>
 		<ext>csi</ext>
 		<ext>wsi</ext>
 		<ext>ysi</ext>
 	</type>
-	<type Name="Volume data">
+	<type Name="Hacim bilgisi">
 		<ext>xvd</ext>
 		<ext>cvd</ext>
 		<ext>wvd</ext>
 		<ext>yvd</ext>
 	</type>
-	<type Name="Terrain collision">
+	<type Name="Yer çarpışma alanı">
 		<ext>xtb</ext>
 		<ext>ctb</ext>
 		<ext>wtb</ext>
 		<ext>ytb</ext>
 	</type>
-	<type Name="Texture dictionary">
+	<type Name="Doku sözlüğü">
 		<ext>wtd</ext>
 		<ext>xtd</ext>
 		<ext>ctd</ext>
 		<ext>ytd</ext>
 	</type>
-	<type Name="Animation dictionary">
+	<type Name="Animasyon sözlüğü">
 		<ext>wad</ext>
 		<ext>xad</ext>
 		<ext>cad</ext>
 		<ext>yad</ext>
 	</type>
-	<type Name="Collision dictionary">
+	<type Name="Çarpışma alanı sözlüğü">
 		<ext>wbd</ext>
 		<ext>xbd</ext>
 		<ext>cbd</ext>
 		<ext>ybd</ext>
 	</type>
-	<type Name="Drawable dictionary">
+	<type Name="Çizilebilir sözlük">
 		<ext>wdd</ext>
 		<ext>xdd</ext>
 		<ext>cdd</ext>
 		<ext>ydd</ext>
 	</type>
-	<type Name="Drawable object">
+	<type Name="Çizilebilir obje">
 		<ext>wdr</ext>
 		<ext>xdr</ext>
 		<ext>cdr</ext>
 		<ext>ydr</ext>
 	</type>
-	<type Name="Fragment object">
+	<type Name="Obje kısmı">
 		<ext>wft</ext>
 		<ext>xft</ext>
 		<ext>cft</ext>
 		<ext>yft</ext>
 	</type>
-	<type Name="HTML object">
+	<type Name="HTML objesi">
 		<ext>whm</ext>
 		<ext>xhm</ext>
 		<ext>chm</ext>
 		<ext>yhm</ext>
 	</type>
-	<type Name="Static collision">
+	<type Name="Statik çarpışma alanı">
 		<ext>wbn</ext>
 		<ext>xbn</ext>
 		<ext>cbn</ext>
 		<ext>ybn</ext>
 	</type>
-	<type Name="Nav mesh">
+	<type Name="Navigasyon ağı">
 		<ext>wnv</ext>
 		<ext>xnv</ext>
 		<ext>cnv</ext>
@@ -233,185 +233,185 @@
 		<ext>cbs</ext>
 		<ext>ybs</ext>
 	</type>
-	<type Name="Particle effects library">
+	<type Name="Partikül efektleri kütüphanesi">
 		<ext>wpfl</ext>
 		<ext>xpfl</ext>
 		<ext>cpfl</ext>
 		<ext>ypfl</ext>
 	</type>
-	<type Name="Vehicles records">
+	<type Name="Araç kayıtları">
 		<ext>xvr</ext>
 		<ext>cvr</ext>
 		<ext>wvr</ext>
 		<ext>yvr</ext>
 	</type>
-	<type Name="Ped records">
+	<type Name="Yaya kayıtları">
 		<ext>xpr</ext>
 		<ext>cpr</ext>
 		<ext>wpr</ext>
 		<ext>ypr</ext>
 	</type>
-	<type Name="Path node">
+	<type Name="Yol noktası">
 		<ext>xnd</ext>
 		<ext>cnd</ext>
 		<ext>wnd</ext>
 		<ext>ynd</ext>
 	</type>
-	<type Name="Clip dictionary">
+	<type Name="Clip sözlüğğü">
 		<ext>xcd</ext>
 		<ext>ccd</ext>
 		<ext>wcd</ext>
 		<ext>ycd</ext>
 	</type>
-	<type Name="Expressions dictionary">
+	<type Name="İfade sözlüğü">
 		<ext>xed</ext>
 		<ext>ced</ext>
 		<ext>wed</ext>
 		<ext>yed</ext>
 	</type>
-	<type Name="Blendshapes dictionary">
+	<type Name="Blendshapes sözlüğü">
 		<ext>xsd</ext>
 		<ext>csd</ext>
 		<ext>wsd</ext>
 		<ext>ysd</ext>
 	</type>
-	<type Name="Cloth dictionary">
+	<type Name="Kıyafet sözlüğü">
 		<ext>xld</ext>
 		<ext>cld</ext>
 		<ext>wld</ext>
 		<ext>yld</ext>
 	</type>
-	<type Name="Animation resource">
+	<type Name="Animasyon kaynağı">
 		<ext>wan</ext>
 	</type>
 	<!-- Audio (RAGE) -->
-	<type Name="Audio Wave Container">
+	<type Name="Ses Dalgası Konteynırı">
 		<ext>awc</ext>
 	</type>
 	<!-- Audio (OpenIV) -->
-	<type Name="Sound Bank">
+	<type Name="Ses Bankası">
 		<ext>RAGE_SOUND_BANK</ext>
 	</type>
-	<type Name="Audio File">
+	<type Name="Ses Dosyası">
 		<ext>RAGE_AUDIO_FILE</ext>
 	</type>
 	<!-- Executables -->
-	<type Name="Executable">
+	<type Name="Çalıştırılabilir">
 		<ext>exe</ext>
 	</type>
-	<type Name="Executable (XBOX 360)">
+	<type Name="Çalıştırılabilir (XBOX 360)">
 		<ext>xex</ext>
 	</type>
-	<type Name="Dynamic-link library">
+	<type Name="Dinamik-link kütüphanesi">
 		<ext>dll</ext>
 	</type>
-	<type Name="ASI Plugin (Dynamic-link library)">
+	<type Name="ASI Plugin'i (Dinamik-link kütüphanesi)">
 		<ext>asi</ext>
 	</type>
 	<!-- Misc -->
-	<type Name="Binary data">
+	<type Name="İkili veri">
 		<ext>bin</ext>
 	</type>
-	<type Name="Python script">
+	<type Name="Python scripti">
 		<ext>py</ext>
 	</type>
-	<type Name="Plain text">
+	<type Name="Saf metin">
 		<ext>txt</ext>
 	</type>
-	<type Name="Material">
+	<type Name="Materyal">
 		<ext>mtl</ext>
 	</type>
-	<type Name="Text Rules">
+	<type Name="Metin Kuralları">
 		<ext>tr</ext>
 	</type>
-	<type Name="Cutscene Subtitle">
+	<type Name="Ara Sahne Altyazısı">
 		<ext>cutsub</ext>
 	</type>
-	<type Name="Texture Conversion Params">
+	<type Name="Doku Dönüştürme Parametreleri">
 		<ext>ctp</ext>
 		<ext>tcp</ext>
 	</type>
-	<type Name="Shader preset">
+	<type Name="Gölgelendirme ayarları">
 		<ext>sps</ext>
 	</type>
-	<type Name="GTA text table">
+	<type Name="GTA metin tablosu">
 		<ext>gxt</ext>
 		<ext>gxt2</ext>
 	</type>
-	<type Name="XML text">
+	<type Name="XML metni">
 		<ext>xml</ext>
 	</type>
-	<type Name="Config text">
+	<type Name="Ayar metni">
 		<ext>ini</ext>
 	</type>
-	<type Name="Compiled script">
+	<type Name="Derlenmiş script">
 		<ext>sco</ext>
 	</type>
-	<type Name="Item Definition Entries">
+	<type Name="Eşya Belirtme Girdileri">
 		<ext>ide</ext>
 	</type>
-	<type Name="Item Placement Lists">
+	<type Name="Eşya Koyma Listesi">
 		<ext>ipl</ext>
 	</type>
-	<type Name="Car Recordings">
+	<type Name="Araba Kayıtları">
 		<ext>rrr</ext>
 	</type>
-	<type Name="Data">
+	<type Name="Veri">
 		<ext>dat</ext>
 		<ext>datnew</ext>
 	</type>
-	<type Name="CUT scene">
+	<type Name="Ara sahne">
 		<ext>cut</ext>
 	</type>
-	<type Name="eXtended Placement Lists">
+	<type Name="Uzatılmış Yerleştirme Listeleri">
 		<ext>xpl</ext>
 		<ext>wpl</ext>
 	</type>
-	<type Name="List">
+	<type Name="Liste">
 		<ext>list</ext>
 		<ext>xlist</ext>
 		<ext>lst</ext>
 	</type>
-	<type Name="Comma Separated Values">
+	<type Name="Virgülle Ayrılmış Değerler">
 		<ext>csv</ext>
 	</type>
-	<type Name="List Microsoft Office Excel 97-2003">
+	<type Name="Microsoft Office Excel 97-2003 Listesi">
 		<ext>xls</ext>
 	</type>
-	<type Name="GTAIV Clip">
+	<type Name="GTAIV videosu">
 		<ext>cli</ext>
 	</type>
-	<type Name="GTAIV hash pack file">
+	<type Name="GTAIV hash pack dosyası">
 		<ext>pak</ext>
 	</type>
-	<type Name="Config">
+	<type Name="Ayarlar">
 		<ext>cfg</ext>
 	</type>
-	<type Name="GTAIV Clip Thumbs image">
+	<type Name="GTAIV video noktası resmi">
 		<ext>tag</ext>
 	</type>
-	<type Name="Animation">
+	<type Name="Animasyon">
 		<ext>anim</ext>
 	</type>
-	<type Name="Paths">
+	<type Name="Yollar">
 		<ext>nod</ext>
 	</type>
-	<type Name="Combat information">
+	<type Name="Savaş bilgisi">
 		<ext>cmb</ext>
 	</type>
-	<type Name="Ped information">
+	<type Name="Yaya bilgisi">
 		<ext>ped</ext>
 	</type>
-	<type Name="Zone">
+	<type Name="Bölge">
 		<ext>zon</ext>
 	</type>
-	<type Name="Compiled shader">
+	<type Name="Derlenmiş gölgelendirme">
 		<ext>fxc</ext>
 	</type>
-	<type Name="Compiled shader (cell/ps3)">
+	<type Name="Derlenmiş gölgelendirme (cell/ps3)">
 		<ext>cgx</ext>
 	</type>
-	<type Name="Audio Metadata">
+	<type Name="Ses Metadata'sı">
 		<ext>DAT4</ext>
 		<ext>DAT10</ext>
 		<ext>DAT11</ext>
@@ -453,23 +453,23 @@
 		<name>config/dlc_2_game.dat</name>
 		<name>config/dlc_2_curves.dat</name>
 	</type>
-	<type Name="Batch file">
+	<type Name="Yığın dosyası">
 		<ext>bat</ext>
 	</type>
-	<type Name="Windows Command Script">
+	<type Name="Windows Komut Script'i">
 		<ext>cmd</ext>
 	</type>
-	<type Name="Expressions">
+	<type Name="İfadeler">
 		<ext>expr</ext>
 	</type>
-	<type Name="Tune">
+	<type Name="Melodi">
 		<ext>tune</ext>
 	</type>
-	<type Name="Image FX">
+	<type Name="Resim efektleri">
 		<ext>ifx</ext>
 	</type>
 	<!-- Steam -->
-	<type Name="Steam script file">
+	<type Name="Steam script dosyası">
 		<ext>vdf</ext>
 	</type>
 </Library>
