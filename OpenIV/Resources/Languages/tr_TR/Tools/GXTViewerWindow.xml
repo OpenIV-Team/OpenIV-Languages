@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GXTViewerWindow Caption='$AppName$ GXT Viewer'>		
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='GXT Tables List'/>
+				<Item Index='1' Value='Key'/>
+				<Item Index='2' Value='Value'/>
+				<Item Index='3' Value='Tables Count:'/>
+				<Item Index='4' Value=''/>
+			</StringList>
+		</AeroWindow>
+		<btnExport Caption='Export to text file'/>
+	</GXTViewerWindow>
+</Translation>
