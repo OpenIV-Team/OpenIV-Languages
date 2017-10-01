@@ -127,7 +127,8 @@
 		<mmTools Caption="Инструменты"/>
 		<mmHelp Caption="Справка"/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption="Недавние файлы"/>
+		<mmRecentArchives Caption="Недавние архивы"/>
+		<!-- Main Menu : Edit -->
 		<mmFilter Caption="Фильтровать"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Раскладка"/>
@@ -143,16 +144,17 @@
 		<!-- Path menu -->
 		<PMenu0 Caption="Копировать адрес"/>
 		<!-- File Action's -->
-		<actCreate Caption="Создать архив..." Hint="Создать новый архив"/>
-		<actOpen Caption="Открыть архив..." Hint="Открыть существующий архив"/>
-		<actOpenPC Caption="Открыть содержимое..." Hint=""/>
+		<actCreateArchive Caption="Создать архив..." Hint="Создать новый архив"/>
+		<actOpenGameFolder Caption="Открыть содержимое..." Hint=""/>
+		<actOpenArchive Caption="Открыть архив..." Hint="Открыть существующий архив"/>
+		<actOpenFolder Caption="Открыть папку..." Hint="Открыть существующую папку"/>
 		<actOpenArchiveProperties Caption="Свойства архива" Hint=""/>
 		<actDefragmentation Caption="Дефрагментация" Hint="Дефрагментация архива"/>
 		<actEditMode Caption="Режим редактирования" Hint=""/>
 		<actReadMode Caption="Режим чтения" Hint=""/>
+		<actCloseAllArchives Caption="Закрыть все архивы" Hint="Закрыть все открытые архивы"/>
 		<actClose Caption="Закрыть" Hint="Закрыть текущий архив"/>
 		<actExit Caption="Выход" Hint="Выход"/>
-		<actCloseAllArchives Caption="Закрыть все архивы" Hint="Закрыть все открытые архивы"/>
 		<!-- Edit Action's -->
 		<actPreview Caption="Просмотр..." Hint="Просмотр выбранного файла"/>
 		<actEditFile Caption="Редактировать..." Hint="Редактирование выбранного файла"/>
@@ -185,6 +187,7 @@
 		<actLivePreView Caption="Панель просмотра" Hint="Панель просмотра"/>
 		<actMainMenuBar Caption="Строка меню" Hint="Строка меню"/>
 		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="Как проверить и восстановить файлы игры..." Hint=""/>
 		<actReportBug Caption="Сообщить об ошибке" Hint=""/>
 		<actAbout Caption="О программе..." Hint="О программе"/>
 		<actGoToWeb Caption="Посетить сайт в интернете..." Hint=""/>
@@ -278,6 +281,13 @@
 				<Item Index="46" Value="Недопустимые символы в имени."/>
 				<Item Index="47" Value="Укажите другое имя."/>
 				<Item Index="48" Value="Элемент с указанным вами именем уже существует."/>
+				<Item Index="49" Value="Выберите папку"/>
+				<Item Index="50" Value="Удалить файл"/>
+				<Item Index="51" Value="Вы действительно хотите безвозвратно удалить этот файл?"/>
+				<Item Index="52" Value="Удалить папку"/>
+				<Item Index="53" Value="Вы действительно хотите безвозвратно удалить эту папку?"/>
+				<Item Index="54" Value="Удаление нескольких элементов"/>
+				<Item Index="55" Value="Вы действительно хотите безвозвратно удалить эти объекты? (%d шт.)"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -347,8 +357,8 @@
 		<cbAlwaysOpenArchiveAfterRebuild Caption="Всегда открывать архив после пересборки"/>
 		<cbMinimizeAtStartGame Caption="При запуске игры сворачивать $AppName$"/>
 		<cbInstallUpdatesAutomatically Caption="Устанавливать обновления автоматически"/>
+		<cbDisplayDeleteConfirmationDialog Caption="Запрашивать подтверждение на удаление"/>
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Использовать Корзину вместо удаления при работе с реальными файлами"/>
-		<cbShowRecycleConfirmation Caption="Требовать подтверждения отправки в корзину"/>
 		<cbCloseArchivesAtStartGame Caption="При запуске игры закрывать все открытые архивы"/>
 		<cbClearSearchFilterAfterOpeningArchive Caption='Очистить фильтр поиска после открытия нового архива'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Использовать альтернативный (старый) метод добавления папки при перетаскивании'/>

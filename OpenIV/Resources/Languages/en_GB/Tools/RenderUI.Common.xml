@@ -80,6 +80,7 @@
 		<string name="COLUMN_INDEX_COUNT">Index сount</string>
 		<string name="COLUMN_FACE_COUNT">Face сount</string>
 		<string name="COLUMN_VERTEX_COUNT">Vertex сount</string>
+		<string name="COLUMN_TOTAL_">Total:</string>
 		
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Please, select file format:</string>

@@ -127,7 +127,8 @@
 		<mmTools Caption="Tools"/>
 		<mmHelp Caption="Help"/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption="Reopen"/>
+		<mmRecentArchives Caption="Recent Archives"/>
+		<!-- Main Menu : Edit -->
 		<mmFilter Caption="Filter"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Layout"/>
@@ -143,16 +144,17 @@
 		<!-- Path menu -->
 		<PMenu0 Caption="Copy Address (Path)"/>
 		<!-- File Action's -->
-		<actCreate Caption="Create archive..." Hint="Create new archive"/>
-		<actOpen Caption="Open archive..." Hint="Open existing archive"/>
-		<actOpenPC Caption="Open content..." Hint=""/>
+		<actCreateArchive Caption="Create archive..." Hint="Create new archive"/>
+		<actOpenGameFolder Caption="Open game folder" Hint="Open game folder"/>
+		<actOpenArchive Caption="Open archive..." Hint="Open existing archive"/>
+		<actOpenFolder Caption="Open folder..." Hint="Open existing folder"/>
 		<actOpenArchiveProperties Caption="Archive properties" Hint=""/>
 		<actDefragmentation Caption="Defragmentation" Hint="Archive Defragmenter"/>
 		<actEditMode Caption="Edit mode" Hint=""/>
 		<actReadMode Caption="Read only mode" Hint=""/>
-		<actClose Caption="Close archive" Hint="Close current archive"/>
-		<actExit Caption="Exit" Hint="Exit"/>
 		<actCloseAllArchives Caption="Close all archives" Hint="Close all opened archives"/>
+		<actCloseArchive Caption="Close archive" Hint="Close current archive"/>
+		<actExit Caption="Exit" Hint="Exit"/>
 		<!-- Edit Action's -->
 		<actPreview Caption="View..." Hint="View file"/>
 		<actEditFile Caption="Edit..." Hint="Edit file"/>
@@ -185,6 +187,7 @@
 		<actLivePreView Caption="Preview Pane" Hint="Preview Pane"/>
 		<actMainMenuBar Caption="Menu bar" Hint="Menu bar"/>
 		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="How to verify and restore game files..." Hint=""/>
 		<actReportBug Caption="Report a bug" Hint=""/>
 		<actAbout Caption="About..." Hint="About"/>
 		<actGoToWeb Caption="Go to website..." Hint=""/>
@@ -278,6 +281,13 @@
 				<Item Index="46" Value="Invalid characters in name."/>
 				<Item Index="47" Value="Specify a different name."/>
 				<Item Index="48" Value="There is already a item with the same name as the folder name you specified."/>
+				<Item Index="49" Value="Select folder"/>
+				<Item Index="50" Value="Delete File"/>
+				<Item Index="51" Value="Are you sure you want to permanently delete this file?"/>
+				<Item Index="52" Value="Delete Folder"/>
+				<Item Index="53" Value="Are you sure you want to permanently delete this folder?"/>
+				<Item Index="54" Value="Delete Multiple Items"/>
+				<Item Index="55" Value="Are you sure you want to permanently delete these %d items?"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -347,8 +357,8 @@
 		<cbAlwaysOpenArchiveAfterRebuild Caption="Always open archive after rebuild"/>
 		<cbMinimizeAtStartGame Caption="Minimize $AppName$ at start game"/>
 		<cbInstallUpdatesAutomatically Caption="Install updates automatically"/>
+		<cbDisplayDeleteConfirmationDialog Caption="Display delete confirmation dialog"/>
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="For real files use recycle bin instead of delete"/>
-		<cbShowRecycleConfirmation Caption="Show recycle confirmation"/>
 		<cbCloseArchivesAtStartGame Caption="Close all opened archives at start game"/>
 		<cbClearSearchFilterAfterOpeningArchive Caption='Clear search filter after opening archive'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Use alternate (old) way of adding folders after drag and drop'/>
