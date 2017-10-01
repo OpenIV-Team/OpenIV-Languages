@@ -45,7 +45,7 @@
 				<Item Index="32" Value="Full screen mode (F11)"/>
 				<Item Index="33" Value="Window mode (F11)"/>
 				<Item Index="34" Value="Select file to preview."/>
-				<Item Index="35" Value="No preveiw data."/>
+				<Item Index="35" Value="No preview data."/>
 				<Item Index="36" Value="Version: %S"/>
 				<Item Index="37" Value="Exit $AppName$"/>
 				<Item Index="38" Value="$AppName$ Options"/>
@@ -60,12 +60,12 @@
 				<Item Index="47" Value="build"/>
 				<Item Index="48" Value="This archive is empty."/>
 				<Item Index="49" Value="This folder is empty."/>
-				<Item Index="50" Value="No items match you search."/>
+				<Item Index="50" Value="No items match your search."/>
 				<Item Index="51" Value="Open folder in Windows Explorer"/>
 				<Item Index="52" Value="Find in Windows Explorer"/>
 				<Item Index="53" Value="Open file location"/>
 				<Item Index="54" Value="$AppName$ - Open location"/>
-				<Item Index="55" Value="$AppName$ is unalbe to open location of this archive."/>
+				<Item Index="55" Value="$AppName$ is unable to open location of this archive."/>
 				<Item Index="56" Value="YouTube channel"/>
 				<Item Index="57" Value="Video tutorials"/>
 				<Item Index="58" Value="Tiny (0 - 10 KB)"/>
@@ -77,10 +77,10 @@
 				<Item Index="64" Value="Folders"/>
 				<Item Index="65" Value="Filter %s"/>
 				<Item Index="66" Value="$AppName$ - Notification"/>
-				<Item Index="67" Value="You can enable this notification back in options."/>
+				<Item Index="67" Value="You can turn on this notification in options."/>
 				<Item Index="68" Value="Copying..."/>
 				<Item Index="69" Value="$AppName$ - Confirmation"/>
-				<Item Index="70" Value='The all changes you made in "$ModsFolderPath$update\update.rpf" archive will be lost.\nDo you want to continue?'/>
+				<Item Index="70" Value='All changes you made in "$ModsFolderPath$update\update.rpf" archive will be lost.\nDo you want to continue?'/>
 				<Item Index="71" Value='Search "%s" in all archives'/>
 				<Item Index="72" Value=""/>
 				<Item Index="73" Value=""/>
@@ -96,7 +96,7 @@
 		<SearchBox BannerText="Filter"/>
 		<!-- Notification: GTA V (ASI) -->
 		<lbGTAVPluginTitle Caption="Install plugin for $RageGAME_SHORT$"/>
-		<lbGTAVPluginText Caption="You need to install ASI Loader and $ModsFolderAsi$ plugin for your $RageGAME_SHORT$, otherwise game will not load modified RPF archive.\nDo not play $RageGAME_MP$ with modified RPF you will be banned."/>
+		<lbGTAVPluginText Caption="You need to install ASI Loader and $ModsFolderAsi$ plugin for your $RageGAME_SHORT$, otherwise game will not load modified RPF archive.\nDo not play $RageGAME_MP$ with modified RPF, or you will be banned."/>
 		<btnGTAVPluginAction Caption="ASI Manager"/>
 		<!-- Notification: copy to mods folder -->
 		<lbNotInModsTitle Caption='The $ModsFolder$ folder'/>
@@ -111,7 +111,7 @@
 		<btnCopyUpdateToMods Caption='Copy new version to $ModsFolder$ folder'/>
 		<!-- Notification: Admin mode -->
 		<lbAdminModeTitle Caption='Administrator mode'/>
-		<lbAdminModeText Caption='Your $AppName$ is running as administrator. Some features like drag and drop from Windows File Explorer might not work. Usually, you no need to run $AppName$ as administrator.'/>
+		<lbAdminModeText Caption='Your $AppName$ is running with administrator privileges. Some features like drag and drop from Windows File Explorer might not work. Usually, you no need to run $AppName$ with administrator privileges.'/>
 		<btnAdminModeAction Caption='What can I do?'/>
 		<!-- Search tasks -->
 		<taskClearSearchFilter Caption='Clear search filter'/>
@@ -127,7 +127,8 @@
 		<mmTools Caption="Tools"/>
 		<mmHelp Caption="Help"/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption="Reopen"/>
+		<mmRecentArchives Caption="Recent Archives"/>
+		<!-- Main Menu : Edit -->
 		<mmFilter Caption="Filter"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Layout"/>
@@ -143,16 +144,17 @@
 		<!-- Path menu -->
 		<PMenu0 Caption="Copy Address (Path)"/>
 		<!-- File Action's -->
-		<actCreate Caption="Create archive..." Hint="Create new archive"/>
-		<actOpen Caption="Open archive..." Hint="Open existing archive"/>
-		<actOpenPC Caption="Open content..." Hint=""/>
+		<actCreateArchive Caption="Create archive..." Hint="Create new archive"/>
+		<actOpenGameFolder Caption="Open game folder" Hint="Open game folder"/>
+		<actOpenArchive Caption="Open archive..." Hint="Open existing archive"/>
+		<actOpenFolder Caption="Open folder..." Hint="Open existing folder"/>
 		<actOpenArchiveProperties Caption="Archive properties" Hint=""/>
 		<actDefragmentation Caption="Defragmentation" Hint="Archive Defragmenter"/>
 		<actEditMode Caption="Edit mode" Hint=""/>
 		<actReadMode Caption="Read only mode" Hint=""/>
-		<actClose Caption="Close archive" Hint="Close current archive"/>
-		<actExit Caption="Exit" Hint="Exit"/>
 		<actCloseAllArchives Caption="Close all archives" Hint="Close all opened archives"/>
+		<actCloseArchive Caption="Close archive" Hint="Close current archive"/>
+		<actExit Caption="Exit" Hint="Exit"/>
 		<!-- Edit Action's -->
 		<actPreview Caption="View..." Hint="View file"/>
 		<actEditFile Caption="Edit..." Hint="Edit file"/>
@@ -185,6 +187,7 @@
 		<actLivePreView Caption="Preview Pane" Hint="Preview Pane"/>
 		<actMainMenuBar Caption="Menu bar" Hint="Menu bar"/>
 		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="How to verify and restore game files..." Hint=""/>
 		<actReportBug Caption="Report a bug" Hint=""/>
 		<actAbout Caption="About..." Hint="About"/>
 		<actGoToWeb Caption="Go to website..." Hint=""/>
@@ -278,6 +281,13 @@
 				<Item Index="46" Value="Invalid characters in name."/>
 				<Item Index="47" Value="Specify a different name."/>
 				<Item Index="48" Value="There is already a item with the same name as the folder name you specified."/>
+				<Item Index="49" Value="Select folder"/>
+				<Item Index="50" Value="Delete File"/>
+				<Item Index="51" Value="Are you sure you want to permanently delete this file?"/>
+				<Item Index="52" Value="Delete Folder"/>
+				<Item Index="53" Value="Are you sure you want to permanently delete this folder?"/>
+				<Item Index="54" Value="Delete Multiple Items"/>
+				<Item Index="55" Value="Are you sure you want to permanently delete these %d items?"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -306,7 +316,7 @@
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
-	
+
 	<!-- Web window -->
 
 	<webWindow Caption="$WebName$ - ">
@@ -332,7 +342,7 @@
 		<gbGamePath Caption="$RageGAME_SHORT$ directory"/>
 		<lbCurrentGamePath Caption="Current directory:"/>
 		<tbChangeGame Caption="Change directory"/>
-		<ttRageExe Caption="To get $AppName$ works, in this directory shoud be placed this file: $RageEncryptionStorage$"/>
+		<ttRageExe Caption="$RageEncryptionStorage$ should be located in this directory for $AppName$ to work"/>
 		<!-- General -->
 		<tabMain Caption="General"/>
 		<lbDefaultGame Caption="Select default game"/>
@@ -347,11 +357,11 @@
 		<cbAlwaysOpenArchiveAfterRebuild Caption="Always open archive after rebuild"/>
 		<cbMinimizeAtStartGame Caption="Minimize $AppName$ at start game"/>
 		<cbInstallUpdatesAutomatically Caption="Install updates automatically"/>
+		<cbDisplayDeleteConfirmationDialog Caption="Display delete confirmation dialog"/>
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="For real files use recycle bin instead of delete"/>
-		<cbShowRecycleConfirmation Caption="Show recycle confirmation"/>
-		<cbCloseArchivesAtStartGame Caption="Close all opened archvies at start game"/>
+		<cbCloseArchivesAtStartGame Caption="Close all opened archives at start game"/>
 		<cbClearSearchFilterAfterOpeningArchive Caption='Clear search filter after opening archive'/>
-		<cbUseAlternativeWayOfAddingFolders Caption='Use alternative (old) way of adding folders after drag and drop'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Use alternate (old) way of adding folders after drag and drop'/>
 		<tbFileAssociation Caption="Change file association"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="$ModsFolder$ folder"/>
@@ -384,7 +394,7 @@
 		<cbNotExportTextureToFolder Caption="Do not place textures in separate folder while export OTD"/>
 		<gbModels Caption="Models import (ODR/ODD/OFT)"/>
 		<cbProtectModels Caption="Enable protected mesh option by default (prevent future export)"/>
-		<btnSaveShaderInformation Caption="Save openFormats shader infromation"/>
+		<btnSaveShaderInformation Caption="Save openFormats shader information"/>
 		<!-- Misc + old -->
 		<btnClose Caption="Close"/>
 		<actAppAdd Caption="Add"/>
