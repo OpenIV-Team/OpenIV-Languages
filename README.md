@@ -26,13 +26,10 @@ You can find folder name for your language in [this list](https://github.com/Goo
 The LIP.xml file is metadata file that describes your localization pack.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='290' ID='2057' active="true">
+<LanguageInterfacePack version='291' ID='2057' active="true">
 	<Contributors>
 		<Contributor link="http://openiv.com/">OpenIV Team</Contributor>
 	</Contributors>
-	<WebHelp>
-		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
-	</WebHelp>
 </LanguageInterfacePack>
 ```
 In this file you need to set correct language ID, you can find ID name for your language in [this list](https://github.com/GooD-NTS/OpenIV-Languages/blob/master/LANGUAGES.md).
