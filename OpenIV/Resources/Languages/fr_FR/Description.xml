@@ -296,7 +296,7 @@
 		<ext>RAGE_AUDIO_FILE</ext>
 	</type>
 	<!-- Executables -->
-	<type Name="Éxécutable">
+	<type Name="Application">
 		<ext>exe</ext>
 	</type>
 	<type Name="Éxécutable (XBOX 360)">

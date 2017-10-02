@@ -81,6 +81,7 @@
 		<string name="COLUMN_INDEX_COUNT">Nombre d'index</string>
 		<string name="COLUMN_FACE_COUNT">Nombre de faces</string>
 		<string name="COLUMN_VERTEX_COUNT">Nombre de sommets</string>
+		<string name="COLUMN_TOTAL_">Total :</string>
 		
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Merci de sélectionner le format de fichier :</string>

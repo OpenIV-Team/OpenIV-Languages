@@ -127,7 +127,8 @@
 		<mmTools Caption="Outils"/>
 		<mmHelp Caption="Aide"/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption="Réouvrir"/>
+		<mmRecentArchives Caption="Archives récentes"/>
+		<!-- Main Menu : Edit-->
 		<mmFilter Caption="Filtrer"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Apparence"/>
@@ -143,16 +144,17 @@
 		<!-- Path menu -->
 		<PMenu0 Caption="Copier le chemin d'accès"/>
 		<!-- File Action's -->
-		<actCreate Caption="Créer archive..." Hint="Créer une nouvelle archive"/>
-		<actOpen Caption="Ouvrir archive..." Hint="Ouvrir une archive existante"/>
-		<actOpenPC Caption="Ouvrir contenu..." Hint=""/>
+		<actCreateArchive Caption="Créer archive..." Hint="Créer une nouvelle archive"/>
+		<actOpenGameFolder Caption="Ouvrir le dossier du jeu" Hint="Ouvrir le dossier du jeu"/>
+		<actOpenArchive Caption="Ouvrir archive..." Hint="Ouvrir une archive existante"/>
+		<actOpenFolder Caption="Ouvrir dossier..." Hint="Open un dossier existant"/>
 		<actOpenArchiveProperties Caption="Propriétés de l'archive" Hint=""/>
 		<actDefragmentation Caption="Défragmentation" Hint="Défragmenteur d'archive"/>
 		<actEditMode Caption="Mode Édition" Hint=""/>
 		<actReadMode Caption="Mode lecture seule" Hint=""/>
-		<actClose Caption="Fermer l'archive" Hint="Fermer cette archive"/>
-		<actExit Caption="Quitter" Hint="Quitter"/>
 		<actCloseAllArchives Caption="Fermer toutes les archives" Hint="Fermer toutes les archives ouvertes"/>
+		<actCloseArchive Caption="Fermer l'archive" Hint="Fermer cette archive"/>
+		<actExit Caption="Quitter" Hint="Quitter"/>
 		<!-- Edit Action's -->
 		<actPreview Caption="Voir..." Hint="Voir le fichier"/>
 		<actEditFile Caption="Édition..." Hint="Éditer le fichier"/>
@@ -185,6 +187,7 @@
 		<actLivePreView Caption="Panneau de prévisualisation" Hint="Panneau de prévisualisation"/>
 		<actMainMenuBar Caption="Barre de menu" Hint="Barre de menu"/>
 		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="Comment vérifier et restaurer les fichiers du jeu..." Hint=""/>
 		<actReportBug Caption="Signaler un bug" Hint=""/>
 		<actAbout Caption="À propos..." Hint="À propos"/>
 		<actGoToWeb Caption="Site internet..." Hint=""/>
@@ -278,6 +281,13 @@
 				<Item Index="46" Value="Le nom contient des caractères invalides."/>
 				<Item Index="47" Value="Merci de donner un nom différent."/>
 				<Item Index="48" Value="Il y a déjà un élément ayant le même nom de dossier que celui spécifié."/>
+				<Item Index="49" Value="Sélectionnez un dossier"/>
+				<Item Index="50" Value="Supprimer le fichier"/>
+				<Item Index="51" Value="Voulez-vous supprimer ce fichier de façon permanente ?"/>
+				<Item Index="52" Value="Supprimer le dossier"/>
+				<Item Index="53" Value="Voulez-vous supprimer ce dossier de façon permanente ?"/>
+				<Item Index="54" Value="Supprimer les éléments"/>
+				<Item Index="55" Value="Voulez-vous supprimer ces %d éléments de façon permanente ?"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -347,8 +357,8 @@
 		<cbAlwaysOpenArchiveAfterRebuild Caption="Toujours réouvrir l'archive après défragmentation"/>
 		<cbMinimizeAtStartGame Caption="Réduire $AppName$ au lancement du jeu"/>
 		<cbInstallUpdatesAutomatically Caption="Installer les mises à jour automatiquement"/>
+		<cbDisplayDeleteConfirmationDialog Caption="Demander confirmation lors de la suppression"/>
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Pour les vrais fichiers, utiliser la corbeille au lieu de supprimer"/>
-		<cbShowRecycleConfirmation Caption="Afficher la confirmation de mise à la corbeille"/>
 		<cbCloseArchivesAtStartGame Caption="Fermer toutes les archives ouvertes à l'ouverture du jeu"/>
 		<cbClearSearchFilterAfterOpeningArchive Caption="Nettoyer les filtres de recherche après ouverture d'une archive"/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Use alternative (old) way of adding folders after drag and drop'/>
