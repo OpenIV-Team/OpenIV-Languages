@@ -153,7 +153,7 @@
 		<actEditMode Caption="Режим редактирования" Hint=""/>
 		<actReadMode Caption="Режим чтения" Hint=""/>
 		<actCloseAllArchives Caption="Закрыть все архивы" Hint="Закрыть все открытые архивы"/>
-		<actClose Caption="Закрыть" Hint="Закрыть текущий архив"/>
+		<actCloseArchive Caption="Закрыть архив" Hint="Закрыть текущий архив"/>
 		<actExit Caption="Выход" Hint="Выход"/>
 		<!-- Edit Action's -->
 		<actPreview Caption="Просмотр..." Hint="Просмотр выбранного файла"/>

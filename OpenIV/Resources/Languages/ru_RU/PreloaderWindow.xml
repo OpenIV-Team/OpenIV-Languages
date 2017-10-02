@@ -68,7 +68,7 @@
 				<Lines>
 					<Item Index='0' Value=' Мб'/>
 					<Item Index='1' Value='Подготовка к загрузке...'/>
-					<Item Index='2' Value='Загрузка: %f Мб from %f Мб'/>
+					<Item Index='2' Value='Загрузка: %f из %f Мб'/>
 					<Item Index='3' Value='Обновление...'/>
 					<Item Index='4' Value='Ошибка обновления, пожалуйста, повторите попытку позже.'/>
 					<Item Index='5' Value='%d.%d.%d (Сборка %d; Дата %s)'/>
