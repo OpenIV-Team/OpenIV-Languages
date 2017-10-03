@@ -80,6 +80,7 @@
 		<string name="COLUMN_INDEX_COUNT">Μετρητής δεικτών</string>
 		<string name="COLUMN_FACE_COUNT">Μετρητής επιφανειών</string>
 		<string name="COLUMN_VERTEX_COUNT">Μετρητής γωνιών</string>
+		<string name="COLUMN_TOTAL_">Σύνολο:</string>
 		
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Επιλέξτε τύπο αρχείου:</string>

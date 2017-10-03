@@ -8,7 +8,7 @@
 			<btnWebNext Caption='Συνέχεια'/>
 			<btnGame Caption='Αναζήτηση...' Hint='Επιλογή φακέλου:'/>
 			<btnGameNext Caption='Συνέχεια'/>
-			<btnSetPermissions Caption='Ορισμός δικαιωμάτων'/> 
+			<btnSetPermissions Caption='Ορισμός δικαιωμάτων'/>
 			<btnWindowsNext Caption='Συνέχεια'/>
 			<btnBackupNext Caption='Συνέχεια'/>
 			<btnSocialNext Caption='Συνέχεια'/>

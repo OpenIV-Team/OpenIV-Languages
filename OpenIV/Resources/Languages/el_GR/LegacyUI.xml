@@ -127,7 +127,8 @@
 		<mmTools Caption="Εργαλεία"/>
 		<mmHelp Caption="Βοήθεια"/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption="Άνοιγμα εκ νέου"/>
+		<mmRecentArchives Caption="Πρόσφατες αρχειοθήκες"/>
+		<!-- Main Menu : Edit -->
 		<mmFilter Caption="Φίλτρο"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Διάταξη"/>
@@ -143,16 +144,17 @@
 		<!-- Path menu -->
 		<PMenu0 Caption="Αντιγραφή διεύθυνσης (διαδρομή)"/>
 		<!-- File Action's -->
-		<actCreate Caption="Δημιουργία αρχειοθήκης..." Hint="Δημιουργία νέας αρχειοθήκης"/>
-		<actOpen Caption="Άνοιγμα αρχειοθήκης..." Hint="Άνοιγμα υπάρχουσας αρχειοθήκης"/>
-		<actOpenPC Caption="Άνοιγμα περιεχομένου..." Hint=""/>
+		<actCreateArchive Caption="Δημιουργία" Hint="Δημιουργία νέας αρχειοθήκης"/>
+		<actOpenGameFolder Caption="Άνοιγμα φακέλου παιχνιδιού" Hint="Άνοιγμα φακέλου παιχνιδιού"/>
+		<actOpenArchive Caption="Άνοιγμα αρχειοθήκης..." Hint="Άνοιγμα υπάρχουσας αρχειοθήκης"/>
+		<actOpenFolder Caption="Άνοιγμα φακέλου..." Hint="Άνοιγμα υπάρχοντος φακέλου"/>
 		<actOpenArchiveProperties Caption="Ιδιότητες αρχειοθήκης" Hint=""/>
 		<actDefragmentation Caption="Ανασυγκρότηση" Hint="Ανασυγκρότηση αρχειοθήκης"/>
 		<actEditMode Caption="Λειτουργία επεξεργασίας" Hint=""/>
 		<actReadMode Caption="Λειτουργία μόνο ανάγνωσης" Hint=""/>
+		<actCloseAllArchives Caption="Κλείσιμο όλων των αρχειοθηκών" Hint="Κλείσιμο όλων των ανοιχτών αρχειοθηκών"/>
 		<actClose Caption="Κλείσιμο αρχειοθήκης" Hint="Κλείσιμο τρέχουσας αρχειοθήκης"/>
 		<actExit Caption="Έξοδος" Hint="Έξοδος"/>
-		<actCloseAllArchives Caption="Κλείσιμο όλων των αρχειοθηκών" Hint="Κλείσιμο όλων των ανοιχτών αρχειοθηκών"/>
 		<!-- Edit Action's -->
 		<actPreview Caption="Προβολή..." Hint="Προβολή αρχείου"/>
 		<actEditFile Caption="Επεξεργασία..." Hint="Επεξεργασία αρχείου"/>
@@ -185,6 +187,7 @@
 		<actLivePreView Caption="Παράθυρο προεπισκόπησης" Hint="Παράθυρο προεπισκόπησης"/>
 		<actMainMenuBar Caption="Γραμμή μενού" Hint="Γραμμή νερού"/>
 		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="Πώς να επαληθεύσετε και να επαναφέρετε τα αρχεία του παιχνδιού..." Hint=""/>
 		<actReportBug Caption="Αναφορά σφάλματος" Hint=""/>
 		<actAbout Caption="Πληροφορίες..." Hint="Πληροφορίες"/>
 		<actGoToWeb Caption="Επίσκεψη ιστοσελίδας..." Hint=""/>
@@ -278,6 +281,13 @@
 				<Item Index="46" Value="Μη έγκυροι χαρακτήρες στο όνομα αρχείου."/>
 				<Item Index="47" Value="Καθορίστε διαφορετικό όνομα αρχείου."/>
 				<Item Index="48" Value="Υπάρχει ήδη ένα στοιχείο με το ίδιο όνομα με το φάκελο που καθορίσατε."/>
+				<Item Index="49" Value="Επιλογή φακέλου"/>
+				<Item Index="50" Value="Διαγραφή αρχείου"/>
+				<Item Index="51" Value="Είστε σίγουρος ότι θέλετε να διαγράψετε μόνιμα αυτό το αρχείο;"/>
+				<Item Index="52" Value="Διαγραφή φακέλου"/>
+				<Item Index="53" Value="Είστε σίγουρος ότι θέλετε να διαγράψετε μόνιμα αυτόν τον φάκελο;"/>
+				<Item Index="54" Value="Διαγραφή πολλαπλών στοιχείων"/>
+				<Item Index="55" Value="Είστε σίγουρος ότι θέλετε να διαγράψετε μόνιμα αυτά τα %d στοιχεία;"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -332,7 +342,7 @@
 		<gbGamePath Caption="Προορισμός $RageGAME_SHORT$"/>
 		<lbCurrentGamePath Caption="Τρέχων προορισμός:"/>
 		<tbChangeGame Caption="Αλλαγή καταλόγου"/>
-		<ttRageExe Caption="Για να λειτουργήσει το $AppName$, σε αυτόν τον κατάλογο πρέπει να βρίσκεται το $RageEncryptionStorage$"/>
+		<ttRageExe Caption="Για να λειτουργήσει το $AppName$, το $RageEncryptionStorage$ πρέπει να βρίσκεται σε αυτόν τον κατάλογο."/>
 		<!-- General -->
 		<tabMain Caption="Γενικά"/>
 		<lbDefaultGame Caption="Επιλογή παιχνιδιού για προεπιλογή"/>
@@ -347,8 +357,8 @@
 		<cbAlwaysOpenArchiveAfterRebuild Caption="Πάντοτε άνοιγμα της αρχειοθήκης μετά την αναδόμηση"/>
 		<cbMinimizeAtStartGame Caption="Ελαχιστοποίηση του $AppName$ μετά την εκτέλεση του παιχνιδιού"/>
 		<cbInstallUpdatesAutomatically Caption="Αυτόματη εγκατάσταση ενημερώσεων"/>
-		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Για πραγματικά αρχεία χρησιμοποιήστε τον Κάδο ανακύκλωσης αντί για τη Διαγραφή"/>
-		<cbShowRecycleConfirmation Caption="Εμφάνιση παραθύρου για επιβεβαίωση διαγραφής"/>
+		<cbDisplayDeleteConfirmationDialog Caption="Προβολή διαλόγου επιβεβαίωσης διαγραφής"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Για πραγματικά αρχεία χρησιμοποιήστε τον Κάδο Ανακύκλωσης αντί για διαγραφή"/>
 		<cbCloseArchivesAtStartGame Caption="Κλείσιμο όλων των ανοιχτών αρχειοθηκών μετά την εκτέλεση του παιχνιδιού"/>
 		<cbClearSearchFilterAfterOpeningArchive Caption='Καθαρισμός του φίλτρου αναζήτησης μετά το άνοιγμα αρχειοθήκης'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Χρήση εναλλακτικού (παλιού) τρόπου προσθήκης φακέλων μετά από μεταφορά και απόθεση'/>

@@ -57,13 +57,13 @@
 		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Εύρεση τοποθεσίας" Hint="Άνοιγμα Αναζητητή θέσης"/>
 		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Εύρεση στο IDE" Hint=""/>
 		<item Name="Tools.GTAIV.AnimViewer" Title="Προβολέας κινήσεων" Hint="Άνοιγμα Προβολέα κινήσεων"/>
-		<item Name="Tools.GTAV.ASIManager" Title="Διαχειριστής ASI" Hint="Διαχειριστής ASI"/>	
-		<item Name="Files.Common.AudioPlayer" Title="Αναπαραγωγός ήχου" Hint=""/>	
+		<item Name="Tools.GTAV.ASIManager" Title="Διαχειριστής ASI" Hint="Διαχειριστής ASI"/>
+		<item Name="Files.Common.AudioPlayer" Title="Αναπαραγωγός ήχου" Hint=""/>
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Εξαγωγή σε openFormats (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer" Title="Προβολέας GXT" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="Προβολέας GXT2" Hint=""/>
 		<item Name="Files.Resources.TextureEditor" Title="Προβολέας υφών (textures)" Hint=""/>
-		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Επεξεργαστής υφών (textures)" Hint=""/>				
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Επεξεργαστής υφών (textures)" Hint=""/>
 		<item Name="Files.Resources.CollisionViewer" Title="Προβολέας συγκρούσεων (collisions)" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="Προβολέας μοντέλων WDR/WDD" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="Προβολέας μοντέλων WFT" Hint=""/>
