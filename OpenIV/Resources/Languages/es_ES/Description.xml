@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Library folder="Carpeta" Default='%S File' RSC='%S Resource'>
 	<!-- GTA V -->
 	<type Name="Ruta (XML)">
@@ -296,7 +296,7 @@
 		<ext>RAGE_AUDIO_FILE</ext>
 	</type>
 	<!-- Executables -->
-	<type Name="Ejecutable">
+	<type Name="Aplicación">
 		<ext>exe</ext>
 	</type>
 	<type Name="Ejecutable (XBOX 360)">
