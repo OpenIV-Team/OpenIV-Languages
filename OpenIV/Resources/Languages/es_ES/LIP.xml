@@ -1,9 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='290' ID='3082' active="true">
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageInterfacePack version='291' ID='3082' active="true">
 	<Contributors>
 		<Contributor link="indirivacuamods.blogspot.com/">indirivacua</Contributor>
 	</Contributors>
-	<WebHelp>
-		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
-	</WebHelp>
 </LanguageInterfacePack>
