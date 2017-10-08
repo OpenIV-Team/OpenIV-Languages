@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Main window -->
@@ -77,10 +77,10 @@
 				<Item Index='64' Value='Carpetas'/>
 				<Item Index="65" Value="Fltro %s"/>
 				<Item Index="66" Value="$AppName$ - Notificación"/>
-				<Item Index="67" Value="Puedes activar estas notificaciones devuelta en opciones."/>
+				<Item Index="67" Value="Puedes activar esta notificacion devuelta en opciones."/>
 				<Item Index="68" Value="Copiando..."/>
 				<Item Index="69" Value="$AppName$ - Confirmación"/>
-				<Item Index="70" Value='Todos los cambios que hagas en "$ModsFolderPath$\update\update.rpf" van a ser perdidos.\n¿Quieres continuar?'/>
+				<Item Index="70" Value='Todos los cambios que hiciste en "$ModsFolderPath$\update\update.rpf" van a ser perdidos.\n¿Quieres continuar?'/>
 				<Item Index="71" Value='Buscar "%s" en todos los archivos'/>
 				<Item Index="72" Value=""/>
 				<Item Index="73" Value=""/>
@@ -127,7 +127,8 @@
 		<mmTools Caption='Herramientas'/>
 		<mmHelp Caption='Ayuda'/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption='Reabrir'/>
+		<mmRecentArchives Caption="Archivos recientes"/>
+		<!-- Main Menu : Edit -->
 		<mmFilter Caption='Filtro'/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption='Disposición'/>
@@ -143,16 +144,17 @@
 		<!-- Path menu -->
 		<PMenu0 Caption='Copiar dirección (ruta)'/>
 		<!-- File Action's -->
-		<actCreate   Caption='Crear archivo...' Hint='Crear nuevo archivo'/>
-		<actOpen     Caption='Abrir archivo...' Hint='Abrir archivo existente'/>
-		<actOpenPC   Caption='Abrir contenido...' Hint=''/>
+		<actCreateArchive Caption="Crear archivo..." Hint="Crear nuevo archivo"/>
+		<actOpenGameFolder Caption="Abrir carpeta del juego" Hint="Abrir carpeta del juego"/>
+		<actOpenArchive Caption="Abrir archivo..." Hint="Abrir archivo existente"/>
+		<actOpenFolder Caption="Abrir carpeta..." Hint="Abrir carpeta existente"/>
 		<actOpenArchiveProperties  Caption='Propiedades del archivo' Hint=''/>
 		<actDefragmentation Caption="Desfragmentación" Hint="Desfragmentador de archivos"/>
 		<actEditMode Caption='Modo Edición'  Hint=''/>
 		<actReadMode Caption='Modo Lectura'  Hint=''/>
-		<actClose    Caption='Cerrar archivo' Hint='Cerrar archivo actual'/>
-		<actExit     Caption='Salir' Hint='Salir'/>
 		<actCloseAllArchives Caption='Cerrar todos los archivos' Hint='Cerrar todos los archivos abiertos'/>
+		<actCloseactCloseArchive    Caption='Cerrar archivo' Hint='Cerrar archivo actual'/>
+		<actExit     Caption='Salir' Hint='Salir'/>
 		<!-- Edit Action's -->
 		<actPreview     Caption='Ver...' Hint='Ver archivo'/>
 		<actEditFile    Caption='Editar...'    Hint='Editar archivo'/>
@@ -185,6 +187,7 @@
 		<actLivePreView   Caption='Panel de Vista Previa' Hint='Panel de Vista Previa'/>
 		<actMainMenuBar   Caption='Barra de Menú' Hint='Barra de Menú'/>
 		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="Como verificar y restaurar los archivos del juego..." Hint=""/>
 		<actReportBug    Caption="Reportar un bug" Hint=''/>
 		<actAbout        Caption='Sobre...' Hint='About'/>
 		<actGoToWeb      Caption='Ir al sitio web...' Hint=''/>
@@ -278,6 +281,13 @@
 				<Item Index="46" Value="Caracteres invalidos en el nombre."/>
 				<Item Index="47" Value="Especifica un nombre diferente."/>
 				<Item Index="48" Value="Ya hay un item con el mismo nombre en la carpeta que usted especificó."/>
+				<Item Index="49" Value="Seleccionar carpeta"/>
+				<Item Index="50" Value="Borrar archivo"/>
+				<Item Index="51" Value="¿Estás seguro de que quieres borrar este archivo de forma permanente?"/>
+				<Item Index="52" Value="Borrar carpeta"/>
+				<Item Index="53" Value="¿Estás seguro de que quieres borrar esta carpeta de forma permanente?"/>
+				<Item Index="54" Value="Borrar varios items"/>
+				<Item Index="55" Value="¿Estás seguro de que quieres borrar estos %d items de forma permanente?"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -332,7 +342,7 @@
  		<gbGamePath Caption="$RageGAME_SHORT$ directorio"/>
  		<lbCurrentGamePath Caption="Directorio actual:"/>
 		<tbChangeGame Caption='Cambiar directorio' />
-		<ttRageExe Caption="Para hacer que $AppName$ trabaje, en este directorio debe estar ubicado este archivo: $RageEncryptionStorage$"/>
+		<ttRageExe Caption="$RageEncryptionStorage$ debe estar situado en este directorio para que $AppName$ trabaje"/>
  		<!-- General -->
  		<tabMain Caption="General"/>
  		<lbDefaultGame Caption="Seleccionar juego por defecto"/>
@@ -347,8 +357,8 @@
 		<cbAlwaysOpenArchiveAfterRebuild Caption='Siempre abrir el archivo antes de recopilar'/>
 		<cbMinimizeAtStartGame Caption='Minimizar $AppName$ al iniciar el juego'/>
 		<cbInstallUpdatesAutomatically Caption='Instalar actualizaciones automáticamente'/>
+		<cbDisplayDeleteConfirmationDialog Caption="Mostrar diálogo de confirmación de eliminación"/>
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption='Para los archivos reales utilizar la papelera de reciclaje en lugar de borrar'/>
-		<cbShowRecycleConfirmation Caption='Mostrar confirmación de reciclaje'/>
 		<cbCloseArchivesAtStartGame Caption='Cerrar todos los archivos abiertos al iniciar el juego'/>
 		<cbClearSearchFilterAfterOpeningArchive Caption='Borrar filtrador de busqueda luego de abierto el archivo'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Usa la alternativa (vieja) manera de añadir carpetas luego del arrastrar y soltar'/>
