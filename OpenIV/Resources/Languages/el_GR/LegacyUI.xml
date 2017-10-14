@@ -153,7 +153,7 @@
 		<actEditMode Caption="Λειτουργία επεξεργασίας" Hint=""/>
 		<actReadMode Caption="Λειτουργία μόνο ανάγνωσης" Hint=""/>
 		<actCloseAllArchives Caption="Κλείσιμο όλων των αρχειοθηκών" Hint="Κλείσιμο όλων των ανοιχτών αρχειοθηκών"/>
-		<actClose Caption="Κλείσιμο αρχειοθήκης" Hint="Κλείσιμο τρέχουσας αρχειοθήκης"/>
+		<actCloseArchive Caption="Κλείσιμο αρχειοθήκης" Hint="Κλείσιμο τρέχουσας αρχειοθήκης"/>
 		<actExit Caption="Έξοδος" Hint="Έξοδος"/>
 		<!-- Edit Action's -->
 		<actPreview Caption="Προβολή..." Hint="Προβολή αρχείου"/>
