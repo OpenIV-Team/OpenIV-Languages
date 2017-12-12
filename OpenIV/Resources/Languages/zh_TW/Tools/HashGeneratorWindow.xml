@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<HashGeneratorWindow Caption='$AppName$ - 哈希值生成器'>
+		<!-- Label's -->
+		<lbOutputFormat Caption='輸出格式：' />
+		<!-- Button's -->
+		<btnLoadFromFile Caption='從文件加載' />
+		<btnGenerate Caption='生成' />
+		<btnSaveToFile Caption='存為文件' />
+		<cbCaseSensitive Caption='區分大小寫' />
+		<!-- Panel's -->
+		<pnlLeft Caption='輸入：' />
+		<pnlRight Caption='輸出：' />    
+	</HashGeneratorWindow>
+</Translation>

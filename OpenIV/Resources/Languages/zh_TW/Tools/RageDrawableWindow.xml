@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='$AppName$ - 模型瀏覽器'>
+		<pmiCopyName Caption='複製名稱'/>
+		<pmiCopyHash Caption='複製哈希值'/>
+		<pmiCopyNameAndHash Caption='複製名稱及哈希值'/>
+		<pmiHigh Caption='高（High）'/>
+		<pmiMed Caption='中（Med）'/>
+		<pmiLow Caption='低（Low）'/>
+		<pmiVLow Caption='非常低（VLow）'/>
+		<miLeft Caption='左'/>
+		<miRight Caption='右'/>
+		<miCheckAll Caption='選擇全部' />
+		<miUncheckAll Caption='清空選擇' />
+		<paneDictionary Caption='字典元素'/>
+		<cbMultipleRendering Caption='多重渲染'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='從外部文件加載'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>	
+		<!-- help -->
+		<string name="HELP_TITLE">模型瀏覽器 - 幫助</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[使用鼠標來移動視角，使用以下按鍵來移動：
+			
+    W - 向前移動
+    S - 向後移動
+    A - 向左移動
+    D - 向右移動
+
+    小鍵盤 8 - 向上移動鏡頭
+    小鍵盤 2 - 向下移動鏡頭
+    小鍵盤 4 - 向左移動鏡頭
+    小鍵盤 6 - 向右移動鏡頭
+
+    按住SHIFT - 快速移動
+    按住CTRL - 慢速移動
+    使用鼠標滾輪來縮放。
+	
+要添加額外貼圖，點擊窗口右下角的“[+] 添加貼圖”標誌。要移除貼圖，點擊貼圖名稱後的“[-]”標誌。
+
+要改變渲染選項，使用右側的選項或下列熱鍵：
+		   
+    F1 - 切換本幫助界面
+    F2 - 顯示更多信息
+    C - 切換鏡頭模式
+    F - 切換邊緣面
+    P - 切換顯示頂點
+    G - 切換幾何
+    L - 切換細節等級
+    ESC - 關閉本瀏覽器
+	
+    按住H - 臨時隱藏HUD
+]]>
+		</text>
+		<string name="CHECK_ALL">選擇全部</string>
+		<string name="UNCHECK_ALL">清空選擇</string>
+		<string name="MULTIPLE_RENDERING">多重渲染</string>
+		<string name="BOUND_TYPE">界限類型：</string>
+		<string name="CHILD_COUNT">子物件數量：</string>
+	</RenderUI>
+</Translation>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='$AppName$  - 自動安裝' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">自動安裝</string>
+		<string name="INSTALL">安裝</string>
+		<string name="INSTALLING">安裝中</string>
+		<string name="DESCRIPTION">描述</string>
+		<string name="ADDITIONAL_INFORMATION">詳細信息</string>
+		<string name="GREATED_BY">製作者</string>
+		<string name="SUPPORTED_GAMES">支持的遊戲</string>
+		<string name="VERSION">版本</string>
+		<string name="LICENCE">許可</string>
+		<string name="VIEW_LICENCE">查看許可</string>
+		<string name="LEARN_MORE">瞭解更多</string>
+		<string name="LINK_HOMEPAGE">主頁</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+		
+		<string name="SELECT_CONTENT">選擇安裝內容</string>
+		<string name="SELECT_LOCATION">選擇安裝位置</string>
+		<string name="LOCATION_MODS_FOLDER">Mods文件夾</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">安裝到Mods文件夾，遊戲源文件保持不變。</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">不能安裝到Mods文件夾，因為Mods文件夾不支持當前遊戲 ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">不能安裝到Mods文件夾，因為Mods文件夾不支持當前安裝包</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">不能安裝到Mods文件夾，因為Mods文件夾不支持非RPF文件</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">不能安裝到Mods文件夾，因為Mods文件夾未啟用</string>
+		<string name="LOCATION_GAME_FOLDER">遊戲目錄</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">安裝到遊戲目錄。</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">This package cannot be installed into the game folder because it is disabled in $ModsFolder$ folder settings.</string>
+		
+		<string name="INSTALLATION_SUCCEEDED">安裝成功</string>
+		<string name="RUN_GAME">運行$RageGAME$</string>
+		<string name="RUN_GAME_TEXT">運行遊戲查看效果</string>
+		
+		<string name="INSTALLATION_FAILED">安裝失敗</string>
+		
+		<string name="LOADING_ERROR_TITLE">自動安裝包加載失敗</string>
+		<string name="READING_ERROR_TITLE">自動安裝包讀取失敗</string>
+		<string name="INSTALLING_ERROR_TITLE">安裝錯誤</string>
+		
+		<string name="ERROR_GROUP_UNKNOWN">未知錯誤</string>
+		<string name="ERROR_GROUP_FATAL">致命錯誤</string>
+		<string name="ERROR_CODE_UNKNOWN">出現意外，查看日誌文件以檢查錯誤。</string>
+		<string name="ERROR_INSTALLATION">出現致命錯誤，查看日誌文件以檢查錯誤。</string>
+		<string name="ERROR_MSXML">電腦未安裝MSXML。</string>
+		<string name="CHECK_LOG_FILE">查看日誌文件以檢查錯誤。</string>
+		
+		<string name="OPEN_INSTALLATION_LOG">打開日誌</string>
+		<string name="OPEN_LOG_FILE">打開日誌文件</string>
+		
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">自動安裝包不是有效的壓縮包。</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">未知文件格式，必須是zip或oiv格式。</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Cannot access package file. Make sure it is not used by another process.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">文件不存在</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">打開失敗</string>
+		
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">文件"assembly.xml"丟失。可能不是$AppName$自動安裝包或者文件損壞。</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">"assembly.xml"讀取失敗, 文件可能已損壞。</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">文件"assembly.xml"含有未知格式。</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">當前版本的$AppName$無法安裝此自動安裝包。</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">The "metadata" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">The metadata information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">The "assembly.xml" have invalid XML format or corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Unable to read package Id from "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">The "colors" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">The colors information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">The content information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">The "content" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Unable to find "content" folder in this package. Probable file is not $AppName$ Package or file corrupted.</string>
+		
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">This package cannot be installed into $RageGAME$. Please check supported games list in additional information section.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Some files are missing in the package archive.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Some files have incorrect ingame path. Please contact package author.</string>
+		
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">該自動安裝包無法自動卸載</string>
+		
+	</RenderUI>
+</Translation>

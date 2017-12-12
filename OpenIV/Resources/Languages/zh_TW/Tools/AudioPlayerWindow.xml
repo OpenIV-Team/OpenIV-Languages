@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AudioPlayerWindow Caption='$AppName$ 音頻播放器'>
+		<btnExportAll Caption='提取全部'/>
+		<btnOptions Caption='選項'/>
+		<miPlayWhenOpen Caption='打開文件時開始播放'/>
+		<miAutoPlayNext Caption='自動播放下一條音軌'/>
+		<miPlay Caption='播放'/>
+		<miExport Caption='提取'/>
+		<miCopyName Caption='複製 name'/>
+		<miExportAllChannelsSeparately Caption='分別提取所有頻道'/>
+		<btnSort Caption='排序'/>
+		<miSortByName Caption='以名稱排序'/>
+		<miSortByDuration Caption='以時長排序'/>
+		<miSortOrderAsc Caption='升序'/>
+		<miSortOrderDesc Caption='降序'/>
+		<!-- String's -->
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Hz'/>
+				<Item Index='1' Value='%D 項目, %D 分.'/>
+				<Item Index='2' Value='%D 項目, %D 秒.'/>
+				<Item Index='3' Value=''/>
+				<Item Index='4' Value=''/>
+				<Item Index='5' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</AudioPlayerWindow>	
+</Translation>

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<NavmeshViewerWindow Caption='$AppName$  - 尋路網格瀏覽器' />		
+	<RenderUI>
+		<string name="HELP_TITLE">尋路網格瀏覽器 - 幫助</string>
+		<string name="EDGES">邊緣：</string>
+		<string name="PORTALS">入口：</string>
+		<string name="BOUNDS">界限：</string>
+		<string name="DISPLAY_BOUNDS">顯示界限：</string>
+		<text name="HELP_TEXT">
+			<![CDATA[使用鼠標來移動視角，使用以下按鍵來移動：
+			
+    W - 向前移動
+    S - 向後移動
+    A - 向左移動
+    D - 向右移動
+
+    小鍵盤 8 - 向上移動鏡頭
+    小鍵盤 2 - 向下移動鏡頭
+    小鍵盤 4 - 向左移動鏡頭
+    小鍵盤 6 - 向右移動鏡頭
+
+    按住SHIFT - 快速移動
+    按住CTRL - 慢速移動
+    使用鼠標滾輪來縮放。
+		   
+要改變渲染選項，使用右側的選項或下列熱鍵：
+		   
+    F1 - 切換本幫助界面
+    C - 切換鏡頭模式
+    F - 切換邊緣面
+    P - 切換顯示頂點
+    G - 切換幾何
+    ESC - 關閉本瀏覽器
+	
+    按住H - 臨時隱藏HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>
