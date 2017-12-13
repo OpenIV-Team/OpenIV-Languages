@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='$AppName$ 文本工具'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ 文本查看器'/>
+				<Item Index='1' Value='$AppName$ 文本編輯器'/>
+				<Item Index='2' Value='搜索...'/>
+				<Item Index='3' Value='搜索選定...'/>
+			</StringList>
+		</AeroWindow>
+		
+		<!-- Editor actions -->
+		<ActionEditCut Caption="剪切"/>
+		<ActionEditCopy Caption="複製"/>
+		<ActionEditPaste Caption="粘貼"/>
+		<ActionEditDelete Caption="刪除"/>
+		<ActionEditSelectAll Caption="全選"/>
+		<ActionEditDuplicateLine Caption="複製當前行"/>
+		<ActionEditRemoveLine Caption="移除當前行"/>
+		<ActionEditUpperCase Caption="大寫"/>
+		<ActionEditLoverCase Caption="小寫"/>
+	</TextEditorWindow>
+	
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">導出</string>
+		<string name="EXPORT_TEXT">導出為txt</string>
+		<string name="EXPORT_HTML">導出為html</string>
+		
+		<!-- Ribbon -->
+		<string name="TAB_HOME">主頁</string>
+		<string name="TAB_SEARCH">搜索</string>
+		<string name="WORD_WRAP">自動換行</string>
+		<string name="SHOW_SPECIAL_CHARS">顯示所有字符</string>
+		<string name="SEARCH_OPTIONS_MENU">搜索選項</string>
+		<string name="SEARCH_BANNER_TEXT">搜索</string>
+		<string name="SEARCH_DOWN">向下搜索</string>
+		<string name="SEARCH_UP">向上搜索</string>
+		<string name="SEARCH_ALL">搜索全部</string>
+		<string name="SEARCH_ALL_HINT">搜索全部</string>
+		<string name="SEARCH_SET_SELECTION_AREA">設置選區</string>
+		<string name="GOTO_LINE">轉至</string>
+		
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">搜索模式</string>
+		<string name="SEARCH_MODE_NORMAL">普通</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">正在表達式</string>
+		<string name="SEARCH_MODE_WILDCARD">通配符</string>
+		<string name="SEARCH_AREA">搜索區域</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">整個文件</string>
+		<string name="SEARCH_AREA_IN_SELECTION">選取範圍內</string>
+		<string name="SEARCH_OPTIONS">選項</string>
+		<string name="SEARCH_ON_TYPING">輸入自動搜索</string>
+		<string name="CASE_SENSITIVE">匹配大小寫</string>
+		<string name="WHOLE_WORDS_ONLY">全詞匹配</string>
+		<string name="WRAP_AROUND">循環搜索</string>
+		<string name="HIGHLIGHT_RESULTS">結果高亮</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">是否保存修改？</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">無法保存</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$ 無法保存修改，請稍後再試。</string>
+		<string name="GOTO_LINE_TITLE">定位至...</string>
+		<string name="GOTO_LINE_PROMT">目標位置:</string>
+		<string name="GOTO_LINE_NOTE">使用 + 或 - 在當前位置為基礎進行定位。\n例如: +4 向下四行</string>
+		<string name="GO">定位</string>
+	</RenderUI>
+</Translation>

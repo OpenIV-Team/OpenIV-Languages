@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageResourceExplorer Caption='$AppName$ - 資源管理器'>
+		<btnCopy Caption='複製全部'/>
+		<miCopyLine Caption='複製行'/>
+	</RageResourceExplorer>
+
+	<RageResourceExplorer2 Caption='$AppName$ - 資源管理器'>
+		<lbTree Caption="樹："/>
+		<btnProperties Caption="屬性"/>
+		<btnFields Caption="領域"/>
+		<tabProperties Caption="屬性"/>
+		<tabFields Caption="領域"/>
+	</RageResourceExplorer2>
+</Translation>

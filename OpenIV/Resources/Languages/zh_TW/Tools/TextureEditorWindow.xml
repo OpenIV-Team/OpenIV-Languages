@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='$AppName$ - 貼圖工具'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ - 貼圖瀏覽器'/>
+				<Item Index='1' Value='$AppName$ - 貼圖編輯器'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">查看：</string>
+		<string name="EXPORT_ALL">導出所有貼圖</string>
+		<string name="EXPORT_SELECTED">導出選定</string>
+		<string name="ORIGINAL_SIZE">原始大小</string>
+		<string name="ALPHA_BACKGROUND">Alpha背景</string>
+		<string name="SIZE_">大小：</string>
+
+		<string name="RENAME">重命名</string>
+		<string name="REPLACE">替換</string>
+		<string name="DELETE">刪除</string>
+		<string name="RENAME_TEXTURE">重命名貼圖</string>
+		<string name="RENAME_TEXTURE_NAME">輸入新名稱</string>
+		<string name="RENAME_TEXTURE_ERROR">該名稱的貼圖已存在。</string>
+		<string name="NO_IMAGE">無圖像</string>
+
+		<string name="NO_IMAGE_SELECTED">沒有選中的貼圖</string>
+		<string name="WIDTH">寬度</string>
+		<string name="HEIGHT">高度</string>
+		<string name="PIXEL_FORMAT">像素格式</string>
+		<string name="MIP_MAPS">MipMaps</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">選擇導入選項</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[該選項在導入DDS文件時會被無視。
+使用DDS文件以獲得最佳質量。]]>
+		</text>
+		<string name="AUTO_MIPMAP">自動生成MipMap等級</string>
+		<string name="TEXTURES_FORMAT">貼圖格式（壓縮）：</string>
+		<string name="AUTOMATICALLY">自動</string>
+		<string name="IMPORT_ERROR_FILES">以下文件未被導入</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">屬性</string>
+		<string name="PROPERTIES_MIPMAP">MipMap等級：</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">像素格式：</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[警告：
+變更屬性可能導致質量損失。]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">無法編輯"%S"貼圖屬性。</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">你想要保存更改嗎？</string>
+
+		<!-- help -->
+		<string name="HELP_TITLE">貼圖編輯器 - 幫助</string>
+		<text name="HELP_TEXT">
+			<![CDATA[可用熱鍵：
+			
+    Ctrl + Tab - 切換瀏覽模式
+    Ctrl + A - 導出所有貼圖
+    Ctrl + S - 導出選定貼圖
+    F1 - 切換本幫助界面
+    ESC - 關閉本瀏覽窗口
+    
+    按住H - 臨時隱藏HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>
