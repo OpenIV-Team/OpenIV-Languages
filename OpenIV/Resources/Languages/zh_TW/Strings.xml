@@ -18,34 +18,34 @@
 		<Item Index='14' Value='外部應用程序工作中...'/>
 		<Item Index='15' Value='創建新的 %S'/>
 		<Item Index='16' Value='$AppName$ - 信息'/>
-		<Item Index='17' Value='加載文件出錯,錯誤可能的文件是損壞。'/>
+		<Item Index='17' Value='加載文件出錯,錯誤可能的文件是損壞.'/>
 		<Item Index='18' Value='$AppName$ - 打開文件時發生錯誤'/>
 		<Item Index='19' Value='未知文件格式'/>
-		<Item Index='20' Value='%S 版本 %D 不受支持。'/>
+		<Item Index='20' Value='%S 版本 %D 不受支持.'/>
 		<Item Index='21' Value="$AppName$ 不能打開, 原因:\n"/>
 		<Item Index='22' Value='$AppName$ - 創建檔案'/>
-		<Item Index='23' Value="檔案名不能為空。"/>
+		<Item Index='23' Value="檔案名不能為空."/>
 		<Item Index='24' Value='openFormats - 導入'/>
 		<Item Index='25' Value='未知文件格式擴展名: %S'/>
 		<Item Index='26' Value='$AppName$ - DirectX 錯誤'/>
 		<Item Index='27' Value='$AppName$ is unable to initalize Direct3D.'/>
 		<Item Index='28' Value='運行 $RageGAME_SHORT$'/>
-		<Item Index='29' Value="$AppName$無法找到關聯的 IDE 文件."/>
-		<Item Index='30' Value="$AppName$無法打開文件。 以下是可能的原因列表:\n\n拒絕訪問. 嘗試使用管理員權限運行 $AppName$ .\n另一個進程使用文件。 關閉其他程序，然後重試.\n\n"/>	
+		<Item Index='29' Value="$AppName$ 無法找到關聯的 IDE 文件."/>
+		<Item Index='30' Value="$AppName$ 無法打開文件. 以下是可能的原因列表:\n\n拒絕訪問. 嘗試使用管理員權限運行 $AppName$ .\n另一個進程使用文件. 關閉其他程序,然後重試.\n\n"/>	
 		<Item Index='31' Value='目標文件夾:'/>
-		<Item Index='32' Value='無法打開存檔：未知錯誤.'/>
-		<Item Index='33' Value='無法打開存檔：未找到路徑.'/>
-		<Item Index='34' Value='無法打開存檔：訪問被拒絕或文件在另一個程序中使用.'/>
-		<Item Index='35' Value='無法打開存檔：未知的文件格式或存檔已損壞.'/>
-		<Item Index='36' Value='無法打開存檔：存檔已損壞.'/>
-		<Item Index='37' Value='無法打開存檔：未知的加密密鑰，可能的存檔是針對不同的遊戲或平台.'/>
+		<Item Index='32' Value='無法打開存檔:未知錯誤.'/>
+		<Item Index='33' Value='無法打開存檔:未找到路徑.'/>
+		<Item Index='34' Value='無法打開存檔:訪問被拒絕或文件在另一個程序中使用.'/>
+		<Item Index='35' Value='無法打開存檔:未知的文件格式或存檔已損壞.'/>
+		<Item Index='36' Value='無法打開存檔:存檔已損壞.'/>
+		<Item Index='37' Value='無法打開存檔:未知的加密密鑰,可能的存檔是針對不同的遊戲或平台.'/>
 		<Item Index='38' Value='無法創建新的存檔.'/>
 		<Item Index='39' Value='$AppName$ - 沒有音頻播放設備'/>
-		<Item Index='40' Value='無法播放音頻文件。 沒有可用的音頻播放設備.'/>
+		<Item Index='40' Value='無法播放音頻文件. 沒有可用的音頻播放設備.'/>
 		<Item Index='41' Value='$AppName$ 無法找到此文件的處理程序.\nFile 路徑: "%s"'/>
 		<Item Index='42' Value='$AppName$ 無法找到或打開此文件.\nFile 路徑: "%s"'/>
-		<Item Index='43' Value='$AppName$ 不能打開這個文件，因為它大於 256 MB.'/>
-		<Item Index='44' Value='$AppName$ 無法顯示此文件的內容。 文件不能保存為XML，錯誤代碼: %s'/>
+		<Item Index='43' Value='$AppName$ 不能打開這個文件,因為它大於 256 MB.'/>
+		<Item Index='44' Value='$AppName$ 無法顯示此文件的內容. 文件不能保存為XML,錯誤代碼: %s'/>
 		<Item Index='45' Value='$AppName$ 無法打開此文件. 錯誤碼: %s'/>
 	</StringList>
 	<tools>
