@@ -10,7 +10,7 @@
 		<string name="THIRD_PARTY_LINE_2">由第三方提供。</string>
 		<string name="THANKS_TO">致謝</string>
 		<string name="ALPHABETICALLY">(按字母排序)</string>
-		<string name="SPECIAL_THANKS_TO">特別緻謝</string>
+		<string name="SPECIAL_THANKS_TO">特別致謝</string>
 		<string name="LICENSE_TERMS">軟件許可條款</string>
 		<string name="LOCALIZATION">本地化提供者</string>
 	</RenderUI>
