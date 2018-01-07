@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<!-- common -->
 	<RenderUI>
@@ -80,6 +80,7 @@
 		<string name="COLUMN_INDEX_COUNT">Anzahl: Index</string>
 		<string name="COLUMN_FACE_COUNT">Flächen</string>
 		<string name="COLUMN_VERTEX_COUNT">Ecken</string>
+		<string name="COLUMN_TOTAL_">Insgesamt:</string>
 		
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Bitte wähle ein Dateiformat:</string>

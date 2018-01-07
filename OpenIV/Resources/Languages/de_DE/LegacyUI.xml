@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Main window -->
@@ -127,7 +127,7 @@
 		<mmTools Caption="Werkzeuge"/>
 		<mmHelp Caption="Hilfe"/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption="Zuletzt geöffnet"/>
+		<mmRecentArchives Caption="Zuletzt geöffnet"/>
 		<mmFilter Caption="Filter"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Layout"/>
@@ -143,14 +143,16 @@
 		<!-- Path menu -->
 		<PMenu0 Caption="Adresse kopieren (Pfad)"/>
 		<!-- File Action's -->
-		<actCreate Caption="Archiv erstellen..." Hint="Neues Archiv erstellen"/>
-		<actOpen Caption="Archiv öffnen..." Hint="Bereits existierendes Archiv öffnen"/>
-		<actOpenPC Caption="Inhalt öffnen..." Hint=""/>
+		<actCreateArchive Caption="Archiv erstellen..." Hint="Neues Archiv erstellen"/>
+		<actOpenGameFolder Caption="Spiel Ordner öffnen" Hint="Spiel Ordner öffnen"/>
+		<actOpenArchive Caption="Archiv öffnen..." Hint="Bereits existierendes Archiv öffnen"/>
+		<actOpenFolder Caption="Ordner öffnen..." Hint="Bereits existierenden Ordner öffnen"/>
 		<actOpenArchiveProperties Caption="Archiveinstellungen" Hint=""/>
 		<actDefragmentation Caption="Defragmentieren" Hint="Archiv defragmentieren"/>
 		<actEditMode Caption="Bearbeitungsmodus"  Hint=""/>
 		<actReadMode Caption="Schreibgeschützter Modus"  Hint=""/>
-		<actClose Caption="Archiv schließen" Hint="Aktuelles Archiv schließen"/>
+		<actCloseAllArchives Caption="Alle Archive schließen" Hint="Alle Archive schließen"/>
+		<actCloseArchive Caption="Archiv schließen" Hint="Aktuelles Archiv schließen"/>
 		<actExit Caption="Beenden" Hint="Beenden"/>
 		<actCloseAllArchives Caption="Alle Archive schließen" Hint="Alle geöffneten Archive schließen"/>
 		<!-- Edit Action's -->
@@ -185,6 +187,7 @@
 		<actLivePreView Caption="Vorschaubereich" Hint="Vorschaubereich anzeigen oder ausblenden"/>
 		<actMainMenuBar Caption="Menüleiste" Hint="Menüleiste anzeigen oder ausblenden"/>
 		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="Wie man Spieldateien überprüft und wiederherstellt..." Hint=""/>
 		<actReportBug Caption="Einen Bug melden" Hint=""/>
 		<actAbout Caption="Über..." Hint="Über"/>
 		<actGoToWeb Caption="Zur Webseite..." Hint=""/>
@@ -275,9 +278,16 @@
 				<Item Index="43" Value="Dateien konnten nicht gelöscht werden."/>
 				<Item Index="44" Value="Datei konnte nicht ersetzt werden."/>
 				<Item Index="45" Value="Neue Datei konnte nicht erstellt werden."/>
-                <Item Index="46" Value="Der Name enthält ungültige Zeichen."/>
+                		<Item Index="46" Value="Der Name enthält ungültige Zeichen."/>
  				<Item Index="47" Value="Gib einen anderen Namen ein."/>
  				<Item Index="48" Value="Es gibt bereits ein Element mit dem selben Namen, wie dem Angegebenen."/>
+				<Item Index="49" Value="Ordner auswählen"/>
+ 				<Item Index="50" Value="Datei löschen"/>
+ 				<Item Index="51" Value="Bist du dir sicher, dass du diese Datei unwiderruflich löschen willst?"/>
+ 				<Item Index="52" Value="Ordner löschen"/>
+ 				<Item Index="53" Value="Bist du dir sicher, dass du diesen Ordner unwiderruflich löschen willst?"/>
+ 				<Item Index="54" Value="Mehrere Objekte löschen"/>
+ 				<Item Index="55" Value="Bist du dir sicher, dass du diese %d Objekte unwiderruflich löschen willst?"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -347,6 +357,7 @@
 		<cbAlwaysOpenArchiveAfterRebuild Caption="Archiv immer nach Neuerstellung öffnen"/>
 		<cbMinimizeAtStartGame Caption="$AppName$ beim Start eines Spiels minimieren"/>
 		<cbInstallUpdatesAutomatically Caption="Updates automatisch installieren"/>
+		<cbDisplayDeleteConfirmationDialog Caption="Löschbestätigung anzeigen"/>
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Für echte Dateien den Papierkorb benutzen anstatt sie zu löschen"/>
 		<cbShowRecycleConfirmation Caption="Löschbestätigung anzeigen?"/>
 		<cbCloseArchivesAtStartGame Caption="Alle geöffneten Archive beim Start des Spiels schließen"/>
