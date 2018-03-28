@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<HashGeneratorWindow Caption='Hash Stvoritelj - $AppName$'>
+		<!-- Label's -->
+		<lbOutputFormat Caption='Izlazni format:' />
+		<!-- Button's -->
+		<btnLoadFromFile Caption='Učitaj iz Datoteke' />
+		<btnGenerate Caption='Izradi' />
+		<btnSaveToFile Caption='Snimi u Datoteku' />
+		<cbCaseSensitive Caption='Osjetljivo na Veličinu' />
+		<!-- Panel's -->
+		<pnlLeft Caption='Unos:' />
+		<pnlRight Caption='Ispis:' />    
+	</HashGeneratorWindow>
+</Translation>

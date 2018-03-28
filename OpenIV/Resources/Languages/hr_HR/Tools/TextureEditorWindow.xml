@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='$AppName$ Teksturni alat'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Preglednik tekstura'/>
+				<Item Index='1' Value='$AppName$ Urednik tekstura'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">Pregledaj:</string>
+		<string name="EXPORT_ALL">Izvezi sve teksture</string>
+		<string name="EXPORT_SELECTED">Izvezi odabrano</string>
+		<string name="ORIGINAL_SIZE">Izvorna veličina</string>
+		<string name="ALPHA_BACKGROUND">Alfa pozadina</string>
+		<string name="SIZE_">Veličina:</string>
+
+		<string name="RENAME">Preimenuj</string>
+		<string name="REPLACE">Zamjeni</string>
+		<string name="DELETE">Izbriši</string>
+		<string name="RENAME_TEXTURE">Preimenuj teksturu</string>
+		<string name="RENAME_TEXTURE_NAME">Unesi novo ime</string>
+		<string name="RENAME_TEXTURE_ERROR">Tekstura s ovim imenom već postoji.</string>
+		<string name="NO_IMAGE">Nema slike</string>
+
+		<string name="NO_IMAGE_SELECTED">Slika nije odabrana</string>
+		<string name="WIDTH">Širina</string>
+		<string name="HEIGHT">Visina</string>
+		<string name="PIXEL_FORMAT">Format točaka</string>
+		<string name="MIP_MAPS">MipMape</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">Odaberi postavke uvoza</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Ove opcije će bit ignorirane tijekom uvoženja DDS datoteka.
+Koristite DDS datoteke za najbolju kvalitetu.]]>
+		</text>
+		<string name="AUTO_MIPMAP">Izradi MipMap razine automatski</string>
+		<string name="TEXTURES_FORMAT">Format tekstura (sažetak):</string>
+		<string name="AUTOMATICALLY">Automatski</string>
+		<string name="IMPORT_ERROR_FILES">Slijedeće datoteke nisu uvezene</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">Svojstva</string>
+		<string name="PROPERTIES_MIPMAP">MipMap razine:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Format točaka:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Upozorenje:
+Kvaliteta može bit izgubljena tijekom izmjena svojstava.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">Nemoguće uredit "%S" svojstva teksture.</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">Želite li snimiti izmjene?</string>
+		
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11 nije dostupan</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ nije u mogućnosti pokrenut DirectX 11 uređaj.\nMogućnosti uređivanja nisu dostupne za ovu datoteku.</string>
+		
+		<!-- help -->
+		<string name="HELP_TITLE">Urednik tekstura - pomoć</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Dostupni prečaci tipki:
+			
+    Ctrl + Tab - Uključi pregledni način
+    Ctrl + A - Izvoz svih tekstura
+    Ctrl + S - Izvoz odabranih tekstura
+    F1 - Uključi ovu pomoćnu kutiju
+    ESC - Zatvori ovaj prozor preglednika
+    
+    Pridrži H - Za privremeno skrivanje HUD-a(Tekst)
+]]>
+		</text>
+	</RenderUI>
+</Translation>

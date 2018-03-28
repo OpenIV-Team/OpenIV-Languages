@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageScriptWindow Caption='SCO Preglednik - '>
+		<!-- Button's -->
+		<btnSave Caption='Snimi kod kao tekst'/>
+		<btnClose Caption='Zatvori'/>
+		<btnASMBack Caption='&lt;&lt; Nazad'/>
+		<btnCFList Caption='Sakrij popis'/>
+		<btnCodeList Caption='Sakrij popis'/>
+		<!-- Tabs -->
+		<tbASM Caption='ASM kod'/>
+		<tbCFASM Caption='Upravljački Tok ASM kod'/>
+		<tbCODE Caption='Kod Visoke Razine'/>
+		<Label1 Caption='Filtar:'/>
+		<!-- Menu -->
+		<N1 Caption='Skoči na adresu'/>
+		<N2 Caption='Udvostruči red'/>
+		<N3 Caption='Filtriraj ovo'/>
+		<!-- Text menu -->
+		<miCopyText Caption='Udvostruči'/>
+		<miFind Caption='Traži...'/>
+		<miSelectAll Caption='Odaberi sve'/>
+		<miCopyAll Caption='Udvostruči sve'/>
+		<!-- Save code menu -->
+		<N4 Caption='Snimi kao tekst'/>
+		<N5 Caption='Snimi kao HTML'/>	
+		<!-- String's -->
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='Učitavanje SCO Datoteke...'/>
+				<Item Index='1' Value='[KORAK1]'/>
+				<Item Index='2' Value='[KORAK2]'/>
+				<Item Index='3' Value='[KORAK3]'/>
+				<Item Index='4' Value='Prikaži sve'/>
+			</StringList>
+		</AeroWindow>
+	</RageScriptWindow>
+</Translation>

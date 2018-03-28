@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Main window -->
+
+	<MainWindow Caption="$AppName$">
+		<FullScreenClose Hint="Zatvori"/>
+		<btnSwitchMode Caption="Način uređivanja" hint="Uključi način Uređivanja (F6)" showhint="True"/>
+		<btnCloseArchive hint="Zatvori arhivu (Shift + Backspace)" showhint="True"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="80">
+			<StringList>
+				<Item Index="0" Value="Ime"/>
+				<Item Index="1" Value="Vrsta"/>
+				<Item Index="2" Value="Veličina"/>
+				<Item Index="3" Value="Atributi"/>
+				<Item Index="4" Value="Sažeto"/>
+				<Item Index="5" Value="Način uređivanja"/>
+				<Item Index="6" Value=""/>
+				<Item Index="7" Value=""/>
+				<Item Index="8" Value="%D prikazane stavke"/>
+				<Item Index="9" Value="%D od %D stavki prikazano"/>
+				<Item Index="10" Value=" stavke"/>
+				<Item Index="11" Value=" byte-ovi"/>
+				<Item Index="12" Value=" KB"/>
+				<Item Index="13" Value=" MB"/>
+				<Item Index="14" Value="Napredak..."/>
+				<Item Index="15" Value="Trenutna datoteka: "/>
+				<Item Index="16" Value="Nepoznato"/>
+				<Item Index="17" Value="Nema otvorene arhive"/>
+				<Item Index="18" Value="Šifrirano"/>
+				<Item Index="19" Value="Učitavanje arhive..."/>
+				<Item Index="20" Value="Resurs [Inačica: %D]"/>
+				<Item Index="21" Value="[Način uređivanja]"/>
+				<Item Index="22" Value="[Način samo za čitanje]"/>
+				<Item Index="23" Value="LANG: FREE STRING (23)"/>
+				<Item Index="24" Value="Spremate se uključiti način uređivanja, sve promjene će se snimati automatski."/>
+				<Item Index="25" Value="LANG: FREE STRING (25)"/>
+				<Item Index="26" Value="LANG: FREE STRING (26)"/>
+				<Item Index="27" Value="Oznake"/>
+				<Item Index="28" Value="Dodaj oznaku"/>
+				<Item Index="29" Value="Nova oznaka:"/>
+				<Item Index="30" Value="Nema odabranih stavki"/>
+				<Item Index="31" Value="Odabrano: %D"/>
+				<Item Index="32" Value="Način cijelog zaslona (F11)"/>
+				<Item Index="33" Value="Način prozora (F11)"/>
+				<Item Index="34" Value="Odaberi datoteku za pretpregled."/>
+				<Item Index="35" Value="Nema podataka za pretpregled."/>
+				<Item Index="36" Value="Inačica: %S"/>
+				<Item Index="37" Value="Izlaz $AppName$"/>
+				<Item Index="38" Value="$AppName$ Postavke"/>
+				<Item Index="39" Value="Zatvori datoteku"/>
+				<Item Index="40" Value="Zabilježi"/>
+				<Item Index="41" Value="Ukloni s popisa"/>
+				<Item Index="42" Value="Nedavne datoteke"/>
+				<Item Index="43" Value="Vanjska aplikacija radi..."/>
+				<Item Index="44" Value="Potvrda promjene datoteka"/>
+				<Item Index="45" Value="Datoteka «%S» se promijenila. Ažuriraj promjene u arhivi?"/>
+				<Item Index="46" Value="Mjesto"/>
+				<Item Index="47" Value="izdanje"/>
+				<Item Index="48" Value="Ova arhiva je prazna."/>
+				<Item Index="49" Value="Ova mapa je prazna."/>
+				<Item Index="50" Value="Nijedna stavka se ne podudara s Vašom pretragom."/>
+				<Item Index="51" Value="Otvori mapu u Windows Eksploreru"/>
+				<Item Index="52" Value="Pronađi u Windows Eksploreru"/>
+				<Item Index="53" Value="Otvori mjesto datoteke"/>
+				<Item Index="54" Value="$AppName$ - Mjesto otvaranja"/>
+				<Item Index="55" Value="$AppName$ nije u mogućnosti otvaranja mjesta ove arhive."/>
+				<Item Index="56" Value="YouTube kanal"/>
+				<Item Index="57" Value="Video tutorijali"/>
+				<Item Index="58" Value="Sićušno (0 - 10 KB)"/>
+				<Item Index="59" Value="Maleno (10 - 100 KB)"/>
+				<Item Index="60" Value="Srednje (100 KB - 1 MB)"/>
+				<Item Index="61" Value="Veliko (1 - 16 MB)"/>
+				<Item Index="62" Value="Ogromno (16 - 128 MB)"/>
+				<Item Index="63" Value="Gigantsko (&gt; 128 MB)"/>
+				<Item Index="64" Value="Mape"/>
+				<Item Index="65" Value="Filtar %s"/>
+				<Item Index="66" Value="$AppName$ - Obavijest"/>
+				<Item Index="67" Value="Možete uključiti ovu obavijest u postavkama."/>
+				<Item Index="68" Value="Udvostručavanje..."/>
+				<Item Index="69" Value="$AppName$ - Potvrda"/>
+				<Item Index="70" Value='Sve učinjene promjene u "$ModsFolderPath$update\update.rpf" arhivi će bit izgubljene.\nDa li želite nastavit?'/>
+				<Item Index="71" Value='Pretraži "%s" u svim arhivama'/>
+				<Item Index="72" Value=""/>
+				<Item Index="73" Value=""/>
+				<Item Index="74" Value=""/>
+				<Item Index="75" Value=""/>
+				<Item Index="76" Value=""/>
+				<Item Index="77" Value=""/>
+				<Item Index="78" Value=""/>
+				<Item Index="79" Value=""/>
+			</StringList>
+		</AeroWindow>
+		<!-- Others -->
+		<SearchBox BannerText="Filtar"/>
+		<!-- Notification: GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption="Postavite priključak za $RageGAME_SHORT$"/>
+		<lbGTAVPluginText Caption="Trebate postavit ASI Čitač i $ModsFolderAsi$ priključak za Vašu $RageGAME_SHORT$, u suprotnom igra neće očitavati uređenu RPF arhivu.\nNe igrajte $RageGAME_MP$ s uređenom RPF, ili ćete bit zabranjeni unutar igre."/>
+		<btnGTAVPluginAction Caption="ASI Upravitelj"/>
+		<!-- Notification: copy to mods folder -->
+		<lbNotInModsTitle Caption='$ModsFolder$ mapa'/>
+		<lbNotInModsText Caption='Arhiva koju trenutno uređujete nije smještena u $ModsFolder$ mapi.'/>
+		<lbEditModeDisabledDueToModsFolder Caption='Mogućnosti uređivanja su isključene za ovu arhivu.\nPremjestite se u $ModsFolder$ mapu, ili omogućite uređivanje u postavkama.'/>
+		<btnCopyToMods Caption='Udvostruči u $ModsFolder$ mapu'/>
+		<btnShowInMods Caption='Prikaži u $ModsFolder$ mapi'/>
+		<btnChangeModsFolderSettings Caption="Izmjeni $ModsFolder$ postavke mape"/>
+		<!-- Notification: update.rpf -->
+		<lbCopyNewUpdateToModsTitle Caption='$RageGAME$ Ažuriranje Naslova'/>
+		<lbCopyNewUpdateToMods Caption='Posjedujete zastarjelu inačicu update.rpf unutar Vaše $ModsFolder$ mape. Trebate udvostručit novu inačicu “update.rpf” u Vašu $ModsFolder$ mapu, u suprotnom postoji mogućnost da Vas igra izbacuje na Radnu Površinu ili se zamrzava.'/>
+		<btnCopyUpdateToMods Caption='Udvostručite novu inačicu $ModsFolder$ mape'/>
+		<!-- Notification: Admin mode -->
+		<lbAdminModeTitle Caption='Administrativni način'/>
+		<lbAdminModeText Caption='Vaša $AppName$ je pokrenuta s administratorskim pravima. Neke mogućnosti poput povlačenja i spuštanja iz Windows Datotečnog Eksplorera možda neće radit. Obično, ne trebate pokretat $AppName$ s administratorskim pravima.'/>
+		<btnAdminModeAction Caption='Što mogu učinit?'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='Počisti filtar pretrage'/>
+	</MainWindow>
+
+	<ActionsModule>
+		<!-- Main Menu -->
+		<mmFile Caption="Datoteka"/>
+		<mmEdit Caption="Uredi"/>
+		<mmNew Caption="Novo"/>
+		<mmView Caption="Pregled"/>
+		<mmFavorites Caption="Omiljeno"/>
+		<mmTools Caption="Alati"/>
+		<mmHelp Caption="Pomoć"/>
+		<!-- Main Menu : File -->
+		<mmRecentArchives Caption="Nedavne Arhive"/>
+		<!-- Main Menu : Edit -->
+		<mmFilter Caption="Filtar"/>
+		<!-- Main Menu : View -->
+		<mmLayout Caption="Raspored"/>
+		<mmGroupBy Caption="Grupiraj po"/>
+		<mmGoto Caption="Idi Na"/>
+		<!-- Main Menu : View -->
+		<mmvIcon Caption="Ikona"/>
+		<mmvSmallIcon Caption="Mala ikona"/>
+		<mmvList Caption="Popis"/>
+		<mmvDetails Caption="Detalji"/>
+		<mmvTile Caption="Naslov"/>
+		<!-- Main Menu : Help -->
+		<!-- Path menu -->
+		<PMenu0 Caption="Udvostruči Adresu (Putanja)"/>
+		<!-- File Action's -->
+		<actCreateArchive Caption="Stvori arhivu..." Hint="Stvori novu arhivu"/>
+		<actOpenGameFolder Caption="Otvori mapu igre" Hint="Otvori mapu igre"/>
+		<actOpenArchive Caption="Otvori arhivu..." Hint="Otvori postojeću arhivu"/>
+		<actOpenFolder Caption="Otvori mapu..." Hint="Otvori postojeću mapu"/>
+		<actOpenArchiveProperties Caption="Svojstva arhive" Hint=""/>
+		<actDefragmentation Caption="Defragmentacija" Hint="Defragmentator Arhive"/>
+		<actEditMode Caption="Način uređivanja" Hint=""/>
+		<actReadMode Caption="Način samo za čitanje" Hint=""/>
+		<actCloseAllArchives Caption="Zatvori sve arhive" Hint="Zatvori sve otvorene arhive"/>
+		<actCloseArchive Caption="Zatvori arhivu" Hint="Zatvori trenutnu arhivu"/>
+		<actExit Caption="Izlaz" Hint="Izađi"/>
+		<!-- Edit Action's -->
+		<actPreview Caption="Pregled..." Hint="Pregledaj datoteku"/>
+		<actEditFile Caption="Uredi..." Hint="Uredu datoteku"/>
+		<actViewAsHex Caption="Pregledaj u Heksadekadskom sustavu..." Hint="Pregledaj u Heksadekadskom sustavu"/>
+		<actViewAsText Caption="Pregledaj kao tekst..." Hint="Pregledaj kao tekst"/>
+		<actCopyPath Caption="Udvostruči putanju" Hint="Udvostruči trenutnu putanju datoteke"/>
+		<actExtract Caption="Raspakiraj..." Hint="Raspakiraj datoteku"/>
+		<actSaveContent Caption="Snimi sadržaj/Izvezi" Hint="Snimi datotečni sadržaj/Izvezi"/>
+		<actSaveRawContent Caption="Snimi sirovi sadržaj" Hint="Izvezi sirovi sadržaj datoteke"/>
+		<actRename Caption="Preimenuj" Hint="Preimenuj datoteku"/>
+		<actAdd Caption="Dodaj" Hint="Dodaj novu datoteku"/>
+		<actReplace Caption="Zamjeni" Hint="Zamjeni trenutnu datoteku"/>
+		<actRemove Caption="Izbriši" Hint="Izbriši trenutnu datoteku"/>
+		<actExtractAll Caption="Raspakiraj sve..." Hint="Raspakiraj sve datoteke"/>
+		<actCopyFileList Caption="Udvostruči Popis datoteka" Hint=""/>
+		<actSelectAll Caption="Odaberi sve" Hint=""/>
+		<actResourceObjectExplorer Caption="Eksplorer Resursa" Hint=""/>
+		<actShowInWindowsExplorer Caption="Pokaži u Windows Eksplorer" Hint=""/>
+		<actItemAddToFavorites Caption="Dodaj u omiljeno..." Hint=""/>
+		<actCopyToModsFolder Caption='Udvostruči $ModsFolder$ mapu' Hint=""/>
+		<actShowInModsFolder Caption='Prikaži u $ModsFolder$ mapi' Hint=""/>
+		<!-- New menu -->
+		<actMultipleImport Caption="Uvezi openFormats" Hint="Višestruki Uvoz"/>
+		<actNewFolder Caption="Mapa" Hint="Stvori novu mapu"/>
+		<!-- View Action's -->
+		<actDirectoryTree Caption="Stablo Imenika" Hint="Prikaži ili sakrij stablo imenika"/>
+		<actToolBar Caption="Alatna Traka" Hint="Prikaži ili sakrij alatnu traku"/>
+		<actSearchBar Caption="Pretraga i Adresna traka" Hint="Prikaži ili sakrij Pretragu i Adresnu traku"/>
+		<actStatusBar Caption="Traka stanja" Hint="Traka stanja"/>
+		<actLivePreView Caption="Pretpregledni Pretinac" Hint="Pretpregledni Pretinac"/>
+		<actMainMenuBar Caption="Izbornička traka" Hint="Izbornička traka"/>
+		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="Kako provjerit i povratit datoteke igre..." Hint=""/>
+		<actReportBug Caption="Prijavi problem(bug)" Hint=""/>
+		<actAbout Caption="O..." Hint="O"/>
+		<actGoToWeb Caption="Idite na webstranicu..." Hint=""/>
+		<actSendFeedback Caption="Pošaljite Povratne informacije" Hint=""/>
+		<actUpdate Caption="Provjeri za ažuriranja..." Hint=""/>
+		<actDonate Caption="Donacije $AppName$..." Hint=""/>
+		<actWebIV Caption="Prijavite se $WebName$" Hint=""/>
+		<actFAQ Caption="Česta Pitanja" Hint=""/>
+		<!-- Social -->
+		<actSocialYouTube Caption="$AppName$ YouTube kanal" Hint=""/>
+		<actSocialFacebook Caption="$AppName$ Facebook stranica" Hint=""/>
+		<actSocialTwitter Caption="$AppName$ na Twitter" Hint=""/>
+		<actSocialVKCom Caption="$AppName$ VK stranica" Hint=""/>
+		<!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="Snimite korake za ponovno stvaranje problema" Hint=""/>
+		<!-- Groups Action's -->
+		<actCollapseAll Caption="Sruši sve grupe" Hint=""/>
+		<actExpandAll Caption="Proširi sve grupe" Hint=""/>
+		<actCollapseGroup Caption="Sruši grupu" Hint=""/>
+		<actExpandGroup Caption="Proširi grupu" Hint=""/>
+		<!-- Tools Action's -->
+		<actConfig Caption="Opcije..." Hint="Postavke"/>
+		<!-- GoTo Action's -->
+		<actGoBack Caption="Nazad" Hint=""/>
+		<actGoForward Caption="Naprijed" Hint=""/>
+		<actGoUP Caption="Jednu razinu gore" Hint=""/>
+		<!-- Favorites -->
+		<actAddToFavorites Caption="Dodaj u omiljeno..." Hint=""/>
+		<actOrganizeFavorites Caption="Organiziraj omiljeno..." Hint=""/>
+		<!-- Filter -->
+		<actFilterByName Caption="Filtar prema imenu" Hint=""/>
+		<actFilterByType Caption="Filtar prema vrsti" Hint=""/>
+		<actFilterOnlyThis Caption="Prikaži samo ovo" Hint=""/>
+		<!-- Tree -->
+		<actTreeCopyAsPath Caption="Udvostruči kao putanju" Hint=""/>
+		<actTreeShowInWindowsExplorer Caption="Prikaži u Windows Eksploreru" Hint=""/>
+		<actTreeCloseArchive Caption="Zatvori arhivu" Hint=""/>
+		<actTreeCopyToModsFolder Caption='Udvostruči u $ModsFolder$ mapu' Hint=""/>
+		<actTreeShowInModsFolder Caption='Prikaži u $ModsFolder$ mapi' Hint=""/>
+		<actTreeCollapseThis Caption='Sruši ovo' Hint=""/>
+		<actTreeCollapseAll Caption='Sruši sve' Hint=""/>
+		<!-- Strings -->
+		<Strings SetCount="100">
+			<Lines>
+				<Item Index="00" Value="Odredišna mapa:"/>
+				<Item Index="01" Value="Pretpregled"/>
+				<Item Index="02" Value="nema otvorenih datoteka"/>
+				<Item Index="03" Value="(ne)"/>
+				<Item Index="04" Value="Odaberi vrstu nove arhive:"/>
+				<Item Index="05" Value="Linearno"/>
+				<Item Index="06" Value="Hierarhijalno"/>
+				<Item Index="07" Value="bez imena"/>
+				<Item Index="08" Value="Dodaj oznaku"/>
+				<Item Index="09" Value="Izbriši"/>
+				<Item Index="10" Value="sve oznake"/>
+				<Item Index="11" Value="$AppName$ - Preimenuj datoteku"/>
+				<Item Index="12" Value="Novo ime:"/>
+				<Item Index="13" Value="Izrada nove mape"/>
+				<Item Index="14" Value="Nova mapa:"/>
+				<Item Index="15" Value="$RageGAME_SHORT$ nije pronađen.\nMolimo da odaberete točno mjesto $RageGAME_SHORT$ u Vašim $AppName$ postavkama."/>
+				<Item Index="16" Value="$AppName$ - Potvrda za ponovnu izradu arhive"/>
+				<Item Index="17" Value="Da li ste sigurni da želite ponovno izradit arhivu «%S»?\n Ova operacija može potrajat nekoliko minuta."/>
+				<Item Index="18" Value="Otvori sadržaj"/>
+				<Item Index="19" Value="Stvaranje novog %S"/>
+				<Item Index="20" Value="Unesi ime:"/>
+				<Item Index="21" Value="$AppName$ - Nije Ugrađena mogućnost"/>
+				<Item Index="22" Value="Vaš pokušaj korištenja slijedeće mogućnosti: %S\nU trenutnom $AppName$ još nije ugrađena. Molimo provjerite to u slijedećoj inačici."/>
+				<Item Index="23" Value="$AppName$ - ponovno izradi arhivu"/>
+				<Item Index="24" Value="Ne možete ponovno izraditi praznu arhivu."/>
+				<Item Index="25" Value="Datoteka s ovim imenom već postoji, molimo, odaberite drugo ime."/>
+				<Item Index="26" Value="$AppName$ - dodaj novu oznaku"/>
+				<Item Index="27" Value="Utipkaj novu oznaku:"/>
+				<Item Index="28" Value="Izvezi u %S"/>
+				<Item Index="29" Value="Datoteka je šifrirana, molimo postavite nešifriranu inačicu igre."/>
+				<Item Index="30" Value="$AppName$ - datoteka ne postoji"/>
+				<Item Index="31" Value="Greška u otvaranju datoteke: %S\nDatoteka ne postoji."/>
+				<Item Index="32" Value="Inačica: %D"/>
+				<Item Index="33" Value="$AppName$ još nije u mogućnosti stvarat arhive za $RageGAME_SHORT$.\nMolimo vratite se kasnije."/>
+				<Item Index="34" Value="Otvori datoteku u"/>
+				<Item Index="35" Value="%s u %s"/>
+				<Item Index="36" Value="%s - Rezultati pretrage u %s"/>
+				<Item Index="37" Value="%s - Rezultati pretrage u %s (%s)"/>
+				<Item Index="38" Value="Filtar"/>
+				<Item Index="39" Value="$AppName$ - Greška"/>
+				<Item Index="40" Value="Nemoguće raspakirat datoteke."/>
+				<Item Index="41" Value="Nemoguće dodat datoteke."/>
+				<Item Index="42" Value="Nemoguće stvoriti mapu."/>
+				<Item Index="43" Value="Nemoguće ukloniti datoteke."/>
+				<Item Index="44" Value="Nemoguće zamijeniti datoteku."/>
+				<Item Index="45" Value="Nemoguće stvoriti novu datoteku."/>
+				<Item Index="46" Value="Nevažeći simboli u imenu."/>
+				<Item Index="47" Value="Odredite drugačije ime."/>
+				<Item Index="48" Value="Stavka s istim imenom kao ime mape koju ste unijeli već postoji."/>
+				<Item Index="49" Value="Odaberi mapu"/>
+				<Item Index="50" Value="Ukloni Datoteku"/>
+				<Item Index="51" Value="Da li ste sigurni da želite trajno ukloniti ovu datoteku?"/>
+				<Item Index="52" Value="Uklonite Mapu"/>
+				<Item Index="53" Value="Da li ste sigurni da želite trajno ukloniti ovu mapu?"/>
+				<Item Index="54" Value="Uklonite Više Stavki"/>
+				<Item Index="55" Value="Da li ste sigurni da želite trajno ukloniti ovih %d stavki?"/>
+			</Lines>
+		</Strings>
+	</ActionsModule>
+
+	<EditModeHelpWindow Caption="Način uređivanja - $AppName$">
+		<!-- Label's -->
+		<lbTitle Caption="Način uređivanja"/>
+		<lbText Caption="Kako biste dodavali ili uređivali datoteke, molimo prebacite se u način Uređivanja.\nNačin uređivanja možete postavit kao zadan u $AppName$ konfiguraciji."/>
+		<lbInfo Caption='"Način uređivanja" tipka Vam omogućuje uključivanje načina Uređivanja'/>
+		<!-- Button's -->
+		<btnClose Caption="Zatvori"/>
+		<cbDoNotShow Caption="Ne prikazuj ovu poruku ponovno"/>
+	</EditModeHelpWindow>
+
+	<AdminModeWindow Caption="Administrator - $AppName$">
+		<lbText Caption="Nema stvarnog razloga za pokretanje $AppName$ kao Administrator. $AppName$ ne traži bilo koja Administratorska prava kako bi pravilno radio. U suprotnom kada pokrenete $AppName$ kao Administrator neke mogućnosti poput povlačenja i spuštanja iz Windows Datotečnog Eksplorera neće radit. Najvjerovatnije, pokrenuli ste $AppName$ kao Administrator zbog toga što Vaša igra je postavljena negdje u sustavnoj mapi (npr. e.g. C:\Program Files\...) i obični korisnički račun nema ovlasti za pisanje u ovu mapu\n\nMožete postavit sve potrebne ovlasti za vašu mapu igre koristeći ovaj alat i naknadno ponovno pokrenut $AppName$ bez Administratorskih prava."/>
+		<btnSetPermissions Caption="Postavi ovlasti"/>
+		<btnClose Caption="Zatvori"/>
+		<AeroWindow LinesCount="5">
+			<StringList>
+				<Item Index="0" Value="Greška - $AppName$"/>
+				<Item Index="1" Value="Sve gotovo.\nOvlasti su postavljene za Vašu mapu igre."/>
+				<Item Index="2" Value="Nemoguće postavit ovlasti.\nPovratni kod: "/>
+				<Item Index="3" Value="Mapa igre ne postoji."/>
+				<Item Index="3" Value="Alat za postavljanje ovlasti ne postoji. Molimo ponovno postavite $AppName$."/>
+			</StringList>
+		</AeroWindow>
+	</AdminModeWindow>
+
+	<!-- Web window -->
+
+	<webWindow Caption="$WebName$ - ">
+		<!-- Button's -->
+		<btnClose Caption="Zatvori"/>
+		<!-- Strings -->
+		<AeroWindow LinesCount="1">
+			<StringList>
+				<Item Index="0" Value="Uvjeti Korištenja i Politika Privatnosti"/>
+			</StringList>
+		</AeroWindow>
+	</webWindow>
+
+	<!-- Configuration -->
+
+	<ConfigWindow Caption="$AppName$ - Postavke">
+		<!-- Languages -->
+		<tabLang Caption="Jezici"/>
+		<lbLang Caption="Odaberite jezik sučelja"/>
+		<LnkWebLangs Caption="Prevedite $AppName$ na drugi jezik"/>
+		<!-- Game -->
+		<tabGame Caption="Igra"/>
+		<gbGamePath Caption="$RageGAME_SHORT$ direktorij"/>
+		<lbCurrentGamePath Caption="Trenutni direktorij:"/>
+		<tbChangeGame Caption="Promjeni direktorij"/>
+		<ttRageExe Caption="$RageEncryptionStorage$ bi trebala bit smješteno u ovaj direktorij za $AppName$ kako bi radilo"/>
+		<!-- General -->
+		<tabMain Caption="Općenito"/>
+		<lbDefaultGame Caption="Odaberite zadanu igru"/>
+		<lbWorkMode Caption="Zadani način rada"/>
+		<WorkMode>
+			<Items>
+				<Item Index="0" Value="Uredi"/>
+				<Item Index="1" Value="Samo čitanje"/>
+			</Items>
+		</WorkMode>
+		<lbDefTextureFormatGlb Caption="Zadani format podatka teksture"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption="Uvijek otvori arhivu nakon ponovne izrade"/>
+		<cbMinimizeAtStartGame Caption="Umanji $AppName$ pri pokretanju igre"/>
+		<cbInstallUpdatesAutomatically Caption="Postavi ažuriranja automatski"/>
+		<cbDisplayDeleteConfirmationDialog Caption="Prikaži potvrdni dijalog za brisanje"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Za prave datoteke koristi koš za smeće umjesto jednokratnog brisanja"/>
+		<cbCloseArchivesAtStartGame Caption="Zatvori sve otvorene arhive pri pokretanju igre"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Počisti filtar pretrage nakon otvaranja arhive'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Koristi drugi(stari) način dodavanja mapa nakon povlačenja i spuštanja'/>
+		<tbFileAssociation Caption="Promjeni datotečnu asocijativnost"/>
+		<!-- "mods" folder -->
+		<tabModsFolder Caption="$ModsFolder$ mapa"/>
+		<lbModsFolderText Caption="Na ovoj stranici možete promjenit postavke vezane za $ModsFolder$ mapu."/>
+		<lbModsFolderNote1 Caption="Postavke ispod su nepristupačne radi toga što $ModsFolderAsi$ nije postavljen."/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Prikaži obavijest tijekom uređivanja arhive izvan $ModsFolder$ mape'/>
+		<cbAllowEditModeOnlyInModsFolder Caption='Dopustite način Uređivanja samo za arhive unutar $ModsFolder$ mape'/>
+		<!-- Tools -->
+		<tabViewers Caption="Alati"/>
+		<lbChooseTheme Caption="Odaberi temu"/>
+		<cbAppTheme>
+			<Items>
+				<Item Index="0" Value="Svjetlo"/>
+				<Item Index="1" Value="Tamno"/>
+			</Items>
+		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Iscrtaj pozadinsku boju"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="Zadano"/>
+				<Item Index="1" Value="Prilagođeno"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="Shema upravljanja kamerom"/>
+		<cbRenderAntialiasing Caption="Omogući Glatke Rubove(AntiAliasing)"/>
+		<lbChooseEditorTheme Caption="Odaberi shemu boje za tekstualni urednik"/>
+		<!-- openFormats -->
+		<tabFormats Caption="openFormats"/>
+		<lbDefTextureFormat Caption="Zadani format za datoteke teksture"/>
+		<cbNotExportTextureToFolder Caption="Ne smještaj teksture u posebnu mapu tijekom izvoza OTD"/>
+		<gbModels Caption="Uvoz modela (ODR/ODD/OFT)"/>
+		<cbProtectModels Caption="Omogući opciju zaštićene geometrije kao zadano (spriječi budući izvoz)"/>
+		<btnSaveShaderInformation Caption="Snimi openFormats shader informacije"/>
+		<!-- Misc + old -->
+		<btnClose Caption="Zatvori"/>
+		<actAppAdd Caption="Dodaj"/>
+		<actAppEdit Caption="Uredi"/>
+		<actAppDel Caption="Izbriši"/>
+		<LnkWebApps Caption="Preuzmi više alata za $RageGAME_SHORT$"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="10">
+			<StringList>
+				<Item Index="0" Value="Odaberi mapu:"/>
+				<Item Index="1" Value="Stvarni jezici"/>
+				<Item Index="2" Value="$AppName$ - Upozorenje"/>
+				<Item Index="3" Value="Trebate ponovno pokrenut $AppName$ za primjenu izmjena."/>
+				<Item Index="4" Value="Zastarjeli jezici"/>
+			</StringList>
+		</AeroWindow>
+	</ConfigWindow>
+
+	<ConfigAssociationWindow Caption="$AppName$ - Asocijativnost">
+		<lbTitle Caption="Asociraj datotečnu vrsti s $AppName$"/>
+		<FileTypes>
+			<Columns>
+				<Item Index="0" Caption=""/>
+				<Item Index="1" Caption="Vrsta"/>
+				<Item Index="2" Caption="Opis"/>
+				<Item Index="3" Caption="Podržane igre"/>
+			</Columns>
+			<Groups>
+				<Item Index="0" Header="Paketi"/>
+				<Item Index="1" Header="Arhive"/>
+				<Item Index="2" Header="Resursi"/>
+			</Groups>
+		</FileTypes>
+		<btnApply Caption="Primjeni"/>
+		<btnCancel Caption="Odustani"/>
+		<AeroWindow LinesCount="0">
+			<StringList>
+				<Item Index="0" Value=""/>
+			</StringList>
+		</AeroWindow>
+	</ConfigAssociationWindow>
+
+	<!-- EULA Window -->
+
+	<EULAWindow Caption="Korisnički Ugovor o Licenci - $AppName$">
+		<btnClose Caption="Zatvori"/>
+	</EULAWindow>
+</Translation>

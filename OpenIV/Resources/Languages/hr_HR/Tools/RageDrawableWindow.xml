@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='$AppName$ Preglednik Modela'>
+		<pmiCopyName Caption='Udvostruči naziv'/>
+		<pmiCopyHash Caption='Udvostruči hash'/>
+		<pmiCopyNameAndHash Caption='Udvostruči ime i hash'/>
+		<pmiHigh Caption='Visoko (High)'/>
+		<pmiMed Caption='Srednje (Med)'/>
+		<pmiLow Caption='Nisko (Low)'/>
+		<pmiVLow Caption='Vrlo Nisko (VLow)'/>
+		<miLeft Caption='Lijevo'/>
+		<miRight Caption='Desno'/>
+		<miCheckAll Caption='Označi sve' />
+		<miUncheckAll Caption='Ukloni sve oznake' />
+		<paneDictionary Caption='Elementi rječnika'/>
+		<cbMultipleRendering Caption='Višestruko Iscrtavanje'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Učitaj iz vanjske datoteke'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>	
+		<!-- help -->
+		<string name="HELP_TITLE">Preglednik Modela - pomoć</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Koristite miš za pogled okolo, krećite se korištenjem slijedećih tipki:
+			
+    W - Kretanje naprijed
+    S - Kretanje nazad
+    A - Kretanje lijevo
+    D - Kretanje desno
+
+    NumPad 8 - Kretanje kamere gore
+    NumPad 2 - Kretanje kamere dolje
+    NumPad 4 - Kretanje kamere lijevo
+    NumPad 6 - Kretanje kamere desno
+
+    Pridržite SHIFT - Za brže kretanje
+    Pridržite CTRL - Za sporije kretanje
+    Koristite kotačić na mišu za približavanje.
+	
+Za addind dodatne teksture kliknite na "[+] Dodaj teksturu" poveznicu na desnom-donjem kutu prozora. Za uklananje teksture kliknite na "[-]" poveznicu iza naziva teksture.
+
+Promjenite opcije iscrtavanja korištenjem poveznica na desnoj strani slijedećih tipka prečaca:
+	
+    F1 - Uključi ovu pomoćnu kutiju
+	F2 - Prikaži više informacija
+    C - Uključi način kamere
+    F - Uključi iscrtavanje linija lica 
+    P - Uključi prikazivanje točaka(verteks)
+    G - Uključi geometriju
+    L - Uključi Razinu Detalja(LOD)
+    ESC - Zatvori ovaj prozor preglednika
+	
+    Pridržite H - Za privremeno skrivanje HUD-a(Tekst)
+]]>
+		</text>
+		<string name="CHECK_ALL">Označi sve</string>
+		<string name="UNCHECK_ALL">Ukloni sve oznake</string>
+		<string name="MULTIPLE_RENDERING">Višestruko Iscrtavanje</string>
+		<string name="BOUND_TYPE">Vrsta poveznice:</string>
+		<string name="CHILD_COUNT">Broj djece:</string>
+	</RenderUI>
+</Translation>

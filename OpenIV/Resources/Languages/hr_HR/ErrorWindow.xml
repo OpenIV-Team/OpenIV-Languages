@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Aplikacijska greška'>
+		<lbWindowTitle Caption="$AppName$ se susrela s problemom koji nije mogla razriješiti,\ni sada se treba ponovno pokrenut."/>
+		<btnCloseApp Caption='Zatvori $AppName$'/>
+		<lbReportHere Caption='Molimo da prijavite ovu grešku koristeći slijedeće poveznice:'/>
+		<lnkWeb1 Caption='Posjetite službenu stranicu'/>
+		<lnkWeb2 Caption='Posjetite Međunarodni forum podrške'/>
+		<lnkWeb3 Caption='Posjetite ruski forum podrške'/>
+		<lbText2 Caption='Dodatni alati'/>
+		<tbCopyInfo Caption='Udvostručite informacije greške'/>
+		<tbWin7Report Caption='Snimite korake za ponovno stvaranje problema' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Vrijeme: '/>
+				<Item Index='1' Value='Vrsta: '/>
+				<Item Index='2' Value='Poruka: '/>
+				<Item Index='3' Value='Dodatne informacije:'/>
+				<Item Index='4' Value='Nedostaju dodatne informacije.'/>
+				<Item Index='5' Value='Informacije greške udvostručene u međuspremnik.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

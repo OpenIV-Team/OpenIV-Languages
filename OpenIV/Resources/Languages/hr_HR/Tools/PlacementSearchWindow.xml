@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ Pretraga Smještaja'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Pretraži za naziv</string>
+		<string name="SEARCH_FOR_HASH">Pretraži za hash</string>
+
+		<string name="BANNER_TEXT_NAME">Utipkajte ime modela</string>
+		<string name="BANNER_TEXT_HASH">Utipkajte hash modela</string>
+
+		<string name="SEARCH">Pretraga</string>
+		<string name="STOP_SEARCH">Zaustavi pretragu</string>
+		<string name="INCORRECT_HASH">Netočan hash</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" nije važeća hash vrijednost.</string>
+
+		<string name="FILE_INFORMATION">Informacije datoteke</string>
+		<string name="SHOW_DEFINITION">Prikaži definiciju u IDE datoteci</string>
+		<string name="SHOW_IDE">Prikaži IDE Datoteku</string>
+		<string name="SHOW_ARCHIVE">Prikaži arhivu</string>
+		<string name="SHOW_RESOURCE">Prikaži resurs datoteke</string>
+
+		<string name="HELP_TITLE">Pretraga Smještaja - pomoć</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Koristite miš za pogled okolo, krećite se slijedećim tipkama:
+			
+    W - Kretanje naprijed
+    S - Kretanje nazad
+    A - Kretanje lijevo
+    D - Kretanje desno
+	
+    NumPad 8 - Kretanje kamere gore
+    NumPad 2 - Kretanje kamere dolje
+    NumPad 4 - Kretanje kamere lijevo
+    NumPad 6 - Kretanje kamere desno
+	
+    Pridržite SHIFT - Za brže kretanje
+    Pridržite CTRL - Za sporije kretanje
+    Koristite kotačić na mišu za približavanje.
+	
+    ESC - Zatvori ovaj prozor preglednika
+	Pridržite H - Za privremeno skrivanje HUD-a(Tekst)
+]]>
+		</text>
+	</RenderUI>
+</Translation>

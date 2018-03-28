@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='O $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Inačica %D.%D (Izdanje %D; Datum %S)</string>
+		<string name="VERSION_LABEL_3">Inačica %D.%D.%D (Izdanje %D; Datum %S)</string>
+		<string name="THE_TEAM">Tim</string>
+		<string name="THIRD_PARTY">Strano</string>
+		<string name="THIRD_PARTY_LINE_1">Ova aplikacija koristi neke dijelove</string>
+		<string name="THIRD_PARTY_LINE_2">koji su dobavljeni od druge strane.</string>
+		<string name="THANKS_TO">Zahvale</string>
+		<string name="ALPHABETICALLY">(abecedno)</string>
+		<string name="SPECIAL_THANKS_TO">Posebno se zahvaljuje</string>
+		<string name="LICENSE_TERMS">Uvjeti licence programa</string>
+		<string name="LOCALIZATION">Pridonositelji prevođenja</string>
+	</RenderUI>
+</Translation>

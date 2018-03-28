@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GTAIVAnimViewerNoticeDialog Caption='Preglednik Animacija - $AppName$'>
+		<!-- Label's -->
+		<lbTitle Caption='Preglednik Animacija'/>
+		<lbText Caption='Za pregled animacija molimo koristite preglednik Animacija, možete ga pokrenut putem izbornika Alati.'/>
+		<!-- Button's -->
+		<btnOk Caption='Uredu'/>
+		<btnRun Caption='Pokreni preglednik animacija'/>
+	</GTAIVAnimViewerNoticeDialog>
+</Translation>

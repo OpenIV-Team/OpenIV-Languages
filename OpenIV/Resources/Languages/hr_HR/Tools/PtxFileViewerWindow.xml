@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PtxFileViewerWindow Caption='$AppName$ Preglednik Modela'>
+		<paneDictionary Caption='Elementi rječnika'/>
+	</PtxFileViewerWindow>
+	<RenderUI>
+		<string name="EXPORT_TO_FORMATS">Izvezi u openFormats</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Preglednik Modela - pomoć</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Koristite miš za pogled okolo, krećite se korištenjem slijedećih tipki:
+			
+    W - Kretanje naprijed
+    S - Kretanje nazad
+    A - Kretanje lijevo
+    D - Kretanje desno
+
+    NumPad 8 - Kretanje kamere gore
+    NumPad 2 - Kretanje kamere dolje
+    NumPad 4 - Kretanje kamere lijevo
+    NumPad 6 - Kretanje kamere desno
+
+    Pridržite SHIFT - Za brže kretanje
+    Pridržite CTRL - Za sporije kretanje
+    Koristite kotačić na mišu za približavanje.
+	
+Za addind dodatne teksture kliknite na "[+] Dodaj teksturu" poveznicu na desnom-donjem kutu prozora. Za uklananje teksture kliknite na "[-]" poveznicu iza naziva teksture.
+
+Promjenite opcije iscrtavanja korištenjem poveznica na desnoj strani slijedećih tipka prečaca:
+	
+    F1 - Uključi ovu pomoćnu kutiju
+	F2 - Prikaži više informacija
+    C - Uključi način kamere
+    F - Uključi iscrtavanje linija lica 
+    P - Uključi prikazivanje točaka(verteks)
+    G - Uključi geometriju
+    L - Uključi Razinu Detalja(LOD)
+    ESC - Zatvori ovaj prozor preglednika
+	
+    Pridržite H - Za privremeno skrivanje HUD-a(Tekst)
+]]>
+		</text>		
+	</RenderUI>
+</Translation>

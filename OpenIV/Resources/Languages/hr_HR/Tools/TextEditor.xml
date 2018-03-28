@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='$AppName$ Alat za tekst'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Preglednik teksta'/>
+				<Item Index='1' Value='$AppName$ Urednik teksta'/>
+				<Item Index='2' Value='Traži...'/>
+				<Item Index='3' Value='Traži odabrano...'/>
+			</StringList>
+		</AeroWindow>
+		
+		<!-- Editor actions -->
+		<ActionEditCut Caption="Izreži"/>
+		<ActionEditCopy Caption="Udvostruči"/>
+		<ActionEditPaste Caption="Zalijepi"/>
+		<ActionEditDelete Caption="Izbriši"/>
+		<ActionEditSelectAll Caption="Odaberi sve"/>
+		<ActionEditDuplicateLine Caption="Udvostruči Trenutni Red"/>
+		<ActionEditRemoveLine Caption="Ukloni red"/>
+		<ActionEditUpperCase Caption="TISKANO"/>
+		<ActionEditLoverCase Caption="pisano"/>
+	</TextEditorWindow>
+	
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">Izvezi</string>
+		<string name="EXPORT_TEXT">Izvezi običan tekst (*.txt)</string>
+		<string name="EXPORT_HTML">Izvezi oblikovan tekst (*.html)</string>
+		
+		<!-- Ribbon -->
+		<string name="TAB_HOME">Početak</string>
+		<string name="TAB_SEARCH">Pretraži</string>
+		<string name="WORD_WRAP">Omotavanje Riječi</string>
+		<string name="SHOW_SPECIAL_CHARS">Prikaži posebne simbole</string>
+		<string name="SEARCH_OPTIONS_MENU">Opcije pretrage</string>
+		<string name="SEARCH_BANNER_TEXT">Traži što</string>
+		<string name="SEARCH_DOWN">Pretraži dolje</string>
+		<string name="SEARCH_UP">Pretraži gore</string>
+		<string name="SEARCH_ALL">Sve</string>
+		<string name="SEARCH_ALL_HINT">Traži sve</string>
+		<string name="SEARCH_SET_SELECTION_AREA">Postavi odabir</string>
+		<string name="GOTO_LINE">Idi na red</string>
+		
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">Način pretraživanja</string>
+		<string name="SEARCH_MODE_NORMAL">Uobičajeno</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Redni izraz</string>
+		<string name="SEARCH_MODE_WILDCARD">Zvjezdica</string>
+		<string name="SEARCH_AREA">Područje pretrage</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">Cijeli djelokrug</string>
+		<string name="SEARCH_AREA_IN_SELECTION">U odabiru</string>
+		<string name="SEARCH_OPTIONS">Opcije</string>
+		<string name="SEARCH_ON_TYPING">Pretraži u pisanju</string>
+		<string name="CASE_SENSITIVE">Osjetljivo na veličinu</string>
+		<string name="WHOLE_WORDS_ONLY">Samo cijele riječi</string>
+		<string name="WRAP_AROUND">Omotaj okolo</string>
+		<string name="HIGHLIGHT_RESULTS">Označi rezultate</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">Želite li spremiti izmjene?</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">Nemoguće spremiti datoteku</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$ nije u mogućnosti snimiti izmjene datoteke, molimo pokušajte ponovno kasnije.</string>
+		<string name="GOTO_LINE_TITLE">Idi na red...</string>
+		<string name="GOTO_LINE_PROMT">Unesi broj retka:</string>
+		<string name="GOTO_LINE_NOTE">Unesi + ili - za pomicanje relativne na trenutno mjesto. Primjer: +4 će pomaknuti unaprijed 4 retka.</string>
+		<string name="GO">Idi</string>
+	</RenderUI>
+</Translation>

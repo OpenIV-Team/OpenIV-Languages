@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GXT2ViewerWindow Caption='$AppName$ GXT Preglednik'>		
+		<btnClose Caption='Zatvori'/>
+	</GXT2ViewerWindow>
+</Translation>

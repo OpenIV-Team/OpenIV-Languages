@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ Preglednik Animacija'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Preglednik Animacija</string>
+		<string name="START_PED">Animacije pješaka</string>
+		<string name="START_MAP">Animacije karte</string>
+		<string name="START_CUT">Izrezane scene(Cut scene)</string>
+		<string name="CHANGE_PED_MODEL">Promjeni model pješaka</string>
+		<string name="SELECT_PED_MODEL">Odaberi model pješaka</string>
+		<string name="LOADING___">učitavanje...</string>
+		<string name="EMPTY_CUTSCENE">Prazna cut-scena</string>
+		<string name="EMPTY_CUTSCENE_MSG">Nemoguće otvoriti praznu cut-scenu.</string>
+		<string name="MISSED_ANIMATIONS">Propuštene animacije</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ nije u mogućnosti učitati neke animacije jer nedostaju datoteke.</string>
+		<string name="FRAMES_">Slike: </string>
+		<string name="TIME_SCALE_X">Veličina vremena: x</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Preglednik animacija - pomoć</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Izaberite kategoriju i zatim pokrenite bilo koju animaciju. ]]>
+		</text>
+	</RenderUI>
+</Translation>
