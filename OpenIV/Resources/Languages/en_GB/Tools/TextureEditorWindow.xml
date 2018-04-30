@@ -16,7 +16,11 @@
 		<string name="ORIGINAL_SIZE">Original size</string>
 		<string name="ALPHA_BACKGROUND">Alpha background</string>
 		<string name="SIZE_">Size:</string>
+		<string name="SEARCH_TEXTURES">Search textures</string>
+		<string name="NO_IMAGE_FOUND">No textures found</string>
 
+		<string name="COPY_NAME">Copy name</string>
+		<string name="EXPORT">Export</string>
 		<string name="RENAME">Rename</string>
 		<string name="REPLACE">Replace</string>
 		<string name="DELETE">Delete</string>
@@ -34,7 +38,7 @@
 		<!-- Import dialog -->
 		<string name="CHOOSE_IMPORT_OPTIONS">Choose import options</string>
 		<text name="IMPORT_QUALITY_NOTE">
-			<![CDATA[This options will be ignored while importing DDS files.
+			<![CDATA[Those options will be ignored while importing DDS files.
 Use DDS files for getting best quality.]]>
 		</text>
 		<string name="AUTO_MIPMAP">Automatically generate MipMap levels</string>

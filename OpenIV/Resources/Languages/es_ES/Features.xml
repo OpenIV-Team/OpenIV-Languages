@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Favorites -->
@@ -133,12 +133,12 @@
 				<!-- Geometry/Graphics/Drawables errors -->
 				<Item Index='14' Value='%S(Line %D): El modelo está protegido.'/>
 				<Item Index='15' Value='%S(Line %D): El índice de materiales está fuera de los límites.'/>
-				<Item Index='16' Value="%S(Line %D): Un Shader no puede ser articulado."/>
+				<Item Index='16' Value="%S(Line %D): Un Shader no puede ser articulado."/>		
 				<Item Index='17' Value="%S(Line %D): Demasiados huesos para un modelo, no puedes usar más de 48 huesos."/>
 
-				<Item Index='18' Value="%S(Line %D): %S"/>
+				<Item Index='18' Value="%S(Line %D): %S"/>						
 			</StringList>
-		</AeroWindow>
-	</openFormatsValidatorWindow>
+		</AeroWindow>	
+	</openFormatsValidatorWindow>	
 
 </Translation>

@@ -15,8 +15,9 @@
 		<string name="EMPTY_CUTSCENE_MSG">Невозможно открыть пустую кат-сцену.</string>
 		<string name="MISSED_ANIMATIONS">Анимации отсутствуют</string>
 		<string name="MISSED_ANIMATIONS_MSG">$AppName$ не удается загрузить некоторые анимации поскольку файлы отсутствуют.</string>
-		<string name="FRAMES_">Frames: </string>
+		<string name="FRAMES_">Фреймы: </string>
 		<string name="TIME_SCALE_X">Time scale: x</string>
+		<string name="NO_AUDIO_FILE">Нет звука: Аудио файл для данной кат-сцены отсутствует</string>
 		<!-- help -->
 		<string name="HELP_TITLE">Animation viewer - помощь</string>
 		<text name="HELP_TEXT">

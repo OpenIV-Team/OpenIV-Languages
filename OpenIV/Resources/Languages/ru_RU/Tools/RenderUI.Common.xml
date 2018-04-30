@@ -16,6 +16,14 @@
 		<string name="SAVE">Сохранить</string>
 		<string name="IMPORT">Импорт</string>
 		<string name="SEARCH">Поиск</string>
+		
+		<!-- Context menu -->
+		<string name="COPY_ID">Копировать Id</string>
+		<string name="COPY_NAME">Копировать имя</string>
+		<string name="COPY_LINE">Копировать строку</string>
+		<string name="COPY_VALUE">Копировать значение</string>
+		<string name="COPY_PROPERTIES">Копировать свойства</string>
+		<string name="EXPORT_TEXTURE">Экспортировать</string>
 
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Камера:</string>
@@ -27,6 +35,7 @@
 		<string name="GEOMETRY">Геометрия:</string>		
 		<string name="EDGED_FACES">Рёбра:</string>
 		<string name="DISPLAY_POINTS">Вершины:</string>
+		<string name="EDGE_COLOR">Цвет рёбер:</string>
 
 		<!-- Base information -->
 		<string name="POLYGONS">Полигоны:</string>

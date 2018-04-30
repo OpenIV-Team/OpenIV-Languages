@@ -1,19 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<AudioPlayerWindow Caption='Аудио проигрыватель $AppName$'>
+		<!-- Export -->
 		<btnExportAll Caption='Экспортировать всё'/>
+		<miExportAllChannelsSeparately Caption='Экспортировать все каналы по отдельности'/>
+		<miExportAllAsStereo Caption='Экспортировать все многоканальные треки как стерео WAV'/>
+		<miExportAllAsMono Caption='Экспортировать все многоканальные треки как моно WAV'/>
+
+		<!-- Options -->
 		<btnOptions Caption='Настройки'/>
 		<miPlayWhenOpen Caption='Начать воспроизведение при открытии'/>
 		<miAutoPlayNext Caption='Воспроизводить следующий трек автоматически'/>
-		<miPlay Caption='Воспроизвести'/>
-		<miExport Caption='Экспортировать'/>
-		<miCopyName Caption='Копировать имя'/>
-		<miExportAllChannelsSeparately Caption='Экспортировать все каналы по отдельности'/>
+
+		<!-- Sort -->
 		<btnSort Caption='Сортировка'/>
 		<miSortByName Caption='Сортировать по имени'/>
 		<miSortByDuration Caption='Сортировать по длительности'/>
 		<miSortOrderAsc Caption='Сортировка по возрастанию'/>
 		<miSortOrderDesc Caption='Сортировка по убыванию'/>
+
+		<!-- Context menu -->
+		<miPlay Caption='Воспроизвести'/>
+		<miCopyName Caption='Копировать имя'/>
+		<miExport Caption='Экспортировать'/>
+		<miExportChannelsSeparately Caption='Экспортировать каналы по отдельности'/>
+		<miExportAsStereo Caption='Экспортировать как стерео WAV'/>
+		<miExportAsMono Caption='Экспортировать как моно WAV'/>
+
 		<!-- String's -->
 		<AeroWindow LinesCount='6'>
 			<StringList>

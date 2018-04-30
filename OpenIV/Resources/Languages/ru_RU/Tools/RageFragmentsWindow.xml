@@ -20,6 +20,8 @@
 		<string name="CHECK_ALL">Отметить все</string>
 		<string name="UNCHECK_ALL">Снять выделение</string>
 		<string name="ALSO_HIDE_CHILDREN">Also hide children</string>
+		<string name="PLAY_FORWARD">Воспроизвести вперёд</string>
+		<string name="PLAY_BACKWARDS">Воспроизвести назад</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Используйте мышь, чтобы осмотреться, для перемещения используйте следующие клавиши:
 			

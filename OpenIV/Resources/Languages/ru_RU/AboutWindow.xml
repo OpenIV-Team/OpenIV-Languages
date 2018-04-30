@@ -6,12 +6,22 @@
 		<string name="VERSION_LABEL_3">Версия %D.%D.%D (Сборка %D; Дата %S)</string>
 		<string name="THE_TEAM">Команда разработки</string>
 		<string name="THIRD_PARTY">Третьи стороны</string>
-		<string name="THIRD_PARTY_LINE_1">Это приложение использует некоторые части,</string>
-		<string name="THIRD_PARTY_LINE_2">которые, предоставлены третьими сторонами.</string>
+		<string name="THIRD_PARTY_LINE">Это приложение использует некоторые части, которые, предоставлены третьими сторонами.</string>
 		<string name="THANKS_TO">Спасибо</string> 
 		<string name="ALPHABETICALLY">(в алфавитном порядке)</string>
 		<string name="SPECIAL_THANKS_TO">Особая благодарность</string>
 		<string name="LICENSE_TERMS">Условия лицензионного соглашения</string>
 		<string name="LOCALIZATION">Локализаторы</string>
-	</RenderUI>
+		<string name="DEBUG_INFO">Отладочная информация</string>
+		<string name="CLIENT_ID">Client Id</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">Присоединится к сообществу $AppName$</string>
+		<string name="JOIN_DISCUSSION">Присоединится к обсуждению $AppName$</string>
+		<string name="SUPPORT_DONATE">Поддержать $AppName$</string>
+		<string name="WELCOME_TO_VER">Добро пожаловать в %S</string>
+		<string name="WATCH_THE_VIDEO">Хотите посмотреть видео об изменениях в этой версии?</string>
+		<string name="VIDEO_NOTE">Во время просмотра видео может быть показана реклама. Посмотрев это видео, вы поддержите $AppName$.</string>
+		<string name="NO_THANKS">Нет, спасибо</string>
+	</RenderUI>	
 </Translation>

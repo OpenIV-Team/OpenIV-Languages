@@ -49,6 +49,7 @@
 					<Item Index='22' Value="Ошибка: $RageGAME$ запущена. Закройте игру перед использованием $AppName$."/>
 					<Item Index='23' Value="Все сделано.\nПрава доступа были установлены для вашей папки с игрой."/>
 					<Item Index='24' Value="Невозможно установить права доступа."/>
+					<Item Index='25' Value="Ошибка: В файле '$RageEncryptionStorage$' не найден ключ шифрования."/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>
@@ -84,7 +85,7 @@
 			<btnExit Caption='Выход'/>
 			<btnContinue Caption='Продолжить'/>
 			<!-- Strings -->
-			<StringList SetCount='10'>
+			<StringList SetCount='20'>
 				<Lines>
 					<Item Index='00' Value='Критическая ошибка'/>
 					<Item Index='01' Value='Вы установили $AppName$ в ту же директорию, что и $RageEncryptionStorage$, это не правильно.\nПожалуйста, установите $AppName$ в отдельную директорию.'/>
@@ -96,6 +97,7 @@
 					<Item Index='07' Value='Успешно: $RageEncryptionStorage$, Версия %s\n$AppName$ может работать с этим файлом.'/>
 					<Item Index='08' Value='Обзор'/>
 					<Item Index='09' Value="Ошибка: $AppName$ не имеет доступа к выбранной директории.\nЗапустите $AppName$ с правами администратора."/>
+					<Item Index='10' Value="Ошибка: В файле '$RageEncryptionStorage$' не найден ключ шифрования."/>
 				</Lines>
 			</StringList>
 		</ChangeGameScreen>

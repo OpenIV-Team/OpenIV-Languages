@@ -6,12 +6,22 @@
 		<string name="VERSION_LABEL_3">Version %D.%D.%D (Build %D; Date %S)</string>
 		<string name="THE_TEAM">The team</string>
 		<string name="THIRD_PARTY">Third party</string>
-		<string name="THIRD_PARTY_LINE_1">This application uses some parts</string>
-		<string name="THIRD_PARTY_LINE_2">which provided by third party.</string>
+		<string name="THIRD_PARTY_LINE">This application uses some parts which provided by third party.</string>
 		<string name="THANKS_TO">Thanks to</string>
 		<string name="ALPHABETICALLY">(alphabetically)</string>
 		<string name="SPECIAL_THANKS_TO">Special thanks to</string>
 		<string name="LICENSE_TERMS">The Software License Terms</string>
 		<string name="LOCALIZATION">Localization contributors</string>
+		<string name="DEBUG_INFO">Debug information</string>
+		<string name="CLIENT_ID">Client Id</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">Join $AppName$ community</string>
+		<string name="JOIN_DISCUSSION">Join $AppName$ discussion</string>
+		<string name="SUPPORT_DONATE">Support $AppName$</string>
+		<string name="WELCOME_TO_VER">Welcome to %S</string>
+		<string name="WATCH_THE_VIDEO">Would you like to watch a video about changes in this version?</string>
+		<string name="VIDEO_NOTE">You might see an ad before or during video playback. By watching this video, you will support $AppName$.</string>
+		<string name="NO_THANKS">No thanks</string>
 	</RenderUI>
 </Translation>

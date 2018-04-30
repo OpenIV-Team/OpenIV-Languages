@@ -20,6 +20,8 @@
 		<string name="CHECK_ALL">Check all</string>
 		<string name="UNCHECK_ALL">Uncheck all</string>
 		<string name="ALSO_HIDE_CHILDREN">Also hide children</string>
+		<string name="PLAY_FORWARD">Play forward</string>
+		<string name="PLAY_BACKWARDS">Play backwards</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Use mouse to look around, move using these keys:
 			

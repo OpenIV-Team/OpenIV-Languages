@@ -82,14 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Подтверждение"/>
 				<Item Index="70" Value='Все изменения, сделанные в архиве "mods\update\update.rpf" будут потеряны.\nВы хотите продолжить?'/>
 				<Item Index="71" Value='Искать "%s" во всех архивах'/>
-				<Item Index="72" Value=""/>
-				<Item Index="73" Value=""/>
-				<Item Index="74" Value=""/>
-				<Item Index="75" Value=""/>
-				<Item Index="76" Value=""/>
-				<Item Index="77" Value=""/>
-				<Item Index="78" Value=""/>
-				<Item Index="79" Value=""/>
+				<Item Index="72" Value="Вы действительно хотите закрыть $AppName$?"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
@@ -153,14 +146,16 @@
 		<actEditMode Caption="Режим редактирования" Hint=""/>
 		<actReadMode Caption="Режим чтения" Hint=""/>
 		<actCloseAllArchives Caption="Закрыть все архивы" Hint="Закрыть все открытые архивы"/>
+		<actCloseAllFolders Caption="Закрыть все папки" Hint="Закрыть все открытые папки"/>
 		<actCloseArchive Caption="Закрыть архив" Hint="Закрыть текущий архив"/>
 		<actExit Caption="Выход" Hint="Выход"/>
 		<!-- Edit Action's -->
-		<actPreview Caption="Просмотр..." Hint="Просмотр выбранного файла"/>
+		<actOpen Caption="Открыть..." Hint="Открыть выбранный файл"/>
 		<actEditFile Caption="Редактировать..." Hint="Редактирование выбранного файла"/>
 		<actViewAsHex Caption="Посмотреть HEX..." Hint="Посмотреть HEX"/>
 		<actViewAsText Caption="Посмотреть как текст..." Hint="Посмотреть как текст"/>
-		<actCopyPath Caption="Копировать путь" Hint="Копировать путь к файлу"/>
+		<actCopyName Caption="Копировать имя" Hint="Скопировать имя выбранного файла"/>
+		<actCopyPath Caption="Копировать путь" Hint="Скопировать путь к файлу"/>
 		<actExtract Caption="Извлечь..." Hint="Извлечь файл"/>
 		<actSaveContent Caption="Сохранить содержимое/Экспорт" Hint="Сохранить содержимое файла/Экспорт"/>
 		<actSaveRawContent Caption="Save raw content" Hint="Export raw file data"/>
@@ -188,21 +183,14 @@
 		<actMainMenuBar Caption="Строка меню" Hint="Строка меню"/>
 		<!-- Help Action's -->
 		<actHelpVerifyGame Caption="Как проверить и восстановить файлы игры..." Hint=""/>
-		<actReportBug Caption="Сообщить об ошибке" Hint=""/>
-		<actAbout Caption="О программе..." Hint="О программе"/>
+		<actSocialMedia Caption="Присоединится к сообществу $AppName$" Hint=""/>
+		<actForums Caption="Присоединится к обсуждению $AppName$" Hint=""/>
+		<actSupportDonate Caption="Поддержать $AppName$" Hint=""/>
 		<actGoToWeb Caption="Посетить сайт в интернете..." Hint=""/>
 		<actSendFeedback Caption="Отправить отзыв..." Hint=""/>
-		<actUpdate Caption="Проверить обновление..." Hint=""/>
-		<actDonate Caption="Поддержать $AppName$..." Hint=""/>
-		<actWebIV Caption="Регистрация в $WebName$" Hint=""/>
-		<actFAQ Caption="Часто задаваемые вопросы и ответы" Hint=""/>
-		<!-- Social -->
-		<actSocialYouTube Caption="$AppName$ YouTube channel" Hint=""/>
-		<actSocialFacebook Caption="$AppName$ Facebook page" Hint=""/>
-		<actSocialTwitter Caption="$AppName$ on Twitter" Hint=""/>
-		<actSocialVKCom Caption="$AppName$ ВКонтакте" Hint=""/>
-		<!-- Only in Win7 and later -->
-		<actWin7ReportTool Caption="Запись шагов для воспроизведения проблемы" Hint=""/>
+		<actReportBug Caption="Сообщить об ошибке" Hint=""/>
+		<actWin7ReportTool Caption="Запись шагов для воспроизведения проблемы" Hint=""/> <!-- Only in Win7 and later -->
+		<actAbout Caption="О программе..." Hint="О программе"/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Свернуть все группы" Hint=""/>
 		<actExpandAll Caption="Развернуть все группы" Hint=""/>
@@ -222,6 +210,7 @@
 		<actFilterByType Caption="По типу" Hint=""/>
 		<actFilterOnlyThis Caption="Только этот элемент" Hint=""/>
 		<!-- Tree -->
+		<actTreeCopyName Caption="Копировать имя" Hint=""/>
 		<actTreeCopyAsPath Caption="Копировать как путь" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Показать в Проводнике Windows" Hint=""/>
 		<actTreeCloseArchive Caption="Закрыть архив" Hint=""/>
@@ -363,6 +352,8 @@
 		<cbClearSearchFilterAfterOpeningArchive Caption='Очистить фильтр поиска после открытия нового архива'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Использовать альтернативный (старый) метод добавления папки при перетаскивании'/>
 		<tbFileAssociation Caption="Настройки ассоциации файлов"/>
+		<cbDisplayExitConfirmationDialog Caption="Запрашивать подтверждение при выходе из программы"/>
+		<cbStartWithLocationFromLastSession Caption="Запоминать последнее местоположение и открывать его во время запуска $AppName$"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Папка $ModsFolder$"/>
 		<lbModsFolderText Caption="На этой вкладке вы можете изменять настройки, относящиеся к папке $ModsFolder$."/>
@@ -388,6 +379,15 @@
 		<lbCameraControl Caption="Схема управления камерой"/>
 		<cbRenderAntialiasing Caption="Включить AntiAliasing"/>
 		<lbChooseEditorTheme Caption="Выберите цветовую схему для текстового редактора"/>
+		<lbMultichannelAudioPlayback Caption="Метод воспроизведения многоканальных аудио"/>
+		<cbMultichannelAudioPlayback>
+			<Items>
+				<Item Index="0" Value="Моно"/>
+				<Item Index="1" Value="Стерео"/>
+				<Item Index="2" Value="Многоканальный"/>
+			</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="Примечание: Убедитесь, что ваша система способна воспроизводить объёмный звук, иначе вы не услышите большую часть аудио контента."/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Формат файлов текстур по умолчанию"/>

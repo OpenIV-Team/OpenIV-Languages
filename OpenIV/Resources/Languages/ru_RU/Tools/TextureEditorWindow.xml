@@ -16,7 +16,11 @@
 		<string name="ORIGINAL_SIZE">Полный размер</string>
 		<string name="ALPHA_BACKGROUND">Альфа-фон</string>
 		<string name="SIZE_">Размер:</string>
+		<string name="SEARCH_TEXTURES">Поиск текстур</string>
+		<string name="NO_IMAGE_FOUND">Текстуры не найдены</string>
 
+		<string name="COPY_NAME">Копировать имя</string>
+		<string name="EXPORT">Экспортировать</string>
 		<string name="RENAME">Имя</string>
 		<string name="REPLACE">Заменить</string>
 		<string name="DELETE">Удалить</string>

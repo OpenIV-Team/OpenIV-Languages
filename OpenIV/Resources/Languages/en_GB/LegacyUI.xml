@@ -82,14 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Confirmation"/>
 				<Item Index="70" Value='All changes you made in "$ModsFolderPath$update\update.rpf" archive will be lost.\nDo you want to continue?'/>
 				<Item Index="71" Value='Search "%s" in all archives'/>
-				<Item Index="72" Value=""/>
-				<Item Index="73" Value=""/>
-				<Item Index="74" Value=""/>
-				<Item Index="75" Value=""/>
-				<Item Index="76" Value=""/>
-				<Item Index="77" Value=""/>
-				<Item Index="78" Value=""/>
-				<Item Index="79" Value=""/>
+				<Item Index="72" Value="Do you really want to exit $AppName$?"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
@@ -153,14 +146,16 @@
 		<actEditMode Caption="Edit mode" Hint=""/>
 		<actReadMode Caption="Read only mode" Hint=""/>
 		<actCloseAllArchives Caption="Close all archives" Hint="Close all opened archives"/>
+		<actCloseAllFolders Caption="Close all folders" Hint="Close all opened folders"/>
 		<actCloseArchive Caption="Close archive" Hint="Close current archive"/>
 		<actExit Caption="Exit" Hint="Exit"/>
 		<!-- Edit Action's -->
-		<actPreview Caption="View..." Hint="View file"/>
-		<actEditFile Caption="Edit..." Hint="Edit file"/>
+		<actOpen Caption="Open" Hint="Open selected item"/>
+		<actEditFile Caption="Edit" Hint="Edit selected file"/>
 		<actViewAsHex Caption="View in Hex..." Hint="View in Hex"/>
 		<actViewAsText Caption="View as text..." Hint="View as text"/>
-		<actCopyPath Caption="Copy path" Hint="Copy current file path"/>
+		<actCopyName Caption="Copy name" Hint="Copy name of selected file"/>
+		<actCopyPath Caption="Copy path" Hint="Copy full path to selected file"/>
 		<actExtract Caption="Extract..." Hint="Extract file"/>
 		<actSaveContent Caption="Save content/Export" Hint="Save file content/Export"/>
 		<actSaveRawContent Caption="Save raw content" Hint="Export raw file data"/>
@@ -188,21 +183,14 @@
 		<actMainMenuBar Caption="Menu bar" Hint="Menu bar"/>
 		<!-- Help Action's -->
 		<actHelpVerifyGame Caption="How to verify and restore game files..." Hint=""/>
-		<actReportBug Caption="Report a bug" Hint=""/>
-		<actAbout Caption="About..." Hint="About"/>
+		<actSocialMedia Caption="Join $AppName$ community" Hint=""/>
+		<actForums Caption="Join $AppName$ discussion" Hint=""/>
+		<actSupportDonate Caption="Support $AppName$" Hint=""/>
 		<actGoToWeb Caption="Go to website..." Hint=""/>
 		<actSendFeedback Caption="Send Feedback" Hint=""/>
-		<actUpdate Caption="Check for update..." Hint=""/>
-		<actDonate Caption="Donate $AppName$..." Hint=""/>
-		<actWebIV Caption="Sign up $WebName$" Hint=""/>
-		<actFAQ Caption="Frequently Asked Questions" Hint=""/>
-		<!-- Social -->
-		<actSocialYouTube Caption="$AppName$ YouTube channel" Hint=""/>
-		<actSocialFacebook Caption="$AppName$ Facebook page" Hint=""/>
-		<actSocialTwitter Caption="$AppName$ on Twitter" Hint=""/>
-		<actSocialVKCom Caption="$AppName$ VK page" Hint=""/>
-		<!-- Only in Win7 and later -->
-		<actWin7ReportTool Caption="Record steps to reproduce a problem" Hint=""/>
+		<actReportBug Caption="Report a bug" Hint=""/>
+		<actWin7ReportTool Caption="Record steps to reproduce a problem" Hint=""/> <!-- Only in Win7 and later -->
+		<actAbout Caption="About..." Hint="About"/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Collapse all groups" Hint=""/>
 		<actExpandAll Caption="Expand all groups" Hint=""/>
@@ -222,6 +210,7 @@
 		<actFilterByType Caption="Filter by type" Hint=""/>
 		<actFilterOnlyThis Caption="Show only this" Hint=""/>
 		<!-- Tree -->
+		<actTreeCopyName Caption="Copy name" Hint=""/>
 		<actTreeCopyAsPath Caption="Copy as path" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Show in Windows Explorer" Hint=""/>
 		<actTreeCloseArchive Caption="Close archive" Hint=""/>
@@ -363,6 +352,8 @@
 		<cbClearSearchFilterAfterOpeningArchive Caption='Clear search filter after opening archive'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Use alternate (old) way of adding folders after drag and drop'/>
 		<tbFileAssociation Caption="Change file association"/>
+		<cbDisplayExitConfirmationDialog Caption="Show confirmation dialog on exit"/>
+		<cbStartWithLocationFromLastSession Caption="Start $AppName$ with location from the last session"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="$ModsFolder$ folder"/>
 		<lbModsFolderText Caption="On this page you can change settings related to $ModsFolder$ folder."/>
@@ -388,6 +379,15 @@
 		<lbCameraControl Caption="Camera control scheme"/>
 		<cbRenderAntialiasing Caption="Enable AntiAliasing"/>
 		<lbChooseEditorTheme Caption="Choose color scheme for text editor"/>
+		<lbMultichannelAudioPlayback Caption="Multichannel audio playback"/>
+		<cbMultichannelAudioPlayback>
+			<Items>
+				<Item Index="0" Value="Play multichannel audio in mono mode"/>
+				<Item Index="1" Value="Play multichannel audio in stereo mode"/>
+				<Item Index="2" Value="Play multichannel audio in multichannel mode"/>
+			</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="Note: Make sure your system is capable of playing surround sound, otherwise you will not hear most of the audio content."/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Default texture file format"/>
