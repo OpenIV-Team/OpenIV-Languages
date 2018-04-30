@@ -49,6 +49,7 @@
 					<Item Index='22' Value="Error: $RageGAME$ is running. Close game before using $AppName$."/>
 					<Item Index='23' Value="All done.\nThe permissions was set to your game folder."/>
 					<Item Index='24' Value="Unable to set permissions."/>
+					<Item Index='25' Value="Error: The encryption key is not found in '$RageEncryptionStorage$' file."/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>
@@ -84,7 +85,7 @@
 			<btnExit Caption='Exit'/>
 			<btnContinue Caption='Continue'/>
 			<!-- Strings -->
-			<StringList SetCount='10'>
+			<StringList SetCount='20'>
 				<Lines>
 					<Item Index='00' Value='Fatal application error'/>
 					<Item Index='01' Value='You have placed $AppName$ into the same folder with "$RageEncryptionStorage$" file, and this is wrong.\nPlease place $AppName$ into separate folder.'/>
@@ -96,6 +97,7 @@
 					<Item Index='07' Value='Successfully: $RageEncryptionStorage$, version %s\n$AppName$ can work with this file.'/>
 					<Item Index='08' Value='Browse'/>
 					<Item Index='09' Value="Error: $AppName$ don't have access to work with this folder.\nRun $AppName$ with administrator rights."/>
+					<Item Index='10' Value="Error: The encryption key is not found in '$RageEncryptionStorage$' file."/>
 				</Lines>
 			</StringList>
 		</ChangeGameScreen>
