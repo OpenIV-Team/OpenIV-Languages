@@ -1,19 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<AudioPlayerWindow Caption='$AppName$ Audiowiedergabe'>
+		<!-- Export -->
 		<btnExportAll Caption='Alle exportieren'/>
+		<miExportAllChannelsSeparately Caption='Alle Kanäle seperat exportieren'/>
+		<miExportAllAsStereo Caption='Alle Multichannel als Stereo WAV exportieren'/>
+		<miExportAllAsMono Caption='Alle Multichannel als Mono WAV exportieren'/>
+		
+		<!-- Options -->		
 		<btnOptions Caption='Optionen'/>
 		<miPlayWhenOpen Caption='Wiedergabe starten, wenn Datei geöffnet wird'/>
 		<miAutoPlayNext Caption='Nächsten Track automatisch abspielen'/>
-		<miPlay Caption='Wiedergeben'/>
-		<miExport Caption='Exportieren'/>
-		<miCopyName Caption='Namen kopieren'/>
-		<miExportAllChannelsSeparately Caption='Alle Kanäle seperat exportieren'/>
+		
+		<!-- sort -->
 		<btnSort Caption='Sortieren'/>
 		<miSortByName Caption='Nach Name sortieren'/>
 		<miSortByDuration Caption='Nach Dauer sortieren'/>
 		<miSortOrderAsc Caption='In aufsteigender Reihenfolge sortieren'/>
 		<miSortOrderDesc Caption='In absteigender Reihenfolge sortieren'/>
+		
+		<!-- Context menu -->
+		<miPlay Caption='Wiedergeben'/>
+		<miCopyName Caption='Namen kopieren'/>
+		<miExport Caption='Exportieren'/>
+		<miExportChannelsSeparately Caption='Kanäle seperat exportieren'/>
+		<miExportAsStereo Caption='Als Stereo WAV exportieren'/>
+		<miExportAsMono caption='Als Mono WAV exportieren'/>
+
 		<!-- String's -->
 		<AeroWindow LinesCount='6'>
 			<StringList>

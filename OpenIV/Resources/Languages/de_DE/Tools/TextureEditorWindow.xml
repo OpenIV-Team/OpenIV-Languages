@@ -16,7 +16,11 @@
 		<string name="ORIGINAL_SIZE">Originalgröße</string>
 		<string name="ALPHA_BACKGROUND">Alpha</string>
 		<string name="SIZE_">Größe:</string>
+		<string name="SEARCH_TEXTURES">Texturen durchsuchen</string>
+		<string name="NO_IMAGE_FOUND">Keine Texturen gefunden</string>
 
+		<string name="COPY_NAME">Namen kopieren</string>
+		<string name="EXPORT">Exportieren</string>
 		<string name="RENAME">Umbenennen</string>
 		<string name="REPLACE">Ersetzen</string>
 		<string name="DELETE">Löschen</string>

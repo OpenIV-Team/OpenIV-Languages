@@ -107,7 +107,6 @@
 	</openFormatsImportWindow>
 
 	<openFormatsValidatorWindow Caption='OpenFormats Prüfer - $AppName$'>
-		<lbTitle Caption='openFormats - Bericht importieren'/>
 		<btnClose Caption='Schließen'/>
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
@@ -136,7 +135,13 @@
 				<Item Index='16' Value="%S(Line %D): Shader can't be skinned."/>		
 				<Item Index='17' Value="%S(Line %D): Zu viele Knochen in einer Geometrie. Du kannst nicht mehr als 48 Knochen nutzen."/>
 
-				<Item Index='18' Value="%S(Zeile %D): %S"/>						
+				<Item Index='18' Value="%S(Zeile %D): %S"/>
+
+				<!--Export/Import -->
+				<Item Index='19' Value='openFormats - Bericht importieren'/>
+				<Item Index='20' Value='openFormats - Bericht Exportieren'/>
+				<Item Index='21' Value='Manche Dateien nicht Exportiert, mehr Informationen unten.'/>
+				
 			</StringList>
 		</AeroWindow>	
 	</openFormatsValidatorWindow>	

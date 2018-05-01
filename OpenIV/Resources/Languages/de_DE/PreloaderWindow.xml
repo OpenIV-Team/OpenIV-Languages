@@ -49,6 +49,7 @@
 					<Item Index='22' Value="Fehler: $RageGAME$ läuft zur Zeit. Bitte schließe das Spiel vor der Benutzung von $AppName$."/>
 				    <Item Index='23' Value="Alles erledigt.\nDie Berechtigungen wurden erfolgreich gesetzt."/>
  					<Item Index='24' Value="Berechtigungen konnten nicht gesetzt werden."/>
+					<Item Index='25' Value="Fehler: Der Schlüssel konnte in $RageEncryptionStorage$ nicht gefunden werden."/>
                 </Lines>
 			</StringList>
 		</WelcomeScreen>
@@ -84,7 +85,7 @@
 			<btnExit Caption='Beenden'/>
 			<btnContinue Caption='Fortsetzen'/>
 			<!-- Strings -->
-			<StringList SetCount='10'>
+			<StringList SetCount='20'>
 				<Lines>
 					<Item Index='00' Value='Schwerwiegender Fehler in der Anwendung'/>
 					<Item Index='01' Value='Du hast $AppName$ im selben Ordner installiert wie "$RageEncryptionStorage$".\nBitte installiere $AppName$ in einem seperaten Ordner.'/>
@@ -96,6 +97,7 @@
 					<Item Index='07' Value='Erfolgreich: $RageEncryptionStorage$, Version %s\n$AppName$ kann mit dieser Datei arbeiten.'/>
 					<Item Index='08' Value='Durchsuchen'/>
 					<Item Index='09' Value="Fehler: $AppName$ darf nicht mit diesem Ordner arbeiten.\nFühre $AppName$ mit Administratorrechten aus."/>
+					<Item Index='10' Value="Fehler: Der Schlüssel konnte in $RageEncryptionStorage$ nicht gefunden werden."/>
 				</Lines>
 			</StringList>
 		</ChangeGameScreen>

@@ -82,14 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Bestätigung"/>
 				<Item Index="70" Value='Alle Veränderungen am Archiv "$ModsFolderPath$update\update.rpf" werden verloren gehen.\nMöchtest du fortfahren?'/>		
 				<Item Index="71" Value='Nach "%s" in allen Archiven suchen'/>		
-				<Item Index="72" Value=""/>		
-				<Item Index="73" Value=""/>		
-				<Item Index="74" Value=""/>		
-				<Item Index="75" Value=""/>		
-				<Item Index="76" Value=""/>		
-				<Item Index="77" Value=""/>		
-				<Item Index="78" Value=""/>		
-				<Item Index="79" Value=""/>
+				<Item Index="72" Value="Möchtest du $AppName$ wirklich beenden?"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
@@ -152,15 +145,17 @@
 		<actEditMode Caption="Bearbeitungsmodus"  Hint=""/>
 		<actReadMode Caption="Schreibgeschützter Modus"  Hint=""/>
 		<actCloseAllArchives Caption="Alle Archive schließen" Hint="Alle Archive schließen"/>
-		<actCloseArchive Caption="Archiv schließen" Hint="Aktuelles Archiv schließen"/>
+		<actCloseAllFolders Caption="Alle Ordner Schließen" Hint="Alle Order Schließen"/>
+ 		<actCloseArchive Caption="Archiv schließen" Hint="Aktuelles Archiv schließen"/>
 		<actExit Caption="Beenden" Hint="Beenden"/>
 		<actCloseAllArchives Caption="Alle Archive schließen" Hint="Alle geöffneten Archive schließen"/>
 		<!-- Edit Action's -->
-		<actPreview Caption="Anzeigen..." Hint="Datei anzeigen"/>
-		<actEditFile Caption="Bearbeiten..." Hint="Datei bearbeiten"/>
+		<actOpen Caption="Öffnen" Hint="Öffne ausgewähltes Element"/>
+		<actEditFile Caption="Bearbeiten" Hint="Ausgewählte Datei bearbeiten"/>
 		<actViewAsHex Caption="Datei hexadezimal anzeigen..." Hint="Hexadezimalcode der Datei anzeigen"/>
 		<actViewAsText Caption="Als Text anzeigen..." Hint="Datei als Text anzeigen"/>
-		<actCopyPath Caption="Pfad kopieren" Hint="Aktuellen Dateipfad kopieren"/>
+		<actCopyName Caption="Namen kopieren" Hint="Name von ausgewählter Datei kopieren"/>
+		<actCopyPath Caption="Pfad kopieren" Hint="Kompletten Pfad zu ausgewählter Datei kopieren"/>
 		<actExtract Caption="Extrahieren..." Hint="Datei extrahieren"/>
 		<actSaveContent Caption="Inhalt speichern / exportieren" Hint="Dateiinhalt speichern / exportieren"/>
         <actSaveRawContent Caption="Rohdaten speichern" Hint="Rohdaten exportieren"/>
@@ -188,21 +183,15 @@
 		<actMainMenuBar Caption="Menüleiste" Hint="Menüleiste anzeigen oder ausblenden"/>
 		<!-- Help Action's -->
 		<actHelpVerifyGame Caption="Wie man Spieldateien überprüft und wiederherstellt..." Hint=""/>
-		<actReportBug Caption="Einen Bug melden" Hint=""/>
-		<actAbout Caption="Über..." Hint="Über"/>
+		<actSocialMedia Caption="Trete der $AppName$ Community bei" Hint=""/>
+		<actForums Caption="Trete der $AppName$ Diskussion bei" Hint=""/>
+		<actSupportDonate Caption="Unterstütze $AppName$" Hint=""/>
 		<actGoToWeb Caption="Zur Webseite..." Hint=""/>
 		<actSendFeedback Caption="Feedback abgeben" Hint=""/>
-		<actUpdate Caption="Nach Updates suchen..." Hint=""/>
-		<actDonate Caption="An $AppName$ spenden..."      Hint=""/>
-		<actWebIV Caption="Bei $WebName$ anmelden"      Hint=""/>
-		<actFAQ Caption="Häufig gestellte Fragen" Hint=""/>
-		<!-- Social -->
-		<actSocialYouTube Caption="$AppName$ YouTube - Kanal" Hint=""/>
-		<actSocialFacebook Caption="$AppName$ Facebookseite" Hint=""/>
-		<actSocialTwitter Caption="$AppName$ auf Twitter" Hint=""/>
-		<actSocialVKCom Caption="$AppName$ auf VK" Hint=""/>
 		<!-- Only in Win7 and later -->
+		<actReportBug Caption="Einen Bug melden" Hint=""/>
 		<actWin7ReportTool Caption="Bildschirm aufzeichnen, um Problem zu reproduzieren" Hint=""/>
+		<actAbout Caption="Über..." Hint="Über"/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Alle Gruppen einklappen" Hint=""/>
 		<actExpandAll Caption="Alle Gruppen ausklappen" Hint=""/>
@@ -222,6 +211,7 @@
 		<actFilterByType Caption="Nach Typ sortieren" Hint=""/>
 		<actFilterOnlyThis Caption="Nur dieses Element anzeigen" Hint=""/>
 		<!-- Tree -->
+		<actTreeCopyName Caption="Namen kopieren" Hint=""/>
 		<actTreeCopyAsPath Caption="Als Pfad kopieren" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Im Windows Explorer anzeigen" Hint=""/>
 		<actTreeCloseArchive Caption="Archiv schließen" Hint=""/>
@@ -364,6 +354,8 @@
         <cbClearSearchFilterAfterOpeningArchive Caption='Suchfilter nach öffnen eines Archives leeren'/>
         <cbUseAlternativeWayOfAddingFolders Caption="Den alt(ernativ)en Weg benutzen, um Ordner durch Drag n' drop hinzuzufügen"/>
  		<tbFileAssociation Caption="Dateizuordnungen ändern"/>
+		<cbDisplayExitConfirmationDialog Caption="Bestätigung beim Beenden anzeigen"/>
+		<cbStartWithLocationFromLastSession Caption="Starte $AppName$ in das letzte Verzeichnis von letzter Sitzung"/>
  		<!-- "mods" Ordner -->
  		<tabModsFolder Caption="$ModsFolder$ Ordner"/>
  		<lbModsFolderText Caption="Auf dieser Seite lassen sich auf den $ModsFolder$ Ordner bezogene Einstellungen anpassen."/>
@@ -389,6 +381,15 @@
 		<lbCameraControl Caption="Kamera - Kontrollschema"/>
  		<cbRenderAntialiasing Caption="AntiAliasing aktivieren"/>
  		<lbChooseEditorTheme Caption="Farbschema für Texteditor wählen"/>
+		<lbMultichannelAudioPlayback Caption="Multichannel Audio wiedergabe"/>
+		<cbMultichannelAudioPlayback>
+				<Items>
+						<Item Index="0" Value="Spiele Multichannel audio im Mono modus"/>
+						<Item Index="1" Value="Spiele Multichannel audio im Stereo modus"/>
+						<Item Index="2" Value="Spiele Multichannel audio im Multichannel modus"/>
+				</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="Beachte: Stelle sicher dass dein System in der Lage ist Surround Sound abzuspielen, ansonsten wirst du nicht in der Lage sein den meisten Audio inhalt zu hören."/>
  		<!-- openFormats -->
  		<tabFormats Caption="openFormats"/>
  		<lbDefTextureFormat Caption="Standard Texturendateiformat"/>

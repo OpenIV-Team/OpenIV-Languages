@@ -17,6 +17,14 @@
 		<string name="IMPORT">Importieren</string>
 		<string name="SEARCH">Suchen</string>
 		
+		<!-- Context menu -->
+		<string name="COPY_ID">ID kopieren</string>
+		<string name="COPY_NAME">Namen kopieren</string>
+		<string name="COPY_LINE">Zeile kopieren</string>
+		<string name="COPY_VALUE">Wert kopieren</string>
+		<string name="COPY_PROPERTIES">Eigenschaften kopieren</string>
+		<string name="EXPORT_TEXTURE">Exportieren</string>
+		
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Kameramodus:</string>
 		<string name="CAMERA_MODE_FREE">Frei</string>
@@ -27,6 +35,7 @@
 		<string name="GEOMETRY">Geometrie:</string>		
 		<string name="EDGED_FACES">Scharfe Flächen:</string>
 		<string name="DISPLAY_POINTS">Punkte anzeigen:</string>
+		<string name="EDGE_COLOR">Flächen Farbe</string>
 
 		<!-- Base information -->
 		<string name="POLYGONS">Vielecke:</string>

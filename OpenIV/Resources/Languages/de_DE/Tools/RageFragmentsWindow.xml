@@ -20,6 +20,8 @@
 		<string name="CHECK_ALL">Alle auswählen</string>
 		<string name="UNCHECK_ALL">Keine auswählen</string>
 		<string name="ALSO_HIDE_CHILDREN">Kinder auch verstecken</string>
+		<string name="PLAY_FORWARD">Vorwärts abspielen</string>
+		<string name="PLAY_BACKWARDS">Rückwärts abspielen</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Benutze die Maus um dich umzuschauen und diese Tasten für die Steuerung:
 			

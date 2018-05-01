@@ -17,6 +17,7 @@
 		<string name="MISSED_ANIMATIONS_MSG">$AppName$ konnte einige Animationen nicht laden, da die zugehörigen Dateien fehlen.</string>
 		<string name="FRAMES_">Bild: </string>
 		<string name="TIME_SCALE_X">Zeit: x</string>
+		<string name="NO_AUDIO_FILE">Kein Ton: Sound datei für diese Cutscene fehlt</string>
 		<!-- help -->
 		<string name="HELP_TITLE">Animationswiedergabe - Hilfe</string>
 		<text name="HELP_TEXT">
