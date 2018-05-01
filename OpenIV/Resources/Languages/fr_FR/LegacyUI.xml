@@ -82,14 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Confirmation"/>
 				<Item Index="70" Value='Tous les changements effectués dans « $ModsFolderPath$update\update.rpf » seront perdus.\nVoulez vous continuer ?'/>
 				<Item Index="71" Value='Chercher « %s » dans toutes les archives'/>
-				<Item Index="72" Value=""/>
-				<Item Index="73" Value=""/>
-				<Item Index="74" Value=""/>
-				<Item Index="75" Value=""/>
-				<Item Index="76" Value=""/>
-				<Item Index="77" Value=""/>
-				<Item Index="78" Value=""/>
-				<Item Index="79" Value=""/>
+				<Item Index="72" Value="Voulez-vous vraiment quitter $AppName$ ?"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
@@ -153,14 +146,16 @@
 		<actEditMode Caption="Mode Édition" Hint=""/>
 		<actReadMode Caption="Mode lecture seule" Hint=""/>
 		<actCloseAllArchives Caption="Fermer toutes les archives" Hint="Fermer toutes les archives ouvertes"/>
+		<actCloseAllFolders Caption="Fermer tous les dossiers" Hint="Fermer tous les dossiers ouverts"/>
 		<actCloseArchive Caption="Fermer l'archive" Hint="Fermer cette archive"/>
 		<actExit Caption="Quitter" Hint="Quitter"/>
 		<!-- Edit Action's -->
-		<actPreview Caption="Voir..." Hint="Voir le fichier"/>
-		<actEditFile Caption="Édition..." Hint="Éditer le fichier"/>
+		<actOpen Caption="Ouvrir" Hint="Ouvrir le fichier"/>
+		<actEditFile Caption="Editer" Hint="Editer le fichier sélectionné"/>
 		<actViewAsHex Caption="Voir en hexadécimal..." Hint="Afficher le code hexadécimal du fichier"/>
 		<actViewAsText Caption="Voir comme texte..." Hint="Afficher le fichier en tant que texte"/>
-		<actCopyPath Caption="Copier le chemin d'accès" Hint="Copier le chemin d'accès du fichier"/>
+		<actCopyName Caption="Copier le nom" Hint="Copier le nom du fichier sélectionné"/>
+		<actCopyPath Caption="Copier le chemin d'accès" Hint="Copier le chemin d'accès du fichier sélectionné"/>
 		<actExtract Caption="Extraire..." Hint="Extraire le fichier"/>
 		<actSaveContent Caption="Sauvegarder le contenu/Exporter" Hint="Sauvegarder le contenu/Exporter"/>
 		<actSaveRawContent Caption="Sauvegarder le contenu raw" Hint="Exporter les données du fichier raw"/>
@@ -188,21 +183,14 @@
 		<actMainMenuBar Caption="Barre de menu" Hint="Barre de menu"/>
 		<!-- Help Action's -->
 		<actHelpVerifyGame Caption="Comment vérifier et restaurer les fichiers du jeu..." Hint=""/>
-		<actReportBug Caption="Signaler un bug" Hint=""/>
-		<actAbout Caption="À propos..." Hint="À propos"/>
+		<actSocialMedia Caption="Rejoindre la communauté $AppName$" Hint=""/>
+		<actForums Caption="Rejoindre les discussions à propos de $AppName$" Hint=""/>
+		<actSupportDonate Caption="Soutenir $AppName$" Hint=""/>
 		<actGoToWeb Caption="Site internet..." Hint=""/>
 		<actSendFeedback Caption="Donner un avis" Hint=""/>
-		<actUpdate Caption="Vérifier les mises à jour..." Hint=""/>
-		<actDonate Caption="Donner à $AppName$..." Hint=""/>
-		<actWebIV Caption="S'inscrire sur $WebName$" Hint=""/>
-		<actFAQ Caption="FAQ" Hint=""/>
-		<!-- Social -->
-		<actSocialYouTube Caption="Chaîne Youtube $AppName$" Hint=""/>
-		<actSocialFacebook Caption="Page Facebook $AppName$" Hint=""/>
-		<actSocialTwitter Caption="$AppName$ sur Twitter" Hint=""/>
-		<actSocialVKCom Caption="Page VK $AppName$" Hint=""/>
-		<!-- Only in Win7 and later -->
-		<actWin7ReportTool Caption="Enregistrer les étapes pour reproduire un problème" Hint=""/>
+		<actReportBug Caption="Reporter un bug" Hint=""/>
+		<actWin7ReportTool Caption="Enregistrer les étapes pour reproduire un problème" Hint=""/> <!-- Only in Win7 and later -->
+		<actAbout Caption="A propos..." Hint="About"/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Réduire tous les groupes" Hint=""/>
 		<actExpandAll Caption="Développer tous les groupes" Hint=""/>
@@ -222,6 +210,7 @@
 		<actFilterByType Caption="Trier par type" Hint=""/>
 		<actFilterOnlyThis Caption="Afficher seulement ceci" Hint=""/>
 		<!-- Tree -->
+		<actTreeCopyName Caption="Copier le nom" Hint=""/>
 		<actTreeCopyAsPath Caption="Copier en tant que chemin d'accès" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Ouvrir dans l'Explorateur Windows" Hint=""/>
 		<actTreeCloseArchive Caption="Fermer l'archive" Hint=""/>
@@ -342,7 +331,7 @@
 		<gbGamePath Caption="Répertoire de $RageGAME_SHORT$"/>
 		<lbCurrentGamePath Caption="Répertoire actuel :"/>
 		<tbChangeGame Caption="Changer de répertoire"/>
-		<ttRageExe Caption="To get $AppName$ works, in this directory shoud be placed this file: $RageEncryptionStorage$"/>
+		<ttRageExe Caption="Pour que $AppName$ fonctionne, ce fichier doit être placé dans ce répertoire : $RageEncryptionStorage$"/>
 		<!-- General -->
 		<tabMain Caption="Général"/>
 		<lbDefaultGame Caption="Sélectionnez le jeu par défaut"/>
@@ -361,8 +350,10 @@
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Pour les vrais fichiers, utiliser la corbeille au lieu de supprimer"/>
 		<cbCloseArchivesAtStartGame Caption="Fermer toutes les archives ouvertes à l'ouverture du jeu"/>
 		<cbClearSearchFilterAfterOpeningArchive Caption="Nettoyer les filtres de recherche après ouverture d'une archive"/>
-		<cbUseAlternativeWayOfAddingFolders Caption='Use alternative (old) way of adding folders after drag and drop'/>
-		<tbFileAssociation Caption="Change file association"/>
+		<cbUseAlternativeWayOfAddingFolders Caption="Utiliser l'ancienne manière d'ajouter les dossiers après un drag and drop"/>
+		<tbFileAssociation Caption="Changer l'association des fichiers"/>
+		<cbDisplayExitConfirmationDialog Caption="Demander confirmation pour quitter"/>
+		<cbStartWithLocationFromLastSession Caption="Démarrer $AppName$ au même emplacement qu'à la fermeture de la session précédente"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Dossier $ModsFolder$"/>
 		<lbModsFolderText Caption="Sur cette page, vous pouvez changer les paramètres relatifs au dossier $ModsFolder$."/>
@@ -388,10 +379,19 @@
 		<lbCameraControl Caption="Mode de contrôle caméra"/>
 		<cbRenderAntialiasing Caption="Activer l'AntiAliasing"/>
 		<lbChooseEditorTheme Caption="Choisissez une couleur pour l'éditeur de texte"/>
-		<!-- openFormats -->
+		<lbMultichannelAudioPlayback Caption="Audio multicanaux"/>
+		<cbMultichannelAudioPlayback>
+			<Items>
+				<Item Index="0" Value="Jouer les fichiers audio multicanaux en mono"/>
+				<Item Index="1" Value="Jouer les fichiers audio multicanaux en stéréo"/>
+				<Item Index="2" Value="Jouer les fichiers audio multicanaux en multicanaux"/>
+			</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="Note : Assurez-vous que votre système est capable de jouer du son surround, autrement vous n'entendrez pas du tout certains canaux."/>
+ 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Format de textures par défaut"/>
-		<cbNotExportTextureToFolder Caption="Ne placez pas les textures dans des dossiers différents en exportant en OTD"/>
+		<cbNotExportTextureToFolder Caption="Ne pas placer les textures dans des dossiers différents en exportant en OTD"/>
 		<gbModels Caption="Importation de modèles (ODR/ODD/OFT)"/>
 		<cbProtectModels Caption="Activer par défaut l'option de protection mesh(évite exports futurs)"/>
 		<btnSaveShaderInformation Caption="Sauvegarder les informations du shader openFormats"/>

@@ -17,6 +17,7 @@
 		<string name="MISSED_ANIMATIONS_MSG">Impossible de charger certaines animations car des fichiers sont manquants.</string>
 		<string name="FRAMES_">Images : </string>
 		<string name="TIME_SCALE_X">Vitesse : x</string>
+		<string name="NO_AUDIO_FILE">Pas de son : le fichier audio de cette cinématique est manquant</string>
 		<!-- help -->
 		<string name="HELP_TITLE">Visionneuse d'animations - Aide</string>
 		<text name="HELP_TEXT">

@@ -16,6 +16,8 @@
 		<string name="ORIGINAL_SIZE">Taille originale</string>
 		<string name="ALPHA_BACKGROUND">A.P. transparent</string>
 		<string name="SIZE_">Taille :</string>
+		<string name="SEARCH_TEXTURES">Rechercher les textures</string>
+		<string name="NO_IMAGE_FOUND">Aucune texture n'a été trouvée</string>
 
 		<string name="RENAME">Renommer</string>
 		<string name="REPLACE">Remplacer</string>
@@ -34,7 +36,7 @@
 		<!-- Import dialog -->
 		<string name="CHOOSE_IMPORT_OPTIONS">Choisissez un paramètre d'exportation</string>
 		<text name="IMPORT_QUALITY_NOTE">
-			<![CDATA[Cette option sera ignorée si vous choisissez le format DDS.
+			<![CDATA[Ces optiosn seront ignorées si vous choisissez le format DDS.
 Le format DDS est celui qui donnera la meilleure qualité.]]>
 		</text>
 		<string name="AUTO_MIPMAP">Générer automatiquement les niveaux de MipMap</string>

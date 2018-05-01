@@ -107,7 +107,6 @@
 	</openFormatsImportWindow>
 
 	<openFormatsValidatorWindow Caption="Validateur d'openFormats - $AppName$">
-		<lbTitle Caption="Rapport d'importation d'openFormats"/>
 		<btnClose Caption='Fermer'/>
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
@@ -136,7 +135,12 @@
 				<Item Index='16' Value="%S(Ligne %D): Le shader ne peut pas être dessiné"/>		
 				<Item Index='17' Value="%S(Ligne %D): Trop d'os dans la géométrie, vous ne pouvez pas en utiliser plus de 48."/>
 
-				<Item Index='18' Value="%S(Line %D): %S"/>						
+				<Item Index='18' Value="%S(Line %D): %S"/>
+
+				<!-- Export/Import -->
+				<Item Index='19' Value="Rapport d'importation openFormats"/>
+				<Item Index='20' Value="Rapport d'exportation openFormats"/>
+				<Item Index='21' Value="Certains fichiers n'ont pas été exportés, plus de détails ci-dessous."/>		
 			</StringList>
 		</AeroWindow>	
 	</openFormatsValidatorWindow>	

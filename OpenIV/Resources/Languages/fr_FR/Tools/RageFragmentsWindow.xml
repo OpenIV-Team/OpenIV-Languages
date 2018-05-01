@@ -20,6 +20,8 @@
 		<string name="CHECK_ALL">Tout sélectionner</string>
 		<string name="UNCHECK_ALL">Tout désélectionner</string>
 		<string name="ALSO_HIDE_CHILDREN">Cacher aussi les enfants</string>
+		<string name="PLAY_FORWARD">Jouer en avant</string>
+		<string name="PLAY_BACKWARDS">Jouer en arrière</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Utilisez la souris pour regarder autour, déplacez l'angle de vue avec les touches suivantes :
 			

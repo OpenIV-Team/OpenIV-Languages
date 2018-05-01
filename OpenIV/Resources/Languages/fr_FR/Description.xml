@@ -24,22 +24,24 @@
 	</type>
 	<type Name="Métadonnée (PSO/RSC)">
 		<ext>pso</ext>
+
 		<ext>ymt</ext>
-		<ext>ymf</ext>
 		<ext>xmt</ext>
-		<ext>xmf</ext>
 		<ext>cmt</ext>
 		<ext>cmf</ext>
+		<ext>omt</ext>
 	</type>
 	<type Name="Effet de particules">
 		<ext>ypt</ext>
 		<ext>xpt</ext>
 		<ext>cpt</ext>
+		<ext>opt</ext>
 	</type>
 	<type Name="Sauvegarde de waypoint">
 		<ext>ywr</ext>
 		<ext>xwr</ext>
 		<ext>cwr</ext>
+		<ext>owr</ext>
 	</type>
 	<type Name="Objet Javascript">
 		<ext>json</ext>
@@ -48,11 +50,13 @@
 		<ext>ymap</ext>
 		<ext>xmap</ext>
 		<ext>cmap</ext>
+		<ext>omap</ext>
 	</type>
 	<type Name="Entrées de définition (PSO/RSC)">
 		<ext>ytyp</ext>
 		<ext>xtyp</ext>
 		<ext>ctyp</ext>
+		<ext>otyp</ext>
 	</type>
 	<type Name="Tableau de noms">
 		<ext>nametable</ext>
@@ -130,156 +134,182 @@
 		<ext>csc</ext>
 		<ext>wsc</ext>
 		<ext>ysc</ext>
+		<ext>osc</ext>
 	</type>
 	<type Name="Tableau de textes">
 		<ext>xst</ext>
 		<ext>cst</ext>
 		<ext>wst</ext>
 		<ext>yst</ext>
+		<ext>ost</ext>
 	</type>
 	<type Name="Ressource de texture">
 		<ext>xtx</ext>
 		<ext>ctx</ext>
 		<ext>wtx</ext>
 		<ext>ytx</ext>
+		<ext>otx</ext>
 	</type>
 	<type Name="Pistes d'action">
 		<ext>xat</ext>
 		<ext>cat</ext>
 		<ext>wat</ext>
 		<ext>yat</ext>
+		<ext>oat</ext>
 	</type>
 	<type Name="Nav mesh">
 		<ext>xnm</ext>
 		<ext>cnm</ext>
 		<ext>wnm</ext>
 		<ext>ynm</ext>
+		<ext>onm</ext>
 	</type>
 	<type Name="Information de secteur">
 		<ext>xsi</ext>
 		<ext>csi</ext>
 		<ext>wsi</ext>
 		<ext>ysi</ext>
+		<ext>osi</ext>
 	</type>
 	<type Name="Données de volume">
 		<ext>xvd</ext>
 		<ext>cvd</ext>
 		<ext>wvd</ext>
 		<ext>yvd</ext>
+		<ext>ovd</ext>
 	</type>
 	<type Name="Collision de terrain">
 		<ext>xtb</ext>
 		<ext>ctb</ext>
 		<ext>wtb</ext>
 		<ext>ytb</ext>
+		<ext>otb</ext>
 	</type>
 	<type Name="Dictionnaire de textures">
 		<ext>wtd</ext>
 		<ext>xtd</ext>
 		<ext>ctd</ext>
 		<ext>ytd</ext>
+		<ext>otd</ext>
 	</type>
 	<type Name="Dictionnaire d'animations">
 		<ext>wad</ext>
 		<ext>xad</ext>
 		<ext>cad</ext>
 		<ext>yad</ext>
+		<ext>oad</ext>
 	</type>
 	<type Name="Dictionnaire de collisions">
 		<ext>wbd</ext>
 		<ext>xbd</ext>
 		<ext>cbd</ext>
 		<ext>ybd</ext>
+		<ext>obd</ext>
 	</type>
 	<type Name="Dictionnaire">
 		<ext>wdd</ext>
 		<ext>xdd</ext>
 		<ext>cdd</ext>
 		<ext>ydd</ext>
+		<ext>odd</ext>
 	</type>
 	<type Name="Objet étirable">
 		<ext>wdr</ext>
 		<ext>xdr</ext>
 		<ext>cdr</ext>
 		<ext>ydr</ext>
+		<ext>odr</ext>
 	</type>
 	<type Name="Objet fragmenté">
 		<ext>wft</ext>
 		<ext>xft</ext>
 		<ext>cft</ext>
 		<ext>yft</ext>
+		<ext>oft</ext>
 	</type>
 	<type Name="Objet HTML">
 		<ext>whm</ext>
 		<ext>xhm</ext>
 		<ext>chm</ext>
 		<ext>yhm</ext>
+		<ext>ohm</ext>
 	</type>
 	<type Name="Collision statique">
 		<ext>wbn</ext>
 		<ext>xbn</ext>
 		<ext>cbn</ext>
 		<ext>ybn</ext>
+		<ext>obn</ext>
 	</type>
 	<type Name="Nav mesh">
 		<ext>wnv</ext>
 		<ext>xnv</ext>
 		<ext>cnv</ext>
 		<ext>ynv</ext>
+		<ext>onv</ext>
 	</type>
 	<type Name="Blendshapes">
 		<ext>wbs</ext>
 		<ext>xbs</ext>
 		<ext>cbs</ext>
 		<ext>ybs</ext>
+		<ext>obs</ext>
 	</type>
 	<type Name="Bibliothèque d'effets de particules">
 		<ext>wpfl</ext>
 		<ext>xpfl</ext>
 		<ext>cpfl</ext>
 		<ext>ypfl</ext>
+		<ext>opfl</ext>
 	</type>
 	<type Name="Sauvegarde de véhicules">
 		<ext>xvr</ext>
 		<ext>cvr</ext>
 		<ext>wvr</ext>
 		<ext>yvr</ext>
+		<ext>ovr</ext>
 	</type>
 	<type Name="Sauvegarde de personnages">
 		<ext>xpr</ext>
 		<ext>cpr</ext>
 		<ext>wpr</ext>
 		<ext>ypr</ext>
+		<ext>opr</ext>
 	</type>
 	<type Name="Noeud de chemin d'accès">
 		<ext>xnd</ext>
 		<ext>cnd</ext>
 		<ext>wnd</ext>
 		<ext>ynd</ext>
+		<ext>ond</ext>
 	</type>
 	<type Name="Dictionnaire de clips">
 		<ext>xcd</ext>
 		<ext>ccd</ext>
 		<ext>wcd</ext>
 		<ext>ycd</ext>
+		<ext>ocd</ext>
 	</type>
 	<type Name="Dictionnaire d'expressions">
 		<ext>xed</ext>
 		<ext>ced</ext>
 		<ext>wed</ext>
 		<ext>yed</ext>
+		<ext>oed</ext>
 	</type>
 	<type Name="Dictionnaire de blendshapes">
 		<ext>xsd</ext>
 		<ext>csd</ext>
 		<ext>wsd</ext>
 		<ext>ysd</ext>
+		<ext>osd</ext>
 	</type>
 	<type Name="Dictionnaire de vêtements">
 		<ext>xld</ext>
 		<ext>cld</ext>
 		<ext>wld</ext>
 		<ext>yld</ext>
+		<ext>old</ext>
 	</type>
 	<type Name="Ressources d'animations">
 		<ext>wan</ext>

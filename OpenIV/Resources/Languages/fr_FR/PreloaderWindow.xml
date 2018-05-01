@@ -49,6 +49,7 @@
 					<Item Index='22' Value="Erreur: $RageGAME$ est lancé. Fermez le jeu avant d'utiliser $AppName$."/>
 					<Item Index='23' Value="Terminé.\nLes permissions ont été définies pour le répertoire."/>
 					<Item Index='24' Value="Impossible de définir les permissions."/>
+					<Item Index='25' Value="Erreur : La clé de chiffrement n'a pas été trouvée dans le fichier '$RageEncryptionStorage$'."/> 
 				</Lines>
 			</StringList>
 		</WelcomeScreen>
@@ -84,7 +85,7 @@
 			<btnExit Caption='Quitter'/>
 			<btnContinue Caption='Continuer'/>
 			<!-- Strings -->
-			<StringList SetCount='10'>
+			<StringList SetCount='20'>
 				<Lines>
 					<Item Index='00' Value='Erreur fatale'/>
 					<Item Index='01' Value='Vous avez installé $AppName$ dans le même dossier que "$RageEncryptionStorage$".\nMerci de placer $AppName$ dans un répertoire différent.'/>
@@ -96,6 +97,7 @@
 					<Item Index='07' Value='Validé : $RageEncryptionStorage$, version %s\n$AppName$ peut travailler avec ce fichier.'/>
 					<Item Index='08' Value='Parcourir'/>
 					<Item Index='09' Value="Erreur: $AppName$ n'a pas les permissions nécessaires pour modifier ce répertoire.\nLancez $AppName$ en tant qu'administrateur."/>
+					<Item Index='10' Value="Erreur : La clé de chiffrement n'a pas été trouvée dans le fichier '$RageEncryptionStorage$'."/> 
 				</Lines>
 			</StringList>
 		</ChangeGameScreen>

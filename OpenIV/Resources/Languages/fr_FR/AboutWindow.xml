@@ -6,12 +6,22 @@
 		<string name="VERSION_LABEL_3">Version %D.%D.%D (Build %D; Date %S)</string>
 		<string name="THE_TEAM">L'équipe</string>
 		<string name="THIRD_PARTY">Fonctions tierces</string>
-		<string name="THIRD_PARTY_LINE_1">Ce logiciel utilise des fonctions</string>
-		<string name="THIRD_PARTY_LINE_2">fournies par un tiers.</string>
+		<string name="THIRD_PARTY_LINE">Ce logiciel utilise des fonctions fournies par des tiers.</string>
 		<string name="THANKS_TO">Merci à</string>
 		<string name="ALPHABETICALLY">(par ordre alphabétique)</string>
 		<string name="SPECIAL_THANKS_TO">Remerciement spécial à</string>
 		<string name="LICENSE_TERMS">Conditions de licence</string>
 		<string name="LOCALIZATION">Contributeurs aux traductions</string>
+		<string name="DEBUG_INFO">Debug information</string>
+		<string name="CLIENT_ID">Client Id</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">Rejoindre la communauté $AppName$</string>
+		<string name="JOIN_DISCUSSION">Rejoindre les discussions à propos de $AppName$</string>
+		<string name="SUPPORT_DONATE">Soutenir $AppName$</string>
+		<string name="WELCOME_TO_VER">Bienvenue dans %S</string>
+		<string name="WATCH_THE_VIDEO">Voulez vous regarder la vidéo à propos des changements dans cette nouvelle version ?</string>
+		<string name="VIDEO_NOTE">Il est possible qu'une publicité s'affiche avant la vidéo. En la regardant, vous soutiendrez $AppName$.</string>
+		<string name="NO_THANKS">Non merci</string>
 	</RenderUI>
 </Translation>
