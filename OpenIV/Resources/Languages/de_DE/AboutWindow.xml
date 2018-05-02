@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<AboutWindow3 Caption='Über $AppName$'/>
 	<RenderUI>
@@ -6,7 +6,7 @@
 		<string name="VERSION_LABEL_3">Version %D.%D.%D (Build %D; Date %S)</string>
 		<string name="THE_TEAM">Das Team</string>
 		<string name="THIRD_PARTY">Drittanbieter</string>
-		<string name="THIRD_PARTY_LINE">Diese Anwendung nutzt einige Teile, Diese Anwendung nutzt einige Teile, die von dritter Seite angeboten werden.</string>
+		<string name="THIRD_PARTY_LINE">Diese Anwendung nutzt einige Teile, die von dritter Seite angeboten werden.</string>
 		<string name="THANKS_TO">Danke an</string>
 		<string name="ALPHABETICALLY">(alphabetisch)</string>
 		<string name="SPECIAL_THANKS_TO">Besonderen Dank auch an</string>
