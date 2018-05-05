@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<PreloaderWindow>
 		<WelcomeScreen>
@@ -49,6 +49,7 @@
 					<Item Index='22' Value="Error: $RageGAME$ está en proceso. Cierra el juego antes de utilizar $AppName$."/>
 					<Item Index='23' Value="Todo hecho.\nLos permisos fueron establecidos a la carpeta de tu juego"/>
  					<Item Index='24' Value="Incapaz de establecer los permisos."/>
+					<Item Index='25' Value="Error: La clave the encriptación no fue encontrada en el archivo '$RageEncryptionStorage$'."/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>
@@ -64,7 +65,7 @@
 			<lbCurrentVersion Caption='Tu versión:'/>
 			<lbNewVersion Caption='Nueva versión:'/>
 			<!-- Strings -->
-			<StringList SetCount='10'>
+			<StringList SetCount='20'>
 				<Lines>
 					<Item Index='0' Value=' Mb'/>
 					<Item Index='1' Value='Preparandose para descargar...'/>
@@ -76,6 +77,7 @@
 					<Item Index='7' Value='Esta actualización contine nuevas características, arreglos de errores, cambios en la interfaz e importantes mejoras.'/>
 					<Item Index='8' Value=''/>
 					<Item Index='9' Value=''/>
+					<Item Index='10' Value="Error: La clave the encriptación no fue encontrada en el archivo '$RageEncryptionStorage$'."/>
 				</Lines>
 			</StringList>
 		</UpdateScreen>
