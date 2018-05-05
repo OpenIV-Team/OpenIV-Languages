@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Favorites -->
@@ -107,7 +107,6 @@
 	</openFormatsImportWindow>
 
 	<openFormatsValidatorWindow Caption='$AppName$ - Validador de openFormats'>
-		<lbTitle Caption='Reportar importe de openFormats'/>
 		<btnClose Caption='Cerrar'/>
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
@@ -136,7 +135,13 @@
 				<Item Index='16' Value="%S(Line %D): Un Shader no puede ser articulado."/>		
 				<Item Index='17' Value="%S(Line %D): Demasiados huesos para un modelo, no puedes usar más de 48 huesos."/>
 
-				<Item Index='18' Value="%S(Line %D): %S"/>						
+				<Item Index='18' Value="%S(Line %D): %S"/>	
+
+				<!-- Export/Import -->
+				<Item Index='19' Value='Reportar importe de openFormats'/>
+				<Item Index='20' Value='Reportar exporte de openFormats'/>
+				<Item Index='21' Value='Algunos archivos no se exportaron, más imformación abajo.'/>
+								
 			</StringList>
 		</AeroWindow>	
 	</openFormatsValidatorWindow>	
