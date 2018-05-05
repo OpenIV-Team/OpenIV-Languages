@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GlobalStrings>
+	<StringList>
+		<Item Index='00' Value='Progresso...'/>
+		<Item Index='01' Value='File attuale: '/>
+		<Item Index='02' Value='Cerca - $AppName$'/>
+		<Item Index='03' Value='Cercando, Attendere...'/>
+		<Item Index='04' Value='Chiudi'/>
+		<Item Index='05' Value=''/>
+		<Item Index='06' Value='Si'/>
+		<Item Index='07' Value='No'/>
+		<Item Index='08' Value=' bytes'/>
+		<Item Index='09' Value=' KB'/>
+		<Item Index='10' Value=' MB'/>
+		<Item Index='11' Value='Attenzione, sei nella Modalità Editor!'/>
+		<Item Index='12' Value='Durante la Modalità Editor, tutte le modifiche verranno salvate automaticamente. Vuoi continuare?'/>
+		<Item Index='13' Value='Cartella di destinazione:'/>
+		<Item Index='14' Value="L'applicazione esterna sta funzionando..."/>
+		<Item Index='15' Value='Crea nuovo %S'/>
+		<Item Index='16' Value='$AppName$ - Informazioni'/>
+		<Item Index='17' Value='Errore nel caricamento del file, il file probabile è corrotto.'/>
+		<Item Index='18' Value="$AppName$ - Errore durante l'apertura del file"/>
+		<Item Index='19' Value='Il file non è un archivio o ha un formato sconosciuto.'/>
+		<Item Index='20' Value='%S Gli Archivi %D non sono supportati.'/>
+		<Item Index='21' Value="$AppName$ non può aprire l'archivio, motivo:\n"/>
+		<Item Index='22' Value='$AppName$ - Crea archivio'/>
+		<Item Index='23' Value="Il nome dell'archivio non può essere vuoto."/>
+		<Item Index='24' Value='openFormats - Importa'/>
+		<Item Index='25' Value='Estensione file sconosciuto: %S'/>
+		<Item Index='26' Value='$AppName$ - Errore DirectX'/>
+		<Item Index='27' Value='$AppName$ non può inizializzare Direct3D.'/>
+		<Item Index='28' Value='Avvia $RageGAME_SHORT$'/>
+		<Item Index='29' Value="$AppName$ non trova il file IDE associato"/>
+		<Item Index='30' Value="$AppName$ non è in grado di aprire il file. Ecco listati possibili motivi:\n\nAccesso negato. Prova ad avviare $AppName$ come amministratore.\nUn altro processo sta usando i file. Chiudi gli altri programmi e riprova.\n\n"/>
+		<Item Index='31' Value='Cartella di destinazione:'/>
+		<Item Index='32' Value="Impossibile aprire l'archivio: Errore sconosciuto."/>
+		<Item Index='33' Value="Impossibile aprire l'archivio: Percorso non trovato"/>
+		<Item Index='34' Value="Impossibile aprire l'archivio: Accesso negato o il file viene utilizzato in un altro programma."/>
+		<Item Index='35' Value="Impossibile aprire l'archivio: Formato file sconosciuto o archivio danneggiato."/>
+		<Item Index='36' Value="Impossibile aprire l'archivio: Archivio danneggiato."/>
+		<Item Index='37' Value="Impossibile aprire l'archivio: Chiave di crittografia sconosciuta, probabilmente l'archivio è di un gioco o piattaforma diverso."/>
+		<Item Index='38' Value='Unable to create new archive.'/>
+		<Item Index='39' Value='$AppName$ - Nessun dispositivo audio'/>
+		<Item Index='40' Value="Il file audio non può essere riprodotto. Nessun dispositivo di riproduzione audio disponibile"/>
+		<Item Index='41' Value='$AppName$ non è in grado di trovare un modo per gestire questo file\nPercorso File: "%s"'/>
+		<Item Index='42' Value='$AppName$ non è in grado di trovare o aprire questo file\nPercorso file: "%s"'/>
+		<Item Index='43' Value='$AppName$ non può aprire questo file perché supera i 256 MB.'/>
+		<Item Index='44' Value='$AppName$ non è in grado di mostrare i contenuti di questo file. Il file non può essere salvato come XML, Codice di errore: %s'/>
+		<Item Index='45' Value='$AppName$ non può aprire questo file . Codice errore: %s'/>
+	</StringList>
+	<tools>
+		<item Name="Tools.Common.RunGame" Title="Avvia $RageGAME_SHORT$" Hint="Avvia $RageGAME$"/>
+		<item Name="Tools.Common.Search" Title="Cerca" Hint="Avvia ricerca"/>
+		<item Name="Tools.Common.HashGenerator" Title="Generatore Hash" Hint="Apri generatore hash"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Installatore pacchetti" Hint="Apri l'installatore pacchetti"/>
+		<item Name="Tools.GTAIV.PlacementSearch" Title="Ricerca posizione" Hint="Avvia ricerca posizione"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Trova posizione" Hint="Apri trova posizione"/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Trova in IDE" Hint="Trova in IDE"/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Visuliuzzatore animazioni" Hint="Apri il visualizzatore delle animazioni"/>
+		<item Name="Tools.GTAV.ASIManager" Title="Gestione ASI" Hint="Apri il gestore ASI"/>
+		<item Name="Files.Common.AudioPlayer" Title="Audio player" Hint=""/>
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Exporta in openFormats (.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer" Title="Visualizzatore GXT" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="Visualizzatore GXT2" Hint=""/>
+		<item Name="Files.Resources.TextureEditor" Title="Visualizzatore Textures" Hint=""/>
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Editor Texture" Hint=""/>
+		<item Name="Files.Resources.CollisionViewer" Title="Visualizzatore collisioni" Hint=""/>
+		<item Name="Files.Resources.DrawableViewer" Title="Visualizzatore modelli WDR/WDD" Hint=""/>
+		<item Name="Files.Resources.FragmentsViewer" Title="Visualizzatore modelli WFT" Hint=""/>
+		<item Name="Files.Resources.NavmeshViewer" Title="Visualizzatore Nav Mesh" Hint=""/>
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Esporta scheletro in openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Edita textures incorporate" Hint="Edita con l'editor delle Texture incorporate(embedded)"/>
+	</tools>
+</GlobalStrings>

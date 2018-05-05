@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ Animation Viewer'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Visulizzatore Animazioni</string>
+		<string name="START_PED">Animazione pedone</string>
+		<string name="START_MAP">Mappa animazioni</string>
+		<string name="START_CUT">Cut scenes</string>
+		<string name="CHANGE_PED_MODEL">Cambia modello del pedone</string>
+		<string name="SELECT_PED_MODEL">Seleziona modello del pedone</string>
+		<string name="LOADING___">Caricamento...</string>
+		<string name="EMPTY_CUTSCENE">Cut-scene vuota</string>
+		<string name="EMPTY_CUTSCENE_MSG">Impossibile aprire cut-scene vuote.</string>
+		<string name="MISSED_ANIMATIONS">Animations persa</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ non è in grado di caricare alcune animazioni perché mancano i file</string>
+		<string name="FRAMES_">Fotogrammi: </string>
+		<string name="TIME_SCALE_X">Scala temporale: x</string>
+		<string name="NO_AUDIO_FILE">Nessun suono: manca il file audio per questo filmato </string>
+		<!-- help -->
+		<string name="HELP_TITLE">Visulizzatore Animazioni - Aiuto</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Seleziona la categoria e poi riproduci qualsiasi animazione. ]]>
+		</text>
+	</RenderUI>
+</Translation>

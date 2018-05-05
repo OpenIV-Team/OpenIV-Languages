@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='Riguardo a $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Versione %D.%D (Build %D; Data %S)</string>
+		<string name="VERSION_LABEL_3">Versione %D.%D.%D (Build %D; Data %S)</string>
+		<string name="THE_TEAM">La squadra</string>
+		<string name="THIRD_PARTY">Terze parti</string>
+		<string name="THIRD_PARTY_LINE">Questa applicazione utilizza alcune parti fornite da terzi.</string>
+		<string name="THANKS_TO">Grazie a</string>
+		<string name="ALPHABETICALLY">(in ordine alfabetico)</string>
+		<string name="SPECIAL_THANKS_TO">Un ringraziamento speciale a</string>
+		<string name="LICENSE_TERMS">Condizioni di licenza del software</string>
+		<string name="LOCALIZATION">Contribuenti alla traduzione</string>
+        <string name="DEBUG_INFO">Informazioni di debug</string>
+        <string name="CLIENT_ID">ID Client (Codice IDentificativo)</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">Unisciti alla community di $AppName$</string>
+		<string name="JOIN_DISCUSSION">Unisciti alla discussione di $AppName$</string>
+		<string name="SUPPORT_DONATE">Supporta $AppName$</string>
+		<string name="WELCOME_TO_VER">Benvenuto su %S</string>
+		<string name="WATCH_THE_VIDEO">Vorresti guardare un video sulle modifiche e novità di questa versione?</string>
+		<string name="VIDEO_NOTE">Guardando questo video, sosterrai $AppName$. Potrebbe apparire un annuncio pubblicitario prima o durante la riproduzione del video.</string>
+		<string name="NO_THANKS">No grazie</string>
+	</RenderUI>
+</Translation>

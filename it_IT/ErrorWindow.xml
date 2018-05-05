@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Errore Applicazione'>
+		<lbWindowTitle Caption="$AppName$ Imbattuto in un problema ingestibile, \n è necessario riavviare."/>
+		<btnCloseApp Caption='Chiudi $AppName$'/>
+		<lbReportHere Caption='Per favore segnala questo errore usando i seguenti link:'/>
+		<lnkWeb1 Caption='Visita il sito ufficiale'/>
+		<lnkWeb2 Caption='Visita il forum di supporto Internazionale'/>
+		<lnkWeb3 Caption='Visita il forum del supporto russo'/>
+		<lbText2 Caption='Strumenti aggiuntivi'/>
+		<tbCopyInfo Caption='Copia le informazioni di questo errore'/>
+		<tbWin7Report Caption='Registra i passaggi per riprodurre un problema' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Tempo: '/>
+				<Item Index='1' Value='Tipo: '/>
+				<Item Index='2' Value='Messaggio: '/>
+				<Item Index='3' Value='Informazioni Addizionali:'/>
+				<Item Index='4' Value='Mancano ulteriori informazioni.'/>
+				<Item Index='5' Value='Informazioni di errore copiate negli appunti.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>
