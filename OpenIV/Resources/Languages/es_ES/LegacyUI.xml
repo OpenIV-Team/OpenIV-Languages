@@ -82,14 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Confirmación"/>
 				<Item Index="70" Value='Todos los cambios que hiciste en "$ModsFolderPath$\update\update.rpf" van a ser perdidos.\n¿Quieres continuar?'/>
 				<Item Index="71" Value='Buscar "%s" en todos los archivos'/>
-				<Item Index="72" Value=""/>
-				<Item Index="73" Value=""/>
-				<Item Index="74" Value=""/>
-				<Item Index="75" Value=""/>
-				<Item Index="76" Value=""/>
-				<Item Index="77" Value=""/>
-				<Item Index="78" Value=""/>
-				<Item Index="79" Value=""/>
+				<Item Index="72" Value="¿Realmente quieres alir de $AppName$?"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
@@ -153,14 +146,16 @@
 		<actEditMode Caption='Modo Edición'  Hint=''/>
 		<actReadMode Caption='Modo Lectura'  Hint=''/>
 		<actCloseAllArchives Caption='Cerrar todos los archivos' Hint='Cerrar todos los archivos abiertos'/>
+		<actCloseAllFolders Caption="Cerrar todas las carpetas" Hint="Cerrar todas las carpetas abiertas"/>
 		<actCloseactCloseArchive    Caption='Cerrar archivo' Hint='Cerrar archivo actual'/>
 		<actExit     Caption='Salir' Hint='Salir'/>
 		<!-- Edit Action's -->
-		<actPreview     Caption='Ver...' Hint='Ver archivo'/>
-		<actEditFile    Caption='Editar...'    Hint='Editar archivo'/>
+		<actOpen     Caption='Open' Hint='Abrir archivo seleccionado'/>
+		<actEditFile    Caption='Editar'    Hint='Editar archivo seleccionado'/>
 		<actViewAsHex   Caption='Ver en Hex...'  Hint='Ver Hex'/>
 		<actViewAsText  Caption='Ver como texto...'  Hint='Ver como texto'/>
-		<actCopyPath    Caption='Copiar ruta' Hint='Copiar ruta del archivo actual'/>
+		<actCopyName Caption="Copy name" Hint="Copy name of selected file"/>
+		<actCopyPath Caption="Copiar ruta" Hint="Copiar ruta completa del archivo seleccionado"/>
 		<actExtract     Caption='Extraer...'   Hint='Extraer archivo'/>
 		<actSaveContent Caption='Guardar contenido/exportar' Hint='Guardar contenido del archivo/exportar'/>
 		<actSaveRawContent Caption="Guardar contenido sin procesar" Hint="Exportar datos del archivo de contenido sin procesar"/>
@@ -188,21 +183,14 @@
 		<actMainMenuBar   Caption='Barra de Menú' Hint='Barra de Menú'/>
 		<!-- Help Action's -->
 		<actHelpVerifyGame Caption="Como verificar y restaurar los archivos del juego..." Hint=""/>
-		<actReportBug    Caption="Reportar un bug" Hint=''/>
-		<actAbout        Caption='Sobre...' Hint='About'/>
+		<actSocialMedia Caption="Únete a la comunidad de $AppName$" Hint=""/>
+		<actForums Caption="Únete a la discusión de $AppName$" Hint=""/>
+		<actSupportDonate Caption="Soporta $AppName$" Hint=""/>
 		<actGoToWeb      Caption='Ir al sitio web...' Hint=''/>
 		<actSendFeedback Caption='Envíanos tus comentarios' Hint=''/>
-		<actUpdate       Caption='Chequear actualizaciones...' Hint=''/>
-		<actDonate       Caption='Donar a $AppName$...'      Hint=''/>
-		<actWebIV        Caption='Inscribirse a $WebName$'      Hint=''/>
-		<actFAQ          Caption='Preguntas frecuentes' Hint=''/>
-		<!-- Social -->
-		<actSocialYouTube Caption='Canal de Youtube de $AppName$' Hint=''/>
-		<actSocialFacebook Caption='Página de Facebook de $AppName$' Hint=''/>
-		<actSocialTwitter Caption='$AppName$ en Twitter' Hint=''/>
-		<actSocialVKCom Caption='Página en VK de $AppName$' Hint=''/>
-		<!-- Only in Win7 and later -->
+		<actReportBug Caption="Reportar un bug" Hint=""/>
 		<actWin7ReportTool Caption='Registro de los pasos para reproducir el problema' Hint=''/>
+		<actAbout Caption="Sobre..." Hint="About"/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption='Colapsar todos los grupos' Hint=''/>
 		<actExpandAll   Caption='Expandir todos los grupos' Hint=''/>
@@ -222,6 +210,7 @@
 		<actFilterByType  Caption='Filtrar por tipo' Hint=''/>
 		<actFilterOnlyThis Caption='Mostrar solo estos' Hint=''/>
 		<!-- Tree -->
+		<actTreeCopyName Caption="Copiar nombre" Hint=""/>
 		<actTreeCopyAsPath Caption='Copiar como ruta' Hint=''/>
 		<actTreeShowInWindowsExplorer Caption='Mostrar en el Explorador de Windows' Hint=''/>
 		<actTreeCloseArchive Caption='Cerrar archivo' Hint=''/>
@@ -363,6 +352,8 @@
 		<cbClearSearchFilterAfterOpeningArchive Caption='Borrar filtrador de busqueda luego de abierto el archivo'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Usa la alternativa (vieja) manera de añadir carpetas luego del arrastrar y soltar'/>
  		<tbFileAssociation Caption="Cambiar asociación de archivos"/>
+		<cbDisplayExitConfirmationDialog Caption="Mostrar confirmación de la ventana de salida"/>
+		<cbStartWithLocationFromLastSession Caption="Empezar $AppName$ con la ubicación de la última sesión"/>
  		<!-- "mods" folder -->
  		<tabModsFolder Caption="Carpeta de $ModsFolder$"/>
  		<lbModsFolderText Caption="En esta página puedes cambiar configuraciones relacionadas con la carpeta de $ModsFolder$."/>
@@ -388,6 +379,15 @@
 		<lbCameraControl Caption="Esquema de control de cámara"/>
  		<cbRenderAntialiasing Caption="Habilitar AntiAliasing"/>
  		<lbChooseEditorTheme Caption="Elegir esquema de color para el editor de texto"/>
+		<lbMultichannelAudioPlayback Caption="Reproducción de audio multicanal"/>
+		<cbMultichannelAudioPlayback>
+			<Items>
+				<Item Index="0" Value="Reproduce audio multicanal en modo mono"/>
+				<Item Index="1" Value="Reproduce audio multicanal en modo estéreo"/>
+				<Item Index="2" Value="Reproduce audio multicanal en modo multicanal"/>
+			</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="Nota: Asegúrate de que tu sistema es capaz de reproducir sonido envolvente, de lo contrario no escucharás la mayor parte del contenido de audio."/>
  		<!-- openFormats -->
  		<tabFormats Caption="openFormats"/>
  		<lbDefTextureFormat Caption="Formato de archivo de textura por defecto"/>
