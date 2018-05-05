@@ -19,7 +19,9 @@
 		<string name="HELP_TITLE">Προβολέας μοντέλων - βοήθεια</string>		
 		<string name="CHECK_ALL">Επιλογή όλων</string>
 		<string name="UNCHECK_ALL">Αποεπιλογή όλων</string>
-		<string name="ALSO_HIDE_CHILDREN">Απόκρυψη και των θυγατρικών</string>
+		<string name="ALSO_HIDE_CHILDREN">Απόκρυψη και θυγατρικών</string>
+		<string name="PLAY_FORWARD">Κανονική αναπαραγωγή</string>
+		<string name="PLAY_BACKWARDS">Αντίστροφη αναπαραγωγή</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Χρησιμοποιείτε το ποντίκι για να περιηγηθείτε, μετακινηθείτε χρησιμοποιώντας αυτά τα κουμπιά:
 			

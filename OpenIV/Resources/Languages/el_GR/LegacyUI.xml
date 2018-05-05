@@ -82,14 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Επιβεβαίωση"/>
 				<Item Index="70" Value='Όλες οι αλλαγές που πραγματοποιήθηκαν στην αρχειοθήκη "$ModsFolderPath$update\update.rpf" θα χαθούν.\nΘέλετε να συνεχίσετε'/>
 				<Item Index="71" Value='Αναζήτηση "%s" σε όλες τις αρχειοθήκες'/>
-				<Item Index="72" Value=""/>
-				<Item Index="73" Value=""/>
-				<Item Index="74" Value=""/>
-				<Item Index="75" Value=""/>
-				<Item Index="76" Value=""/>
-				<Item Index="77" Value=""/>
-				<Item Index="78" Value=""/>
-				<Item Index="79" Value=""/>
+				<Item Index="72" Value="Σίγουρα επιθυμείτε να κλείσετε το $AppName$;"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
@@ -153,14 +146,16 @@
 		<actEditMode Caption="Λειτουργία επεξεργασίας" Hint=""/>
 		<actReadMode Caption="Λειτουργία μόνο ανάγνωσης" Hint=""/>
 		<actCloseAllArchives Caption="Κλείσιμο όλων των αρχειοθηκών" Hint="Κλείσιμο όλων των ανοιχτών αρχειοθηκών"/>
+		<actCloseAllFolders Caption="Κλείσιμο όλων των φακέλων" Hint="Κλείσιμο όλων των ανοιχτών φακέλων"/>
 		<actCloseArchive Caption="Κλείσιμο αρχειοθήκης" Hint="Κλείσιμο τρέχουσας αρχειοθήκης"/>
 		<actExit Caption="Έξοδος" Hint="Έξοδος"/>
 		<!-- Edit Action's -->
-		<actPreview Caption="Προβολή..." Hint="Προβολή αρχείου"/>
-		<actEditFile Caption="Επεξεργασία..." Hint="Επεξεργασία αρχείου"/>
-		<actViewAsHex Caption="Προβολή σε Hex..." Hint="Προβολή σε Hex"/>
+		<actOpen Caption="Άνοιγμα" Hint="Άνοιγμα του επιλεγμένου αρχείου"/>
+		<actEditFile Caption="Επεξεργασία" Hint="Επεξεργασία του επιλεγμένου αρχείου"/>
+		<actViewAsHex Caption="Προβολή σε Hex..." Hint="Προβολή σε HEX"/>
 		<actViewAsText Caption="Προβολή ως κείμενο..." Hint="Προβολή ως κείμενο"/>
-		<actCopyPath Caption="Αντιγραφή διαδρομής" Hint="Αντιγραφή διαδρομής του τρέχοντος αρχείου"/>
+		<actCopyName Caption="Αντιγραφή ονόματος" Hint="Αντιγραφή του ονόματος του επιλεγμένου αρχείου"/>		
+		<actCopyPath Caption="Αντιγραφή διαδρομής" Hint="Αντιγραφή πλήρους διαδρομής του τρέχοντος αρχείου"/>
 		<actExtract Caption="Εξαγωγή..." Hint="Εξαγωγή αρχείου"/>
 		<actSaveContent Caption="Αποθήκευση περιεχομένου/Εξαγωγή" Hint="Αποθήκευση περιεχομένου/Εξαγωγή"/>
 		<actSaveRawContent Caption="Εξαγωγή ανεπεξέργαστου περιεχομένου" Hint="Εξαγωγή ανεπεξέργαστων δεδομένων περιεχομένου"/>
@@ -188,21 +183,14 @@
 		<actMainMenuBar Caption="Γραμμή μενού" Hint="Γραμμή νερού"/>
 		<!-- Help Action's -->
 		<actHelpVerifyGame Caption="Πώς να επαληθεύσετε και να επαναφέρετε τα αρχεία του παιχνδιού..." Hint=""/>
-		<actReportBug Caption="Αναφορά σφάλματος" Hint=""/>
-		<actAbout Caption="Πληροφορίες..." Hint="Πληροφορίες"/>
+		<actSocialMedia Caption="Συμμετέχετε στην κοινότητα του $AppName$" Hint=""/>
+		<actForums Caption="Συμμετέχετε στην συζήτηση του $AppName$" Hint=""/>
+		<actSupportDonate Caption="Υποστηρίξτε το $AppName$" Hint=""/>		
 		<actGoToWeb Caption="Επίσκεψη ιστοσελίδας..." Hint=""/>
 		<actSendFeedback Caption="Αποστολή ανάδρασης" Hint=""/>
-		<actUpdate Caption="Έλεγχος για ενημερώσεις..." Hint=""/>
-		<actDonate Caption="Δωρεά στο $AppName$..." Hint=""/>
-		<actWebIV Caption="Εγγραφή στο $WebName$" Hint=""/>
-		<actFAQ Caption="Συνήθεις ερωτήσεις" Hint=""/>
-		<!-- Social -->
-		<actSocialYouTube Caption="Το $AppName$ στο YouTube" Hint=""/>
-		<actSocialFacebook Caption="Το $AppName$ στο Facebook" Hint=""/>
-		<actSocialTwitter Caption="Το $AppName$ στο Twitter" Hint=""/>
-		<actSocialVKCom Caption="Το $AppName$ στο VK" Hint=""/>
-		<!-- Only in Win7 and later -->
-		<actWin7ReportTool Caption="Καταγραφή βημάτων για την αναπαραγωγή ενός προβλήματος" Hint=""/>
+		<actReportBug Caption="Αναφορά σφάλματος" Hint=""/>
+		<actWin7ReportTool Caption="Καταγραφή βημάτων για την αναπαραγωγή ενός προβλήματος" Hint=""/> <!-- Only in Win7 and later -->
+		<actAbout Caption="Περί..." Hint="Πληροφορίες"/>		
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Σύμπτυξη όλων των ομάδων" Hint=""/>
 		<actExpandAll Caption="Ανάπτυξη όλων των ομάδων" Hint=""/>
@@ -222,6 +210,7 @@
 		<actFilterByType Caption="Φιλτράρισμα κατά τύπο" Hint=""/>
 		<actFilterOnlyThis Caption="Προβολή μόνο αυτού" Hint=""/>
 		<!-- Tree -->
+		<actTreeCopyName Caption="Αντιγραφή ονόματος" Hint=""/>
 		<actTreeCopyAsPath Caption="Αντιγραφή ως διαδρομή" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Προβολή στην Εξερεύνηση αρχείων των Windows" Hint=""/>
 		<actTreeCloseArchive Caption="Κλείσιμο αρχειοθήκης" Hint=""/>
@@ -363,6 +352,8 @@
 		<cbClearSearchFilterAfterOpeningArchive Caption='Καθαρισμός του φίλτρου αναζήτησης μετά το άνοιγμα αρχειοθήκης'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Χρήση εναλλακτικού (παλιού) τρόπου προσθήκης φακέλων μετά από μεταφορά και απόθεση'/>
 		<tbFileAssociation Caption="Αλλαγή συσχετισμών αρχείων"/>
+		<cbDisplayExitConfirmationDialog Caption="Προβολή παραθύρου διαλόγου επιβεβαίωσης στην έξοδο"/>
+		<cbStartWithLocationFromLastSession Caption="Εκκίνηση του $AppName$ με προβολή της τελευταίας τοποθεσίας"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Φάκελος $ModsFolder$"/>
 		<lbModsFolderText Caption="Σε αυτήν την σελίδα μπορούν να αλλάξουν ρυθμίσεις σχετικές με το φάκελο $ModsFolder$."/>
@@ -388,6 +379,15 @@
 		<lbCameraControl Caption="Συνδυασμός ελέγχου κάμερας"/>
 		<cbRenderAntialiasing Caption="Ενεργοποίηση λειτουργίας εξαμόλυνσης"/>
 		<lbChooseEditorTheme Caption="Επιλογή συνδυασμού χρώματος για τον επεξεργαστή κειμένου"/>
+		<lbMultichannelAudioPlayback Caption="Αναπαραγωγή ήχων πολλαπλών καναλιών"/>
+		<cbMultichannelAudioPlayback>
+			<Items>
+				<Item Index="0" Value="Αναπαραγωγή ήχων πολλαπλών καναλιών σε λειτουργία mono"/>
+				<Item Index="1" Value="Αναπαραγωγή ήχων πολλαπλών καναλιών σε λειτουργία stereo"/>
+				<Item Index="2" Value="Αναπαραγωγή ήχων πολλαπλών καναλιών σε λειτουργία πολλαπλών καναλιών"/>
+			</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="Σημείωση: Σιγουρευτείτε ότι το σύστημά σας έχει την δυνατότητα αναπαραγωγής ήχου surround, διαφορετικά δε θα μπορείτε να ακούσετε το μεγαλύτερο μέρος του ηχητικού περιεχομένου."/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Προεπιλεγμένος τύπος αρχείων υφής"/>

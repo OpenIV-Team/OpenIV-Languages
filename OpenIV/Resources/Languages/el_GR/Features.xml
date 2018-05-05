@@ -107,7 +107,6 @@
 	</openFormatsImportWindow>
 
 	<openFormatsValidatorWindow Caption='Επικυρωτής openFormats - $AppName$'>
-		<lbTitle Caption='Αναφορά εισαγωγών openFormats'/>
 		<btnClose Caption='Κλείσιμο'/>
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
@@ -136,7 +135,12 @@
 				<Item Index='16' Value="%S(Γραμμή %D): Η σκίαση δεν μπορεί να είναι επιφλοιωμένη."/>		
 				<Item Index='17' Value="%S(Γραμμή %D): Υπερβολικά οστά σε μία γεωμετρία, δεν μπορούν να χρησιμοποιηθούν πάνω από 48 οστά."/>
 
-				<Item Index='18' Value="%S(Γραμμή %D): %S"/>						
+				<Item Index='18' Value="%S(Γραμμή %D): %S"/>
+				<!-- Export/Import -->
+				<Item Index='19' Value='Αναφορά εισαγωγής openFormats'/>
+				<Item Index='20' Value='Αναφορά εξαγωγής openFormats'/>
+				<Item Index='21' Value='Μερικά αρχεία δεν εξήχθησαν, περισσότερες πληροφορίες παρακάτω.'/>
+								
 			</StringList>
 		</AeroWindow>	
 	</openFormatsValidatorWindow>	

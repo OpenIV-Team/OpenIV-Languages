@@ -24,22 +24,28 @@
 	</type>
 	<type Name="Μεταδεδομένα (PSO/RSC)">
 		<ext>pso</ext>
+		
 		<ext>ymt</ext>
-		<ext>ymf</ext>
 		<ext>xmt</ext>
-		<ext>xmf</ext>
 		<ext>cmt</ext>
+		<ext>οmt</ext>
+
+		<ext>ymf</ext>
+		<ext>xmf</ext>
 		<ext>cmf</ext>
+		<ext>οmf</ext>
 	</type>
 	<type Name="Εφέ σωματιδίων">
 		<ext>ypt</ext>
 		<ext>xpt</ext>
 		<ext>cpt</ext>
+		<ext>opt</ext>
 	</type>
 	<type Name="Σημεία αναφοράς">
 		<ext>ywr</ext>
 		<ext>xwr</ext>
 		<ext>cwr</ext>
+		<ext>owr</ext>
 	</type>
 	<type Name="Σημειογραφία αντικειμένων JavaScript">
 		<ext>json</ext>
@@ -48,11 +54,13 @@
 		<ext>ymap</ext>
 		<ext>xmap</ext>
 		<ext>cmap</ext>
+		<ext>omap</ext>
 	</type>
 	<type Name="Καταχωρήσεις ορισμών (PSO/RSC)">
 		<ext>ytyp</ext>
 		<ext>xtyp</ext>
 		<ext>ctyp</ext>
+		<ext>otyp</ext>
 	</type>
 	<type Name="Πίνακας ονομάτων">
 		<ext>nametable</ext>
@@ -130,156 +138,182 @@
 		<ext>csc</ext>
 		<ext>wsc</ext>
 		<ext>ysc</ext>
+		<ext>osc</ext>
 	</type>
 	<type Name="Πίνακας συμβολοσειράς">
 		<ext>xst</ext>
 		<ext>cst</ext>
 		<ext>wst</ext>
 		<ext>yst</ext>
+		<ext>ost</ext>
 	</type>
 	<type Name="Πόρος υφών">
 		<ext>xtx</ext>
 		<ext>ctx</ext>
 		<ext>wtx</ext>
 		<ext>ytx</ext>
+		<ext>otx</ext>
 	</type>
 	<type Name="Κομμάτια ενεργειών">
 		<ext>xat</ext>
 		<ext>cat</ext>
 		<ext>wat</ext>
 		<ext>yat</ext>
+		<ext>oat</ext>
 	</type>
 	<type Name="NavMesh">
 		<ext>xnm</ext>
 		<ext>cnm</ext>
 		<ext>wnm</ext>
 		<ext>ynm</ext>
+		<ext>onm</ext>
 	</type>
 	<type Name="Πληροφορίες τομέα">
 		<ext>xsi</ext>
 		<ext>csi</ext>
 		<ext>wsi</ext>
 		<ext>ysi</ext>
+		<ext>osi</ext>
 	</type>
 	<type Name="Δεδομένα τόμων">
 		<ext>xvd</ext>
 		<ext>cvd</ext>
 		<ext>wvd</ext>
 		<ext>yvd</ext>
+		<ext>ovd</ext>
 	</type>
 	<type Name="Συγκρούσεις εδάφους">
 		<ext>xtb</ext>
 		<ext>ctb</ext>
 		<ext>wtb</ext>
 		<ext>ytb</ext>
+		<ext>otb</ext>
 	</type>
 	<type Name="Λεξικό υφών">
 		<ext>wtd</ext>
 		<ext>xtd</ext>
 		<ext>ctd</ext>
 		<ext>ytd</ext>
+		<ext>otd</ext>
 	</type>
 	<type Name="Λεξικό κινήσεων">
 		<ext>wad</ext>
 		<ext>xad</ext>
 		<ext>cad</ext>
 		<ext>yad</ext>
+		<ext>oad</ext>
 	</type>
 	<type Name="Λεξικό συγκρούσεων">
 		<ext>wbd</ext>
 		<ext>xbd</ext>
 		<ext>cbd</ext>
 		<ext>ybd</ext>
+		<ext>obd</ext>
 	</type>
 	<type Name="Λεξικό σχεδιάσιμων">
 		<ext>wdd</ext>
 		<ext>xdd</ext>
 		<ext>cdd</ext>
 		<ext>ydd</ext>
+		<ext>odd</ext>
 	</type>
 	<type Name="Σχεδιάσιμο αντικείμενο">
 		<ext>wdr</ext>
 		<ext>xdr</ext>
 		<ext>cdr</ext>
 		<ext>ydr</ext>
+		<ext>odr</ext>
 	</type>
 	<type Name="Τμήματα αντικειμένων">
 		<ext>wft</ext>
 		<ext>xft</ext>
 		<ext>cft</ext>
 		<ext>yft</ext>
+		<ext>oft</ext>
 	</type>
 	<type Name="Αντικείμενο HTML">
 		<ext>whm</ext>
 		<ext>xhm</ext>
 		<ext>chm</ext>
 		<ext>yhm</ext>
+		<ext>ohm</ext>
 	</type>
 	<type Name="Στατικές συγκρούσεις">
 		<ext>wbn</ext>
 		<ext>xbn</ext>
 		<ext>cbn</ext>
 		<ext>ybn</ext>
+		<ext>obn</ext>
 	</type>
 	<type Name="NavMesh">
 		<ext>wnv</ext>
 		<ext>xnv</ext>
 		<ext>cnv</ext>
 		<ext>ynv</ext>
+		<ext>onv</ext>
 	</type>
 	<type Name="Blendshapes">
 		<ext>wbs</ext>
 		<ext>xbs</ext>
 		<ext>cbs</ext>
 		<ext>ybs</ext>
+		<ext>obs</ext>
 	</type>
 	<type Name="Βιβλιοθήκη εφέ σωματιδίων">
 		<ext>wpfl</ext>
 		<ext>xpfl</ext>
 		<ext>cpfl</ext>
 		<ext>ypfl</ext>
+		<ext>opfl</ext>
 	</type>
 	<type Name="Αναφορές οχημάτων">
 		<ext>xvr</ext>
 		<ext>cvr</ext>
 		<ext>wvr</ext>
 		<ext>yvr</ext>
+		<ext>ovr</ext>
 	</type>
 	<type Name="Αναφορές πεζών">
 		<ext>xpr</ext>
 		<ext>cpr</ext>
 		<ext>wpr</ext>
 		<ext>ypr</ext>
+		<ext>opr</ext>
 	</type>
 	<type Name="Κόμβοι διαδρομών">
 		<ext>xnd</ext>
 		<ext>cnd</ext>
 		<ext>wnd</ext>
 		<ext>ynd</ext>
+		<ext>ond</ext>
 	</type>
 	<type Name="Λεξικό αποσπασμάτων">
 		<ext>xcd</ext>
 		<ext>ccd</ext>
 		<ext>wcd</ext>
 		<ext>ycd</ext>
+		<ext>ocd</ext>
 	</type>
 	<type Name="Λεξικό εκφράσεων">
 		<ext>xed</ext>
 		<ext>ced</ext>
 		<ext>wed</ext>
 		<ext>yed</ext>
+		<ext>oed</ext>
 	</type>
 	<type Name="Λεξικό Blendshapes">
 		<ext>xsd</ext>
 		<ext>csd</ext>
 		<ext>wsd</ext>
 		<ext>ysd</ext>
+		<ext>osd</ext>
 	</type>
 	<type Name="Λεξικό πανιών">
 		<ext>xld</ext>
 		<ext>cld</ext>
 		<ext>wld</ext>
 		<ext>yld</ext>
+		<ext>old</ext>
 	</type>
 	<type Name="Πόρος κίνησης">
 		<ext>wan</ext>

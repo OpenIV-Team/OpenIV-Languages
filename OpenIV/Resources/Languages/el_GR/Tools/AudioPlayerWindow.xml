@@ -1,19 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<AudioPlayerWindow Caption='Αναπαραγωγός ήχου $AppName$'>
+		<!-- Export -->
 		<btnExportAll Caption='Εξαγωγή όλων'/>
+		<miExportAllChannelsSeparately Caption='Εξαγωγή όλων των καναλιών ξεχωριστά'/>
+		<miExportAllAsStereo Caption='Εξαγωγή όλων των καναλιών σε στερεοφωνικό WAV'/>
+		<miExportAllAsMono Caption='Εξαγωγή όλων των καναλιών σε μονοφωνικό WAV'/>
+
+		<!-- Options -->
 		<btnOptions Caption='Ρυθμίσεις'/>
 		<miPlayWhenOpen Caption='Εκκίνηση αναπαραγωγής κατά το άνοιγμα του αρχείου'/>
 		<miAutoPlayNext Caption='Αυτόματη αναπαραγωγή του επόμενου κομματιού'/>
-		<miPlay Caption='Αναπαραγωγή'/>
-		<miExport Caption='Εξαγωγή'/>
-		<miCopyName Caption='Αντιγραφή ονόματος'/>
-		<miExportAllChannelsSeparately Caption='Εξαγωγή όλων των καναλιών ξεχωριστά'/>
+		
+		<!-- Sort -->
 		<btnSort Caption='Ταξινόμηση'/>
 		<miSortByName Caption='Ταξινόμηση κατά όνομα'/>
 		<miSortByDuration Caption='Ταξινόμηση κατά διάρκεια'/>
 		<miSortOrderAsc Caption='Αύξουσα ταξινόμηση'/>
 		<miSortOrderDesc Caption='Φθίνουσα ταξινόμηση'/>
+
+		<!-- Context menu -->
+		<miPlay Caption='Αναπαραγωγή'/>
+		<miCopyName Caption='Αντιγραφή ονόματος'/>
+		<miExport Caption='Εξαγωγή'/>
+		<miExportAllChannelsSeparately Caption='Εξαγωγή καναλιών ξεχωριστά'/>
+		<miExportAllAsStereo Caption='Εξαγωγή σε στερεοφωνικό WAV'/>
+		<miExportAllAsMono Caption='Εξαγωγή σε μονοφωνικό WAV'/>
+		<miCopyName Caption='Αντιγραφή ονόματος'/>
+		<miExportAllChannelsSeparately Caption='Εξαγωγή όλων των καναλιών ξεχωριστά'/>
+
 		<!-- String's -->
 		<AeroWindow LinesCount='6'>
 			<StringList>

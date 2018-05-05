@@ -16,7 +16,11 @@
 		<string name="ORIGINAL_SIZE">Πραγματικό μέγεθος</string>
 		<string name="ALPHA_BACKGROUND">Άλφα φόντο</string>
 		<string name="SIZE_">Μέγεθος:</string>
+		<string name="SEARCH_TEXTURES">Αναζήτηση υφών</string>
++		<string name="NO_IMAGE_FOUND">Δεν βρέθηκαν υφές</string>
 
+		<string name="COPY_NAME">Αντιγραφή ονόματος</string>
+		<string name="EXPORT">Εξαγωγή</string>
 		<string name="RENAME">Μετονομασία</string>
 		<string name="REPLACE">Αντικατάσταση</string>
 		<string name="DELETE">Διαγραφή</string>
@@ -34,7 +38,7 @@
 		<!-- Import dialog -->
 		<string name="CHOOSE_IMPORT_OPTIONS">Επιλογές εισαγωγής</string>
 		<text name="IMPORT_QUALITY_NOTE">
-			<![CDATA[Αυτή η επιλογή θα αγνοηθεί κατά την εισαγωγή αρχείων DDS.
+			<![CDATA[Αυτές οι επιλογές θα αγνοηθούν κατά την εισαγωγή αρχείων DDS.
 Χρησιμοποιείτε αρχεία DDS για βέλτιστη ποιότητα.]]>
 		</text>
 		<string name="AUTO_MIPMAP">Αυτόματη δημιουργία επιπέδων MipMap</string>

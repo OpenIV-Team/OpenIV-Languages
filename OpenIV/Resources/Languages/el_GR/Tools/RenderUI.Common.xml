@@ -15,8 +15,16 @@
 		<string name="CLOSE">Κλείσιμο</string>
 		<string name="SAVE">Αποθήκευση</string>
 		<string name="IMPORT">Εισαγωγή</string>
-		<string name="SEARCH">Εξαγωγή</string>
-
+		<string name="SEARCH">Αναζήτηση</string>
+		
+		<!-- Context menu -->
+		<string name="COPY_ID">Αντιγραφή ID</string>
+		<string name="COPY_NAME">Αντιγραφή ονόματος</string>
+		<string name="COPY_LINE">Αντιγραφή γραμμής</string>
+		<string name="COPY_VALUE">Αντιγραφή τιμής</string>
+		<string name="COPY_PROPERTIES">Αντιγραφή ιδιοτήτων</string>
+		<string name="EXPORT_TEXTURE">Εξαγωγή</string>
+		
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Λειτουργία κάμερας:</string>
 		<string name="CAMERA_MODE_FREE">Ελεύθερη</string>
@@ -27,6 +35,7 @@
 		<string name="GEOMETRY">Γεωμετρία:</string>		
 		<string name="EDGED_FACES">Γωνιακές επιφάνειες:</string>
 		<string name="DISPLAY_POINTS">Σημεία προβολής:</string>
+		<string name="EDGE_COLOR">Χρώμα άκρων:</string>
 
 		<!-- Base information -->
 		<string name="POLYGONS">Πολύγωνα:</string>

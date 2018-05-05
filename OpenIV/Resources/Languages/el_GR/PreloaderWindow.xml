@@ -49,6 +49,7 @@
 					<Item Index='22' Value="Σφάλμα: Το $RageGAME$ εκτελείτε. Κλείστε το παιχνίδι πριν χρησιμοποιήσετε το $AppName$."/>
 					<Item Index='23' Value="Όλα έτοιμα.\nΤα δικαιώματα ορίστηκαν για τον φάκελο του παιχνιδιού."/>
 					<Item Index='24' Value="Αδυναμία ορισμού δικαιωμάτων."/>
+					<Item Index='25' Value="Σφάλμα: Το κλειδί κρυπτογράφησης δεν βρέθηκε στο αρχείο '$RageEncryptionStorage$'."/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>
@@ -64,7 +65,7 @@
 			<lbCurrentVersion Caption='Εγκατεστημένη έκδοση:'/>
 			<lbNewVersion Caption='Νέα έκδοση:'/>
 			<!-- Strings -->
-			<StringList SetCount='10'>
+			<StringList SetCount='20'>
 				<Lines>
 					<Item Index='0' Value=' MB'/>
 					<Item Index='1' Value='Προετοιμασία για λήψη...'/>
@@ -96,6 +97,7 @@
 					<Item Index='07' Value='Επιτυχία: $RageEncryptionStorage$, έκδοση %s\nΤο $AppName$ λειτουργεί με αυτό το αρχείο.'/>
 					<Item Index='08' Value='Αναζήτηση'/>
 					<Item Index='09' Value="Σφάλμα: Το $AppName$ δεν έχει πρόσβαση σε αυτόν τον φάκελο.\nΕκκινήστε το $AppName$ με δικαιώματα διαχειριστή."/>
+					<Item Index='10' Value="Σφάλμα: Το κλειδί κρυπτογράφησης δεν βρέθηκε στο αρχείο '$RageEncryptionStorage$'."/>
 				</Lines>
 			</StringList>
 		</ChangeGameScreen>
