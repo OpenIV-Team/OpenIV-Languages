@@ -10,7 +10,7 @@
 	<type Name="Bilgi Veritabanı">
 		<ext>db</ext>
 	</type>
-	<type Name="Script (text)">
+	<type Name="Betik (yazı)">
 		<ext>sc</ext>
 	</type>
 	<type Name="Scaleform flash">
@@ -68,7 +68,7 @@
 	<type Name="Rage Paket Dosyası">
 		<ext>rpf</ext>
 	</type>
-	<type Name="GTA Resim Dosyası">
+	<type Name="GTA İmaj Dosyası">
 		<ext>img</ext>
 	</type>
 	<type Name="ZIP Arşivi">
@@ -125,7 +125,7 @@
 		<ext>swf</ext>
 	</type>
 	<!-- Resources (RAGE) -->
-	<type Name="Script kaynağı">
+	<type Name="Betik kaynağı">
 		<ext>xsc</ext>
 		<ext>csc</ext>
 		<ext>wsc</ext>
@@ -289,30 +289,30 @@
 		<ext>awc</ext>
 	</type>
 	<!-- Audio (OpenIV) -->
-	<type Name="Ses Bankası">
+	<type Name="Ses yığını">
 		<ext>RAGE_SOUND_BANK</ext>
 	</type>
 	<type Name="Ses Dosyası">
 		<ext>RAGE_AUDIO_FILE</ext>
 	</type>
 	<!-- Executables -->
-	<type Name="Çalıştırılabilir">
+	<type Name="Çalıştırılabilir uygulama">
 		<ext>exe</ext>
 	</type>
-	<type Name="Çalıştırılabilir (XBOX 360)">
+	<type Name="Çalıştırılabilir uygulama (XBOX 360)">
 		<ext>xex</ext>
 	</type>
 	<type Name="Dinamik-link kütüphanesi">
 		<ext>dll</ext>
 	</type>
-	<type Name="ASI Plugin'i (Dinamik-link kütüphanesi)">
+	<type Name="ASI Eklentisi (Dinamik-link kütüphanesi)">
 		<ext>asi</ext>
 	</type>
 	<!-- Misc -->
 	<type Name="İkili veri">
 		<ext>bin</ext>
 	</type>
-	<type Name="Python scripti">
+	<type Name="Python betiği">
 		<ext>py</ext>
 	</type>
 	<type Name="Saf metin">
@@ -456,7 +456,7 @@
 	<type Name="Yığın dosyası">
 		<ext>bat</ext>
 	</type>
-	<type Name="Windows Komut Script'i">
+	<type Name="Windows Komut Betiği">
 		<ext>cmd</ext>
 	</type>
 	<type Name="İfadeler">
@@ -469,7 +469,7 @@
 		<ext>ifx</ext>
 	</type>
 	<!-- Steam -->
-	<type Name="Steam script dosyası">
+	<type Name="Steam betik dosyası">
 		<ext>vdf</ext>
 	</type>
 </Library>
