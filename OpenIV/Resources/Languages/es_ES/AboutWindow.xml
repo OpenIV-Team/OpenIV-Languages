@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<AboutWindow3 Caption='Sobre $AppName$'/>
 	<RenderUI>
@@ -6,12 +6,22 @@
 		<string name="VERSION_LABEL_3">Versión %D.%D.%D (Copilación %D; Fecha %S)</string>
 		<string name="THE_TEAM">El equipo</string>
 		<string name="THIRD_PARTY">Terceros</string>
-		<string name="THIRD_PARTY_LINE_1">Esta aplicación usa algunas partes</string>
-		<string name="THIRD_PARTY_LINE_2">las cuales estan proporcionadas por terceros.</string>
+		<string name="THIRD_PARTY_LINE">Esta aplicación usa algunas partes las cuales estan proporcionadas por terceros.</string>
 		<string name="THANKS_TO">Agradecimientos a</string>
 		<string name="ALPHABETICALLY">(alfabéticamente)</string>
 		<string name="SPECIAL_THANKS_TO">Agradecimientos especiales a</string>
 		<string name="LICENSE_TERMS">Terminos de lincencia del software.</string>
 		<string name="LOCALIZATION">Colaboradores de traducción</string>
+		<string name="DEBUG_INFO">Debug information</string>
+		<string name="CLIENT_ID">Client Id</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">Únete a la comunidad de $AppName$</string>
+		<string name="JOIN_DISCUSSION">Únete a la discusión de $AppName$</string>
+		<string name="SUPPORT_DONATE">Soporta a $AppName$</string>
+		<string name="WELCOME_TO_VER">Bienvenido a %S</string>
+		<string name="WATCH_THE_VIDEO">¿Te gustaría mirar un video sobre los cambios en esta versión?</string>
+		<string name="VIDEO_NOTE">Es posible que veas un anuncion antes o durante la reproducción del video. Al ver este video, usted estará soportando $AppName$.</string>
+		<string name="NO_THANKS">No gracias</string>
 	</RenderUI>
 </Translation>
