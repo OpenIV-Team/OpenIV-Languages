@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='$AppName$ Visualizzatore collisioni'>
+		<paneDictionary Caption='Voci di dizionario'/>
+		<paneComposite Caption='Elementi compositi'/>
+		<miLeft Caption='Sinistra'/>
+		<miRight Caption='Destra'/>
+		<miCheckAll Caption='Seleziona tutto' />
+		<miUncheckAll Caption='Deseleziona tutto' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Mostra Normali:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Tipo di Confine:</string>
+		<string name="CHILD_COUNT">Conteggio figli:</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Visualizzatore collisioni - Aiuto</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Usa il mouse per guardarti intorno, muoviti usando questi tasti:
+			
+    W - Move avanti
+    S - Move indietro
+    A - Move sinistra
+    D - Move destra
+
+	Dal Tastierino Numerico
+    NumPad 8 - Muovi camera su
+    NumPad 2 - Muovi camera giù
+    NumPad 4 - Muovi camera sinistra
+    NumPad 6 - Muovi camera destra
+
+    Tieni premuto SHIFT - Per movimenti più rapidi
+    Tieni premuto CTRL - Per movimenti più lenti
+    Rotellina del mouse per lo zoom.
+		   
+Per modificare le opzioni di rendering, utilizza i collegamenti nella parte destra o questi tasti di scelta rapida:
+
+     F1 - Apre questa finestra di aiuto
+     C - Cambia il tipo della camera
+     F - Mostra/nascondi bordi dei poligoni
+     P - Mostra/nascondi i punti di visualizzazione
+     N - Mostra/nascondi normali
+     G - Mostra/nascondi la geometria
+     ESC - Chiudi la finestra del visualizzatore
+
+     Tieni premuto H - Per nascondere temporaneamente l'HUD(interfaccia utente)
+]]>
+		</text>
+	</RenderUI>
+</Translation>
