@@ -30,8 +30,8 @@
 					<Item Index='03' Value="$WebName$ il servizio è stato creato per migliorare lo scambio di informazioni tra sviluppatori e utenti d $AppName$. Se ti registri per il servizio, puoi verificare gli aggiornamenti di $AppName$ e utilizzare altre funzioni web aggiuntive. Inoltre, il servizio $WebName$ raccoglie alcune informazioni statistiche che ci consentiranno di sviluppare $AppName$ in base alle preferenze dell'utente."/>
 					<Item Index='04' Value='Servizio temporaneamente non disponibile.'/>
 					<Item Index='05' Value='Specifica il percorso di $RageGAME$'/>
-					<Item Index='06' Value='Senza specificare la posizione del gioco, $AppName$ non sarà in grado di aprire i file di $RageGAME_SHORT$ in quanto non avrà abbastanza informazioni per farlo. Specifica la posizione corretta di $RageGAME$ sotto.'/>
-					<Item Index='07' Value='Percorso di $RageGAME$ installato:'/>
+					<Item Index='06' Value='Se non si specifica la cartella del gioco, $AppName$ non sarà in grado di aprire i file di $RageGAME_SHORT$ in quanto non avrà abbastanza informazioni per farlo. Specifica la cartella in cui è installato $RageGAME$ sotto.'/>
+					<Item Index='07' Value='Percorso di $RageGAME$ slezionato:'/>
 					<Item Index='08' Value='Errore: Questa cartella non esiste.'/>
 					<Item Index='09' Value='Successo: $AppName$ può funzionare con la directory selezionata.'/>
 					<Item Index='10' Value="Errore: la cartella specificata non contiene il file '$RageEncryptionStorage$' richiesto."/>
@@ -42,7 +42,7 @@
 					<Item Index='15' Value='Per utilizzare al meglio tutte le funzionalità di $AppName$ consigliamo di usarlo su Microsoft® Windows 7™'/>
 					<Item Index='16' Value='Tuo nome:'/>
 					<Item Index='17' Value="Errore: $AppName$ non ha accesso alla directory selezionata.\nPuò impostare le autorizzazioni necessarie o eseguire $AppName$ con diritti di amministratore."/>
-					<Item Index='18' Value='Unisciti alla Community di $AppName$/>
+					<Item Index='18' Value='Unisciti alla Community di $AppName$'/>
 					<Item Index='19' Value='$AppName$ - Conferma'/>
 					<Item Index='20' Value='Il processo di configurazione non è ancora finito.\nVuoi uscire ugualmente?'/>
 					<Item Index='21' Value="Errore: $AppName$ non ha accesso al file '$RageEncryptionStorage$' \nImposta le autorizzazioni necessarie o esegui $AppName$ con diritti di amministratore."/>
