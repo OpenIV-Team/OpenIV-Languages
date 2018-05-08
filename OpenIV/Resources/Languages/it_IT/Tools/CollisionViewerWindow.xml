@@ -12,8 +12,8 @@
 		<!-- right side -->
 		<string name="SHOW_NORMALS">Mostra Normali:</string>
 		<!-- left side -->
-		<string name="BOUND_TYPE">Tipo di Confine:</string>
-		<string name="CHILD_COUNT">Conteggio figli:</string>	
+		<string name="BOUND_TYPE">Tipo Confine:</string>
+		<string name="CHILD_COUNT">Numero figli:</string>	
 		<!-- help -->
 		<string name="HELP_TITLE">Visualizzatore collisioni - Aiuto</string>
 		<text name="HELP_TEXT">
