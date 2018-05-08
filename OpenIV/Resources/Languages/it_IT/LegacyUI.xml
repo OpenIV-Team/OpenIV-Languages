@@ -162,7 +162,7 @@
 		<actRename Caption="Rinomina" Hint="Rinomina file"/>
 		<actAdd Caption="Aggiungi" Hint="Aggiungi nuovo file"/>
 		<actReplace Caption="Sostituisci" Hint="Sostituisci file attuale"/>
-		<actRemove Caption="Cancella" Hint="Cancella file attuale"/>
+		<actRemove Caption="Elimina" Hint="Elimina file attuale"/>
 		<actExtractAll Caption="Estrai tutto..." Hint="Eestrai tutti i file"/>
 		<actCopyFileList Caption="Copia lista file" Hint=""/>
 		<actSelectAll Caption="Seleziona tutto" Hint=""/>
@@ -230,7 +230,7 @@
 				<Item Index="06" Value="Gerarchica"/>
 				<Item Index="07" Value="Senza nomi"/>
 				<Item Index="08" Value="Aggiungi tag"/>
-				<Item Index="09" Value="Cancella"/>
+				<Item Index="09" Value="Elimina"/>
 				<Item Index="10" Value="tutti i tag"/>
 				<Item Index="11" Value="$AppName$ - Rinomina file"/>
 				<Item Index="12" Value="Nuovo nome:"/>
@@ -271,9 +271,9 @@
 				<Item Index="47" Value="Specifica un nome diverso."/>
 				<Item Index="48" Value="Esiste già un elemento con lo stesso nome della cartella specificata."/>
 				<Item Index="49" Value="Seleziona cartella"/>
-				<Item Index="50" Value="Cancella file"/>
+				<Item Index="50" Value="Elimina file"/>
 				<Item Index="51" Value="Sei sicuro di voler eliminare definitivamente questo file?"/>
-				<Item Index="52" Value="Cancella cartella"/>
+				<Item Index="52" Value="Elimina cartella"/>
 				<Item Index="53" Value="Sei sicuro di voler eliminare definitivamente questa cartella?"/>
 				<Item Index="54" Value="Elimina più elementi"/>
 				<Item Index="55" Value="Sei sicuro di voler eliminare definitivamente questi %d elementi?"/>
@@ -349,7 +349,7 @@
 		<cbDisplayDeleteConfirmationDialog Caption="Mostra la finestra di dialogo di conferma dell'eliminazione"/>
 		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Sposa i file nel cestino invece di cancellarli definitivamente quando lavori con file reali"/>
 		<cbCloseArchivesAtStartGame Caption="Chiudi tutti gli archivi aperti all'avvio del gioco"/>
-		<cbClearSearchFilterAfterOpeningArchive Caption="Cancella filtro di ricerca dopo l'apertura dell'archivio"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption="Rimuovi filtro di ricerca dopo l'apertura dell'archivio"/>
 		<cbUseAlternativeWayOfAddingFolders Caption='Usa il modo alternativo (vecchio e obsoleto) di aggiungere cartelle durante il trascinamento'/>
 		<tbFileAssociation Caption="Cambia le associazioni dei file"/>
 		<cbDisplayExitConfirmationDialog Caption="Mostra la finestra di dialogo di conferma all'uscita"/>
@@ -399,7 +399,7 @@
 		<btnClose Caption="Chiudi"/>
 		<actAppAdd Caption="Aggiungi"/>
 		<actAppEdit Caption="Edita"/>
-		<actAppDel Caption="Cancella"/>
+		<actAppDel Caption="Elimina"/>
 		<LnkWebApps Caption="Scarica altri strumenti per $RageGAME_SHORT$"/>
 		<!-- String's -->
 		<AeroWindow LinesCount="10">
