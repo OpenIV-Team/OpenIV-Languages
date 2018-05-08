@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PreloaderWindow>
+		<WelcomeScreen>
+			<!-- Button's -->
+			<btnClose Caption='Zatvori'/>
+			<btnEULANext Caption='Nastavi'/>
+			<btnWebNext Caption='Nastavi'/>
+			<btnGame Caption='Pretraži...' Hint='Odaberi mapu:'/>
+			<btnGameNext Caption='Nastavi'/>
+			<btnSetPermissions Caption='Postavi ovlasti'/>
+			<btnWindowsNext Caption='Nastavi'/>
+			<btnBackupNext Caption='Nastavi'/>
+			<btnSocialNext Caption='Nastavi'/>
+			<btnSocialYouTube Caption='$AppName$ YouTube kanal'/>
+			<btnSocialTwitter Caption='$AppName$ na Twitter-u'/>
+			<btnSocial_FB Caption='$AppName$ Facebook stranica'/>
+			<btnSocial_VK Caption='$AppName$ VK stranica'/>
+			<!-- Link's -->
+			<LnkWebLangs Caption='Prevedite $AppName$ u drugi jezik'/>
+			<LnkWebEULA Caption='Pročitajte licencu ovdje.'/>
+			<!-- CheckBox's -->
+			<cbAcceptEULA Caption='Pročitao/la sam i slažem se s uvjetima $AppName$ Ugovora Licence.'/>
+			<!-- Strings -->
+			<StringList SetCount='30'>
+				<Lines>
+					<Item Index='00' Value='$AppName$ Uvjeti Korištenja'/>
+					<Item Index='01' Value='Prije korištenja $AppName$ trebate pročitati i složit se s slijedećim uvjetima korištenja.'/>
+					<Item Index='02' Value='$WebName$ usluga'/>
+					<Item Index='03' Value='$WebName$ usluga je stvorena s ciljem razmjene informacija između razvojnih izvršitelja i krajnjih korisnika $AppName$. Ako se registrirate na uslugu, imat ćete mogućnost ažuriranja $AppName$ i koristiti druge, dodatne mogućnosti. Nadalje, $WebName$ usluga skuplja neke statističke informacije koje su namijenjene nam za pomoć u poboljšavanju $AppName$ na načine na koje to predlažu krajnji korisnici.'/>
+					<Item Index='04' Value='Usluga Privremeno Nedostupna.'/>
+					<Item Index='05' Value='Odaberite $RageGAME$ mapu'/>
+					<Item Index='06' Value='Bez odredbe mjesta igre, $AppName$ ne može otvoriti $RageGAME_SHORT$ datoteke jer ne bi imale dovoljno informacija. Molimo postavite točno mjesto postavljene $RageGAME$ ispod.'/>
+					<Item Index='07' Value='$RageGAME$ mjesto:'/>
+					<Item Index='08' Value='Greška: Ova mapa ne postoji.'/>
+					<Item Index='09' Value='Uspješno: $AppName$ može radit s ovom mapom.'/>
+					<Item Index='10' Value="Greška: Ova mapa ne sadrži datoteku '$RageEncryptionStorage$'."/>
+					<Item Index='11' Value='Uspješno: $RageEncryptionStorage$, inačica %s\n$AppName$ može radit s ovom datotekom.'/>
+					<Item Index='12' Value='Pričuvne kopije'/>
+					<Item Index='13' Value='Ne zaboravite napravit pričuvne kopije izvornih datoteka prije uređivanja.'/>
+					<Item Index='14' Value='Windows 7'/>
+					<Item Index='15' Value='$AppName$ najbolje radi na Microsoft® Windows 7™'/>
+					<Item Index='16' Value='Vaše ime:'/>
+					<Item Index='17' Value="Greška: $AppName$ nema pristup radu s ovom mapom.\nMožete postavit potrebne ovlasti ili pokrenut $AppName$ s administratorskim pravima."/>
+					<Item Index='18' Value='Pridružite se $AppName$ zajednici'/>
+					<Item Index='19' Value='$AppName$ - Potvrda'/>
+					<Item Index='20' Value='Konfiguracijski proces nije još završio.\nŽelite li izaći?'/>
+					<Item Index='21' Value="Greška: $AppName$ nema pristup za rad s '$RageEncryptionStorage$' datotekom.\nMožete postavit potrebne ovlasti ili pokrenut $AppName$ s administratorskim pravima."/>
+					<Item Index='22' Value="Greška: $RageGAME$ je aktivan. Zatvorite igru prije korištenja $AppName$."/>
+					<Item Index='23' Value="Sve gotovo.\nOvlasti su postavljene na Vašu mapu igre."/>
+					<Item Index='24' Value="Nemoguće postavit ovlasti."/>
+				</Lines>
+			</StringList>
+		</WelcomeScreen>
+		<UpdateScreen>
+			<!-- Button's -->
+			<btnExit Caption='Izlaz'/>
+			<btnInstall Caption='Preuzmi i postavi'/>
+			<!-- Label's -->
+			<lbTitle Caption='$AppName$ ažuriranje'/>
+			<lbText Caption='Novo ažuriranje je dostupno za $AppName$. Potrebno ga je postavit prije nego što možete pokrenut $AppName$.'/>
+			<lbStatus Caption='Veličina preuzimanja: '/>
+			<cbInstallUpdatesAutomatically Caption='Postavi ažuriranja automatski'/>
+			<lbCurrentVersion Caption='Vaša inačica:'/>
+			<lbNewVersion Caption='Nova inačica:'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='0' Value=' Mb'/>
+					<Item Index='1' Value='Priprema za preuzimanje...'/>
+					<Item Index='2' Value='Preuzeto: %f od %f Mb'/>
+					<Item Index='3' Value='Ažuriranje...'/>
+					<Item Index='4' Value='Greška Ažuriranja, molimo pokušajte ponovno kasnije.'/>
+					<Item Index='5' Value='%d.%d.%d (Izdanje %d; Datum %s)'/>
+					<Item Index='6' Value='Ovo ažuriranje sadrži popravke grešaka i manja poboljšanja.'/>
+					<Item Index='7' Value='Ovo ažuriranje sadrži nove mogućnosti, popravke grešaka, izmjene korisničkog sučelja(UI) i značajna poboljšanja.'/>
+					<Item Index='8' Value=''/>
+					<Item Index='9' Value=''/>
+				</Lines>
+			</StringList>
+		</UpdateScreen>
+		<ChangeGameScreen>
+			<!-- Button's -->
+			<btnExit Caption='Izlaz'/>
+			<btnContinue Caption='Nastavak'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='00' Value='Fatalna greška aplikacije'/>
+					<Item Index='01' Value='Smjestili ste $AppName$ u istu mapu s "$RageEncryptionStorage$" datotekom, i to je krivo.\nMolimo smjestite $AppName$ u odvojenu mapu.'/>
+					<Item Index='02' Value='Promjeni $RageGAME$ mapu'/>
+					<Item Index='03' Value='Nešto krivo, molimo promijenite $RageGAME$ mapu ispod i ponovno pokrenite $AppName$.'/>
+					<Item Index='04' Value='Greška: Ova mapa ne postoji.'/>
+					<Item Index='05' Value='Uspješno: $AppName$ može radit s ovom mapom.'/>
+					<Item Index='06' Value="Greška: Ova mapa ne sadrži '$RageEncryptionStorage$' datoteku."/>
+					<Item Index='07' Value='Uspješno: $RageEncryptionStorage$, inačica %s\n$AppName$ može radit s ovom datotekom.'/>
+					<Item Index='08' Value='Pretraži'/>
+					<Item Index='09' Value="Greška: $AppName$ nema pristup za rad s ovom mapom.\nPokrenite $AppName$ s administratorskim ovlastima."/>
+				</Lines>
+			</StringList>
+		</ChangeGameScreen>
+	</PreloaderWindow>
+</Translation>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Paket Yükleyicisi - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Paket Yükleyicisi</string>
+		<string name="INSTALL">Yükle</string>
+		<string name="INSTALLING">Yükleniyor</string>
+		<string name="DESCRIPTION">Açıklama</string>
+		<string name="ADDITIONAL_INFORMATION">Ek bilgi</string>
+		<string name="GREATED_BY">Yapımcı: </string>
+		<string name="SUPPORTED_GAMES">Desteklenen oyunlar</string>
+		<string name="VERSION">Versiyon</string>
+		<string name="LICENCE">Lisans</string>
+		<string name="VIEW_LICENCE">Lisansa göz at</string>
+		<string name="LEARN_MORE">Daha fazla öğren</string>
+		<string name="LINK_HOMEPAGE">Ana sayfa</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Yükleyeceğiniz içeriği seçin</string>
+		<string name="SELECT_LOCATION">Yükleyeceğiniz konumu seçin</string>
+		<string name="LOCATION_MODS_FOLDER">$ModsFolder$ klasörü</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Bu modu $ModsFolder$ klasörüne yükleyin</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Bu paket $ModsFolder$ klasörüne yüklenemiyor çünkü $ModsFolder$ klasörü mevcut oyun tarafından desteklenmiyor ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Bu paket $ModsFolder$ klasörüne yüklenemiyor çünkü $ModsFolder$ klasörü paket formatı tarafından desteklenmiyor.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Bu paket $ModsFolder$ klasörüne yüklenemiyor çünkü hiçbir RPF arşivini etkilemiyor.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Bu paket $ModsFolder$ klasörüne yüklenemiyor çünkü $ModsFolderAsi$ yüklü değil.</string>
+		<string name="LOCATION_GAME_FOLDER">Oyun klasörü</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Bu modu direkt olarak oyun klasörüne kur</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Bu paket oyun klasörüne kurulamıyor çünkü bu özellik $ModsFolder$ klasörü ayarlarından devre dışı bırakılmış.</string>
+		
+		<string name="INSTALLATION_SUCCEEDED">Yükleme tamamlandı</string>
+		<string name="RUN_GAME">$RageGAME$'i çalıştır</string>
+		<string name="RUN_GAME_TEXT">Oyunu çalıştırıp az önce ne yüklediğinize bir göz atın</string>
+
+		<string name="INSTALLATION_FAILED">Yükleme başarısız</string>
+
+		<string name="LOADING_ERROR_TITLE">Paketi yüklerken hata oluştu</string>
+		<string name="READING_ERROR_TITLE">Paketi okurken hata oluştu</string>
+		<string name="INSTALLING_ERROR_TITLE">Paket yükleme hatası</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Bilinmeyen hata</string>
+		<string name="ERROR_GROUP_FATAL">Kritik hata</string>
+		<string name="ERROR_CODE_UNKNOWN">Birşeyler oldu. Hata detayları için kayıt dosyasına göz atın.</string>
+		<string name="ERROR_INSTALLATION">Yükleme sırasında kritik bir hata oluştu. Hata detayları için kayıt dosyasına göz atın.</string>
+		<string name="ERROR_MSXML">MSXML yüklü değil. Paket Yükleyicisi'ni kullanabilmek için ona ihtiyacınız var.</string>
+		<string name="CHECK_LOG_FILE">Hata detayları için kayıt dosyasına göz atın.</string>
+		
+		<string name="OPEN_INSTALLATION_LOG">Yükleme kayıtlarını aç</string>
+		<string name="OPEN_LOG_FILE">Kayıt dosyasını aç</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Paket dosyası okunabilir bir ZIP dosyası değil.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Bilinmeyen dosya uzantısı. Paket dosyası .oiv veya .zip uzantılı olmalı.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Paket dosyasına erişilemiyor. Başka bir program tarafından kullanılmadığından emin olun.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Paket dosyası mevcut değil.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Paket dosyası açılamadı.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Bu pakette "assembly.xml" dosyası bulunamadı. Dosya büyük ihtimal $AppName$ paketi değil veya dosya bozuk.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Bu pakette "assembly.xml" dosyası okunamadı, dosya büyük ihtimal bozuk.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Bu pakette "assembly.xml" dosyası farklı bir formatta, dosya büyük ihtimal bozuk.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Bu paket mevcut $AppName$ versiyonu ile yüklenemez.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">"assembly.xml" dosyasındaki "metadata" işareti kayıp, dosya büyük ihtimal bozuk.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">"assembly.xml" içindeki metadata bilgisi kayıp veya bozuk.</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">"assembly.xml" dosyası yanlış XML formatına sahip veya bozuk.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">"assembly.xml" dosyasından paket ID'si okunamadı.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">"assembly.xml" dosyasındaki "colors" işareti kayıp, dosya büyük ihtimal bozuk.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">"assembly.xml" içindeki renk bilgisi kayıp veya bozuk.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">"assembly.xml" içindeki içerik bilgisi kayıp veya bozuk.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">"assembly.xml" dosyasındaki "content" işareti kayıp, dosya büyük ihtimal bozuk.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Bu pakette "content" klasörü bulunamadı. Dosya büyük ihtimal $AppName$ paketi değil veya dosya bozuk.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Bu paket $RageGAME$ oyununa yüklenemez. Lütfen k bilgi bölümünde desteklenen oyunlara göz atın.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Paket arşivinde bazı dosyalar mevcut değil. Lütfen paket sahibine ulaşın.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Bazı dosyalar yanlış oyun yolu içeriyor. Lütfen paket sahibine ulaşın.</string>
+		
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">Bu paket otomatik olarak kaldırılamaz.</string>
+		
+	</RenderUI>
+</Translation>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='$AppName$ Hakkında'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Yapı %D.%D (Yapı %D; Tarih %S)</string>
+		<string name="VERSION_LABEL_3">Versiyon %D.%D.%D (Yapı %D; Tarih %S)</string>
+		<string name="THE_TEAM">Takım</string>
+		<string name="THIRD_PARTY">Üçüncü parti</string>
+		<string name="THIRD_PARTY_LINE_1">Bu uygulamanın bazı kısımları</string>
+		<string name="THIRD_PARTY_LINE_2">üçüncü yazılım içeriği kullanmaktadır.</string>
+		<string name="THANKS_TO">Teşekkürler</string>
+		<string name="ALPHABETICALLY">(alfabetik olarak)</string>
+		<string name="SPECIAL_THANKS_TO">Özel teşekkürlerimiz</string>
+		<string name="LICENSE_TERMS">Yazılım Lisans Koşulları</string>
+		<string name="LOCALIZATION">Çeviri yardımcıları</string>
+	</RenderUI>
+</Translation>

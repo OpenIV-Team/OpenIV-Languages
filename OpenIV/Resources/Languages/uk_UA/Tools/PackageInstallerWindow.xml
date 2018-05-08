@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Інсталювач пакунків - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Інсталювач пакунків</string>
+		<string name="INSTALL">Інсталювати</string>
+		<string name="INSTALLING">Триває інсталяція…</string>
+		<string name="DESCRIPTION">Опис</string>
+		<string name="ADDITIONAL_INFORMATION">Додаткова інформація</string>
+		<string name="GREATED_BY">Автор:</string>
+		<string name="SUPPORTED_GAMES">Підтримувані ігри</string>
+		<string name="VERSION">Версія</string>
+		<string name="LICENCE">Ліцензія</string>
+		<string name="VIEW_LICENCE">Переглянути текст ліцензії</string>
+		<string name="LEARN_MORE">Довідатися більше</string>
+		<string name="LINK_HOMEPAGE">Сайт автора</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Виберіть вміст для інсталяції</string>
+		<string name="SELECT_LOCATION">Виберіть розташування для інсталяції</string>
+		<string name="LOCATION_MODS_FOLDER">Папка “$ModsFolder$”</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Інсталювати пакунок в папку “$ModsFolder$”</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Цей пакунок неможливо інсталювати в папку “$ModsFolder$”, бо $RageGAME$ не підтримує “$ModsFolder$”.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Цей пакунок неможливо інсталювати в папку “$ModsFolder$”, бо формат пакунка не підтримує “$ModsFolder$”.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Цей пакунок неможливо інсталювати в папку “$ModsFolder$”, бо він не модифікує жодного архіву RPF.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Цей пакунок неможливо інсталювати в папку “$ModsFolder$”, бо $ModsFolderAsi$ не інстальовано.</string>
+		<string name="LOCATION_GAME_FOLDER">Папка гри</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Інсталювати пакунок в папку гри</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Цей пакунок неможливо інсталювати в папку гри: цю можливість вимкнено в налаштуваннях папки “$ModsFolder$”.</string>
+		
+		<string name="INSTALLATION_SUCCEEDED">Інсталяцію завершено</string>
+		<string name="RUN_GAME">Запустити $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Запустити гру і подивитися, що вийшло</string>
+
+		<string name="INSTALLATION_FAILED">Інсталяцію припинено</string>
+
+		<string name="LOADING_ERROR_TITLE">Помилка завантажування пакунку</string>
+		<string name="READING_ERROR_TITLE">Помилка відкриття пакунку</string>
+		<string name="INSTALLING_ERROR_TITLE">Помилка інсталяції пакунку</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Невідома помилка</string>
+		<string name="ERROR_GROUP_FATAL">Фатальна помилка</string>
+		<string name="ERROR_CODE_UNKNOWN">Будь ласка, перегляньте лоґ-файл, щоб дізнатися причину помилки.</string>
+		<string name="ERROR_INSTALLATION">Під час інсталяції відбулася критична помилка. Будь ласка, перегляньте лоґ-файл, щоб дізнатися причину помилки.</string>
+		<string name="ERROR_MSXML">Служби MSXML, необхідні для роботи Інсталювача пакунків, не інстальовано.</string>
+		<string name="CHECK_LOG_FILE">Будь ласка, перегляньте лоґ-файл, щоб дізнатися причину помилки.</string>
+		
+		<string name="OPEN_INSTALLATION_LOG">Відкрити інсталяційний лоґ-файл</string>
+		<string name="OPEN_LOG_FILE">Відкрити лоґ-файл</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Пакунок не є допустимим архівом ZIP.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Невідоме розширення файлу. Пакунок винен мати розширення .oiv або .zip.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Немає дозволу на доступ. Перевірте, чи не використовується він іншим процесом.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Пакунок не існує.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Не вдалося відкрити пакунок.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Не вдалося знайти файл “assembly.xml” всередині пакунку. Можливо, ви намагаєтесь відкрити файл, що не є пакунком $AppName$, або файл пошкоджено.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Не вдалося прочитати файл “assembly.xml” всередині пакунку. Можливо, файл пошкоджено.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Невідомий формат файлу “assembly.xml” всередині пакунку. Можливо, файл пошкоджено.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Версія вашої копії $AppName$ не може інсталювати цей пакунок.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">Файл “assembly.xml” всередині пакунку не містить теґу “metadata”. Можливо, файл пошкоджено.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">Файл “assembly.xml” всередині пакунку не містить метаданих, або їх пошкоджено.</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">Файл “assembly.xml” всередині пакунку не є допустимим файлом XML, або його пошкоджено.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Не вдалося прочитати ідентифікатор пакунку (GUID) з файлу “assembly.xml” всередині пакунку.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">Файл “assembly.xml” всередині пакунку не містить теґ “colors”. Можливо, файл пошкоджено.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">Файл “assembly.xml” всередині пакунку не містить інформацію про кольори, або її пошкоджено.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">Файл “assembly.xml” всередині пакунку не містить інформацію про вміст, або її пошкоджено.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">Файл “assembly.xml” всередині пакунку не містить теґ “content”. Можливо, файл пошкоджено.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Не вдалося знайти папку “content” всередині пакунку. Можливо, ви намагаєтесь відкрити файл, що не є пакунком $AppName$, або файл пошкоджено.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Пакунок не підтримує $RageGAME$. Будь ласка, перевірте список підтримуваних ігор у розділі додаткової інформації.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Пакунок не містить деякі важливі файли. Будь ласка, звʼяжіться з автором пакунка.</string>
++		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Деякі файли мають неправильний шлях. Будь ласка, звʼяжіться з автором пакунка.</string>
+		
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">Цей пакунок неможливо видалити в автоматичному режимі.</string>
+		
+	</RenderUI>
+</Translation>

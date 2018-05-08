@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PreloaderWindow>
+		<WelcomeScreen>
+			<!-- Button's -->
+			<btnClose Caption='Kapat'/>
+			<btnEULANext Caption='Devam et'/>
+			<btnWebNext Caption='Devam et'/>
+			<btnGame Caption='Ara...' Hint='Klasör seç:'/>
+			<btnGameNext Caption='Devam et'/>
+			<btnSetPermissions Caption='İzinleri ayarla'/>
+			<btnWindowsNext Caption='Devam et'/>
+			<btnBackupNext Caption='Devam et'/>
+			<btnSocialNext Caption='Devam et'/>
+			<btnSocialYouTube Caption='$AppName$ YouTube kanalı'/>
+			<btnSocialTwitter Caption='$AppName$ Twitter hesabı'/>
+			<btnSocial_FB Caption='$AppName$ Facebook sayfası'/>
+			<btnSocial_VK Caption='$AppName$ VK sayfası'/>
+			<!-- Link's -->
+			<LnkWebLangs Caption='$AppName$&apos;yi başka bir dile çevir'/>
+			<LnkWebEULA Caption='Lisansı buradan okuyun.'/>
+			<!-- CheckBox's -->
+			<cbAcceptEULA Caption='$AppName$ Lisans Sözleşmesi&apos;ni okudum ve bu sözleşmedeki maddeleri kabul ediyorum.'/>
+			<!-- Strings -->
+			<StringList SetCount='30'>
+				<Lines>
+					<Item Index='00' Value='$AppName$ Kullanım Sözleşmesi'/>
+					<Item Index='01' Value='$AppName$&apos;yi kullanmadan önce belirtilen kullanım sözleşmesini okuyup kabul etmeniz gerekiyor.'/>
+					<Item Index='02' Value='$WebName$ servisi'/>
+					<Item Index='03' Value='$WebName$ servisi $AppName$&apos;in kullanıcıları ile geliştiricileri arasındaki bilgi değiş tokuşunu kolaylaştırmak için yapılmıştır. Eğer bu servise kayıt olursanız, $AppName$&apos;in güncellemelerini kontrol edebilirsiniz ve diğer ek özelliklerden yararlanabilirsiniz. Ek olarak, $WebName$ servisi, kullanıcıların istedikleri şekilde, $AppName$&apos;i geliştirmemizde bize yardımcı olan istatistikler toplayabilir.'/>
+					<Item Index='04' Value='Servis Geçici Olarak Kullanılamıyor.'/>
+					<Item Index='05' Value='$RageGAME$ klasörünü seçin'/>
+					<Item Index='06' Value='Oyun konumunu seçmezseniz, $AppName$, $RageGAME_SHORT$ dosyalarını açamaz çünkü onlar hakkında yeterli bilgiye sahip olmaz. Lütfen $RageGAME$&apos;in yüklü olduğu yeri aşağıda doğru bir şekilde belirtin.'/>
+					<Item Index='07' Value='$RageGAME$ konumu:'/>
+					<Item Index='08' Value='Hata: Bu klasör bulunmuyor.'/>
+					<Item Index='09' Value='Başarılı: $AppName$ bu klasör ile çalışabilir.'/>
+					<Item Index='10' Value="Hata: Bu klasör '$RageEncryptionStorage$' dosyasını içermiyor."/>
+					<Item Index='11' Value='Başarılı: $RageEncryptionStorage$, versiyon %s\n$AppName$ bu dosya ile çalışabilir.'/>
+					<Item Index='12' Value='Yedekler'/>
+					<Item Index='13' Value='Düzenleme yapmadan önce orjinal dosyalarınızı yedeklemeyi unutmayın.'/>
+					<Item Index='14' Value='Windows 7'/>
+					<Item Index='15' Value='$AppName$ en iyi Microsoft® Windows 7™ üzerinde çalışır'/>
+					<Item Index='16' Value='İsminiz:'/>
+					<Item Index='17' Value="Hata: $AppName$&apos;in bu klasöre erişim izni yok.\nGereken izinleri değiştirebilir veya $AppName$&apos;i yönetici olarak çalıştırabilirsiniz."/>
+					<Item Index='18' Value='$AppName$ topluluğuna katılın'/>
+					<Item Index='19' Value='$AppName$ - Onaylama'/>
+					<Item Index='20' Value='Ayarlama işlemleri henüz bitmedi.\nÇıkmak istediğinizden emin misiniz?'/>
+					<Item Index='21' Value="Hata: $AppName$&apos;in '$RageEncryptionStorage$' dosyasına erişim izni yok.\nGereken izinleri ayarlayabilir veya $AppName$&apos;i yönetici olarak çalıştırabilirsiniz."/>
+					<Item Index='22' Value="Hata: $RageGAME$ şu an çalışıyor. $AppName$&apos;i kullanmadan önce oyunu kapatın."/>
+					<Item Index='23' Value="Her şey hazır.\nOyun klasörünüze gereken izinler eklendi."/>
+					<Item Index='24' Value="İzinler eklenemedi."/>
+				</Lines>
+			</StringList>
+		</WelcomeScreen>
+		<UpdateScreen>
+			<!-- Button's -->
+			<btnExit Caption='Çıkış'/>
+			<btnInstall Caption='İndir ve yükle'/>
+			<!-- Label's -->
+			<lbTitle Caption='$AppName$ güncellemesi'/>
+			<lbText Caption='$AppName$ için yeni bir güncelleme mevcut. $AppName$&apos;i çalıştırmadan önce onu yüklemelisiniz.'/>
+			<lbStatus Caption='İndirme boyutu: '/>
+			<cbInstallUpdatesAutomatically Caption='Güncellemeleri otomatik olarak yükle'/>
+			<lbCurrentVersion Caption='Yüklü versiyon:'/>
+			<lbNewVersion Caption='Yeni Versiyon:'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='0' Value=' Mb'/>
+					<Item Index='1' Value='İndirme için hazırlanılıyor...'/>
+					<Item Index='2' Value='İndirilen: %f/%f Mb'/>
+					<Item Index='3' Value='Güncelleniyor...'/>
+					<Item Index='4' Value='Güncelleme hatası, lütfen daha sonra tekrar deneyin.'/>
+					<Item Index='5' Value='%d.%d.%d (Yapı %d; Tarih %s)'/>
+					<Item Index='6' Value='Bu güncelleme hata düzeltmeleri ve küçük iyileştirmeler içerir.'/>
+					<Item Index='7' Value='Bu güncelleme yeni özellikler, hata düzeltmeleri, arayüz değişiklikleri ve büyük iyileştirmeler içerir.'/>
+					<Item Index='8' Value=''/>
+					<Item Index='9' Value=''/>
+				</Lines>
+			</StringList>
+		</UpdateScreen>
+		<ChangeGameScreen>
+			<!-- Button's -->
+			<btnExit Caption='Çıkış'/>
+			<btnContinue Caption='Devam et'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='00' Value='Kritik uygulama hatası'/>
+					<Item Index='01' Value='$AppName$&apos;i "$RageEncryptionStorage$" dosyası ile aynı klasöre yüklemişsiniz ve bu yanlış.\nLütfen $AppName$&apos;i ayrı bir klasöre koyun.'/>
+					<Item Index='02' Value='$RageGAME$ klasörünü değiştir'/>
+					<Item Index='03' Value='Bir şeyler yanlış gitti, lütfen $RageGAME$ klasörünü aşağıdan değiştirin ve $AppName$&apos;yi yeniden başlatın.'/>
+					<Item Index='04' Value='Hata: Bu klasör bulunamadı.'/>
+					<Item Index='05' Value='Başarılı: $AppName$ bu klasör ile çalışabilir.'/>
+					<Item Index='06' Value="Hata: Bu klasör '$RageEncryptionStorage$' dosyasını içermiyor."/>
+					<Item Index='07' Value='Başarılı: $RageEncryptionStorage$, versiyon %s\n$AppName$ bu dosya ile çalışabilir.'/>
+					<Item Index='08' Value='Ara'/>
+					<Item Index='09' Value="Hata: $AppName$&apos;in bu klasöre erişim izni yok.\n$AppName$&apos;yi yönetici olarak çalıştırın."/>
+				</Lines>
+			</StringList>
+		</ChangeGameScreen>
+	</PreloaderWindow>
+</Translation>

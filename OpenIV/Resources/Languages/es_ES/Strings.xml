@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GlobalStrings>
+	<StringList>
+		<Item Index='00' Value='Progreso...'/>
+		<Item Index='01' Value='Archivo actual: '/>
+		<Item Index='02' Value='$AppName$ - Buscar'/>
+		<Item Index='03' Value='Buscando, por favor espere...'/>
+		<Item Index='04' Value='Cerrar'/>
+		<Item Index='05' Value=''/>
+		<Item Index='06' Value='Si'/>
+		<Item Index='07' Value='No'/>
+		<Item Index='08' Value=' bytes'/>
+		<Item Index='09' Value=' Kb'/>
+		<Item Index='10' Value=' Mb'/>
+		<Item Index='11' Value='¡Cuidado, estás por entrar al modo edición!'/>
+		<Item Index='12' Value='Mientras estes en el modo edición, todos los cambios van a ser guardados automaticamente.\n¿Quieres continuar?'/>
+		<Item Index='13' Value='Carpeta de destino:'/>
+		<Item Index='14' Value='La aplicación externa está trabajando...'/>
+		<Item Index='15' Value='Creando nuevo %S'/>
+		<Item Index='16' Value='$AppName$ - Información'/>
+		<Item Index='17' Value='Error cargando archivo, probablemente el archivo esté corrupto.'/>
+		<Item Index='18' Value='$AppName$ - Hubo un error mientras se abría el archivo'/>
+		<Item Index='19' Value='Formato de archivo desconocido.'/>
+		<Item Index='20' Value='%S versión %D no está soportada.'/>
+		<Item Index='21' Value="$AppName$ no puedes abrir el archivo, razón:\n"/>
+		<Item Index='22' Value='$AppName$ - Crear archivo'/>
+		<Item Index='23' Value="El nombre del archivo no puede ser nulo."/>
+		<Item Index='24' Value='openFormats - Importar'/>
+		<Item Index='25' Value='Extensión del archivo desconocida: %S'/>
+		<Item Index='26' Value='$AppName$ - Error de DirectX'/>
+		<Item Index='27' Value='$AppName$ es incapaz de iniciar Direct3D.'/>
+		<Item Index='28' Value='Run $RageGAME_SHORT$'/>
+		<Item Index='29' Value="$AppName$ es incapaz de localizar los archivos IDE asociados."/>
+		<Item Index='30' Value="$AppName$ es incapaz de abrir el archivo. Ésta es la posible posible razón:\n\nAceso denegado. Intenta iniciar $AppName$ con el administrador correcto.\nOtro proceso está utilizando el archivo. Cierra el programa e intenta de nuevo.\n\n"/>	
+		<Item Index='31' Value='Carpeta de destino:'/>
+		<Item Index='32' Value='Incapaz de abrir el archivo: Error desconocido.'/>
+		<Item Index='33' Value='Incapaz de abrir el archivo: Ruta no encontrada.'/>
+		<Item Index='34' Value='Incapaz de abrir el archivo: Acceso denegado, está siendo usado por otro programa.'/>
+		<Item Index='35' Value='Incapaz de abrir el archivo: Formato de archivo desconocido o está corrupto.'/>
+		<Item Index='36' Value='Incapaz de abrir el archivo: El archivo está corrupto.'/>
+		<Item Index='37' Value='Incapaz de abrir el archivo: Llave de encriptación desconocida, probablemente el archivo sea para un juego o plataforma diferente.'/>
+		<Item Index='38' Value='Incapaz de crear un nuevo archivo.'/>
+		<Item Index='39' Value='$AppName$ - No hay ningún dispositivo de reproducción de audio.'/>
+		<Item Index='40' Value='Incapaz de reproducir el archivo de audio. No hay ningún dispositivo de reproducción de audio.'/>
+		<Item Index='41' Value='$AppName$ es incapaz de encontar el handler para este archivo.\nRuta del archivo: "%s"'/>
+ 		<Item Index='42' Value='$AppName$ es incapaz de encontrar o abrir este archivo.\nRuta del archivo: "%s"'/>
+ 		<Item Index='43' Value='$AppName$ no puede abrir este archivo porque es más grande que 256 Megabytes.'/>
+ 		<Item Index='44' Value='$AppName$ es incapaz de mostrar contenido de este archivo. El archivo no puede ser guardado como XML, código de error: %s'/>
+ 		<Item Index='45' Value='$AppName$ es incapaz de abrir este archivo. Código de error: %s'/>
+	</StringList>
+	<tools>
+		<item Name="Tools.Common.RunGame" Title="Abrir $RageGAME_SHORT$" Hint="Abrir $RageGAME$"/>
+		<item Name="Tools.Common.Search" Title="Búsqueda Global" Hint="Abrir Búsqueda Global"/>
+		<item Name="Tools.Common.HashGenerator" Title="Generador de Hash" Hint="Abrir Generador de Hash"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Instalador del Paquete" Hint="Abrir Instalador del Paquete"/>
+		<item Name="Tools.GTAIV.PlacementSearch" Title="Búsqueda de Localizaciones" Hint="Abrir búsqueda de localizaciones"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Buscar Localizaciones" Hint="Abrir búsqueda de localizaciones"/>	
+		<item Name="Files.Resources.TextureEditor" Title="Visor de Texturas" Hint=""/>
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Editor de Texturas" Hint=""/>				
+		<item Name="Files.Common.AudioPlayer" Title="Reproductor de Audio" Hint=""/>	
+		<item Name="Files.Resources.CollisionViewer" Title="Visor de Colisiones" Hint=""/>
+		<item Name="Files.Resources.DrawableViewer" Title="Visor de Modelos WDR/WDD" Hint=""/>
+		<item Name="Files.Resources.FragmentsViewer" Title="Visor de Modelos WFT" Hint=""/>
+		<item Name="Files.Resources.NavmeshViewer" Title="Visor de Nav Mesh" Hint=""/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Encontrar IDE" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Visor de Animaciones" Hint="Abrir el Visor de Animaciones"/>
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Exportar a openFormats (.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer" Title="Visor de GXT" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="Visor de GXT2" Hint=""/>	
+		<item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Exportar esqueleto a openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Editar texturas incrustadas" Hint="Editar con Editor de Texturas Incrustadas"/>
+	</tools>
+</GlobalStrings>

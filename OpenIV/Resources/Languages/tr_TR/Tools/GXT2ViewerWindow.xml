@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GXT2ViewerWindow Caption='$AppName$ GXT Göstericisi'>		
+		<btnClose Caption='Kapat'/>
+	</GXT2ViewerWindow>
+</Translation>

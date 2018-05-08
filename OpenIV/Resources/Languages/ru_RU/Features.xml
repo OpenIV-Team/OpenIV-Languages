@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='Добавление в избранное'>
+		<Label1 Caption='Имя:'/>
+		<Label2 Caption='Добавить в:'/>
+
+		<btnAdd Caption='Добавить'/>
+		<btnCancel Caption='Отмена'/>
+		<btnNewFolder Caption='Создать папку'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Избранное'/>
+				<Item Index='1' Value='Создать папку'/>
+				<Item Index='2' Value='Имя папки: '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='Упорядочить избранное - $AppName$'>
+		<btnSave Caption='Сохранить'/>
+		<btnCancel Caption='Отмена'/>
+		<btnNewFolder Caption='Создать папку'/>
+		<btnRemove Caption='Удалить'/>
+		<btnClear Caption='Очистить'/>
+
+		<Label1 Caption='Используйте перетаскивание организовать ваше избранное.'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Избранное'/>
+				<Item Index='1' Value='Создать папку'/>
+				<Item Index='2' Value='Имя папки: '/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Archive Defragmenter -->
+
+	<DefragmenterWindow Caption='Дефрагментация архивов - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="Инструмент дефрагментации архивов перемещает файлы внутри архива для сокращения места занимаемого архивом на жёстком диске."/>
+		<lbNoteSave Caption='Все ваши изменения уже сохранены, вам не нужно дефрагментировать архив после каждого редактирования.'/>
+		<lbNoteRevert Caption='Дефрагментация архива не отменит сделанных изменений, и не вернет оригинальные файлы.'/>
+		<!-- Actions -->
+		<actClose Caption='Закрыть'/>
+		<actRebuild Caption='Дефрагментировать'/>
+		<actAddFile Caption='Добавить файлы'/>
+		<actAddFolder Caption='Добавить папку'/>
+		<actRemoveFile Caption='Удалить файл'/>
+		<actClear Caption='Очистить список'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='Имя'/>
+				<Item Index='2' Caption='Расположение'/>
+				<Item Index='3' Caption='Тип'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='Всё готово.'/>
+				<Item Index='1' Value='$AppName$ - Архив дефрагментирован'/>
+				<Item Index='2' Value='Открыть пересобранный архив?'/>
+				<Item Index='3' Value='Некоторые архивы не обработаны.'/>
+			</StringList>
+		</AeroWindow>
+	</DefragmenterWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption='Информация об архиве'>
+		<!-- Button's -->
+		<btnClose Caption='Закрыть'/>
+		<!-- Label's -->
+		<lbType Caption='Тип:'/>
+		<lbVersion Caption='Версия:'/>
+		<lbCount Caption='Всего элементов:'/>
+
+		<lbCGame Caption='Текущая игра:'/>
+		<lbCPlatform Caption='Платформа:'/>
+
+		<lbCodeModule Caption='Модуль:'/>
+		<lbCMVersion Caption='Версия модуля:'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='Импорт openFormats - $AppName$'>
+		<!-- Label's -->
+		<lbOfFileName Caption='Импортируемый файл:'/>
+		<lbOfFiles Caption='Файлы для импорта:'/>
+		<lbNewFileName Caption='Имя нового файла:'/>
+		<!-- Button's -->
+		<btnAdd Caption='Добавить'/>
+		<btnRemove Caption='Убрать'/>
+		<btnCancel Caption='Отмена'/>
+		<btnOk Caption='Далее'/>
+		<tbLeanMore Caption='Узнайте больше о openFormats'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='Защита геометрии (препятствует последующему экспорту)'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption='openFormats validator - $AppName$'>
+		<btnClose Caption='Закрыть'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value='Некоторые файлы не импортированы, дополнительная информация доступна ниже.'/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(Line %D): Not supported resource version, actual: "%S" but expected "%D".'/>
+				<Item Index='2' Value='%S(Line %D): Not supported format version, actual: "%S" but expected "%D".'/>
+				<!-- Common errors -->
+				<Item Index='3' Value='Fatal error: Uneble to initalize Direct3D.'/>
+				<Item Index='4' Value='Fatal error: File "%S" not found.'/>
+				<Item Index='5' Value='%S(Line %D): File "%S" not found.'/>
+				<Item Index='6' Value='%S(Line %D): File corrupted.'/>
+				<Item Index='7' Value='%S(Line %D): Property "%s" expected but "%s" found.'/>
+				<Item Index='8' Value='%S(Line %D): Property "%s" not found.'/>
+				<Item Index='9' Value='%S(Line %D): Not enough actual parameters.'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(Line %D): Unknown collision bound type "%S".'/>
+				<Item Index='11' Value='%S(Line %D): Collision too big.'/>
+				<Item Index='12' Value='%S(Line %D): Collision corrupted.'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value='%S(Line %D): Bone name is null.'/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(Line %D): Mesh is locked.'/>
+				<Item Index='15' Value='%S(Line %D): Material index out of bounds.'/>
+				<Item Index='16' Value="%S(Line %D): Shader can't be skinned."/>
+				<Item Index='17' Value="%S(Line %D): Too many bones in one geometry, you can't use more than 48 bones."/>
+
+				<Item Index='18' Value="%S(Line %D): %S"/>
+								
+				<!-- Export/Import -->
+				<Item Index='19' Value='Отчет об импорте openFormats'/>
+				<Item Index='20' Value='Отчет об экспорте openFormats'/>
+				<Item Index='21' Value='Некоторые файлы не экспортированы, дополнительная информация доступна ниже.'/>
+				
+			</StringList>
+		</AeroWindow>	
+	</openFormatsValidatorWindow>
+
+</Translation>

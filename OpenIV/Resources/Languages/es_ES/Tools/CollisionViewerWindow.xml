@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='$AppName$ Visor de Colisión'>
+		<paneDictionary Caption='Entradas del Diccionario'/>
+		<paneComposite Caption='Elementos compuestos'/>
+		<miLeft Caption='Izquierda'/>
+		<miRight Caption='Derecha'/>
+		<miCheckAll Caption='Seleccionar todos' />
+		<miUncheckAll Caption='Deseleccionar todos' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Mostrar Normals:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Tipo de Bound:</string>
+		<string name="CHILD_COUNT">Contador de Child:</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Visor de Colisión - ayuda</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
+			
+    W - Mover adelante
+    S - Mover atrás
+    A - Mover a la izquierda
+    D - Mover a la derecha
+
+    NumPad 8 - Mover cámara arriba
+    NumPad 2 - Mover cámera abajo
+    NumPad 4 - Mover cámera izquierda
+    NumPad 6 - Mover cámera derecha
+
+    Mantiene SHIFT - Para moverte rápido
+    Mantiene CTRL - Para moverte despacio
+    Utiliza la rueda del mouse para hacer zoom.
+		   
+Para cambiar las opciones de render usa las siguientes teclas:
+		   
+    F1 - Alternar este panel de ayuda
+    C - Alternar modo de camara
+    F - Alternar Edged Faces
+    P - Alternar puntos de pantalla
+    N - Alternar mostrar normals
+    G - Alternar geometría
+    ESC - Cerrar esta ventana
+	
+    Mantiene H - Para ocultar temporalmente el HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

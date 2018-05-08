@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='$AppName$ Visualizzatore modelli'>
+		<pmiCopyName Caption='Copia nome'/>
+		<pmiCopyHash Caption='Copia hash'/>
+		<pmiCopyNameAndHash Caption='Copia nome e hash'/>
+		<pmiHigh Caption='Alto'/>
+		<pmiMed Caption='Medio'/>
+		<pmiLow Caption='Basso'/>
+		<pmiVLow Caption='Molto Basso'/>
+		<miLeft Caption='sinistra'/>
+		<miRight Caption='DEstra'/>
+		<miCheckAll Caption='Seleziona tutto' />
+		<miUncheckAll Caption='Deseleziona tutto' />
+		<paneDictionary Caption='Dizionario elementi'/>
+		<cbMultipleRendering Caption='Rendering multiplo'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Carica da file esterno'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>	
+		<!-- help -->
+		<string name="HELP_TITLE">visualizzatore modelli - Aiuto</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Usa il mouse per guardarti intorno, muoviti usando questi tasti:
+
+    W - vai avanti
+    S - Torna indietro
+    A - Spostati a sinistra
+    D - Vai a destra
+
+    Dal tastierino numerico
+    NumPad 8 - Muovi la camera verso l'alto
+    NumPad 2 - Muovi la camera verso il basso
+    NumPad 4 - Muovi la camera verso sinistra
+    NumPad 6 - Muovi la camera verso destra
+
+    Tieni premuto SHIFT - per movimenti più veloci
+    Tieni premuto CTRL - Per movimenti più lenti
+    Usa la rotellina del mouse per lo zoom.
+
+Per aggiungere altre texture clicca su "[+] Aggiungi texture" nell'angolo in basso a destra della finestra. Per rimuoverle clicca su "[-]" vicino al nome della texture.
+
+Per modificare le opzioni di rendering, utilizza i collegamenti nella parte destra o questi tasti di scelta rapida:
+
+    F1 - Apre questa finestra di aiuto
+    F2 - Mostra ulteriori informazioni
+    C - Cambia il tipo della camera
+    F - Mostra/nascondi linee
+    P - Mostra/nascondi punti
+    G - Mostra/nascondi geometria
+    L - Cambia livello di dettaglio
+    ESC - Chiude la finestra del visualizzatore
+
+    Tieni premuto H - Per nascondere temporaneamente l'HUD
+]]>
+		</text>
+		<string name="CHECK_ALL">Seleziona tutto</string>
+		<string name="UNCHECK_ALL">Deseleziona tutto</string>
+		<string name="MULTIPLE_RENDERING">Rendering multiplo</string>
+		<string name="BOUND_TYPE">Tipo di limite:</string>
+		<string name="CHILD_COUNT">Conteggio figli:</string>
+	</RenderUI>
+</Translation>

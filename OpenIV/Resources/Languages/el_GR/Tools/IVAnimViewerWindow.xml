@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='Προβολέας κινήσεων - $AppName$'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Προβολέας κινήσεων</string>
+		<string name="START_PED">Κινήσεις πεζών</string>
+		<string name="START_MAP">Κινήσεις χάρτη</string>
+		<string name="START_CUT">Σκηνές</string>
+		<string name="CHANGE_PED_MODEL">Αλλαγή μοντέλου πεζού</string>
+		<string name="SELECT_PED_MODEL">Επιλογή μοντέλου πεζού</string>
+		<string name="LOADING___">Φόρτωση...</string>
+		<string name="EMPTY_CUTSCENE">Άδεια σκηνή</string>
+		<string name="EMPTY_CUTSCENE_MSG">Αδυναμία ανοίγματος κενής σκηνής.</string>
+		<string name="MISSED_ANIMATIONS">Χαμένες κινήσεις</string>
+		<string name="MISSED_ANIMATIONS_MSG">Το $AppName$ είναι αδύνατο να φορτώσει μερικές κινήσεις επειδή μερικά αρχεία λείπουν.</string>
+		<string name="FRAMES_">Καρέ: </string>
+		<string name="TIME_SCALE_X">Κλίμακα χρόνου: x</string>
+		<string name="NO_AUDIO_FILE">Χωρίς ήχο: το αρχείο ήχου αυτής της σκηνής απουσιάζει</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Προβολέας κινήσεων - βοήθεια</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Επιλέξτε κατηγορία και μετά αναπαράγετε οποιαδήποτε κίνηση. ]]>
+		</text>
+	</RenderUI>
+</Translation>

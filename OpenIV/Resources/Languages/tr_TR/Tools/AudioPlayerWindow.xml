@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AudioPlayerWindow Caption='$AppName$ Ses Yürütücüsü'>
+		<btnExportAll Caption='Hepsini çıkart'/>
+		<btnOptions Caption='Ayarlar'/>
+		<miPlayWhenOpen Caption='Dosya açılınca oynatmaya başlat'/>
+		<miAutoPlayNext Caption='Sonraki dosyayı otomatik olarak oynat'/>
+		<miPlay Caption='Oynat'/>
+		<miExport Caption='Çıkart'/>
+		<miCopyName Caption='İsmi kopyala'/>
+		<miExportAllChannelsSeparately Caption='Tüm kanalları ayrı olarak çıkart'/>
+		<btnSort Caption='Sırala'/>
+		<miSortByName Caption='İsme göre sırala'/>
+		<miSortByDuration Caption='Uzunluğa göre sırala'/>
+		<miSortOrderAsc Caption='Yükselen derecede sırala'/>
+		<miSortOrderDesc Caption='Azalan derecede sırala'/>
+		<!-- String's -->
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Hz'/>
+				<Item Index='1' Value='%D eşya, %D dak.'/>
+				<Item Index='2' Value='%D eşya, %D san.'/>
+				<Item Index='3' Value=''/>
+				<Item Index='4' Value=''/>
+				<Item Index='5' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</AudioPlayerWindow>
+</Translation>

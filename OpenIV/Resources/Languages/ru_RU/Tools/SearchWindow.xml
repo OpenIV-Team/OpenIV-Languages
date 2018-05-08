@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Поиск - $AppName$'>
+		<SearchBox BannerText="Поиск"/>
+		<btnGoSearch Caption="Найти"/>
+		<lbSearchOptions Caption="Параметры поиска:"/>
+		<lbSearchArea Caption="Область поиска:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Искать везде'/>
+				<Item Index="1" Value="Искать только в папке игры"/>
+				<Item Index="2" Value='Искать только в папке $ModsFolder$'/>
+			</Items>
+		</cbSearchArea>
+		<cbSoundsAndAudio Caption="Поиск в звуках и музыке"/>
+		<lbStopHint Caption="Для остановки поиска нажмите ESC"/>
+		<btnExtractResults Caption="Извлечь результаты"/>
+		<btnExtractAll Caption="Извлечь все файлы"/>
+		<btnExtractSelected Caption="Извлечь выбранные файлы"/>
+		<btnGoTo Caption="Перейти к файлу"/>
+		<btnOpenItem Caption="Открыть"/>
+		<btnExtractItem Caption="Извлечь"/>
+		<btnExtractSelectedItems Caption="Извлечь выбранные файлы"/>
+		<btnExtractAllItems Caption="Извлечь все файлы"/>
+		<btnSelectAllItems Caption="Выделить всё"/>
+		<btnCopyName Caption="Копировать имя"/>
+		<btnCopyPathName Caption="Копировать путь"/>
+		<btnSaveContent Caption="Сохранить содержимое"/>
+		<btnSaveRawContent Caption="Save raw content"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Найти'/>
+				<Item Index='1' Value='Остановить поиск'/>
+				<Item Index='2' Value='Нет найденных файлов'/>
+				<Item Index='3' Value='Найдено: %D'/>
+				<Item Index='4' Value='Нет выбранных файлов'/>
+				<Item Index='5' Value='Выбрано файлов: %D'/>
+				<Item Index='6' Value="$AppName$ не может открыть файл."/>
+				<Item Index='7' Value="Нет результатов для экспорта."/>
+				<Item Index='8' Value="Остановите поиск для экспорта."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

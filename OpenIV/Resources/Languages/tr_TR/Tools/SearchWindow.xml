@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Arama - $AppName$'>
+		<SearchBox BannerText="Ara"/>
+		<btnGoSearch Caption="Ara"/>
+		<lbSearchOptions Caption="Arama ayarları:"/>
+		<lbSearchArea Caption="Arama bölgesi:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Her yeri ara'/>
+				<Item Index="1" Value="Sadece oyun klasörünü ara"/>
+				<Item Index="2" Value='Sadece $ModsFolder$ klasörünü ara'/>
+			</Items>
+		</cbSearchArea>
+		<cbSoundsAndAudio Caption="Seslerde ara"/>
+		<lbStopHint Caption="Aramayı durdurmak için ESC'ye basın"/>
+		<btnExtractResults Caption="Sonuçları çıkart"/>
+		<btnExtractAll Caption="Tüm dosyaları çıkart"/>
+		<btnExtractSelected Caption="Seçilen dosyaları çıkart"/>
+		<btnGoTo Caption="Dosyaya git"/>
+		<btnOpenItem Caption="Aç"/>
+		<btnExtractItem Caption="Çıkart"/>
+		<btnExtractSelectedItems Caption="Seçilen dosyaları çıkart"/>
+		<btnExtractAllItems Caption="Tüm dosyaları çıkart"/>
+		<btnSelectAllItems Caption="Hepsini seç"/>
+		<btnCopyName Caption="İsmini kopyala"/>
+		<btnCopyPathName Caption="Yolunu kopyala"/>
+		<btnSaveContent Caption="İçeriği kaydet"/>
+		<btnSaveRawContent Caption="Direkt içeriği kaydet"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Ara'/>
+				<Item Index='1' Value='Aramayı durdur'/>
+				<Item Index='2' Value='Hiç sonuç bulunamadı'/>
+				<Item Index='3' Value='%D sonuç bulundu'/>
+				<Item Index='4' Value='Seçilmiş sonuç yok'/>
+				<Item Index='5' Value='Seçilen: %D'/>
+				<Item Index='6' Value="$AppName$ dosyayı açamıyor."/>
+				<Item Index='7' Value="Çıkartmak için sonuç yok."/>
+				<Item Index='8' Value="Çıkartma yapmadan önce lütfen aramayı durdurun."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

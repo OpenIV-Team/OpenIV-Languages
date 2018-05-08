@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='Про $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Версія %D.%D (Збірка %D; Дата: %S)</string>
+		<string name="VERSION_LABEL_3">Версія %D.%D.%D (Збірка %D; Дата: %S)</string>
+		<string name="THE_TEAM">Команда розробників</string>
+		<string name="THIRD_PARTY">Розробки третіх сторін</string>
+		<string name="THIRD_PARTY_LINE_1">При створенні застосунку використано розробки,</string>
+		<string name="THIRD_PARTY_LINE_2">творцями яких є треті сторони.</string>
+		<string name="THANKS_TO">Дякуємо</string>
+		<string name="ALPHABETICALLY">(за алфавітним порядком)</string>
+		<string name="SPECIAL_THANKS_TO">Окрема подяка</string>
+		<string name="LICENSE_TERMS">Умови ліцензійної угоди</string>
+		<string name="LOCALIZATION">Перекладачи</string>
+	</RenderUI>
+</Translation>

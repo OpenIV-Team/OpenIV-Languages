@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Some translations may be inaccurate here - Certaines traductions peuvent être inexactes ici -->
+<Translation>
+	<!-- common -->
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_LINK">Cliquez ici pour obtenir de l'aide</string>
+		<!-- Common words -->
+		<string name="TRUE">Oui</string>
+		<string name="FALSE">Non</string>
+		<string name="YES">Oui</string>
+		<string name="NO">Non</string>
+		<string name="OK">OK</string>
+		<string name="CANCEL">Annuler</string>
+		<string name="CLOSE">Fermer</string>
+		<string name="SAVE">Sauvegarder</string>
+		<string name="IMPORT">Importer</string>
+		<string name="SEARCH">Rechercher</string>
+
+		<!-- Context menu -->
+		<string name="COPY_ID">Copier l'ID</string>
+		<string name="COPY_NAME">Copier le nom</string>
+		<string name="COPY_LINE">Copier la ligne</string>
+		<string name="COPY_VALUE">Copier la valeur</string>
+		<string name="COPY_PROPERTIES">Copier les propriétés</string>
+		<string name="EXPORT_TEXTURE">Exporter</string>
+
+		<!-- Camera -->
+		<string name="CAMERA_MODE">Mode de caméra :</string>
+		<string name="CAMERA_MODE_FREE">Libre</string>
+		<string name="CAMERA_MODE_AROUND">Attachée</string>
+
+		<!-- Options -->
+		<string name="SHOW_GRID">Afficher la grille :</string>
+		<string name="GEOMETRY">Géométrie :</string>		
+		<string name="EDGED_FACES">Bordures des faces :</string>
+		<string name="DISPLAY_POINTS">Points d'affichage :</string>
+		<string name="EDGE_COLOR">Couleur des arêtes :</string>
+
+		<!-- Base information -->
+		<string name="POLYGONS">Polygones :</string>
+		<string name="VERTICES">Sommets :</string>
+
+		<!-- LOD -->
+		<string name="LOD">Niveau de détails :</string>
+		<string name="LOD_HIGH">Élevé</string>
+		<string name="LOD_MED">Moyen</string>
+		<string name="LOD_LOW">Bas</string>
+		<string name="LOD_VLOW">Très bas</string>
+
+		<!-- Textures -->
+		<string name="USING_TEXTURES">Textures utilisées :</string>
+		<string name="ADD_TEXTURE">[+] Ajouter des textures</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Exporter les textures intégrées ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ Afficher les textures intégrées ]</string>
+
+		<!-- Information -->
+		<string name="MORE_INFORMATION">[ Plus d'informations ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Exporter toutes les textures intégrées</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Exporter les textures intégrées sélectionnées</string>
+		<string name="COUNT_">Nombre : </string>
+		<string name="SELECT_OBJECT">Sélection d'objets</string>
+		<string name="COPY_SKELETON_INFO">Copier les informations squelette</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Copie impossible</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Copie impossible.</string>
+
+		<!-- Information tabs -->
+		<string name="INFO_GEOMETRIES">Géometries</string>
+		<string name="INFO_SKELETON">Squelettes</string>
+		<string name="INFO_SHADERS">Shaders</string>
+		<string name="INFO_TEXTURES">Textures</string>
+
+		<!-- Information mesh tabs -->
+		<string name="TAB_LOD_HIGH">Élevé</string>
+		<string name="TAB_LOD_MED">Moyen</string>
+		<string name="TAB_LOD_LOW">Bas</string>
+		<string name="TAB_LOD_VLOW">Très bas</string>
+
+		<!-- Columns -->
+		<string name="COLUMN_SPS">SPS</string>
+		<string name="COLUMN_SHADER">Shader</string>
+		<string name="COLUMN_PARAMETERS">Paramètres</string>
+
+		<string name="COLUMN_NAME">Nom</string>
+		<string name="COLUMN_TYPE">Type</string>
+		<string name="COLUMN_VALUE">Valeur</string>
+
+		<string name="COLUMN_INDEX">Index</string>
+		<string name="COLUMN_INDEX_COUNT">Nombre d'index</string>
+		<string name="COLUMN_FACE_COUNT">Nombre de faces</string>
+		<string name="COLUMN_VERTEX_COUNT">Nombre de sommets</string>
+		<string name="COLUMN_TOTAL_">Total :</string>
+		
+		<!-- Export texture format dialog -->
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Merci de sélectionner le format de fichier :</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Meilleur choix pour visualiser et modifier la texture.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Choisissez ce format si vous souhaitez réimporter la texture.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">Image JPEG (*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Ce format peut diminuer la qualité de la texture.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Image bitmap (*.bmp)</string>
+		
+		<!-- Edit -->
+		<string name="UNDO">Annuler</string>
+		<string name="REDO">Rétablir</string>
+		<string name="CUT">Couper</string>
+		<string name="COPY">Copier</string>
+		<string name="PASTE">Coller</string>
+
+	</RenderUI>
+</Translation>

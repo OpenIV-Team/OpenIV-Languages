@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<FiveAsiManagerWindow Caption='Gestore ASI - $AppName$'/>
+	<RenderUI>
+		<string name="TITLE">$RageGAME_SHORT$ - Gestore ASI</string>
+		
+		<string name="RPF_NOTE">Devono essere installati l'ASI Loader e $ModsFolderAsi$ plugin per $RageGAME_SHORT$, altrimenti il ​​gioco non caricherà l'archivio RPF modificato.</string>
+		<string name="ONLINE_NOTE">Non giocare a $RageGAME_MP$ con RPF modificati o verrai bannato.</string>
+		
+		<string name="INSTALL">Installa</string>
+		<string name="UPDATE">Aggiorna</string>
+		<string name="UNINSTALL">Disinstalla</string>
+		
+		<string name="NOT_INSTALLED">NON INSTALLATO</string>
+		<string name="UPDATE_REQUIRED">AGGIORNAMENTO RICHIESTO</string>
+		<string name="INSTALLED">INSTALLATO</string>
+		<string name="DISABLED">DISABILITATO</string>
+		
+		<string name="ASI_LOADER">ASI Loader</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader è lo strumento che carica le librerie personalizzate con l'estensione del file .asi nel processo di gioco.</string>
+		
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Questo plugin ASI consente al tuo gioco di caricare archivi RPF modificati. Fornisce inoltre supporto per la cartella $ModsFolder$</string>
+		
+		<string name="OPEN_CAMERA_ASI">Sblocca la Telecamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Rimuove il limite di distanza della telecamera nell'Editor Rockstar.</string>
+		
+		<string name="INSTALLATION_FAILED">Installazione fallita</string>
+		<string name="INSTALLATION_FAILED_TEXT">L'installazione non è riuscita, riprova riavviando $AppName$.</string>
+		
+		<string name="UNINSTALL_FAILED">Disinstallazione fallita</string>
+		<string name="UNINSTALL_FAILED_TEXT">La disisntallazione non è riuscita, riprova riavviando $AppName$.</string>
+
+		<string name="MODS_FOLDER_TITLE">Creare la cartella $ModsFolder$?</string>
+		<string name="MODS_FOLDER_TEXT">La cartella $ModsFolder$ ti consente di mantenere tutti i tuoi file di gioco originali al sicuro e di avere un modo più semplice con un clic di passare tra i file modificati e quelli originali.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Mostra notifica durante la modifica dell'archivio all'esterno della cartella $ModsFolder$</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Consenti la Modalità Editor solo per gli archivi all'interno della cartella $ModsFolder$</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">Puoi modificare queste impostazioni in qualsiasi momento nelle impostazioni di $AppName$.</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Impara di più sulla cartella $ModsFolder$</string>
+	</RenderUI>
+</Translation>

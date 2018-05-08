@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GlobalStrings>
+	<StringList>
+		<Item Index='00' Value='Napredak...'/>
+		<Item Index='01' Value='Trenutna datoteka: '/>
+		<Item Index='02' Value='Pretraži - $AppName$'/>
+		<Item Index='03' Value='Pretraga, molimo pričekajte...'/>
+		<Item Index='04' Value='Zatvori'/>
+		<Item Index='05' Value=''/>
+		<Item Index='06' Value='Da'/>
+		<Item Index='07' Value='Ne'/>
+		<Item Index='08' Value=' byte-ovi'/>
+		<Item Index='09' Value=' KB'/>
+		<Item Index='10' Value=' MB'/>
+		<Item Index='11' Value='Upozorenje, nalazite se u načinu Uređivanja!'/>
+		<Item Index='12' Value='Dok u načinu Uređivanja, sve izmjene će bit automatski snimljene.\nŽelite li nastavit?'/>
+		<Item Index='13' Value='Odredišna mapa:'/>
+		<Item Index='14' Value='Vanjska aplikacija radi...'/>
+		<Item Index='15' Value='Stvaranje novog %S'/>
+		<Item Index='16' Value='$AppName$ - Informacije'/>
+		<Item Index='17' Value='Greška učitavanja datoteke, vjerovatno oštećenje datoteke.'/>
+		<Item Index='18' Value='$AppName$ - Pojavila se greška tijekom otvaranja datoteke'/>
+		<Item Index='19' Value='Nemoznat format datoteke.'/>
+		<Item Index='20' Value='%S inačica %D nije podržana.'/>
+		<Item Index='21' Value="$AppName$ nije moguće otvoriti arhivu, razlog:\n"/>
+		<Item Index='22' Value='$AppName$ - Izradi arhivu'/>
+		<Item Index='23' Value="Ime arhive ne može bit prazno."/>
+		<Item Index='24' Value='openFormats - Uvezi'/>
+		<Item Index='25' Value='Nepoznato proširenje formata datoteke: %S'/>
+		<Item Index='26' Value='$AppName$ - DirectX greška'/>
+		<Item Index='27' Value='$AppName$ nije u mogućnosti pokrenut Direct3D.'/>
+		<Item Index='28' Value='Pokreni $RageGAME_SHORT$'/>
+		<Item Index='29' Value="$AppName$ nije u mogućnosti pronalaska mjesta asocirane IDE datoteke."/>
+		<Item Index='30' Value="$AppName$ nije u mogućnosti otvaranja datoteke. Ovdje je popis mogućih razloga:\n\nPristup odbijen. Pokušajte pokrenut $AppName$ s administratorskim ovlastima.\nDrugi proces koristi datoteku. Zatvorite druge programe i pokušajte ponovno.\n\n"/>
+		<Item Index='31' Value='Odredišna mapa:'/>
+		<Item Index='32' Value='Nemoguće otvorit arhivu: Nepoznata greška.'/>
+		<Item Index='33' Value='Nemoguće otvorit arhivu: Putanja nije pronađena.'/>
+		<Item Index='34' Value='Nemoguće otvorit arhivu: Pristup odbijen ili se datoteka koristi u drugom programu.'/>
+		<Item Index='35' Value='Nemoguće otvorit arhivu: Nepoznat format datoteke ili je arhiva oštećena.'/>
+		<Item Index='36' Value='Nemoguće otvorit arhivu: Arhiva je oštećena.'/>
+		<Item Index='37' Value='Nemoguće otvorit arhivu: Nepoznat ključ šifriranja, vjerovatno je arhiva namijenjena za drugu igru ili platformu.'/>
+		<Item Index='38' Value='Nemoguće stvorit novu arhivu.'/>
+		<Item Index='39' Value='$AppName$ - Nepostojeći uređaj za reprodukciju zvuka'/>
+		<Item Index='40' Value='Nemoguće reproducirati zvučni zapis. Nema dostupnog, postojećeg uređaja za reprodukciju zvuka.'/>
+		<Item Index='41' Value='$AppName$ nije u mogućnosti pronaći izvršitelja ove datoteke.\nPutanja datoteke: "%s"'/>
+		<Item Index='42' Value='$AppName$ nije u mogućnosti pronaći ili otvoriti ovu datoteku.\nPutanja datoteke: "%s"'/>
+		<Item Index='43' Value='$AppName$ ne može otvoriti ovu datoteku jer je veća od 256 MegaBytea.'/>
+		<Item Index='44' Value='$AppName$ nije u mogućnosti prikazivanja sadržaja ove datoteke. Datoteke ne može bit spremljena kao XML, kod greške: %s'/>
+		<Item Index='45' Value='$AppName$ nije u mogućnosti otvaranja ove datoteke. Kod greške: %s'/>
+	</StringList>
+	<tools>
+		<item Name="Tools.Common.RunGame" Title="Pokreni $RageGAME_SHORT$" Hint="Pokreni $RageGAME$"/>
+		<item Name="Tools.Common.Search" Title="Pretraži" Hint="Otvori pretragu"/>
+		<item Name="Tools.Common.HashGenerator" Title="Hash Stvoritelj" Hint="Otvori hash stvoritelj"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Postavljač Paketa" Hint="Otvori Postavljač Paketa"/>
+		<item Name="Tools.GTAIV.PlacementSearch" Title="Pretraga smještaja" Hint="Otvori pretragu smještaja"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Pronađi mjesto" Hint="Otvori pretragu smještaja"/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Pronađi u IDE" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="Preglednik Animacija" Hint="Otvori preglednik animacija"/>
+		<item Name="Tools.GTAV.ASIManager" Title="ASI Upravitelj" Hint="ASI Upravitelj"/>
+		<item Name="Files.Common.AudioPlayer" Title="Izvođač zvuka" Hint=""/>
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Izvezi u openFormats (.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer" Title="GXT preglednik" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 preglednik" Hint=""/>
+		<item Name="Files.Resources.TextureEditor" Title="preglednik Tekstura" Hint=""/>
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="preglednik Tekstura" Hint=""/>
+		<item Name="Files.Resources.CollisionViewer" Title="preglednik Kolizije" Hint=""/>
+		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD preglednik Modela" Hint=""/>
+		<item Name="Files.Resources.FragmentsViewer" Title="WFT preglednik Modela" Hint=""/>
+		<item Name="Files.Resources.NavmeshViewer" Title="preglednik Navigacijske geometrije" Hint=""/>
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Izvezi kostur u openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Uredi ugrađene teksture" Hint="Uredi s Urednikom Ugrađenih Tekstura"/>
+	</tools>
+</GlobalStrings>

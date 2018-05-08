@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='Средство просмотра анимации $AppName$'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Animation viewer</string>
+		<string name="START_PED">Анимация персонажей</string>
+		<string name="START_MAP">Анимация объектов карты</string>
+		<string name="START_CUT">Кат-сцены</string>
+		<string name="CHANGE_PED_MODEL">Изменить модель</string>
+		<string name="SELECT_PED_MODEL">Выберете модель персонажа</string>
+		<string name="LOADING___">загрузка...</string>
+		<string name="EMPTY_CUTSCENE">Пустая кат-сцена</string>
+		<string name="EMPTY_CUTSCENE_MSG">Невозможно открыть пустую кат-сцену.</string>
+		<string name="MISSED_ANIMATIONS">Анимации отсутствуют</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ не удается загрузить некоторые анимации поскольку файлы отсутствуют.</string>
+		<string name="FRAMES_">Фреймы: </string>
+		<string name="TIME_SCALE_X">Time scale: x</string>
+		<string name="NO_AUDIO_FILE">Нет звука: Аудио файл для данной кат-сцены отсутствует</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Animation viewer - помощь</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Выберите категорию и проиграйте любую анимацию. ]]>
+		</text>
+	</RenderUI>
+</Translation>

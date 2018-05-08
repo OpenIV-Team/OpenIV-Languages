@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GTAIVAnimViewerNoticeDialog Caption='Переглядач анімацій - $AppName$'>
+		<!-- Label's -->
+		<lbTitle Caption='Переглядач анімацій'/>
+		<lbText Caption='Для перегляду анімацій використовуйте Переглядач анімацій (меню «Інструменти»).'/>
+		<!-- Button's -->
+		<btnOk Caption='Закрити'/>
+		<btnRun Caption='Запустити Переглядач анімацій'/>
+	</GTAIVAnimViewerNoticeDialog>
+</Translation>

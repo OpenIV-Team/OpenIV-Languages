@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ Konum Arama'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">İsim ara</string>
+		<string name="SEARCH_FOR_HASH">Hash ara</string>
+
+		<string name="BANNER_TEXT_NAME">Model adı yazın</string>
+		<string name="BANNER_TEXT_HASH">Model hash'i yazın</string>
+
+		<string name="SEARCH">Ara</string>
+		<string name="STOP_SEARCH">Aramayı durdur</string>
+		<string name="INCORRECT_HASH">Yanlış hash</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" geçerli bir hash değeri değil.</string>
+
+		<string name="FILE_INFORMATION">Dosya bilgisi</string>
+		<string name="SHOW_DEFINITION">IDE dosyasında tanımını göster</string>
+		<string name="SHOW_IDE">IDE dosyasını göster</string>
+		<string name="SHOW_ARCHIVE">Arşivi göster</string>
+		<string name="SHOW_RESOURCE">Kaynak dosyasını göster</string>
+
+		<string name="HELP_TITLE">Konum arama - yardım</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Fare ile etrafa bakının, aşağıdaki tuşlar ile hareket edin:
+			
+    W - İleri git
+    S - Geri git
+    A - Sola git
+    D - Sağa git
+	
+    NumPad 8 - Kamerayı yukarı hareket ettir
+    NumPad 2 - Kamerayı aşağı hareket ettir
+    NumPad 4 - Kamerayı sola hareket ettir
+    NumPad 6 - Kamerayı sağa hareket ettir
+	
+    Daha hızlı hareket için SHIFT'i basılı tutun
+    Daha yavaş hareket için CTRL'yi basılı tutun
+    
+    Yakınlaştırmak için fare tekerleğini kullanın.
+	
+    ESC - Bu pencereyi kapatır
+    Geçici olarak HUD'u gizlemek için H'yi basılı tutun
+]]>
+		</text>
+	</RenderUI>
+</Translation>

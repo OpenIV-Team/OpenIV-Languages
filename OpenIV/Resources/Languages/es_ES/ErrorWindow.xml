@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Error de la apliación'>
+		<lbWindowTitle Caption="$AppName$ tuvo un problema que no pudo manejar, \ny ahora debe reiniciarse."/>
+		<btnCloseApp Caption='Cerrar $AppName$'/>
+		<lbReportHere Caption='Por favor, reportar este error usando los siguientes enlaces:'/>
+		<lnkWeb1 Caption='Visita el sitio oficial'/>
+		<lnkWeb2 Caption='Visita el foro de soporte internacional'/>
+		<lnkWeb3 Caption='Visita el foro en ruso'/>
+		<lbText2 Caption='Herramientas adicionales'/>
+		<tbCopyInfo Caption='Copia el error de la información'/>
+		<tbWin7Report Caption='Registro de los pasos para reproducir el problema' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Tiempo: '/>
+				<Item Index='1' Value='Tipo: '/>
+				<Item Index='2' Value='Mensaje: '/>
+				<Item Index='3' Value='Información adicional:'/>
+				<Item Index='4' Value='Información adicional no encontrada.'/>
+				<Item Index='5' Value='Información del error copiado al portapapeles.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

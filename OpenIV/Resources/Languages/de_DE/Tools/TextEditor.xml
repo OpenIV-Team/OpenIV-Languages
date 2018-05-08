@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='$AppName$ Textprogramm'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Textbetrachtungswerkzeug'/>
+				<Item Index='1' Value='$AppName$ Textbearbeitungswerkzeug'/>
+				<Item Index='2' Value='Suchen...'/>
+				<Item Index='3' Value='Auswahl suchen...'/>
+			</StringList>
+		</AeroWindow>
+		
+		<!-- Editor actions -->
+		<ActionEditCut Caption="Ausschneiden"/>
+		<ActionEditCopy Caption="Kopieren"/>
+		<ActionEditPaste Caption="Einfügen"/>
+		<ActionEditDelete Caption="Entfernen"/>
+		<ActionEditSelectAll Caption="Alles auswählen"/>
+		<ActionEditDuplicateLine Caption="Aktuelle Zeile klonen"/>
+		<ActionEditRemoveLine Caption="Zeile entfernen"/>
+		<ActionEditUpperCase Caption="GROSSSCHRIFT"/>
+		<ActionEditLoverCase Caption="KLEINSCHRIFT"/>
+	</TextEditorWindow>
+	
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">Exportieren</string>
+		<string name="EXPORT_TEXT">Als Rohtext exportieren (*.txt)</string>
+		<string name="EXPORT_HTML">Als formatierten Text exportieren (*.html)</string>
+		
+		<!-- Ribbon -->
+		<string name="TAB_HOME">Home</string>
+		<string name="TAB_SEARCH">Suche</string>
+		<string name="WORD_WRAP">Zeilenumbruch</string>
+		<string name="SHOW_SPECIAL_CHARS">Spezielle Zeichen anzeigen</string>
+		<string name="SEARCH_OPTIONS_MENU">Suchoptionen</string>
+		<string name="SEARCH_BANNER_TEXT">Nach etwas suchen</string>
+		<string name="SEARCH_DOWN">Nächstes Ergebnis</string>
+		<string name="SEARCH_UP">Vorheriges Ergebnis</string>
+		<string name="SEARCH_ALL">Alle</string>
+		<string name="SEARCH_ALL_HINT">Alle suchen</string>
+		<string name="SEARCH_SET_SELECTION_AREA">Suchbereich wählen</string>
+		<string name="GOTO_LINE">Zeile aufrufen</string>
+		
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">Suchmodus</string>
+		<string name="SEARCH_MODE_NORMAL">Normal</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Regulärer Ausdruck</string>
+		<string name="SEARCH_MODE_WILDCARD">Wildcard</string>
+		<string name="SEARCH_AREA">Search area</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">Gesamtes Dokument</string>
+		<string name="SEARCH_AREA_IN_SELECTION">Auswahl</string>
+		<string name="SEARCH_OPTIONS">Optionen</string>
+		<string name="SEARCH_ON_TYPING">Beim Tippen suchen</string>
+		<string name="CASE_SENSITIVE">Groß-/ Kleinschreibung beachten</string>
+		<string name="WHOLE_WORDS_ONLY">Nur ganze Wörter</string>
+		<string name="WRAP_AROUND">Zeilenumbruch</string>
+		<string name="HIGHLIGHT_RESULTS">Ergebnisse hervorheben</string>
+
+		<!-- Dialoge -->
+		<string name="SAVE_CHANGES_TITLE">Möchtest du deine Änderungen speichern?</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">Datei konnte nicht gespeichert werden</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$ kann die Änderungen nicht speichern, versuch es später noch einmal</string>
+		<string name="GOTO_LINE_TITLE">Gehe zu Zeile...</string>
+		<string name="GOTO_LINE_PROMT">Zeilennummer eingeben:</string>
+		<string name="GOTO_LINE_NOTE">Du kannst mit + oder - arbeiten, um dich relativ von der aktuellen Zeile zu bewegen.
+        Beispiel: +4 geht 4 Zeilen runter.</string>
+		<string name="GO">Los</string>
+	</RenderUI>
+</Translation>

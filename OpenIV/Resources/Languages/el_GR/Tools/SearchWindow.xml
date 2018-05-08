@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Αναζήτηση - $AppName$'>
+		<SearchBox BannerText="Αναζήτηση"/>
+		<btnGoSearch Caption="Αναζήτηση"/>
+		<lbSearchOptions Caption="Επιλογές αναζήτησης:"/>
+		<lbSearchArea Caption="Περιοχή αναζήτησης:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Αναζήτηση παντού'/>
+				<Item Index="1" Value="Αναζήτηση στον φάκελο του παιχνιδιού μόνο"/>
+				<Item Index="2" Value='Αναζήτηση στο φάκελο $ModsFolder$ μόνο'/>
+			</Items>
+		</cbSearchArea>
+		<cbSoundsAndAudio Caption="Αναζήτηση σε ήχους"/>
+		<lbStopHint Caption="Για διακοπή αναζήτησης πατήστε ESC"/>
+		<btnExtractResults Caption="Εξαγωγή αποτελεσμάτων"/>
+		<btnExtractAll Caption="Εξαγωγή όλων των αρχείων"/>
+		<btnExtractSelected Caption="Εξαγωγή επιλεγμένων αρχείων"/>
+		<btnGoTo Caption="Άνοιγμα θέσης αρχείου"/>
+		<btnOpenItem Caption="Άνοιγμα"/>
+		<btnExtractItem Caption="Εξαγωγή"/>
+		<btnExtractSelectedItems Caption="Εξαγωγή επιλεγμένων αρχείων"/>
+		<btnExtractAllItems Caption="Εξαγωγή όλων των αρχείων"/>
+		<btnSelectAllItems Caption="Επιλογή όλων"/>
+		<btnCopyName Caption="Αντιγραφή ονόματος"/>
+		<btnCopyPathName Caption="Αντιγραφή διαδρομής"/>
+		<btnSaveContent Caption="Αποθήκευση περιεχομένου"/>
+		<btnSaveRawContent Caption="Αποθήκευση ανεπεξέργαστου περιεχομένου"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Αναζήτηση'/>
+				<Item Index='1' Value='Διακοπή αναζήτησής'/>
+				<Item Index='2' Value='Δεν βρέθηκαν στοιχεία'/>
+				<Item Index='3' Value='Βρέθηκαν %D στοιχεία'/>
+				<Item Index='4' Value='Κανένα επιλεγμένο στοιχείο'/>
+				<Item Index='5' Value='Επιλέχθηκαν: %D'/>
+				<Item Index='6' Value="Το $AppName$ δεν μπορεί να ανοίξει το αρχείο."/>
+				<Item Index='7' Value="Δεν βρέθηκαν αποτελέσματα για εξαγωγή."/>
+				<Item Index='8' Value="Παρακαλώ διακόψτε την αναζήτηση πριν την εξαγωγή αρχείων."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

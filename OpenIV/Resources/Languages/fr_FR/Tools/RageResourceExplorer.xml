@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageResourceExplorer Caption='$AppName$ - Explorateur de ressources'>
+		<btnCopy Caption='Tout copier'/>
+		<miCopyLine Caption='Copier la ligne'/>
+	</RageResourceExplorer>
+
+	<RageResourceExplorer2 Caption='$AppName$ - Explorateur de ressources'>
+		<lbTree Caption="Arbre : "/>
+		<btnProperties Caption="Propriétés"/>
+		<btnFields Caption="Champs"/>
+		<tabProperties Caption="Propriétés"/>
+		<tabFields Caption="Champs"/>
+	</RageResourceExplorer2>
+</Translation>

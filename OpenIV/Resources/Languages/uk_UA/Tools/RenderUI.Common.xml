@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<!-- common -->
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_LINK">Натисність сюди, щоб отримати допомогу</string>
+
+		<!-- Common words -->
+		<string name="TRUE">Відобр…</string>
+		<string name="FALSE">Прихов…</string>
+		<string name="YES">Так</string>
+		<string name="NO">Ні</string>
+		<string name="OK">OK</string>
+		<string name="CANCEL">Скасувати</string>
+		<string name="CLOSE">Закрити</string>
+		<string name="SAVE">Зберегти</string>
+		<string name="IMPORT">Додати</string>
+		<string name="SEARCH">Шукати</string>
+
+		<!-- Camera -->
+		<string name="CAMERA_MODE">Режим камери:</string>
+		<string name="CAMERA_MODE_FREE">Вільна</string>
+		<string name="CAMERA_MODE_AROUND">Сфера</string>
+
+		<!-- Options -->
+		<string name="SHOW_GRID">Сітка:</string>
+		<string name="GEOMETRY">Трикутники:</string>		
+		<string name="EDGED_FACES">Ребра:</string>
+		<string name="DISPLAY_POINTS">Вершини:</string>
+
+		<!-- Base information -->
+		<string name="POLYGONS">Полігонів:</string>
+		<string name="VERTICES">Вершин:</string>
+
+		<!-- LOD -->
+		<string name="LOD">Рівень деталізації:</string>
+		<string name="LOD_HIGH">High</string>
+		<string name="LOD_MED">Med</string>
+		<string name="LOD_LOW">Low</string>
+		<string name="LOD_VLOW">VLow</string>
+
+		<!-- Textures -->
+		<string name="USING_TEXTURES">Використовувані текстури:</string>
+		<string name="ADD_TEXTURE">[+] Додати текстурний каталог</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Зберегти вбудовані текстури ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ Переглянути вбудовані текстури ]</string>
+
+		<!-- Information -->
+		<string name="MORE_INFORMATION">[ Більше інформації ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Зберегти всі вбудовані текстури</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Зберегти вибрані вбудовані текстури</string>
+		<string name="COUNT_">Кількість: </string>
+		<string name="SELECT_OBJECT">Вибрати обʼєкт</string>
+		<string name="COPY_SKELETON_INFO">Копіювати інформацію про скелет</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Помилка копіювання</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Копіювання до буферу обміну не вдалося.</string>
+
+		<!-- Information tabs -->
+		<string name="INFO_GEOMETRIES">Геометрія</string>
+		<string name="INFO_SKELETON">Скелет</string>
+		<string name="INFO_SHADERS">Шейдери</string>
+		<string name="INFO_TEXTURES">Текстури</string>
+
+		<!-- Information mesh tabs -->
+		<string name="TAB_LOD_HIGH">Високий</string>
+		<string name="TAB_LOD_MED">Середній</string>
+		<string name="TAB_LOD_LOW">Низький</string>
+		<string name="TAB_LOD_VLOW">Найнижчий</string>
+
+		<!-- Columns -->
+		<string name="COLUMN_SPS">SPS</string>
+		<string name="COLUMN_SHADER">Шейдер</string>
+		<string name="COLUMN_PARAMETERS">Параметри</string>
+
+		<string name="COLUMN_NAME">Імʼя</string>
+		<string name="COLUMN_TYPE">Тип</string>
+		<string name="COLUMN_VALUE">Значення</string>
+
+		<string name="COLUMN_INDEX">Номер</string>
+		<string name="COLUMN_INDEX_COUNT">Точки трикутів</string>
+		<string name="COLUMN_FACE_COUNT">Трикутники</string>
+		<string name="COLUMN_VERTEX_COUNT">Вершини</string>
+		
+		<!-- Export texture format dialog -->
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Будь ласка, виберіть формат файлу:</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Найкращий формат для подальшого перегляду.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Surface (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Виберіть цей формат, якщо ви плануєте замінити текстуру пізніше.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG(*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">При збереженні можлива втрата якості.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap image (*.bmp)</string>
+
+		<!-- Edit -->
+		<string name="UNDO">Назад</string>
+		<string name="REDO">Уперед</string>
+		<string name="CUT">Вирізати</string>
+		<string name="COPY">Копіювати</string>
+		<string name="PASTE">Уставити</string>		
+
+	</RenderUI>
+</Translation>

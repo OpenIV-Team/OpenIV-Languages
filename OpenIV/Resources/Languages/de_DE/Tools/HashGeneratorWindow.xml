@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<HashGeneratorWindow Caption='Hash Generator - $AppName$'>
+		<!-- Label's -->
+		<lbOutputFormat Caption='Ausgabeformat:' />
+		<!-- Button's -->
+		<btnLoadFromFile Caption='Aus Datei laden' />
+		<btnGenerate Caption='Generieren' />
+		<btnSaveToFile Caption='In Datei speichern' />
+		<cbCaseSensitive Caption='Groß- / Kleinschreibung beachten' />
+		<!-- Panel's -->
+		<pnlLeft Caption='Eingabe:' />
+		<pnlRight Caption='Ausgabe:' />    
+	</HashGeneratorWindow>
+</Translation>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='Προβολέας συγκρούσεων $AppName$'>
+		<paneDictionary Caption='Καταχωρήσεις λεξικού'/>
+		<paneComposite Caption='Σύνθετα στοιχεία'/>
+		<miLeft Caption='Αριστερά'/>
+		<miRight Caption='Δεξιά'/>
+		<miCheckAll Caption='Επιλογή όλων' />
+		<miUncheckAll Caption='Αποεπιλογή όλων' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Προβολή normals:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Τύπος ορίου:</string>
+		<string name="CHILD_COUNT">Θυγατρικά:</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Προβολέας συγκρούσεων - βοήθεια</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Χρησιμοποιείτε το ποντίκι για να περιηγηθείτε, μετακινηθείτε χρησιμοποιώντας αυτά τα κουμπιά:
+			
+    W - Κύλιση μπροστά
+    S - Κύλιση πίσω
+    A - Κύλιση αριστερά
+    D - Κύλιση δεξιά
+
+    NumPad 8 - Μετακίνηση κάμερας προς τα πάνω
+    NumPad 2 - Μετακίνηση κάμερας προς τα κάτω
+    NumPad 4 - Μετακίνηση κάμερας προς τα αριστερά
+    NumPad 6 - Μετακίνηση κάμερας προς τα δεξιά
+
+    Κράτημα SHIFT - Για ταχύτερη κίνηση
+    Κράτημα CTRL - Για βραδύτερη κίνηση
+    Χρήση του τροχού ποντικιού για μεγέθυνση και σμίκρυνση.
+		   
+Για να αλλάξετε τις ρυθμίσεις απόδοσης χρησιμοποιήστε τους συνδέσμους στα δεξιά, ή αυτά τα πλήκτρο συντόμευσης:
+		   
+	F1 - Εναλλαγή αυτού του πλαισίου βοήθειας
+	C - Εναλλαγή λειτουργίας κάμερας
+	F - Εναλλαγή οξέων προσόψεων
+	P - Εναλλαγή σημείων προβολής
+	N - Εναλλαγή προβολής normal mapping
+	G - Εναλλαγή γεωμετρίας
+	ESC - Κλείσιμο αυτού του παραθύρου
+	
+	Κράτημα H - Για προσωρινή απόκρυψη HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

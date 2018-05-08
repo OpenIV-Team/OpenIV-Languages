@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GTAIVAnimViewerNoticeDialog Caption='Προβολέας κινήσεων - $AppName$'>
+		<!-- Label's -->
+		<lbTitle Caption='Προβολέας κινήσεων'/>
+		<lbText Caption='Για προβολή κινήσεων, χρησιμοποιήστε τον Προβολέα κινήσεων που μπορεί να εκτελεστεί από το μενού Εργαλείων.'/>
+		<!-- Button's -->
+		<btnOk Caption='OK'/>
+		<btnRun Caption='Εκκίνηση Προβολέα κινήσεων'/>
+	</GTAIVAnimViewerNoticeDialog>
+</Translation>

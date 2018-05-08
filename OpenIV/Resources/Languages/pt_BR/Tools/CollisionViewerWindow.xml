@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='Visualizador de Colisão - $AppName$'>
+		<paneDictionary Caption='Dicionário de entradas'/>
+		<paneComposite Caption='Elementos compostos'/>
+		<miLeft Caption='Esquerda'/>
+		<miRight Caption='Direita'/>
+		<miCheckAll Caption='Marcar todos' />
+		<miUncheckAll Caption='Desmarcar todos' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Mostrar normals:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Tipo de bound:</string>
+		<string name="CHILD_COUNT">Total de child:</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Visualizador de Colisão — Ajuda</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Use o mouse para olhar ao redor, mova usando essas teclas:
+			
+    W - Mover para frente
+    S - Mover para trás
+    A - Mover para esquerda
+    D - Mover para direita
+
+    NumPad 8 - Mover câmera para cima
+    NumPad 2 - Mover câmera para baixo
+    NumPad 4 - Mover câmera para esquerda
+    NumPad 6 - Mover câmera para direita
+
+    SHIFT - Para movimento rápido (segure o botão)
+    CTRL - Para movimento lento (segure o botão)
+    Use a roda do mouse para dá zoom.
+		   
+Para alterar as opções de renderização use os links no  lado direito ou estas teclas de atalho:
+	   
+    F1 - Alternar para este painel de ajuda
+    C - Alternar modo de câmera
+    F - Alternar para edged faces (superfície com arestas)
+    P - Alternar para mostrar pontos
+    N - Alternar para mostrar normals
+    G - Alternar para mostrar geometria
+    ESC - Fechar a janela deste visualizador
+	
+    H - Para ocultar temporariamente o HUD (segure o botão)
+]]>
+		</text>
+	</RenderUI>
+</Translation>

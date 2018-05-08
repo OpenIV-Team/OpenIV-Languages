@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Postavljač Paketa - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Postavljač Paketa</string>
+		<string name="INSTALL">Postavi</string>
+		<string name="INSTALLING">Postavljanje</string>
+		<string name="DESCRIPTION">Opis</string>
+		<string name="ADDITIONAL_INFORMATION">Dodatne informacije</string>
+		<string name="GREATED_BY">Autor</string>
+		<string name="SUPPORTED_GAMES">Podržane igre</string>
+		<string name="VERSION">Inačica</string>
+		<string name="LICENCE">Licenca</string>
+		<string name="VIEW_LICENCE">Pregled licence</string>
+		<string name="LEARN_MORE">Saznajte više</string>
+		<string name="LINK_HOMEPAGE">Početna stranica</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Odaberite sadržaj za postavljanje</string>
+		<string name="SELECT_LOCATION">Odaberite mjesto za postavljanje</string>
+		<string name="LOCATION_MODS_FOLDER">$ModsFolder$ mapa</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Postavi ovaj mod u $ModsFolder$ mapu</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Ovaj paket ne može bit postavljen u $ModsFolder$ mapu jer $ModsFolder$ ne podržava trenutnu igru ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Ovaj paket nije moguće postavit u $ModsFolder$ mapu jer $ModsFolder$ ne sadrži podržani format paketa.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Ovaj paket nije moguće postavit u $ModsFolder$ mapu jer ne utječe na nijednu RPF arhivu.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Ovaj paket ne može bit postavljen u $ModsFolder$ mapu jer $ModsFolderAsi$ nije postavljen.</string>
+		<string name="LOCATION_GAME_FOLDER">Mapa igre</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Postavi ovaj mod izravno u mapu igre</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Ovaj paket nije moguće postavit u mapu igre jer je onemogućen u $ModsFolder$ postavkama mape.</string>
+		
+		<string name="INSTALLATION_SUCCEEDED">Postavljanje uspješno</string>
+		<string name="RUN_GAME">Pokreni $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Pokreni igru i provjeri što ste upravo dobili</string>
+
+		<string name="INSTALLATION_FAILED">Postavljanje nije uspjelo</string>
+
+		<string name="LOADING_ERROR_TITLE">Greška tijekom učitavanja paketa</string>
+		<string name="READING_ERROR_TITLE">Greška čitanja datoteke paketa</string>
+		<string name="INSTALLING_ERROR_TITLE">Greška u postavljanju paketa</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Nepoznata greška</string>
+		<string name="ERROR_GROUP_FATAL">Fatalna greška</string>
+		<string name="ERROR_CODE_UNKNOWN">Nešto se dogodilo. Molimo provjerite datoteku zapisnika(.log) za detalje o grešci.</string>
+		<string name="ERROR_INSTALLATION">Dogodila se fatalna greška tijekom postavljanja. Molimo provjerite datoteku zapisnika(.log) za detalje o grešci.</string>
+		<string name="ERROR_MSXML">MSXML nije postavljen. Navedeno je potrebno za korištenje Postavljača Paketa.</string>
+		<string name="CHECK_LOG_FILE">Molimo provjerite datoteku zapisnika(.log) za detalje o grešci.</string>
+		
+		<string name="OPEN_INSTALLATION_LOG">Otvori zapisnik postavljanja</string>
+		<string name="OPEN_LOG_FILE">Otvori datoteku zapisnika(.log)</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Datoteka paketa nije valjana ZIP datoteka.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Nepoznat nastavak datoteke. Datoteka paketa mora bit .oiv ili .zip.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Nije moguće pristupit datoteci paketa. Molimo Vas da osigurate da se ne koristi drugim procesom.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Datoteka paketa ne postoji.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Nije moguće otvoriti datoteku paketa.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Nije bilo moguće pronaći "assembly.xml" u ovom paketu. Datoteka vjerovatno nije $AppName$ Paket ili je datoteka oštećena.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Nije moguće čitati "assembly.xml", vjerovatno je datoteka oštećena.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Nepoznat format "assembly.xml", datoteka je vjerovatno oštećena.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Ovaj paket se ne može postavit s Vašom inačicom $AppName$.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">"metadata" nedostajuća oznaka unutar "assembly.xml", vjerovatno je datoteka oštećena.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">Nagovještajne informacije nedostaju ili su oštećene unutar "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">"assembly.xml" sadrži nevaljan XML format ili je oštećen.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Nije bilo moguće čitati ID paketa iz "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">"colors" oznaka nedostaje u "assembly.xml", vjerovatno je datoteka oštećena.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">Informacije o bojama nedostaju ili su oštećene unutar "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">Informacija sadržaja nedostaju ili je oštećena unutar "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">"content" oznaka nedostaje unutar "assembly.xml", vjerovatno je datoteka oštećena.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Nije bilo moguće pronaći "content" mapu u ovom paketu. Datoteka vjerovatno nije $AppName$ Paket ili je oštećena.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Paket se ne može postavit u $RageGAME$. Molimo provjerite popis podržanih igara u kategoriji dodatnih informacija.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Neke datoteke nedostaju u arhivi paketa. Molimo Vas da se javite autoru paketa.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Neke datoteke imaju netočne putanje unutar igre. Molimo Vas da se javite autoru paketa.</string>
+		
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">Ovaj paket se ne može ukloniti automatski.</string>
+		
+	</RenderUI>
+</Translation>

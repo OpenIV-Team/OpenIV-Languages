@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Recherche - $AppName$'>
+		<SearchBox BannerText="Rechercher"/>
+		<btnGoSearch Caption="Rechercher"/>
+		<lbSearchOptions Caption="Options de recherche:"/>
+		<lbSearchArea Caption="Zone de recherche:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Chercher partout'/>
+				<Item Index="1" Value="Chercher seulement dans le répertoire du jeu"/>
+				<Item Index="2" Value='Chercher seulement dans le dossier $ModsFolder$'/>
+			</Items>
+		</cbSearchArea>
+		<cbSoundsAndAudio Caption="Chercher dans les fichiers audio"/>
+		<lbStopHint Caption="Appuyez sur Échap pour arrêter la recherche"/>
+		<btnExtractResults Caption="Extraire les résultats"/>
+		<btnExtractAll Caption="Extraire tous les fichiers"/>
+		<btnExtractSelected Caption="Extraire les fichiers sélectionnés"/>
+		<btnGoTo Caption="Aller à l'emplacement du fichier"/>
+		<btnOpenItem Caption="Ouvrir"/>
+		<btnExtractItem Caption="Extraire"/>
+		<btnExtractSelectedItems Caption="Extraire les fichiers sélectionnés"/>
+		<btnExtractAllItems Caption="Extraire tous les fichiers"/>
+		<btnSelectAllItems Caption="Tout sélectionner"/>
+		<btnCopyName Caption="Copier le nom"/>
+		<btnCopyPathName Caption="Copier le chemin d'accès"/>
+		<btnSaveContent Caption="Sauvegarder le contenu"/>
+		<btnSaveRawContent Caption="Sauvegarder contenu raw"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Rechercher'/>
+				<Item Index='1' Value='Arrêter la recherche'/>
+				<Item Index='2' Value='Aucun fichier trouvé'/>
+				<Item Index='3' Value='%D fichiers trouvé'/>
+				<Item Index='4' Value='Aucun fichier sélectionné'/>
+				<Item Index='5' Value='Sélectionnés : %D'/>
+				<Item Index='6' Value="$AppName$ ne peut pas ouvrir ce fichier."/>
+				<Item Index='7' Value="Aucun résultat pour cette extraction."/>
+				<Item Index='8' Value="Arrêtez la recherche avant d'extraire."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

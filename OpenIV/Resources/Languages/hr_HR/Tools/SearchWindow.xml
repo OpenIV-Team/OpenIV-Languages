@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Pretraži - $AppName$'>
+		<SearchBox BannerText="Pretraži"/>
+		<btnGoSearch Caption="Pretraži"/>
+		<lbSearchOptions Caption="Pretraži opcije:"/>
+		<lbSearchArea Caption="Područje pretrage:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Pretraži posvuda'/>
+				<Item Index="1" Value="Pretraži samo u mapi igre"/>
+				<Item Index="2" Value='Pretraži samo u mapi $ModsFolder$'/>
+			</Items>
+		</cbSearchArea>
+		<cbSoundsAndAudio Caption="Pretraži u Zvuk"/>
+		<lbStopHint Caption="Za prestanak pretraživanja pritisnite ESC"/>
+		<btnExtractResults Caption="Rezultati raspakiranja"/>
+		<btnExtractAll Caption="Raspakiraj sve datoteke"/>
+		<btnExtractSelected Caption="Raspakiraj odabrane datoteke"/>
+		<btnGoTo Caption="Idi na datoteku"/>
+		<btnOpenItem Caption="Otvori"/>
+		<btnExtractItem Caption="Raspakiraj"/>
+		<btnExtractSelectedItems Caption="Raspakiraj odabrane datoteke"/>
+		<btnExtractAllItems Caption="Raspakiraj sve datoteke"/>
+		<btnSelectAllItems Caption="Odaberi sve"/>
+		<btnCopyName Caption="Udvostruči naziv"/>
+		<btnCopyPathName Caption="Udvostruči putanju"/>
+		<btnSaveContent Caption="Snimi sadržaj"/>
+		<btnSaveRawContent Caption="Snimi sirovi sadržaj"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Pretraži'/>
+				<Item Index='1' Value='Zaustavi pretragu'/>
+				<Item Index='2' Value='Nema pronađenih stavki'/>
+				<Item Index='3' Value='%D stavki pronađeno'/>
+				<Item Index='4' Value='Nema odabranih stavki'/>
+				<Item Index='5' Value='Odabrano: %D'/>
+				<Item Index='6' Value="$AppName$ ne može otvoriti datoteku."/>
+				<Item Index='7' Value="Nema rezultata za raspakiranje."/>
+				<Item Index='8' Value="Molimo, zaustavite pretragu prije raspakiranja."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

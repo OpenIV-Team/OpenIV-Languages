@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ Platzsuche'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Suche nach Name</string>
+		<string name="SEARCH_FOR_HASH">Suche nach Hash</string>
+
+		<string name="BANNER_TEXT_NAME">Modelnamen eingeben</string>
+		<string name="BANNER_TEXT_HASH">Modelhash eingeben</string>
+
+		<string name="SEARCH">Suche</string>
+		<string name="STOP_SEARCH">Suche abbrechen</string>
+		<string name="INCORRECT_HASH">Ungültiger Hash</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" ist kein gültiger Hashwert.</string>
+
+		<string name="FILE_INFORMATION">Dateiinformation</string>
+		<string name="SHOW_DEFINITION">Definition in IDE Datei zeigen</string>
+		<string name="SHOW_IDE">IDE Datei zeigen</string>
+		<string name="SHOW_ARCHIVE">Archiv zeigen</string>
+		<string name="SHOW_RESOURCE">Resourcendatei zeigen</string>
+
+		<string name="HELP_TITLE">Platzsuche - Hilfe</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Benutze die Maus um dich umzuschauen und diese Tasten für die Steuerung:
+			
+    W - Vorwärts bewegen
+    S - Rückwärts bewegen
+    A - Nach links bewegen
+    D - Nach rechts bewegen
+
+    NumPad 8 - Kamera nach oben bewegen
+    NumPad 2 - Kamera nach unten bewegen
+    NumPad 4 - Kamera nach links bewegen
+    NumPad 6 - Kamera nach rechts bewegen
+
+    SHIFT halten - Für schnellere Bewegung
+    STRG halten - Für langsamere Bewegung
+    
+    Mausrad zum Zoomen benutzen.
+	
+    ESC - Platzsuche - Fenster schließen
+    H halten - HUD kurzzeitig verstecken
+]]>
+		</text>
+	</RenderUI>
+</Translation>

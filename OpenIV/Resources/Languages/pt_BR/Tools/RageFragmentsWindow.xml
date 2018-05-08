@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Translation> 
+	<RageFragmentsWindow Caption='Visualizador de Modelo - $AppName$'>
+		<paneHierarchy Caption='Hierarquia'/>
+		<pmiHigh Caption='Alto (Alto)'/>
+		<pmiMed Caption='Médio (Méd)'/>
+		<pmiLow Caption='Baixo (Baixo)'/>
+		<pmiVLow Caption='Muito Baixo (MBaixo)'/>
+		<miLeft Caption='Esquerdo'/>
+		<miRight Caption='Direito'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Carregar de um arquivo externo'/>
+			</StringList>
+		</AeroWindow>
+	</RageFragmentsWindow>
+	<RenderUI>
+		<string name="TOGGLE_DAMAGED">Mostrar danos:</string>
+		<string name="HELP_TITLE">Visualizador de Modelo - Ajuda</string>		
+		<string name="CHECK_ALL">Marcar</string>
+		<string name="UNCHECK_ALL">Desmarcar</string>
+		<string name="ALSO_HIDE_CHILDREN">Também ocultar children</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Use o mouse para olhar ao redor, mova usando essas teclas:
+			
+    W - Mover para frente
+    S - Mover para trás
+    A - Mover para esquerda
+    D - Mover para direita
+
+    NumPad 8 - Mover câmera para cima
+    NumPad 2 - Mover câmera para baixo
+    NumPad 4 - Mover câmera para esquerda
+    NumPad 6 - Mover câmera para direita
+
+    SHIFT - Para movimento rápido (segure o botão)
+    CTRL - Para movimento lento (segure o botão)
+    Use a roda do mouse para dá zoom.
+	
+Para adicionar texturas adicionais clique no link "[+] Adicionar textura" no ângulo inferior direito da janela. Para remover a textura, clique no link "[-]".
+
+Para alterar as opções de renderização use os links no lado direito ou estas teclas de atalho:
+	
+    F1 - Alternar para este painel de ajuda
+    F2 - Mostrar mais informação
+    C - Alternar modo de câmera
+    F - Alternar para edged faces (superfície com arestas)
+    P - Alternar para mostrar pontos
+    G - Alternar para mostrar geometria
+	L - Alternar nível de detalhes
+    ESC - Fechar esta janela de visualização
+	
+    H - Para ocultar temporariamente o HUD (segure o botão)
+]]>
+		</text>				
+	</RenderUI>
+</Translation>

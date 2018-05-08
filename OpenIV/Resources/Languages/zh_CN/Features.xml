@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='添加一个收藏'>
+		<Label1 Caption='名称：'/>
+		<Label2 Caption='创建于：'/>
+
+		<btnAdd Caption='添加'/>
+		<btnCancel Caption='取消'/>
+		<btnNewFolder Caption='新建文件夹'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='收藏'/>
+				<Item Index='1' Value='新建一个文件夹'/>
+				<Item Index='2' Value='文件夹名： '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='组织收藏 - $AppName$'>
+		<btnSave Caption='保存'/>
+		<btnCancel Caption='取消'/>
+		<btnNewFolder Caption='新建文件夹'/>
+		<btnRemove Caption='移除'/>
+		<btnClear Caption='清空'/>
+
+		<Label1 Caption='使用拖放来组织你的收藏。'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='收藏'/>
+				<Item Index='1' Value='新建一个文件夹'/>
+				<Item Index='2' Value='文件夹名： '/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Archive Defragmenter -->
+
+	<DefragmenterWindow Caption='重建 - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="重新整理RPF文件内的文件碎片以优化文件体积"/>
+		<lbNoteSave Caption='你所做的更改已自动保存, 每次编辑后并不用必需重建。'/>
+		<lbNoteRevert Caption='重建不会改变文件内容'/>
+		<!-- Actions -->
+		<actClose Caption='关闭'/>
+		<actRebuild Caption='重建'/>
+		<actAddFile Caption='添加文件'/>
+		<actAddFolder Caption='添加文件夹'/>
+		<actRemoveFile Caption='移除文件'/>
+		<actClear Caption='清空列表'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='名称'/>
+				<Item Index='2' Caption='位置'/>
+				<Item Index='3' Caption='类型'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='全部完成。'/>
+				<Item Index='1' Value='$AppName$ - 文件已重建'/>
+				<Item Index='2' Value='打开已重建的文件？'/>
+				<Item Index='3' Value='部分文件未做处理。'/>
+			</StringList>
+		</AeroWindow>
+	</DefragmenterWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption='RPF信息'>
+		<!-- Button's -->
+		<btnClose Caption='关闭'/>
+		<!-- Label's -->
+		<lbType Caption='类型：'/>
+		<lbVersion Caption='版本：'/>
+		<lbCount Caption='物件数：'/>
+
+		<lbCGame Caption='当前游戏：'/>
+		<lbCPlatform Caption='当前平台：'/>
+
+		<lbCodeModule Caption='模块：'/>
+		<lbCMVersion Caption='模块版本：'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='$AppName$ - 导入openFormats文件'>
+		<!-- Label's -->
+		<lbOfFileName Caption='导入文件：'/>
+		<lbOfFiles Caption='导入文件：'/>
+		<lbNewFileName Caption='新文件名：'/>
+		<!-- Button's -->
+		<btnAdd Caption='添加'/>
+		<btnRemove Caption='移除'/>
+		<btnCancel Caption='取消'/>
+		<btnOk Caption='确定'/>
+		<tbLeanMore Caption='了解openFormats'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='保护网格（以防日后被导出）'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption='$AppName$ - openFormats验证器'>
+		<lbTitle Caption='openFormats导入报告'/>
+		<btnClose Caption='关闭'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value='部分文件未导入，更多信息如下。'/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(Line %D): 不支持的资源版本， actual: "%S" but expected "%D"。'/>
+				<Item Index='2' Value='%S(Line %D): 不支持的格式版本， actual: "%S" but expected "%D"。'/>
+				<!-- Common errors -->
+				<Item Index='3' Value='致命错误：无法初始化Direct3D。'/>
+				<Item Index='4' Value='致命错误：文件"%S"未找到。'/>
+				<Item Index='5' Value='%S(Line %D)：文件"%S"未找到。'/>
+				<Item Index='6' Value='%S(Line %D)：文件损坏。'/>
+				<Item Index='7' Value='%S(Line %D)：属性"%s" expected 但"%s" found。'/>
+				<Item Index='8' Value='%S(Line %D)：属性"%s"未找到。'/>
+				<Item Index='9' Value='%S(Line %D)：实例参数不足。'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(Line %D)：未知碰撞限制类型"%S"。'/>
+				<Item Index='11' Value='%S(Line %D)：碰撞过大。'/>
+				<Item Index='12' Value='%S(Line %D)：碰撞损坏。'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value='%S(Line %D)：骨点名为null。'/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(Line %D)：网格被锁定。'/>
+				<Item Index='15' Value='%S(Line %D)：材料索引超出限制。'/>
+				<Item Index='16' Value="%S(Line %D)：着色器无法被覆盖。"/>		
+				<Item Index='17' Value="%S(Line %D)：单个几何体中骨点过多，你最多只能使用48个骨点。"/>
+
+				<Item Index='18' Value="%S(Line %D)：%S"/>						
+			</StringList>
+		</AeroWindow>	
+	</openFormatsValidatorWindow>	
+
+</Translation>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='$AppName$ Çarpışma Modeli Görüntüleyicisi'>
+		<paneDictionary Caption='Sözlük girdileri'/>
+		<paneComposite Caption='Komposit elementler'/>
+		<miLeft Caption='Sol'/>
+		<miRight Caption='Sağ'/>
+		<miCheckAll Caption='Hepsini işaretle' />
+		<miUncheckAll Caption='Hepsinin işaretini kaldır' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Normalleri göster:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Bağ tipi:</string>
+		<string name="CHILD_COUNT">Alt element sayısı:</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Çarpışma Modeli Görüntüleyicisi - yardım</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Fareyi kullanarak etrafa bakının, aşağıdaki tuşlar ile hareket edin:
+			
+    W - İleri git
+    S - Geri git
+    A - Sola git
+    D - Sağa git
+
+    NumPad 8 - Kamerayı yukarı hareket ettir
+    NumPad 2 - Kamerayı aşağı hareket ettir
+    NumPad 4 - Kamerayı sola hareket ettir
+    NumPad 6 - Kamerayı sağa hareket ettir
+
+    Daha hızlı hareket için SHIFT'i basılı tut
+    Daha yavaş hareket için CTRL'i basılı tut
+    Yakınlaştırmak için fare tekerleğini kullan.
+		   
+Render seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
+		   
+    F1 - Bu yardım kutusunu açıp kapatır
+    C - Kamera modunu değiştirir
+    F - Kenarlı yüzleri açıp kapatır
+    P - Noktaların görüntülenmesini açıp kapatır
+    N - Normallerin görüntülenmesini açıp kapatır
+    G - Geometriyi açıp kapatır
+    ESC - Bu görüntüleyici penceresini kapatır
+	
+    HUD'u geçici olarak gizlemek için H'yi basılı tutun.
+]]>
+		</text>
+	</RenderUI>
+</Translation>

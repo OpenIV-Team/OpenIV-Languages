@@ -1,0 +1,509 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Library folder="Φάκελος" Default='Αρχείο %S' RSC='Πόρος %S'>
+	<!-- GTA V -->
+	<type Name="Ενημέρωση κώδικα (XML)">
+		<ext>patch</ext>
+	</type>
+	<type Name="Μέτα (XML)">
+		<ext>meta</ext>
+	</type>
+	<type Name="Βάση δεδομένων">
+		<ext>db</ext>
+	</type>
+	<type Name="Σενάριο ενεργειών (κείμενο)">
+		<ext>sc</ext>
+	</type>
+	<type Name="Scaleform flash">
+		<ext>gfx</ext>
+	</type>
+	<type Name="Περιεχόμενο που έχει δημιουργηθεί από χρήστες (JSON)">
+		<ext>ugc</ext>
+	</type>
+	<type Name="Όριο σύγκρουσης">
+		<ext>bnd</ext>
+	</type>
+	<type Name="Μεταδεδομένα (PSO/RSC)">
+		<ext>pso</ext>
+		
+		<ext>ymt</ext>
+		<ext>xmt</ext>
+		<ext>cmt</ext>
+		<ext>οmt</ext>
+
+		<ext>ymf</ext>
+		<ext>xmf</ext>
+		<ext>cmf</ext>
+		<ext>οmf</ext>
+	</type>
+	<type Name="Εφέ σωματιδίων">
+		<ext>ypt</ext>
+		<ext>xpt</ext>
+		<ext>cpt</ext>
+		<ext>opt</ext>
+	</type>
+	<type Name="Σημεία αναφοράς">
+		<ext>ywr</ext>
+		<ext>xwr</ext>
+		<ext>cwr</ext>
+		<ext>owr</ext>
+	</type>
+	<type Name="Σημειογραφία αντικειμένων JavaScript">
+		<ext>json</ext>
+	</type>
+	<type Name="Χάρτης (PSO/RSC)">
+		<ext>ymap</ext>
+		<ext>xmap</ext>
+		<ext>cmap</ext>
+		<ext>omap</ext>
+	</type>
+	<type Name="Καταχωρήσεις ορισμών (PSO/RSC)">
+		<ext>ytyp</ext>
+		<ext>xtyp</ext>
+		<ext>ctyp</ext>
+		<ext>otyp</ext>
+	</type>
+	<type Name="Πίνακας ονομάτων">
+		<ext>nametable</ext>
+	</type>
+	<type Name="Ροή">
+		<ext>srl</ext>
+	</type>
+	<!-- OpenIV -->
+	<type Name="Πακέτο OpenIV">
+		<ext>oiv</ext>
+	</type>
+	<!-- Archives -->
+	<type Name="Αρχείο πακέτου RAGE">
+		<ext>rpf</ext>
+	</type>
+	<type Name="Αρχείο εικόνας GTA">
+		<ext>img</ext>
+	</type>
+	<type Name="Συμπιεσμένος φάκελος ZIP">
+		<ext>zip</ext>
+	</type>
+	<type Name="Συμπιεσμένο αρχείο 7Z">
+		<ext>7z</ext>
+	</type>
+	<type Name="Συμπιεσμένο αρχείο WinRAR">
+		<ext>rar</ext>
+	</type>
+	<!-- Native media (Image and Video) -->
+	<type Name="Φορητά γραφικά δικτύου">
+		<ext>png</ext>
+	</type>
+	<type Name="Εικόνα Bitmap">
+		<ext>bmp</ext>
+	</type>
+	<type Name="Εικόνα GIF">
+		<ext>gif</ext>
+	</type>
+	<type Name="Εικόνα JPEG">
+		<ext>jpeg</ext>
+		<ext>jpg</ext>
+	</type>
+	<type Name="Εικονίδιο">
+		<ext>ico</ext>
+	</type>
+	<type Name="Αρχεία Targa">
+		<ext>tga</ext>
+	</type>
+	<type Name="DirectDraw Surface">
+		<ext>dds</ext>
+	</type>
+	<type Name="Αρχείο βίντεο Bink">
+		<ext>bik</ext>
+	</type>
+	<type Name="Αρχείο Windows Media Audio/Video">
+		<ext>wmv</ext>
+		<ext>wma</ext>
+	</type>
+	<type Name="Αρχείο ήχου Wave">
+		<ext>wav</ext>
+	</type>
+	<type Name="Αρχείο βίντεο MP4">
+		<ext>mp4</ext>
+	</type>
+	<!-- Web media -->
+	<type Name="Αρχείο HTML">
+		<ext>html</ext>
+		<ext>htm</ext>
+	</type>
+	<type Name="Shockwave Flash">
+		<ext>swf</ext>
+	</type>
+	<!-- Resources (RAGE) -->
+	<type Name="Πόρος σεναρίου ενεργειών">
+		<ext>xsc</ext>
+		<ext>csc</ext>
+		<ext>wsc</ext>
+		<ext>ysc</ext>
+		<ext>osc</ext>
+	</type>
+	<type Name="Πίνακας συμβολοσειράς">
+		<ext>xst</ext>
+		<ext>cst</ext>
+		<ext>wst</ext>
+		<ext>yst</ext>
+		<ext>ost</ext>
+	</type>
+	<type Name="Πόρος υφών">
+		<ext>xtx</ext>
+		<ext>ctx</ext>
+		<ext>wtx</ext>
+		<ext>ytx</ext>
+		<ext>otx</ext>
+	</type>
+	<type Name="Κομμάτια ενεργειών">
+		<ext>xat</ext>
+		<ext>cat</ext>
+		<ext>wat</ext>
+		<ext>yat</ext>
+		<ext>oat</ext>
+	</type>
+	<type Name="NavMesh">
+		<ext>xnm</ext>
+		<ext>cnm</ext>
+		<ext>wnm</ext>
+		<ext>ynm</ext>
+		<ext>onm</ext>
+	</type>
+	<type Name="Πληροφορίες τομέα">
+		<ext>xsi</ext>
+		<ext>csi</ext>
+		<ext>wsi</ext>
+		<ext>ysi</ext>
+		<ext>osi</ext>
+	</type>
+	<type Name="Δεδομένα τόμων">
+		<ext>xvd</ext>
+		<ext>cvd</ext>
+		<ext>wvd</ext>
+		<ext>yvd</ext>
+		<ext>ovd</ext>
+	</type>
+	<type Name="Συγκρούσεις εδάφους">
+		<ext>xtb</ext>
+		<ext>ctb</ext>
+		<ext>wtb</ext>
+		<ext>ytb</ext>
+		<ext>otb</ext>
+	</type>
+	<type Name="Λεξικό υφών">
+		<ext>wtd</ext>
+		<ext>xtd</ext>
+		<ext>ctd</ext>
+		<ext>ytd</ext>
+		<ext>otd</ext>
+	</type>
+	<type Name="Λεξικό κινήσεων">
+		<ext>wad</ext>
+		<ext>xad</ext>
+		<ext>cad</ext>
+		<ext>yad</ext>
+		<ext>oad</ext>
+	</type>
+	<type Name="Λεξικό συγκρούσεων">
+		<ext>wbd</ext>
+		<ext>xbd</ext>
+		<ext>cbd</ext>
+		<ext>ybd</ext>
+		<ext>obd</ext>
+	</type>
+	<type Name="Λεξικό σχεδιάσιμων">
+		<ext>wdd</ext>
+		<ext>xdd</ext>
+		<ext>cdd</ext>
+		<ext>ydd</ext>
+		<ext>odd</ext>
+	</type>
+	<type Name="Σχεδιάσιμο αντικείμενο">
+		<ext>wdr</ext>
+		<ext>xdr</ext>
+		<ext>cdr</ext>
+		<ext>ydr</ext>
+		<ext>odr</ext>
+	</type>
+	<type Name="Τμήματα αντικειμένων">
+		<ext>wft</ext>
+		<ext>xft</ext>
+		<ext>cft</ext>
+		<ext>yft</ext>
+		<ext>oft</ext>
+	</type>
+	<type Name="Αντικείμενο HTML">
+		<ext>whm</ext>
+		<ext>xhm</ext>
+		<ext>chm</ext>
+		<ext>yhm</ext>
+		<ext>ohm</ext>
+	</type>
+	<type Name="Στατικές συγκρούσεις">
+		<ext>wbn</ext>
+		<ext>xbn</ext>
+		<ext>cbn</ext>
+		<ext>ybn</ext>
+		<ext>obn</ext>
+	</type>
+	<type Name="NavMesh">
+		<ext>wnv</ext>
+		<ext>xnv</ext>
+		<ext>cnv</ext>
+		<ext>ynv</ext>
+		<ext>onv</ext>
+	</type>
+	<type Name="Blendshapes">
+		<ext>wbs</ext>
+		<ext>xbs</ext>
+		<ext>cbs</ext>
+		<ext>ybs</ext>
+		<ext>obs</ext>
+	</type>
+	<type Name="Βιβλιοθήκη εφέ σωματιδίων">
+		<ext>wpfl</ext>
+		<ext>xpfl</ext>
+		<ext>cpfl</ext>
+		<ext>ypfl</ext>
+		<ext>opfl</ext>
+	</type>
+	<type Name="Αναφορές οχημάτων">
+		<ext>xvr</ext>
+		<ext>cvr</ext>
+		<ext>wvr</ext>
+		<ext>yvr</ext>
+		<ext>ovr</ext>
+	</type>
+	<type Name="Αναφορές πεζών">
+		<ext>xpr</ext>
+		<ext>cpr</ext>
+		<ext>wpr</ext>
+		<ext>ypr</ext>
+		<ext>opr</ext>
+	</type>
+	<type Name="Κόμβοι διαδρομών">
+		<ext>xnd</ext>
+		<ext>cnd</ext>
+		<ext>wnd</ext>
+		<ext>ynd</ext>
+		<ext>ond</ext>
+	</type>
+	<type Name="Λεξικό αποσπασμάτων">
+		<ext>xcd</ext>
+		<ext>ccd</ext>
+		<ext>wcd</ext>
+		<ext>ycd</ext>
+		<ext>ocd</ext>
+	</type>
+	<type Name="Λεξικό εκφράσεων">
+		<ext>xed</ext>
+		<ext>ced</ext>
+		<ext>wed</ext>
+		<ext>yed</ext>
+		<ext>oed</ext>
+	</type>
+	<type Name="Λεξικό Blendshapes">
+		<ext>xsd</ext>
+		<ext>csd</ext>
+		<ext>wsd</ext>
+		<ext>ysd</ext>
+		<ext>osd</ext>
+	</type>
+	<type Name="Λεξικό πανιών">
+		<ext>xld</ext>
+		<ext>cld</ext>
+		<ext>wld</ext>
+		<ext>yld</ext>
+		<ext>old</ext>
+	</type>
+	<type Name="Πόρος κίνησης">
+		<ext>wan</ext>
+	</type>
+	<!-- Audio (RAGE) -->
+	<type Name="Κοντέινερ ήχου Wave">
+		<ext>awc</ext>
+	</type>
+	<!-- Audio (OpenIV) -->
+	<type Name="Τράπεζα ήχων">
+		<ext>RAGE_SOUND_BANK</ext>
+	</type>
+	<type Name="Αρχείο ήχου">
+		<ext>RAGE_AUDIO_FILE</ext>
+	</type>
+	<!-- Executables -->
+	<type Name="Εφαρμογή">
+		<ext>exe</ext>
+	</type>
+	<type Name="Εφαρμογή (XBOX 360)">
+		<ext>xex</ext>
+	</type>
+	<type Name="Βιβλιοθήκη δυναμικής σύνδεσης">
+		<ext>dll</ext>
+	</type>
+	<type Name="Πρόσθετο ASI (DLL)">
+		<ext>asi</ext>
+	</type>
+	<!-- Misc -->
+	<type Name="Δυαδικά δεδομένα">
+		<ext>bin</ext>
+	</type>
+	<type Name="Σενάριο ενεργειών Python">
+		<ext>py</ext>
+	</type>
+	<type Name="Απλό κείμενο">
+		<ext>txt</ext>
+	</type>
+	<type Name="Υλικό">
+		<ext>mtl</ext>
+	</type>
+	<type Name="Κανόνες κειμένου">
+		<ext>tr</ext>
+	</type>
+	<type Name="Υπότιτλοι σκηνών">
+		<ext>cutsub</ext>
+	</type>
+	<type Name="Παράμετροι μετατροπών υφής">
+		<ext>ctp</ext>
+		<ext>tcp</ext>
+	</type>
+	<type Name="Προκαθορισμένη σκίαση">
+		<ext>sps</ext>
+	</type>
+	<type Name="Πίνακας κειμένου GTA">
+		<ext>gxt</ext>
+		<ext>gxt2</ext>
+	</type>
+	<type Name="Κείμενο XML">
+		<ext>xml</ext>
+	</type>
+	<type Name="Κείμενο παραμέτρων">
+		<ext>ini</ext>
+	</type>
+	<type Name="Μεταγλωττισμένο σενάριο">
+		<ext>sco</ext>
+	</type>
+	<type Name="Καταχωρήσεις ορισμών στοιχείων">
+		<ext>ide</ext>
+	</type>
+	<type Name="Λίστες τοποθέτησης αντικειμένων">
+		<ext>ipl</ext>
+	</type>
+	<type Name="Εγγραφές αυτοκινήτων">
+		<ext>rrr</ext>
+	</type>
+	<type Name="Δεδομένα">
+		<ext>dat</ext>
+		<ext>datnew</ext>
+	</type>
+	<type Name="Σκηνή">
+		<ext>cut</ext>
+	</type>
+	<type Name="Εκτεταμένες λίστες τοποθέτησης">
+		<ext>xpl</ext>
+		<ext>wpl</ext>
+	</type>
+	<type Name="Λίστα">
+		<ext>list</ext>
+		<ext>xlist</ext>
+		<ext>lst</ext>
+	</type>
+	<type Name="Τιμές διαχωρισμένες με κόμματα">
+		<ext>csv</ext>
+	</type>
+	<type Name="Λίστα Microsoft Office Excel 97-2003">
+		<ext>xls</ext>
+	</type>
+	<type Name="Απόκομμα GTAIV">
+		<ext>cli</ext>
+	</type>
+	<type Name="Αρχείο πακέτου hash GTAIV">
+		<ext>pak</ext>
+	</type>
+	<type Name="Παράμετροι">
+		<ext>cfg</ext>
+	</type>
+	<type Name="Μικρογραφία αποκομμάτων GTAIV">
+		<ext>tag</ext>
+	</type>
+	<type Name="Κίνηση">
+		<ext>anim</ext>
+	</type>
+	<type Name="Διαδρομές">
+		<ext>nod</ext>
+	</type>
+	<type Name="Πληροφορίες μάχης">
+		<ext>cmb</ext>
+	</type>
+	<type Name="Πληροφορίες πεζών">
+		<ext>ped</ext>
+	</type>
+	<type Name="Ζώνη">
+		<ext>zon</ext>
+	</type>
+	<type Name="Μεταγλωττισμένη σκίαση">
+		<ext>fxc</ext>
+	</type>
+	<type Name="Μεταγλωττισμένη σκίαση (cell/ps3)">
+		<ext>cgx</ext>
+	</type>
+	<type Name="Μεταδεδομένα ήχου">
+		<ext>DAT4</ext>
+		<ext>DAT10</ext>
+		<ext>DAT11</ext>
+		<ext>DAT12</ext>
+		<ext>DAT15</ext>
+		<ext>DAT16</ext>
+		<ext>DAT19</ext>
+		<ext>DAT20</ext>
+		<ext>DAT22</ext>
+		<ext>DAT45</ext>
+		<ext>DAT46</ext>
+		<ext>DAT54</ext>
+		<ext>DAT149</ext>
+		<ext>DAT150</ext>
+		<ext>DAT151</ext>
+		<name>config/speech.dat</name>
+		<name>config/categories.dat</name>
+		<name>config/curves.dat</name>
+		<name>config/dlc_1_curves.dat</name>
+		<name>config/dlc_1_game.dat</name>
+		<name>config/dlc_1_sounds.dat</name>
+		<name>config/dlc_1_speech.dat</name>
+		<name>config/dlc_pre-order_curves.dat</name>
+		<name>config/dlc_pre-order_game.dat</name>
+		<name>config/dlc_pre-order_sounds.dat</name>
+		<name>config/effects.dat</name>
+		<name>config/game.dat</name>
+		<name>config/sounds.dat</name>
+		<name>config/test_curves.dat</name>
+		<name>config/test_game.dat</name>
+		<name>config/test_sounds.dat</name>
+		<name>config/weapons.dat</name>
+		<name>config/anim.dat</name>
+		<name>config/dlc_3_sounds.dat</name>
+		<name>config/dlc_3_game.dat</name>
+		<name>config/dlc_3_curves.dat</name>
+		<name>config/dlc_2_speech.dat</name>
+		<name>config/dlc_2_sounds.dat</name>
+		<name>config/dlc_2_game.dat</name>
+		<name>config/dlc_2_curves.dat</name>
+	</type>
+	<type Name="Δέσμη ενεργειών">
+		<ext>bat</ext>
+	</type>
+	<type Name="Γραμμή εντολών των Windows">
+		<ext>cmd</ext>
+	</type>
+	<type Name="Εκφράσεις">
+		<ext>expr</ext>
+	</type>
+	<type Name="Συντονισμός">
+		<ext>tune</ext>
+	</type>
+	<type Name="FX εικόνας">
+		<ext>ifx</ext>
+	</type>
+	<!-- Steam -->
+	<type Name="Σενάριο ενεργειών Steam">
+		<ext>vdf</ext>
+	</type>
+</Library>

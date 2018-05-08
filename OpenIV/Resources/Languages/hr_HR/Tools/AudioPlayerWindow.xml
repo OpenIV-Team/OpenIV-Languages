@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AudioPlayerWindow Caption='$AppName$ Izvođač Reprodukcije Zvuka'>
+		<btnExportAll Caption='Izvezi sve'/>
+		<btnOptions Caption='Opcije'/>
+		<miPlayWhenOpen Caption='Započni reproduciranje kad se datoteka otvori'/>
+		<miAutoPlayNext Caption='Auto-reproduciraj(shuffle) slijedeću traku'/>
+		<miPlay Caption='Reproduciraj'/>
+		<miExport Caption='Izvezi'/>
+		<miCopyName Caption='Udvostruči naziv'/>
+		<miExportAllChannelsSeparately Caption='Izvezi sve kanale odvojeno'/>
+		<btnSort Caption='Razvrstaj'/>
+		<miSortByName Caption='Razvrstaj prema nazivu'/>
+		<miSortByDuration Caption='Razvrstaj prema duljini'/>
+		<miSortOrderAsc Caption='Razvrstaj prema redoslijedu rast'/>
+		<miSortOrderDesc Caption='Razvrstaj prema redoslijedu padanje'/>
+		<!-- String's -->
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Hz'/>
+				<Item Index='1' Value='%D stavki, %D min.'/>
+				<Item Index='2' Value='%D stavki, %D sek.'/>
+				<Item Index='3' Value=''/>
+				<Item Index='4' Value=''/>
+				<Item Index='5' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</AudioPlayerWindow>	
+</Translation>

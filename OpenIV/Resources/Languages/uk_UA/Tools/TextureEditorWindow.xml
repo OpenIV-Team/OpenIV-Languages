@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='Інструмент роботи з текстурами $AppName$'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Переглядач текстур $AppName$'/>
+				<Item Index='1' Value='Редактор текстур $AppName$'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">Вигляд:</string>
+		<string name="EXPORT_ALL">Зберегти всі текстури</string>
+		<string name="EXPORT_SELECTED">Зберегти вибране</string>
+		<string name="ORIGINAL_SIZE">Зберегти розмір</string>
+		<string name="ALPHA_BACKGROUND">Клітчасте тло</string>
+		<string name="SIZE_">Розмір:</string>
+
+		<string name="RENAME">Нове імʼя</string>
+		<string name="REPLACE">Замінити</string>
+		<string name="DELETE">Видалити</string>
+		<string name="RENAME_TEXTURE">Перейменування текстури</string>
+		<string name="RENAME_TEXTURE_NAME">Нове імʼя</string>
+		<string name="RENAME_TEXTURE_ERROR">Текстура з цим імʼям вже існує.</string>
+		<string name="NO_IMAGE">Зображення відсутнє</string>
+
+		<string name="NO_IMAGE_SELECTED">Зображення не вибрано</string>
+		<string name="WIDTH">Ширина</string>
+		<string name="HEIGHT">Висота</string>
+		<string name="PIXEL_FORMAT">Стиснення</string>
+		<string name="MIP_MAPS">Рівней деталізації</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">Додавання текстури</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Ці налаштування можна ігнорувати при додаванні DDS.
+Використовуйте формат DDS для найкращої якості.]]>
+		</text>
+		<string name="AUTO_MIPMAP">Автоматично згенерувати рівні деталізації</string>
+		<string name="TEXTURES_FORMAT">Формат стиснення:</string>
+		<string name="AUTOMATICALLY">Автоматично</string>
+		<string name="IMPORT_ERROR_FILES">Такі файли не додано</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">Властивості</string>
+		<string name="PROPERTIES_MIPMAP">Рівней деталізації:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Стиснення:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Увага!
+Зміна параметрів може погіршити якість.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">Неможливо відредагувати властивість “%S”.</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">Ви бажаєте зберегти зміни?</string>
+		
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">Помилка ініціалізації DirectX 11</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ не вдалося ініціалізувати DirectX 11.\nНеможливо редагувати цей файл.</string>
+		
+		<!-- help -->
+		<string name="HELP_TITLE">Редактор текстур - Допомога</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Редактор текстур підтримує такі комбінації клавіш:
+			
+    Ctrl+Tab — Змінити вигляд
+    Ctrl+A — Зберегти всі текстури
+    Ctrl+S — Зберегти вибрані текстури
+    F1 — Приховати/відобразити допоміжний текст
+    Esc — Закрити вікно переглядача
+    
+    Утримуйте H для приховування елементів інтерфейсу.
+]]>
+		</text>
+	</RenderUI>
+</Translation>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageScriptWindow Caption='SCO Görüntüleyici - '>
+		<!-- Button's -->
+		<btnSave Caption='Kodu metin olarak kopyala'/>
+		<btnClose Caption='Kapat'/>
+		<btnASMBack Caption='&lt;&lt; Geri'/>
+		<btnCFList Caption='Listeyi gizle'/>
+		<btnCodeList Caption='Listeyi gizle'/>
+		<!-- Tabs -->
+		<tbASM Caption='ASM kodu'/>
+		<tbCFASM Caption='ASM kodu Kontrol Akışı'/>
+		<tbCODE Caption='Yüksek Seviye Kod'/>
+		<Label1 Caption='Filtre:'/>
+		<!-- Menu -->
+		<N1 Caption='Adrese git'/>
+		<N2 Caption='Satırı kopyala'/>
+		<N3 Caption='Bunu filtrele'/>
+		<!-- Text menu -->
+		<miCopyText Caption='Kopyala'/>
+		<miFind Caption='Bul...'/>
+		<miSelectAll Caption='Hepsini seç'/>
+		<miCopyAll Caption='Hepsini kopyala'/>
+		<!-- Save code menu -->
+		<N4 Caption='Metin olarak kaydet'/>
+		<N5 Caption='HTML olarak kaydet'/>	
+		<!-- String's -->
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='SCO Dosyası Yükleniyor...'/>
+				<Item Index='1' Value='[ADIM1]'/>
+				<Item Index='2' Value='[ADIM2]'/>
+				<Item Index='3' Value='[ADIM3]'/>
+				<Item Index='4' Value='Hepsini göster'/>
+			</StringList>
+		</AeroWindow>
+	</RageScriptWindow>
+</Translation>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Erro de aplicação'>
+		<lbWindowTitle Caption="O $AppName$ encontrou um problema\ne precisa ser fechado."/>
+		<btnCloseApp Caption='Fechar o $AppName$'/>
+		<lbReportHere Caption='Por favor, reporte este erro usando os seguintes links:'/>
+		<lnkWeb1 Caption='Visitar o site oficial'/>
+		<lnkWeb2 Caption='Visitar o fórum de suporte international'/>
+		<lnkWeb3 Caption='Visitar o fórum de suporte Russo'/>
+		<lbText2 Caption='Ferramentas adicionais'/>
+		<tbCopyInfo Caption='Copiar as informações do erro'/>
+		<tbWin7Report Caption='Registrar as ações do usuário para reproduzir um problema' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Horas: '/>
+				<Item Index='1' Value='Tipo: '/>
+				<Item Index='2' Value='Mensagem: '/>
+				<Item Index='3' Value='Informações adicionais:'/>
+				<Item Index='4' Value='Está faltando informações adicionais.'/>
+				<Item Index='5' Value='Informações do erro copiada para a área de transferência.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

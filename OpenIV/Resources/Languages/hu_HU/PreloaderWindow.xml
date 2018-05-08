@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PreloaderWindow>
+		<WelcomeScreen>
+			<!-- Button's -->
+			<btnClose Caption='Close'/>
+			<btnEULANext Caption='Continue'/>
+			<btnWebNext Caption='Continue'/>
+			<btnGame Caption='Browse...' Hint='Select folder:'/>
+			<btnGameNext Caption='Continue'/>
+			<btnSetPermissions Caption='Set permissions'/> 
+			<btnWindowsNext Caption='Continue'/>
+			<btnBackupNext Caption='Continue'/>
+			<btnSocialNext Caption='Continue'/>
+			<btnSocialYouTube Caption='$AppName$ YouTube channel'/>
+			<btnSocialTwitter Caption='$AppName$ on Twitter'/>
+			<btnSocial_FB Caption='$AppName$ Facebook page'/>
+			<btnSocial_VK Caption='$AppName$ VK page'/>
+			<!-- Link's -->
+			<LnkWebLangs Caption='Translate $AppName$ into another language'/>
+			<LnkWebEULA Caption='Read the license here.'/>
+			<!-- CheckBox's -->
+			<cbAcceptEULA Caption='I have read and agree to the therms of the $AppName$ License Agreement.'/>
+			<!-- Strings -->
+			<StringList SetCount='30'>
+				<Lines>
+					<Item Index='00' Value='$AppName$ Terms of Use'/>
+					<Item Index='01' Value='Before using $AppName$ you need to read and agree the following terms of use.'/>
+					<Item Index='02' Value='$WebName$ service'/>
+					<Item Index='03' Value='$WebName$ service is made on purpose to exchange of information between developers and end users of $AppName$. If you register in the service, you will be able to check updates of $AppName$ and use other additional features. Also $WebName$ service collects some statistics infomation which is intended to help us to improve $AppName$ in ways its end users prefer.'/>
+					<Item Index='04' Value='Service Temporarily Unavailable.'/>
+					<Item Index='05' Value='Choose $RageGAME$ folder'/>
+					<Item Index='06' Value='Without specifying the game location, $AppName$ cannot open $RageGAME_SHORT$ files as it would not have enough information. Please set correct location of the installed $RageGAME$ below.'/>
+					<Item Index='07' Value='$RageGAME$ location:'/>
+					<Item Index='08' Value='Error: This folder does not exist.'/>
+					<Item Index='09' Value='Successfully: $AppName$ can work with this folder.'/>
+					<Item Index='10' Value="Error: This folder doesn't contain the '$RageEncryptionStorage$' file."/>
+					<Item Index='11' Value='Successfully: $RageEncryptionStorage$, version %s\n$AppName$ can work with this file.'/>
+					<Item Index='12' Value='Backups'/>
+					<Item Index='13' Value='Do not forget to backup your original files before editing.'/>
+					<Item Index='14' Value='Windows 7'/>
+					<Item Index='15' Value='$AppName$ is best working on Microsoft® Windows 7™'/>
+					<Item Index='16' Value='Your name:'/>
+					<Item Index='17' Value="Error: $AppName$ don't have access to work with this folder.\nYou can set required permissions or run $AppName$ with administrator rights."/>
+					<Item Index='18' Value='Join $AppName$ community'/>
+					<Item Index='19' Value='$AppName$ - Confirmation'/>
+					<Item Index='20' Value='The configuration process is not finished yet.\nDo you want to exit?'/>
+					<Item Index='21' Value="Error: $AppName$ don't have access to work with '$RageEncryptionStorage$' file.\nYou can set required permissions or run $AppName$ with administrator rights."/>
+					<Item Index='22' Value="Error: $RageGAME$ is running. Close game before using $AppName$."/>
+					<Item Index='23' Value="All done.\nThe permissions was set to your game folder."/>
+					<Item Index='24' Value="Unable to set permissions."/>
+				</Lines>
+			</StringList>
+		</WelcomeScreen>
+		<UpdateScreen>
+			<!-- Button's -->
+			<btnExit Caption='Exit'/>
+			<btnInstall Caption='Download and install'/>
+			<!-- Label's -->
+			<lbTitle Caption='$AppName$ update'/>
+			<lbText Caption='A new update is available for $AppName$. You need to install it before you can start $AppName$.'/>
+			<lbStatus Caption='Download size: '/>
+			<cbInstallUpdatesAutomatically Caption='Install updates automatically'/>
+			<lbCurrentVersion Caption='Your version:'/>
+			<lbNewVersion Caption='New version:'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='0' Value=' Mb'/>
+					<Item Index='1' Value='Prepare for download...'/>
+					<Item Index='2' Value='Downloaded: %f of %f Mb'/>
+					<Item Index='3' Value='Updating...'/>
+					<Item Index='4' Value='Update error, please try again later.'/>
+					<Item Index='5' Value='%d.%d.%d (Build %d; Date %s)'/>
+					<Item Index='6' Value='This update contains bug fixes and small improvements.'/>
+					<Item Index='7' Value='This update contains new features, bug fixes, UI changes and major improvements.'/>
+					<Item Index='8' Value=''/>
+					<Item Index='9' Value=''/>
+				</Lines>
+			</StringList>
+		</UpdateScreen>
+		<ChangeGameScreen>
+			<!-- Button's -->
+			<btnExit Caption='Exit'/>
+			<btnContinue Caption='Continue'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='00' Value='Fatal application error'/>
+					<Item Index='01' Value='You have placed $AppName$ into the same folder with "$RageEncryptionStorage$" file, and this is wrong.\nPlease place $AppName$ into separate folder.'/>
+					<Item Index='02' Value='Change $RageGAME$ folder'/>
+					<Item Index='03' Value='Something wrong, please change $RageGAME$ folder below and restart $AppName$.'/>
+					<Item Index='04' Value='Error: This folder does not exist.'/>
+					<Item Index='05' Value='Successfully: $AppName$ can work with this folder.'/>
+					<Item Index='06' Value="Error: This folder doesn't contain the '$RageEncryptionStorage$' file."/>
+					<Item Index='07' Value='Successfully: $RageEncryptionStorage$, version %s\n$AppName$ can work with this file.'/>
+					<Item Index='08' Value='Browse'/>
+					<Item Index='09' Value="Error: $AppName$ don't have access to work with this folder.\nRun $AppName$ with administrator rights."/>
+				</Lines>
+			</StringList>
+		</ChangeGameScreen>
+	</PreloaderWindow>
+</Translation>

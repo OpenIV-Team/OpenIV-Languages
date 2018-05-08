@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<HashGeneratorWindow Caption='Генератор хеш-кодів - $AppName$'>
+		<!-- Label's -->
+		<lbOutputFormat Caption='Вихідний формат:' />
+		<!-- Button's -->
+		<btnLoadFromFile Caption='Завантажити з файлу' />
+		<btnGenerate Caption='Згенерувати' />
+		<btnSaveToFile Caption='Зберегти як файл' />
+		<cbCaseSensitive Caption='З урахуванням регістра' />
+		<!-- Panel's -->
+		<pnlLeft Caption='Текстові рядки:' />
+		<pnlRight Caption='Хеш-коди:' />    
+	</HashGeneratorWindow>
+</Translation>

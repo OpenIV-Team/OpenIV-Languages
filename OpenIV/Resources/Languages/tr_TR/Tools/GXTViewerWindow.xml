@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GXTViewerWindow Caption='$AppName$ GXT Göstericisi'>		
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='GXT Tabloları listesi'/>
+				<Item Index='1' Value='Anahtar'/>
+				<Item Index='2' Value='Değer'/>
+				<Item Index='3' Value='Tablo Sayısı:'/>
+				<Item Index='4' Value=''/>
+			</StringList>
+		</AeroWindow>
+		<btnExport Caption='Metin dosyası olarak çıkart'/>
+	</GXTViewerWindow>
+</Translation>

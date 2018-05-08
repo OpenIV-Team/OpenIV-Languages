@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AudioPlayerWindow Caption='Аудіопрогравач $AppName$'>
+		<btnExportAll Caption='Зберегти все'/>
+		<btnOptions Caption='Налаштування'/>
+		<miPlayWhenOpen Caption='Автоматично відтворювати після відкритті файлу'/>
+		<miAutoPlayNext Caption='Автоматично відтворювати наступні доріжки'/>
+		<miPlay Caption='Відтворити'/>
+		<miExport Caption='Зберегти'/>
+		<miCopyName Caption='Копіювати імʼя'/>
+		<miExportAllChannelsSeparately Caption='Зберегти всі канали окремо'/>
+		<btnSort Caption='Сортування'/>
+		<miSortByName Caption='За імʼям'/>
+		<miSortByDuration Caption='За тривалістю'/>
+		<miSortOrderAsc Caption='За зростанням'/>
+		<miSortOrderDesc Caption='За спаданням'/>
+		<!-- String's -->
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Гц'/>
+				<Item Index='1' Value='%D ел., %D хв.'/>
+				<Item Index='2' Value='%D ел., %D с'/>
+				<Item Index='3' Value=''/>
+				<Item Index='4' Value=''/>
+				<Item Index='5' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</AudioPlayerWindow>	
+</Translation>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='Средство просмотра моделей $AppName$'>
+		<pmiCopyName Caption='Копировать имя'/>
+		<pmiCopyHash Caption='Копировать хэш'/>
+		<pmiCopyNameAndHash Caption='Копировать имя и хэш'/>
+		<pmiHigh Caption='Высокий (High)'/>
+		<pmiMed Caption='Средний (Med)'/>
+		<pmiLow Caption='Низкий (Low)'/>
+		<pmiVLow Caption='Очень низкий (VLow)'/>
+		<miLeft Caption='На левой стороне'/>
+		<miRight Caption='На правой стороне'/>
+		<miCheckAll Caption='Отметить все' />
+		<miUncheckAll Caption='Снять выделение' />
+		<paneDictionary Caption='Элементы'/>
+		<cbMultipleRendering Caption='Множественный рендеринг'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Загрузить из внешнего файла'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_TITLE">Model Viewer - Справка</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Используйте мышь, чтобы осмотреться, для перемещения используйте следующие клавиши:
+			
+    W - Двигаться вперед
+    S - Двигаться назад
+    A - Двигаться влево
+    D - Двигаться вправо
+
+    NumPad 8 - Двигать камеру вверх
+    NumPad 2 - Двигать камеру вниз
+    NumPad 4 - Двигать камеру влево
+    NumPad 6 - Двигать камеру вправо
+
+    Зажмите SHIFT - Для быстрого перемещения
+    Зажмите CTRL - Для медленного перемещения
+    Используйте колесо мыши для масштабирования.
+	
+Чтобы добавить дополнительные текстуры щелкните "[+] Добавить" в правом нижнем углу окна. Чтобы удалить текстуру щелкните на ссылку "[-]"  возле имени текстуры.
+
+Чтобы изменить параметры отображения используйте меню в правой части окна, или эти клавиши:
+	
+    F1 - Скрыть/показать эту справку
+    F2 - Скрыть/показать информацию о модели
+    C - Переключить режим камеры
+    F - Переключить показ рёбер
+    P - Переключить показ вершин
+    G - Переключить показ геометрии
+    L - Переключить уровень детализации
+    ESC - Закрыть окно
+	
+    Зажмите H - Для временного скрытия интерфейса
+]]>
+		</text>
+		<string name="CHECK_ALL">Отметить все</string>
+		<string name="UNCHECK_ALL">Снять выделение</string>
+		<string name="MULTIPLE_RENDERING">Множественный рендеринг</string>
+		<string name="BOUND_TYPE">Тип:</string>
+		<string name="CHILD_COUNT">Количество:</string>
+	</RenderUI>
+</Translation>

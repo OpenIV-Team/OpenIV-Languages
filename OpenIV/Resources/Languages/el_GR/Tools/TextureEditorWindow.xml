@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='Εργαλείο υφών $AppName$'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Προβολέας υφών $AppName$'/>
+				<Item Index='1' Value='Επεξεργαστής υφών $AppName$'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">Προβολή:</string>
+		<string name="EXPORT_ALL">Εξαγωγή όλων των υφών</string>
+		<string name="EXPORT_SELECTED">Εξαγωγή επιλεγμένων</string>
+		<string name="ORIGINAL_SIZE">Πραγματικό μέγεθος</string>
+		<string name="ALPHA_BACKGROUND">Άλφα φόντο</string>
+		<string name="SIZE_">Μέγεθος:</string>
+		<string name="SEARCH_TEXTURES">Αναζήτηση υφών</string>
++		<string name="NO_IMAGE_FOUND">Δεν βρέθηκαν υφές</string>
+
+		<string name="COPY_NAME">Αντιγραφή ονόματος</string>
+		<string name="EXPORT">Εξαγωγή</string>
+		<string name="RENAME">Μετονομασία</string>
+		<string name="REPLACE">Αντικατάσταση</string>
+		<string name="DELETE">Διαγραφή</string>
+		<string name="RENAME_TEXTURE">Μετονομασία υφής</string>
+		<string name="RENAME_TEXTURE_NAME">Εισάγετε νέο όνομα</string>
+		<string name="RENAME_TEXTURE_ERROR">Υπάρχει ήδη υφή με αυτό το όνομα.</string>
+		<string name="NO_IMAGE">Καμμία εικόνα</string>
+
+		<string name="NO_IMAGE_SELECTED">Καμμία επιλεγμένη εικόνα</string>
+		<string name="WIDTH">Πλάτος</string>
+		<string name="HEIGHT">Ύψος</string>
+		<string name="PIXEL_FORMAT">Μορφή pixel</string>
+		<string name="MIP_MAPS">MipMaps</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">Επιλογές εισαγωγής</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Αυτές οι επιλογές θα αγνοηθούν κατά την εισαγωγή αρχείων DDS.
+Χρησιμοποιείτε αρχεία DDS για βέλτιστη ποιότητα.]]>
+		</text>
+		<string name="AUTO_MIPMAP">Αυτόματη δημιουργία επιπέδων MipMap</string>
+		<string name="TEXTURES_FORMAT">Μορφή υφών (συμπίεση):</string>
+		<string name="AUTOMATICALLY">Αυτόματα</string>
+		<string name="IMPORT_ERROR_FILES">Τα ακόλουθα αρχεία δεν εισήχθηκαν</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">Ιδιότητες</string>
+		<string name="PROPERTIES_MIPMAP">Επίπεδα MipMap:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Μορφή pixel:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Προσοχή:
+Η ποιότητα μπορεί να μειωθεί κατά την αλλαγή των ιδιοτήτων.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">Αδυναμία επεξεργασίας ιδιοτήτων της υφής "%S".</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">Θέλετε να αποθηκεύσετε τις αλλαγές;</string>
+		
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">Το DirectX 11 δεν είναι διαθέσιμο</string>
+		<string name="DX11_NOT_INIT_TEXT">Το $AppName$ δεν μπορεί να εκκίνηση τη συσκευή DirectX 11.\nΗ δυνατότητες επεξεργασίας δεν είναι διαθέσιμες για αυτό το αρχείο.</string>
+		
+		<!-- help -->
+		<string name="HELP_TITLE">Επεξεργαστής υφών - βοήθεια</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Διαθέσιμα πλήκτρα συντόμευσης:
+			
+    Ctrl + Tab - Εναλλαγή λειτουργίας προβολής
+    Ctrl + A - Εξαγωγή όλων των υφών
+    Ctrl + S - Εξαγωγή επιλεγμένων υφών
+    F1 - Εναλλαγή αυτού του πλαισίου βοήθειας
+    ESC - Κλείσιμο αυτού του παραθύρου
+    
+    Κράτημα H - Για προσωρινή απόκρυψη HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

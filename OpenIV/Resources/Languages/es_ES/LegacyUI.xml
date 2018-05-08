@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Main window -->
+
+	<MainWindow Caption='$AppName$'>
+		<FullScreenClose Hint='Cerrar'/>
+		<btnSwitchMode Caption='Modo Edición' hint='Activar el Modo Edición (F6)' showhint='True'/>
+		<btnCloseArchive hint='Cerrar archivo (Shift + retroceso)' showhint='True'/>
+		<!-- String's -->
+		<AeroWindow LinesCount='70'>
+			<StringList>
+				<Item Index='0' Value='Nombre'/>
+				<Item Index='1' Value='Tipo'/>
+				<Item Index='2' Value='Tamaño'/>
+				<Item Index='3' Value='Atributos'/>
+				<Item Index='4' Value='Comprimido'/>
+				<Item Index='5' Value='Modo Edición'/>
+				<Item Index='6' Value=''/>
+				<Item Index='7' Value=''/>
+				<Item Index='8' Value='%D mostrando artículos'/>
+				<Item Index='9' Value='%D fuera de %D mostrando artículos'/>
+				<Item Index='10' Value=' artículos'/>
+				<Item Index='11' Value=' bytes'/>
+				<Item Index='12' Value=' KB'/>
+				<Item Index='13' Value=' MB'/>
+				<Item Index='14' Value='Progreso...'/>
+				<Item Index='15' Value='Archivo actual: '/>
+				<Item Index='16' Value='Desconocido'/>
+				<Item Index='17' Value='Archivo no abierto'/>
+				<Item Index='18' Value='Encriptado'/>
+				<Item Index='19' Value='Cargando archivo...'/>
+				<Item Index='20' Value='Recurso [Versión: %D]'/>
+				<Item Index='21' Value='[Modo Edición]'/>
+				<Item Index='22' Value='[Modo Lectura]'/>
+				<Item Index='23' Value='LANG: FREE STRING (23)'/>
+				<Item Index='24' Value='Estás apunto de entrar al Modo Edición, los cambios serán guardados automaticamente.'/>
+				<Item Index='25' Value='LANG: FREE STRING (25)'/>
+				<Item Index='26' Value='LANG: FREE STRING (26)'/>
+				<Item Index='27' Value='Tags'/>
+				<Item Index='28' Value='Añadir tag'/>
+				<Item Index='29' Value='Nuevo tag:'/>
+				<Item Index='30' Value='No hay items seleccionados'/>
+				<Item Index='31' Value='Seleccionado: %D'/>
+				<Item Index='32' Value='Modo pantalla completa (F11)'/>
+				<Item Index='33' Value='Modo en ventana (F11)'/>
+				<Item Index='34' Value='Selecciona un archivo para mostrar.'/>
+				<Item Index='35' Value='No hay data para mostrar.'/>
+				<Item Index='36' Value='Versión: %S'/>
+				<Item Index='37' Value='Salir de $AppName$'/>
+				<Item Index='38' Value='Opciones de $AppName$'/>
+				<Item Index='39' Value='Cerrar archivo'/>
+				<Item Index='40' Value='Pin'/>
+				<Item Index='41' Value='Remover de la lista'/>
+				<Item Index='42' Value='Archivos recientes'/>
+				<Item Index='43' Value='La aplicación externa está funcionando...'/>
+				<Item Index='44' Value='Confirmación de los cambios del archivo'/>
+				<Item Index='45' Value='El archivo «%S» ha sido cambiado. ¿Actualizar cambios en el archivo?'/>
+				<Item Index='46' Value='Localización'/>
+				<Item Index="47" Value="build"/>
+				<Item Index='48' Value='El archivo está vacio.'/>
+				<Item Index='49' Value='La carpeta está vacia.'/>
+				<Item Index='50' Value='No hay items que coinciden con tu busqueda.'/>
+				<Item Index='51' Value='Abrir carpeta en el Explorador de Windows '/>
+				<Item Index='52' Value='Buscar en el Explorador de Windows'/>
+				<Item Index='53' Value='Abrir localización del archivo'/>
+				<Item Index='54' Value='$AppName$ - Abrir localización'/>
+				<Item Index='55' Value='$AppName$ es incapaz de abrir la localización del archivo.'/>
+				<Item Index='56' Value='Canal de YouTube'/>
+				<Item Index='57' Value='Videos tutoriales'/>
+				<Item Index='58' Value='Diminutos (0 - 10 KB)'/>
+				<Item Index='59' Value='Pequeños (10 - 100 KB)'/>
+				<Item Index='60' Value='Medianos (100 KB - 1 MB)'/>
+				<Item Index='61' Value='Grandes (1 - 16 MB)'/>
+				<Item Index='62' Value='Muy grandes (16 - 128 MB)'/>
+				<Item Index='63' Value='Gigantescos (> 128 MB)'/>
+				<Item Index='64' Value='Carpetas'/>
+				<Item Index="65" Value="Fltro %s"/>
+				<Item Index="66" Value="$AppName$ - Notificación"/>
+				<Item Index="67" Value="Puedes activar esta notificacion devuelta en opciones."/>
+				<Item Index="68" Value="Copiando..."/>
+				<Item Index="69" Value="$AppName$ - Confirmación"/>
+				<Item Index="70" Value='Todos los cambios que hiciste en "$ModsFolderPath$\update\update.rpf" van a ser perdidos.\n¿Quieres continuar?'/>
+				<Item Index="71" Value='Buscar "%s" en todos los archivos'/>
+				<Item Index="72" Value="¿Realmente quieres alir de $AppName$?"/>
+			</StringList>
+		</AeroWindow>
+		<!-- Others -->
+		<SearchBox BannerText='Buscar'/>		
+		<!-- Notificacion: GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption='Instalar plugin para $RageGAME_SHORT$'/>
+		<lbGTAVPluginText Caption='Tienes que instalar ASI Loader y el $ModsFolderAsi$ plugin de OpenIV para tu GTA V, de lo contrario el juego no cargará archivos RPF modificados.\nNo juegues $RageGAME_MP$ con un RPF modificado, serás baneado.'/>
+		<btnGTAVPluginAction Caption="ASI Manager"/>
+		<!-- Notification: copy to mods folder -->
+		<lbNotInModsTitle Caption='La carpeta de $ModsFolder$'/>
+		<lbNotInModsText Caption='El archivo que estas editando actualmente no está localizado en la carpeta $ModsFolder$.'/>
+		<btnHideThisNotification Caption="Esconder esta notificación."/>
+		<btnCopyToMods Caption='Copiar a la carpeta $ModsFolder$'/>
+		<btnShowInMods Caption='Mostrar en la carpeta $ModsFolder$'/>
+		<btnChangeModsFolderSettings Caption="Cambiar configuraciones de la carpeta de $ModsFolder$"/>
+		<!-- Notification: update.rpf -->
+		<lbCopyNewUpdateToModsTitle Caption='$RageGAME$ Actualización de Título'/>
+		<lbCopyNewUpdateToMods Caption='Tienes una versión desactualizada de update.rpf en tu carpeta de $ModsFolder$. Tienes que copiar la nueva versión de “update.rpf” dentro de tu carpeta de “mods”, de otra manera tu juego posiblemente deje de funcionar.'/>
+		<btnCopyUpdateToMods Caption='Copiar nueva versión a la carpeta de $ModsFolder$'/>
+		<!-- Notification: Admin mode -->
+ 		<lbAdminModeTitle Caption='Modo Administrador'/>
+ 		<lbAdminModeText Caption='$AppName$ está funcionando en modo administrador. Algunas características como arrastrar y soltar desde el Explorador de Windows puede que no funcionen. Usualmente, usted no necesita iniciar $AppName$ en modo administrador.'/>
+ 		<btnAdminModeAction Caption='¿Qué puedo hacer?'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='Limpiar filtro de busqueda'/>
+	</MainWindow>	
+
+	<ActionsModule>
+		<!-- Main Menu -->
+		<mmFile Caption='Archivo'/>
+		<mmEdit Caption='Editar'/>
+		<mmNew Caption='Nuevo'/>
+		<mmView Caption='Ver'/>
+		<mmFavorites Caption='Favoritos'/>
+		<mmTools Caption='Herramientas'/>
+		<mmHelp Caption='Ayuda'/>
+		<!-- Main Menu : File -->
+		<mmRecentArchives Caption="Archivos recientes"/>
+		<!-- Main Menu : Edit -->
+		<mmFilter Caption='Filtro'/>
+		<!-- Main Menu : View -->
+		<mmLayout Caption='Disposición'/>
+		<mmGroupBy Caption='Grupo por'/>
+		<mmGoto Caption='Ir a'/>
+		<!-- Main Menu : View -->
+		<mmvIcon Caption='Iconos'/>
+		<mmvSmallIcon Caption='Iconos pequeños'/>
+		<mmvList Caption='Lista'/>
+		<mmvDetails Caption='Detalles'/>
+		<mmvTile Caption='Título'/>	
+		<!-- Main Menu : Help -->
+		<!-- Path menu -->
+		<PMenu0 Caption='Copiar dirección (ruta)'/>
+		<!-- File Action's -->
+		<actCreateArchive Caption="Crear archivo..." Hint="Crear nuevo archivo"/>
+		<actOpenGameFolder Caption="Abrir carpeta del juego" Hint="Abrir carpeta del juego"/>
+		<actOpenArchive Caption="Abrir archivo..." Hint="Abrir archivo existente"/>
+		<actOpenFolder Caption="Abrir carpeta..." Hint="Abrir carpeta existente"/>
+		<actOpenArchiveProperties  Caption='Propiedades del archivo' Hint=''/>
+		<actDefragmentation Caption="Desfragmentación" Hint="Desfragmentador de archivos"/>
+		<actEditMode Caption='Modo Edición'  Hint=''/>
+		<actReadMode Caption='Modo Lectura'  Hint=''/>
+		<actCloseAllArchives Caption='Cerrar todos los archivos' Hint='Cerrar todos los archivos abiertos'/>
+		<actCloseAllFolders Caption="Cerrar todas las carpetas" Hint="Cerrar todas las carpetas abiertas"/>
+		<actCloseactCloseArchive    Caption='Cerrar archivo' Hint='Cerrar archivo actual'/>
+		<actExit     Caption='Salir' Hint='Salir'/>
+		<!-- Edit Action's -->
+		<actOpen     Caption='Open' Hint='Abrir archivo seleccionado'/>
+		<actEditFile    Caption='Editar'    Hint='Editar archivo seleccionado'/>
+		<actViewAsHex   Caption='Ver en Hex...'  Hint='Ver Hex'/>
+		<actViewAsText  Caption='Ver como texto...'  Hint='Ver como texto'/>
+		<actCopyName Caption="Copy name" Hint="Copy name of selected file"/>
+		<actCopyPath Caption="Copiar ruta" Hint="Copiar ruta completa del archivo seleccionado"/>
+		<actExtract     Caption='Extraer...'   Hint='Extraer archivo'/>
+		<actSaveContent Caption='Guardar contenido/exportar' Hint='Guardar contenido del archivo/exportar'/>
+		<actSaveRawContent Caption="Guardar contenido sin procesar" Hint="Exportar datos del archivo de contenido sin procesar"/>
+		<actRename      Caption='Renombrar' Hint='Renombrar archivo'/>
+		<actAdd         Caption='Añadir'    Hint='Añadir nuevo archivo'/>
+		<actReplace     Caption='Replazar' Hint='Replazar archivo actual'/>
+		<actRemove      Caption='Borrar'  Hint='Borrar archivo actual'/>
+		<actExtractAll  Caption='Extraer todos...' Hint='Extraer todos los archivos'/>
+		<actCopyFileList Caption='Copiar lista de archivos' Hint=''/>
+		<actSelectAll Caption='Seleccionar todos' Hint=''/>
+		<actResourceObjectExplorer Caption='Explorador de recursos' Hint=''/>
+		<actShowInWindowsExplorer Caption='Mostrar en el Explorador de Windows' Hint=''/>
+		<actItemAddToFavorites Caption='Añadir a favoritos...' Hint=''/>
+		<actCopyToModsFolder Caption='Copiar a la carpeta de $ModsFolder$' Hint=""/>
+		<actShowInModsFolder Caption='Mostrar en la carpeta de $ModsFolder$' Hint=""/>
+		<!-- New menu -->
+		<actMultipleImport Caption='Importar openFormats' Hint='Importar múltiples archivos'/>
+		<actNewFolder   Caption='Carpeta'  Hint='Crear nueva carpeta'/>		
+		<!-- View Action's -->
+		<actDirectoryTree Caption='Árbol de directorios' Hint='Mostrar o esconder árbol de directorios'/>
+		<actToolBar       Caption='Barra de Herramientas' Hint='Mostrar o esconder Barra de Herramientas'/>
+		<actSearchBar     Caption='Barra de Búsqueda y Direcciones' Hint='Mostrar o esconder Barra de Búsqueda y Direcciones'/>
+		<actStatusBar     Caption='Barra de Estado' Hint='Barra de Estado'/>
+		<actLivePreView   Caption='Panel de Vista Previa' Hint='Panel de Vista Previa'/>
+		<actMainMenuBar   Caption='Barra de Menú' Hint='Barra de Menú'/>
+		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="Como verificar y restaurar los archivos del juego..." Hint=""/>
+		<actSocialMedia Caption="Únete a la comunidad de $AppName$" Hint=""/>
+		<actForums Caption="Únete a la discusión de $AppName$" Hint=""/>
+		<actSupportDonate Caption="Soporta $AppName$" Hint=""/>
+		<actGoToWeb      Caption='Ir al sitio web...' Hint=''/>
+		<actSendFeedback Caption='Envíanos tus comentarios' Hint=''/>
+		<actReportBug Caption="Reportar un bug" Hint=""/>
+		<actWin7ReportTool Caption='Registro de los pasos para reproducir el problema' Hint=''/>
+		<actAbout Caption="Sobre..." Hint="About"/>
+		<!-- Groups Action's -->
+		<actCollapseAll Caption='Colapsar todos los grupos' Hint=''/>
+		<actExpandAll   Caption='Expandir todos los grupos' Hint=''/>
+		<actCollapseGroup Caption='Colapsar grupo' Hint=''/>
+		<actExpandGroup Caption='Expandir grupo' Hint=''/>
+		<!-- Tools Action's -->
+		<actConfig     Caption='Opciones...' Hint='Opciones'/>
+		<!-- GoTo Action's -->
+		<actGoBack    Caption='Atrás' Hint=''/>
+		<actGoForward Caption='Adelante' Hint=''/>
+		<actGoUP      Caption='Subir un nivel' Hint=''/>
+		<!-- Favorites -->
+		<actAddToFavorites    Caption='Añadir a favoritos...' Hint=''/>
+		<actOrganizeFavorites Caption='Organizar favoritos...' Hint=''/>
+		<!-- Filter -->
+		<actFilterByName  Caption='Filtrar por nombre' Hint=''/>
+		<actFilterByType  Caption='Filtrar por tipo' Hint=''/>
+		<actFilterOnlyThis Caption='Mostrar solo estos' Hint=''/>
+		<!-- Tree -->
+		<actTreeCopyName Caption="Copiar nombre" Hint=""/>
+		<actTreeCopyAsPath Caption='Copiar como ruta' Hint=''/>
+		<actTreeShowInWindowsExplorer Caption='Mostrar en el Explorador de Windows' Hint=''/>
+		<actTreeCloseArchive Caption='Cerrar archivo' Hint=''/>
+		<actTreeCopyToModsFolder Caption='Copiar a la carpeta de $ModsFolder$' Hint=""/>
+  		<actTreeShowInModsFolder Caption='Mostrar en la carpeta de $ModsFolder$' Hint=""/>
+		<actTreeCollapseThis Caption='Colapsar este' Hint=""/>
+		<actTreeCollapseAll Caption='Colapsar todos' Hint=""/>
+		<!-- Strings -->
+		<Strings SetCount='100'>
+			<Lines>
+				<Item Index='00' Value='Carpeta de destino:'/>
+				<Item Index='01' Value='Vista previa'/>
+				<Item Index='02' Value='No hay archivos abiertos'/>
+				<Item Index='03' Value='(no)'/>
+				<Item Index='04' Value='Elige el tipo del nuevo archivo:'/>
+				<Item Index='05' Value='Linear'/>
+				<Item Index='06' Value='Hierarchical'/>
+				<Item Index='07' Value='sin nombres'/>
+				<Item Index='08' Value='Añadir tag'/>
+				<Item Index='09' Value='Borrar'/>
+				<Item Index='10' Value='todos los tags'/>
+				<Item Index='11' Value='$AppName$ - Renombrar archivo'/>
+				<Item Index='12' Value='Nuevo nombre:'/>
+				<Item Index='13' Value='Creando una nueva carpeta'/>
+				<Item Index='14' Value='Nueva carpeta:'/>
+				<Item Index='15' Value='$RageGAME_SHORT$ no encontrado.\nPor favor introduce la localización correcta de $RageGAME_SHORT$ en las opciones de $AppName$.'/>
+				<Item Index='16' Value='$AppName$ - Confirmar recopilación del archivo'/>
+				<Item Index='17' Value='¿Estás seguro que quieres recopilar el archivo «%S»?\nEsta operación lleva varios minutos.'/>
+				<Item Index='18' Value='Abrir contenido'/>
+				<Item Index='19' Value='Creando nuevo %S'/>
+				<Item Index='20' Value='Introducir nombre:'/>
+				<Item Index='21' Value='$AppName$ - Característica no implementada'/>
+				<Item Index='22' Value='Intenta utilizar la siguiente característica: %S\nEn el actual $AppName$ no está implementada todavía. Por favor chequea esto en la próxima versión.'/>
+				<Item Index='23' Value='$AppName$ - recopilar archivo'/>
+				<Item Index='24' Value="No puede recopilar un archivo vacio."/>
+				<Item Index='25' Value='Un archivo con este nombre ya existe, por favor, elige otro nombre.'/>
+				<Item Index='26' Value='$AppName$ - añadir nuevo tag'/>
+				<Item Index='27' Value='Tipo del nuevo tag:'/>
+				<Item Index='28' Value='Exportar a %S'/>
+				<Item Index='29' Value='El archivo está encriptado, por favor instala la versión no encriptada del juego.'/>
+				<Item Index='30' Value='$AppName$ - archivo inexistente'/>
+				<Item Index='31' Value='Error abriendo archivo: %S\nEl archivo no existe.'/>
+				<Item Index='32' Value='Versión: %D'/>
+				<Item Index='33' Value="$AppName$ no es capaz de crear archivos todavía para $RageGAME_SHORT$.\nPor favor vuelve en otro momento."/>
+				<Item Index='34' Value="Abrir archivo en"/>
+				<Item Index='35' Value="%s en %s"/>
+				<Item Index='36' Value="%s - Buscar resultados en %s"/>
+				<Item Index='37' Value="%s - Buscar resultados en %s (%s)"/>
+				<Item Index='38' Value="Filtrar"/>
+				<Item Index='39' Value="$AppName$ - Error"/>
+				<Item Index='40' Value="Incapaz de extraer archivo."/>
+				<Item Index='41' Value="Incapaz de añadir archivo."/>
+				<Item Index='42' Value="Incapaz de crear carpeta."/>
+				<Item Index='43' Value="Incapaz de borrar archivo."/>
+				<Item Index='44' Value="Incapaz de remplazar archivo."/>
+				<Item Index='45' Value="Incapaz de crear nuevo archivo."/>
+				<Item Index="46" Value="Caracteres invalidos en el nombre."/>
+				<Item Index="47" Value="Especifica un nombre diferente."/>
+				<Item Index="48" Value="Ya hay un item con el mismo nombre en la carpeta que usted especificó."/>
+				<Item Index="49" Value="Seleccionar carpeta"/>
+				<Item Index="50" Value="Borrar archivo"/>
+				<Item Index="51" Value="¿Estás seguro de que quieres borrar este archivo de forma permanente?"/>
+				<Item Index="52" Value="Borrar carpeta"/>
+				<Item Index="53" Value="¿Estás seguro de que quieres borrar esta carpeta de forma permanente?"/>
+				<Item Index="54" Value="Borrar varios items"/>
+				<Item Index="55" Value="¿Estás seguro de que quieres borrar estos %d items de forma permanente?"/>
+			</Lines>
+		</Strings>
+	</ActionsModule>
+
+	<EditModeHelpWindow Caption='Modo Edición - $AppName$'>
+		<!-- Label's -->
+		<lbTitle Caption='Modo Edición'/>
+		<lbText Caption='Para añadir o editar archivos, por favor cambie al Modo Edición.\nPuede configurar el Modo Edición por defecto en las configuraciones de $AppName$.'/>
+		<lbInfo Caption='"Modo Edición" Le permite entrar al Modo Edición'/>
+		<!-- Button's -->
+		<btnClose Caption='Cerrar'/>
+		<cbDoNotShow Caption='No mostrar este mensaje de nuevo'/>
+	</EditModeHelpWindow>
+	
+	<AdminModeWindow Caption="Administrador - $AppName$">
+ 		<lbText Caption="No hay una razón real para iniciar $AppName$ en modo administrador. $AppName$ no requiere ningun privilegio de Administrador para funcionar correctamente. De otra manera cuando tu inicias $AppName$ como Administrador algunas características como arrastrar y soltar desde el Explorador de Windows puede que no funcionen. Es más probable que tu inicies $AppName$ como Administrador porque tu juego está instalado en algún lugar de las carpetas del sistema (b.g. C:\Archivos de Programa\...) y la cuenta de un user normal no tiene permisos para escribir en esta carpeta.\n\nTu puedes establecer todos los permisos requeridos a la carpeta de tu juego utilizando esta herramienta y luego reiniciando $AppName$ sin permisos de Administrador."/>
+ 		<btnSetPermissions Caption="Establecer permisos"/>
+ 		<btnClose Caption="Cerrar"/>
+ 		<AeroWindow LinesCount="5">
+ 			<StringList>
+ 				<Item Index="0" Value="Error - $AppName$"/>
+ 				<Item Index="1" Value="Todo hecho.\nLos permisos fueron establecidos a la carpeta de tu juego."/>
+ 				<Item Index="2" Value="Incapaz de establecer los permisos.\nCódigo de retorno: "/>
+ 				<Item Index="3" Value="La carpeta del juego no existe."/>
+ 				<Item Index="3" Value="La herramienta de Establecer permisos no existe. Por favor reinstalar $AppName$."/>
+ 			</StringList>
+ 		</AeroWindow>
+ 	</AdminModeWindow>
+
+	<!-- Web window -->
+
+	<webWindow Caption='$WebName$ - '>
+		<!-- Button's -->
+		<btnClose Caption='Cerrar'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Términos de uso y Política de Privacidad'/>
+			</StringList>
+		</AeroWindow>
+	</webWindow>
+
+	<!-- Configuration -->
+
+	<ConfigWindow Caption='$AppName$ - Opciones'>
+		<!-- Languages -->
+		<tabLang Caption="Lenguajes"/>
+		<lbLang Caption="Selecciona el lenguaje de la interfaz"/>
+		<LnkWebLangs Caption='Traducir $AppName$ a otro lenguaje'/>
+		<!-- Game -->
+ 		<tabGame Caption="Juego"/>
+ 		<gbGamePath Caption="$RageGAME_SHORT$ directorio"/>
+ 		<lbCurrentGamePath Caption="Directorio actual:"/>
+		<tbChangeGame Caption='Cambiar directorio' />
+		<ttRageExe Caption="$RageEncryptionStorage$ debe estar situado en este directorio para que $AppName$ trabaje"/>
+ 		<!-- General -->
+ 		<tabMain Caption="General"/>
+ 		<lbDefaultGame Caption="Seleccionar juego por defecto"/>
+ 		<lbWorkMode Caption="Modo de trabajo por defecto"/>
+ 		<WorkMode>
+ 			<Items>
+ 				<Item Index="0" Value="Editar"/>
+ 				<Item Index="1" Value="Solo Lectura"/>
+ 			</Items>
+ 		</WorkMode>
+ 		<lbDefTextureFormatGlb Caption="Formato de textura por defecto"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption='Siempre abrir el archivo antes de recopilar'/>
+		<cbMinimizeAtStartGame Caption='Minimizar $AppName$ al iniciar el juego'/>
+		<cbInstallUpdatesAutomatically Caption='Instalar actualizaciones automáticamente'/>
+		<cbDisplayDeleteConfirmationDialog Caption="Mostrar diálogo de confirmación de eliminación"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption='Para los archivos reales utilizar la papelera de reciclaje en lugar de borrar'/>
+		<cbCloseArchivesAtStartGame Caption='Cerrar todos los archivos abiertos al iniciar el juego'/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Borrar filtrador de busqueda luego de abierto el archivo'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Usa la alternativa (vieja) manera de añadir carpetas luego del arrastrar y soltar'/>
+ 		<tbFileAssociation Caption="Cambiar asociación de archivos"/>
+		<cbDisplayExitConfirmationDialog Caption="Mostrar confirmación de la ventana de salida"/>
+		<cbStartWithLocationFromLastSession Caption="Empezar $AppName$ con la ubicación de la última sesión"/>
+ 		<!-- "mods" folder -->
+ 		<tabModsFolder Caption="Carpeta de $ModsFolder$"/>
+ 		<lbModsFolderText Caption="En esta página puedes cambiar configuraciones relacionadas con la carpeta de $ModsFolder$."/>
+ 		<lbModsFolderNote1 Caption="Las configuraciones de abajo son inaccesible porque $ModsFolderAsi$ no está instalado."/>
+ 		<cbShowNotificationWhileEditingArchiveNotInMods Caption='Mostrar notificación cuando se está editando un archivo fuera de la carpeta de $ModsFolder$'/>
+ 		<cbAllowEditModeOnlyInModsFolder Caption='Permitir el modo edición solo para archivos dentro de la carpeta de $ModsFolder$'/>
+ 		<!-- Tools -->
+ 		<tabViewers Caption="Herramientas"/>
+		<lbChooseTheme Caption="Elegir un tema"/>
+		<cbAppTheme>
+			<Items>
+				<Item Index="0" Value="Luminoso"/>
+				<Item Index="1" Value="Oscuro"/>
+			</Items>
+		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Color de fondo en el Render"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index='0' Value='Por defecto'/>
+				<Item Index='1' Value='Color a elección'/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="Esquema de control de cámara"/>
+ 		<cbRenderAntialiasing Caption="Habilitar AntiAliasing"/>
+ 		<lbChooseEditorTheme Caption="Elegir esquema de color para el editor de texto"/>
+		<lbMultichannelAudioPlayback Caption="Reproducción de audio multicanal"/>
+		<cbMultichannelAudioPlayback>
+			<Items>
+				<Item Index="0" Value="Reproduce audio multicanal en modo mono"/>
+				<Item Index="1" Value="Reproduce audio multicanal en modo estéreo"/>
+				<Item Index="2" Value="Reproduce audio multicanal en modo multicanal"/>
+			</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="Nota: Asegúrate de que tu sistema es capaz de reproducir sonido envolvente, de lo contrario no escucharás la mayor parte del contenido de audio."/>
+ 		<!-- openFormats -->
+ 		<tabFormats Caption="openFormats"/>
+ 		<lbDefTextureFormat Caption="Formato de archivo de textura por defecto"/>
+ 		<cbNotExportTextureToFolder Caption='No colocar las texturas en un directorio diferente mientras se exporta un archivo OTD'/>
+ 		<gbModels Caption='Importar modelos (ODR/ODD/OFT)'/>
+ 		<cbProtectModels Caption="Habilitar proteger modelo por defecto (evitar futuro exporte)"/>
+ 		<btnSaveShaderInformation Caption="Guardar informacion de openFormats shader"/>
+ 		<!-- Misc + old -->
+ 		<btnClose Caption="Cerrar"/>
+ 		<actAppAdd Caption="Añadir"/>
+ 		<actAppEdit Caption="Editar"/>
+ 		<actAppDel Caption="Borrar"/>
+ 		<LnkWebApps Caption="Descargar más herrarmientas para $RageGAME_SHORT$"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Seleccionar carpeta:'/>
+				<Item Index='1' Value='Lenguajes disponibles'/>
+				<Item Index='2' Value='$AppName$ - Cuidado'/>
+				<Item Index='3' Value='Tienes que reiniciar $AppName$ para aplicar los cambios.'/>
+				<Item Index="4" Value="Lenguajes desactualizados"/>
+			</StringList>
+		</AeroWindow>
+	</ConfigWindow>
+
+	<ConfigAssociationWindow Caption='$AppName$ - Asociación'>
+		<lbTitle Caption='Asociar archivo con $AppName$'/>
+		<FileTypes>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='Tipo'/>
+				<Item Index='2' Caption='Descripción'/>
+				<Item Index='3' Caption='Juegos soportados'/>
+			</Columns>
+			<Groups>
+				<Item Index='0' Header='Paquetes'/>
+				<Item Index='1' Header='Archivos'/>
+				<Item Index='2' Header='Recursos'/>
+			</Groups>
+		</FileTypes>
+		<btnApply Caption='Aplicar'/>
+		<btnCancel Caption='Cancelar'/>
+		<AeroWindow LinesCount='0'>
+			<StringList>
+				<Item Index='0' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</ConfigAssociationWindow>
+
+	<!-- EULA Window -->
+	
+	<EULAWindow Caption="Acuerdo de Licencia con el Usuario Final - $AppName$">
+		<btnClose Caption='Close'/>
+	</EULAWindow>
+</Translation>

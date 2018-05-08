@@ -1,0 +1,475 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Library folder="Mapa" Default='%S Datoteka' RSC='%S Resurs'>
+	<!-- GTA V -->
+	<type Name="Zakrpa (XML)">
+		<ext>patch</ext>
+	</type>
+	<type Name="Nagovještaj (XML)">
+		<ext>meta</ext>
+	</type>
+	<type Name="Osnova podataka">
+		<ext>db</ext>
+	</type>
+	<type Name="Skripta (text)">
+		<ext>sc</ext>
+	</type>
+	<type Name="Scaleform flash">
+		<ext>gfx</ext>
+	</type>
+	<type Name="Korisnički izrađen sadržaj (JSON)">
+		<ext>ugc</ext>
+	</type>
+	<type Name="Veza kolizije">
+		<ext>bnd</ext>
+	</type>
+	<type Name="Nagovještaj podataka (PSO/RSC)">
+		<ext>pso</ext>
+		<ext>ymt</ext>
+		<ext>ymf</ext>
+		<ext>xmt</ext>
+		<ext>xmf</ext>
+		<ext>cmt</ext>
+		<ext>cmf</ext>
+	</type>
+	<type Name="Efekt čestica">
+		<ext>ypt</ext>
+		<ext>xpt</ext>
+		<ext>cpt</ext>
+	</type>
+	<type Name="Snimka poveznice za putanje">
+		<ext>ywr</ext>
+		<ext>xwr</ext>
+		<ext>cwr</ext>
+	</type>
+	<type Name="JavaScript Bilješka Predmeta">
+		<ext>json</ext>
+	</type>
+	<type Name="Karta (PSO/RSC)">
+		<ext>ymap</ext>
+		<ext>xmap</ext>
+		<ext>cmap</ext>
+	</type>
+	<type Name="Unosi definicija (PSO/RSC)">
+		<ext>ytyp</ext>
+		<ext>xtyp</ext>
+		<ext>ctyp</ext>
+	</type>
+	<type Name="Tablica imena">
+		<ext>nametable</ext>
+	</type>
+	<type Name="Tijek">
+		<ext>srl</ext>
+	</type>
+	<!-- OpenIV -->
+	<type Name="OpenIV Mod Paket">
+		<ext>oiv</ext>
+	</type>
+	<!-- Archives -->
+	<type Name="Rage Podatak Paketa">
+		<ext>rpf</ext>
+	</type>
+	<type Name="GTA Slikovni Podatak">
+		<ext>img</ext>
+	</type>
+	<type Name="ZIP Arhive">
+		<ext>zip</ext>
+	</type>
+	<type Name="7Z Arhive">
+		<ext>7z</ext>
+	</type>
+	<type Name="WinRAR Arhive">
+		<ext>rar</ext>
+	</type>
+	<!-- Native media (Image and Video) -->
+	<type Name="Prenosiva mrežna grafika">
+		<ext>png</ext>
+	</type>
+	<type Name="Bitmap slika">
+		<ext>bmp</ext>
+	</type>
+	<type Name="GIF Slika">
+		<ext>gif</ext>
+	</type>
+	<type Name="JPEG Slika">
+		<ext>jpeg</ext>
+		<ext>jpg</ext>
+	</type>
+	<type Name="Ikona">
+		<ext>ico</ext>
+	</type>
+	<type Name="Truevision TGA Slika">
+		<ext>tga</ext>
+	</type>
+	<type Name="DirectDraw Površina">
+		<ext>dds</ext>
+	</type>
+	<type Name="Bink Video">
+		<ext>bik</ext>
+	</type>
+	<type Name="Windows Medijska Zvučna/Video Datoteka">
+		<ext>wmv</ext>
+		<ext>wma</ext>
+	</type>
+	<type Name="Wave zvuk">
+		<ext>wav</ext>
+	</type>
+	<type Name="MP4 Video Datoteka">
+		<ext>mp4</ext>
+	</type>
+	<!-- Web media -->
+	<type Name="HTML Datoteka">
+		<ext>html</ext>
+		<ext>htm</ext>
+	</type>
+	<type Name="Shockwave Flash">
+		<ext>swf</ext>
+	</type>
+	<!-- Resources (RAGE) -->
+	<type Name="Resursi skripte">
+		<ext>xsc</ext>
+		<ext>csc</ext>
+		<ext>wsc</ext>
+		<ext>ysc</ext>
+	</type>
+	<type Name="Tablica niza podataka">
+		<ext>xst</ext>
+		<ext>cst</ext>
+		<ext>wst</ext>
+		<ext>yst</ext>
+	</type>
+	<type Name="Resursi tekstura">
+		<ext>xtx</ext>
+		<ext>ctx</ext>
+		<ext>wtx</ext>
+		<ext>ytx</ext>
+	</type>
+	<type Name="Trake radnji">
+		<ext>xat</ext>
+		<ext>cat</ext>
+		<ext>wat</ext>
+		<ext>yat</ext>
+	</type>
+	<type Name="Navigacijska geometrija">
+		<ext>xnm</ext>
+		<ext>cnm</ext>
+		<ext>wnm</ext>
+		<ext>ynm</ext>
+	</type>
+	<type Name="Info područja">
+		<ext>xsi</ext>
+		<ext>csi</ext>
+		<ext>wsi</ext>
+		<ext>ysi</ext>
+	</type>
+	<type Name="Podaci volumena">
+		<ext>xvd</ext>
+		<ext>cvd</ext>
+		<ext>wvd</ext>
+		<ext>yvd</ext>
+	</type>
+	<type Name="Kolizija terena">
+		<ext>xtb</ext>
+		<ext>ctb</ext>
+		<ext>wtb</ext>
+		<ext>ytb</ext>
+	</type>
+	<type Name="Rječnik tekstura">
+		<ext>wtd</ext>
+		<ext>xtd</ext>
+		<ext>ctd</ext>
+		<ext>ytd</ext>
+	</type>
+	<type Name="Rječnik animacija">
+		<ext>wad</ext>
+		<ext>xad</ext>
+		<ext>cad</ext>
+		<ext>yad</ext>
+	</type>
+	<type Name="Rječnik kolizija">
+		<ext>wbd</ext>
+		<ext>xbd</ext>
+		<ext>cbd</ext>
+		<ext>ybd</ext>
+	</type>
+	<type Name="Rječnik iscrtavanja">
+		<ext>wdd</ext>
+		<ext>xdd</ext>
+		<ext>cdd</ext>
+		<ext>ydd</ext>
+	</type>
+	<type Name="Iscrtni predmet">
+		<ext>wdr</ext>
+		<ext>xdr</ext>
+		<ext>cdr</ext>
+		<ext>ydr</ext>
+	</type>
+	<type Name="Krhki predmet">
+		<ext>wft</ext>
+		<ext>xft</ext>
+		<ext>cft</ext>
+		<ext>yft</ext>
+	</type>
+	<type Name="HTML predmet">
+		<ext>whm</ext>
+		<ext>xhm</ext>
+		<ext>chm</ext>
+		<ext>yhm</ext>
+	</type>
+	<type Name="Statična kolizija">
+		<ext>wbn</ext>
+		<ext>xbn</ext>
+		<ext>cbn</ext>
+		<ext>ybn</ext>
+	</type>
+	<type Name="Navigacijska geometrija">
+		<ext>wnv</ext>
+		<ext>xnv</ext>
+		<ext>cnv</ext>
+		<ext>ynv</ext>
+	</type>
+	<type Name="Prijelazni oblici">
+		<ext>wbs</ext>
+		<ext>xbs</ext>
+		<ext>cbs</ext>
+		<ext>ybs</ext>
+	</type>
+	<type Name="Biblioteka efekata čestica">
+		<ext>wpfl</ext>
+		<ext>xpfl</ext>
+		<ext>cpfl</ext>
+		<ext>ypfl</ext>
+	</type>
+	<type Name="Snimke vozila">
+		<ext>xvr</ext>
+		<ext>cvr</ext>
+		<ext>wvr</ext>
+		<ext>yvr</ext>
+	</type>
+	<type Name="Snimke pješaka">
+		<ext>xpr</ext>
+		<ext>cpr</ext>
+		<ext>wpr</ext>
+		<ext>ypr</ext>
+	</type>
+	<type Name="Putni čvor">
+		<ext>xnd</ext>
+		<ext>cnd</ext>
+		<ext>wnd</ext>
+		<ext>ynd</ext>
+	</type>
+	<type Name="Rječnik isječaka">
+		<ext>xcd</ext>
+		<ext>ccd</ext>
+		<ext>wcd</ext>
+		<ext>ycd</ext>
+	</type>
+	<type Name="Rječnik izraza">
+		<ext>xed</ext>
+		<ext>ced</ext>
+		<ext>wed</ext>
+		<ext>yed</ext>
+	</type>
+	<type Name="Rječnik prijelaznih oblika">
+		<ext>xsd</ext>
+		<ext>csd</ext>
+		<ext>wsd</ext>
+		<ext>ysd</ext>
+	</type>
+	<type Name="Rječnik štofa">
+		<ext>xld</ext>
+		<ext>cld</ext>
+		<ext>wld</ext>
+		<ext>yld</ext>
+	</type>
+	<type Name="Animacijski resurs">
+		<ext>wan</ext>
+	</type>
+	<!-- Audio (RAGE) -->
+	<type Name="Spremnik Zvučnog Vala">
+		<ext>awc</ext>
+	</type>
+	<!-- Audio (OpenIV) -->
+	<type Name="Banka Zvuka">
+		<ext>RAGE_SOUND_BANK</ext>
+	</type>
+	<type Name="Zvučna Datoteka">
+		<ext>RAGE_AUDIO_FILE</ext>
+	</type>
+	<!-- Executables -->
+	<type Name="Aplikacija">
+		<ext>exe</ext>
+	</type>
+	<type Name="Izvršno (XBOX 360)">
+		<ext>xex</ext>
+	</type>
+	<type Name="Biblioteka Dinamičnih Poveznica">
+		<ext>dll</ext>
+	</type>
+	<type Name="ASI Priključak (Biblioteka Dinamičnih Poveznica)">
+		<ext>asi</ext>
+	</type>
+	<!-- Misc -->
+	<type Name="Binarni podaci">
+		<ext>bin</ext>
+	</type>
+	<type Name="Python skripta">
+		<ext>py</ext>
+	</type>
+	<type Name="Običan tekst">
+		<ext>txt</ext>
+	</type>
+	<type Name="Materijal">
+		<ext>mtl</ext>
+	</type>
+	<type Name="Pravila Teksta">
+		<ext>tr</ext>
+	</type>
+	<type Name="Titlovi cutscene">
+		<ext>cutsub</ext>
+	</type>
+	<type Name="Parametri Pretvorbe Teksture">
+		<ext>ctp</ext>
+		<ext>tcp</ext>
+	</type>
+	<type Name="Shader pred-postavke">
+		<ext>sps</ext>
+	</type>
+	<type Name="GTA tablica teksta">
+		<ext>gxt</ext>
+		<ext>gxt2</ext>
+	</type>
+	<type Name="XML tekst">
+		<ext>xml</ext>
+	</type>
+	<type Name="Konfiguracijski tekst">
+		<ext>ini</ext>
+	</type>
+	<type Name="Sastavljena skripta">
+		<ext>sco</ext>
+	</type>
+	<type Name="Predmetni unosi definicija">
+		<ext>ide</ext>
+	</type>
+	<type Name="Popisi Položaja Predmeta">
+		<ext>ipl</ext>
+	</type>
+	<type Name="Snimke Automobila">
+		<ext>rrr</ext>
+	</type>
+	<type Name="Podaci">
+		<ext>dat</ext>
+		<ext>datnew</ext>
+	</type>
+	<type Name="IZREZANA scena">
+		<ext>cut</ext>
+	</type>
+	<type Name="Prošireni Popisi Položaja">
+		<ext>xpl</ext>
+		<ext>wpl</ext>
+	</type>
+	<type Name="Popis">
+		<ext>list</ext>
+		<ext>xlist</ext>
+		<ext>lst</ext>
+	</type>
+	<type Name="Vrijednosti Odvojene Zarezom">
+		<ext>csv</ext>
+	</type>
+	<type Name="Popis Microsoft Office Excel 97-2003">
+		<ext>xls</ext>
+	</type>
+	<type Name="GTAIV Isječak">
+		<ext>cli</ext>
+	</type>
+	<type Name="GTAIV podatak skupine hash-eva">
+		<ext>pak</ext>
+	</type>
+	<type Name="Konfiguracija">
+		<ext>cfg</ext>
+	</type>
+	<type Name="GTAIV Sažeta slika Isječka">
+		<ext>tag</ext>
+	</type>
+	<type Name="Animacija">
+		<ext>anim</ext>
+	</type>
+	<type Name="Putanje">
+		<ext>nod</ext>
+	</type>
+	<type Name="Informacije borbe">
+		<ext>cmb</ext>
+	</type>
+	<type Name="Informacije pješaka">
+		<ext>ped</ext>
+	</type>
+	<type Name="Područje">
+		<ext>zon</ext>
+	</type>
+	<type Name="Sastavljen shader">
+		<ext>fxc</ext>
+	</type>
+	<type Name="Sastavljen shader (cell/ps3)">
+		<ext>cgx</ext>
+	</type>
+	<type Name="Nagovještaj Zvuka">
+		<ext>DAT4</ext>
+		<ext>DAT10</ext>
+		<ext>DAT11</ext>
+		<ext>DAT12</ext>
+		<ext>DAT15</ext>
+		<ext>DAT16</ext>
+		<ext>DAT19</ext>
+		<ext>DAT20</ext>
+		<ext>DAT22</ext>
+		<ext>DAT45</ext>
+		<ext>DAT46</ext>
+		<ext>DAT54</ext>
+		<ext>DAT149</ext>
+		<ext>DAT150</ext>
+		<ext>DAT151</ext>
+		<name>config/speech.dat</name>
+		<name>config/categories.dat</name>
+		<name>config/curves.dat</name>
+		<name>config/dlc_1_curves.dat</name>
+		<name>config/dlc_1_game.dat</name>
+		<name>config/dlc_1_sounds.dat</name>
+		<name>config/dlc_1_speech.dat</name>
+		<name>config/dlc_pre-order_curves.dat</name>
+		<name>config/dlc_pre-order_game.dat</name>
+		<name>config/dlc_pre-order_sounds.dat</name>
+		<name>config/effects.dat</name>
+		<name>config/game.dat</name>
+		<name>config/sounds.dat</name>
+		<name>config/test_curves.dat</name>
+		<name>config/test_game.dat</name>
+		<name>config/test_sounds.dat</name>
+		<name>config/weapons.dat</name>
+		<name>config/anim.dat</name>
+		<name>config/dlc_3_sounds.dat</name>
+		<name>config/dlc_3_game.dat</name>
+		<name>config/dlc_3_curves.dat</name>
+		<name>config/dlc_2_speech.dat</name>
+		<name>config/dlc_2_sounds.dat</name>
+		<name>config/dlc_2_game.dat</name>
+		<name>config/dlc_2_curves.dat</name>
+	</type>
+	<type Name="Izvršna naredbena datoteka">
+		<ext>bat</ext>
+	</type>
+	<type Name="Windows Naredbena Skripta">
+		<ext>cmd</ext>
+	</type>
+	<type Name="Izrazi">
+		<ext>expr</ext>
+	</type>
+	<type Name="Podešavanja">
+		<ext>tune</ext>
+	</type>
+	<type Name="Slikovni Efekti">
+		<ext>ifx</ext>
+	</type>
+	<!-- Steam -->
+	<type Name="Steam skriptna datoteka">
+		<ext>vdf</ext>
+	</type>
+</Library>

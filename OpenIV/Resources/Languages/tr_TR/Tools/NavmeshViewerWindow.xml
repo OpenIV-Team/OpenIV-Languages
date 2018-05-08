@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<NavmeshViewerWindow Caption='$AppName$ Navigasyon Ağı Görüntüleyicisi' />		
+	<RenderUI>
+		<string name="HELP_TITLE">Navigasyon Ağı Görüntüleyicisi - yardım</string>
+		<string name="EDGES">Kenarlar:</string>
+		<string name="PORTALS">Portallar:</string>
+		<string name="BOUNDS">Sınırlar:</string>
+		<string name="DISPLAY_BOUNDS">Gösterilen sınırlar:</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Fareyi kullanarak etrafa bakının, aşağıdaki tuşlar ile hareket edin:
+			
+    W - İleri git
+    S - Geri git
+    A - Sola git
+    D - Sağa git
+
+    NumPad 8 - Kamerayı yukarı hareket ettir
+    NumPad 2 - Kamerayı aşağı hareket ettir
+    NumPad 4 - Kamerayı sola hareket ettir
+    NumPad 6 - Kamerayı sağa hareket ettir
+
+    Daha hızlı hareket için SHIFT'i basılı tut
+    Daha yavaş hareket için CTRL'i basılı tut
+    Yakınlaştırmak için fare tekerleğini kullan.
+		   
+Render seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
+		   
+    F1 - Bu yardım kutusunu açıp kapatır
+    C - Kamera modunu değiştirir
+    F - Kenarlı yüzleri açıp kapatır
+    P - Noktaların görüntülenmesini açıp kapatır
+    G - Geometriyi açıp kapatır
+    ESC - Bu görüntüleyici penceresini kapatır
+	
+    HUD'u geçici olarak gizlemek için H'yi basılı tutun.
+]]>
+		</text>
+	</RenderUI>
+</Translation>

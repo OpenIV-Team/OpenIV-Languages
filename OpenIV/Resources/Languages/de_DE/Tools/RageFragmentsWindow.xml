@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Translation> 
+	<RageFragmentsWindow Caption='$AppName$ Modellvorschau'> 
+		<paneHierarchy Caption='Hierarchie'/>
+		<pmiHigh Caption='Hoch (High)'/>
+		<pmiMed Caption='Medium (Med)'/>
+		<pmiLow Caption='Schwach (Low)'/>
+		<pmiVLow Caption='Sehr schwach (VLow)'/>
+		<miLeft Caption='Links'/>
+		<miRight Caption='Rechts'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Aus externer Datei laden'/>
+			</StringList>
+		</AeroWindow>
+	</RageFragmentsWindow>
+	<RenderUI>
+		<string name="TOGGLE_DAMAGED">Beschädigte Anzeige:</string>
+		<string name="HELP_TITLE">Modellvorschau - Hilfe</string>		
+		<string name="CHECK_ALL">Alle auswählen</string>
+		<string name="UNCHECK_ALL">Keine auswählen</string>
+		<string name="ALSO_HIDE_CHILDREN">Kinder auch verstecken</string>
+		<string name="PLAY_FORWARD">Vorwärts abspielen</string>
+		<string name="PLAY_BACKWARDS">Rückwärts abspielen</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Benutze die Maus um dich umzuschauen und diese Tasten für die Steuerung:
+			
+    W - Vorwärts bewegen
+    S - Rückwärts bewegen
+    A - Nach links bewegen
+    D - Nach rechts bewegen
+
+    NumPad 8 - Kamera nach oben bewegen
+    NumPad 2 - Kamera nach unten bewegen
+    NumPad 4 - Kamera nach links bewegen
+    NumPad 6 - Kamera nach rechts bewegen
+
+    SHIFT halten - Für schnellere Bewegung
+    STRG halten - Für langsamere Bewegung
+    Mausrad zum Zoomen benutzen.
+	
+Um noch mehr Texturen hinzuzufügen klicke auf "[+] Textur hinzufügen" in der rechten unteren Ecke des Fensters. Um eine Textur zu entfernen, klicke auf den "[-]" - Link hinter dem Texturennamen.
+
+Um die Rendereinstellungen zu verändern nutze die Links auf der rechten Seite oder diese Hot-Keys:
+	
+    F1 - Diese Hilfe anzeigen / ausblenden
+    F2 - Mehr Informationen anzeigen
+    C - Kameramodus wechseln
+    F - Scharfe Gesichter ein- / ausschalten
+    P - Anzeigepunkte ein- / ausblenden
+    G - Geometrie ein-/ausblenden
+    L - Detailstärke wechseln
+    ESC - Dieses Anzeigefenster ausblenden
+	
+    H halten - HUD kurzzeitig verstecken
+]]>
+		</text>				
+	</RenderUI>
+</Translation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - 應用程序錯誤'>
+		<lbWindowTitle Caption="$AppName$ 遇到了一個無法處理的問題，\n現在需要重啟。"/>
+		<btnCloseApp Caption='關閉 $AppName$'/>
+		<lbReportHere Caption='到下列鏈接反饋此錯誤：'/>
+		<lnkWeb1 Caption='訪問官方網站'/>
+		<lnkWeb2 Caption='訪問國際支持論壇'/>
+		<lnkWeb3 Caption='訪問俄語支持論壇'/>
+		<lbText2 Caption='額外工具'/>
+		<tbCopyInfo Caption='複製錯誤信息'/>
+		<tbWin7Report Caption='記錄步驟以再現問題' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='時間： '/>
+				<Item Index='1' Value='類型： '/>
+				<Item Index='2' Value='信息： '/>
+				<Item Index='3' Value='額外信息：'/>
+				<Item Index='4' Value='額外信息確實。'/>
+				<Item Index='5' Value='錯誤信息已複製到剪貼板。'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

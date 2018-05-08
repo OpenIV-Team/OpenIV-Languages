@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Some translations may be inaccurate here - Certaines traductions peuvent être inexactes ici -->
+<Translation>
+	<CollisionViewerWindow Caption=' Visionneuse de collisions $AppName$'>
+		<paneDictionary Caption='Entrées de dictionnaire'/>
+		<paneComposite Caption='Éléments composites'/>
+		<miLeft Caption='Gauche'/>
+		<miRight Caption='Droite'/>
+		<miCheckAll Caption='Tout sélectionner' />
+		<miUncheckAll Caption='Tout désélectionner' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Afficher les normales :</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Type de liaisons :</string>
+		<string name="CHILD_COUNT">Nombre d'enfants :</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Visionneuse de collisions - Aide</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Utilisez la souris pour regarder autour, déplacez l'angle de vue avec les touches suivantes :
+			
+    W - Avancer
+    S - Reculer
+    A - Aller à gauche
+    D - Aller à droite
+
+    NumPad 8 - Monter la caméra
+    NumPad 2 - Baisser la caméra
+    NumPad 4 - Bouger la caméra vers la gauche
+    NumPad 6 - Bouger la caméra vers la droite
+
+    Maintenir SHIFT - Déplacements plus rapides
+    Maintenir CTRL - Déplacements plus lents
+    Utilisez la molette de la souris pour zoomer.
+		   
+Pour changer les options de rendu, utilisez les boutons de droite, ou les touches suivantes :
+		   
+    F1 - Afficher cette boite de dialogue
+    C - Changer le mode de caméra
+    F - Activer/Désactiver les bordures des faces
+    P - Activer/Désactiver les points d'affichage
+    N - Activer/Désactiver l'affichage des normales
+    G - Activer/Désactiver la géométrie
+    Échap - Fermer la visionneuse de collisions
+	
+    Maintenir H - Cacher temporairement l'interface
+]]>
+		</text>
+	</RenderUI>
+</Translation>

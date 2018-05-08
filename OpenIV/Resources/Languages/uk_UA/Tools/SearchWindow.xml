@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Пошук - $AppName$'>
+		<SearchBox BannerText=""/>
+		<btnGoSearch Caption="Шукати"/>
+		<lbSearchOptions Caption="Опції пошуку:"/>
+		<lbSearchArea Caption="Область пошуку:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Шукати всюди'/>
+				<Item Index="1" Value="Шукати лише в папці гри"/>
+				<Item Index="2" Value='Шукати лише в папці “$ModsFolder$”'/>
+			</Items>
+		</cbSearchArea>
+		<cbSoundsAndAudio Caption="Серед звуків"/>
+		<lbStopHint Caption="Натисніть Esc, щоб припинити"/>
+		<btnExtractResults Caption="Видобути"/>
+		<btnExtractAll Caption="Видобути всі файли"/>
+		<btnExtractSelected Caption="Видобути вибрані файли"/>
+		<btnGoTo Caption="Перейти до файлу"/>
+		<btnOpenItem Caption="Відкрити"/>
+		<btnExtractItem Caption="Видобути"/>
+		<btnExtractSelectedItems Caption="Видобути вибрані файли"/>
+		<btnExtractAllItems Caption="Видобути всі файли"/>
+		<btnSelectAllItems Caption="Вибрати все"/>
+		<btnCopyName Caption="Копіювати імʼя"/>
+		<btnCopyPathName Caption="Копіювати шлях"/>
+		<btnSaveContent Caption="Зберегти вміст"/>
+		<btnSaveRawContent Caption="Зберегти необроблений вміст"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Шукати'/>
+				<Item Index='1' Value='Припинити'/>
+				<Item Index='2' Value='Нічого не знайдено'/>
+				<Item Index='3' Value='%D ел. знайдено'/>
+				<Item Index='4' Value='Немає вибраних елементів'/>
+				<Item Index='5' Value='Вибраних елементів: %D'/>
+				<Item Index='6' Value="$AppName$ не може відкрити файл."/>
+				<Item Index='7' Value="Немає елементів для видобування."/>
+				<Item Index='8' Value="Будь ласка, припиніть пошук перед видобуванням."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

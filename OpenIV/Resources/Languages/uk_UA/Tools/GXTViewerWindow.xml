@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GXTViewerWindow Caption='Переглядач GXT $AppName$'>		
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='Список таблиць'/>
+				<Item Index='1' Value='Ключ'/>
+				<Item Index='2' Value='Значення'/>
+				<Item Index='3' Value='Усього таблиць:'/>
+				<Item Index='4' Value=''/>
+			</StringList>
+		</AeroWindow>
+		<btnExport Caption='Зберегти як текстовий файл'/>
+	</GXTViewerWindow>
+</Translation>

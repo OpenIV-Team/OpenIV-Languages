@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='$AppName$ Collision Viewer'>
+		<paneDictionary Caption='Wörterbucheinträge'/> <!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
+		<paneComposite Caption='Kompositionselemente'/>
+		<miLeft Caption='Links'/>
+		<miRight Caption='Rechts'/>
+		<miCheckAll Caption='Alle auswählen' />
+		<miUncheckAll Caption='Keine auswählen' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Normale anzeigen:</string><!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
+		<!-- left side -->
+		<string name="BOUND_TYPE">Grenztyp:</string><!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
+		<string name="CHILD_COUNT">Anzahl der Kinder:</string><!-- Nicht sicher, ob die Übersetzung geeigenet ist -->	
+		<!-- help -->
+		<string name="HELP_TITLE">Collision viewer - Hilfe</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Benutze die Maus um dich umzuschauen und diese Tasten für die Steuerung:
+			
+    W - Vorwärts bewegen
+    S - Rückwärts bewegen
+    A - Nach links bewegen
+    D - Nach rechts bewegen
+
+    NumPad 8 - Kamera nach oben bewegen
+    NumPad 2 - Kamera nach unten bewegen
+    NumPad 4 - Kamera nach links bewegen
+    NumPad 6 - Kamera nach rechts bewegen
+
+    SHIFT halten - Für schnellere Bewegung
+    STRG halten - Für langsamere Bewegung
+    Mausrad zum Zoomen benutzen.
+		   
+Um die Rendereinstellungen zu verändern nutze die Links auf der rechten Seite oder diese Hot-Keys:
+		   
+    F1 - Diese Hilfe anzeigen / ausblenden
+    C - Kameramodus wechseln
+    F - Scharfe Gesichter ein- / ausschalten
+    P - Anzeigepunkte ein- / ausblenden
+    N - Normalen ein- / ausblenden
+    G - Geometrie ein-/ausblenden
+    ESC - Dieses Anzeigefenster ausblenden
+	
+    H halten - HUD kurzzeitig verstecken
+]]>
+		</text>
+	</RenderUI>
+</Translation>

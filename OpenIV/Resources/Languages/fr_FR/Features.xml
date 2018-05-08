@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='Ajouter aux favoris'>
+		<Label1 Caption='Nom :'/>
+		<Label2 Caption='Créer dans :'/>
+
+		<btnAdd Caption='Ajouter'/>
+		<btnCancel Caption='Annuler'/>
+		<btnNewFolder Caption='Nouveau dossier'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Favoris'/>
+				<Item Index='1' Value='Nouveau dossier'/>
+				<Item Index='2' Value='Nom du dossier : '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='Organiser les favoris - $AppName$'>
+		<btnSave Caption='Sauvegarder'/>
+		<btnCancel Caption='Annuler'/>
+		<btnNewFolder Caption='Nouveau dossier'/>
+		<btnRemove Caption='Supprimer'/>
+		<btnClear Caption='Nettoyer'/>
+
+		<Label1 Caption='Utilisez le glisser-déposer pour organiser vos favoris'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Favoris'/>
+				<Item Index='1' Value='Nouveau dossier'/>
+				<Item Index='2' Value='Nom du dossier :'/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Archive Defragmenter -->
+
+	<DefragmenterWindow Caption="Défragmenteur d'archive - $AppName$">
+		<!-- Labels -->
+		<lbDescription Caption="Le défragmenteur d'archive consolide les fichiers à l'intérieur de l'archive pour réduire l'espace disque qu'elle occupe."/>
+		<lbNoteSave Caption="Tous les changements sont déjà sauvegardés, il est inutile d'utiliser le défragmenteur après chaque modification."/>
+		<lbNoteRevert Caption="Le défragmenteur n'annulera aucun changement effectué à l'intérieur de l'archive."/>
+		<!-- Actions -->
+		<actClose Caption='Fermer'/>
+		<actRebuild Caption='Défragmenter'/>
+		<actAddFile Caption='Ajouter des fichiers'/>
+		<actAddFolder Caption='Ajouter un dossier'/>
+		<actRemoveFile Caption='Supprimer le fichier'/>
+		<actClear Caption='Nettoyer la liste'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='Nom'/>
+				<Item Index='2' Caption='Emplacement'/>
+				<Item Index='3' Caption='Type'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='Tout est terminé.'/>
+				<Item Index='1' Value="Défragmenteur d'archive - $AppName$"/>
+				<Item Index='2' Value="Ouvrir l'archive défragmentée ?"/>
+				<Item Index='3' Value="Certains fichiers n'ont pas été traités."/>
+			</StringList>
+		</AeroWindow>
+	</DefragmenterWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption="Informations à propos de l'archive">
+		<!-- Button's -->
+		<btnClose Caption='Fermer'/>
+		<!-- Label's -->
+		<lbType Caption='Type :'/>
+		<lbVersion Caption='Version :'/>
+		<lbCount Caption='Nombre de fichiers :'/>
+
+		<lbCGame Caption='Jeu actuel :'/>
+		<lbCPlatform Caption='Plateforme actuelle :'/>
+
+		<lbCodeModule Caption='Module :'/>
+		<lbCMVersion Caption='Version du module :'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='Importer des openFormats - $AppName$'>
+		<!-- Label's -->
+		<lbOfFileName Caption='Importer le fichier :'/>
+		<lbOfFiles Caption='Importer les fichiers:'/>
+		<lbNewFileName Caption='Nom du nouveau fichier :'/>
+		<!-- Button's -->
+		<btnAdd Caption='Ajouter'/>
+		<btnRemove Caption='Supprimer'/>
+		<btnCancel Caption='Annuler'/>
+		<btnOk Caption='OK'/>
+		<tbLeanMore Caption='En savoir plus à propos des openFormats'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='Protéger la Mesh (empêcher un futur export)'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption="Validateur d'openFormats - $AppName$">
+		<btnClose Caption='Fermer'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value="Certains fichiers n'ont pas été importés, plus d'informations ci-après."/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(Ligne %D): Version de ressource non supportée, (actuelle : « %S », « %D » requise.'/>
+				<Item Index='2' Value='%S(Ligne %D): Version de ressource non supportée, (actuelle : « %S », « %D » requise.'/>
+				<!-- Common errors -->
+				<Item Index='3' Value="Erreur fatale : Impossible d'initialiser Direct3D."/>
+				<Item Index='4' Value='Erreur fatale : Fichier « %S » introuvable.'/>
+				<Item Index='5' Value='%S(Ligne %D): Fichier « %S » introuvable.'/>
+				<Item Index='6' Value='%S(Ligne %D): Fichier corrompu.'/>
+				<Item Index='7' Value='%S(Ligne %D): Propriété « %s » attendue mais « %s » trouvée.'/>
+				<Item Index='8' Value='%S(Ligne %D): Propriété « %s » introuvable.'/>
+				<Item Index='9' Value='%S(Ligne %D): Pas assez de paramètres.'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(Ligne %D): Type de bord de collision inconnu « %S ».'/>
+				<Item Index='11' Value='%S(Ligne %D): Collision trop importante.'/>
+				<Item Index='12' Value='%S(Ligne %D): Collision corrompue.'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value="%S(Line %D): Aucun nom d'os."/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(Ligne %D): Mesh verrouillé.'/>
+				<Item Index='15' Value='%S(Ligne %D): Indice de matériel hors-limite.'/>
+				<Item Index='16' Value="%S(Ligne %D): Le shader ne peut pas être dessiné"/>		
+				<Item Index='17' Value="%S(Ligne %D): Trop d'os dans la géométrie, vous ne pouvez pas en utiliser plus de 48."/>
+
+				<Item Index='18' Value="%S(Line %D): %S"/>
+
+				<!-- Export/Import -->
+				<Item Index='19' Value="Rapport d'importation openFormats"/>
+				<Item Index='20' Value="Rapport d'exportation openFormats"/>
+				<Item Index='21' Value="Certains fichiers n'ont pas été exportés, plus de détails ci-dessous."/>		
+			</StringList>
+		</AeroWindow>	
+	</openFormatsValidatorWindow>	
+
+</Translation>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='Dodaj Omiljeno'>
+		<Label1 Caption='Ime:'/>
+		<Label2 Caption='Stvori u:'/>
+
+		<btnAdd Caption='Dodaj'/>
+		<btnCancel Caption='Odustani'/>
+		<btnNewFolder Caption='Nova mapa'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Omiljeno'/>
+				<Item Index='1' Value='Stvori Mapu'/>
+				<Item Index='2' Value='Ime mape: '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='Rasporedi Omiljeno - $AppName$'>
+		<btnSave Caption='Snimi'/>
+		<btnCancel Caption='Odustani'/>
+		<btnNewFolder Caption='Nova mapa'/>
+		<btnRemove Caption='Ukloni'/>
+		<btnClear Caption='Počisti'/>
+
+		<Label1 Caption='Koristite povlačenje i spuštanje kako biste rasporedili svoj omiljen sadržaj.'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Omiljeno'/>
+				<Item Index='1' Value='Stvori Mapu'/>
+				<Item Index='2' Value='Ime mape: '/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Archive Defragmenter -->
+
+	<DefragmenterWindow Caption='Defragmenter Arhive - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="Defragmenter Arhive ujedinjuje datoteke unutar arhive kako bi smanjio veličinu arhive na čvrsti disk Vašeg računala."/>
+		<lbNoteSave Caption='Sve Vaše promjene su već snimljene, ne trebate koristiti defragmentaciju nakon svake izmjene.'/>
+		<lbNoteRevert Caption='Mogućnost defragmentacije neće povratit promjene učinjene u arhivama.'/>
+		<!-- Actions -->
+		<actClose Caption='Zatvori'/>
+		<actRebuild Caption='Defragmentiraj'/>
+		<actAddFile Caption='Dodaj datoteke'/>
+		<actAddFolder Caption='Dodaj mapu'/>
+		<actRemoveFile Caption='Ukloni datoteku'/>
+		<actClear Caption='Počisti popis'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='Ime'/>
+				<Item Index='2' Caption='Mjesto'/>
+				<Item Index='3' Caption='Vrsta'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='Sve gotovo.'/>
+				<Item Index='1' Value='Defragmenter Arhive - $AppName$'/>
+				<Item Index='2' Value='Otvori ponovno izrađenu arhivu?'/>
+				<Item Index='3' Value='Neke datoteke nisu obrađene.'/>
+			</StringList>
+		</AeroWindow>
+	</DefragmenterWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption='Informacije arhive'>
+		<!-- Button's -->
+		<btnClose Caption='Zatvori'/>
+		<!-- Label's -->
+		<lbType Caption='Vrsta:'/>
+		<lbVersion Caption='Inačica:'/>
+		<lbCount Caption='Broj stavki:'/>
+
+		<lbCGame Caption='Trenutna igra:'/>
+		<lbCPlatform Caption='Trenutna platforma:'/>
+
+		<lbCodeModule Caption='Modul:'/>
+		<lbCMVersion Caption='Inačica modula:'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='Uvezi openFormats - $AppName$'>
+		<!-- Label's -->
+		<lbOfFileName Caption='Uvezi datoteku:'/>
+		<lbOfFiles Caption='Uvezi datoteke:'/>
+		<lbNewFileName Caption='Novo ime datoteke:'/>
+		<!-- Button's -->
+		<btnAdd Caption='Dodaj'/>
+		<btnRemove Caption='Ukloni'/>
+		<btnCancel Caption='Odustani'/>
+		<btnOk Caption='Uredu'/>
+		<tbLeanMore Caption='Saznajte više o openFormats'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='Zaštiti geometriju (spriječi budući izvoz)'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption='openFormats potvrditelj - $AppName$'>
+		<lbTitle Caption='openFormats izvještaj uvoza'/>
+		<btnClose Caption='Zatvori'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value='Neke datoteke nisu uvezene, više informacija ispod.'/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(Redak %D): Nije podržana inačica resursa, stvarni: "%S" ali očekivan "%D".'/>
+				<Item Index='2' Value='%S(Redak %D): Nije podržana inačica formata, stvarna: "%S" ali očekivana "%D".'/>
+				<!-- Common errors -->
+				<Item Index='3' Value='Fatalna greška: Nije moguće pokrenut Direct3D.'/>
+				<Item Index='4' Value='Fatalna greška: Datoteka "%S" nije pronađena.'/>
+				<Item Index='5' Value='%S(Redak %D): Datoteka "%S" nije pronađena.'/>
+				<Item Index='6' Value='%S(Redak %D): Datoteka oštećena.'/>
+				<Item Index='7' Value='%S(Redak %D): Svojstvo "%s" očekivano ali "%s" pronađeno.'/>
+				<Item Index='8' Value='%S(Redak %D): Svojstvo "%s" nije pronađeno.'/>
+				<Item Index='9' Value='%S(Redak %D): Nema dovoljno stvarnih parametara.'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(Redak %D): Nepoznata vrsta kolizijske poveznice "%S".'/>
+				<Item Index='11' Value='%S(Redak %D): Kolizija prevelika.'/>
+				<Item Index='12' Value='%S(Redak %D): Kolizija oštećena.'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value='%S(Redak %D): Ime Kosti je prazno.'/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(Redak %D): Geometrija je zaključana.'/>
+				<Item Index='15' Value='%S(Redak %D): Indeks materijala je van dometa.'/>
+				<Item Index='16' Value="%S(Redak %D): Shader ne može bit oderan(obrađen)."/>
+				<Item Index='17' Value="%S(Redak %D): Previše kostiju u jednoj geometriji, ne možete koristiti više od 48 kostiju."/>
+
+				<Item Index='18' Value="%S(Redak %D): %S"/>
+			</StringList>
+		</AeroWindow>
+	</openFormatsValidatorWindow>
+
+</Translation>

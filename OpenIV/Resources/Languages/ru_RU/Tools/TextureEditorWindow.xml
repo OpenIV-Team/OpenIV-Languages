@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='Средство просмотр и редактирования текстур $AppName$'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Средство просмотра текстур $AppName$'/>
+				<Item Index='1' Value='Редактор текстур $AppName$'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">Вид:</string>
+		<string name="EXPORT_ALL">Экспортировать всё</string>
+		<string name="EXPORT_SELECTED">Экспортировать</string>
+		<string name="ORIGINAL_SIZE">Полный размер</string>
+		<string name="ALPHA_BACKGROUND">Альфа-фон</string>
+		<string name="SIZE_">Размер:</string>
+		<string name="SEARCH_TEXTURES">Поиск текстур</string>
+		<string name="NO_IMAGE_FOUND">Текстуры не найдены</string>
+
+		<string name="COPY_NAME">Копировать имя</string>
+		<string name="EXPORT">Экспортировать</string>
+		<string name="RENAME">Имя</string>
+		<string name="REPLACE">Заменить</string>
+		<string name="DELETE">Удалить</string>
+		<string name="RENAME_TEXTURE">Переименовать текстуру</string>
+		<string name="RENAME_TEXTURE_NAME">Введите новое имя:</string>
+		<string name="RENAME_TEXTURE_ERROR">Текстура с таким именем уже существует.</string>
+		<string name="NO_IMAGE">Изображение отсутствует</string>
+
+		<string name="NO_IMAGE_SELECTED">Изображение не выбрано</string>
+		<string name="WIDTH">Ширина</string>
+		<string name="HEIGHT">Высота</string>
+		<string name="PIXEL_FORMAT">Формат</string>
+		<string name="MIP_MAPS">MipMaps</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">Выберите параметры импорта</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Эти параметры игнорируются при импорте DDS файлов.
+Используйте DDS файлы чтобы получить лучшее качество.]]>
+		</text>
+		<string name="AUTO_MIPMAP">Автоматически создавать MipMap уровни</string>
+		<string name="TEXTURES_FORMAT">Формат текстур (сжатие):</string>
+		<string name="AUTOMATICALLY">Автоматически</string>
+		<string name="IMPORT_ERROR_FILES">Следующие файлы не были добавлены:</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">Свойства</string>
+		<string name="PROPERTIES_MIPMAP">Уровни MipMap:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Формат текстур:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Предупреждение:
+Во время изменения свойств качество может быть потеряно.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">Невозможно изменить свойства "%S" текстуры.</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">Вы хотите сохранить изменения?</string>
+
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11 не доступен</string>
+		<string name="DX11_NOT_INIT_TEXT">Не удалось инициализировать DirectX 11.\nФункции редактирования не доступны для этого файла.</string>
+		
+		<!-- help -->
+		<string name="HELP_TITLE">Texture editor - Справка</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Доступные горячие клавиши:
+	
+    Ctrl + Tab - Переключить вид
+    Ctrl + A - Экспортировать все текстуры
+    Ctrl + S - Экспортировать выбранные текстуры
+    F1 - Скрыть/показать эту справку
+    ESC - Закрыть окно
+    
+    Зажмите H - Для временного скрытия интерфейса
+]]>
+		</text>
+	</RenderUI>
+</Translation>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Some translations may be inaccurate here - Certaines traductions peuvent être inexactes ici -->
+<Translation>
+	<RageScriptWindow Caption='Visionneuse SCO - $AppName$'>
+		<!-- Button's -->
+		<btnSave Caption='Sauvegarder le code vers un fichier texte'/>
+		<btnClose Caption='Fermer'/>
+		<btnASMBack Caption='&lt;&lt; Retour'/>
+		<btnCFList Caption='Cacher la liste'/>
+		<btnCodeList Caption='Cacher la liste'/>
+		<!-- Tabs -->
+		<tbASM Caption='Code ASM'/>
+		<tbCFASM Caption='Flux de contrôle de code ASM'/>
+		<tbCODE Caption='Code de niveau élevé'/>
+		<Label1 Caption='Filtre :'/>
+		<!-- Menu -->
+		<N1 Caption="Aller à l'adresse"/>
+		<N2 Caption='Copier la ligne'/>
+		<N3 Caption='Filtrer'/>
+		<!-- Text menu -->
+		<miCopyText Caption='Copier'/>
+		<miFind Caption='Trouver...'/>
+		<miSelectAll Caption='Tout sélectionner'/>
+		<miCopyAll Caption='Tout copier'/>
+		<!-- Save code menu -->
+		<N4 Caption='Sauvegarder dans un fichier texte'/>
+		<N5 Caption='Sauvegarder au format HTML'/>	
+		<!-- String's -->
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='Chargement du fichier SCO...'/>
+				<Item Index='1' Value='[ÉTAPE1]'/>
+				<Item Index='2' Value='[ÉTAPE2]'/>
+				<Item Index='3' Value='[ÉTAPE3]'/>
+				<Item Index='4' Value='Tout afficher'/>
+			</StringList>
+		</AeroWindow>
+	</RageScriptWindow>
+</Translation>

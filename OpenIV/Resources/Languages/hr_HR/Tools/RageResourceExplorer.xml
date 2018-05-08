@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageResourceExplorer Caption='$AppName$ - Eksplorer resursa'>
+		<btnCopy Caption='Udvostruči sve'/>
+		<miCopyLine Caption='Udvostruči red'/>
+	</RageResourceExplorer>
+
+	<RageResourceExplorer2 Caption='$AppName$ - Eksplorer resursa'>
+		<lbTree Caption="Stablo: "/>
+		<btnProperties Caption="Svojstva"/>
+		<btnFields Caption="Polja"/>
+		<tabProperties Caption="Svojstva"/>
+		<tabFields Caption="Polja"/>
+	</RageResourceExplorer2>
+</Translation>

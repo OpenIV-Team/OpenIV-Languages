@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='$AppName$ Visor de Modelos'>
+		<pmiCopyName Caption='Copiar nombre'/>
+		<pmiCopyHash Caption='Copiar hash'/>
+		<pmiCopyNameAndHash Caption='Copiar nombre y hash'/>
+		<pmiHigh Caption='Alto (Alto)'/>
+		<pmiMed Caption='Medio (Med)'/>
+		<pmiLow Caption='Bajo (Bajo)'/>
+		<pmiVLow Caption='Muy bajo (MBajo)'/>
+		<miLeft Caption='Izquierda'/>
+		<miRight Caption='Derecha'/>
+		<miCheckAll Caption='Seleccionar todos' />
+		<miUncheckAll Caption='Deseleccionar todos' />
+		<paneDictionary Caption='Elementos del diccionario'/>
+		<cbMultipleRendering Caption='Multiple render'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Cargar de un archivo externo'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>	
+		<!-- help -->
+		<string name="HELP_TITLE">Visor de Modelos - Ayuda</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
+			
+    W - Mover adelante
+    S - Mover atrás
+    A - Mover a la izquierda
+    D - Mover a la derecha
+
+    NumPad 8 - Mover cámara arriba
+    NumPad 2 - Mover cámara abajo
+    NumPad 4 - Mover cámara izquierda
+    NumPad 6 - Mover cámara derecha
+
+    Mantiene SHIFT - Para moverte rápido
+    Mantiene CTRL - Para moverte despacio
+    Utiliza la rueda del mouse para hacer zoom.
+	
+Para añadir texturas adicionales cliquea en "[+] Añadir Texturas" en la parte de abajo a la derecha en el ángulo de la ventana. Para remover la textura cliquea en "[-]".
+
+Para cambiar las opciones de render usa estas teclas:
+		   
+    F1 - Alternar este panel de ayuda
+    C - Alternar modo de cámara
+    F - Alternar Edged Faces
+    P - Alternar puntos de pantalla
+    N - Alternar mostrar normals
+    G - Alternar geometría
+    L - Alternar Nivel de Detalle
+    ESC - Cerrar esta ventana
+]]>
+		</text>
+		<string name="CHECK_ALL">Seleccionar todos</string>
+		<string name="UNCHECK_ALL">Deseleccionar todos</string>
+		<string name="MULTIPLE_RENDERING">Multiple render</string>
+		<string name="BOUND_TYPE">Tipo de Bound:</string>
+		<string name="CHILD_COUNT">Contador de Child:</string>
+	</RenderUI>
+</Translation>

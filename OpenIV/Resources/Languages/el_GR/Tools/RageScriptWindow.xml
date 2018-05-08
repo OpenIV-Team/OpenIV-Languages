@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageScriptWindow Caption='Προβολέας SCO - '>
+		<!-- Button's -->
+		<btnSave Caption='Αποθήκευση κώδικα ως κείμενο'/>
+		<btnClose Caption='Κλείσιμο'/>
+		<btnASMBack Caption='&lt;&lt; Πίσω'/>
+		<btnCFList Caption='Απόκρυψη λίστας'/>
+		<btnCodeList Caption='Απόκρυψη λίστας'/>
+		<!-- Tabs -->
+		<tbASM Caption='Κώδικας ASM'/>
+		<tbCFASM Caption='Ροή ελέγχου κώδικα ASM'/>
+		<tbCODE Caption='Κώδικας υψηλού επιπέδου'/>
+		<Label1 Caption='Φίλτρο:'/>
+		<!-- Menu -->
+		<N1 Caption='Μεταπήδηση στη διεύθυνση'/>
+		<N2 Caption='Αντιγραφή γραμμής'/>
+		<N3 Caption='Φίλτρο σε αυτό'/>
+		<!-- Text menu -->
+		<miCopyText Caption='Αντιγραφή'/>
+		<miFind Caption='Εύρεση...'/>
+		<miSelectAll Caption='Επιλογή όλων'/>
+		<miCopyAll Caption='Αντιγραφή όλων'/>
+		<!-- Save code menu -->
+		<N4 Caption='Αποθήκευση ως κείμενο'/>
+		<N5 Caption='Αποθήκευση ως HTML'/>	
+		<!-- String's -->
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='Φόρτωση αρχείου SCO...'/>
+				<Item Index='1' Value='[Βήμα 1ο]'/>
+				<Item Index='2' Value='[Βήμα 2ο]'/>
+				<Item Index='3' Value='[Βήμα 3ο]'/>
+				<Item Index='4' Value='Προβολή όλων'/>
+			</StringList>
+		</AeroWindow>
+	</RageScriptWindow>
+</Translation>

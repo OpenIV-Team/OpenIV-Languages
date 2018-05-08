@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='About $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">版本 %D.%D (Build %D; 日期 %S)</string>
+		<string name="VERSION_LABEL_3">版本 %D.%D.%D (Build %D; 日期 %S)</string>
+		<string name="THE_TEAM">開發團隊</string>
+		<string name="THIRD_PARTY">第三方</string>
+		<string name="THIRD_PARTY_LINE_1">本程序所使用的部分組件</string>
+		<string name="THIRD_PARTY_LINE_2">由第三方提供。</string>
+		<string name="THANKS_TO">致謝</string>
+		<string name="ALPHABETICALLY">(按字母排序)</string>
+		<string name="SPECIAL_THANKS_TO">特別致謝</string>
+		<string name="LICENSE_TERMS">軟件許可條款</string>
+		<string name="LOCALIZATION">本地化提供者</string>
+	</RenderUI>
+</Translation>

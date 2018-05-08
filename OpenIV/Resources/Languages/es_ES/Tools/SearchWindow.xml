@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='$AppName$ - Búsqueda Global'>
+		<SearchBox BannerText="Buscar"/>
+		<btnGoSearch Caption="Buscar"/>
+		<lbSearchOptions Caption="Opciones de busqueda:"/>
+ 		<lbSearchArea Caption="Buscar area:"/>
+ 		<cbSearchArea>
+ 			<Items>
+ 				<Item Index="0" Value='Buscar en todos los archivos'/>
+ 				<Item Index="1" Value="Buscar solo en la carpeta del juego"/>
+ 				<Item Index="2" Value='Buscar solo en la carpeta de $ModsFolder$'/>
+ 			</Items>
+ 		</cbSearchArea>
+		<cbSoundsAndAudio Caption="Buscar en audio"/>
+		<lbStopHint Caption="Para parar la busqueda preciona ESC"/>
+		<btnExtractResults Caption="Extraer resultados"/>
+ 		<btnExtractAll Caption="Extraer todos los archivos"/>
+ 		<btnExtractSelected Caption="Extraer archivos seleccionados"/>
+		<btnGoTo Caption="Ir a archivo"/>
+		<btnOpenItem Caption="Abrir"/>
+		<btnExportItem Caption="Exportar"/>
+		<btnExportSelectedItems Caption="Exportar archivos seleccionados"/>
+		<btnExportAllItems Caption="Exportar todos los archivos"/>
+		<btnSelectAllItems Caption="Seleccionar todo"/>
+		<btnCopyName Caption="Copiar nombre"/>
+ 		<btnCopyPathName Caption="Copiar ruta"/>
+ 		<btnSaveContent Caption="Guardar contenido"/>
+		<btnSaveRawContent Caption="Guardar contenido sin procesar"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='Buscar'/>
+				<Item Index='1' Value='Parar de buscar'/>
+				<Item Index='2' Value='No hay items encontrados'/>
+				<Item Index='3' Value='Items encontrados: %D'/>
+				<Item Index='4' Value='No hay items seleccionados'/>
+				<Item Index='5' Value='Seleccionados: %D'/>
+				<Item Index='6' Value="$AppName$ no puede abrir el archivo."/>
+				<Item Index='7' Value="No hay resultados para extraer."/>
+				<Item Index='8' Value="Por favor, para de buscar luego de extraer."/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

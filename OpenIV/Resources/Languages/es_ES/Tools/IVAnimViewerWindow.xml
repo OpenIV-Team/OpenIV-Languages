@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ Visor de Animaciones'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Visor de Animaciones</string>
+		<string name="START_PED">Animaciones de Personajes</string>
+		<string name="START_MAP">Animaciones del Mapa</string>
+		<string name="START_CUT">Cinemáticas</string>
+		<string name="CHANGE_PED_MODEL">Cambiar modelo del personaje</string>
+		<string name="SELECT_PED_MODEL">Seleccionar modelo del personaje</string>
+		<string name="LOADING___">cargando...</string>
+		<string name="EMPTY_CUTSCENE">Cinemática vacia</string>
+		<string name="EMPTY_CUTSCENE_MSG">Incapaz de abrir cinemática vacia.</string>
+		<string name="MISSED_ANIMATIONS">Animaciones perdidas</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ es incapaz de cargar algunas animaciones porque los archivos no se encuentran en el directorio.</string>
+		<string name="FRAMES_">Cuadros: </string>
+		<string name="TIME_SCALE_X">Escala de tiempo: x</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Visor de Animaciones - ayuda</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Selecciona una categoría y reproduce cualquier animación. ]]>
+		</text>
+	</RenderUI>
+</Translation>

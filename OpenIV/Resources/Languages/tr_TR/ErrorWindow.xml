@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Uygulama hatası'>
+		<lbWindowTitle Caption="$AppName$ halledemeyeceği bir hatayla karşılaştı,\nve yeniden başlatılması gerekiyor."/>
+		<btnCloseApp Caption='$AppName$&apos;i kapat'/>
+		<lbReportHere Caption='Lütfen bu hatayı aşağıdaki linklerden bildirin:'/>
+		<lnkWeb1 Caption='Sitemizi ziyaret edin'/>
+		<lnkWeb2 Caption='Uluslararası destek forumunu ziyaret edin'/>
+		<lnkWeb3 Caption='Rus destek forumunu ziyaret edin'/>
+		<lbText2 Caption='Ek araçlar'/>
+		<tbCopyInfo Caption='Hata bilgisini kopyala'/>
+		<tbWin7Report Caption='Bu hatayı oluşturan adımları kaydet' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Zaman: '/>
+				<Item Index='1' Value='Tip: '/>
+				<Item Index='2' Value='Mesaj: '/>
+				<Item Index='3' Value='Ek bilgi:'/>
+				<Item Index='4' Value='Ek bilgi yok.'/>
+				<Item Index='5' Value='Hata bilgisi kopyalandı.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

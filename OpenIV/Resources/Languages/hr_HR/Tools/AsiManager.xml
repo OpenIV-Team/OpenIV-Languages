@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<FiveAsiManagerWindow Caption='ASI Upravitelj - $AppName$'/>
+	<RenderUI>
+		<string name="TITLE">$RageGAME_SHORT$ - ASI Upravitelj</string>
+		
+		<string name="RPF_NOTE">Trebate postavit ASI Čitač i $ModsFolderAsi$ priključak za Vaše $RageGAME_SHORT$, u suprotnom igra neće očitavati izmijenjene RPF arhive.</string>
+		<string name="ONLINE_NOTE">Ne igrajte $RageGAME_MP$ s izmijenjenim RPF-om bit ćete zabranjeni u igri.</string>
+		
+		<string name="INSTALL">Postavi</string>
+		<string name="UPDATE">Ažuriraj</string>
+		<string name="UNINSTALL">Ukloni</string>
+		
+		<string name="NOT_INSTALLED">NIJE POSTAVLJENO</string>
+		<string name="UPDATE_REQUIRED">POTREBNO AŽURIRANJE</string>
+		<string name="INSTALLED">POSTAVLJENO</string>
+		<string name="DISABLED">ISKLJUČENO</string>
+		
+		<string name="ASI_LOADER">ASI Čitač</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Čitač je alat koji učitava prilagođene biblioteke s datotečnim nastavkom .asi u proces igre.</string>
+		
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Ovaj ASI Priključak dopušta igri da očitava izmijenjene RPF arhive. Također pruža podršku za $ModsFolder$ mapu.</string>
+		
+		<string name="OPEN_CAMERA_ASI">openCamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Unapređuje "Slobodna Kamera" ograničenja dometa unutar Rockstar Urednika.</string>
+		
+		<string name="INSTALLATION_FAILED">Postavljanje nije uspjelo</string>
+		<string name="INSTALLATION_FAILED_TEXT">Postavljanje nije uspjelo, ponovno pokrenite $AppName$  te pokušajte ponovno.</string>
+		
+		<string name="UNINSTALL_FAILED">Uklananje nije uspjelo</string>
+		<string name="UNINSTALL_FAILED_TEXT">Uklananje nije uspjelo, ponovno pokrenite $AppName$ te pokušajte ponovno.</string>
+
+		<string name="MODS_FOLDER_TITLE">Stvori $ModsFolder$ mapu?</string>
+		<string name="MODS_FOLDER_TEXT">$ModsFolder$ mapa Vam dopušta da čuvate Vaše izvorne datoteke igre na sigurnom i istovremeno imate najlakši način jednokratnog klika za izmjenu između izmijenjenih i izvornih datoteka.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Prikazuj obavijest tijekom uređivanja arhive izvan $ModsFolder$ mape</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Dopusti način uređivanja samo za arhive unutar $ModsFolder$ mape</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">Možete promijenit ove postavke u bilo koje vrijeme u $AppName$ opcijama.</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Saznajte više o $ModsFolder$ mapi</string>
+	</RenderUI>
+</Translation>

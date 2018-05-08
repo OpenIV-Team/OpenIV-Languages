@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Translation> 
+	<RageFragmentsWindow Caption='Visionneuse de modèles $AppName$'> 
+		<paneHierarchy Caption='Hiérarchie'/>
+		<pmiHigh Caption='Élevé (High)'/>
+		<pmiMed Caption='Moyen (Med)'/>
+		<pmiLow Caption='Bas (Low)'/>
+		<pmiVLow Caption='Très bas (VLow)'/>
+		<miLeft Caption='Gauche'/>
+		<miRight Caption='Droite'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Ouvrir depuis un fichier externe'/>
+			</StringList>
+		</AeroWindow>
+	</RageFragmentsWindow>
+	<RenderUI>
+		<string name="TOGGLE_DAMAGED">Vue des dommages :</string>
+		<string name="HELP_TITLE">Visionneuse de modèles - Aide</string>		
+		<string name="CHECK_ALL">Tout sélectionner</string>
+		<string name="UNCHECK_ALL">Tout désélectionner</string>
+		<string name="ALSO_HIDE_CHILDREN">Cacher aussi les enfants</string>
+		<string name="PLAY_FORWARD">Jouer en avant</string>
+		<string name="PLAY_BACKWARDS">Jouer en arrière</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Utilisez la souris pour regarder autour, déplacez l'angle de vue avec les touches suivantes :
+			
+    W - Avancer
+    S - Reculer
+    A - Aller à gauche
+    D - Aller à droite
+
+    NumPad 8 - Monter la caméra
+    NumPad 2 - Baisser la caméra
+    NumPad 4 - Bouger la caméra vers la gauche
+    NumPad 6 - Bouger la caméra vers la droite
+
+    Maintenir SHIFT - Déplacements plus rapides
+    Maintenir CTRL - Déplacements plus lents
+    Utilisez la molette de la souris pour zoomer.
+	
+Pour ajouter une texture, cliquez sur « [+] Ajouter des textures » en bas à droite de la fenêtre. Pour retirer une texture, cliquez sur « [-] » à côté du nom de la texture.
+
+To change render options use links in right side or these hot keys:
+	
+    F1 - Afficher cette boite de dialogue
+    F2 - Afficher plus d'informations
+    C - Changer le mode de caméra
+    F - Activer/Désactiver les bordures des faces
+    P - Activer/Désactiver les points d'affichage
+    G - Activer/Désactiver la géométrie
+    L - Changer le niveau de détails
+    Échap - Fermer la visionneuse de modèles
+	
+    Maintenir H - Cacher temporairement l'interface
+]]>
+		</text>				
+	</RenderUI>
+</Translation>

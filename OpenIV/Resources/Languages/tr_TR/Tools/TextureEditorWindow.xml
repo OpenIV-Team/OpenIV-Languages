@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='$AppName$ Doku aracı'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Doku görüntüleyici'/>
+				<Item Index='1' Value='$AppName$ Doku düzenleyici'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">Göster:</string>
+		<string name="EXPORT_ALL">Tüm dokuları çıkart</string>
+		<string name="EXPORT_SELECTED">Seçileni çıkart</string>
+		<string name="ORIGINAL_SIZE">Orjinal boyut</string>
+		<string name="ALPHA_BACKGROUND">Saydam arka plan</string>
+		<string name="SIZE_">Boyut:</string>
+
+		<string name="RENAME">Yeniden adlandır</string>
+		<string name="REPLACE">Değiştir</string>
+		<string name="DELETE">Sil</string>
+		<string name="RENAME_TEXTURE">Dokuyu yeniden adlandır</string>
+		<string name="RENAME_TEXTURE_NAME">Yeni isim girin</string>
+		<string name="RENAME_TEXTURE_ERROR">Bu isimle bir doku zaten mevcut.</string>
+		<string name="NO_IMAGE">Resim yok</string>
+
+		<string name="NO_IMAGE_SELECTED">Seçilmiş resim yok</string>
+		<string name="WIDTH">Genişlik</string>
+		<string name="HEIGHT">Yükseklik</string>
+		<string name="PIXEL_FORMAT">Piksel Formatı</string>
+		<string name="MIP_MAPS">MipMaps</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">Alma ayarlarını seçin</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Bu ayarlara DDS dosyalarını alırken göz atılmaz.
+En iyi kalite için DDS dosyalarını kullanın.]]>
+		</text>
+		<string name="AUTO_MIPMAP">MipMap seviyelerini otomatik olarak üret</string>
+		<string name="TEXTURES_FORMAT">Doku formatı (sıkıştırma):</string>
+		<string name="AUTOMATICALLY">Otomatik</string>
+		<string name="IMPORT_ERROR_FILES">Bu dosyalar alınamadı</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">Özellikler</string>
+		<string name="PROPERTIES_MIPMAP">MipMap seviyeleri:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Piksel formatı:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Uyarı:
+Özellikler değiştirilirken kalite düşebilir.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">"%S" dosyasının doku özellikleri değiştirilemedi.</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">Değişiklikleri kaydetmek istiyor musunuz?</string>
+		
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11 kullanılabilir değil</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ DirectX 11 aracını kullanamıyor.\nDüzenleme araçları bu dosya için mevcut değil.</string>
+		
+		<!-- help -->
+		<string name="HELP_TITLE">Doku düzenleyici - yardım</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Mevcut tuşlar:
+			
+    Ctrl + Tab - Gösterme modunu değiştir
+    Ctrl + A - Tüm dokuları çıkart
+    Ctrl + S - Seçilen dokuları çıkart
+    F1 - Bu yardım kutusunu göster
+    ESC - Bu gösterici penceresini kapat
+    
+    Geçici olarak HUD'u gizlemek için H tuşuna basılı tutun
+]]>
+		</text>
+	</RenderUI>
+</Translation>

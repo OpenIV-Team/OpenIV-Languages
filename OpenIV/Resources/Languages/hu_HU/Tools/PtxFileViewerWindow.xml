@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PtxFileViewerWindow Caption='$AppName$ Model Viewer'>
+		<paneDictionary Caption='Dictionary elements'/>
+	</PtxFileViewerWindow>
+	<RenderUI>
+		<string name="EXPORT_TO_FORMATS">Export to openFormats</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Model Viewer - help</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Use mouse to look around, move using these keys:
+			
+    W - Move forward
+    S - Move backward
+    A - Move left
+    D - Move right
+
+    NumPad 8 - Move camera up
+    NumPad 2 - Move camera down
+    NumPad 4 - Move camera left
+    NumPad 6 - Move camera right
+
+    Hold SHIFT - For faster movement
+    Hold CTRL - For slow movement
+    Use mouse wheel for zooming.
+	
+To change render options use links in right side or these hot keys:
+	
+    F1 - Toggle this help box
+	F2 - Show more information
+    C - Toggle camera mode
+    F - Toggle Edged Faces
+    P - Toggle display points
+    G - Toggle geometry
+    ESC - Close this viewer window
+	
+    Hold H - For temporarily hide HUD
+]]>
+		</text>		
+	</RenderUI>
+</Translation>

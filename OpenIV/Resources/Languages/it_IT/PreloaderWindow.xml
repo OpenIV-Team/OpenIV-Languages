@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PreloaderWindow>
+		<WelcomeScreen>
+			<!-- Button's -->
+			<btnClose Caption='Chiudi'/>
+			<btnEULANext Caption='Continua'/>
+			<btnWebNext Caption='Continua'/>
+			<btnGame Caption='Naviga...' Hint='Seleziona cartella:'/>
+			<btnGameNext Caption='Continua'/>
+			<btnSetPermissions Caption='Imposta permessi'/>
+			<btnWindowsNext Caption='Continua'/>
+			<btnBackupNext Caption='Continua'/>
+			<btnSocialNext Caption='Continua'/>
+			<btnSocialYouTube Caption='$AppName$ su YouTube'/>
+			<btnSocialTwitter Caption='$AppName$ su Twitter'/>
+			<btnSocial_FB Caption='$AppName$ su Facebook'/>
+			<btnSocial_VK Caption='$AppName$ su VK'/>
+			<!-- Link's -->
+			<LnkWebLangs Caption="Traduci $AppName$ in un'altra lingua"/>
+			<LnkWebEULA Caption='Leggi la licenza qui.'/>
+			<!-- CheckBox's -->
+			<cbAcceptEULA Caption='Ho letto e accettato i termini del contratto di licenza di $AppName$.'/>
+			<!-- Strings -->
+			<StringList SetCount='30'>
+				<Lines>
+					<Item Index='00' Value="$AppName$ Termini d'uso"/>
+					<Item Index='01' Value='Prima di usare $AppName$ devi leggere e accettare i seguenti termini.'/>
+					<Item Index='02' Value='$WebName$ servizio'/>
+					<Item Index='03' Value="$WebName$ il servizio è stato creato per migliorare lo scambio di informazioni tra sviluppatori e utenti d $AppName$. Se ti registri per il servizio, puoi verificare gli aggiornamenti di $AppName$ e utilizzare altre funzioni web aggiuntive. Inoltre, il servizio $WebName$ raccoglie alcune informazioni statistiche che ci consentiranno di sviluppare $AppName$ in base alle preferenze dell'utente."/>
+					<Item Index='04' Value='Servizio temporaneamente non disponibile.'/>
+					<Item Index='05' Value='Specifica il percorso di $RageGAME$'/>
+					<Item Index='06' Value='Se non si specifica la cartella del gioco, $AppName$ non sarà in grado di aprire i file di $RageGAME_SHORT$ in quanto non avrà abbastanza informazioni per farlo. Specifica la cartella in cui è installato $RageGAME$ sotto.'/>
+					<Item Index='07' Value='Percorso di $RageGAME$ selezionato:'/>
+					<Item Index='08' Value='Errore: Questa cartella non esiste.'/>
+					<Item Index='09' Value='Successo: $AppName$ può funzionare con la directory selezionata.'/>
+					<Item Index='10' Value="Errore: la cartella specificata non contiene il file '$RageEncryptionStorage$' richiesto."/>
+					<Item Index='11' Value='Successo: $RageEncryptionStorage$, versione %s\n$AppName$ può funzionare con questo file'/>
+					<Item Index='12' Value='Backups'/>
+					<Item Index='13' Value='Non dimenticare di salvare le copie originali dei file prima di modificarli.'/>
+					<Item Index='14' Value='Windows 7'/>
+					<Item Index='15' Value='Per utilizzare al meglio tutte le funzionalità di $AppName$ consigliamo di usarlo su Microsoft® Windows 7™'/>
+					<Item Index='16' Value='Tuo nome:'/>
+					<Item Index='17' Value="Errore: $AppName$ non ha accesso alla directory selezionata.\nPuò impostare le autorizzazioni necessarie o eseguire $AppName$ con diritti di amministratore."/>
+					<Item Index='18' Value='Unisciti alla Community di $AppName$'/>
+					<Item Index='19' Value='$AppName$ - Conferma'/>
+					<Item Index='20' Value='Il processo di configurazione non è ancora finito.\nVuoi uscire ugualmente?'/>
+					<Item Index='21' Value="Errore: $AppName$ non ha accesso al file '$RageEncryptionStorage$' \nImposta le autorizzazioni necessarie o esegui $AppName$ con diritti di amministratore."/>
+					<Item Index='22' Value="Errore $RageGAME$ è in esecuzione. chiudi il gioco prima di usare $AppName$."/>
+					<Item Index='23' Value="Finito.\nI diritti di accesso sono stati impostati alla tua cartella di gioco."/>
+					<Item Index='24' Value="Impossibile impostare i diritti di accesso."/>
+					<Item Index='25' Value="Errore: la chiave di crittografia non è stata trovata nel file '$RageEncryptionStorage$' "/>
+				</Lines>
+			</StringList>
+		</WelcomeScreen>
+		<UpdateScreen>
+			<!-- Button's -->
+			<btnExit Caption='Esci'/>
+			<btnInstall Caption='SCarica e installa'/>
+			<!-- Label's -->
+			<lbTitle Caption='Aggirona $AppName$'/>
+			<lbText Caption="È disponibile un aggiornamento di $AppName$. Devi installare questo aggiornamento, altrimenti non sarai in grado di eseguire $AppName$."/>
+			<lbStatus Caption='Dimensione download: '/>
+			<cbInstallUpdatesAutomatically Caption='Installa aggiornamenti automaticamente'/>
+			<lbCurrentVersion Caption='Tua Versione:'/>
+			<lbNewVersion Caption='Nuova versione:'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='0' Value=' Mb'/>
+					<Item Index='1' Value='Preparazione per il download...'/>
+					<Item Index='2' Value='Caricato: %f of %f Mb'/>
+					<Item Index='3' Value='In aggiornamento...'/>
+					<Item Index='4' Value='Errore di aggiornamento, riprova più tardi..'/>
+					<Item Index='5' Value='%d.%d.%d (Build %d; Data %s)'/>
+					<Item Index='6' Value='Questo aggiornamento contiene correzioni di bug e miglioramenti minori.'/>
+					<Item Index='7' Value="Questo aggiornamento contiene nuove funzionalità, correzioni di bug, modifiche all'interfaccia utente e miglioramenti significativi."/>
+					<Item Index='8' Value=''/>
+					<Item Index='9' Value=''/>
+				</Lines>
+			</StringList>
+		</UpdateScreen>
+		<ChangeGameScreen>
+			<!-- Button's -->
+			<btnExit Caption='Esci'/>
+			<btnContinue Caption='Continua'/>
+			<!-- Strings -->
+			<StringList SetCount='20'>
+				<Lines>
+					<Item Index='00' Value="Errore Critico"/>
+					<Item Index='01' Value='Hai installato $AppName$ nella stessa cartella con i file di "$RageEncryptionStorage$" e questo è sbagliato \nPer favore installa $AppName$ in una cartella diversa.'/>
+					<Item Index='02' Value='Cambia la cartella di $RageGAME$'/>
+					<Item Index='03' Value="C'è qualcosa che non va, si prega di riselezionare la cartella di $RageGAME$ sotto e riavviare $AppName$."/>
+					<Item Index='04' Value='Errore: Questa cartella non esiste.'/>
+					<Item Index='05' Value='Successo: $AppName$ può funzionare con la cartella selezionata.'/>
+					<Item Index='06' Value="Errore: La cartella specificata non contiene i file '$RageEncryptionStorage$' necessari."/>
+					<Item Index='07' Value='Successo: $RageEncryptionStorage$, versione %s\n$AppName$ può funzionare con questo file.'/>
+					<Item Index='08' Value='Naviga'/>
+					<Item Index='09' Value="Errore: $AppName$ non ha accesso alla cartella selezionata \nAvvia $AppName$ condiritti di amministratore."/>
+					<Item Index='10' Value="Errore: La chiave di cifratura non è stata trovata nel file '$RageEncryptionStorage$'."/>
+				</Lines>
+			</StringList>
+		</ChangeGameScreen>
+	</PreloaderWindow>
+</Translation>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='$AppName$ - 全局搜索'>
+		<SearchBox BannerText="搜索"/>
+		<btnGoSearch Caption="搜索"/>
+		<lbSearchOptions Caption="搜索选项"/>
+		<lbSearchArea Caption="搜索区域"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='任何位置'/>
+				<Item Index="1" Value="游戏目录"/>
+				<Item Index="2" Value='Mods文件夹'/>
+			</Items>
+		</cbSearchArea>
+		<cbSoundsAndAudio Caption="在音频中搜索"/>
+		<lbStopHint Caption="按ESC键以停止搜索"/>		
+		<btnExtractResults Caption="导出"/>
+		<btnExtractAll Caption="导出所有文件"/>
+		<btnExtractSelected Caption="导出选定文件"/>
+		<btnGoTo Caption="前往文件"/>
+		<btnOpenItem Caption="打开"/>
+		<btnExtractItem Caption="导出"/>
+		<btnExtractSelectedItems Caption="导出选定文件"/>
+		<btnExtractAllItems Caption="导出所有文件"/>
+		<btnSelectAllItems Caption="选择全部"/>
+		<btnCopyName Caption="复制名字"/>
+		<btnCopyPathName Caption="复制路径"/>
+		<btnSaveContent Caption="保存内容"/>
+		<btnSaveRawContent Caption="保存原始内容"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='搜索'/>
+				<Item Index='1' Value='停止搜索'/>
+				<Item Index='2' Value='没有找到项目'/>
+				<Item Index='3' Value='找到%D个项目'/>
+				<Item Index='4' Value='没有选中的项目'/>
+				<Item Index='5' Value='已选择：%D'/>
+				<Item Index='6' Value="$AppName$无法打开文件。"/>
+				<Item Index='7' Value="没有结果可供导出。"/>
+				<Item Index='8' Value="请在导出前停止搜索。"/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

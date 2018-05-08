@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='$AppName$ Texturenwerkzeug'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Texturenvorschau'/>
+				<Item Index='1' Value='$AppName$ Texturenbearbeitungswerkzeug'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">Anzeige:</string>
+		<string name="EXPORT_ALL">Alle Texturen exportieren</string>
+		<string name="EXPORT_SELECTED">Ausgewählte exportieren</string>
+		<string name="ORIGINAL_SIZE">Originalgröße</string>
+		<string name="ALPHA_BACKGROUND">Alpha</string>
+		<string name="SIZE_">Größe:</string>
+		<string name="SEARCH_TEXTURES">Texturen durchsuchen</string>
+		<string name="NO_IMAGE_FOUND">Keine Texturen gefunden</string>
+
+		<string name="COPY_NAME">Namen kopieren</string>
+		<string name="EXPORT">Exportieren</string>
+		<string name="RENAME">Umbenennen</string>
+		<string name="REPLACE">Ersetzen</string>
+		<string name="DELETE">Löschen</string>
+		<string name="RENAME_TEXTURE">Textur umbenennen</string>
+		<string name="RENAME_TEXTURE_NAME">Neuen Namen eingeben</string>
+		<string name="RENAME_TEXTURE_ERROR">Es existiert bereits eine Textur mit diesem Namen.</string>
+		<string name="NO_IMAGE">Kein Bild</string>
+
+		<string name="NO_IMAGE_SELECTED">Es wurde kein Bild ausgewählt</string>
+		<string name="WIDTH">Breite</string>
+		<string name="HEIGHT">Höhe</string>
+		<string name="PIXEL_FORMAT">Pixelformat</string>
+		<string name="MIP_MAPS">MipMaps</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">Importoptionen auswählen</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Diese Optionen werden beim Import von DDS - Dateien ignoriert
+Benutze DDS - Dateien für die beste Qualität.]]>
+		</text>
+		<string name="AUTO_MIPMAP">Automatisch MipMap Level generieren</string>
+		<string name="TEXTURES_FORMAT">Texturen - Format (Kompression):</string>
+		<string name="AUTOMATICALLY">Automatisch</string>
+		<string name="IMPORT_ERROR_FILES">Die folgenden Dateien wurden nicht importiert</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">Einstellungen</string>
+		<string name="PROPERTIES_MIPMAP">MipMap Level:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Pixelformat:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Warnung:
+Es kann Qualität verloren gehen während die Einstellungen verändert werden.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">Die Einstellungen der "%S" Textur konnten nicht geändert werden.</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">Sollen die Änderungen gespeichert werden?</string>
+		
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11 ist nicht verfügbar</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ kann das DirectX 11 Gerät nicht initialisieren.\nDiese Datei kann nicht bearbeitet werden.</string>
+		
+		<!-- help -->
+		<string name="HELP_TITLE">Texturenbearbeitungswerkzeug - Hilfe</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Verfügbare Tastenkürzel:
+			
+    Strg + Tab - Anzeigemodus wechseln
+    Strg + A - Alle Texturen exportieren
+    Strg + S - Asugewählte Texturen exportieren
+    F1 - Diese Hilfe ein- / ausblenden
+    ESC - Dieses Anzeigefenster schließen
+    
+    H halten - Für kurzzeitiges Ausblenden der HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

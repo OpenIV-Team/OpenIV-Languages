@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AudioPlayerWindow Caption='Lecteur audio $AppName$'>
+		<!-- Export -->
+		<btnExportAll Caption='Tout exporter'/>
+		<miExportAllChannelsSeparately Caption='Exporter tous les canaux séparément'/>
+		<miExportAllAsStereo Caption='Exporter tous les canaux en WAV stéréo'/>
+		<miExportAllAsMono Caption='Exporter tous les canaux en WAV mono'/>
+
+		<!-- Options -->
+		<btnOptions Caption='Options'/>
+		<miPlayWhenOpen Caption="Lire à l'ouverture du fichier"/>
+		<miAutoPlayNext Caption='Lire automatiquement la piste suivante'/>
+
+		<!-- Sort -->
+		<btnSort Caption='Trier'/>
+		<miSortByName Caption='Trier par nom'/>
+		<miSortByDuration Caption='Trier par durée'/>
+		<miSortOrderAsc Caption='Trier par ordre croissant'/>
+		<miSortOrderDesc Caption='Trier par ordre décroissant'/>
+		
+		<!-- Context menu -->
+		<miPlay Caption='Lire'/>
+		<miCopyName Caption='Copier le nom'/>
+		<miExport Caption='Exporter'/>
+		<miExportChannelsSeparately Caption='Exporter les canaux séparément'/>
+		<miExportAsStereo Caption='Exporter en WAV stéréo'/>
+		<miExportAsMono Caption='Exporter en WAV mono'/>
+
+		<!-- String's -->
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Hz'/>
+				<Item Index='1' Value='%D items, %D min.'/>
+				<Item Index='2' Value='%D items, %D sec.'/>
+				<Item Index='3' Value=''/>
+				<Item Index='4' Value=''/>
+				<Item Index='5' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</AudioPlayerWindow>	
+</Translation>

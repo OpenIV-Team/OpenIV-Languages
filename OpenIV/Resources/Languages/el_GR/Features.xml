@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='Προσθήκη αγαπημένου'>
+		<Label1 Caption='Όνομα:'/>
+		<Label2 Caption='Δημιουργία στο:'/>
+
+		<btnAdd Caption='Προσθήκη'/>
+		<btnCancel Caption='Ακύρωση'/>
+		<btnNewFolder Caption='Νέος φάκελος'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Αγαπημένα'/>
+				<Item Index='1' Value='Δημιουργία φακέλου'/>
+				<Item Index='2' Value='Όνομα φακέλου: '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='Οργάνωση αγαπημένων - $AppName$'>
+		<btnSave Caption='Αποθήκευση'/>
+		<btnCancel Caption='Ακύρωση'/>
+		<btnNewFolder Caption='Νέος φάκελος'/>
+		<btnRemove Caption='Αφαίρεση'/>
+		<btnClear Caption='Καθαρισμός'/>
+
+		<Label1 Caption='Χρήση μεταφοράς κι απόθεσης για οργάνωση των αγαπημένων.'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='Αγαπημένα'/>
+				<Item Index='1' Value='Δημιουργία φακέλου'/>
+				<Item Index='2' Value='Όνομα φακέλου: '/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Archive Defragmenter -->
+
+	<DefragmenterWindow Caption='Ανασυγκροτητής αρχειοθηκών - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="Ο ανασυγκροτητής αρχειοθηκών συνενώνει τα αρχεία μέσα στην αρχειοθήκη για να μειώσει το μέγεθος της αρχειοθήκης στο σκληρό δίσκο του υπολογιστή."/>
+		<lbNoteSave Caption='Όλες οι αλλαγές έχουν ήδη αποθηκευτεί, δεν χρειάζεται να γίνει ανασυγκρότηση μετά από κάθε επεξεργασία.'/>
+		<lbNoteRevert Caption='Η ανασυγκρότηση δεν θα επαναφέρει τις αλλαγές που έγιναν στις αρχειοθήκες.'/>
+		<!-- Actions -->
+		<actClose Caption='Κλείσιμο'/>
+		<actRebuild Caption='Ανασυγκρότηση'/>
+		<actAddFile Caption='Προσθήκη αρχείου'/>
+		<actAddFolder Caption='Προσθήκη φακέλου'/>
+		<actRemoveFile Caption='Αφαίρεση φακέλου'/>
+		<actClear Caption='Απαλοιφή λίστας'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='Όνομα'/>
+				<Item Index='2' Caption='Τοποθεσία'/>
+				<Item Index='3' Caption='Τύπος'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='Όλα έτοιμα.'/>
+				<Item Index='1' Value='Ανασυγκροτητής αρχειοθηκών - $AppName$'/>
+				<Item Index='2' Value='Άνοιγμα αναδομημένης αρχειοθήκης;'/>
+				<Item Index='3' Value='Μερικά αρχεία δεν επεξεργάστηκαν.'/>
+			</StringList>
+		</AeroWindow>
+	</DefragmenterWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption='Πληροφορίες αρχειοθήκης'>
+		<!-- Button's -->
+		<btnClose Caption='Κλείσιμο'/>
+		<!-- Label's -->
+		<lbType Caption='Τύπος:'/>
+		<lbVersion Caption='Έκδοση:'/>
+		<lbCount Caption='Αριθμός στοιχείων:'/>
+
+		<lbCGame Caption='Τρέχον παιχνίδι:'/>
+		<lbCPlatform Caption='Τρέχουσα πλατφόρμα:'/>
+
+		<lbCodeModule Caption='Εφαρμογή:'/>
+		<lbCMVersion Caption='Έκδοση εφαρμογής:'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='Εισαγωγή openFormats - $AppName$'>
+		<!-- Label's -->
+		<lbOfFileName Caption='Εισαγωγή αρχείου:'/>
+		<lbOfFiles Caption='Εισαγωγή αρχείων:'/>
+		<lbNewFileName Caption='Νέο όνομα αρχείου:'/>
+		<!-- Button's -->
+		<btnAdd Caption='Προσθήκη'/>
+		<btnRemove Caption='Αφαίρεση'/>
+		<btnCancel Caption='Ακύρωση'/>
+		<btnOk Caption='OK'/>
+		<tbLeanMore Caption='Μάθετε περισσότερα για τα openFormats'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='Προστασία πλέγματος (αποτροπή μελλοντικής εξαγωγής)'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption='Επικυρωτής openFormats - $AppName$'>
+		<btnClose Caption='Κλείσιμο'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value='Μερικά αρχεία δεν εισήχθησαν, περισσότερες πληροφορίες παρακάτω.'/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(Γραμμή %D): Μη υποστηριζόμενη έκδοση πόρου, βρέθηκε: "%S", αναμενόταν "%D".'/>
+				<Item Index='2' Value='%S(Γραμμή %D): Μη υποστηριζόμενη έκδοση μορφής, βρέθηκε: "%S", αναμενόταν "%D".'/>
+				<!-- Common errors -->
+				<Item Index='3' Value='Ανεπανόρθωτο σφάλμα: Αδυναμία εκτέλεσης του Direct3D.'/>
+				<Item Index='4' Value='Ανεπανόρθωτο σφάλμα: Το αρχείο "%S" δεν βρέθηκε.'/>
+				<Item Index='5' Value='%S(Γραμμή %D): Το αρχείο "%S" δεν βρέθηκε.'/>
+				<Item Index='6' Value='%S(Γραμμή %D): Το αρχείο είναι φθαρμένο.'/>
+				<Item Index='7' Value='%S(Γραμμή %D): Αναμενόταν η ιδιότητα "%s", βρέθηκε "%s".'/>
+				<Item Index='8' Value='%S(Γραμμή %D): Η ιδιότητα "%s" δεν βρέθηκε.'/>
+				<Item Index='9' Value='%S(Γραμμή %D): Δεν υπάρχουν αρκετές πραγματικές παράμετροι.'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(Γραμμή %D): Άγνωστος τύπου ορίου σύγκρουσης "%S".'/>
+				<Item Index='11' Value='%S(Γραμμή %D): Αρχείο σύγκρουσης υπερβολικά μεγάλο.'/>
+				<Item Index='12' Value='%S(Γραμμή %D): Φθαρμένο αρχείο σύγκρουσης.'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value='%S(Γραμμή %D): Το όνομα του οστού είναι κενό.'/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(Γραμμή %D): Το πλέγμα είναι κλειδωμένο.'/>
+				<Item Index='15' Value='%S(Γραμμή %D): Ευρετήριο υλικών εκτός ορίων.'/>
+				<Item Index='16' Value="%S(Γραμμή %D): Η σκίαση δεν μπορεί να είναι επιφλοιωμένη."/>		
+				<Item Index='17' Value="%S(Γραμμή %D): Υπερβολικά οστά σε μία γεωμετρία, δεν μπορούν να χρησιμοποιηθούν πάνω από 48 οστά."/>
+
+				<Item Index='18' Value="%S(Γραμμή %D): %S"/>
+				<!-- Export/Import -->
+				<Item Index='19' Value='Αναφορά εισαγωγής openFormats'/>
+				<Item Index='20' Value='Αναφορά εξαγωγής openFormats'/>
+				<Item Index='21' Value='Μερικά αρχεία δεν εξήχθησαν, περισσότερες πληροφορίες παρακάτω.'/>
+								
+			</StringList>
+		</AeroWindow>	
+	</openFormatsValidatorWindow>	
+
+</Translation>

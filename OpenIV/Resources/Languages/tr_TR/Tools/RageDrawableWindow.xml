@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='$AppName$ Model Görüntüleyici'>
+		<pmiCopyName Caption='İsmi kopyala'/>
+		<pmiCopyHash Caption='Hash&apos;i kopyala'/>
+		<pmiCopyNameAndHash Caption='İsmi ve hash&apos;i kopyala'/>
+		<pmiHigh Caption='Yüksek (Yksk)'/>
+		<pmiMed Caption='Orta (Ort)'/>
+		<pmiLow Caption='Düşük (Dşk)'/>
+		<pmiVLow Caption='Çok düşük (ÇDşk)'/>
+		<miLeft Caption='Sol'/>
+		<miRight Caption='Sağ'/>
+		<miCheckAll Caption='Hepsini işaretle' />
+		<miUncheckAll Caption='Hepsinin işaretini kaldır' />
+		<paneDictionary Caption='Sözlük elemanları'/>
+		<cbMultipleRendering Caption='Birden fazla renderlama'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Harici dosyadan yükle'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>	
+		<!-- help -->
+		<string name="HELP_TITLE">Model Görüntüleyici - yardım</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Fareyi kullanarak etrafa bakının, aşağıdaki tuşlar ile hareket edin:
+			
+    W - İleri git
+    S - Geri git
+    A - Sola git
+    D - Sağa git
+
+    NumPad 8 - Kamerayı yukarı hareket ettir
+    NumPad 2 - Kamerayı aşağı hareket ettir
+    NumPad 4 - Kamerayı sola hareket ettir
+    NumPad 6 - Kamerayı sağa hareket ettir
+
+    Daha hızlı hareket için SHIFT'i basılı tut
+    Daha yavaş hareket için CTRL'i basılı tut
+    Yakınlaştırmak için fare tekerleğini kullan.
+		   
+Ek doku dosyaları eklemek için bu pencerenin sağ altındaki "[+] Add texture" butonuna tıklayın. Dokuyu kaldırmak için ise dokunun yanındaki "[-]" işaretine tıklayın.
+
+Render seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
+		   
+    F1 - Bu yardım kutusunu açıp kapatır
+    F2 - Daha fazla bilgi gösterir
+    C - Kamera modunu değiştirir
+    F - Kenarlı yüzleri açıp kapatır
+    P - Noktaların görüntülenmesini açıp kapatır
+    G - Geometriyi açıp kapatır
+	L - Detay seviyesini değiştirir
+    ESC - Bu görüntüleyici penceresini kapatır
+	
+    HUD'u geçici olarak gizlemek için H'yi basılı tutun.
+]]>
+		</text>
+		<string name="CHECK_ALL">Hepsini işaretle</string>
+		<string name="UNCHECK_ALL">Hepsinin işaretini kaldır</string>
+		<string name="MULTIPLE_RENDERING">Birden fazla renderlama</string>
+		<string name="BOUND_TYPE">Kenar tipi:</string>
+		<string name="CHILD_COUNT">Alt eleman sayısı:</string>
+	</RenderUI>
+</Translation>

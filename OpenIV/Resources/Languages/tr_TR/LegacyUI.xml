@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Main window -->
+
+	<MainWindow Caption="$AppName$">
+		<FullScreenClose Hint="Kapat"/>
+		<btnSwitchMode Caption="Düzenleme modu" hint="Düzenleme modunu açıp kapat (F6)" showhint="True"/>
+		<btnCloseArchive hint="Arşivi kapat (Shift + Backspace)" showhint="True"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="80">
+			<StringList>
+				<Item Index="0" Value="İsim"/>
+				<Item Index="1" Value="Tür"/>
+				<Item Index="2" Value="Boyut"/>
+				<Item Index="3" Value="Özellikler"/>
+				<Item Index="4" Value="Sıkıştırılmış"/>
+				<Item Index="5" Value="Düzenleme modu"/>
+				<Item Index="6" Value=""/>
+				<Item Index="7" Value=""/>
+				<Item Index="8" Value="%D dosyalar gösteriliyor"/>
+				<Item Index="9" Value="%D içinden %D dosyalar gösteriliyor"/>
+				<Item Index="10" Value=" dosyalar"/>
+				<Item Index="11" Value=" bayt"/>
+				<Item Index="12" Value=" KB"/>
+				<Item Index="13" Value=" MB"/>
+				<Item Index="14" Value="İlerleme..."/>
+				<Item Index="15" Value="Mevcut dosya: "/>
+				<Item Index="16" Value="Bilinmeyen"/>
+				<Item Index="17" Value="Açılan arşiv yok"/>
+				<Item Index="18" Value="Şifrelenmiş"/>
+				<Item Index="19" Value="Arşiv açılıyor..."/>
+				<Item Index="20" Value="Kaynak [Versiyon: %D]"/>
+				<Item Index="21" Value="[Düzenleme modu]"/>
+				<Item Index="22" Value="[Salt okunur modu]"/>
+				<Item Index="23" Value="LANG: FREE STRING (23)"/>
+				<Item Index="24" Value="Düzenleme modunu açmak üzeresiniz, dosya üzerinde yaptığınız her değişiklik otomatik olarak kaydedilir."/>
+				<Item Index="25" Value="LANG: FREE STRING (25)"/>
+				<Item Index="26" Value="LANG: FREE STRING (26)"/>
+				<Item Index="27" Value="Etiketler"/>
+				<Item Index="28" Value="Etiket ekle"/>
+				<Item Index="29" Value="Yeni etiket:"/>
+				<Item Index="30" Value="Seçili dosya yok"/>
+				<Item Index="31" Value="Seçildi: %D"/>
+				<Item Index="32" Value="Tam ekran modu (F11)"/>
+				<Item Index="33" Value="Pencere modu (F11)"/>
+				<Item Index="34" Value="Önizleme için dosya seçin."/>
+				<Item Index="35" Value="Önizleme bilgisi yok."/>
+				<Item Index="36" Value="Versiyon: %S"/>
+				<Item Index="37" Value="$AppName$'dan çıkın"/>
+				<Item Index="38" Value="$AppName$ ayarları"/>
+				<Item Index="39" Value="Dosyayı kapa"/>
+				<Item Index="40" Value="Sabitle"/>
+				<Item Index="41" Value="Listeden kaldır"/>
+				<Item Index="42" Value="Güncel dosyalar"/>
+				<Item Index="43" Value="Dış program çalışıyor..."/>
+				<Item Index="44" Value="Dosya değişiklik doğrulaması"/>
+				<Item Index="45" Value="«%S» dosyası değiştirildi, değişiklikleri arşive uygula?"/>
+				<Item Index="46" Value="Konum"/>
+				<Item Index="47" Value="yapı"/>
+				<Item Index="48" Value="Bu arşiv boş."/>
+				<Item Index="49" Value="Bu klasör boş."/>
+				<Item Index="50" Value="Hiçbir dosya arama seçeneklerinizle eşleşmedi."/>
+				<Item Index="51" Value="Klasörü Windows Gezgininden aç"/>
+				<Item Index="52" Value="Windows Gezgininden bul"/>
+				<Item Index="53" Value="Dosyanın konumunu aç"/>
+				<Item Index="54" Value="$AppName$ - Konumu aç"/>
+				<Item Index="55" Value="$AppName$ bu arşivin konumunu açamıyor"/>
+				<Item Index="56" Value="YouTube kanalı"/>
+				<Item Index="57" Value="Video rehberleri"/>
+				<Item Index="58" Value="Minik (0 - 10 KB)"/>
+				<Item Index="59" Value="Küçük (10 - 100 KB)"/>
+				<Item Index="60" Value="Orta (100 KB - 1 MB)"/>
+				<Item Index="61" Value="Büyük (1 - 16 MB)"/>
+				<Item Index="62" Value="Kocaman (16 - 128 MB)"/>
+				<Item Index="63" Value="Dev (&gt; 128 MB)"/>
+				<Item Index="64" Value="Klasörler"/>
+				<Item Index="65" Value="Filtrele %s"/>
+				<Item Index="66" Value="$AppName$ - Bildirim"/>
+				<Item Index="67" Value="Bu bildirimi ayarladan açabilirsiniz."/>
+				<Item Index="68" Value="Kopyalanıyor..."/>
+				<Item Index="69" Value="$AppName$ - Onaylama"/>
+				<Item Index="70" Value='"$ModsFolderPath$update\update.rpf" dosyasında yaptığınız bütün değişiklikler kaybolacak.\nDevam etmek istiyormusun?'/>
+				<Item Index="71" Value='Bütün arşivlerde "%s" ara'/>
+				<Item Index="72" Value=""/>
+				<Item Index="73" Value=""/>
+				<Item Index="74" Value=""/>
+				<Item Index="75" Value=""/>
+				<Item Index="76" Value=""/>
+				<Item Index="77" Value=""/>
+				<Item Index="78" Value=""/>
+				<Item Index="79" Value=""/>
+			</StringList>
+		</AeroWindow>
+		<!-- Others -->
+		<SearchBox BannerText="Filtre"/>
+		<!-- Notification: GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption="$RageGAME_SHORT$ için eklenti kur"/>
+		<lbGTAVPluginText Caption="$RageGAME_SHORT$ için ASI Yönetici ve $ModsFolderAsi$ eklentisini kurmanız gerekiyor, yoksa modifiye edilmiş arşivleri kullanamazsınız.\nModifiye edilmiş RPF ile asla $RageGAME_MP$ oynamayın, yoksa uzaklaştırma alırsınız."/>
+		<btnGTAVPluginAction Caption="ASI Yönetici"/>
+		<!-- Notification: copy to mods folder -->
+		<lbNotInModsTitle Caption='$ModsFolder$ klasörü'/>
+		<lbNotInModsText Caption='Şu anda düzenlemeye çalıştığınız arşiv $ModsFolder$ klasöründe değil.'/>
+		<lbEditModeDisabledDueToModsFolder Caption='Bu arşivi düzenlemeyemezsiniz.\n$ModsFolder$ klasöründe düzenleyebilirsiniz veya bu ayarı seçeneklerden devre dışı bırakabilirsiniz.'/>
+		<btnCopyToMods Caption='$ModsFolder$ klasörüne kopyala'/>
+		<btnShowInMods Caption='$ModsFolder$ klasöründe göster'/>
+		<btnChangeModsFolderSettings Caption="$ModsFolder$ klasör ayarlarını değiştir"/>
+		<!-- Notification: update.rpf -->
+		<lbCopyNewUpdateToModsTitle Caption='$RageGAME$ Güncellemesi'/>
+		<lbCopyNewUpdateToMods Caption='$ModsFolder$ klasöründe oyunun güncellenmemiş update.rpf sürümü var. "update.rpf" dosyasını $ModsFolder$ klasörüne kopyalamalısınız, yoksa oyununuz çökebilir.'/>
+		<btnCopyUpdateToMods Caption='Yeni versiyonu $ModsFolder$ klasörüne kopyala'/>
+		<!-- Notification: Admin mode -->
+		<lbAdminModeTitle Caption='Yönetici modu'/>
+		<lbAdminModeText Caption='$AppName$ yönetici haklarıyla çalışıyor. Windows Dosya Yöneticisi&apos;nden sürükleyip bırakmak gibi özellikler çalışmayabilir. Genelde $AppName$&apos;yi yönetici haklarıyla çalıştırmanız gerekir.'/>
+		<btnAdminModeAction Caption='Ne yapabilirim?'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='Arama filtrelerini temizle'/>
+	</MainWindow>
+
+	<ActionsModule>
+		<!-- Main Menu -->
+		<mmFile Caption="Dosya"/>
+		<mmEdit Caption="Düzenle"/>
+		<mmNew Caption="Yeni"/>
+		<mmView Caption="Göster"/>
+		<mmFavorites Caption="Favoriler"/>
+		<mmTools Caption="Araçlar"/>
+		<mmHelp Caption="Yardım"/>
+		<!-- Main Menu : File -->
+		<mmReopen Caption="Tekrar aç"/>
+		<mmFilter Caption="Filtrele"/>
+		<!-- Main Menu : View -->
+		<mmLayout Caption="Düzen"/>
+		<mmGroupBy Caption="Grupla"/>
+		<mmGoto Caption="Git"/>
+		<!-- Main Menu : View -->
+		<mmvIcon Caption="Simge"/>
+		<mmvSmallIcon Caption="Küçük simge"/>
+		<mmvList Caption="Liste"/>
+		<mmvDetails Caption="Detaylar"/>
+		<mmvTile Caption="Döşeme"/>
+		<!-- Main Menu : Help -->
+		<!-- Path menu -->
+		<PMenu0 Caption="Adresi (yolu) kopyala"/>
+		<!-- File Action's -->
+		<actCreate Caption="Arşiv oluştur..." Hint="Yeni arşiv oluştur"/>
+		<actOpen Caption="Arşiv aç..." Hint="Mevcut olan bir arşivi aç"/>
+		<actOpenPC Caption="İçeriği aç..." Hint=""/>
+		<actOpenArchiveProperties Caption="Arşiv özellikleri" Hint=""/>
+		<actDefragmentation Caption="Birleştirme" Hint="Arşiv Birleştirici"/>
+		<actEditMode Caption="Düzenleme modu" Hint=""/>
+		<actReadMode Caption="Sadece okuma modu" Hint=""/>
+		<actClose Caption="Arşivi kapat" Hint="Mevcut arşivi kapat"/>
+		<actExit Caption="Çıkış" Hint="Çıkış"/>
+		<actCloseAllArchives Caption="Tüm arşivleri kapat" Hint="Açılmış olan tüm arşivleri kapat"/>
+		<!-- Edit Action's -->
+		<actPreview Caption="Göster..." Hint="Dosyayı göster"/>
+		<actEditFile Caption="Düzenle..." Hint="Dosyayı düzenle"/>
+		<actViewAsHex Caption="Hex olarak göster..." Hint="Hex olarak göster"/>
+		<actViewAsText Caption="Metin olarak göster..." Hint="Metin olarak göster"/>
+		<actCopyPath Caption="Yolu kopyala" Hint="Mevcut dosyanın yolunu kopyala"/>
+		<actExtract Caption="Çıkart..." Hint="Dosyayı çıkart"/>
+		<actSaveContent Caption="İçeriği kaydet/Çıkart" Hint="Dosya içeriğini kaydet/Çıkart"/>
+		<actSaveRawContent Caption="Ham içeriği kaydet" Hint="Ham içerik verisini çıkart"/>
+		<actRename Caption="İsim değiştir" Hint="Dosyanın ismini değiştir"/>
+		<actAdd Caption="Ekle" Hint="Yeni dosya ekle"/>
+		<actReplace Caption="Değiştir" Hint="Mevcut dosyayı değiştir"/>
+		<actRemove Caption="Sil" Hint="Mevcut dosyayı sil"/>
+		<actExtractAll Caption="Hepsini çıkart..." Hint="Tüm dosyaları çıkart"/>
+		<actCopyFileList Caption="Dosya listesini kopyala" Hint=""/>
+		<actSelectAll Caption="Hepsini seç" Hint=""/>
+		<actResourceObjectExplorer Caption="Kaynak Görüntüleeyici" Hint=""/>
+		<actShowInWindowsExplorer Caption="Windows Explorer'da göster" Hint=""/>
+		<actItemAddToFavorites Caption="Favorilere ekle..." Hint=""/>
+		<actCopyToModsFolder Caption='$ModsFolder$ klasörüne kopyala' Hint=""/>
+		<actShowInModsFolder Caption='$ModsFolder$ klasöründe göster' Hint=""/>
+		<!-- New menu -->
+		<actMultipleImport Caption="openFormats ekle" Hint="Birden fazla ekle"/>
+		<actNewFolder Caption="Klasör" Hint="Yeni klasör oluştur"/>
+		<!-- View Action's -->
+		<actDirectoryTree Caption="Rehber ağacı" Hint="Rehber ağacını göster veya gizle"/>
+		<actToolBar Caption="Araç barı" Hint="Araçları gizle veya göster"/>
+		<actSearchBar Caption="Arama ve adres barı" Hint="Arama ve adres barını gizle veya göster"/>
+		<actStatusBar Caption="Durum barı" Hint="Durum barı"/>
+		<actLivePreView Caption="Önizleme paneli" Hint="Önizleme paneli"/>
+		<actMainMenuBar Caption="Menü barı" Hint="Menü barı"/>
+		<!-- Help Action's -->
+		<actReportBug Caption="Hata bildir" Hint=""/>
+		<actAbout Caption="Hakkında..." Hint="Hakkında"/>
+		<actGoToWeb Caption="Websitesine git..." Hint=""/>
+		<actSendFeedback Caption="Geri bildirim gönder" Hint=""/>
+		<actUpdate Caption="Güncellemeleri kontrol et..." Hint=""/>
+		<actDonate Caption="$AppName$'e bağış yap..." Hint=""/>
+		<actWebIV Caption="$WebName$'e kaydol" Hint=""/>
+		<actFAQ Caption="Sıkça Sorulan Sorular" Hint=""/>
+		<!-- Social -->
+		<actSocialYouTube Caption="$AppName$ YouTube kanalı" Hint=""/>
+		<actSocialFacebook Caption="$AppName$ Facebook sayfası" Hint=""/>
+		<actSocialTwitter Caption="$AppName$ Twitter hesabı" Hint=""/>
+		<actSocialVKCom Caption="$AppName$ VK sayfası" Hint=""/>
+		<!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="Bir sorunu ortaya çıkaran adımları kaydet" Hint=""/>
+		<!-- Groups Action's -->
+		<actCollapseAll Caption="Tüm grupları gizle" Hint=""/>
+		<actExpandAll Caption="Tüm grupları göster" Hint=""/>
+		<actCollapseGroup Caption="Grubu gizle" Hint=""/>
+		<actExpandGroup Caption="Grubu göster" Hint=""/>
+		<!-- Tools Action's -->
+		<actConfig Caption="Seçenekler..." Hint="Seçenekler"/>
+		<!-- GoTo Action's -->
+		<actGoBack Caption="Geri" Hint=""/>
+		<actGoForward Caption="İleri" Hint=""/>
+		<actGoUP Caption="Bir seviye yukarı" Hint=""/>
+		<!-- Favorites -->
+		<actAddToFavorites Caption="Favorilere ekle..." Hint=""/>
+		<actOrganizeFavorites Caption="Favorileri organize et..." Hint=""/>
+		<!-- Filter -->
+		<actFilterByName Caption="İsme göre filtrele" Hint=""/>
+		<actFilterByType Caption="Tipe göre filrtele" Hint=""/>
+		<actFilterOnlyThis Caption="Sadece bunu göster" Hint=""/>
+		<!-- Tree -->
+		<actTreeCopyAsPath Caption="Yolunu kopyala" Hint=""/>
+		<actTreeShowInWindowsExplorer Caption="Windows Explorer'da göster" Hint=""/>
+		<actTreeCloseArchive Caption="Arşivi kapat" Hint=""/>
+		<actTreeCopyToModsFolder Caption='$ModsFolder$ klasörüne kopyala' Hint=""/>
+		<actTreeShowInModsFolder Caption='$ModsFolder$ klasöründe göster' Hint=""/>
+		<actTreeCollapseThis Caption='Bunu gizle' Hint=""/>
+		<actTreeCollapseAll Caption='Hepsini gizle' Hint=""/>
+		<!-- Strings -->
+		<Strings SetCount="100">
+			<Lines>
+				<Item Index="00" Value="Hedef klasör:"/>
+				<Item Index="01" Value="Önizleme"/>
+				<Item Index="02" Value="açık dosya yok"/>
+				<Item Index="03" Value="(hayır)"/>
+				<Item Index="04" Value="Yeni arşivin tipini seçin:"/>
+				<Item Index="05" Value="Doğrusal"/>
+				<Item Index="06" Value="Hiyerarşik"/>
+				<Item Index="07" Value="isimsiz"/>
+				<Item Index="08" Value="Etiket ekle"/>
+				<Item Index="09" Value="Sil"/>
+				<Item Index="10" Value="tüm etiketleri"/>
+				<Item Index="11" Value="$AppName$ - Dosyayı yeniden adlandır"/>
+				<Item Index="12" Value="Yeni isim:"/>
+				<Item Index="13" Value="Yeni klasör oluşturuluyor"/>
+				<Item Index="14" Value="Yeni klasör:"/>
+				<Item Index="15" Value="$RageGAME_SHORT$ bulunamadı.\nLütfen $RageGAME_SHORT$ oyununun doğru konumunu $AppName$ ayarlarından seçin."/>
+				<Item Index="16" Value="$AppName$ - Arşiv yeniden yapılmasını onayla"/>
+				<Item Index="17" Value="«%S» arşivini yeniden oluşturmak istiyor musunuz?\nBu işlem birkaç dakika sürebilir."/>
+				<Item Index="18" Value="İçeriği aç"/>
+				<Item Index="19" Value="Yeni %S oluşturuluyor"/>
+				<Item Index="20" Value="İsim girin:"/>
+				<Item Index="21" Value="$AppName$ - Entegre edilmemiş özellik"/>
+				<Item Index="22" Value="Gelecekte ekleyeceğimiz bir özelliği kullanmaya çalışıyorsunuz: %S\n$AppName$'in mevcut sürümünde bu özellik mevcut değil. Lütfen sonraki versiyonda tekrar kontrol edin."/>
+				<Item Index="23" Value="$AppName$ - arşivi yeniden oluştur"/>
+				<Item Index="24" Value="Boş arşivi yeniden oluşturamazsınız."/>
+				<Item Index="25" Value="Bu isimde bir dosya zaten mevcut, lütfen başka bir isim seçin."/>
+				<Item Index="26" Value="$AppName$ - yeni etiket ekle"/>
+				<Item Index="27" Value="Yeni etiketi yazın:"/>
+				<Item Index="28" Value="%S'ye çıkart"/>
+				<Item Index="29" Value="Dosya şifrelenmiş, lütfen oyunun şifrelenmemiş versiyonunu kurun."/>
+				<Item Index="30" Value="$AppName$ - dosya mevcut değil"/>
+				<Item Index="31" Value="Dosya açılırken hata: %S\nDosya mevcut değil."/>
+				<Item Index="32" Value="Versiyon: %D"/>
+				<Item Index="33" Value="$AppName$ henüz $RageGAME_SHORT$ için arşiv oluşturamıyor.\nLütfen daha ileriki bir sürümde tekrar deneyin."/>
+				<Item Index="34" Value="Dosyayı şununla aç"/>
+				<Item Index="35" Value="%s/%s"/>
+				<Item Index="36" Value="%s - %s içindeki arama sonuçları"/>
+				<Item Index="37" Value="%s - %s içindeki arama sonuçları (%s)"/>
+				<Item Index="38" Value="Filtre"/>
+				<Item Index="39" Value="$AppName$ - Hata"/>
+				<Item Index="40" Value="Dosyalar çıkartılamadı."/>
+				<Item Index="41" Value="Dosyalar eklenemedi."/>
+				<Item Index="42" Value="Yeni klasör oluşturulamadı."/>
+				<Item Index="43" Value="Dosya silinemedi."/>
+				<Item Index="44" Value="Dosya değiştirilemedi."/>
+				<Item Index="45" Value="Yeni dosya oluşturulamadıfile."/>
+				<Item Index="46" Value="İsim uygunsuz karakterler içeriyor."/>
+				<Item Index="47" Value="Başka bir isim belirtin."/>
+				<Item Index="48" Value="Belirttiğiniz klasör isminde bir eşya zaten mevcut."/>
+			</Lines>
+		</Strings>
+	</ActionsModule>
+
+	<EditModeHelpWindow Caption="Düzenleme modu - $AppName$">
+		<!-- Label's -->
+		<lbTitle Caption="Düzenleme modu"/>
+		<lbText Caption="Dosyaları eklemek veya düzeltmek için lütfen Düzenleme moduna geçin.\n$AppName$ ayarlarından düzenleme modunu varsayılan olarak da ayarlayabilirsiniz."/>
+		<lbInfo Caption='"Düzenleme modu" butonu Düzenleme modunu açmanızı sağlar'/>
+		<!-- Button's -->
+		<btnClose Caption="Kapat"/>
+		<cbDoNotShow Caption="Bu mesajı tekrar gösterme"/>
+	</EditModeHelpWindow>
+
+	<AdminModeWindow Caption="Yönetici - $AppName$">
+		<lbText Caption="Şu anda yönetici olarak $AppName$ açmanın bir anlamı yok. $AppName$ şu anda herhangi yönetici iznine gerek duymuyor. Ek olarak $AppName$ yönetici olarak açarsanız Windows Dosya Görüntüleyicisi'nden sürükle bırak yapamayabilirsiniz. Büyük ihtimal yönetici olarak $AppName$ açtınız çünkü oyununuz bir sistem klasöründe bulunuyor (mesela C:\Program Files\...) ve normal kullanıcıların bu klasöre erişim izni yok.\n\nOyun klasörünüze gereken tüm izinleri bu araçla tanımlayıp sonra yönetici izni olmadan $AppName$ tekrar açabilirsiniz."/>
+		<btnSetPermissions Caption="İzinleri ayarla"/>
+		<btnClose Caption="Kapat"/>
+		<AeroWindow LinesCount="5">
+			<StringList>
+				<Item Index="0" Value="Hata - $AppName$"/>
+				<Item Index="1" Value="Her şey hazır.\nGereken izinler oyun klasörünüze tanımlandı."/>
+				<Item Index="2" Value="Gereken izinler tanımlanamadı.\nDönüş kodu: "/>
+				<Item Index="3" Value="Oyun klasörü mevcut değil."/>
+				<Item Index="3" Value="İzin tanımlama aracı mevcut değil. Lütfen $AppName$'i yeniden kurun."/>
+			</StringList>
+		</AeroWindow>
+	</AdminModeWindow>
+
+	<!-- Web window -->
+
+	<webWindow Caption="$WebName$ - ">
+		<!-- Button's -->
+		<btnClose Caption="Kapat"/>
+		<!-- Strings -->
+		<AeroWindow LinesCount="1">
+			<StringList>
+				<Item Index="0" Value="Kullanım Koşulları ve Gizlilik Politikası"/>
+			</StringList>
+		</AeroWindow>
+	</webWindow>
+
+	<!-- Configuration -->
+
+	<ConfigWindow Caption="$AppName$ - Seçenekler">
+		<!-- Languages -->
+		<tabLang Caption="Diller"/>
+		<lbLang Caption="Arayüz dilini seçin"/>
+		<LnkWebLangs Caption="$AppName$'i başka bir dile çevirin"/>
+		<!-- Game -->
+		<tabGame Caption="Oyun"/>
+		<gbGamePath Caption="$RageGAME_SHORT$ konumu"/>
+		<lbCurrentGamePath Caption="Mevcut konum:"/>
+		<tbChangeGame Caption="Konumu değiştir"/>
+		<ttRageExe Caption="$RageEncryptionStorage$ $AppName$'in çalışması için bu konumda bulunmalı"/>
+		<!-- General -->
+		<tabMain Caption="Genel"/>
+		<lbDefaultGame Caption="Varsayılan oyunu seçin"/>
+		<lbWorkMode Caption="Varsayılan çalışma modu"/>
+		<WorkMode>
+			<Items>
+				<Item Index="0" Value="Düzenleme"/>
+				<Item Index="1" Value="Salt okuma"/>
+			</Items>
+		</WorkMode>
+		<lbDefTextureFormatGlb Caption="Varsayılan doku dosyası formatı"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption="Yeniden yapılmadan sonra arşivleri hep aç"/>
+		<cbMinimizeAtStartGame Caption="Oyun başlayınca $AppName$'ı küçült"/>
+		<cbInstallUpdatesAutomatically Caption="Güncellemeleri otomatik olarak kur"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="Gerçek dosyaları silmek yerine geri dönüşüm kutusunu kullan"/>
+		<cbShowRecycleConfirmation Caption="Geri dönüşüm için onay kutusunu göster"/>
+		<cbCloseArchivesAtStartGame Caption="Oyun başlayınca tüm açık arşivleri kapat"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='Arşiv açılınca arama filtrelerini temizle'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='Sürükle bıraktan sonra dosyaları eklemek için alternatif (eski) bir yöntem kullan'/>
+		<tbFileAssociation Caption="Dosya ilişkilendirmelerini değiştir"/>
+		<!-- "mods" folder -->
+		<tabModsFolder Caption="$ModsFolder$ klasörü"/>
+		<lbModsFolderText Caption="Bu sayfada $ModsFolder$ klasörüyle alakalı ayarları değiştirebilirsiniz."/>
+		<lbModsFolderNote1 Caption="Aşağıdaki ayarlar kullanılabilir değil çünkü $ModsFolderAsi$ yüklü değil."/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='$ModsFolder$ klasörünün dışında bir arşivi düzenlerken bildirim göster'/>
+		<cbAllowEditModeOnlyInModsFolder Caption='Sadece $ModsFolder$ klasöründeki arşivleri düzenlemeye izin ver'/>
+		<!-- Tools -->
+		<tabViewers Caption="Araçlar"/>
+		<lbChooseTheme Caption="Bir tema seçin"/>
+		<cbAppTheme>
+			<Items>
+				<Item Index="0" Value="Açık"/>
+				<Item Index="1" Value="Koyu"/>
+			</Items>
+		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="Render arkaplan rengi"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="Varsayılan"/>
+				<Item Index="1" Value="Kişiselleştirilmiş renk"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="Kamera kontrol şeması"/>
+		<cbRenderAntialiasing Caption="AntiAliasing'i etkinleştir"/>
+		<lbChooseEditorTheme Caption="Metin düzenleyici için renk şeması seçin"/>
+		<!-- openFormats -->
+		<tabFormats Caption="openFormats"/>
+		<lbDefTextureFormat Caption="Varsayılan doku dosyası formatı"/>
+		<cbNotExportTextureToFolder Caption="OTD çıkartılırken dokuları ayrı bir klasöre koyma"/>
+		<gbModels Caption="Model ekleme (ODR/ODD/OFT)"/>
+		<cbProtectModels Caption="Korunan ağ özelliğini varsayılan olarak etkinleştir (gelecekte çıkartılmasını önler)"/>
+		<btnSaveShaderInformation Caption="openFormats gölgelendirme bilgilerini kaydet"/>
+		<!-- Misc + old -->
+		<btnClose Caption="Kapat"/>
+		<actAppAdd Caption="Ekle"/>
+		<actAppEdit Caption="Düzenle"/>
+		<actAppDel Caption="Sil"/>
+		<LnkWebApps Caption="$RageGAME_SHORT$ için daha fazla araç indir"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="10">
+			<StringList>
+				<Item Index="0" Value="Klasör seçin:"/>
+				<Item Index="1" Value="Mevcut diller"/>
+				<Item Index="2" Value="$AppName$ - Uyarı"/>
+				<Item Index="3" Value="Değişiklikleri uygulamak için $AppName$'i yeniden başlatmalısınız."/>
+				<Item Index="4" Value="Eskimiş diller"/>
+			</StringList>
+		</AeroWindow>
+	</ConfigWindow>
+
+	<ConfigAssociationWindow Caption="$AppName$ - İlişkilendirme">
+		<lbTitle Caption="Bir dosya tipini $AppName$ ile ilişkilendirin"/>
+		<FileTypes>
+			<Columns>
+				<Item Index="0" Caption=""/>
+				<Item Index="1" Caption="Tip"/>
+				<Item Index="2" Caption="Açıklama"/>
+				<Item Index="3" Caption="Desteklenen oyunlar"/>
+			</Columns>
+			<Groups>
+				<Item Index="0" Header="Paketler"/>
+				<Item Index="1" Header="Arşivler"/>
+				<Item Index="2" Header="Kaynaklar"/>
+			</Groups>
+		</FileTypes>
+		<btnApply Caption="Uygula"/>
+		<btnCancel Caption="İptal"/>
+		<AeroWindow LinesCount="0">
+			<StringList>
+				<Item Index="0" Value=""/>
+			</StringList>
+		</AeroWindow>
+	</ConfigAssociationWindow>
+
+	<!-- EULA Window -->
+
+	<EULAWindow Caption="Kullanıcı Lisans Sözleşmesi - $AppName$">
+		<btnClose Caption="Kapat"/>
+	</EULAWindow>
+</Translation>

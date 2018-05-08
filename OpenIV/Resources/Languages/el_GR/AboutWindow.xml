@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='About $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Έκδοση %D.%D (Δομή %D· Ημερομηνία %S)</string>
+		<string name="VERSION_LABEL_3">Έκδοση %D.%D.%D (Δομή %D· Ημερομηνία %S)</string>
+		<string name="THE_TEAM">Η ομάδα</string>
+		<string name="THIRD_PARTY">Τρίτοι</string>
+		<string name="THIRD_PARTY_LINE">Η εφαρμογή χρησιμοποιεί τμήματα που παρέχονται από τρίτους.</string>
+		<string name="THANKS_TO">Ευχαριστίες στους</string>
+		<string name="ALPHABETICALLY">(αλφαβητικά)</string>
+		<string name="SPECIAL_THANKS_TO">Ειδικές ευχαριστίες στη</string>
+		<string name="LICENSE_TERMS">Οι όροι άδειας χρήσης για λογισμικό</string>
+		<string name="LOCALIZATION">Συμβάλλοντες στην τοπικοποίηση</string>
+		<string name="DEBUG_INFO">Πληροφορίες αποσφαλματοποίησης</string>
+		<string name="CLIENT_ID">ID Πελάτη</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">Συμμετέχετε στην κοινότητα του $AppName$</string>
+		<string name="JOIN_DISCUSSION">Συμμετέχετε στην συζήτηση του $AppName$</string>
+		<string name="SUPPORT_DONATE">Υποστηρίξτε το $AppName$</string>
+		<string name="WELCOME_TO_VER">Καλώς ήρθατε στην έκδοση %S</string>
+		<string name="WATCH_THE_VIDEO">Θέλετε να δείτε ένα βίντεο με τις αλλαγές αυτής της έκδοσης;</string>
+		<string name="VIDEO_NOTE">Μπορεί να δείτε μία διαφήμιση πριν ή κατά τη διάρκεια του βίντεο. Παρακολουθόντας το, υποστηρίζετε το $AppName$.</string>
+		<string name="NO_THANKS">Όχι, ευχαριστώ.</string>
+	</RenderUI>
+</Translation>

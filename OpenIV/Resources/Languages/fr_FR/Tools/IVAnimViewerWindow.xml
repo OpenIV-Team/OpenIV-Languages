@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption="Visionneuse d'animations $AppName$">
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Visionneuse d'animations</string>
+		<string name="START_PED">Animations de personnages</string>
+		<string name="START_MAP">Animations de map</string>
+		<string name="START_CUT">Cinématiques</string>
+		<string name="CHANGE_PED_MODEL">Changer de personnage</string>
+		<string name="SELECT_PED_MODEL">Sélectionner un personnage</string>
+		<string name="LOADING___">Chargement...</string>
+		<string name="EMPTY_CUTSCENE">Cinématique vide</string>
+		<string name="EMPTY_CUTSCENE_MSG">Impossible d'ouvrir une cinématique vide</string>
+		<string name="MISSED_ANIMATIONS">Animations manquées</string>
+		<string name="MISSED_ANIMATIONS_MSG">Impossible de charger certaines animations car des fichiers sont manquants.</string>
+		<string name="FRAMES_">Images : </string>
+		<string name="TIME_SCALE_X">Vitesse : x</string>
+		<string name="NO_AUDIO_FILE">Pas de son : le fichier audio de cette cinématique est manquant</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Visionneuse d'animations - Aide</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Sélectionnez une catégorie puis visionnez l'animation souhaitée. ]]>
+		</text>
+	</RenderUI>
+</Translation>

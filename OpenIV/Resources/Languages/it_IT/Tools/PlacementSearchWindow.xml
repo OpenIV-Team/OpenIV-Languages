@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ Ricerca posizionamento'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Cerca per nome</string>
+		<string name="SEARCH_FOR_HASH">Cerca per hash</string>
+
+		<string name="BANNER_TEXT_NAME"> Tipo nome modello</string>
+		<string name="BANNER_TEXT_HASH">Tipo modello hash</string>
+
+		<string name="SEARCH">Cerca</string>
+		<string name="STOP_SEARCH">Ferma ricerca</string>
+		<string name="INCORRECT_HASH">Hash incorretto</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" non è un valore hash valido.</string>
+
+		<string name="FILE_INFORMATION">Informazioni file</string>
+		<string name="SHOW_DEFINITION">Mostra definizione nel file IDE</string>
+		<string name="SHOW_IDE">Mostra file IDE</string>
+		<string name="SHOW_ARCHIVE">Mostra archivio</string>
+		<string name="SHOW_RESOURCE">Mostra risorsa file</string>
+
+		<string name="HELP_TITLE">Ricerca posizionamento - Aiuto</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Usa il mouse per guardarti intorno, muoviti usando questi tasti:
+
+    W - vai avanti
+    S - Torna indietro
+    A - Spostati a sinistra
+    D - Vai a destra
+
+    Dal tastierino numerico
+    NumPad 8 - Muovi la camera verso l'alto
+    NumPad 2 - Muovi la camera verso il basso
+    NumPad 4 - Muovi la camera verso sinistra
+    NumPad 6 - Muovi la camera verso destra
+
+    Tieni premuto SHIFT - per movimenti più veloci
+    Tieni premuto CTRL - Per movimenti più lenti
+    Usa la rotellina del mouse per lo zoom.
+	
+    ESC - Chiudi la finestra di ricerca posizionamento
+	
+    Tieni premuto H - Per nascondere temporaneamente l'HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

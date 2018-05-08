@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PtxFileViewerWindow Caption='Visionneuse de modèles $AppName$'>
+		<paneDictionary Caption='Éléments du dictionnaire'/>
+	</PtxFileViewerWindow>
+	<RenderUI>
+		<string name="EXPORT_TO_FORMATS">Exporter vers openFormats</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Visionneuse de modèles - Aide</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Use mouse to look around, move using these keys:
+			
+    W - Avancer
+    S - Reculer
+    A - Aller à gauche
+    D - Aller à droite
+
+    NumPad 8 - Monter la caméra
+    NumPad 2 - Baisser la caméra
+    NumPad 4 - Bouger la caméra vers la gauche
+    NumPad 6 - Bouger la caméra vers la droite
+
+    Maintenir SHIFT - Déplacements plus rapides
+    Maintenir CTRL - Déplacements plus lents
+    Utilisez la molette de la souris pour zoomer.
+	
+Pour changer les options de rendu, utilisez les boutons de droite, ou les touches suivantes :
+	
+    F1 - Afficher cette boite de dialogue
+	F2 - Afficher plus d'informations
+    C - Changer le mode de caméra
+    F - Activer/Désactiver les bordures des faces
+    P - Activer/Désactiver les points d'affichage
+    G - Activer/Désactiver la géométrie
+    Échap - Fermer la visionneuse de modèles
+	
+    Maintenir H - Cacher temporairement l'interface
+]]>
+		</text>		
+	</RenderUI>
+</Translation>

@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Installateur de paquetage - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Installateur de paquetage</string>
+		<string name="INSTALL">Installer</string>
+		<string name="INSTALLING">Installation</string>
+		<string name="DESCRIPTION">Description</string>
+		<string name="ADDITIONAL_INFORMATION">Informations supplémentaires</string>
+		<string name="GREATED_BY">Créé par</string>
+		<string name="SUPPORTED_GAMES">Jeu(x) pris en charge : </string>
+		<string name="VERSION">Version</string>
+		<string name="LICENCE">Licence</string>
+		<string name="VIEW_LICENCE">Voir la licence</string>
+		<string name="LEARN_MORE">En savoir plus</string>
+		<string name="LINK_HOMEPAGE">Page d'accueil</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Sélectionnez le fichier à installer</string>
+		<string name="SELECT_LOCATION">Où installer le fichier ?</string>
+		<string name="LOCATION_MODS_FOLDER">Dossier $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Installer ce mod dans le dossier $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Ce paquetage ne peut pas être installé dans le dossier $ModsFolder$ car le dossier $ModsFolder$ n'est pas supporté par le jeu actuel ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Ce paquetage ne peut pas être installé dans le dossier $ModsFolder$ car le dossier « $ModsFolder$ » n'est pas supporté par le format du paquetage.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Ce paquetage ne peut pas être installé dans le dossier $ModsFolder$ car il ne modifie aucune archive RPF.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Ce paquetage ne peut pas être installé dans le dossier $ModsFolder$ car $ModsFolderAsi$ n'est pas installé.</string>
+		<string name="LOCATION_GAME_FOLDER">Dossier principal</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Installer ce paquetage directement dans le dossier du jeu</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Ce paquetage ne peut pas être installé dans le dossier principal car la modification a été désactivée dans les paramètres du dossier $ModsFolder$.</string>
+		
+		<string name="INSTALLATION_SUCCEEDED">Installation terminée</string>
+		<string name="RUN_GAME">Lancer $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Lancez le jeu pour voir les modifications</string>
+
+		<string name="INSTALLATION_FAILED">Installation échouée</string>
+
+		<string name="LOADING_ERROR_TITLE">Erreur lors du chargement du paquetage</string>
+		<string name="READING_ERROR_TITLE">Erreur lors de la lecture du paquetage</string>
+		<string name="INSTALLING_ERROR_TITLE">Erreur d'installation</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Erreur inconnue</string>
+		<string name="ERROR_GROUP_FATAL">Erreur fatale</string>
+		<string name="ERROR_CODE_UNKNOWN">Quelque chose s'est mal déroulé. Regardez dans les fichiers de logs pour plus de détails.</string>
+		<string name="ERROR_INSTALLATION">Erreur fatale durant l'installation. Regardez dans les fichiers de logs pour plus de détails.</string>
+		<string name="ERROR_MSXML">MSXML n'est pas installé. Il est nécessaire pour utiliser l'installateur de paquetages.</string>
+		<string name="CHECK_LOG_FILE">Merci de regarder dans les fichiers de logs pour plus de détails.</string>
+		
+		<string name="OPEN_INSTALLATION_LOG">Ouvrir les logs de l'installation</string>
+		<string name="OPEN_LOG_FILE">Ouvrir les logs du fichier</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Ce paquetage n'est pas un fichier .zip valide.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Extension non reconnue. Le fichier doit être un .zip ou un .oiv.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Impossible d'accéder au paquetage. Assurez-vous qu'il ne soit pas utilisé par un autre processus.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Ce paquetage n'existe pas.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Impossible d'ouvrir ce paquetage.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Le fichier « assembly.xml » est introuvable. Le fichier sélectionné n'est probablement pas un paquetage $AppName$, ou le fichier est corrompu.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Le fichier « assembly.xml » est illisible, le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Le format du fichier « assembly.xml » est inconnu, le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Le paquetage sélectionné ne peut pas être installé avec cette version de $AppName$.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">Le tag « metadata » est introuvable dans le fichier « assembly.xml », le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">L'information metadata est manquante ou corrompue dans le fichier « assembly.xml ».</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">Le format XML du fichier « assembly.xml » est incorrect ou corrompu.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Impossible de lire l'ID du paquetage dans le fichier « assembly.xml ».</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">Le tag « colors » est introuvable dans le fichier « assembly.xml », le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">L'information des couleurs est manquante ou corrompue dans le fichier « assembly.xml ».</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">Certaines informations sont manquantes ou corrompues dans le fichier « assembly.xml ».</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">Le tag « content » et introuvable dans le fichier « assembly.xml », le fichier sélectionné est probablement corrompu.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Le dossier « content » est introuvable. Le fichier sélectionné n'est probablement pas un paquetage $AppName$, ou le fichier est corrompu.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Ce paquetage ne peut pas être installé dans $RageGAME$. Merci de vous référer à la liste des jeux pris en charge dans la description du paquetage.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Des fichiers sont manquants dans le paquetage. Contactez l'auteur du paquetage.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Certains fichiers ont un chemin d'accès incorrect. Contactez l'auteur du paquetage.</string>
+		
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">Attention, ce paquetage ne pourra pas être désinstallé automatiquement.</string>
+		
+	</RenderUI>
+</Translation>
