@@ -8,7 +8,7 @@
 		<Label2 Caption='Crea in:'/>
 
 		<btnAdd Caption='Aggiungi'/>
-		<btnCancel Caption='Cancella'/>
+		<btnCancel Caption='Elimina'/>
 		<btnNewFolder Caption='Nuova Cartella'/>
 
 		<AeroWindow LinesCount='3'>
@@ -22,7 +22,7 @@
 
 	<OrganizeFavoritesWindow Caption='Organizza Favoriti - $AppName$'>
 		<btnSave Caption='Salva'/>
-		<btnCancel Caption='Cancella'/>
+		<btnCancel Caption='Elimina'/>
 		<btnNewFolder Caption='Nuova Cartella'/>
 		<btnRemove Caption='Rimuovi'/>
 		<btnClear Caption='Pulisci'/>
@@ -99,7 +99,7 @@
 		<!-- Button's -->
 		<btnAdd Caption='Aggiungi'/>
 		<btnRemove Caption='Rimuovi'/>
-		<btnCancel Caption='Cancella'/>
+		<btnCancel Caption='Elimina'/>
 		<btnOk Caption='Ok'/>
 		<tbLeanMore Caption='Impara di più su openFormats'/>
 		<!-- Check box -->

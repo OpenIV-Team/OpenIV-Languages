@@ -15,7 +15,7 @@
 		<ActionEditCut Caption="Taglia"/>
 		<ActionEditCopy Caption="Copia"/>
 		<ActionEditPaste Caption="Incolla"/>
-		<ActionEditDelete Caption="Cancella"/>
+		<ActionEditDelete Caption="Elimina"/>
 		<ActionEditSelectAll Caption="Seleziona tutto"/>
 		<ActionEditDuplicateLine Caption="Duplica riga attuale"/>
 		<ActionEditRemoveLine Caption="Rimuovi riga"/>
