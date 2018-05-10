@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<IVAnimViewerWindow Caption='$AppName$ Visor de Animaciones'>
 
@@ -17,6 +17,7 @@
 		<string name="MISSED_ANIMATIONS_MSG">$AppName$ es incapaz de cargar algunas animaciones porque los archivos no se encuentran en el directorio.</string>
 		<string name="FRAMES_">Cuadros: </string>
 		<string name="TIME_SCALE_X">Escala de tiempo: x</string>
+		<string name="NO_AUDIO_FILE">Sin sonido: falta el archivo de audio para esta cinemática</string>
 		<!-- help -->
 		<string name="HELP_TITLE">Visor de Animaciones - ayuda</string>
 		<text name="HELP_TEXT">
