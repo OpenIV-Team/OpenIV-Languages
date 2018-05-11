@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<TextureEditorWindow Caption='$AppName$ Herramienta de Textura'>
 		<!-- String's -->
@@ -16,7 +16,11 @@
 		<string name="ORIGINAL_SIZE">Tamaño original</string>
 		<string name="ALPHA_BACKGROUND">Fondo en Alpha</string>
 		<string name="SIZE_">Tamaño:</string>
+		<string name="SEARCH_TEXTURES">Buscar texturas</string>
+		<string name="NO_IMAGE_FOUND">No se encontraron texturas</string>
 
+		<string name="COPY_NAME">Copiar nombre</string>
+		<string name="EXPORT">Exportar</string>
 		<string name="RENAME">Renombrar</string>
 		<string name="REPLACE">Remplazar</string>
 		<string name="DELETE">Borrar</string>
@@ -34,7 +38,7 @@
 		<!-- Import dialog -->
 		<string name="CHOOSE_IMPORT_OPTIONS">Elige las opciones de importación</string>
 		<text name="IMPORT_QUALITY_NOTE">
-			<![CDATA[Estas opciones van a ser ignoras mientras se importan archivos DDS. Usa archivos DSS para tener la mejor calidad.]]>
+			<![CDATA[Aquellas opciones van a ser ignoras mientras se importan archivos DDS. Usa archivos DSS para tener la mejor calidad.]]>
 		</text>
 		<string name="AUTO_MIPMAP">Generar automaticamente MipMaps levels</string>
 		<string name="TEXTURES_FORMAT">Formato de texturas (comprimido):</string>
