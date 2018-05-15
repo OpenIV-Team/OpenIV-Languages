@@ -33,7 +33,7 @@
 		
 		<string name="INSTALLATION_SUCCEEDED">Installazione riuscita</string>
 		<string name="RUN_GAME">Avvia $RageGAME$</string>
-		<string name="RUN_GAME_TEXT">Esegui il gioco e controlla ciò che hai appena ottenuto</string>
+		<string name="RUN_GAME_TEXT">Avvia il gioco e controlla ciò che hai appena installato</string>
 
 		<string name="INSTALLATION_FAILED">Installazione fallita</string>
 
@@ -64,7 +64,7 @@
 		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Formato sconosciuto di "assembly.xml", probabilmente il file è danneggiato. </string>
 		<string name="READING_ERROR_UNSUPPORTED_VERSION">Questo pacchetto non può essere installato con la tua versione di $AppName$.</string>
 		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">Il tag "metadata" manca in "assembly.xml", probabilmente il file è danneggiato. </string>
-		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">Le informazioni metadata sono mancanti o danneggiate in "assembly.xml". </ string></string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">Le informazioni metadata sono mancanti o danneggiate in "assembly.xml".</string>
 		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">Il file "assembly.xml" ha un formato XML non valido o danneggiato. </string>
 		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Impossibile leggere l'ID del pacchetto dal file" assembly.xml.</string>
 		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">Il tag "colors" è assente nel file "assembly.xml", probabilmente il file è danneggiato.</string>
