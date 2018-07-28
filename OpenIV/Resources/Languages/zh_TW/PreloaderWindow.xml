@@ -6,44 +6,49 @@
 			<btnClose Caption='關閉'/>
 			<btnEULANext Caption='繼續'/>
 			<btnWebNext Caption='繼續'/>
-			<btnGame Caption='Browse...' Hint='選擇文件夾：'/>
+			<btnGame Caption='瀏覽...' Hint='選擇文件夾：'/>
 			<btnGameNext Caption='繼續'/>
 			<btnWindowsNext Caption='繼續'/>
 			<btnBackupNext Caption='繼續'/>
 			<btnSocialNext Caption='繼續'/>
-			<btnSocialYouTube Caption='$AppName$ YouTube頻道'/>
-			<btnSocialTwitter Caption='$AppName$ Twitter頁面'/>
-			<btnSocial_FB Caption='$AppName$ Facebook頁面'/>
-			<btnSocial_VK Caption='$AppName$ VK頁面'/>
+			<btnSocialYouTube Caption='$AppName$ YouTube 頻道'/>
+			<btnSocialTwitter Caption='$AppName$ on Twitter'/>
+			<btnSocial_FB Caption='$AppName$ on Facebook'/>
+			<btnSocial_VK Caption='$AppName$ on VK'/>
 			<!-- Link's -->
-			<LnkWebLangs Caption='翻譯$AppName$至其他語言'/>
-			<LnkWebEULA Caption='在此閱讀許可。'/>
+			<LnkWebLangs Caption='翻譯 $AppName$ into 到其他語言'/>
+			<LnkWebEULA Caption='在此閱讀許可.'/>
 			<!-- CheckBox's -->
-			<cbAcceptEULA Caption='我已經閱讀並同意了$AppName$許可協議中的條款。'/>
+			<cbAcceptEULA Caption='我已經閱讀並同意了 $AppName$ 中許可協議中的條款。'/>
 			<!-- Strings -->
 			<StringList SetCount='30'>
 				<Lines>
-					<Item Index='00' Value='$AppName$使用條款'/>
-					<Item Index='01' Value='在使用$AppName$前你必須閱讀並同意以下使用條款。'/>
-					<Item Index='02' Value='$WebName$ service'/>
-					<Item Index='03' Value='$WebName$ service is made on purpose to exchange of information between developers and end users of $AppName$. If you register in the service, you will be able to check updates of $AppName$ and use other additional features. Also $WebName$ service collects some statistics infomation which is intended to help us to improve $AppName$ in ways its end users prefer.'/>
-					<Item Index='04' Value='Service Temporarily Unavailable.'/>
-					<Item Index='05' Value='選擇$RageGAME$文件夾'/>
-					<Item Index='06' Value='Without specifying the game location, $AppName$ cannot open $RageGAME_SHORT$ files as it would not have enough information. Please set correct location of the installed $RageGAME$ below.'/>
-					<Item Index='07' Value='$RageGAME$位置：:'/>
+					<Item Index='00' Value='$AppName$ 使用條款'/>
+					<Item Index='01' Value='在使用 $AppName$ 前你必須閱讀並同意以下使用條款。'/>
+					<Item Index='02' Value='$WebName$ 服務'/>
+					<Item Index='03' Value='$WebName$ 服務是為了在 $AppName$ 的開發者和最終用戶之間交換信息而製作的。 如果您在服務中註冊，您將能夠檢查 $AppName$ 的更新並使用其他附加功能。 此外，$WebName$ 服務收集一些統計信息，旨在幫助我們以最終用戶喜歡的方式改進 $AppName$。'/>
+					<Item Index='04' Value='服務暫時不可用。'/>
+					<Item Index='05' Value='選擇 $RageGAME$ 目錄'/>
+					<Item Index='06' Value='如果沒有指定遊戲位置，$AppName$ 無法打開 $RageGAME_SHORT$ 文件，因為它沒有足夠的信息。 請在下面設置已安裝的 $RageGAME$ 的正確位置。'/>
+					<Item Index='07' Value='$RageGAME$ 位置:'/>
 					<Item Index='08' Value='錯誤：該文件夾不存在。'/>
-					<Item Index='09' Value='成功：$AppName$能夠處理該文件夾。'/>
+					<Item Index='09' Value='成功：$AppName$ 能夠處理該文件夾。'/>
 					<Item Index='10' Value="錯誤：該文件夾不包含'$RageEncryptionStorage$'文件。"/>
-					<Item Index='11' Value='成功：$RageEncryptionStorage$， 版本%s\n$AppName$能夠處理該文件。'/>
+					<Item Index='11' Value='成功：$RageEncryptionStorage$， 版本%s\n$AppName$ 能夠處理該文件。'/>
 					<Item Index='12' Value='備份'/>
 					<Item Index='13' Value='在開始編輯之前不要忘了備份你的原始文件。'/>
 					<Item Index='14' Value='Windows 7'/>
-					<Item Index='15' Value='$AppName$運行於Microsoft® Windows 7™上最佳。'/>
+					<Item Index='15' Value='$AppName$ 運行於 Microsoft® Windows 7™ 上最佳。'/>
 					<Item Index='16' Value='你的名字：'/>
-					<Item Index='17' Value="錯誤：$AppName$無法獲得處理該文件夾的權限。\n請以管理員權限運行$AppName$。"/>
-					<Item Index='18' Value='加入$AppName$社區'/>
+					<Item Index='17' Value="錯誤：$AppName$ 無法獲得處理該文件夾的權限。\n請以管理員權限運行 $AppName$。"/>
+					<Item Index='18' Value='加入 $AppName$ 社區'/>
 					<Item Index='19' Value='$AppName$ - 確認'/>
 					<Item Index='20' Value='配置步驟尚未完成。\n你要退出嗎？'/>
+					<Item Index='21' Value='錯誤：$AppName$ 無權使用 "$RageEncryptionStorage$" 文件。\n您可以設置所需權限或使用管理員權限運行 $AppName$。'/>
+					<Item Index='22' Value="錯誤: $RageGAME$ 正在運行. 在使用 $AppName$ 請先關閉遊戲."/>
+					<Item Index='23' Value="完成 \n已設置為您的遊戲目錄設置權限。"/>
+					<Item Index='24' Value="無法設置權限s."/>
+					<Item Index='25' Value="錯誤: 解密密鑰在 '$RageEncryptionStorage$' 文件中未找到。"/>
 				</Lines>
 			</StringList>
 		</WelcomeScreen>
@@ -52,21 +57,23 @@
 			<btnExit Caption='退出'/>
 			<btnInstall Caption='下載並安裝'/>
 			<!-- Label's -->
-			<lbTitle Caption='$AppName$更新'/>
-			<lbText Caption='$AppName$有一項新的更新可用。在啟動$AppName$之前你需要安裝該更新。'/>
-			<lbStatus Caption='下載大小： '/>
+			<lbTitle Caption='$AppName$ 更新'/>
+			<lbText Caption='$AppName$ 有一項新的更新可用。在啟動 $AppName$ 之前你需要安裝該更新。'/>
+			<lbStatus Caption='下載大小: '/>
 			<cbInstallUpdatesAutomatically Caption='自動安裝更新'/>
+			<lbCurrentVersion Caption='目前版本號:'/>
+			<lbNewVersion Caption='最新版本號:'/>
 			<!-- Strings -->
 			<StringList SetCount='10'>
 				<Lines>
 					<Item Index='0' Value=' Mb'/>
 					<Item Index='1' Value='準備下載...'/>
-					<Item Index='2' Value='已下載： %f ，總計 %f Mb'/>
-					<Item Index='3' Value='更新中...'/>
+					<Item Index='2' Value='已下載: %f 總計 %f Mb'/>
+					<Item Index='3' Value='升級中...'/>
 					<Item Index='4' Value='更新錯誤，請稍後再試。'/>
-					<Item Index='5' Value=''/>
-					<Item Index='6' Value=""/>
-					<Item Index='7' Value=''/>
+					<Item Index='5' Value='%d.%d.%d (Build %d; 日期 %s)'/>
+					<Item Index='6' Value='此更新包含錯誤修復和小改進。'/>
+					<Item Index='7' Value='此更新包含新功能，錯誤修復，UI 更改和主要改進。'/>
 					<Item Index='8' Value=''/>
 					<Item Index='9' Value=''/>
 				</Lines>
@@ -77,18 +84,19 @@
 			<btnExit Caption='退出'/>
 			<btnContinue Caption='繼續'/>
 			<!-- Strings -->
-			<StringList SetCount='10'>
+			<StringList SetCount='20'>
 				<Lines>
 					<Item Index='00' Value='致命應用程序錯誤'/>
-					<Item Index='01' Value='你將$AppName$與"$RageEncryptionStorage$"放在了同一個文件夾，\n請將$AppName$放置於其他文件夾。'/>
-					<Item Index='02' Value='變更$RageGAME$文件夾'/>
-					<Item Index='03' Value='出現問題，請變更$RageGAME$文件夾並重新啟動$AppName$。'/>
+					<Item Index='01' Value='你將 $AppName$ 與 "$RageEncryptionStorage$" 放在了同一個文件夾，\n請將 $AppName$ 放置於其他文件夾。'/>
+					<Item Index='02' Value='變更 $RageGAME$ 文件夾'/>
+					<Item Index='03' Value='出現問題，請變更 $RageGAME$ 文件夾並重新啟動 $AppName$。'/>
 					<Item Index='04' Value='錯誤：該文件夾不存在。'/>
-					<Item Index='05' Value='成功：$AppName$能夠處理該文件夾。'/>
-					<Item Index='06' Value="錯誤：該文件夾不包含'$RageEncryptionStorage$'文件。"/>
-					<Item Index='07' Value='成功：$RageEncryptionStorage$，版本%s\n$AppName$能夠處理該文件。'/>
+					<Item Index='05' Value='成功： $AppName$ 能夠處理該文件夾。'/>
+					<Item Index='06' Value="錯誤：該文件夾不包含'$RageEncryptionStorage$' 文件。"/>
+					<Item Index='07' Value='成功： $RageEncryptionStorage$，版本%s\n$AppName$ 能夠處理該文件。'/>
 					<Item Index='08' Value='瀏覽'/>
-					<Item Index='09' Value="錯誤：$AppName$無法獲得處理該文件夾的權限。\n請以管理員權限運行$AppName$。"/>
+					<Item Index='09' Value="錯誤：$AppName$ 無法獲得處理該文件夾的權限。\n請以管理員權限運行 $AppName$。"/>
+					<Item Index='10' Value="錯誤: 解密密鑰在 '$RageEncryptionStorage$' 文件中未找到。"/>
 				</Lines>
 			</StringList>
 		</ChangeGameScreen>

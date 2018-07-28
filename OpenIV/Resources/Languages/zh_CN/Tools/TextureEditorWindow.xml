@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<TextureEditorWindow Caption='$AppName$ - 贴图工具'>
+	<TextureEditorWindow Caption='$AppName$ 贴图工具'>
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
@@ -14,11 +14,15 @@
 		<string name="EXPORT_ALL">导出所有贴图</string>
 		<string name="EXPORT_SELECTED">导出选定</string>
 		<string name="ORIGINAL_SIZE">原始大小</string>
-		<string name="ALPHA_BACKGROUND">Alpha背景</string>
+		<string name="ALPHA_BACKGROUND">透明背景</string>
 		<string name="SIZE_">大小：</string>
+		<string name="SEARCH_TEXTURES">搜索贴图</string>
+		<string name="NO_IMAGE_FOUND">贴图未找到</string>
 
+		<string name="COPY_NAME">复制名称</string>
+		<string name="EXPORT">导出</string>
 		<string name="RENAME">重命名</string>
-		<string name="REPLACE">替换</string>
+		<string name="REPLACE"替换</string>
 		<string name="DELETE">删除</string>
 		<string name="RENAME_TEXTURE">重命名贴图</string>
 		<string name="RENAME_TEXTURE_NAME">输入新名称</string>
@@ -34,17 +38,17 @@
 		<!-- Import dialog -->
 		<string name="CHOOSE_IMPORT_OPTIONS">选择导入选项</string>
 		<text name="IMPORT_QUALITY_NOTE">
-			<![CDATA[该选项在导入DDS文件时会被无视。
-使用DDS文件以获得最佳质量。]]>
+			<![CDATA[该选项在导入 DDS 文件时会被无视。
+使用 DDS 文件以获得最佳质量。]]>
 		</text>
-		<string name="AUTO_MIPMAP">自动生成MipMap等级</string>
+		<string name="AUTO_MIPMAP">自动生成 MipMap 等级</string>
 		<string name="TEXTURES_FORMAT">贴图格式（压缩）：</string>
 		<string name="AUTOMATICALLY">自动</string>
 		<string name="IMPORT_ERROR_FILES">以下文件未被导入</string>
 
 		<!-- Properties dialog -->
 		<string name="PROPERTIES">属性</string>
-		<string name="PROPERTIES_MIPMAP">MipMap等级：</string>
+		<string name="PROPERTIES_MIPMAP">MipMap 等级：</string>
 		<string name="PROPERTIES_PIXEL_FORMAT">像素格式：</string>
 		<text name="PROPERTIES_MOTE">
 			<![CDATA[警告：
@@ -55,6 +59,10 @@
 		<!-- Save changes dialog -->
 		<string name="SAVE_CHANGES_">你想要保存更改吗？</string>
 
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11 不可用</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ 无法初始化 DirectX 11 设备。\n编辑功能不适用于此文件。</string>
+		
 		<!-- help -->
 		<string name="HELP_TITLE">贴图编辑器 - 帮助</string>
 		<text name="HELP_TEXT">

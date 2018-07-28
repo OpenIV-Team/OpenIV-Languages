@@ -16,8 +16,8 @@
 		<string name="INCORRECT_HASH_TEXT">"%S"不是一个有效的哈希值。</string>
 
 		<string name="FILE_INFORMATION">文件信息</string>
-		<string name="SHOW_DEFINITION">显示IDE文件定义</string>
-		<string name="SHOW_IDE">显示IDE文件</string>
+		<string name="SHOW_DEFINITION">显示 IDE 文件定义</string>
+		<string name="SHOW_IDE">显示 IDE 文件</string>
 		<string name="SHOW_ARCHIVE">显示档案</string>
 		<string name="SHOW_RESOURCE">显示资源文件</string>
 
@@ -40,7 +40,7 @@
     使用鼠标滚轮来缩放。
 	
     ESC - 关闭定位搜索窗口
-    按住H - 临时隐藏HUD
+    按住H - 临时隐藏 HUD
 ]]>
 		</text>
 	</RenderUI>

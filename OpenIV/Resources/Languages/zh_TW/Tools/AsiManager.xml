@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<FiveAsiManagerWindow Caption='必裝插件 - $AppName$'/>
+	<FiveAsiManagerWindow Caption='ASI 管理器 - $AppName$'/>
 	<RenderUI>
-		<string name="TITLE">GTA V - 必裝插件</string>
+		<string name="TITLE">$RageGAME_SHORT$ - 管理器</string>
 		
-		<string name="RPF_NOTE">你必須安裝ASI Loader和OpenIV.ASI，否則修改文件會導致遊戲會出錯。</string>
-		<string name="ONLINE_NOTE">線上不要玩MOD！</string>
+		<string name="RPF_NOTE">你必須安裝 ASI Loader 和 $ModsFolderAsi$ 插件用於 $RageGAME_SHORT$, 否則修改文件會導致遊戲會出錯。</string>
+		<string name="ONLINE_NOTE">不要在 $RageGAME_MP$ 在線遊戲中使用 Mod，否則會被 R 星封禁遊戲賬戶。</string>
 		
 		<string name="INSTALL">安裝</string>
 		<string name="UPDATE">升級</string>
@@ -17,23 +17,25 @@
 		<string name="DISABLED">未啟用</string>
 		
 		<string name="ASI_LOADER">ASI Loader（dinput8.dll）</string>
-		<string name="ASI_LOADER_DESCRIPTION">ASI Loader可以向遊戲加載asi插件，例如內置修改器。</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader可以向遊戲加載 asi 插件，例如內置修改器。</string>
 		
-		<string name="OPENIV_ASI">OpenIV.ASI</string>
-		<string name="OPENIV_ASI_DESCRIPTION">這個插件可以使遊戲加載修改過的遊戲文件。同時使得遊戲支持mods文件夾。</string>
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">這個插件可以使遊戲加載修改過的遊戲文件。同時使得遊戲支持 mods 目錄。</string>
 		
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
-		<string name="OPEN_CAMERA_ASI_DESCRIPTION">改善R星編輯器中自由視角的視距邊界。</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">改善 R 星編輯器中自由視角的視距邊界。</string>
 		
 		<string name="INSTALLATION_FAILED">安裝失敗</string>
-		<string name="INSTALLATION_FAILED_TEXT">T安裝未成功, 重啟 $AppName$ 並重新安裝。</string>
+		<string name="INSTALLATION_FAILED_TEXT">安裝失敗, 重新啟動 $AppName$ 後重試。</string>
 		
 		<string name="UNINSTALL_FAILED">卸載失敗</string>
-		<string name="UNINSTALL_FAILED_TEXT">卸載失敗, 重啟 $AppName$ 並重試。</string>
-		
-		<string name="MODS_FOLDER_TITLE">創建"mods"文件夾</string>
-		<string name="MODS_FOLDER_TEXT">"mods"文件夾可以使你的遊戲文件保持不變。</string>
-		<string name="MODS_FOLDER_EDIT_NOTIFICATION">當編輯的檔案不在mods文件夾時顯示提示</string>
-		<string name="MODS_FOLDER_LEARN_MORE">查看更多關於"mods"文件夾</string>
+		<string name="UNINSTALL_FAILED_TEXT">卸載失敗, 重新啟動 $AppName$ 後重試。</string>
+
+		<string name="MODS_FOLDER_TITLE">創建 $ModsFolder$ 目錄?</string>
+		<string name="MODS_FOLDER_TEXT">$ModsFolder$ 文件夾允許您保持所有原始遊戲文件的安全，並且最簡單的單擊方式可以在修改的文件和原始文件之間切換。</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">編輯的檔案不在 $ModsFolder$ 文件夾時顯示提示</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">在 $ModsFolder$ 目錄中僅允許內部存檔的編輯模式</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">在 $AppName$ 設置中您可以隨時更改此設置</string>
+		<string name="MODS_FOLDER_LEARN_MORE">查看更多關於 $ModsFolder$ 目錄</string>
 	</RenderUI>
 </Translation>

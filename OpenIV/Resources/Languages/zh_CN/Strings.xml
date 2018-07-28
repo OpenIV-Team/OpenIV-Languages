@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
 	<StringList>
 		<Item Index='00' Value='进行中...'/>
@@ -50,25 +50,25 @@
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.Search" Title="全局搜索" Hint="进行搜索"/>
-		<item Name="Tools.GTAIV.PlacementSearch" Title="展示位置搜索" Hint="Open placement search"/>
-		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="查找位置" Hint="Open placement search"/>
-		<item Name="Tools.Common.HashGenerator" Title="哈希生成器" Hint="Open hash generator"/>
-		<item Name="Tools.Common.RunGame" Title="运行 $RageGAME_SHORT$" Hint="Run $RageGAME$"/>	
-		<item Name="Files.GTAEngine.TextViewer" Title="GXT viewer" Hint=""/>		
+		<item Name="Tools.GTAIV.PlacementSearch" Title="展示位置搜索" Hint="展示位置搜索"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="查找位置" Hint="展示位置搜索"/>
+		<item Name="Tools.Common.HashGenerator" Title="哈希生成器" Hint="打开哈希生成器"/>
+		<item Name="Tools.Common.RunGame" Title="运行 $RageGAME_SHORT$" Hint="运行 $RageGAME$"/>	
+		<item Name="Files.GTAEngine.TextViewer" Title="GXT 查看器" Hint=""/>		
 		<item Name="Files.Resources.TextureEditor" Title="贴图浏览器" Hint=""/>
 		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="贴图编辑器" Hint=""/>				
 		<item Name="Files.Common.AudioPlayer" Title="音频播放器" Hint=""/>	
-		<item Name="Files.Resources.CollisionViewer" Title="Collision viewer" Hint=""/>
+		<item Name="Files.Resources.CollisionViewer" Title="Collision 查看器" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD 模型查看器" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="WFT 模型查看器" Hint=""/>
 		<item Name="Files.Resources.NavmeshViewer" Title="Nav 网格查看器" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Find in IDE" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="动画查看器" Hint="Open animation viewer"/>
-		<item Name="Tools.Common.PackageInstaller" Title="自动安装包安装器" Hint="Open Package Installer"/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="在 IDE 中查找" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="动画查看器" Hint="打开动画查看器"/>
+		<item Name="Tools.Common.PackageInstaller" Title="自动安装包安装器" Hint="打开自动安装包安装器"/>
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="导出到 openFormats (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>
-		<item Name="Tools.GTAV.ASIManager" Title="必装插件" Hint="ASI Manager"/>	
+		<item Name="Tools.GTAV.ASIManager" Title="必装插件" Hint="ASI 管理器"/>	
 		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="导出 skeleton 到 openFormats (.skel)" Hint=""/>
-		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="编辑内嵌贴图" Hint="Edit with Embedded Texture Editor"/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="编辑内嵌贴图" Hint="编辑内嵌贴图"/>
 	</tools>
 </GlobalStrings>

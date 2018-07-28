@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Main window -->
 
-	<MainWindow Caption='$AppName$'>
+	<MainWindow Caption="$AppName$">
 		<FullScreenClose Hint='關閉'/>
 		<btnSwitchMode Caption='編輯模式' hint='切換編輯模式（F6）' showhint='True'/>
 		<btnCloseArchive hint='關閉RPF（Shift + Backspace）' showhint='True'/>
 		<!-- String's -->
-		<AeroWindow LinesCount='70'>
+		<AeroWindow LinesCount="80">
 			<StringList>
 				<Item Index='0' Value='名稱'/>
 				<Item Index='1' Value='類型'/>
@@ -16,14 +16,14 @@
 				<Item Index='3' Value='屬性'/>
 				<Item Index='4' Value='壓縮'/>
 				<Item Index='5' Value='編輯模式'/>
-				<Item Index='6' Value='6'/>
-				<Item Index='7' Value='7'/>
+				<Item Index="6" Value=""/>
+				<Item Index="7" Value=""/>
 				<Item Index='8' Value='顯示%D個項目'/>
 				<Item Index='9' Value='顯示%D / %D個項目'/>
-				<Item Index='10' Value=' 項目'/>
-				<Item Index='11' Value=' bytes'/>
-				<Item Index='12' Value=' Kb'/>
-				<Item Index='13' Value=' Mb'/>
+				<Item Index="10" Value=" 項目"/>
+				<Item Index="11" Value=" bytes"/>
+				<Item Index="12" Value=" KB"/>
+				<Item Index="13" Value=" MB"/>
 				<Item Index='14' Value='進度...'/>
 				<Item Index='15' Value='當前文件： '/>
 				<Item Index='16' Value='未知'/>
@@ -33,10 +33,10 @@
 				<Item Index='20' Value='資源 [版本：%D]'/>
 				<Item Index='21' Value='[編輯模式]'/>
 				<Item Index='22' Value='[只讀模式]'/>
-				<Item Index='23' Value='LANG: FREE STRING (23)'/>
-				<Item Index='24' Value='你將要啟用編輯模式。所有變更都會被自動保存。而且不能撤銷。'/>
-				<Item Index='25' Value='LANG: FREE STRING (25)'/>
-				<Item Index='26' Value='LANG: FREE STRING (26)'/>
+				<Item Index="23" Value="LANG: FREE STRING (23)"/>
+				<Item Index="24" Value="你將要啟用編輯模式。所有變更都會被自動保存。而且不能撤銷。"/>
+				<Item Index="25" Value="LANG: FREE STRING (25)"/>
+				<Item Index="26" Value="LANG: FREE STRING (26)"/>
 				<Item Index='27' Value='標籤'/>
 				<Item Index='28' Value='添加標籤'/>
 				<Item Index='29' Value='新標籤：'/>
@@ -47,10 +47,10 @@
 				<Item Index='34' Value='選擇文件以預覽。'/>
 				<Item Index='35' Value='無預覽數據。'/>
 				<Item Index='36' Value='版本：%S'/>
-				<Item Index='37' Value='退出$AppName$'/>
-				<Item Index='38' Value='$AppName$選項'/>
+				<Item Index='37' Value='退出 $AppName$'/>
+				<Item Index='38' Value='$AppName$ 選項'/>
 				<Item Index='39' Value='關閉文件'/>
-				<Item Index='40' Value='定住Pin'/>
+				<Item Index='40' Value='定住 Pin'/>
 				<Item Index='41' Value='從列表中移除'/>
 				<Item Index='42' Value='最近文件'/>
 				<Item Index='43' Value='外部應用程序運行中...'/>
@@ -59,9 +59,9 @@
 				<Item Index='46' Value='位置'/>
 				<Item Index='47' Value='建構build'/>
 				<Item Index='48' Value='該RPF是空的。'/>
-				<Item Index='49' Value='該文件夾是空的。'/>
+				<Item Index='49' Value='該目錄是空的。'/>
 				<Item Index='50' Value='無項目符合搜索條件。'/>
-				<Item Index='51' Value='在Windows資源管理器中打開文件夾'/>
+				<Item Index='51' Value='在Windows資源管理器中打開目錄'/>
 				<Item Index='52' Value='在Windows資源管理器中查找'/>
 				<Item Index='53' Value='打開文件位置'/>
 				<Item Index='54' Value='$AppName$ - 打開位置'/>
@@ -74,40 +74,33 @@
 				<Item Index='61' Value='大（1 - 16 MB）'/>
 				<Item Index='62' Value='很大（16 - 128 MB）'/>
 				<Item Index='63' Value='巨大（> 128 MB）'/>
-				<Item Index='64' Value='文件夾'/>
+				<Item Index='64' Value='目錄'/>
 				<Item Index="65" Value="在 %s 中搜索"/>
 				<Item Index="66" Value="$AppName$ - 提示"/>
 				<Item Index="67" Value="你可以在設置中開啟這個提示"/>
 				<Item Index="68" Value="複製中..."/>
 				<Item Index="69" Value="$AppName$ - 確認"/>
 				<Item Index="70" Value='對"mods\update\update.rpf"的修改將會丟失，確認繼續？'/>
-				<Item Index="71" Value=""/>
-				<Item Index="72" Value=""/>
-				<Item Index="73" Value=""/>
-				<Item Index="74" Value=""/>
-				<Item Index="75" Value=""/>
-				<Item Index="76" Value=""/>
-				<Item Index="77" Value=""/>
-				<Item Index="78" Value=""/>
-				<Item Index="79" Value=""/>
+				<Item Index="71" Value='搜索 "%s" 在所有文件中'/>
+				<Item Index="72" Value="你確定要退出 $AppName$?"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
-		<SearchBox BannerText='搜索'/>
-		<!-- GTA V (ASI) -->
-		<lbGTAVPluginTitle Caption='為GTAV安裝插件'/>
-		<lbGTAVPluginText Caption='你需要為GTA V安裝ASI Loader和OpenIV ASI插件，否則遊戲將不會加載修改過的RPF文件。'/>
-		<btnGTAVPluginAction Caption='安裝'/>
+		<SearchBox BannerText="搜索"/>
+		<!-- Notification: GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption="為 $RageGAME_SHORT$ 按照插件"/>
+		<lbGTAVPluginText Caption="你需要為 GTA V 安裝 ASI Loader 和 OpenIV ASI 插件，否則遊戲將不會加載修改過的 RPF 文件。"/>
+		<btnGTAVPluginAction Caption="安裝"/>
 		<!-- Notification: copy to mods folder -->
-		<lbNotInModsTitle Caption='"mods"文件夾'/>
-		<lbNotInModsText Caption='當前編輯的RPF文件不在"mods"文件夾。'/>
-		<btnHideThisNotification Caption="隱藏提示"/>
-		<btnCopyToMods Caption='複製到"mods"文件夾'/>
-		<btnShowInMods Caption='查看"mods"文件夾'/>
-		<btnChangeModsFolderSettings Caption='"mods"文件夾選項'/>
+		<lbNotInModsTitle Caption='"mods" 目錄'/>
+		<lbNotInModsText Caption='當前編輯的 RPF 文件不在"mods" 目錄。'/>
+		<lbEditModeDisabledDueToModsFolder Caption='此存檔已禁用編輯功能。\n導航到 mods 目錄，或允許在設置中進行編輯。'/>
+		<btnCopyToMods Caption='複製到"mods"目錄'/>
+		<btnShowInMods Caption='查看"mods"目錄'/>
+		<btnChangeModsFolderSettings Caption='"mods"目錄選項'/>
 		<!-- Notification: update.rpf -->
-		<lbCopyNewUpdateToModsTitle Caption='遊戲已更新'/>
-		<lbCopyNewUpdateToMods Caption='"mods"文件夾中的update.rpf是舊版本的。你需要複製新版本的update.rpf到"mods"文件夾， 不然你的遊戲會停止運行。'/>
+<lbCopyNewUpdateToModsTitle Caption='遊戲已更新'/>
+		<lbCopyNewUpdateToMods Caption='"mods" 目錄中的update.rpf 是舊版本的。你需要複製新版本的 update.rpf 到 "mods" 目錄， 不然你的遊戲會停止運行。'/>
 		<btnCopyUpdateToMods Caption='複製'/>
 		<!-- Notification: Admin mode -->
 		<lbAdminModeTitle Caption='管理員模式'/>
@@ -115,7 +108,7 @@
 		<btnAdminModeAction Caption='如何做'/>
 		<!-- Search tasks -->
 		<taskClearSearchFilter Caption='清空搜索'/>
-	</MainWindow>	
+	</MainWindow>
 
 	<ActionsModule>
 		<!-- Main Menu -->
@@ -127,8 +120,9 @@
 		<mmTools Caption='工具'/>
 		<mmHelp Caption='幫助'/>
 		<!-- Main Menu : File -->
-		<mmReopen Caption='重新打開'/>
-		<mmFilter Caption='過濾器'/>
+		<mmRecentArchives Caption="最近打開的文件"/>
+		<!-- Main Menu : Edit -->
+		<mmFilter Caption="過濾器"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption='佈局'/>
 		<mmGroupBy Caption='分組依據'/>
@@ -138,102 +132,100 @@
 		<mmvSmallIcon Caption='小圖標'/>
 		<mmvList Caption='列表'/>
 		<mmvDetails Caption='詳細信息'/>
-		<mmvTile Caption='平鋪'/>	
+		<mmvTile Caption='平鋪'/>
 		<!-- Main Menu : Help -->
 		<!-- Path menu -->
 		<PMenu0 Caption='將地址複製為文本'/>
 		<!-- File Action's -->
-		<actCreate   Caption='新建RPF...' Hint='建立新的rpf文件'/>
-		<actOpen     Caption='打開RPF...' Hint='打開已存在的RPF'/>
-		<actOpenPC   Caption='打開內容...' Hint=''/>
-		<actOpenArchiveProperties  Caption='RPF屬性' Hint=''/>
-		<actDefragmentation  Caption='重建' Hint='重建當前RPF'/>
-		<actEditMode Caption='編輯模式'  Hint=''/>
-		<actReadMode Caption='只讀模式'  Hint=''/>
-		<actClose    Caption='關閉RPF' Hint='關閉當前RPF'/>
-		<actExit     Caption='退出' Hint='退出'/>
-		<actCloseAllArchives Caption='關閉所有RPF' Hint='關閉所有打開的RPF'/>
+		<actCreateArchive Caption="新建 RPF..." Hint="建立新的 rpf 文件"/>
+		<actOpenGameFolder Caption="打開遊戲目錄" Hint="打開遊戲目錄"/>
+		<actOpenArchive Caption="打開 RPF..." Hint="打開已存在的 rpf 文件"/>
+		<actOpenFolder Caption="打開目錄..." Hint="打開已存在的目錄"/>
+		<actOpenArchiveProperties Caption="RPF 屬性" Hint=""/>
+		<actDefragmentation Caption="重建" Hint="重建當前RPF"/>
+		<actEditMode Caption="編輯模式" Hint=""/>
+		<actReadMode Caption="只讀模式" Hint=""/>
+		<actCloseAllArchives Caption="關閉所有 RPF" Hint="關閉所有已打開的 rpf 文件"/>
+		<actCloseAllFolders Caption="關閉所有目錄" Hint="關閉所有已打開的目錄"/>
+		<actCloseArchive Caption="關閉 RPF" Hint="關閉當前RPF"/>
+		<actExit Caption="退出" Hint="推出"/>
 		<!-- Edit Action's -->
-		<actPreview     Caption='查看' Hint='查看文件'/>
-		<actEditFile    Caption='編輯'    Hint='編輯文件'/>
-		<actViewAsHex   Caption='以十六進制查看'  Hint='以十六進制查看'/>
-		<actViewAsText  Caption='以文本查看'  Hint='以文本查看'/>
-		<actCopyPath    Caption='複製路徑' Hint='複製當前文件的地址'/>
-		<actExtract     Caption='提取'   Hint='提取文件'/>
+		<actOpen Caption="打開" Hint="打開當前項目"/>
+		<actEditFile Caption="'編輯" Hint="編輯當前項目"/>
+		<actViewAsHex Caption="以十六進制查看..." Hint="以十六進制查看"/>
+		<actViewAsText Caption="以文本查看..." Hint="以文本查看"/>
+		<actCopyName Caption="複製名稱" Hint="複製當前文件的名稱"/>
+		<actCopyPath Caption="複製路徑" Hint="複製當前文件的地址"/>
+		<actExtract Caption="提取..." Hint="提取文件"/>
 		<actSaveContent Caption='保存內容/導出' Hint='保存文件內容/導出'/>
 		<actSaveRawContent Caption="保存為原始格式" Hint="保存為原始格式"/>
 		<actRename      Caption='重命名' Hint='重命名文件'/>
 		<actAdd         Caption='添加'    Hint='添加新文件'/>
 		<actReplace     Caption='替換' Hint='替換當前文件'/>
-		<actRemove      Caption='刪除'  Hint='刪除當前文件'/>
-		<actExtractAll  Caption='提取全部...' Hint='提取全部文件'/>
-		<actCopyFileList Caption='複製文件列表' Hint=''/>
-		<actSelectAll Caption='全選' Hint=''/>
-		<actResourceObjectExplorer Caption='資源管理器' Hint=''/>
-		<actShowInWindowsExplorer Caption='在Windows資源管理器中顯示' Hint=''/>
-		<actItemAddToFavorites Caption='加入收藏...' Hint=''/>
-		<actCopyToModsFolder Caption='複製到"mods"文件夾' Hint=""/>
-		<actShowInModsFolder Caption='查看"mods"文件夾' Hint=""/>
+		<actRemove Caption="刪除" Hint="刪除當前文件"/>
+		<actExtractAll Caption="提取全部..." Hint="提取全部文件"/>
+		<actCopyFileList Caption="複製文件列表" Hint=""/>
+		<actSelectAll Caption="全選" Hint=""/>
+		<actResourceObjectExplorer Caption="資源管理器" Hint=""/>
+		<actShowInWindowsExplorer Caption="在Windows資源管理器中顯示" Hint=""/>
+		<actItemAddToFavorites Caption="加入收藏..." Hint=""/>
+		<actCopyToModsFolder Caption='複製到 $ModsFolder$ 目錄' Hint=""/>
+		<actShowInModsFolder Caption='在 $ModsFolder$ 目錄中查看' Hint=""/>
 		<!-- New menu -->
-		<actMultipleImport Caption='導入openFormats' Hint='多重導入'/>
-		<actNewFolder   Caption='文件夾'  Hint='新建文件夾'/>		
+		<actMultipleImport Caption="導入 openFormats" Hint="多重導入"/>
+		<actNewFolder Caption="目錄" Hint="新建目錄"/>
 		<!-- View Action's -->
-		<actDirectoryTree Caption='目錄樹' Hint='顯示或隱藏目錄樹'/>
-		<actToolBar       Caption='工具欄' Hint='顯示或隱藏工具欄'/>
-		<actSearchBar     Caption='搜索及地址欄' Hint='顯示或隱藏搜索及地址欄'/>
-		<actStatusBar     Caption='狀態欄' Hint='狀態欄'/>
-		<actLivePreView   Caption='預覽窗格' Hint='預覽窗格'/>
-		<actMainMenuBar   Caption='菜單欄' Hint='菜單欄'/>
+		<actDirectoryTree Caption="目錄樹" Hint="顯示或隱藏目錄樹"/>
+		<actToolBar Caption="工具欄" Hint="顯示或隱藏工具欄"/>
+		<actSearchBar Caption="搜索及地址欄" Hint="顯示或隱藏搜索及地址欄"/>
+		<actStatusBar Caption="狀態欄" Hint="狀態欄"/>
+		<actLivePreView Caption="預覽窗格" Hint="預覽窗格"/>
+		<actMainMenuBar Caption="菜單欄" Hint="菜單欄"/>
 		<!-- Help Action's -->
-		<actReportBug    Caption="報告一個Bug" Hint=''/>
-		<actAbout        Caption='關於...' Hint='關於'/>
-		<actGoToWeb      Caption='前往網站...' Hint=''/>
-		<actSendFeedback Caption='發送反饋' Hint=''/>
-		<actUpdate       Caption='檢查更新...' Hint=''/>
-		<actDonate       Caption='捐贈$AppName$...'      Hint=''/>
-		<actWebIV        Caption='註冊$WebName$'      Hint=''/>
-		<actFAQ          Caption='常見問題' Hint=''/>
-		<!-- Social -->
-		<actSocialYouTube Caption='$AppName$ YouTube頻道' Hint=''/>
-		<actSocialFacebook Caption='$AppName$ Facebook頁面' Hint=''/>
-		<actSocialTwitter Caption='$AppName$ Twitter頁面' Hint=''/>
-		<actSocialVKCom Caption='$AppName$ VK頁面' Hint=''/>
-		<!-- Only in Win7 and later -->
-		<actWin7ReportTool Caption='記錄步驟以重現問題' Hint=''/>
+		<actHelpVerifyGame Caption="如何驗證或還原遊戲文件..." Hint=""/>
+		<actSocialMedia Caption="加入 $AppName$ 社區" Hint=""/>
+		<actForums Caption="加入 $AppName$ 討論" Hint=""/>
+		<actSupportDonate Caption="捐贈 $AppName$" Hint=""/>
+		<actGoToWeb Caption="前往網站..." Hint=""/>
+		<actSendFeedback Caption="發送反饋" Hint=""/>
+		<actReportBug Caption="報告 Bug" Hint=""/>
+		<actWin7ReportTool Caption="記錄重現問題的步驟" Hint=""/> <!-- Only in Win7 and later -->
+		<actAbout Caption="關於..." Hint="關於"/>
 		<!-- Groups Action's -->
-		<actCollapseAll Caption='收起所有組' Hint=''/>
-		<actExpandAll   Caption='展開所有組' Hint=''/>
-		<actCollapseGroup Caption='收起組' Hint=''/>
-		<actExpandGroup Caption='展開組' Hint=''/>
+		<actCollapseAll Caption="摺疊所有組" Hint=""/>
+		<actExpandAll Caption="展開所有組" Hint=""/>
+		<actCollapseGroup Caption="摺疊組" Hint=""/>
+		<actExpandGroup Caption="展開組" Hint=""/>
 		<!-- Tools Action's -->
-		<actConfig     Caption='選項' Hint='選項'/>
+		<actConfig Caption="選項..." Hint="選項"/>
 		<!-- GoTo Action's -->
-		<actGoBack    Caption='返回' Hint=''/>
-		<actGoForward Caption='前進' Hint=''/>
-		<actGoUP      Caption='向上一級' Hint=''/>
+		<actGoBack Caption="返回" Hint=""/>
+		<actGoForward Caption="前進" Hint=""/>
+		<actGoUP Caption="向上一級" Hint=""/>
 		<!-- Favorites -->
-		<actAddToFavorites    Caption='加入收藏...' Hint=''/>
-		<actOrganizeFavorites Caption='組織收藏...' Hint=''/>
+		<actAddToFavorites Caption="加入收藏..." Hint=""/>
+		<actOrganizeFavorites Caption="組織收藏..." Hint=""/>
 		<!-- Filter -->
 		<actFilterByName  Caption='以名稱過濾' Hint=''/>
 		<actFilterByType  Caption='以類型過濾' Hint=''/>
 		<actFilterOnlyThis Caption='僅顯示當前文件' Hint=''/>
 		<!-- Tree -->
-		<actTreeCopyAsPath Caption='複製路徑Copy as path' Hint=''/>
-		<actTreeShowInWindowsExplorer Caption='在Windows資源管理器中顯示' Hint=''/>
-		<actTreeCloseArchive Caption='關閉檔案' Hint=''/>
-		<actTreeCopyToModsFolder Caption='複製到"mods"文件夾' Hint=""/>
-		<actTreeShowInModsFolder Caption='查看"mods"文件夾' Hint=""/>
-		<actTreeCollapseThis Caption='收攏當前' Hint=""/>
-		<actTreeCollapseAll Caption='收攏所有' Hint=""/>
+		<actTreeCopyName Caption="複製名稱" Hint=""/>
+		<actTreeCopyAsPath Caption="複製路徑" Hint=""/>
+		<actTreeShowInWindowsExplorer Caption="在 Windows Explorer 中展示" Hint=""/>
+		<actTreeCloseArchive Caption="關閉檔案" Hint=""/>
+		<actTreeCopyToModsFolder Caption='複製到 $ModsFolder$ 目錄' Hint=""/>
+		<actTreeShowInModsFolder Caption='在 $ModsFolder$ 目錄中展示' Hint=""/>
+		<actTreeCollapseThis Caption='收起這個' Hint=""/>
+		<actTreeCollapseAll Caption='收起全部' Hint=""/>
 		<!-- Strings -->
-		<Strings SetCount='100'>
+		<Strings SetCount="100">
 			<Lines>
 				<Item Index='00' Value='目標文件夾：'/>
 				<Item Index='01' Value='預覽'/>
 				<Item Index='02' Value='無打開文件'/>
 				<Item Index='03' Value='（無）'/>
-				<Item Index='04' Value='選擇新RPF的類型：'/>
+				<Item Index='04' Value='選擇新 RPF 的類型：'/>
 				<Item Index='05' Value='線性'/>
 				<Item Index='06' Value='分層'/>
 				<Item Index='07' Value='無名稱'/>
@@ -244,8 +236,8 @@
 				<Item Index='12' Value='新名稱：'/>
 				<Item Index='13' Value='新建文件夾'/>
 				<Item Index='14' Value='新文件夾：'/>
-				<Item Index='15' Value='$RageGAME_SHORT$未找到。\n請在$AppName$選項中為$RageGAME_SHORT$指定正確的位置。'/>
-				<Item Index='16' Value='$AppName$ - 確認重建RPF'/>
+				<Item Index='15' Value='$RageGAME_SHORT$未找到。\n請在 $AppName$ 選項中為$RageGAME_SHORT$ 指定正確的位置。'/>
+				<Item Index='16' Value='$AppName$ - 確認重建 RPF'/>
 				<Item Index='17' Value='你確定要重建RPF«%S»嗎？\n該操作可能需要幾分鐘。'/>
 				<Item Index='18' Value='打開內容'/>
 				<Item Index='19' Value='建立新的%S'/>
@@ -257,7 +249,7 @@
 				<Item Index='25' Value='已有文件使用了此名稱，請選擇另一個名稱。'/>
 				<Item Index='26' Value='$AppName$ - 添加新標籤'/>
 				<Item Index='27' Value='輸入新標籤:'/>
-				<Item Index='28' Value='導出至%S'/>
+				<Item Index='28' Value='導出至 %S'/>
 				<Item Index='29' Value='文件被加密，請安裝未被加密版本的遊戲。'/>
 				<Item Index='30' Value='$AppName$ - 文件不存在'/>
 				<Item Index='31' Value='打開文件錯誤：%S\n文件不存在。'/>
@@ -278,21 +270,29 @@
 				<Item Index="46" Value="無效字符"/>
 				<Item Index="47" Value="重名"/>
 				<Item Index="48" Value="已經有一個具有相同名稱的文件夾名稱。"/>
+				<Item Index="49" Value="選擇目錄"/>
+				<Item Index="50" Value="刪除文件"/>
+				<Item Index="51" Value="你確定是否永久刪除這個文件?"/>
+				<Item Index="52" Value="刪除文件夾"/>
+				<Item Index="53" Value="你確定是否永久刪除這個目錄?"/>
+				<Item Index="54" Value="刪除多項"/>
+				<Item Index="55" Value="你確定是否永久刪除這 %d 個項目?"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
 
-	<EditModeHelpWindow Caption='編輯模式 - $AppName$'>
+	<EditModeHelpWindow Caption="編輯模式 - $AppName$">
 		<!-- Label's -->
 		<lbTitle Caption='編輯模式'/>
-		<lbText Caption='要添加或編輯文件，請切換至編輯模式。\n你可以在$AppName$設置中將編輯模式設為默認。'/>
-		<lbInfo Caption='“編輯模式”按鈕允許你啟用編輯模式'/>
+		<lbText Caption='要添加或編輯文件，請切換至編輯模式。\n你可以在 $AppName$ 設置中將編輯模式設為默認。'/>
+		<lbInfo Caption='"編輯模式"按鈕允許你啟用編輯模式'/>
 		<!-- Button's -->
-		<btnClose Caption='關閉'/>
-		<cbDoNotShow Caption='不要再次顯示此信息'/>
+		<btnClose Caption="關閉"/>
+		<cbDoNotShow Caption="不要再次顯示此信息"/>
 	</EditModeHelpWindow>
+
 	<AdminModeWindow Caption="管理員模式 - $AppName$">
-		<lbText Caption="$AppName$不需要管理員模式可以完美運行.。而且用管理員運行$AppName$會導致一些拖放文件的功能不能正常工作。最有可能的是, 你用管理員運行$AppName$是因為你的遊戲裝在系統文件夾(例如 C:\Program Files\...) ，而普通用戶帳號沒有此文件夾的寫入權限。\n\n那麼你可以使用本工具設置遊戲安裝目錄的讀寫權限並取消管理員運行$AppName$。"/>
+		<lbText Caption="$AppName$ 不需要管理員模式可以完美運行.。而且用管理員運行 $AppName$ 會導致一些拖放文件的功能不能正常工作。最有可能的是, 你用管理員運行$AppName$是因為你的遊戲裝在系統文件夾(例如 C:\Program Files\...) ，而普通用戶帳號沒有此文件夾的寫入權限。\n\n那麼你可以使用本工具設置遊戲安裝目錄的讀寫權限並取消管理員運行 $AppName$。"/>
 		<btnSetPermissions Caption="設置權限"/>
 		<btnClose Caption="關閉"/>
 		<AeroWindow LinesCount="5">
@@ -301,27 +301,27 @@
 				<Item Index="1" Value="成功.\n遊戲安裝目錄讀寫權限設置成功"/>
 				<Item Index="2" Value="無法設置讀寫權限.\n錯誤代碼: "/>
 				<Item Index="3" Value="當前目錄不存在"/>
-				<Item Index="3" Value="缺失工具. 請重新安裝$AppName$."/>
+				<Item Index="3" Value="缺失工具. 請重新安裝 $AppName$."/>
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
 
 	<!-- Web window -->
 
-	<webWindow Caption='$WebName$ - '>
+	<webWindow Caption="$WebName$ - ">
 		<!-- Button's -->
-		<btnClose Caption='關閉'/>
+		<btnClose Caption="關閉"/>
 		<!-- Strings -->
-		<AeroWindow LinesCount='1'>
+		<AeroWindow LinesCount="1">
 			<StringList>
-				<Item Index='0' Value='使用條款及隱私政策'/>
+				<Item Index="0" Value="使用條款及隱私政策"/>
 			</StringList>
 		</AeroWindow>
 	</webWindow>
 
 	<!-- Configuration -->
 
-	<ConfigWindow Caption='$AppName$ - 設置'>
+	<ConfigWindow Caption="$AppName$ - 設置">
 		<!-- Languages -->
 		<tabLang Caption='語言'/>
 		<lbLang Caption='選擇界面語言：'/>
@@ -346,20 +346,22 @@
 		<cbAlwaysOpenArchiveAfterRebuild Caption="重建後總是打開該RPF文件"/>
 		<cbMinimizeAtStartGame Caption='啟動遊戲時最小化$AppName$'/>
 		<cbInstallUpdatesAutomatically Caption='自動安裝更新'/>
-		<cbUseRecycleBinInsteadDeleteInContentArchives Caption='對於實際文件，使用回收站而非直接刪除'/>
-		<cbShowRecycleConfirmation Caption='顯示回收站確認'/>
-		<cbCloseArchivesAtStartGame Caption='啟動遊戲時關閉所有打開的RPF文件'/>
-		<cbClearSearchFilterAfterOpeningArchive Caption='在打開新的RPF文件時清空搜索詞'/>
+		<cbDisplayDeleteConfirmationDialog Caption="顯示刪除確認對話"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="對於實際文件，使用回收站而非直接刪除"/>
+		<cbCloseArchivesAtStartGame Caption="在開始遊戲時關閉所有已經打開的 rpf 文件"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='在打開新的 rpf 文件時清空搜索詞'/>
 		<cbUseAlternativeWayOfAddingFolders Caption='可以直接拖入文件夾。但不會創建該文件夾，只有文件夾中文件被拖入。'/>
-		<tbFileAssociation Caption='更改文件關聯' />
+		<tbFileAssociation Caption="更改文件關聯"/>
+		<cbDisplayExitConfirmationDialog Caption="在退出時顯示確認對話"/>
+		<cbStartWithLocationFromLastSession Caption="打開 $AppName$ 時恢復上次進行的會話"/>
 		<!-- "mods" folder -->
-		<tabModsFolder Caption="Mods文件夾"/>
-		<lbModsFolderText Caption="在此頁上，您可以更改Mods文件夾相關的設置"/>
-		<lbModsFolderNote1 Caption="請先啟用Mods文件夾"/>
-		<cbShowNotificationWhileEditingArchiveNotInMods Caption='當被編輯的RPF文件不在Mods文件夾中時顯示提示'/>
-		<cbAllowEditModeOnlyInModsFolder Caption='只為Mods文件夾開啟編輯模式'/>
+		<tabModsFolder Caption="$ModsFolder$ 目錄"/>
+		<lbModsFolderText Caption="在此頁上，您可以更改 $ModsFolder$ 目錄的相關設置。"/>
+		<lbModsFolderNote1 Caption="請先啟用 $ModsFolderAsi$ 目錄."/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='當被編輯的 rpf 文件不在 $ModsFolder$ 目錄中時顯示提示 '/>
+		<cbAllowEditModeOnlyInModsFolder Caption='只為 $ModsFolder$ 目錄開啟編輯模式'/>
 		<!-- Tools -->
-		<tabTools Caption='工具'/>
+		<tabViewers Caption="工具"/>
 		<lbChooseTheme Caption="選擇主題"/>
 		<cbAppTheme>
 			<Items>
@@ -367,23 +369,32 @@
 				<Item Index="1" Value="暗色"/>
 			</Items>
 		</cbAppTheme>
-		<lbRenderBackgroundColor Caption='渲染背景顏色'/>
+		<lbRenderBackgroundColor Caption="渲染背景顏色"/>
 		<cbRenderBackgroundColor>
 			<Items>
 				<Item Index='0' Value='默認'/>
 				<Item Index='1' Value='自定義顏色'/>
 			</Items>
 		</cbRenderBackgroundColor>
-		<lbCameraControl Caption='鏡頭控制方式'/>
-		<cbRenderAntialiasing Caption='啟用抗鋸齒'/>
-		<lbChooseEditorTheme Caption="文本編輯器主題"/>
+		<lbCameraControl Caption="鏡頭控制方式"/>
+		<cbRenderAntialiasing Caption="啟用抗鋸齒"/>
+		<lbChooseEditorTheme Caption="選擇文本編輯器主題"/>
+		<lbMultichannelAudioPlayback Caption="多聲道音頻播放"/>
+		<cbMultichannelAudioPlayback>
+			<Items>
+				<Item Index="0" Value="以單聲道模式播放多聲道音頻"/>
+				<Item Index="1" Value="以立體聲模式播放多聲道音頻"/>
+				<Item Index="2" Value="在多聲道模式下播放多聲道音頻"/>
+			</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="注意：確保您的系統能夠播放環繞聲，否則您將聽不到大部分音頻內容。"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="默認貼圖文件格式"/>
-		<cbNotExportTextureToFolder Caption='導出OTD時不要將貼圖至於單獨的文件夾中'/>
-		<gbModels Caption='模型導入 (ODR/ODD/OFT)'/>
-		<cbProtectModels Caption='默認啟用保護網格選項（以防日後被導出）'/>
-		<btnSaveShaderInformation Caption='保存openFormats著色器信息'/>
+		<cbNotExportTextureToFolder Caption="導出 OTD 文件時不要將貼圖至於單獨的文件夾中"/>
+		<gbModels Caption="模型導入 (ODR/ODD/OFT)"/>
+		<cbProtectModels Caption="默認啟用保護網格選項（以防之後被導出）"/>
+		<btnSaveShaderInformation Caption="保存 openFormats 著色器信息"/>
 		<!-- Misc + old -->
 		<btnClose Caption='關閉'/>
 		<actAppAdd  Caption='添加'/>
@@ -391,7 +402,7 @@
 		<actAppDel  Caption='刪除'/>
 		<LnkWebApps Caption='為$RageGAME_SHORT$下載更多工具'/>
 		<!-- String's -->
-		<AeroWindow LinesCount='10'>
+		<AeroWindow LinesCount="10">
 			<StringList>
 				<Item Index='0' Value='選擇文件夾：'/>
 				<Item Index='1' Value='可用語言'/>
@@ -402,33 +413,33 @@
 		</AeroWindow>
 	</ConfigWindow>
 
-	<ConfigAssociationWindow Caption='$AppName$ - 關聯'>
-		<lbTitle Caption='將一個文件類型與$AppName$關聯'/>
+	<ConfigAssociationWindow Caption="$AppName$ - 關聯">
+		<lbTitle Caption="將一個文件類型與 $AppName$ 關聯"/>
 		<FileTypes>
 			<Columns>
-				<Item Index='0' Caption=''/>
+				<Item Index="0" Caption=""/>
 				<Item Index='1' Caption='類型'/>
 				<Item Index='2' Caption='描述'/>
 				<Item Index='3' Caption='支持的遊戲'/>
 			</Columns>
 			<Groups>
-				<Item Index='0' Header='RPF'/>
+				<Item Index='0' Header='rpf 文件'/>
 				<Item Index='1' Header='檔案'/>
 				<Item Index='2' Header='資源'/>
 			</Groups>
 		</FileTypes>
 		<btnApply Caption='應用'/>
 		<btnCancel Caption='取消'/>
-		<AeroWindow LinesCount='0'>
+		<AeroWindow LinesCount="0">
 			<StringList>
-				<Item Index='0' Value=''/>
+				<Item Index="0" Value=""/>
 			</StringList>
 		</AeroWindow>
 	</ConfigAssociationWindow>
 
 	<!-- EULA Window -->
-	
+
 	<EULAWindow Caption="最終用戶許可協議 - $AppName$">
-		<btnClose Caption='關閉'/>
+		<btnClose Caption="關閉"/>
 	</EULAWindow>
 </Translation>

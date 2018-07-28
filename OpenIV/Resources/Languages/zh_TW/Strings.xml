@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
 	<StringList>
 		<Item Index='00' Value='進行中...'/>
-		<Item Index='01' Value='當前文件: '/>
+		<Item Index='01' Value='當前文檔: '/>
 		<Item Index='02' Value='搜索 - $AppName$'/>
 		<Item Index='03' Value='搜索中, 請稍候t...'/>
 		<Item Index='04' Value='關閉'/>
@@ -14,61 +14,61 @@
 		<Item Index='10' Value=' MB'/>
 		<Item Index='11' Value='警告, 編輯模式已打開'/>
 		<Item Index='12' Value='編輯模式中,所有操作會自動保存.\n是否繼續?'/>
-		<Item Index='13' Value='目標文件夾:'/>
-		<Item Index='14' Value='外部應用程序工作中...'/>
+		<Item Index='13' Value='目標文檔夾:'/>
+		<Item Index='14' Value='外部應用進程工作中...'/>
 		<Item Index='15' Value='創建新的 %S'/>
 		<Item Index='16' Value='$AppName$ - 信息'/>
-		<Item Index='17' Value='加載文件出錯,錯誤可能的文件是損壞.'/>
-		<Item Index='18' Value='$AppName$ - 打開文件時發生錯誤'/>
-		<Item Index='19' Value='未知文件格式'/>
+		<Item Index='17' Value='加載文檔出錯,錯誤可能的文檔是損壞.'/>
+		<Item Index='18' Value='$AppName$ - 打開文檔時發生錯誤'/>
+		<Item Index='19' Value='未知文檔格式'/>
 		<Item Index='20' Value='%S 版本 %D 不受支持.'/>
 		<Item Index='21' Value="$AppName$ 不能打開, 原因:\n"/>
-		<Item Index='22' Value='$AppName$ - 創建檔案'/>
-		<Item Index='23' Value="檔案名不能為空."/>
+		<Item Index='22' Value='$AppName$ - 創建文件'/>
+		<Item Index='23' Value="文件名不能為空."/>
 		<Item Index='24' Value='openFormats - 導入'/>
-		<Item Index='25' Value='未知文件格式擴展名: %S'/>
+		<Item Index='25' Value='未知文檔格式擴展名: %S'/>
 		<Item Index='26' Value='$AppName$ - DirectX 錯誤'/>
 		<Item Index='27' Value='$AppName$ is unable to initalize Direct3D.'/>
 		<Item Index='28' Value='運行 $RageGAME_SHORT$'/>
-		<Item Index='29' Value="$AppName$ 無法找到關聯的 IDE 文件."/>
-		<Item Index='30' Value="$AppName$ 無法打開文件. 以下是可能的原因列表:\n\n拒絕訪問. 嘗試使用管理員權限運行 $AppName$ .\n另一個進程使用文件. 關閉其他程序,然後重試.\n\n"/>	
-		<Item Index='31' Value='目標文件夾:'/>
-		<Item Index='32' Value='無法打開存檔:未知錯誤.'/>
-		<Item Index='33' Value='無法打開存檔:未找到路徑.'/>
-		<Item Index='34' Value='無法打開存檔:訪問被拒絕或文件在另一個程序中使用.'/>
-		<Item Index='35' Value='無法打開存檔:未知的文件格式或存檔已損壞.'/>
-		<Item Index='36' Value='無法打開存檔:存檔已損壞.'/>
-		<Item Index='37' Value='無法打開存檔:未知的加密密鑰,可能的存檔是針對不同的遊戲或平台.'/>
-		<Item Index='38' Value='無法創建新的存檔.'/>
+		<Item Index='29' Value="$AppName$ 無法找到關聯的 IDE 文檔."/>
+		<Item Index='30' Value="$AppName$ 無法打開文檔. 以下是可能的原因列表:\n\n拒絕訪問. 嘗試使用管理員權限運行 $AppName$ .\n另一個進程使用文檔. 關閉其他進程,然後重試.\n\n"/>	
+		<Item Index='31' Value='目標文檔夾:'/>
+		<Item Index='32' Value='無法打開存盤:未知錯誤.'/>
+		<Item Index='33' Value='無法打開存盤:未找到路徑.'/>
+		<Item Index='34' Value='無法打開存盤:訪問被拒絕或文檔在另一個進程中使用.'/>
+		<Item Index='35' Value='無法打開存盤:未知的文檔格式或存盤已損壞.'/>
+		<Item Index='36' Value='無法打開存盤:存盤已損壞.'/>
+		<Item Index='37' Value='無法打開存盤:未知的加密密鑰,可能的存盤是針對不同的遊戲或平臺.'/>
+		<Item Index='38' Value='無法創建新的存盤.'/>
 		<Item Index='39' Value='$AppName$ - 沒有音頻播放設備'/>
-		<Item Index='40' Value='無法播放音頻文件. 沒有可用的音頻播放設備.'/>
-		<Item Index='41' Value='$AppName$ 無法找到此文件的處理程序.\nFile 路徑: "%s"'/>
-		<Item Index='42' Value='$AppName$ 無法找到或打開此文件.\nFile 路徑: "%s"'/>
-		<Item Index='43' Value='$AppName$ 不能打開這個文件,因為它大於 256 MB.'/>
-		<Item Index='44' Value='$AppName$ 無法顯示此文件的內容. 文件不能保存為XML,錯誤代碼: %s'/>
-		<Item Index='45' Value='$AppName$ 無法打開此文件. 錯誤碼: %s'/>
+		<Item Index='40' Value='無法播放音頻文檔. 沒有可用的音頻播放設備.'/>
+		<Item Index='41' Value='$AppName$ 無法找到此文檔的處理進程.\nFile 路徑: "%s"'/>
+		<Item Index='42' Value='$AppName$ 無法找到或打開此文檔.\nFile 路徑: "%s"'/>
+		<Item Index='43' Value='$AppName$ 不能打開這個文檔,因為它大於 256 MB.'/>
+		<Item Index='44' Value='$AppName$ 無法顯示此文檔的內容. 文檔不能保存為XML,錯誤代碼: %s'/>
+		<Item Index='45' Value='$AppName$ 無法打開此文檔. 錯誤碼: %s'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.Search" Title="全局搜索" Hint="進行搜索"/>
-		<item Name="Tools.GTAIV.PlacementSearch" Title="展示位置搜索" Hint="Open placement search"/>
-		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="查找位置" Hint="Open placement search"/>
-		<item Name="Tools.Common.HashGenerator" Title="哈希生成器" Hint="Open hash generator"/>
-		<item Name="Tools.Common.RunGame" Title="運行 $RageGAME_SHORT$" Hint="Run $RageGAME$"/>	
-		<item Name="Files.GTAEngine.TextViewer" Title="GXT viewer" Hint=""/>		
+		<item Name="Tools.GTAIV.PlacementSearch" Title="展示位置搜索" Hint="展示位置搜索"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="查找位置" Hint="展示位置搜索"/>
+		<item Name="Tools.Common.HashGenerator" Title="哈希生成器" Hint="打開哈希生成器"/>
+		<item Name="Tools.Common.RunGame" Title="運行 $RageGAME_SHORT$" Hint="運行 $RageGAME$"/>	
+		<item Name="Files.GTAEngine.TextViewer" Title="GXT 查看器" Hint=""/>		
 		<item Name="Files.Resources.TextureEditor" Title="貼圖瀏覽器" Hint=""/>
 		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="貼圖編輯器" Hint=""/>				
 		<item Name="Files.Common.AudioPlayer" Title="音頻播放器" Hint=""/>	
-		<item Name="Files.Resources.CollisionViewer" Title="Collision viewer" Hint=""/>
+		<item Name="Files.Resources.CollisionViewer" Title="Collision 查看器" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD 模型查看器" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="WFT 模型查看器" Hint=""/>
 		<item Name="Files.Resources.NavmeshViewer" Title="Nav 網格查看器" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Find in IDE" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="動畫查看器" Hint="Open animation viewer"/>
-		<item Name="Tools.Common.PackageInstaller" Title="自動安裝包安裝器" Hint="Open Package Installer"/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="在 IDE 中查找" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="動畫查看器" Hint="打開動畫查看器"/>
+		<item Name="Tools.Common.PackageInstaller" Title="自動安裝包安裝器" Hint="打開自動安裝包安裝器"/>
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="導出到 openFormats (.oac)" Hint=""/>
 		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>
-		<item Name="Tools.GTAV.ASIManager" Title="必裝插件" Hint="ASI Manager"/>	
+		<item Name="Tools.GTAV.ASIManager" Title="必裝插件" Hint="ASI 管理器"/>	
 		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="導出 skeleton 到 openFormats (.skel)" Hint=""/>
-		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="編輯內嵌貼圖" Hint="Edit with Embedded Texture Editor"/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="編輯內嵌貼圖" Hint="編輯內嵌貼圖"/>
 	</tools>
 </GlobalStrings>

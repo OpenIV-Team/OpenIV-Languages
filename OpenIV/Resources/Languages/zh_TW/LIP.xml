@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='290' ID='1028' active="true">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageInterfacePack version='300' ID='2057' active="true">
 	<Contributors>
-		<Contributor link="http://openiv.com/">ky0ncheng</Contributor>
+		<Contributor link="http://openiv.com/">OpenIV 團隊</Contributor>
 	</Contributors>
-	<WebHelp>
-		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
-	</WebHelp>
 </LanguageInterfacePack>

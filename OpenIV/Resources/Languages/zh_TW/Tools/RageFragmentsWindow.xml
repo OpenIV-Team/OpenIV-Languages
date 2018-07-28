@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?> 
 <Translation> 
-	<RageFragmentsWindow Caption='$AppName$ - 模型瀏覽器'> 
+	<RageFragmentsWindow Caption='$AppName$ 模型瀏覽器'> 
 		<paneHierarchy Caption='分層'/>
 		<pmiHigh Caption='高（High）'/>
 		<pmiMed Caption='中（Med）'/>
@@ -20,6 +20,8 @@
 		<string name="CHECK_ALL">選擇全部</string>
 		<string name="UNCHECK_ALL">清空選擇</string>
 		<string name="ALSO_HIDE_CHILDREN">同時隱藏子物件</string>
+		<string name="PLAY_FORWARD">向前播放</string>
+		<string name="PLAY_BACKWARDS">向後播放</string>
 		<text name="HELP_TEXT">
 			<![CDATA[使用鼠標來移動視角，使用以下按鍵來移動：
 			
@@ -50,8 +52,8 @@
     L - 切換細節等級
     ESC - 關閉本瀏覽器
 	
-    按住H - 臨時隱藏HUD
+    按住H - 臨時隱藏 HUD
 ]]>
-		</text>				
+		</text>			
 	</RenderUI>
 </Translation>

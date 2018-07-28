@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<ErrorWindow Caption='$AppName$ - 应用程序错误'>
 		<lbWindowTitle Caption="$AppName$ 遇到了一个无法处理的问题，\n现在需要重启。"/>

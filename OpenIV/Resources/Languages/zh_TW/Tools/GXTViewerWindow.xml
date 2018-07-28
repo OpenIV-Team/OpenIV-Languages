@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<GXTViewerWindow Caption='$AppName$ GXT瀏覽器'>		
+	<GXTViewerWindow Caption='$AppName$ GXT 瀏覽器'>		
 		<AeroWindow LinesCount='5'>
 			<StringList>
-				<Item Index='0' Value='GXT表格列表'/>
+				<Item Index='0' Value='GXT 表格列表'/>
 				<Item Index='1' Value='鑰匙'/>
 				<Item Index='2' Value='值'/>
 				<Item Index='3' Value='表格數量：'/>
