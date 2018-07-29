@@ -44,9 +44,9 @@
 		<!-- LOD -->
 		<string name="LOD">Nivel de Detalle:</string>
 		<string name="LOD_HIGH">Alto</string>
-		<string name="LOD_MED">Med</string>
+		<string name="LOD_MED">Medio</string>
 		<string name="LOD_LOW">Bajo</string>
-		<string name="LOD_VLOW">MBajo</string>
+		<string name="LOD_VLOW">Muy Bajo</string>
 
 		<!-- Textures -->
 		<string name="USING_TEXTURES">Usando texturas:</string>
