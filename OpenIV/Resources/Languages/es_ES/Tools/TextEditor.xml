@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<TextEditorWindow Caption='$AppName$ Herramienta de texto'>
 		<!-- String's -->
@@ -52,10 +52,10 @@
 		<string name="SEARCH_AREA_ENTIRE_SCOPE">Ámbito completo</string>
 		<string name="SEARCH_AREA_IN_SELECTION">En selección</string>
 		<string name="SEARCH_OPTIONS">Opciones</string>
-		<string name="SEARCH_ON_TYPING">Search on typing</string>
+		<string name="SEARCH_ON_TYPING">Buscar mientras se tipea</string>
 		<string name="CASE_SENSITIVE">Distinguir mayúsculas y minúsculas</string>
 		<string name="WHOLE_WORDS_ONLY">Solo palabras completas</string>
-		<string name="WRAP_AROUND">Wrap around</string>
+		<string name="WRAP_AROUND">Buscar en todo el documento</string>
 		<string name="HIGHLIGHT_RESULTS">Resaltar los resultados</string>
 
 		<!-- Dialogs -->
