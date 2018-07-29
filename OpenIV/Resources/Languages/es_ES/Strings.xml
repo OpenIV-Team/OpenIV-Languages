@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
 	<StringList>
 		<Item Index='00' Value='Progreso...'/>
@@ -13,7 +13,7 @@
 		<Item Index='09' Value=' Kb'/>
 		<Item Index='10' Value=' Mb'/>
 		<Item Index='11' Value='¡Cuidado, estás por entrar al modo edición!'/>
-		<Item Index='12' Value='Mientras estes en el modo edición, todos los cambios van a ser guardados automaticamente.\n¿Quieres continuar?'/>
+		<Item Index='12' Value='Mientras estés en el modo edición, todos los cambios van a ser guardados automaticamente.\n¿Quieres continuar?'/>
 		<Item Index='13' Value='Carpeta de destino:'/>
 		<Item Index='14' Value='La aplicación externa está trabajando...'/>
 		<Item Index='15' Value='Creando nuevo %S'/>
