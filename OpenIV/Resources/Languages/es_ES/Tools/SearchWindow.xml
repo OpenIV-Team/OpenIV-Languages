@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<SearchWindow Caption='$AppName$ - Búsqueda Global'>
 		<SearchBox BannerText="Buscar"/>
@@ -13,7 +13,7 @@
  			</Items>
  		</cbSearchArea>
 		<cbSoundsAndAudio Caption="Buscar en audio"/>
-		<lbStopHint Caption="Para parar la busqueda preciona ESC"/>
+		<lbStopHint Caption="Para parar la busqueda presiona ESC"/>
 		<btnExtractResults Caption="Extraer resultados"/>
  		<btnExtractAll Caption="Extraer todos los archivos"/>
  		<btnExtractSelected Caption="Extraer archivos seleccionados"/>
