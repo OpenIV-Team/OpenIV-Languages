@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<CollisionViewerWindow Caption='$AppName$ Visor de Colisión'>
 		<paneDictionary Caption='Entradas del Diccionario'/>
@@ -12,12 +12,12 @@
 		<!-- right side -->
 		<string name="SHOW_NORMALS">Mostrar Normals:</string>
 		<!-- left side -->
-		<string name="BOUND_TYPE">Tipo de Bound:</string>
+		<string name="BOUND_TYPE">Tipo de Límite:</string>
 		<string name="CHILD_COUNT">Contador de Child:</string>	
 		<!-- help -->
 		<string name="HELP_TITLE">Visor de Colisión - ayuda</string>
 		<text name="HELP_TEXT">
-			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
+			<![CDATA[Usa el mouse para ver alrededor, muévete usando las siguientes teclas:
 			
     W - Mover adelante
     S - Mover atrás
@@ -37,7 +37,7 @@ Para cambiar las opciones de render usa las siguientes teclas:
 		   
     F1 - Alternar este panel de ayuda
     C - Alternar modo de camara
-    F - Alternar Edged Faces
+    F - Alternar Caras con Bordes
     P - Alternar puntos de pantalla
     N - Alternar mostrar normals
     G - Alternar geometría
