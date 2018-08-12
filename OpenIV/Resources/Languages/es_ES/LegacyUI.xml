@@ -8,7 +8,7 @@
 		<btnSwitchMode Caption='Modo Edición' hint='Activar el Modo Edición (F6)' showhint='True'/>
 		<btnCloseArchive hint='Cerrar archivo (Shift + retroceso)' showhint='True'/>
 		<!-- String's -->
-		<AeroWindow LinesCount='70'>
+		<AeroWindow LinesCount='80'>
 			<StringList>
 				<Item Index='0' Value='Nombre'/>
 				<Item Index='1' Value='Tipo'/>
@@ -82,7 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Confirmación"/>
 				<Item Index="70" Value='Todos los cambios que hiciste en "$ModsFolderPath$\update\update.rpf" van a ser perdidos.\n¿Quieres continuar?'/>
 				<Item Index="71" Value='Buscar "%s" en todos los archivos'/>
-				<Item Index="72" Value="¿Realmente quieres alir de $AppName$?"/>
+				<Item Index="72" Value="¿Realmente quieres salir de $AppName$?"/>-->
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
@@ -147,7 +147,7 @@
 		<actReadMode Caption='Modo Lectura'  Hint=''/>
 		<actCloseAllArchives Caption='Cerrar todos los archivos' Hint='Cerrar todos los archivos abiertos'/>
 		<actCloseAllFolders Caption="Cerrar todas las carpetas" Hint="Cerrar todas las carpetas abiertas"/>
-		<actCloseactCloseArchive    Caption='Cerrar archivo' Hint='Cerrar archivo actual'/>
+		<actCloseArchive Caption="Cerrar archivo" Hint="Cerrar archivo actual"/>
 		<actExit     Caption='Salir' Hint='Salir'/>
 		<!-- Edit Action's -->
 		<actOpen     Caption='Open' Hint='Abrir archivo seleccionado'/>
@@ -339,7 +339,7 @@
  		<WorkMode>
  			<Items>
  				<Item Index="0" Value="Editar"/>
- 				<Item Index="1" Value="Solo Lectura"/>
+ 				<Item Index="1" Value="Solo lectura"/>
  			</Items>
  		</WorkMode>
  		<lbDefTextureFormatGlb Caption="Formato de textura por defecto"/>
