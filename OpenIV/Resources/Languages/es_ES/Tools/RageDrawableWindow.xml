@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<RageDrawableWindow Caption='$AppName$ Visor de Modelos'>
 		<pmiCopyName Caption='Copiar nombre'/>
@@ -24,7 +24,7 @@
 		<!-- help -->
 		<string name="HELP_TITLE">Visor de Modelos - Ayuda</string>		
 		<text name="HELP_TEXT">
-			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
+			<![CDATA[Usa el mouse para ver alrededor, muévete usando las siguientes teclas:
 			
     W - Mover adelante
     S - Mover atrás
@@ -46,7 +46,7 @@ Para cambiar las opciones de render usa estas teclas:
 		   
     F1 - Alternar este panel de ayuda
     C - Alternar modo de cámara
-    F - Alternar Edged Faces
+    F - Alternar Caras con Bordes
     P - Alternar puntos de pantalla
     N - Alternar mostrar normals
     G - Alternar geometría
@@ -56,8 +56,8 @@ Para cambiar las opciones de render usa estas teclas:
 		</text>
 		<string name="CHECK_ALL">Seleccionar todos</string>
 		<string name="UNCHECK_ALL">Deseleccionar todos</string>
-		<string name="MULTIPLE_RENDERING">Multiple render</string>
-		<string name="BOUND_TYPE">Tipo de Bound:</string>
+		<string name="MULTIPLE_RENDERING">Render múltiple</string>
+		<string name="BOUND_TYPE">Tipo de Límite:</string>
 		<string name="CHILD_COUNT">Contador de Child:</string>
 	</RenderUI>
 </Translation>
