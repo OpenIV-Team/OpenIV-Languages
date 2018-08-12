@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<PtxFileViewerWindow Caption='$AppName$ Visor de Modelos'>
-		<paneDictionary Caption='Dictionary elements'/>
+		<paneDictionary Caption='Elementos del diccionario'/>
 	</PtxFileViewerWindow>
 	<RenderUI>
 		<string name="EXPORT_TO_FORMATS">Exportar a openFormats</string>	
 		<!-- help -->
 		<string name="HELP_TITLE">Visor de Modelos - ayuda</string>		
 		<text name="HELP_TEXT">
-			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
+			<![CDATA[Usa el mouse para ver alrededor, muévete usando las siguientes teclas:
 			
     W - Mover adelante
     S - Mover atrás
@@ -29,7 +29,7 @@ Para cambiar las opciones de render usa las siguientes teclas:
     F1 - Alternar este panel de ayuda
     F2 - Mostrar más información
     C - Alternar modo de cámara
-    F - Alternar Edged Faces
+    F - Alternar Caras con Bordes
     P - Alternar puntos de pantalla
     N - Alternar mostrar normals
     G - Alternar geometría
