@@ -1,14 +1,14 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<NavmeshViewerWindow Caption='$AppName$ Visor de Nav Mesh' />		
 	<RenderUI>
 		<string name="HELP_TITLE">Visor de Nav Mesh - ayuda</string>
 		<string name="EDGES">Bordes:</string>
-		<string name="PORTALS">Portals:</string>
-		<string name="BOUNDS">Bounds:</string>
-		<string name="DISPLAY_BOUNDS">Monitor de Bounds:</string>
+		<string name="PORTALS">Portales:</string>
+		<string name="BOUNDS">Límites:</string>
+		<string name="DISPLAY_BOUNDS">Monitor de Límites:</string>
 		<text name="HELP_TEXT">
-			<![CDATA[Usa el mouse para ver alrededor, muevete usando las siguientes teclas:
+			<![CDATA[Usa el mouse para ver alrededor, muévete usando las siguientes teclas:
 			
     W - Mover adelante
     S - Mover atrás
@@ -28,7 +28,7 @@ Para cambiar las opciones de render usa las siguientes teclas:
 		   
     F1 - Alternar este panel de ayuda
     C - Alternar modo de camara
-    F - Alternar Edged Faces
+    F - Alternar Caras con Bordes
     P - Alternar puntos de pantalla
     N - Alternar mostrar normals
     G - Alternar geometría
