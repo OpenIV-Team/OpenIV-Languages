@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Favorites -->
@@ -74,7 +74,7 @@
 
 	<!-- Archive properties -->
 
-	<ArchivePropertiesWindow Caption='RPF信息'>
+	<ArchivePropertiesWindow Caption='RPF 信息'>
 		<!-- Button's -->
 		<btnClose Caption='关闭'/>
 		<!-- Label's -->
@@ -91,7 +91,7 @@
 
 	<!-- openFormats -->
 
-	<openFormatsImportWindow Caption='$AppName$ - 导入openFormats文件'>
+	<openFormatsImportWindow Caption='$AppName$ - 导入 openFormats 文件'>
 		<!-- Label's -->
 		<lbOfFileName Caption='导入文件：'/>
 		<lbOfFiles Caption='导入文件：'/>
@@ -101,13 +101,13 @@
 		<btnRemove Caption='移除'/>
 		<btnCancel Caption='取消'/>
 		<btnOk Caption='确定'/>
-		<tbLeanMore Caption='了解openFormats'/>
+		<tbLeanMore Caption='了解 openFormats'/>
 		<!-- Check box -->
-		<cbProtectMesh Caption='保护网格（以防日后被导出）'/>
+		<cbProtectMesh Caption='保护网格（以防之后被导出）'/>
 	</openFormatsImportWindow>
 
-	<openFormatsValidatorWindow Caption='$AppName$ - openFormats验证器'>
-		<lbTitle Caption='openFormats导入报告'/>
+	<openFormatsValidatorWindow Caption='$AppName$ - openFormats 验证器'>
+		<lbTitle Caption='openFormats 导入报告'/>
 		<btnClose Caption='关闭'/>
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
@@ -129,16 +129,22 @@
 				<Item Index='11' Value='%S(Line %D)：碰撞过大。'/>
 				<Item Index='12' Value='%S(Line %D)：碰撞损坏。'/>
 				<!-- Skeleton errors -->
-				<Item Index='13' Value='%S(Line %D)：骨点名为null。'/>
+				<Item Index='13' Value='%S(Line %D)：骨点名为 null。'/>
 				<!-- Geometry/Graphics/Drawables errors -->
 				<Item Index='14' Value='%S(Line %D)：网格被锁定。'/>
 				<Item Index='15' Value='%S(Line %D)：材料索引超出限制。'/>
 				<Item Index='16' Value="%S(Line %D)：着色器无法被覆盖。"/>		
-				<Item Index='17' Value="%S(Line %D)：单个几何体中骨点过多，你最多只能使用48个骨点。"/>
+				<Item Index='17' Value="%S(Line %D)：单个几何体中骨点过多，你最多只能使用 48 个骨点。"/>
 
-				<Item Index='18' Value="%S(Line %D)：%S"/>						
+				<Item Index='18' Value="%S(Line %D)：%S"/>
+				
+				<!-- Export/Import -->
+				<Item Index='19' Value='openFormats 导入报告'/>
+				<Item Index='20' Value='openFormats 导出报告'/>
+				<Item Index='21' Value='部分文件没有到处，下方文字说明。'/>
+				
 			</StringList>
-		</AeroWindow>	
-	</openFormatsValidatorWindow>	
+		</AeroWindow>
+	</openFormatsValidatorWindow>
 
 </Translation>

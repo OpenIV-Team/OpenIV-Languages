@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<RageScriptWindow Caption='SCO瀏覽器 - '>
+	<RageScriptWindow Caption='SCO 瀏覽器 - '>
 		<!-- Button's -->
 		<btnSave Caption='將代碼存為文本'/>
 		<btnClose Caption='關閉'/>
@@ -8,8 +8,8 @@
 		<btnCFList Caption='隱藏列表'/>
 		<btnCodeList Caption='隱藏列表'/>
 		<!-- Tabs -->
-		<tbASM Caption='ASM代碼'/>
-		<tbCFASM Caption='控制流ASM代碼'/>
+		<tbASM Caption='ASM 代碼'/>
+		<tbCFASM Caption='控制流 ASM 代碼'/>
 		<tbCODE Caption='高級別代碼'/>
 		<Label1 Caption='過濾器：'/>
 		<!-- Menu -->
@@ -23,11 +23,11 @@
 		<miCopyAll Caption='複製全部'/>
 		<!-- Save code menu -->
 		<N4 Caption='存為文本'/>
-		<N5 Caption='存為HTML'/>	
+		<N5 Caption='存為 HTML'/>	
 		<!-- String's -->
 		<AeroWindow LinesCount='5'>
 			<StringList>
-				<Item Index='0' Value='加載SCO文件中...'/>
+				<Item Index='0' Value='加載 SCO 文件中...'/>
 				<Item Index='1' Value='[第一步]'/>
 				<Item Index='2' Value='[第二步]'/>
 				<Item Index='3' Value='[第三步]'/>

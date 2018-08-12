@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<SearchWindow Caption='$AppName$ - 全局搜索'>
 		<SearchBox BannerText="搜索"/>

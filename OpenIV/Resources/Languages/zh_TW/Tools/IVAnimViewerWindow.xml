@@ -15,7 +15,7 @@
 		<string name="EMPTY_CUTSCENE">空的過場動畫</string>
 		<string name="EMPTY_CUTSCENE_MSG">無法打開空的過場動畫。</string>
 		<string name="MISSED_ANIMATIONS">動畫丟失</string>
-		<string name="MISSED_ANIMATIONS_MSG">$AppName$無法加載動畫因為文件丟失。</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ 無法加載動畫因為文件丟失。</string>
 		<string name="FRAMES_">幀率：</string>
 		<string name="TIME_SCALE_X">時間調整： x</string>
 		<!-- help -->
