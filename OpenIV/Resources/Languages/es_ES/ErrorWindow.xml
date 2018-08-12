@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<ErrorWindow Caption='$AppName$ - Error de la apliación'>
 		<lbWindowTitle Caption="$AppName$ tuvo un problema que no pudo manejar, \ny ahora debe reiniciarse."/>
