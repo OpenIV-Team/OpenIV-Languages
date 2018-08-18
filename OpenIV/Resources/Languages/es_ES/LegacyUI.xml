@@ -82,7 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Confirmación"/>
 				<Item Index="70" Value='Todos los cambios que hiciste en "$ModsFolderPath$\update\update.rpf" van a ser perdidos.\n¿Quieres continuar?'/>
 				<Item Index="71" Value='Buscar "%s" en todos los archivos'/>
-				<Item Index="72" Value="¿Realmente quieres salir de $AppName$?"/>-->
+				<Item Index="72" Value="¿Realmente quieres salir de $AppName$?"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
