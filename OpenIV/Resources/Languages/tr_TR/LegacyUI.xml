@@ -198,7 +198,6 @@
 		<actSocialFacebook Caption="$AppName$ Facebook sayfası" Hint=""/>
 		<actSocialTwitter Caption="$AppName$ Twitter hesabı" Hint=""/>
 		<actSocialVKCom Caption="$AppName$ VK sayfası" Hint=""/>
-		<!-- Only in Win7 and later -->
 		<actWin7ReportTool Caption="Bir sorunu ortaya çıkaran adımları kaydet" Hint=""/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Tüm grupları gizle" Hint=""/>

@@ -140,7 +140,7 @@
 				<Item Index='19' Value='Αναφορά εισαγωγής openFormats'/>
 				<Item Index='20' Value='Αναφορά εξαγωγής openFormats'/>
 				<Item Index='21' Value='Μερικά αρχεία δεν εξήχθησαν, περισσότερες πληροφορίες παρακάτω.'/>
-								
+
 			</StringList>
 		</AeroWindow>	
 	</openFormatsValidatorWindow>	

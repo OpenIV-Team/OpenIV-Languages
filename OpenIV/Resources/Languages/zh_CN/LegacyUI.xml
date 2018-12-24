@@ -99,7 +99,7 @@
 		<btnShowInMods Caption='查看"mods"目录'/>
 		<btnChangeModsFolderSettings Caption='"mods"目录选项'/>
 		<!-- Notification: update.rpf -->
-<lbCopyNewUpdateToModsTitle Caption='游戏已更新'/>
+		<lbCopyNewUpdateToModsTitle Caption='游戏已更新'/>
 		<lbCopyNewUpdateToMods Caption='"mods" 目录中的update.rpf 是旧版本的。你需要复制新版本的 update.rpf 到 "mods" 目录， 不然你的游戏会停止运行。'/>
 		<btnCopyUpdateToMods Caption='复制'/>
 		<!-- Notification: Admin mode -->
@@ -189,7 +189,7 @@
 		<actGoToWeb Caption="前往网站..." Hint=""/>
 		<actSendFeedback Caption="发送反馈" Hint=""/>
 		<actReportBug Caption="报告 Bug" Hint=""/>
-		<actWin7ReportTool Caption="记录重现问题的步骤" Hint=""/> <!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="记录重现问题的步骤" Hint=""/>
 		<actAbout Caption="关于..." Hint="关于"/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="折叠所有组" Hint=""/>

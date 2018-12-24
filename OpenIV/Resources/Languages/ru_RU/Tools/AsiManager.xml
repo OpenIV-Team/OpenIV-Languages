@@ -3,31 +3,31 @@
 	<FiveAsiManagerWindow Caption='ASI Менеджер - $AppName$'/>
 	<RenderUI>
 		<string name="TITLE">GTA V - ASI Менеджер</string>
-		
+
 		<string name="RPF_NOTE">Вам необходимо установить загрузчик ASI и $ModsFolderAsi$ плагин для вашей $RageGAME_SHORT$, иначе игра не будет загружать отредактированные RPF архивы.</string>
 		<string name="ONLINE_NOTE">Не пытайтесь играть в $RageGAME_MP$ с отредактированными RPF архивами, вы будете заблокированы.</string>
-		
+
 		<string name="INSTALL">Установить</string>
 		<string name="UPDATE">Обновить</string>
 		<string name="UNINSTALL">Удалить</string>
-		
+
 		<string name="NOT_INSTALLED">НЕ УСТАНОВЛЕН</string>
 		<string name="UPDATE_REQUIRED">ТРЕБУЕТСЯ ОБНОВЛЕНИЕ</string>
 		<string name="INSTALLED">УСТАНОВЛЕН</string>
 		<string name="DISABLED">ОТКЛЮЧЕН</string>
-		
+
 		<string name="ASI_LOADER">ASI Loader</string>
 		<string name="ASI_LOADER_DESCRIPTION">ASI Loader is the tool that loads custom libraries with the file extension .asi into the game process.</string>
-		
+
 		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
 		<string name="OPENIV_ASI_DESCRIPTION">This ASI Plugin is allow your game to load modified RPF archives. It is also provides support for “mods” folder.</string>
-		
+
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
 		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Убирает ограничения на перемещение "Свободной камеры" в редакторе Rockstar.</string>
-		
+
 		<string name="INSTALLATION_FAILED">Установка не удалась</string>
 		<string name="INSTALLATION_FAILED_TEXT">Установка не удалась, перезапустите $AppName$ и попробуйте снова.</string>
-		
+
 		<string name="UNINSTALL_FAILED">Uninstall failed</string>
 		<string name="UNINSTALL_FAILED_TEXT">Uninstall failed, restart $AppName$ and try again.</string>
 

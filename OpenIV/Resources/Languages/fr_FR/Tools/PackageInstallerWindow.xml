@@ -30,7 +30,7 @@
 		<string name="LOCATION_GAME_FOLDER">Dossier principal</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Installer ce paquetage directement dans le dossier du jeu</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Ce paquetage ne peut pas être installé dans le dossier principal car la modification a été désactivée dans les paramètres du dossier $ModsFolder$.</string>
-		
+
 		<string name="INSTALLATION_SUCCEEDED">Installation terminée</string>
 		<string name="RUN_GAME">Lancer $RageGAME$</string>
 		<string name="RUN_GAME_TEXT">Lancez le jeu pour voir les modifications</string>
@@ -47,7 +47,7 @@
 		<string name="ERROR_INSTALLATION">Erreur fatale durant l'installation. Regardez dans les fichiers de logs pour plus de détails.</string>
 		<string name="ERROR_MSXML">MSXML n'est pas installé. Il est nécessaire pour utiliser l'installateur de paquetages.</string>
 		<string name="CHECK_LOG_FILE">Merci de regarder dans les fichiers de logs pour plus de détails.</string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">Ouvrir les logs de l'installation</string>
 		<string name="OPEN_LOG_FILE">Ouvrir les logs du fichier</string>
 
@@ -77,9 +77,9 @@
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Ce paquetage ne peut pas être installé dans $RageGAME$. Merci de vous référer à la liste des jeux pris en charge dans la description du paquetage.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Des fichiers sont manquants dans le paquetage. Contactez l'auteur du paquetage.</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Certains fichiers ont un chemin d'accès incorrect. Contactez l'auteur du paquetage.</string>
-		
+
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Attention, ce paquetage ne pourra pas être désinstallé automatiquement.</string>
-		
+
 	</RenderUI>
 </Translation>

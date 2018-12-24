@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Εύρεση επιλεγμένου...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Αποκοπή"/>
 		<ActionEditCopy Caption="Αντιγραφή"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="ΚΕΦΑΛΑΊΑ"/>
 		<ActionEditLoverCase Caption="πεζά"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Εξαγωγή</string>
 		<string name="EXPORT_TEXT">Εξαγωγή απλού κειμένου (*.txt)</string>
 		<string name="EXPORT_HTML">Εξαγωγή μορφοποιημένου κειμένου (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Αρχική</string>
 		<string name="TAB_SEARCH">Εύρεση</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Εύρεση όλων</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Ορισμός επιλογής</string>
 		<string name="GOTO_LINE">Μετάβαση στη γραμμή</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Λειτουργία εύρεσης</string>
 		<string name="SEARCH_MODE_NORMAL">Κανονική</string>

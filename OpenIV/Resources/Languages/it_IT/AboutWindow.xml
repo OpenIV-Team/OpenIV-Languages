@@ -12,8 +12,8 @@
 		<string name="SPECIAL_THANKS_TO">Un ringraziamento speciale a</string>
 		<string name="LICENSE_TERMS">Condizioni di licenza del software</string>
 		<string name="LOCALIZATION">Contribuenti alla traduzione</string>
-        <string name="DEBUG_INFO">Informazioni di debug</string>
-        <string name="CLIENT_ID">ID Client (Codice IDentificativo)</string>
+		<string name="DEBUG_INFO">Informazioni di debug</string>
+		<string name="CLIENT_ID">ID Client (Codice IDentificativo)</string>
 
 		<!-- Community Dialog -->
 		<string name="JOIN_COMMUNITY">Unisciti alla community di $AppName$</string>

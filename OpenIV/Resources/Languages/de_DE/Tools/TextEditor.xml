@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<TextEditorWindow Caption='$AppName$ Textprogramm'>
 		<!-- String's -->
@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Auswahl suchen...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Ausschneiden"/>
 		<ActionEditCopy Caption="Kopieren"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="GROSSSCHRIFT"/>
 		<ActionEditLoverCase Caption="KLEINSCHRIFT"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Exportieren</string>
 		<string name="EXPORT_TEXT">Als Rohtext exportieren (*.txt)</string>
 		<string name="EXPORT_HTML">Als formatierten Text exportieren (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Home</string>
 		<string name="TAB_SEARCH">Suche</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Alle suchen</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Suchbereich wählen</string>
 		<string name="GOTO_LINE">Zeile aufrufen</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Suchmodus</string>
 		<string name="SEARCH_MODE_NORMAL">Normal</string>

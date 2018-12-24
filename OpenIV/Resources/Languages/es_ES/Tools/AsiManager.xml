@@ -1,41 +1,41 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
 	<RenderUI>
 		<string name="TITLE">$RageGAME_SHORT$ - ASI Manager</string>
-		
+
 		<string name="RPF_NOTE">Tienes que instalar ASI Loader y el $ModsFolderAsi$ plugin de OpenIV para tu $RageGAME_SHORT$, de lo contrario el juego no cargará archivos RPF modificados.</string>
 		<string name="ONLINE_NOTE">No juegues $RageGAME_MP$ con un RPF modificado, serás baneado.</string>
-		
+
 		<string name="INSTALL">Instalar</string>
 		<string name="UPDATE">Actualizar</string>
 		<string name="UNINSTALL">Desinstalar</string>
-		
+
 		<string name="NOT_INSTALLED">NO INSTALADO</string>
 		<string name="UPDATE_REQUIRED">ACTUALIZACIÓN REQUERIDA</string>
 		<string name="INSTALLED">INSTALADO</string>
 		<string name="DISABLED">DESACTIVADO</string>
-		
+
 		<string name="ASI_LOADER">ASI Loader</string>
 		<string name="ASI_LOADER_DESCRIPTION">ASI Loader es la herramienta que carga bibliotecas personalizadas con la extensión .asi en el proceso del juego.</string>
-		
+
 		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
 		<string name="OPENIV_ASI_DESCRIPTION">Este ASI Plugin te permite que tu juego cargue archivos RPF modificados. Este además te proporciona soporte para la carpeta de $ModsFolder$.</string>
-		
+
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
 		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Mejora la "Cámara libre" con limitaciones en el Rockstar Editor.</string>
-		
+
 		<string name="INSTALLATION_FAILED">La instalación falló</string>
 		<string name="INSTALLATION_FAILED_TEXT">La instalación falló, reinicia $AppName$ he intenta de nuevo.</string>
-		
+
 		<string name="UNINSTALL_FAILED">La desinstalación falló</string>
 		<string name="UNINSTALL_FAILED_TEXT">La desinstalación falló, reinicia $AppName$ he intenta de nuevo.</string>
-		
+
 		<string name="MODS_FOLDER_TITLE">Crear carpeta $ModsFolder$</string>
 		<string name="MODS_FOLDER_TEXT">La carpeta $ModsFolder$ te permite mantener todos tus archivos originales del juego seguros y tener una forma más facil de cambiar entre un archivo modificado a uno original.</string>
 		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Mostrar notificación mientras se esté editanto un archivo fuera de la carpeta $ModsFolder$</string>
 		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Permitir el modo edición solo para archivo dentro de la carpeta de $ModsFolder$</string>
- 		<string name="MODS_FOLDER_SETTINGS_NOTE">Puedes cambiar estas configuraciones en cualquier momento en las opciones de $AppName$.</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">Puedes cambiar estas configuraciones en cualquier momento en las opciones de $AppName$.</string>
 		<string name="MODS_FOLDER_LEARN_MORE">Aprende más sobre la carpeta $ModsFolder$</string>
 	</RenderUI>
 </Translation>

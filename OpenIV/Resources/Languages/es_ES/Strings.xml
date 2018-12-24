@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
 	<StringList>
 		<Item Index='00' Value='Progreso...'/>
@@ -43,10 +43,10 @@
 		<Item Index='39' Value='$AppName$ - No hay ningún dispositivo de reproducción de audio.'/>
 		<Item Index='40' Value='Incapaz de reproducir el archivo de audio. No hay ningún dispositivo de reproducción de audio.'/>
 		<Item Index='41' Value='$AppName$ es incapaz de encontar el handler para este archivo.\nRuta del archivo: "%s"'/>
- 		<Item Index='42' Value='$AppName$ es incapaz de encontrar o abrir este archivo.\nRuta del archivo: "%s"'/>
- 		<Item Index='43' Value='$AppName$ no puede abrir este archivo porque es más grande que 256 Megabytes.'/>
- 		<Item Index='44' Value='$AppName$ es incapaz de mostrar contenido de este archivo. El archivo no puede ser guardado como XML, código de error: %s'/>
- 		<Item Index='45' Value='$AppName$ es incapaz de abrir este archivo. Código de error: %s'/>
+		<Item Index='42' Value='$AppName$ es incapaz de encontrar o abrir este archivo.\nRuta del archivo: "%s"'/>
+		<Item Index='43' Value='$AppName$ no puede abrir este archivo porque es más grande que 256 Megabytes.'/>
+		<Item Index='44' Value='$AppName$ es incapaz de mostrar contenido de este archivo. El archivo no puede ser guardado como XML, código de error: %s'/>
+		<Item Index='45' Value='$AppName$ es incapaz de abrir este archivo. Código de error: %s'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="Abrir $RageGAME_SHORT$" Hint="Abrir $RageGAME$"/>

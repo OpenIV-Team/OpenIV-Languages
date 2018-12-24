@@ -16,7 +16,7 @@
 		<string name="SAVE">Speichern</string>
 		<string name="IMPORT">Importieren</string>
 		<string name="SEARCH">Suchen</string>
-		
+
 		<!-- Context menu -->
 		<string name="COPY_ID">ID kopieren</string>
 		<string name="COPY_NAME">Namen kopieren</string>
@@ -24,7 +24,7 @@
 		<string name="COPY_VALUE">Wert kopieren</string>
 		<string name="COPY_PROPERTIES">Eigenschaften kopieren</string>
 		<string name="EXPORT_TEXTURE">Exportieren</string>
-		
+
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Kameramodus:</string>
 		<string name="CAMERA_MODE_FREE">Frei</string>
@@ -90,7 +90,7 @@
 		<string name="COLUMN_FACE_COUNT">Flächen</string>
 		<string name="COLUMN_VERTEX_COUNT">Ecken</string>
 		<string name="COLUMN_TOTAL_">Insgesamt:</string>
-		
+
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Bitte wähle ein Dateiformat:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
@@ -101,12 +101,12 @@
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Beim Exportieren kann Qualität verloren gehen.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap - Bild (*.bmp)</string>
 
-        <!-- Bearbeiten -->
- 		<string name="UNDO">Rückgängig</string>
- 		<string name="REDO">Wiederholen</string>
- 		<string name="CUT">Ausschneiden</string>
- 		<string name="COPY">Kopieren</string>
- 		<string name="PASTE">Einfügen</string>
- 		
+		<!-- Bearbeiten -->
+		<string name="UNDO">Rückgängig</string>
+		<string name="REDO">Wiederholen</string>
+		<string name="CUT">Ausschneiden</string>
+		<string name="COPY">Kopieren</string>
+		<string name="PASTE">Einfügen</string>
+
 	</RenderUI>
 </Translation>

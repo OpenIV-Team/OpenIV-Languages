@@ -198,7 +198,6 @@
 		<actSocialFacebook Caption="Сторінка $AppName$ у Facebook" Hint=""/>
 		<actSocialTwitter Caption="Твіттер $AppName$" Hint=""/>
 		<actSocialVKCom Caption="Група $AppName$ у «ВКонтакті»" Hint=""/>
-		<!-- Only in Win7 and later -->
 		<actWin7ReportTool Caption="Записати дії, спрямовані на відтворення помилки" Hint=""/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Згорнути всі групи" Hint=""/>
@@ -306,7 +305,7 @@
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
-	
+
 	<!-- Web window -->
 
 	<webWindow Caption="$WebName$ - ">

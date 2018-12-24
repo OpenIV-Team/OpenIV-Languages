@@ -412,7 +412,7 @@
 		<ext>cgx</ext>
 	</type>
 	<type Name="Metadados de áudio">
-	    <ext>DAT4</ext>
+		<ext>DAT4</ext>
 		<ext>DAT10</ext>
 		<ext>DAT11</ext>
 		<ext>DAT12</ext>

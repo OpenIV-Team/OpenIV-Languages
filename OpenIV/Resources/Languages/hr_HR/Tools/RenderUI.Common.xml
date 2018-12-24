@@ -81,7 +81,7 @@
 		<string name="COLUMN_FACE_COUNT">Lice broj</string>
 		<string name="COLUMN_VERTEX_COUNT">Broj točke(vertex ID)</string>
 		<string name="COLUMN_TOTAL_">Ukupno:</string>
-		
+
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Molimo, odaberite format datoteke:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Prenosiva Mrežna Grafika (*.png)</string>
@@ -98,6 +98,6 @@
 		<string name="CUT">Izreži</string>
 		<string name="COPY">Udvostruči</string>
 		<string name="PASTE">Zalijepi</string>
-		
+
 	</RenderUI>
 </Translation>

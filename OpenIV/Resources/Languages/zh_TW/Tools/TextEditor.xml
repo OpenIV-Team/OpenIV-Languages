@@ -10,7 +10,7 @@
 				<Item Index='3' Value='搜索選定...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="剪切"/>
 		<ActionEditCopy Caption="複製"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="大寫"/>
 		<ActionEditLoverCase Caption="小寫"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">導出</string>
 		<string name="EXPORT_TEXT">導出為txt</string>
 		<string name="EXPORT_HTML">導出為html</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">主頁</string>
 		<string name="TAB_SEARCH">搜索</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">搜索全部</string>
 		<string name="SEARCH_SET_SELECTION_AREA">設置選區</string>
 		<string name="GOTO_LINE">轉至</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">搜索模式</string>
 		<string name="SEARCH_MODE_NORMAL">普通</string>

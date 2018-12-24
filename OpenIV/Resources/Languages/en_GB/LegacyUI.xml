@@ -189,7 +189,7 @@
 		<actGoToWeb Caption="Go to website..." Hint=""/>
 		<actSendFeedback Caption="Send Feedback" Hint=""/>
 		<actReportBug Caption="Report a bug" Hint=""/>
-		<actWin7ReportTool Caption="Record steps to reproduce a problem" Hint=""/> <!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="Record steps to reproduce a problem" Hint=""/>
 		<actAbout Caption="About..." Hint="About"/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Collapse all groups" Hint=""/>

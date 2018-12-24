@@ -11,10 +11,10 @@
 		<string name="ALPHABETICALLY">(alphabetisch)</string>
 		<string name="SPECIAL_THANKS_TO">Besonderen Dank auch an</string>
 		<string name="LICENSE_TERMS">Der Endbenutzer-Lizenzvertrag</string>
-        <string name="LOCALIZATION">Übersetzer</string>
+		<string name="LOCALIZATION">Übersetzer</string>
 		<string name="DEBUG_INFO">Debug Informationen</string>
 		<string name="CLIENT_ID">Client ID</string>
-		
+
 		<!-- Community Dialog -->
 		<string name="JOIN_COMMUNITY">Trete der $AppName$ Community bei</string>
 		<string name="JOIN_DISCUSSION">Trete der $AppName$ Diskussion bei</string>

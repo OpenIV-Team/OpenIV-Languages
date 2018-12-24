@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<SearchWindow Caption='Suche - $AppName$'>
 		<SearchBox BannerText="Suche"/>
 		<btnGoSearch Caption="Suchen"/>
 		<lbSearchOptions Caption="Suchoptionen:"/>
- 		<lbSearchArea Caption="Suchbereich:"/>
- 		<cbSearchArea>
- 			<Items>
- 				<Item Index="0" Value='Überall suchen'/>
- 				<Item Index="1" Value="Nur im Spieleverzeichnis suchen"/>
- 				<Item Index="2" Value='Nur im $ModsFolder$ Ordner suchen'/>
- 			</Items>
- 		</cbSearchArea>
+		<lbSearchArea Caption="Suchbereich:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Überall suchen'/>
+				<Item Index="1" Value="Nur im Spieleverzeichnis suchen"/>
+				<Item Index="2" Value='Nur im $ModsFolder$ Ordner suchen'/>
+			</Items>
+		</cbSearchArea>
 		<cbSoundsAndAudio Caption="In Audios suchen"/>
 		<lbStopHint Caption="Um den Suchvorgang abzubrechen drücke ESC"/>
 		<btnExtractResults Caption="Exportergebnisse"/>
 		<btnExtractAll Caption="Alle Dateien exportieren"/>
 		<btnExtractSelected Caption="Ausgewählte Dateien extrahieren"/>
-        <btnGoTo Caption="Zu Datei gehen"/>
+		<btnGoTo Caption="Zu Datei gehen"/>
 		<btnOpenItem Caption="Öffnen"/>
 		<btnExtractItem Caption="Exportieren"/>
 		<btnExtractSelectedItems Caption="Ausgewählte Dateien exportieren"/>
 		<btnExtractAllItems Caption="Alle Dateien exportieren"/>
 		<btnSelectAllItems Caption="Alles auswählen"/>
-        <btnCopyName Caption="Namen kopieren"/>
- 		<btnCopyPathName Caption="Pfad kopieren"/>
- 		<btnSaveContent Caption="Inhalt speichern"/>
-        <btnSaveRawContent Caption="Rohdaten speichern"/>
-        <!-- Strings -->
+		<btnCopyName Caption="Namen kopieren"/>
+		<btnCopyPathName Caption="Pfad kopieren"/>
+		<btnSaveContent Caption="Inhalt speichern"/>
+		<btnSaveRawContent Caption="Rohdaten speichern"/>
+		<!-- Strings -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
 				<Item Index='0' Value='Suchen'/>

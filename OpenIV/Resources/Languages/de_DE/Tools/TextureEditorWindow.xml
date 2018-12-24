@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<TextureEditorWindow Caption='$AppName$ Texturenwerkzeug'>
 		<!-- String's -->
@@ -58,11 +58,11 @@ Es kann Qualität verloren gehen während die Einstellungen verändert werden.]]
 
 		<!-- Save changes dialog -->
 		<string name="SAVE_CHANGES_">Sollen die Änderungen gespeichert werden?</string>
-		
+
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">DirectX 11 ist nicht verfügbar</string>
 		<string name="DX11_NOT_INIT_TEXT">$AppName$ kann das DirectX 11 Gerät nicht initialisieren.\nDiese Datei kann nicht bearbeitet werden.</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">Texturenbearbeitungswerkzeug - Hilfe</string>
 		<text name="HELP_TEXT">

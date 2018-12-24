@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Chercher sélection...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Couper"/>
 		<ActionEditCopy Caption="Copier"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="MAJUSCULES"/>
 		<ActionEditLoverCase Caption="minuscules"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Exporter</string>
 		<string name="EXPORT_TEXT">Exporter en texte (*.txt)</string>
 		<string name="EXPORT_HTML">Exporter en texte formaté (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Accueil</string>
 		<string name="TAB_SEARCH">Rechercher</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Chercher tout</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Définir sélection</string>
 		<string name="GOTO_LINE">Aller à la ligne</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Mode de recherche</string>
 		<string name="SEARCH_MODE_NORMAL">Normal</string>

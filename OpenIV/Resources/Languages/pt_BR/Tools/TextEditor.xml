@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Localizar selecionado...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Cortar"/>
 		<ActionEditCopy Caption="Copiar"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="MAIÚSCULO"/>
 		<ActionEditLoverCase Caption="minúsculo"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Exportar</string>
 		<string name="EXPORT_TEXT">Exportar texto simples (*.txt)</string>
 		<string name="EXPORT_HTML">Exportar texto formatado (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Início</string>
 		<string name="TAB_SEARCH">Buscar</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Localizar tudo</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Definir seleção</string>
 		<string name="GOTO_LINE">Ir para a linha</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Modo de busca</string>
 		<string name="SEARCH_MODE_NORMAL">Normal</string>

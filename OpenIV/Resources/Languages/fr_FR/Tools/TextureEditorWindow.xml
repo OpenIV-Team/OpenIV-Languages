@@ -56,11 +56,11 @@ Changer ces propriétés peut provoquer une baisse de la qualité.]]>
 
 		<!-- Save changes dialog -->
 		<string name="SAVE_CHANGES_">Sauvegarder les changements ?</string>
-		
+
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">DirectX 11 n'est pas disponible</string>
 		<string name="DX11_NOT_INIT_TEXT">$AppName$ ne peut pas initialiser DirectX 11.\nLes fonctionnalités d'édition ne sont pas disponibles pour se fichier.</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">Éditeur de textures - Aide</string>
 		<text name="HELP_TEXT">

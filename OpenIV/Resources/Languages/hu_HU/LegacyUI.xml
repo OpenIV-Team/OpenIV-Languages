@@ -194,7 +194,6 @@
 		<actSocialFacebook Caption="$AppName$ Facebook " Hint=""/>
 		<actSocialTwitter Caption="$AppName$ on Twitter" Hint=""/>
 		<actSocialVKCom Caption="$AppName$ VK page" Hint=""/>
-		<!-- Only in Win7 and later -->
 		<actWin7ReportTool Caption="Record steps to reproduce a problem" Hint=""/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Collapse all groups" Hint=""/>
@@ -302,7 +301,7 @@
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
-	
+
 	<!-- Web window -->
 
 	<webWindow Caption="$WebName$ - ">

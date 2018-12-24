@@ -18,7 +18,7 @@
 		<miSortByDuration Caption='Trier par durée'/>
 		<miSortOrderAsc Caption='Trier par ordre croissant'/>
 		<miSortOrderDesc Caption='Trier par ordre décroissant'/>
-		
+
 		<!-- Context menu -->
 		<miPlay Caption='Lire'/>
 		<miCopyName Caption='Copier le nom'/>

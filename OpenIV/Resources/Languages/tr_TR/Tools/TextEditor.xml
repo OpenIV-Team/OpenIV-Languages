@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Seçimde ara...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Kes"/>
 		<ActionEditCopy Caption="Kopyala"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="BÜYÜK HARFLER"/>
 		<ActionEditLoverCase Caption="küçük harfler"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Çıkart</string>
 		<string name="EXPORT_TEXT">Sade metin olarak çıkart (*.txt)</string>
 		<string name="EXPORT_HTML">Formatlanmış metin olarak çıkart (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Ev</string>
 		<string name="TAB_SEARCH">Ara</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Hepsini ara</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Seçimi değiştir</string>
 		<string name="GOTO_LINE">Satıra git</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Arama modu</string>
 		<string name="SEARCH_MODE_NORMAL">Normal</string>

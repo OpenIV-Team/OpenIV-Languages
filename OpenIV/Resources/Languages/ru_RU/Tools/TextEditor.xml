@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Найти выделенный текст...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Вырезать"/>
 		<ActionEditCopy Caption="Копировать"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="ПРОПИСНЫЕ"/>
 		<ActionEditLoverCase Caption="строчные"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Экспорт</string>
 		<string name="EXPORT_TEXT">Экспортировать простой текст (*.txt)</string>
 		<string name="EXPORT_HTML">Экспортировать форматированный текст (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Главная</string>
 		<string name="TAB_SEARCH">Поиск</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Найти все</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Выбрать область поиска</string>
 		<string name="GOTO_LINE">Перейти к строке</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Режим поиска</string>
 		<string name="SEARCH_MODE_NORMAL">Обычный</string>

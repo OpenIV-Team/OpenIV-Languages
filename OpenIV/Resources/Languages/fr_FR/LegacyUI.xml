@@ -189,7 +189,7 @@
 		<actGoToWeb Caption="Site internet..." Hint=""/>
 		<actSendFeedback Caption="Donner un avis" Hint=""/>
 		<actReportBug Caption="Reporter un bug" Hint=""/>
-		<actWin7ReportTool Caption="Enregistrer les étapes pour reproduire un problème" Hint=""/> <!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="Enregistrer les étapes pour reproduire un problème" Hint=""/>
 		<actAbout Caption="A propos..." Hint="About"/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Réduire tous les groupes" Hint=""/>
@@ -305,7 +305,7 @@
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
-	
+
 	<!-- Web window -->
 
 	<webWindow Caption="$WebName$ - ">
@@ -388,7 +388,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="Note : Assurez-vous que votre système est capable de jouer du son surround, autrement vous n'entendrez pas du tout certains canaux."/>
- 		<!-- openFormats -->
+		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Format de textures par défaut"/>
 		<cbNotExportTextureToFolder Caption="Ne pas placer les textures dans des dossiers différents en exportant en OTD"/>

@@ -54,11 +54,11 @@ Kvaliteta može bit izgubljena tijekom izmjena svojstava.]]>
 
 		<!-- Save changes dialog -->
 		<string name="SAVE_CHANGES_">Želite li snimiti izmjene?</string>
-		
+
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">DirectX 11 nije dostupan</string>
 		<string name="DX11_NOT_INIT_TEXT">$AppName$ nije u mogućnosti pokrenut DirectX 11 uređaj.\nMogućnosti uređivanja nisu dostupne za ovu datoteku.</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">Urednik tekstura - pomoć</string>
 		<text name="HELP_TEXT">

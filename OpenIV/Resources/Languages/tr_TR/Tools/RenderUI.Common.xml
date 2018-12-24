@@ -80,7 +80,7 @@
 		<string name="COLUMN_INDEX_COUNT">İndeks sayısı</string>
 		<string name="COLUMN_FACE_COUNT">Yüz sayısı</string>
 		<string name="COLUMN_VERTEX_COUNT">Tepe sayısı</string>
-		
+
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Lütfen dosya formatını seçin:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Taşınabilir Ağ Grafiği (*.png)</string>
@@ -97,6 +97,6 @@
 		<string name="CUT">Kes</string>
 		<string name="COPY">Kopyala</string>
 		<string name="PASTE">Yapıştır</string>
-		
+
 	</RenderUI>
 </Translation>

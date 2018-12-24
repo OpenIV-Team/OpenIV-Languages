@@ -50,7 +50,7 @@
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="Запуск $RageGAME_SHORT$" Hint="Запустити $RageGAME$"/>
- 		<item Name="Tools.Common.Search" Title="Пошук" Hint="Розпочати пошук"/>
+		<item Name="Tools.Common.Search" Title="Пошук" Hint="Розпочати пошук"/>
 		<item Name="Tools.Common.HashGenerator" Title="Генератор хеш-кодів" Hint="Відкрити генератор хеш-кодів"/>
 		<item Name="Tools.Common.PackageInstaller" Title="Інсталювач пакунків" Hint="Відкрити Інсталювач пакунків"/>
 		<item Name="Tools.GTAIV.PlacementSearch" Title="Пошук розташування" Hint="Розпочати пошук розташування"/>

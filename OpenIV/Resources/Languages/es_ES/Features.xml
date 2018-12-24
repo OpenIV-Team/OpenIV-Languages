@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Favorites -->
@@ -41,10 +41,10 @@
 	<!-- Archive Defragmenter -->
 
 	<DefragmenterWindow Caption='Desfragmentador de Archivos - $AppName$'>
- 		<!-- Labels -->
- 		<lbDescription Caption="El desfragmentador de archivos consolida archivos dentro de archivos para reducir el tamaño de estos en el disco duro de tu computadora."/>
- 		<lbNoteSave Caption='Todos tus cambios ya han sido guardados, no necesitas usar el desfragmentador luego de cada edición.'/>
- 		<lbNoteRevert Caption='El desfragmentador no va a revertir ningun cambio que hayas hecho en los archivos.'/>
+		<!-- Labels -->
+		<lbDescription Caption="El desfragmentador de archivos consolida archivos dentro de archivos para reducir el tamaño de estos en el disco duro de tu computadora."/>
+		<lbNoteSave Caption='Todos tus cambios ya han sido guardados, no necesitas usar el desfragmentador luego de cada edición.'/>
+		<lbNoteRevert Caption='El desfragmentador no va a revertir ningun cambio que hayas hecho en los archivos.'/>
 		<!-- Actions -->
 		<actClose Caption='Cerrar'/>
 		<actRebuild Caption='Desfragmentar'/>
@@ -141,7 +141,7 @@
 				<Item Index='19' Value='Reportar importe de openFormats'/>
 				<Item Index='20' Value='Reportar exporte de openFormats'/>
 				<Item Index='21' Value='Algunos archivos no se exportaron, más imformación abajo.'/>
-								
+
 			</StringList>
 		</AeroWindow>	
 	</openFormatsValidatorWindow>	

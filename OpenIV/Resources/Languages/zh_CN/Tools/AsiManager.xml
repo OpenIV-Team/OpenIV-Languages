@@ -3,31 +3,31 @@
 	<FiveAsiManagerWindow Caption='ASI 管理器 - $AppName$'/>
 	<RenderUI>
 		<string name="TITLE">$RageGAME_SHORT$ - 管理器</string>
-		
+
 		<string name="RPF_NOTE">你必须安装 ASI Loader 和 $ModsFolderAsi$ 插件用于 $RageGAME_SHORT$, 否则修改文件会导致游戏会出错。</string>
 		<string name="ONLINE_NOTE">不要在 $RageGAME_MP$ 在线游戏中使用 Mod，否则会被 R 星封禁游戏账户。</string>
-		
+
 		<string name="INSTALL">安装</string>
 		<string name="UPDATE">升级</string>
 		<string name="UNINSTALL">卸载</string>
-		
+
 		<string name="NOT_INSTALLED">未安装</string>
 		<string name="UPDATE_REQUIRED">需要更新</string>
 		<string name="INSTALLED">已安装</string>
 		<string name="DISABLED">未启用</string>
-		
+
 		<string name="ASI_LOADER">ASI Loader（dinput8.dll）</string>
 		<string name="ASI_LOADER_DESCRIPTION">ASI Loader可以向游戏加载 asi 插件，例如内置修改器。</string>
-		
+
 		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
 		<string name="OPENIV_ASI_DESCRIPTION">这个插件可以使游戏加载修改过的游戏文件。同时使得游戏支持 mods 目录。</string>
-		
+
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
 		<string name="OPEN_CAMERA_ASI_DESCRIPTION">改善 R 星编辑器中自由视角的视距边界。</string>
-		
+
 		<string name="INSTALLATION_FAILED">安装失败</string>
 		<string name="INSTALLATION_FAILED_TEXT">安装失败, 重新启动 $AppName$ 后重试。</string>
-		
+
 		<string name="UNINSTALL_FAILED">卸载失败</string>
 		<string name="UNINSTALL_FAILED_TEXT">卸载失败, 重新启动 $AppName$ 后重试。</string>
 

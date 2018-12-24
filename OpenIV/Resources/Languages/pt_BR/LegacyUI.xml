@@ -198,7 +198,6 @@
 		<actSocialFacebook Caption="$AppName$ no Facebook" Hint=""/>
 		<actSocialTwitter Caption="$AppName$ no Twitter" Hint=""/>
 		<actSocialVKCom Caption="$AppName$ no VK" Hint=""/>
-		<!-- Only in Win7 and later -->
 		<actWin7ReportTool Caption="Registrar as ações do usuário para reproduzir um problema" Hint=""/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Recolher todos os grupos" Hint=""/>
@@ -291,7 +290,7 @@
 		<btnClose Caption="Fechar"/>
 		<cbDoNotShow Caption="Não mostrar esta mensagem novamente"/>
 	</EditModeHelpWindow>
-	
+
 	<AdminModeWindow Caption="Administrador - $AppName$">
 		<lbText Caption="Não há nenhuma razão real para executar o $AppName$ como Administrador. O $AppName$ não requer privilégios de Administrador para funcionar corretamente. Caso contrário, quando você executar o $AppName$ como Administrador, alguns recursos como arrastar e soltar do Explorador de Arquivos do Windows pode não funcionar. Muito provavelmente, você executou o $AppName$ como Administrador porque seu jogo está instalado em algum lugar na pasta do sistema (ex: C:\Arquivos de Programas\...) e a conta de usuário normal não tem permissões para gravar nessa pasta.\n\nVocê pode definir todas as permissões necessárias para a pasta do seu jogo usando esta ferramenta e, em seguida, reinicie o $AppName$ sem direito de Administrador."/>
 		<btnSetPermissions Caption="Set permissions"/>
@@ -385,7 +384,7 @@
 		<gbModels Caption="Importar modelos (ODR/ODD/OFT)"/>
 		<cbProtectModels Caption="Ativar opção de mesh protegida por padrão (evita exportação futura)"/>
 		<btnSaveShaderInformation Caption="Salvar informações do shader openFormats"/>
-        <!-- Misc + old -->
+		<!-- Misc + old -->
 		<btnClose Caption="Fechar"/>
 		<actAppAdd Caption="Adicionar"/>
 		<actAppEdit Caption="Editar"/>

@@ -16,7 +16,7 @@
 		<string name="SAVE">Αποθήκευση</string>
 		<string name="IMPORT">Εισαγωγή</string>
 		<string name="SEARCH">Αναζήτηση</string>
-		
+
 		<!-- Context menu -->
 		<string name="COPY_ID">Αντιγραφή ID</string>
 		<string name="COPY_NAME">Αντιγραφή ονόματος</string>
@@ -24,7 +24,7 @@
 		<string name="COPY_VALUE">Αντιγραφή τιμής</string>
 		<string name="COPY_PROPERTIES">Αντιγραφή ιδιοτήτων</string>
 		<string name="EXPORT_TEXTURE">Εξαγωγή</string>
-		
+
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Λειτουργία κάμερας:</string>
 		<string name="CAMERA_MODE_FREE">Ελεύθερη</string>
@@ -90,7 +90,7 @@
 		<string name="COLUMN_FACE_COUNT">Μετρητής επιφανειών</string>
 		<string name="COLUMN_VERTEX_COUNT">Μετρητής γωνιών</string>
 		<string name="COLUMN_TOTAL_">Σύνολο:</string>
-		
+
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Επιλέξτε τύπο αρχείου:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Φορητά γραφικά δικτύου (*.png)</string>
@@ -107,6 +107,6 @@
 		<string name="CUT">Αποκοπή</string>
 		<string name="COPY">Αντιγραφή</string>
 		<string name="PASTE">Επικόλληση</string>
-		
+
 	</RenderUI>
 </Translation>

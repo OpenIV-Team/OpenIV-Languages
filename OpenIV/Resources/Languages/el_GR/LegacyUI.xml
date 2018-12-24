@@ -189,7 +189,7 @@
 		<actGoToWeb Caption="Επίσκεψη ιστοσελίδας..." Hint=""/>
 		<actSendFeedback Caption="Αποστολή ανάδρασης" Hint=""/>
 		<actReportBug Caption="Αναφορά σφάλματος" Hint=""/>
-		<actWin7ReportTool Caption="Καταγραφή βημάτων για την αναπαραγωγή ενός προβλήματος" Hint=""/> <!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="Καταγραφή βημάτων για την αναπαραγωγή ενός προβλήματος" Hint=""/>
 		<actAbout Caption="Περί..." Hint="Πληροφορίες"/>		
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Σύμπτυξη όλων των ομάδων" Hint=""/>
@@ -305,7 +305,7 @@
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
-	
+
 	<!-- Web window -->
 
 	<webWindow Caption="$WebName$ - ">

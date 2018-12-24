@@ -6,19 +6,19 @@
 		<miExportAllChannelsSeparately Caption='Alle Kanäle seperat exportieren'/>
 		<miExportAllAsStereo Caption='Alle Multichannel als Stereo WAV exportieren'/>
 		<miExportAllAsMono Caption='Alle Multichannel als Mono WAV exportieren'/>
-		
+
 		<!-- Options -->		
 		<btnOptions Caption='Optionen'/>
 		<miPlayWhenOpen Caption='Wiedergabe starten, wenn Datei geöffnet wird'/>
 		<miAutoPlayNext Caption='Nächsten Track automatisch abspielen'/>
-		
+
 		<!-- sort -->
 		<btnSort Caption='Sortieren'/>
 		<miSortByName Caption='Nach Name sortieren'/>
 		<miSortByDuration Caption='Nach Dauer sortieren'/>
 		<miSortOrderAsc Caption='In aufsteigender Reihenfolge sortieren'/>
 		<miSortOrderDesc Caption='In absteigender Reihenfolge sortieren'/>
-		
+
 		<!-- Context menu -->
 		<miPlay Caption='Wiedergeben'/>
 		<miCopyName Caption='Namen kopieren'/>

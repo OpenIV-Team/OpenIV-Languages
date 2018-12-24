@@ -189,7 +189,7 @@
 		<actGoToWeb Caption="Visita il sito web per qualche pillola in più" Hint=""/>
 		<actSendFeedback Caption="Invia un riscontro o suggerimento costruttivo" Hint=""/>
 		<actReportBug Caption="Segnalaci un bug star" Hint=""/>
-		<actWin7ReportTool Caption="Registra i passaggi per riprodurre un problema" Hint=""/> <!-- Only in Win7 and later -->
+		<actWin7ReportTool Caption="Registra i passaggi per riprodurre un problema" Hint=""/>
 		<actAbout Caption="Informazioni..." Hint=""/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Collassa tutti i gruppi" Hint=""/>

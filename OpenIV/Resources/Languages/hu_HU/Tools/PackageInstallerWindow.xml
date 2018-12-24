@@ -26,7 +26,7 @@
 		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED">This package cannot be installed into "mods" folder because it does not affect any RPF archives.</string>
 		<string name="LOCATION_GAME_FOLDER">Game folder</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Install this mod directly into game folder</string>
-		
+
 		<string name="INSTALLATION_SUCCEEDED">Installation succeeded</string>
 		<string name="RUN_GAME">Run $RageGAME$</string>
 		<string name="RUN_GAME_TEXT">Run game and check what you just got</string>
@@ -41,7 +41,7 @@
 		<string name="ERROR_CODE_UNKNOWN">Something happened. Please check log file for error details.</string>
 		<string name="ERROR_INSTALLATION">A fatal error occurred during installation. Please check log file for error details.</string>
 		<string name="CHECK_LOG_FILE">Please check log file for error details.</string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">Open installation log</string>
 		<string name="OPEN_LOG_FILE">Open log file</string>
 
@@ -70,9 +70,9 @@
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">This package cannot be installed into $RageGAME$. Please check supported games list in additional information section.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Some files are missing in the package archive.</string>
-		
+
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">This package cannot be uninstalled automatically.</string>
-		
+
 	</RenderUI>
 </Translation>

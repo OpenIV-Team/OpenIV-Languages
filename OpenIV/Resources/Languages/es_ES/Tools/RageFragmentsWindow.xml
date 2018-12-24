@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+﻿<?xml version="1.0" encoding="UTF-8"?> 
 <Translation> 
 	<RageFragmentsWindow Caption='$AppName$ Visor de Modelos'> 
 		<paneHierarchy Caption='Hierarchy'/>
@@ -21,7 +21,7 @@
 		<string name="UNCHECK_ALL">Deseleccionar todos</string>
 		<string name="ALSO_HIDE_CHILDREN">Además esconder children</string>
 		<string name="PLAY_FORWARD">Reproducir hacia adelante</string>
-+		<string name="PLAY_BACKWARDS">Reproducir hacia atras</string>
+		<string name="PLAY_BACKWARDS">Reproducir hacia atras</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Usa el mouse para ver alrededor, muévete usando las siguientes teclas:
 			

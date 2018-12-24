@@ -30,7 +30,7 @@
 		<string name="LOCATION_GAME_FOLDER">Папка гри</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Інсталювати пакунок в папку гри</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Цей пакунок неможливо інсталювати в папку гри: цю можливість вимкнено в налаштуваннях папки “$ModsFolder$”.</string>
-		
+
 		<string name="INSTALLATION_SUCCEEDED">Інсталяцію завершено</string>
 		<string name="RUN_GAME">Запустити $RageGAME$</string>
 		<string name="RUN_GAME_TEXT">Запустити гру і подивитися, що вийшло</string>
@@ -47,7 +47,7 @@
 		<string name="ERROR_INSTALLATION">Під час інсталяції відбулася критична помилка. Будь ласка, перегляньте лоґ-файл, щоб дізнатися причину помилки.</string>
 		<string name="ERROR_MSXML">Служби MSXML, необхідні для роботи Інсталювача пакунків, не інстальовано.</string>
 		<string name="CHECK_LOG_FILE">Будь ласка, перегляньте лоґ-файл, щоб дізнатися причину помилки.</string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">Відкрити інсталяційний лоґ-файл</string>
 		<string name="OPEN_LOG_FILE">Відкрити лоґ-файл</string>
 
@@ -76,10 +76,10 @@
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Пакунок не підтримує $RageGAME$. Будь ласка, перевірте список підтримуваних ігор у розділі додаткової інформації.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Пакунок не містить деякі важливі файли. Будь ласка, звʼяжіться з автором пакунка.</string>
-+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Деякі файли мають неправильний шлях. Будь ласка, звʼяжіться з автором пакунка.</string>
-		
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Деякі файли мають неправильний шлях. Будь ласка, звʼяжіться з автором пакунка.</string>
+
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Цей пакунок неможливо видалити в автоматичному режимі.</string>
-		
+
 	</RenderUI>
 </Translation>

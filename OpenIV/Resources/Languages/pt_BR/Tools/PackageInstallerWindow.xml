@@ -47,10 +47,10 @@
 		<string name="ERROR_INSTALLATION">Um erro fatal ocorreu durante a instalação. Por favor, verifique o arquivo de registro para ver detalhes do erro.</string>
 		<string name="ERROR_MSXML">O MSXML não está instalado. É necessário para usar o Instalador de Pacotes.</string>		
 		<string name="CHECK_LOG_FILE">Por favor, verifique o arquivo de registro para ver detalhes do erro.</string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">Abrir registro de instalação</string>
 		<string name="OPEN_LOG_FILE">Abrir arquivo de registro</string>
-		
+
 		<!-- LOADING -->
 		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">O arquivo do pacote não é um arquivo ZIP válido.</string>
 		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Extensão de arquivo desconhecida. O arquivo do pacote deve ser .OIV ou .ZIP.</string>
@@ -80,6 +80,6 @@
 
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Este pacote não pode ser desinstalado automaticamente.</string>
-		
+
 	</RenderUI>
 </Translation>

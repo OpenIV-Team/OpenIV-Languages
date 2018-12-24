@@ -137,12 +137,12 @@
 				<Item Index='17' Value="%S(Line %D)：單個幾何體中骨點過多，你最多隻能使用 48 個骨點。"/>
 
 				<Item Index='18' Value="%S(Line %D)：%S"/>
-				
+
 				<!-- Export/Import -->
 				<Item Index='19' Value='openFormats 導入報告'/>
 				<Item Index='20' Value='openFormats 導出報告'/>
 				<Item Index='21' Value='部分文件沒有到處，下方文字說明。'/>
-				
+
 			</StringList>
 		</AeroWindow>
 	</openFormatsValidatorWindow>

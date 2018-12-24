@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Library folder="Carpeta" Default='%S File' RSC='%S Resource'>
 	<!-- GTA V -->
 	<type Name="Ruta (XML)">
@@ -24,12 +24,12 @@
 	</type>
 	<type Name="Metadata (PSO/RSC)">
 		<ext>pso</ext>
-		
+
 		<ext>ymt</ext>
 		<ext>xmt</ext>
 		<ext>cmt</ext>
 		<ext>omt</ext>
-		
+
 		<ext>ymf</ext>
 		<ext>xmf</ext>
 		<ext>cmf</ext>
@@ -448,15 +448,15 @@
 	<type Name="Metadata de Audio">
 		<ext>DAT4</ext>
 		<ext>DAT10</ext>
-  		<ext>DAT11</ext>
-  		<ext>DAT12</ext>
-  		<ext>DAT15</ext>
-  		<ext>DAT16</ext>
-  		<ext>DAT19</ext>
-  		<ext>DAT20</ext>
+		<ext>DAT11</ext>
+		<ext>DAT12</ext>
+		<ext>DAT15</ext>
+		<ext>DAT16</ext>
+		<ext>DAT19</ext>
+		<ext>DAT20</ext>
 		<ext>DAT22</ext>
-  		<ext>DAT45</ext>
-  		<ext>DAT46</ext>
+		<ext>DAT45</ext>
+		<ext>DAT46</ext>
 		<ext>DAT54</ext>
 		<ext>DAT149</ext>
 		<ext>DAT150</ext>

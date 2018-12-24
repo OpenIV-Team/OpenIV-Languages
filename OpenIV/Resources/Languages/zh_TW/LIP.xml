@@ -1,9 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageInterfacePack version='300' ID='1028' active="true">
 	<Contributors>
 		<Contributor link="https://twitter.com/ky0nch3ng">ky0nch3ng</Contributor>
 	</Contributors>
-	<WebHelp>
-		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
-	</WebHelp>
 </LanguageInterfacePack>

@@ -30,7 +30,7 @@
 		<string name="LOCATION_GAME_FOLDER">Φάκελος παιχνιδιού</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Εγκατάσταση αυτής της τροποποίησης απευθείας στο φάκελο του παιχνιδιού</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί στο φάκελο του παιχνιδιού επειδή η δυνατότητα έχει απενεργοποιηθεί στις ρυθμίσεις του φακέλου $ModsFolder$.</string>
-		
+
 		<string name="INSTALLATION_SUCCEEDED">Επιτυχής εγκατάστασης</string>
 		<string name="RUN_GAME">Εκκίνηση $RageGAME$</string>
 		<string name="RUN_GAME_TEXT">Εκκινείστε το παιχνίδι και δείτε τις αλλαγές</string>
@@ -47,7 +47,7 @@
 		<string name="ERROR_INSTALLATION">Ένα ανεπανόρθωτο σφάλμα προέκυψε κατά την εγκατάσταση. Παρακαλώ ελέγξτε το αρχείο καταγραφών για λεπτομέρειες.</string>
 		<string name="ERROR_MSXML">Το MSXML δεν έχει εγκατασταθεί. Απαιτείται για να γίνει χρήση του Εγκαταστατή πακέτων.</string>
 		<string name="CHECK_LOG_FILE">Παρακαλώ ελέγξτε το αρχείο καταγραφών για λεπτομέρειες.</string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">Άνοιγμα καταγραφών εγκατάστασης</string>
 		<string name="OPEN_LOG_FILE">Άνοιγμα αρχείου καταγραφών</string>
 
@@ -77,9 +77,9 @@
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Αυτό το πακέτο δεν μπορεί να εγκατασταθεί στο $RageGAME$. Παρακαλώ ελέγξτε τα υποστηριζόμενα παιχνίδια στην ενότητα πρόσθετων πληροφοριών.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Μερικά αρχεία λείπουν από την αρχειοθήκη του πακέτου. Παρακαλώ επικοινωνήστε με τον δημιουργό του πακέτου.</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Μερικά αρχεία έχουν λανθασμένη διαδρομή ως προς τα αρχεία του παιχνιδιού. Παρακαλώ επικοινωνήστε με τον δημιουργό του πακέτου.</string>
-		
+
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Αυτό το πακέτο δεν μπορεί να απεγκατασταθεί αυτόματα</string>
-		
+
 	</RenderUI>
 </Translation>

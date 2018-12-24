@@ -54,11 +54,11 @@
 
 		<!-- Save changes dialog -->
 		<string name="SAVE_CHANGES_">Ви бажаєте зберегти зміни?</string>
-		
+
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">Помилка ініціалізації DirectX 11</string>
 		<string name="DX11_NOT_INIT_TEXT">$AppName$ не вдалося ініціалізувати DirectX 11.\nНеможливо редагувати цей файл.</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">Редактор текстур - Допомога</string>
 		<text name="HELP_TEXT">

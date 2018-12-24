@@ -30,7 +30,7 @@
 		<string name="LOCATION_GAME_FOLDER">Cartella del gioco </string>
 		<string name="LOCATION_GAME_FOLDER_TEXT"> Installa questa mod direttamente nella cartella del gioco</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Questo pacchetto non può essere installato nella cartella del gioco perché è disabilitato nelle impostazioni della cartella $ModsFolder$.</string>
-		
+
 		<string name="INSTALLATION_SUCCEEDED">Installazione riuscita</string>
 		<string name="RUN_GAME">Avvia $RageGAME$</string>
 		<string name="RUN_GAME_TEXT">Avvia il gioco e controlla ciò che hai appena installato</string>
@@ -47,7 +47,7 @@
 		<string name="ERROR_INSTALLATION">Si è verificato un errore fatale durante l'installazione. Si prega di controllare il file di log per i dettagli di errore.</string>
 		<string name="ERROR_MSXML">MSXML non è installato. È necessario utilizzare l'Installatore pacchetti. </string>
 		<string name="CHECK_LOG_FILE">Controlla il file di log per i dettagli di errore. </string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">Apri registro di installazione </string>
 		<string name="OPEN_LOG_FILE">Apri file di registro</string>
 
@@ -77,9 +77,9 @@
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Questo pacchetto non può essere installato in $RageGAME$. Controlla l'elenco dei giochi supportati nella sezione delle informazioni aggiuntive.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Alcuni file sono mancanti nell'archivio del pacchetto. Si prega di contattare l'autore del pacchetto.</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Alcuni file hanno percorsi interni al gioco errati. Si prega di contattare l'autore del pacchetto.</string>
-		
+
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Questo pacchetto non può essere disinstallato automaticamente.</string>
-		
+
 	</RenderUI>
 </Translation>

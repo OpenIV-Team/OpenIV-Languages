@@ -22,7 +22,7 @@
 		<string name="COPY_NAME">复制名称</string>
 		<string name="EXPORT">导出</string>
 		<string name="RENAME">重命名</string>
-		<string name="REPLACE"替换</string>
+		<string name="REPLACE">替换</string>
 		<string name="DELETE">删除</string>
 		<string name="RENAME_TEXTURE">重命名贴图</string>
 		<string name="RENAME_TEXTURE_NAME">输入新名称</string>
@@ -62,7 +62,7 @@
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">DirectX 11 不可用</string>
 		<string name="DX11_NOT_INIT_TEXT">$AppName$ 无法初始化 DirectX 11 设备。\n编辑功能不适用于此文件。</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">贴图编辑器 - 帮助</string>
 		<text name="HELP_TEXT">

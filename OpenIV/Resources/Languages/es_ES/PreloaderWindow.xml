@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<PreloaderWindow>
 		<WelcomeScreen>
@@ -48,7 +48,7 @@
 					<Item Index='21' Value="Error: $AppName$ No tiene acceso para trabajar con '$RageEncryptionStorage$'.\nUsted puede establecer los permisos requeridos o abrir $AppName$ con permisos de administrador."/>
 					<Item Index='22' Value="Error: $RageGAME$ está en proceso. Cierra el juego antes de utilizar $AppName$."/>
 					<Item Index='23' Value="Todo hecho.\nLos permisos fueron establecidos a la carpeta de tu juego"/>
- 					<Item Index='24' Value="Incapaz de establecer los permisos."/>
+					<Item Index='24' Value="Incapaz de establecer los permisos."/>
 					<Item Index='25' Value="Error: La clave the encriptación no fue encontrada en el archivo '$RageEncryptionStorage$'."/>
 				</Lines>
 			</StringList>

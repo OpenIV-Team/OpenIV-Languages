@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<CollisionViewerWindow Caption='$AppName$ Collision Viewer'>
-		<paneDictionary Caption='Wörterbucheinträge'/> <!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
+		<paneDictionary Caption='Wörterbucheinträge'/>
+		<!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
 		<paneComposite Caption='Kompositionselemente'/>
 		<miLeft Caption='Links'/>
 		<miRight Caption='Rechts'/>
@@ -10,10 +11,13 @@
 	</CollisionViewerWindow>
 	<RenderUI>
 		<!-- right side -->
-		<string name="SHOW_NORMALS">Normale anzeigen:</string><!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
+		<string name="SHOW_NORMALS">Normale anzeigen:</string>
+		<!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
 		<!-- left side -->
-		<string name="BOUND_TYPE">Grenztyp:</string><!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
-		<string name="CHILD_COUNT">Anzahl der Kinder:</string><!-- Nicht sicher, ob die Übersetzung geeigenet ist -->	
+		<string name="BOUND_TYPE">Grenztyp:</string>
+		<!-- Nicht sicher, ob die Übersetzung geeigenet ist -->
+		<string name="CHILD_COUNT">Anzahl der Kinder:</string>
+		<!-- Nicht sicher, ob die Übersetzung geeigenet ist -->	
 		<!-- help -->
 		<string name="HELP_TITLE">Collision viewer - Hilfe</string>
 		<text name="HELP_TEXT">

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<AudioPlayerWindow Caption='$AppName$ Reproductor de Audio'>
 		<!-- Export -->
@@ -15,7 +15,7 @@
 		<miExport Caption='Exportar'/>
 		<miCopyName Caption='Copiar nombre'/>
 		<miExportAllChannelsSeparately Caption='Exportar todos los canales separados'/>
-		
+
 		<!-- Sort -->
 		<btnSort Caption='Ordenar'/>
 		<miSortByName Caption='Ordenar por nombre'/>

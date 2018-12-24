@@ -62,7 +62,7 @@
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">DirectX 11 не доступен</string>
 		<string name="DX11_NOT_INIT_TEXT">Не удалось инициализировать DirectX 11.\nФункции редактирования не доступны для этого файла.</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">Texture editor - Справка</string>
 		<text name="HELP_TEXT">

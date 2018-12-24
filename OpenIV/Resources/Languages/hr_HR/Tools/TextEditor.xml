@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Traži odabrano...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Izreži"/>
 		<ActionEditCopy Caption="Udvostruči"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="TISKANO"/>
 		<ActionEditLoverCase Caption="pisano"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Izvezi</string>
 		<string name="EXPORT_TEXT">Izvezi običan tekst (*.txt)</string>
 		<string name="EXPORT_HTML">Izvezi oblikovan tekst (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Početak</string>
 		<string name="TAB_SEARCH">Pretraži</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Traži sve</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Postavi odabir</string>
 		<string name="GOTO_LINE">Idi na red</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Način pretraživanja</string>
 		<string name="SEARCH_MODE_NORMAL">Uobičajeno</string>

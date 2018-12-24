@@ -17,7 +17,7 @@
 		<string name="ALPHA_BACKGROUND">Άλφα φόντο</string>
 		<string name="SIZE_">Μέγεθος:</string>
 		<string name="SEARCH_TEXTURES">Αναζήτηση υφών</string>
-+		<string name="NO_IMAGE_FOUND">Δεν βρέθηκαν υφές</string>
+		<string name="NO_IMAGE_FOUND">Δεν βρέθηκαν υφές</string>
 
 		<string name="COPY_NAME">Αντιγραφή ονόματος</string>
 		<string name="EXPORT">Εξαγωγή</string>
@@ -58,11 +58,11 @@
 
 		<!-- Save changes dialog -->
 		<string name="SAVE_CHANGES_">Θέλετε να αποθηκεύσετε τις αλλαγές;</string>
-		
+
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">Το DirectX 11 δεν είναι διαθέσιμο</string>
 		<string name="DX11_NOT_INIT_TEXT">Το $AppName$ δεν μπορεί να εκκίνηση τη συσκευή DirectX 11.\nΗ δυνατότητες επεξεργασίας δεν είναι διαθέσιμες για αυτό το αρχείο.</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">Επεξεργαστής υφών - βοήθεια</string>
 		<text name="HELP_TEXT">

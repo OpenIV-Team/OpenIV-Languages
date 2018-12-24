@@ -30,7 +30,7 @@
 		<string name="LOCATION_GAME_FOLDER">Oyun klasörü</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Bu modu direkt olarak oyun klasörüne kur</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Bu paket oyun klasörüne kurulamıyor çünkü bu özellik $ModsFolder$ klasörü ayarlarından devre dışı bırakılmış.</string>
-		
+
 		<string name="INSTALLATION_SUCCEEDED">Yükleme tamamlandı</string>
 		<string name="RUN_GAME">$RageGAME$'i çalıştır</string>
 		<string name="RUN_GAME_TEXT">Oyunu çalıştırıp az önce ne yüklediğinize bir göz atın</string>
@@ -47,7 +47,7 @@
 		<string name="ERROR_INSTALLATION">Yükleme sırasında kritik bir hata oluştu. Hata detayları için kayıt dosyasına göz atın.</string>
 		<string name="ERROR_MSXML">MSXML yüklü değil. Paket Yükleyicisi'ni kullanabilmek için ona ihtiyacınız var.</string>
 		<string name="CHECK_LOG_FILE">Hata detayları için kayıt dosyasına göz atın.</string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">Yükleme kayıtlarını aç</string>
 		<string name="OPEN_LOG_FILE">Kayıt dosyasını aç</string>
 
@@ -77,9 +77,9 @@
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Bu paket $RageGAME$ oyununa yüklenemez. Lütfen k bilgi bölümünde desteklenen oyunlara göz atın.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Paket arşivinde bazı dosyalar mevcut değil. Lütfen paket sahibine ulaşın.</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Bazı dosyalar yanlış oyun yolu içeriyor. Lütfen paket sahibine ulaşın.</string>
-		
+
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Bu paket otomatik olarak kaldırılamaz.</string>
-		
+
 	</RenderUI>
 </Translation>

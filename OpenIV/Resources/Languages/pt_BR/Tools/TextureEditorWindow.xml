@@ -54,11 +54,11 @@ A qualidade pode ser perdida se alterar as propriedades.]]>
 
 		<!-- Save changes dialog -->
 		<string name="SAVE_CHANGES_">Você quer salvar as alterações?</string>
-		
+
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">DirectX 11 não está disponível</string>
 		<string name="DX11_NOT_INIT_TEXT">O $AppName$ é incapaz inicializar o dispositivo DirectX 11.\nOs recursos de edição não estarão disponíveis para este arquivo.</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">Editor de Textura - Ajuda</string>
 		<text name="HELP_TEXT">

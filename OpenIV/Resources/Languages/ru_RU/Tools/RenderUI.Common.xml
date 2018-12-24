@@ -16,7 +16,7 @@
 		<string name="SAVE">Сохранить</string>
 		<string name="IMPORT">Импорт</string>
 		<string name="SEARCH">Поиск</string>
-		
+
 		<!-- Context menu -->
 		<string name="COPY_ID">Копировать Id</string>
 		<string name="COPY_NAME">Копировать имя</string>
@@ -107,6 +107,6 @@
 		<string name="CUT">Вырезать</string>
 		<string name="COPY">Копировать</string>
 		<string name="PASTE">Вставить</string>
-		
+
 	</RenderUI>
 </Translation>

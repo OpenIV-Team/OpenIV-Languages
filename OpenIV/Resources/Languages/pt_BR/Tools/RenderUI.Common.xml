@@ -80,7 +80,7 @@
 		<string name="COLUMN_INDEX_COUNT">№ de índices</string>
 		<string name="COLUMN_FACE_COUNT">Faces</string>
 		<string name="COLUMN_VERTEX_COUNT">Vértices</string>
-		
+
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Por favor, selecione o formato do arquivo:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
@@ -96,6 +96,6 @@
 		<string name="CUT">Cortar</string>
 		<string name="COPY">Copiar</string>
 		<string name="PASTE">Colar</string>
-		
+
 	</RenderUI>
 </Translation>

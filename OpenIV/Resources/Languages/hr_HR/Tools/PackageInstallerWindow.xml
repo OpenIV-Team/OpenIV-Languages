@@ -30,7 +30,7 @@
 		<string name="LOCATION_GAME_FOLDER">Mapa igre</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Postavi ovaj mod izravno u mapu igre</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Ovaj paket nije moguće postavit u mapu igre jer je onemogućen u $ModsFolder$ postavkama mape.</string>
-		
+
 		<string name="INSTALLATION_SUCCEEDED">Postavljanje uspješno</string>
 		<string name="RUN_GAME">Pokreni $RageGAME$</string>
 		<string name="RUN_GAME_TEXT">Pokreni igru i provjeri što ste upravo dobili</string>
@@ -47,7 +47,7 @@
 		<string name="ERROR_INSTALLATION">Dogodila se fatalna greška tijekom postavljanja. Molimo provjerite datoteku zapisnika(.log) za detalje o grešci.</string>
 		<string name="ERROR_MSXML">MSXML nije postavljen. Navedeno je potrebno za korištenje Postavljača Paketa.</string>
 		<string name="CHECK_LOG_FILE">Molimo provjerite datoteku zapisnika(.log) za detalje o grešci.</string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">Otvori zapisnik postavljanja</string>
 		<string name="OPEN_LOG_FILE">Otvori datoteku zapisnika(.log)</string>
 
@@ -77,9 +77,9 @@
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Paket se ne može postavit u $RageGAME$. Molimo provjerite popis podržanih igara u kategoriji dodatnih informacija.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Neke datoteke nedostaju u arhivi paketa. Molimo Vas da se javite autoru paketa.</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Neke datoteke imaju netočne putanje unutar igre. Molimo Vas da se javite autoru paketa.</string>
-		
+
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Ovaj paket se ne može ukloniti automatski.</string>
-		
+
 	</RenderUI>
 </Translation>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<TextEditorWindow Caption='$AppName$ Herramienta de texto'>
 		<!-- String's -->
@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Encontrar seleccionado...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Cortar"/>
 		<ActionEditCopy Caption="Copiar"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="MAYUSCULAS"/>
 		<ActionEditLoverCase Caption="minusculas"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Exportar</string>
 		<string name="EXPORT_TEXT">Exportar texto sin formato (*.txt)</string>
 		<string name="EXPORT_HTML">Exportar texto con formato (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Inicio</string>
 		<string name="TAB_SEARCH">Buscar</string>
@@ -42,7 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Encontrar todos</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Establecer selección</string>
 		<string name="GOTO_LINE">Ir a linea</string>
-		
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Modo de busqueda</string>
 		<string name="SEARCH_MODE_NORMAL">Normal</string>

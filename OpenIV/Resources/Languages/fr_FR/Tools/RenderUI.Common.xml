@@ -90,7 +90,7 @@
 		<string name="COLUMN_FACE_COUNT">Nombre de faces</string>
 		<string name="COLUMN_VERTEX_COUNT">Nombre de sommets</string>
 		<string name="COLUMN_TOTAL_">Total :</string>
-		
+
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Merci de sélectionner le format de fichier :</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
@@ -100,7 +100,7 @@
 		<string name="EXPORT_TEXTURE_FORMAT_JPG">Image JPEG (*.jpg)</string>
 		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Ce format peut diminuer la qualité de la texture.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Image bitmap (*.bmp)</string>
-		
+
 		<!-- Edit -->
 		<string name="UNDO">Annuler</string>
 		<string name="REDO">Rétablir</string>

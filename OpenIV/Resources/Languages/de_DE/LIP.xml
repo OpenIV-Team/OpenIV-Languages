@@ -1,10 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageInterfacePack version='300' ID='1031' active="true">
 	<Contributors>
 		<Contributor link="reditec@outlook.com">Felix Bartling (reditec)</Contributor>
 		<Contributor link="dominichauser@t-online.de">Dominic Hauser (rollschuh2282)</Contributor>
 	</Contributors>
-	<WebHelp>
-		<FAQ>http://openiv.com/WebIV/flink.php?id=101</FAQ>
-	</WebHelp>
 </LanguageInterfacePack>

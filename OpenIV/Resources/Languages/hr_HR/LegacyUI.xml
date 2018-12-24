@@ -201,7 +201,6 @@
 		<actSocialFacebook Caption="$AppName$ Facebook stranica" Hint=""/>
 		<actSocialTwitter Caption="$AppName$ na Twitter" Hint=""/>
 		<actSocialVKCom Caption="$AppName$ VK stranica" Hint=""/>
-		<!-- Only in Win7 and later -->
 		<actWin7ReportTool Caption="Snimite korake za ponovno stvaranje problema" Hint=""/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Sruši sve grupe" Hint=""/>

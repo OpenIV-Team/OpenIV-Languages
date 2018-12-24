@@ -30,13 +30,13 @@
 		<string name="LOCATION_GAME_FOLDER">遊戲目錄</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">安裝到遊戲目錄。</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">不能安裝到遊戲目錄，因為在 $ModsFolder$ 目錄設定已經禁用。</string>
-		
+
 		<string name="INSTALLATION_SUCCEEDED">安裝成功</string>
 		<string name="RUN_GAME">運行$RageGAME$</string>
 		<string name="RUN_GAME_TEXT">運行遊戲查看效果</string>
 
 		<string name="INSTALLATION_FAILED">安裝失敗</string>
-		
+
 		<string name="LOADING_ERROR_TITLE">自動安裝包加載失敗</string>
 		<string name="READING_ERROR_TITLE">自動安裝包讀取失敗</string>
 		<string name="INSTALLING_ERROR_TITLE">安裝錯誤</string>
@@ -47,7 +47,7 @@
 		<string name="ERROR_INSTALLATION">出現致命錯誤，查看日誌文件以檢查錯誤。</string>
 		<string name="ERROR_MSXML">電腦未安裝MSXML。</string>
 		<string name="CHECK_LOG_FILE">查看日誌文件以檢查錯誤。</string>
-		
+
 		<string name="OPEN_INSTALLATION_LOG">打開日誌</string>
 		<string name="OPEN_LOG_FILE">打開日誌文件</string>
 
@@ -77,9 +77,9 @@
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">不能安裝到 $RageGAME$. 請在附加信息部分查看支持的遊戲列表。</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">包存檔中缺少某些文件。 請聯繫包作者。</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">某些文件的遊戲路徑不正確。 請聯繫包作者。</string>
-		
+
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">無法自動卸載此程序包。</string>
-		
+
 	</RenderUI>
 </Translation>

@@ -24,7 +24,7 @@
 	</type>
 	<type Name="Μεταδεδομένα (PSO/RSC)">
 		<ext>pso</ext>
-		
+
 		<ext>ymt</ext>
 		<ext>xmt</ext>
 		<ext>cmt</ext>

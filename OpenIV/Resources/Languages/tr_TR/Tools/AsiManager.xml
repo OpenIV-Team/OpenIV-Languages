@@ -3,31 +3,31 @@
 	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
 	<RenderUI>
 		<string name="TITLE">$RageGAME_SHORT$ - ASI Yardımcısı</string>
-		
+
 		<string name="RPF_NOTE">$RageGAME_SHORT$ için ASI Yükleyicisi ve $ModsFolderAsi$ plugin'lerini yüklemelisiniz, yoksa oyununuz modifiye edilmiş RPF arşivlerini yüklemez.</string>
 		<string name="ONLINE_NOTE">Modifiye edilmiş RPF'ler ile $RageGAME_MP$ oynamayın, yoksa uzaklaştırma alırsınız.</string>
-		
+
 		<string name="INSTALL">Yükle</string>
 		<string name="UPDATE">Güncelle</string>
 		<string name="UNINSTALL">Kaldır</string>
-		
+
 		<string name="NOT_INSTALLED">YÜKLENMEDİ</string>
 		<string name="UPDATE_REQUIRED">GÜNCELLEME GEREKİYOR</string>
 		<string name="INSTALLED">YÜKLENDİ</string>
 		<string name="DISABLED">DEVRE DIŞI</string>
-		
+
 		<string name="ASI_LOADER">ASI Yükleyicisi</string>
 		<string name="ASI_LOADER_DESCRIPTION">ASI Yükleyicisi oyununuza .asi dosya uzantılı kişiselleştirilmiş kütüphaneleri yükleyen araçtır.</string>
-		
+
 		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
 		<string name="OPENIV_ASI_DESCRIPTION">Bu ASI Plugin'i oyununuzun modifiye edilmiş RPF arşivlerini yüklemesini sağlıyor. Ek olarak $ModsFolder$ klasörünü destekler.</string>
-		
+
 		<string name="OPEN_CAMERA_ASI">openCamera</string>
 		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Rockstar Editor'deki "Serbest Kamera" sınırını kaldırır.</string>
-		
+
 		<string name="INSTALLATION_FAILED">Yükleme başarısız</string>
 		<string name="INSTALLATION_FAILED_TEXT">Yükleme başarısız oldu, $AppName$'i yeniden başlatıp tekrar deneyin.</string>
-		
+
 		<string name="UNINSTALL_FAILED">Kaldırma başarısız</string>
 		<string name="UNINSTALL_FAILED_TEXT">Kaldırma başarısız oldu, $AppName$'i yeniden başlatıp tekrar deneyin.</string>
 

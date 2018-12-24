@@ -24,12 +24,12 @@
 	</type>
 	<type Name="Metadaten (PSO/RSC)">
 		<ext>pso</ext>
-		
+
 		<ext>ymt</ext>		
 		<ext>xmt</ext>
 		<ext>cmt</ext>
 		<ext>omt</ext>
-		
+
 		<ext>ymf</ext>
 		<ext>xmf</ext>
 		<ext>cmf</ext>
@@ -340,7 +340,8 @@
 		<ext>dll</ext>
 	</type>
 	<type Name="ASI Plugin (Dynamic-link Bibliothek)">		
-		<ext>asi</ext>			<!--  -->
+		<ext>asi</ext>
+		<!--  -->
 	</type>		
 	<!-- Misc -->
 	<type Name="Binäre Daten">
@@ -446,7 +447,7 @@
 		<ext>cgx</ext>
 	</type>
 	<type Name="Audio - Metadaten">
-        <ext>DAT4</ext>
+		<ext>DAT4</ext>
 		<ext>DAT10</ext>
 		<ext>DAT11</ext>
 		<ext>DAT12</ext>

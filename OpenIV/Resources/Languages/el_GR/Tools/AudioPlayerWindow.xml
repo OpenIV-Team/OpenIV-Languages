@@ -11,7 +11,7 @@
 		<btnOptions Caption='Ρυθμίσεις'/>
 		<miPlayWhenOpen Caption='Εκκίνηση αναπαραγωγής κατά το άνοιγμα του αρχείου'/>
 		<miAutoPlayNext Caption='Αυτόματη αναπαραγωγή του επόμενου κομματιού'/>
-		
+
 		<!-- Sort -->
 		<btnSort Caption='Ταξινόμηση'/>
 		<miSortByName Caption='Ταξινόμηση κατά όνομα'/>

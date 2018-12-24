@@ -54,11 +54,11 @@ En iyi kalite için DDS dosyalarını kullanın.]]>
 
 		<!-- Save changes dialog -->
 		<string name="SAVE_CHANGES_">Değişiklikleri kaydetmek istiyor musunuz?</string>
-		
+
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">DirectX 11 kullanılabilir değil</string>
 		<string name="DX11_NOT_INIT_TEXT">$AppName$ DirectX 11 aracını kullanamıyor.\nDüzenleme araçları bu dosya için mevcut değil.</string>
-		
+
 		<!-- help -->
 		<string name="HELP_TITLE">Doku düzenleyici - yardım</string>
 		<text name="HELP_TEXT">
