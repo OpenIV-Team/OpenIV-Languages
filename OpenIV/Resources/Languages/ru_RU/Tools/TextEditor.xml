@@ -42,6 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Найти все</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Выбрать область поиска</string>
 		<string name="GOTO_LINE">Перейти к строке</string>
+		<string name="CHECK_XML_SYNTAX">Проверить XML синтаксис</string>
 
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Режим поиска</string>
@@ -66,5 +67,11 @@
 		<string name="GOTO_LINE_PROMT">Введите номер строки:</string>
 		<string name="GOTO_LINE_NOTE">Для перехода вперёд или назад относительно текущего положения используйте знаки + и -. Пример: +4 соответствует переходу вперёд на четыре строки.</string>
 		<string name="GO">Перейти</string>
+		<string name="XML_SYNTAX">XML синтаксис</string>
+		<string name="XML_NO_ERROR_DETECTED">Ошибок не обнаружено.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">Ошибка XML синтаксиса в строке %D, столбец %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Все равно продолжить</string>
+		<string name="XML_IGNORE_AND_SAVE">Игнорировать ошибку и сохранить файл</string>
+		<string name="XML_BACK_TO_EDITOR">Вернутся к редактированию файла</string>
 	</RenderUI>
 </Translation>

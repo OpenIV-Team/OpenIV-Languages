@@ -211,7 +211,7 @@
 		<actFilterOnlyThis Caption="Только этот элемент" Hint=""/>
 		<!-- Tree -->
 		<actTreeCopyName Caption="Копировать имя" Hint=""/>
-		<actTreeCopyAsPath Caption="Копировать как путь" Hint=""/>
+		<actTreeCopyPath Caption="Копировать путь" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Показать в Проводнике Windows" Hint=""/>
 		<actTreeCloseArchive Caption="Закрыть архив" Hint=""/>
 		<actTreeCopyToModsFolder Caption='Копировать в папку "mods"' Hint=""/>
@@ -354,6 +354,7 @@
 		<tbFileAssociation Caption="Настройки ассоциации файлов"/>
 		<cbDisplayExitConfirmationDialog Caption="Запрашивать подтверждение при выходе из программы"/>
 		<cbStartWithLocationFromLastSession Caption="Запоминать последнее местоположение и открывать его во время запуска $AppName$"/>
+		<cbAlwaysOnExtendedContextMenu Caption="Всегда открывать расширенное контекстное меню для элементов в главном окне"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Папка $ModsFolder$"/>
 		<lbModsFolderText Caption="На этой вкладке вы можете изменять настройки, относящиеся к папке $ModsFolder$."/>
@@ -388,6 +389,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="Примечание: Убедитесь, что ваша система способна воспроизводить объёмный звук, иначе вы не услышите большую часть аудио контента."/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="Показывать диалог подтверждения установки в Package Installer"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Формат файлов текстур по умолчанию"/>

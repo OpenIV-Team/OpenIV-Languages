@@ -11,6 +11,7 @@
 		<btnOptions Caption='Настройки'/>
 		<miPlayWhenOpen Caption='Начать воспроизведение при открытии'/>
 		<miAutoPlayNext Caption='Воспроизводить следующий трек автоматически'/>
+		<miShowTrackHash Caption='Показывать хеш имени трека'/>
 
 		<!-- Sort -->
 		<btnSort Caption='Сортировка'/>

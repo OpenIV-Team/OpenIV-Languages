@@ -211,7 +211,7 @@
 		<actFilterOnlyThis Caption="Show only this" Hint=""/>
 		<!-- Tree -->
 		<actTreeCopyName Caption="Copy name" Hint=""/>
-		<actTreeCopyAsPath Caption="Copy as path" Hint=""/>
+		<actTreeCopyPath Caption="Copy path" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Show in Windows Explorer" Hint=""/>
 		<actTreeCloseArchive Caption="Close archive" Hint=""/>
 		<actTreeCopyToModsFolder Caption='Copy to $ModsFolder$ folder' Hint=""/>
@@ -354,6 +354,7 @@
 		<tbFileAssociation Caption="Change file association"/>
 		<cbDisplayExitConfirmationDialog Caption="Show confirmation dialog on exit"/>
 		<cbStartWithLocationFromLastSession Caption="Start $AppName$ with location from the last session"/>
+		<cbAlwaysOnExtendedContextMenu Caption="Always open extended context menu for items in the main window"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="$ModsFolder$ folder"/>
 		<lbModsFolderText Caption="On this page you can change settings related to $ModsFolder$ folder."/>
@@ -388,6 +389,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="Note: Make sure your system is capable of playing surround sound, otherwise you will not hear most of the audio content."/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="Show install confirmation dialog in Package Installer"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Default texture file format"/>

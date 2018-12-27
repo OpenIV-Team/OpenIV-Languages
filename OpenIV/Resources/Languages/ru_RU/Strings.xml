@@ -6,7 +6,7 @@
 		<Item Index='02' Value='Поиск - $AppName$'/>
 		<Item Index='03' Value='Пожалуйста, подождите, выполняется поиск...'/>
 		<Item Index='04' Value='Закрыть'/>
-		<Item Index='05' Value=''/>
+		<Item Index='05' Value=' Гб'/>
 		<Item Index='06' Value='Да'/>
 		<Item Index='07' Value='Нет'/>
 		<Item Index='08' Value=' Байт'/>
@@ -47,6 +47,7 @@
 		<Item Index='43' Value='Невозможно открыть этот файл, поскольку его размер превышает 256 МБ.'/>
 		<Item Index='44' Value='$AppName$ не удалось показать содержимое этого файла. Файл не может быть сохранён как XML, код ошибки: %s'/>
 		<Item Index='45' Value='$AppName$ не может открыть этот файл. Код ошибки: %s'/>
+		<Item Index='46' Value='$AppName$ не может открыть OIV мод внутри игрового архива.'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.Search" Title="Поиск" Hint="Открыть поиск"/>

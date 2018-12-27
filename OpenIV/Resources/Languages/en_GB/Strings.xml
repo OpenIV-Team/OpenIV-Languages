@@ -6,7 +6,7 @@
 		<Item Index='02' Value='Search - $AppName$'/>
 		<Item Index='03' Value='Searching, please wait...'/>
 		<Item Index='04' Value='Close'/>
-		<Item Index='05' Value=''/>
+		<Item Index='05' Value=' GB'/>
 		<Item Index='06' Value='Yes'/>
 		<Item Index='07' Value='No'/>
 		<Item Index='08' Value=' bytes'/>
@@ -47,6 +47,7 @@
 		<Item Index='43' Value='$AppName$ cannot open this file because it is larger than 256 Megabytes.'/>
 		<Item Index='44' Value='$AppName$ is unable to show content of this file. File can not be saved as XML, error code: %s'/>
 		<Item Index='45' Value='$AppName$ is unable to open this file. Error code: %s'/>
+		<Item Index='46' Value='$AppName$ is unable to open OIV Package inside game archive.'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="Run $RageGAME_SHORT$" Hint="Run $RageGAME$"/>
