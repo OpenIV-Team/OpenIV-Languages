@@ -24,7 +24,7 @@
 		<string name="COPY_VALUE">Copy value</string>
 		<string name="COPY_PROPERTIES">Copy properties</string>
 		<string name="EXPORT_TEXTURE">Export</string>
-		
+
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Camera mode:</string>
 		<string name="CAMERA_MODE_FREE">Free</string>
@@ -90,7 +90,7 @@
 		<string name="COLUMN_FACE_COUNT">Face сount</string>
 		<string name="COLUMN_VERTEX_COUNT">Vertex сount</string>
 		<string name="COLUMN_TOTAL_">Total:</string>
-		
+
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Please, select file format:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
@@ -107,6 +107,6 @@
 		<string name="CUT">Cut</string>
 		<string name="COPY">Copy</string>
 		<string name="PASTE">Paste</string>
-		
+
 	</RenderUI>
 </Translation>

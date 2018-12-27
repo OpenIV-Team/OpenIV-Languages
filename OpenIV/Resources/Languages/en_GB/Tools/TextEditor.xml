@@ -10,7 +10,7 @@
 				<Item Index='3' Value='Find selected...'/>
 			</StringList>
 		</AeroWindow>
-		
+
 		<!-- Editor actions -->
 		<ActionEditCut Caption="Cut"/>
 		<ActionEditCopy Caption="Copy"/>
@@ -22,13 +22,13 @@
 		<ActionEditUpperCase Caption="UPPERCASE"/>
 		<ActionEditLoverCase Caption="lovercase"/>
 	</TextEditorWindow>
-	
+
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">Export</string>
 		<string name="EXPORT_TEXT">Export plain text (*.txt)</string>
 		<string name="EXPORT_HTML">Export formatted text (*.html)</string>
-		
+
 		<!-- Ribbon -->
 		<string name="TAB_HOME">Home</string>
 		<string name="TAB_SEARCH">Search</string>
@@ -42,7 +42,8 @@
 		<string name="SEARCH_ALL_HINT">Find all</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Set selection</string>
 		<string name="GOTO_LINE">Go to line</string>
-		
+		<string name="CHECK_XML_SYNTAX">Check XML syntax</string>
+
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Search mode</string>
 		<string name="SEARCH_MODE_NORMAL">Normal</string>
@@ -66,5 +67,11 @@
 		<string name="GOTO_LINE_PROMT">Enter line number:</string>
 		<string name="GOTO_LINE_NOTE">Enter + or - to move relative to the current location. Example: +4 will move forward four lines.</string>
 		<string name="GO">Go</string>
+		<string name="XML_SYNTAX">XML syntax</string>
+		<string name="XML_NO_ERROR_DETECTED">No error detected.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">XML Parsing error at line %D, col %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Continue anyway</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignore error and save the file</string>
+		<string name="XML_BACK_TO_EDITOR">Back to the editor</string>
 	</RenderUI>
 </Translation>
