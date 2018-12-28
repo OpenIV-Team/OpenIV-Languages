@@ -30,6 +30,15 @@
 		<string name="LOCATION_GAME_FOLDER">Spielverzeichnis</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">Diese Mod direkt ins Spielverzeichnis installieren</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Dieses Archiv kann nicht in das Spieleverzeichnis installiert werden, da dies von den $ModsFolder$ Ordner - Einstellungen unterbunden wird.</string>
+		
+		<string name="CONFIRM_INSTALLATION_TITLE">Bestätige Installation</string>
+		<string name="CONFIRM_INSTALLATION_NOTE">Bitte überprüfe die untenstehenden Informationen und bestätige die Installation.</string>
+		<string name="PACKAGE_NAME_">Paket:</string>
+		<string name="INSTALL_LOCATION_">Installations Pfad:</string>
+		<string name="GAME_PATH_">Spiele Pfad:</string>
+		<string name="CONFIRM_INSTALLATION_ACTION">Bestätige Installation</string>
+		<string name="ALWAYS_SHOW_CONFIRM_INSTALL_DIALOG">Installationbestätigungs Dialog immer anzeigen</string>
+		
 
 		<string name="INSTALLATION_SUCCEEDED">Installation erfolgreich</string>
 		<string name="RUN_GAME">$RageGAME$ starten</string>
@@ -46,6 +55,7 @@
 		<string name="ERROR_CODE_UNKNOWN">Etwas ist passiert. Bitte lies das Log für weitere Details.</string>
 		<string name="ERROR_INSTALLATION">Ein schwerwiegender Fehler ist während der Installation aufgetreten. Bitte lies das Log für weitere Details.</string>
 		<string name="ERROR_MSXML">MSXML ist nicht installiert, wird aber benötigt, um das Paketinstallationsprogramm auszuführen.</string>
+		<string name="ERROR_NO_LOG_FILE">Das Packetinstallationsprogramm ist nicht in der Lage eine log datei zu erstellen. Bitte starte deinen PC neu und versuche es erneut. Wenn der Fehler immer noch vorhanden ist, überprüfe bitte das Antivirus Programm.</string>
 		<string name="CHECK_LOG_FILE">Bitte lies das Log für weitere Details.</string>
 
 		<string name="OPEN_INSTALLATION_LOG">Installationslog öffnen</string>
@@ -53,6 +63,7 @@
 
 		<!-- LOADING -->
 		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Das Archiv ist kein gültiges ZIP Archiv.</string>
+		<string name="LOADING_ERROR_NOT_SUPPORTED_ZIP_COMPRESSION_METHOD">Die Kompressions Methode dieser ZIP datei ist nicht unterstützt.</string>
 		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Unbekannte Dateiendung. Das Archiv muss mit .oiv oder .zip enden.</string>
 		<string name="LOADING_ERROR_FILE_NO_ACCESS">Es kann nicht auf das Archiv zugegriffen werden. Gehe sicher, dass es nicht von einem anderen Prozess verwendet wird.</string>
 		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Das Archiv existiert nicht.</string>
@@ -75,7 +86,9 @@
 
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Dieses Archiv ist nicht mit $RageGAME$ kompatibel. Bitte gehe sicher, dass das Spiel von dieser Mod unterstützt wird.</string>
-		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Einige Dateien im Archiv fehlen. Bitte kontaktiere den Autor der Mod.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Einige Dateien im Archiv fehlen. Bitte kontaktiere den Autor des Mods.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Einige Dateien haben einen nicht korrekten Dateipfad. Bitte kontaktiere den Autor des Mods.</string>
+		<string name="INSTALLING_ERROR_ANOTHER_INSTALLER">Eine andere Paket Installation wird gerade ausgeführt. Bitte warte bis die Paket Installation abgeschlossen ist, und dann versuche es bitte erneut.</string>
 
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Dieses Paket kann nicht automatisch entfernt werden.</string>

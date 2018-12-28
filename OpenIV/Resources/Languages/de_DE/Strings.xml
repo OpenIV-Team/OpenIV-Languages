@@ -6,7 +6,7 @@
 		<Item Index='02' Value='Suche - $AppName$ '/>
 		<Item Index='03' Value='Sucht, bitte warten...'/>
 		<Item Index='04' Value='Schließen'/>
-		<Item Index='05' Value=''/>
+		<Item Index='05' Value=' GB'/>
 		<Item Index='06' Value='Ja'/>
 		<Item Index='07' Value='Nein'/>
 		<Item Index='08' Value=' Byte'/>
@@ -47,6 +47,7 @@
 		<Item Index='43' Value='$AppName$ konnte die Datei nicht öffnen, da sie größer als 256 Megabyte ist.'/>
 		<Item Index='44' Value='$AppName$ kann den Inhalt dieser Datei nicht anzeigen. Die Datei kann nicht als XML gespeichert werden, Fehlercode: %s'/>
 		<Item Index='45' Value='$AppName$ konnte die Datei nicht öffnen. Fehlercode: %s'/>
+		<Item Index='46' Value='$AppName$ kann die Paketinstallationsdatei nicht in einem Spiel Archiv öffnen.'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="$RageGAME_SHORT$ starten" Hint="$RageGAME$ starten"/>

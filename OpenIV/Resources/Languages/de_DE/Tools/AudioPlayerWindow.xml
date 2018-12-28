@@ -11,6 +11,7 @@
 		<btnOptions Caption='Optionen'/>
 		<miPlayWhenOpen Caption='Wiedergabe starten, wenn Datei geöffnet wird'/>
 		<miAutoPlayNext Caption='Nächsten Track automatisch abspielen'/>
+		<miShowTrackHash Caption='Zeige Audio Namen als Hash'/>
 
 		<!-- sort -->
 		<btnSort Caption='Sortieren'/>

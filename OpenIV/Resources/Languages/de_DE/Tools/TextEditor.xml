@@ -42,6 +42,8 @@
 		<string name="SEARCH_ALL_HINT">Alle suchen</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Suchbereich wählen</string>
 		<string name="GOTO_LINE">Zeile aufrufen</string>
+		
+		<string name="CHECK_XML_SYNTAX">Überprüfe XML syntax</string>
 
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Suchmodus</string>
@@ -67,5 +69,11 @@
 		<string name="GOTO_LINE_NOTE">Du kannst mit + oder - arbeiten, um dich relativ von der aktuellen Zeile zu bewegen.
         Beispiel: +4 geht 4 Zeilen runter.</string>
 		<string name="GO">Los</string>
+		<string name="XML_SYNTAX">XML syntax</string>
+		<string name="XML_NO_ERROR_DETECTED">Keine Fehler gefunden.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">XML Parsing Fehler in Zeile %D, kol %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Trotzdem Fortfahren</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignoriere Fehler und speichere die Datei</string>
+		<string name="XML_BACK_TO_EDITOR">Zurück in den Editor"</string>
 	</RenderUI>
 </Translation>

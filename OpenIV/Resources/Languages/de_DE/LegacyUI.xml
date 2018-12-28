@@ -212,6 +212,7 @@
 		<!-- Tree -->
 		<actTreeCopyName Caption="Namen kopieren" Hint=""/>
 		<actTreeCopyAsPath Caption="Als Pfad kopieren" Hint=""/>
+		<actTreeCopyPath Caption="Pfad kopieren" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Im Windows Explorer anzeigen" Hint=""/>
 		<actTreeCloseArchive Caption="Archiv schließen" Hint=""/>
 		<actTreeCopyToModsFolder Caption='In den $ModsFolder$ Ordner kopieren' Hint=""/>
@@ -355,6 +356,7 @@
 		<tbFileAssociation Caption="Dateizuordnungen ändern"/>
 		<cbDisplayExitConfirmationDialog Caption="Bestätigung beim Beenden anzeigen"/>
 		<cbStartWithLocationFromLastSession Caption="Starte $AppName$ in das letzte Verzeichnis von letzter Sitzung"/>
+		<cbAlwaysOnExtendedContextMenu Caption="Öffne immer das erweiterte Kontextmenü for Objekte in dem Haupt Fenster"/>
 		<!-- "mods" Ordner -->
 		<tabModsFolder Caption="$ModsFolder$ Ordner"/>
 		<lbModsFolderText Caption="Auf dieser Seite lassen sich auf den $ModsFolder$ Ordner bezogene Einstellungen anpassen."/>
@@ -388,7 +390,8 @@
 				<Item Index="2" Value="Spiele Multichannel audio im Multichannel modus"/>
 			</Items>
 		</cbMultichannelAudioPlayback>
-		<lbMultichannelNote Caption="Beachte: Stelle sicher dass dein System in der Lage ist Surround Sound abzuspielen, ansonsten wirst du nicht in der Lage sein den meisten Audio inhalt zu hören."/>
+		<lbMultichannelNote Caption="Wichtig: Stelle sicher dass dein System in der Lage ist Surround Sound abzuspielen, ansonsten wirst du nicht in der Lage sein den meisten Audio inhalt zu hören."/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="Zeige Installations bestätigung im Paketinstallationsprogramm"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Standard Texturendateiformat"/>
