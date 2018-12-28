@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Main window -->
@@ -8,7 +8,7 @@
 		<btnSwitchMode Caption='Modo Edición' hint='Activar el Modo Edición (F6)' showhint='True'/>
 		<btnCloseArchive hint='Cerrar archivo (Shift + retroceso)' showhint='True'/>
 		<!-- String's -->
-		<AeroWindow LinesCount='70'>
+		<AeroWindow LinesCount='80'>
 			<StringList>
 				<Item Index='0' Value='Nombre'/>
 				<Item Index='1' Value='Tipo'/>
@@ -82,7 +82,7 @@
 				<Item Index="69" Value="$AppName$ - Confirmación"/>
 				<Item Index="70" Value='Todos los cambios que hiciste en "$ModsFolderPath$\update\update.rpf" van a ser perdidos.\n¿Quieres continuar?'/>
 				<Item Index="71" Value='Buscar "%s" en todos los archivos'/>
-				<Item Index="72" Value="¿Realmente quieres alir de $AppName$?"/>
+				<Item Index="72" Value="¿Realmente quieres salir de $AppName$?"/>
 			</StringList>
 		</AeroWindow>
 		<!-- Others -->
@@ -147,14 +147,14 @@
 		<actReadMode Caption='Modo Lectura'  Hint=''/>
 		<actCloseAllArchives Caption='Cerrar todos los archivos' Hint='Cerrar todos los archivos abiertos'/>
 		<actCloseAllFolders Caption="Cerrar todas las carpetas" Hint="Cerrar todas las carpetas abiertas"/>
-		<actCloseactCloseArchive    Caption='Cerrar archivo' Hint='Cerrar archivo actual'/>
+		<actCloseArchive    Caption='Cerrar archivo' Hint='Cerrar archivo actual'/>
 		<actExit     Caption='Salir' Hint='Salir'/>
 		<!-- Edit Action's -->
 		<actOpen     Caption='Open' Hint='Abrir archivo seleccionado'/>
 		<actEditFile    Caption='Editar'    Hint='Editar archivo seleccionado'/>
 		<actViewAsHex   Caption='Ver en Hex...'  Hint='Ver Hex'/>
 		<actViewAsText  Caption='Ver como texto...'  Hint='Ver como texto'/>
-		<actCopyName Caption="Copy name" Hint="Copy name of selected file"/>
+		<actCopyName Caption="Copiar nombre" Hint="Copiar nombre del archivo seleccionado"/>
 		<actCopyPath Caption="Copiar ruta" Hint="Copiar ruta completa del archivo seleccionado"/>
 		<actExtract     Caption='Extraer...'   Hint='Extraer archivo'/>
 		<actSaveContent Caption='Guardar contenido/exportar' Hint='Guardar contenido del archivo/exportar'/>
@@ -182,7 +182,7 @@
 		<actLivePreView   Caption='Panel de Vista Previa' Hint='Panel de Vista Previa'/>
 		<actMainMenuBar   Caption='Barra de Menú' Hint='Barra de Menú'/>
 		<!-- Help Action's -->
-		<actHelpVerifyGame Caption="Como verificar y restaurar los archivos del juego..." Hint=""/>
+		<actHelpVerifyGame Caption="Cómo verificar y restaurar los archivos del juego..." Hint=""/>
 		<actSocialMedia Caption="Únete a la comunidad de $AppName$" Hint=""/>
 		<actForums Caption="Únete a la discusión de $AppName$" Hint=""/>
 		<actSupportDonate Caption="Soporta $AppName$" Hint=""/>
@@ -211,7 +211,7 @@
 		<actFilterOnlyThis Caption='Mostrar solo estos' Hint=''/>
 		<!-- Tree -->
 		<actTreeCopyName Caption="Copiar nombre" Hint=""/>
-		<actTreeCopyAsPath Caption='Copiar como ruta' Hint=''/>
+		<actTreeCopyPath Caption='Copiar como ruta' Hint=''/>
 		<actTreeShowInWindowsExplorer Caption='Mostrar en el Explorador de Windows' Hint=''/>
 		<actTreeCloseArchive Caption='Cerrar archivo' Hint=''/>
 		<actTreeCopyToModsFolder Caption='Copiar a la carpeta de $ModsFolder$' Hint=""/>
@@ -354,6 +354,7 @@
 		<tbFileAssociation Caption="Cambiar asociación de archivos"/>
 		<cbDisplayExitConfirmationDialog Caption="Mostrar confirmación de la ventana de salida"/>
 		<cbStartWithLocationFromLastSession Caption="Empezar $AppName$ con la ubicación de la última sesión"/>
+		<cbAlwaysOnExtendedContextMenu Caption="Siempre abrir el menú contextual ampliado para los elementos de la ventana principal"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Carpeta de $ModsFolder$"/>
 		<lbModsFolderText Caption="En esta página puedes cambiar configuraciones relacionadas con la carpeta de $ModsFolder$."/>
@@ -388,6 +389,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="Nota: Asegúrate de que tu sistema es capaz de reproducir sonido envolvente, de lo contrario no escucharás la mayor parte del contenido de audio."/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="Mostrar el cuadro de diálogo de confirmación de instalación en el Instalador de Paquetes"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Formato de archivo de textura por defecto"/>
