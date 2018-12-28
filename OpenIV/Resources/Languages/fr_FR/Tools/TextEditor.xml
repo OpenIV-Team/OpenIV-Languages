@@ -42,6 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Chercher tout</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Définir sélection</string>
 		<string name="GOTO_LINE">Aller à la ligne</string>
+		<string name="CHECK_XML_SYNTAX">Vérifier la syntaxe XML</string>
 
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Mode de recherche</string>
@@ -66,5 +67,11 @@
 		<string name="GOTO_LINE_PROMT">Entrez le numéro de ligne :</string>
 		<string name="GOTO_LINE_NOTE">Entrez + ou - pour bouger relativement à la position actuelle. Exemple : +4 avancera de quatre lignes.</string>
 		<string name="GO">Aller</string>
+		<string name="XML_SYNTAX">Syntaxe XML</string>
+		<string name="XML_NO_ERROR_DETECTED">Aucune erreur détectée.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">Erreur XML à la ligne %D, colonne %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Continuer quand même</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignorer l'erreur et sauvegarder</string>
+		<string name="XML_BACK_TO_EDITOR">Retourner à l'éditeur</string>
 	</RenderUI>
 </Translation>

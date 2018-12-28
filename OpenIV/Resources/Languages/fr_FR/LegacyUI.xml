@@ -211,7 +211,7 @@
 		<actFilterOnlyThis Caption="Afficher seulement ceci" Hint=""/>
 		<!-- Tree -->
 		<actTreeCopyName Caption="Copier le nom" Hint=""/>
-		<actTreeCopyAsPath Caption="Copier en tant que chemin d'accès" Hint=""/>
+		<actTreeCopyPath Caption="Copier le chemin d'accès" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Ouvrir dans l'Explorateur Windows" Hint=""/>
 		<actTreeCloseArchive Caption="Fermer l'archive" Hint=""/>
 		<actTreeCopyToModsFolder Caption='Copier dans le dossier $ModsFolder$' Hint=""/>
@@ -354,6 +354,7 @@
 		<tbFileAssociation Caption="Changer l'association des fichiers"/>
 		<cbDisplayExitConfirmationDialog Caption="Demander confirmation pour quitter"/>
 		<cbStartWithLocationFromLastSession Caption="Démarrer $AppName$ au même emplacement qu'à la fermeture de la session précédente"/>
+		<cbAlwaysOnExtendedContextMenu Caption="Toujours ouvrir le menu contextuel étendu pour les éléments de la fenêtre principale"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Dossier $ModsFolder$"/>
 		<lbModsFolderText Caption="Sur cette page, vous pouvez changer les paramètres relatifs au dossier $ModsFolder$."/>
@@ -388,6 +389,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="Note : Assurez-vous que votre système est capable de jouer du son surround, autrement vous n'entendrez pas du tout certains canaux."/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="Afficher le message de confirmation lors de l'installation d'un paquetage"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Format de textures par défaut"/>

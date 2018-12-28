@@ -31,6 +31,14 @@
 		<string name="LOCATION_GAME_FOLDER_TEXT">Installer ce paquetage directement dans le dossier du jeu</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Ce paquetage ne peut pas être installé dans le dossier principal car la modification a été désactivée dans les paramètres du dossier $ModsFolder$.</string>
 
+		<string name="CONFIRM_INSTALLATION_TITLE">Confirmer l'installation</string>
+		<string name="CONFIRM_INSTALLATION_NOTE">Merci de vérifier les informations ci-dessous et de confirmer l'installation.</string>
+		<string name="PACKAGE_NAME_">Paquetage :</string>
+		<string name="INSTALL_LOCATION_">Emplacement d'installation :</string>
+		<string name="GAME_PATH_">Chemin d'accès au jeu :</string>
+		<string name="CONFIRM_INSTALLATION_ACTION">Confirmer l'installation</string>
+		<string name="ALWAYS_SHOW_CONFIRM_INSTALL_DIALOG">Toujours afficher ce message</string>
+
 		<string name="INSTALLATION_SUCCEEDED">Installation terminée</string>
 		<string name="RUN_GAME">Lancer $RageGAME$</string>
 		<string name="RUN_GAME_TEXT">Lancez le jeu pour voir les modifications</string>
@@ -46,6 +54,7 @@
 		<string name="ERROR_CODE_UNKNOWN">Quelque chose s'est mal déroulé. Regardez dans les fichiers de logs pour plus de détails.</string>
 		<string name="ERROR_INSTALLATION">Erreur fatale durant l'installation. Regardez dans les fichiers de logs pour plus de détails.</string>
 		<string name="ERROR_MSXML">MSXML n'est pas installé. Il est nécessaire pour utiliser l'installateur de paquetages.</string>
+		<string name="ERROR_NO_LOG_FILE">L'installateur de paquetages ne peut pas créer de fichier de logs. Redémarrez votre PC et réessayez. Si le problème persiste, vérifiez les paramètres de votre antivirus.</string>
 		<string name="CHECK_LOG_FILE">Merci de regarder dans les fichiers de logs pour plus de détails.</string>
 
 		<string name="OPEN_INSTALLATION_LOG">Ouvrir les logs de l'installation</string>
@@ -53,6 +62,7 @@
 
 		<!-- LOADING -->
 		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Ce paquetage n'est pas un fichier .zip valide.</string>
+		<string name="LOADING_ERROR_NOT_SUPPORTED_ZIP_COMPRESSION_METHOD">La méthode de compression de ce fichier ZIP n'est pas supportée.</string>
 		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Extension non reconnue. Le fichier doit être un .zip ou un .oiv.</string>
 		<string name="LOADING_ERROR_FILE_NO_ACCESS">Impossible d'accéder au paquetage. Assurez-vous qu'il ne soit pas utilisé par un autre processus.</string>
 		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Ce paquetage n'existe pas.</string>
@@ -77,6 +87,7 @@
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Ce paquetage ne peut pas être installé dans $RageGAME$. Merci de vous référer à la liste des jeux pris en charge dans la description du paquetage.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Des fichiers sont manquants dans le paquetage. Contactez l'auteur du paquetage.</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Certains fichiers ont un chemin d'accès incorrect. Contactez l'auteur du paquetage.</string>
+		<string name="INSTALLING_ERROR_ANOTHER_INSTALLER">Une installation de paquetage est en cours. Veuillez attendre que cette installation soit terminée puis réessayez.</string>
 
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Attention, ce paquetage ne pourra pas être désinstallé automatiquement.</string>

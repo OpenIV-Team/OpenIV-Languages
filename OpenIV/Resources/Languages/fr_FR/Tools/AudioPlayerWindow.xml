@@ -11,6 +11,7 @@
 		<btnOptions Caption='Options'/>
 		<miPlayWhenOpen Caption="Lire à l'ouverture du fichier"/>
 		<miAutoPlayNext Caption='Lire automatiquement la piste suivante'/>
+		<miShowTrackHash Caption='Afficher le hash du nom de la piste'/>
 
 		<!-- Sort -->
 		<btnSort Caption='Trier'/>

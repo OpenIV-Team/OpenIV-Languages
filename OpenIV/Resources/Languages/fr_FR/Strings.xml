@@ -6,7 +6,7 @@
 		<Item Index='02' Value='Recherche - $AppName$'/>
 		<Item Index='03' Value='Recherche en cours, patientez...'/>
 		<Item Index='04' Value='Fermer'/>
-		<Item Index='05' Value=''/>
+		<Item Index='05' Value=' Go'/>
 		<Item Index='06' Value='Oui'/>
 		<Item Index='07' Value='Non'/>
 		<Item Index='08' Value=' octets'/>
@@ -47,6 +47,7 @@
 		<Item Index='43' Value='$AppName$ ne peut pas ouvrir ce fichier car sa taille est supérieur à 256 Mo.'/>
 		<Item Index='44' Value="$AppName$ ne peut pas afficher le contenu de ce fichier. Le fichier ne peut pas être sauvegardé en XML, code d'erreur : %s"/>
 		<Item Index='45' Value="$AppName$ ne peut pas ouvrir ce fichier. Code d'erreur : %s"/>
+		<Item Index='46' Value='$AppName$ ne peut pas ouvrir un paquetage OIV dans une archive du jeu.'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="Lancer $RageGAME_SHORT$" Hint="Lancer $RageGAME$"/>
