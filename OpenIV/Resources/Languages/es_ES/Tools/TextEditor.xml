@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<TextEditorWindow Caption='$AppName$ Herramienta de texto'>
 		<!-- String's -->
@@ -43,6 +43,8 @@
 		<string name="SEARCH_SET_SELECTION_AREA">Establecer selección</string>
 		<string name="GOTO_LINE">Ir a linea</string>
 
+		<string name="CHECK_XML_SYNTAX">Comprobar la sintaxis XML</string>
+		
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Modo de busqueda</string>
 		<string name="SEARCH_MODE_NORMAL">Normal</string>
@@ -66,5 +68,11 @@
 		<string name="GOTO_LINE_PROMT">Ingesar numero de linea:</string>
 		<string name="GOTO_LINE_NOTE">Ingresar + o - para moverte a una linea releativa de la actual localización. Ejemplo: +4 va a moverte para adelante cuatro lineas.</string>
 		<string name="GO">Ir</string>
+		<string name="XML_SYNTAX">Sintaxis XML</string>
+		<string name="XML_NO_ERROR_DETECTED">Ningún error detectado.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">Error de análisis de XML en la línea %D, columna %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Continuar de todas formas</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignorar el error y guardar el archivo</string>
+		<string name="XML_BACK_TO_EDITOR">Volver al editor</string>
 	</RenderUI>
 </Translation>
