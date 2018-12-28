@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<SearchWindow Caption='$AppName$ - Búsqueda Global'>
 		<SearchBox BannerText="Buscar"/>
@@ -19,9 +19,9 @@
 		<btnExtractSelected Caption="Extraer archivos seleccionados"/>
 		<btnGoTo Caption="Ir a archivo"/>
 		<btnOpenItem Caption="Abrir"/>
-		<btnExportItem Caption="Exportar"/>
-		<btnExportSelectedItems Caption="Exportar archivos seleccionados"/>
-		<btnExportAllItems Caption="Exportar todos los archivos"/>
+		<btnExtractItem Caption="Exportar"/>
+		<btnExtractSelectedItems Caption="Exportar archivos seleccionados"/>
+		<btnExtractAllItems Caption="Exportar todos los archivos"/>
 		<btnSelectAllItems Caption="Seleccionar todo"/>
 		<btnCopyName Caption="Copiar nombre"/>
 		<btnCopyPathName Caption="Copiar ruta"/>
