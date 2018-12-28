@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
 	<StringList>
 		<Item Index='00' Value='Progreso...'/>
@@ -6,7 +6,7 @@
 		<Item Index='02' Value='$AppName$ - Buscar'/>
 		<Item Index='03' Value='Buscando, por favor espere...'/>
 		<Item Index='04' Value='Cerrar'/>
-		<Item Index='05' Value=''/>
+		<Item Index='05' Value=' GB'/>
 		<Item Index='06' Value='Si'/>
 		<Item Index='07' Value='No'/>
 		<Item Index='08' Value=' bytes'/>
@@ -47,6 +47,7 @@
 		<Item Index='43' Value='$AppName$ no puede abrir este archivo porque es más grande que 256 Megabytes.'/>
 		<Item Index='44' Value='$AppName$ es incapaz de mostrar contenido de este archivo. El archivo no puede ser guardado como XML, código de error: %s'/>
 		<Item Index='45' Value='$AppName$ es incapaz de abrir este archivo. Código de error: %s'/>
+		<Item Index='46' Value='$AppName$ es incapaz de abrir el Paquete OIV dentro del archivo del juego.'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="Abrir $RageGAME_SHORT$" Hint="Abrir $RageGAME$"/>
