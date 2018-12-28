@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<AudioPlayerWindow Caption='$AppName$ Reproductor de Audio'>
 		<!-- Export -->
@@ -11,6 +11,7 @@
 		<btnOptions Caption='Opciones'/>
 		<miPlayWhenOpen Caption='Empezar reproduciendo cuando el archivo se abra'/>
 		<miAutoPlayNext Caption='Auto reproducir la próxima pista'/>
+		<miShowTrackHash Caption='Mostrar el nombre de la pista en hash'/>
 		<miPlay Caption='Reproducir'/>
 		<miExport Caption='Exportar'/>
 		<miCopyName Caption='Copiar nombre'/>
