@@ -189,7 +189,7 @@
 		<actGoToWeb Caption="Visita il sito web per qualche pillola in più" Hint=""/>
 		<actSendFeedback Caption="Invia un riscontro o suggerimento costruttivo" Hint=""/>
 		<actReportBug Caption="Segnalaci un bug star" Hint=""/>
-		<actWin7ReportTool Caption="Registra i passaggi per riprodurre un problema" Hint=""/>
+		<actWin7ReportTool Caption="Registra i passaggi per riprodurre un problema" Hint=""/> <!-- Only in Win7 and later -->
 		<actAbout Caption="Informazioni..." Hint=""/>
 		<!-- Groups Action's -->
 		<actCollapseAll Caption="Collassa tutti i gruppi" Hint=""/>
@@ -354,6 +354,7 @@
 		<tbFileAssociation Caption="Cambia le associazioni dei file"/>
 		<cbDisplayExitConfirmationDialog Caption="Mostra la finestra di dialogo di conferma all'uscita"/>
 		<cbStartWithLocationFromLastSession Caption="Avvia $AppName$ nella posizione dell'ultima sessione"/>
+		<cbAlwaysOnExtendedContextMenu Caption="Apri sempre il menù contestuale esteso per gli elementi nella finestra principale"/>																										   
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Cartella $ModsFolder$"/>
 		<lbModsFolderText Caption="In questa pagina puoi cambiare le impostazioni relative alla cartella $ModsFolder$ folder."/>
@@ -388,6 +389,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="Nota: assicurati che il tuo sistema sia in grado di riprodurre il suono surround, altrimenti non ascolterai gran parte del contenuto audio."/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="Mostra la finestra di dialogo di conferma nell'installatore di pacchetti"/>																									   
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Formato file texture predefinito"/>

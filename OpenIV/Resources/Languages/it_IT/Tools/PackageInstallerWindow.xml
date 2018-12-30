@@ -47,16 +47,26 @@
 		<string name="ERROR_INSTALLATION">Si è verificato un errore fatale durante l'installazione. Si prega di controllare il file di log per i dettagli di errore.</string>
 		<string name="ERROR_MSXML">MSXML non è installato. È necessario utilizzare l'Installatore pacchetti. </string>
 		<string name="CHECK_LOG_FILE">Controlla il file di log per i dettagli di errore. </string>
+        <string name="INSTALLING_ERROR_TITLE">Errore di installazione del pacchetto</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Errore sconosciuto</string>
+		<string name="ERROR_GROUP_FATAL">Errore fatale</string>
+		<string name="ERROR_CODE_UNKNOWN">Qualcosa è successo. Si prega di controllare il file log per i dettagli dell'errore.</string>
+		<string name="ERROR_INSTALLATION">Si è verificato un errore fatale durante l'installazione. Si prega di controllare il file log per i dettagli dell'errore.</string>
+		<string name="ERROR_MSXML">MSXML non è installato. È necessario utilizzare l'Installatore pacchetti.</string>
+		<string name="ERROR_NO_LOG_FILE">L'installatore di pacchetti non è in grado di creare il file di registro. Riavvia il PC e riprova. Se il problema persiste, controlla il tuo software antivirus.</string>
+		<string name="CHECK_LOG_FILE">Controlla il file log per i dettagli dell'errore.</string>
 
 		<string name="OPEN_INSTALLATION_LOG">Apri registro di installazione </string>
 		<string name="OPEN_LOG_FILE">Apri file di registro</string>
 
 		<!-- LOADING -->
-		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Il file del pacchetto non è un file ZIP valido. </string>
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Il file del pacchetto non è un file ZIP valido.</string>
+		<string name="LOADING_ERROR_NOT_SUPPORTED_ZIP_COMPRESSION_METHOD">Il metodo di compressione di questo file ZIP non è supportato.</string>
 		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Estensione file sconosciuta. Il file del pacchetto deve essere .oiv o .zip.</string>
 		<string name="LOADING_ERROR_FILE_NO_ACCESS">Impossibile accedere al file del pacchetto. Assicurati che non venga utilizzato da un altro processo.</string>
 		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Il file del pacchetto non esiste.</string>
-		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE"> Impossibile aprire il file del pacchetto.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Impossibile aprire il file del pacchetto.</string>
 
 		<!-- READING -->
 		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Impossibile trovare il file "assembly.xml" in questo pacchetto. Probabilmente il file non è un pacchetto di $AppName$ oppure è un file danneggiato.</string>
@@ -77,6 +87,7 @@
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Questo pacchetto non può essere installato in $RageGAME$. Controlla l'elenco dei giochi supportati nella sezione delle informazioni aggiuntive.</string>
 		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Alcuni file sono mancanti nell'archivio del pacchetto. Si prega di contattare l'autore del pacchetto.</string>
 		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Alcuni file hanno percorsi interni al gioco errati. Si prega di contattare l'autore del pacchetto.</string>
+		<string name="INSTALLING_ERROR_ANOTHER_INSTALLER">È in corso l'installazione di un'altro pacchetto. Per favore attendi che finisca prima di riprovare.</string>
 
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">Questo pacchetto non può essere disinstallato automaticamente.</string>
