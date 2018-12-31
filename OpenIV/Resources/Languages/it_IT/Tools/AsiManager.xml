@@ -22,15 +22,18 @@
 		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
 		<string name="OPENIV_ASI_DESCRIPTION">Questo plugin ASI consente al tuo gioco di caricare archivi RPF modificati. Fornisce inoltre supporto per la cartella $ModsFolder$</string>
 
-		<string name="OPEN_CAMERA_ASI">Sblocca la Telecamera</string>
-		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Rimuove il limite di distanza della telecamera nell'Editor Rockstar.</string>
-
+		<string name="OPEN_CAMERA_ASI">openCamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Rimuove il limite di distanza della telecamera nell'Editor Rockstar.</string>																													 
+																										
 		<string name="INSTALLATION_FAILED">Installazione fallita</string>
 		<string name="INSTALLATION_FAILED_TEXT">L'installazione non è riuscita, riprova riavviando $AppName$.</string>
-
+		
 		<string name="UNINSTALL_FAILED">Disinstallazione fallita</string>
 		<string name="UNINSTALL_FAILED_TEXT">La disisntallazione non è riuscita, riprova riavviando $AppName$.</string>
 
+
+
+		
 		<string name="MODS_FOLDER_TITLE">Creare la cartella $ModsFolder$?</string>
 		<string name="MODS_FOLDER_TEXT">La cartella $ModsFolder$ ti consente di mantenere tutti i tuoi file di gioco originali al sicuro e di avere un modo più semplice con un clic di passare tra i file modificati e quelli originali.</string>
 		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Mostra notifica durante la modifica dell'archivio all'esterno della cartella $ModsFolder$</string>

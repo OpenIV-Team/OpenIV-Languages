@@ -11,6 +11,7 @@
 		<btnOptions Caption='Impostazioni'/>
 		<miPlayWhenOpen Caption='Riproduci appena viene aperto'/>
 		<miAutoPlayNext Caption='Riproduci automaticamente la traccia successiva'/>
+		<miShowTrackHash Caption="Mostra hash della traccia"/>										   
 
 		<!-- Sort -->
 		<btnSort Caption='Ordina'/>

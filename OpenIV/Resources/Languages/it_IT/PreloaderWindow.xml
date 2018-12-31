@@ -56,7 +56,7 @@
 		<UpdateScreen>
 			<!-- Button's -->
 			<btnExit Caption='Esci'/>
-			<btnInstall Caption='SCarica e installa'/>
+			<btnInstall Caption='Scarica e installa'/>
 			<!-- Label's -->
 			<lbTitle Caption='Aggirona $AppName$'/>
 			<lbText Caption="È disponibile un aggiornamento di $AppName$. Devi installare questo aggiornamento, altrimenti non sarai in grado di eseguire $AppName$."/>
@@ -69,7 +69,7 @@
 				<Lines>
 					<Item Index='0' Value=' Mb'/>
 					<Item Index='1' Value='Preparazione per il download...'/>
-					<Item Index='2' Value='Caricato: %f of %f Mb'/>
+					<Item Index='2' Value='Scaricato: %f di %f Mb'/>
 					<Item Index='3' Value='In aggiornamento...'/>
 					<Item Index='4' Value='Errore di aggiornamento, riprova più tardi..'/>
 					<Item Index='5' Value='%d.%d.%d (Build %d; Data %s)'/>
