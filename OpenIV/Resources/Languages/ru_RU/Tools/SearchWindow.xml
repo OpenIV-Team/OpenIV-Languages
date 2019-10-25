@@ -3,7 +3,13 @@
 	<SearchWindow Caption='Поиск - $AppName$'>
 		<SearchBox BannerText="Поиск"/>
 		<btnGoSearch Caption="Найти"/>
-		<lbSearchOptions Caption="Параметры поиска:"/>
+		<lbSearchFor Caption="Что искать:"/>
+		<cbSearchFor>
+			<Items>
+				<Item Index="0" Value='Файлы и папки'/>
+				<Item Index="1" Value='Звуковые дорожки'/>
+			</Items>
+		</cbSearchFor>
 		<lbSearchArea Caption="Область поиска:"/>
 		<cbSearchArea>
 			<Items>
@@ -12,7 +18,7 @@
 				<Item Index="2" Value='Искать только в папке $ModsFolder$'/>
 			</Items>
 		</cbSearchArea>
-		<cbSoundsAndAudio Caption="Поиск в звуках и музыке"/>
+		<lbAudioSearchNote Caption="Результаты поиска могут быть не полными, потому что не все имена звуковых дорожек были обнаружены."/>
 		<lbStopHint Caption="Для остановки поиска нажмите ESC"/>
 		<btnExtractResults Caption="Извлечь результаты"/>
 		<btnExtractAll Caption="Извлечь все файлы"/>
@@ -28,7 +34,7 @@
 		<btnSaveContent Caption="Сохранить содержимое"/>
 		<btnSaveRawContent Caption="Save raw content"/>
 		<!-- String's -->
-		<AeroWindow LinesCount='10'>
+		<AeroWindow LinesCount='15'>
 			<StringList>
 				<Item Index='0' Value='Найти'/>
 				<Item Index='1' Value='Остановить поиск'/>
@@ -39,6 +45,8 @@
 				<Item Index='6' Value="$AppName$ не может открыть файл."/>
 				<Item Index='7' Value="Нет результатов для экспорта."/>
 				<Item Index='8' Value="Остановите поиск для экспорта."/>
+				<Item Index='9' Value="Файлы: %D, Папки: %D"/>
+				<Item Index='10' Value="Файлы: %D, Звуковые дорожки: %D"/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>

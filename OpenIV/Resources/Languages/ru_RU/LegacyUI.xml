@@ -125,6 +125,7 @@
 		<mmFilter Caption="Фильтровать"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Раскладка"/>
+		<mmSortBy Caption="Сортировка"/>
 		<mmGroupBy Caption="Группировка"/>
 		<mmGoto Caption="Переход"/>
 		<!-- Main Menu : View -->
@@ -277,6 +278,8 @@
 				<Item Index="53" Value="Вы действительно хотите безвозвратно удалить эту папку?"/>
 				<Item Index="54" Value="Удаление нескольких элементов"/>
 				<Item Index="55" Value="Вы действительно хотите безвозвратно удалить эти объекты? (%d шт.)"/>
+				<Item Index="56" Value="По возрастанию"/>
+				<Item Index="57" Value="По убыванию"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -305,19 +308,6 @@
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
-
-	<!-- Web window -->
-
-	<webWindow Caption="$WebName$ - ">
-		<!-- Button's -->
-		<btnClose Caption="Закрыть"/>
-		<!-- Strings -->
-		<AeroWindow LinesCount="1">
-			<StringList>
-				<Item Index="0" Value="Условия использования и политика конфиденциальности"/>
-			</StringList>
-		</AeroWindow>
-	</webWindow>
 
 	<!-- Configuration -->
 
