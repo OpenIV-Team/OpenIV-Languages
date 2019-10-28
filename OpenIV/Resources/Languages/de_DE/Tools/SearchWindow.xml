@@ -45,6 +45,8 @@
 				<Item Index='6' Value="$AppName$ kann Datei nicht öffnen."/>
 				<Item Index='7' Value="Keine Ergebnisse zum Export."/>
 				<Item Index='8' Value="Stoppe bitte die Suche bevor du etwas exportierst."/>
+				<Item Index='9' Value="Dateien: %D, Ordner: %D"/>
+				<Item Index='10' Value="Dateien: %D, Audio Titel : %D"/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>
