@@ -1,9 +1,15 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<SearchWindow Caption='Suche - $AppName$'>
 		<SearchBox BannerText="Suche"/>
 		<btnGoSearch Caption="Suchen"/>
-		<lbSearchOptions Caption="Suchoptionen:"/>
+		<lbSearchFor Caption="Suche nach:"/>
+                <cbSearchFor>
+                        <Items>
+                                <Item Index="0" Value='Dateien und Order'/>
+                                <Item Index="1" Value='Audio Titel'/>
+                        </Items>
+                </cbSearchFor>
 		<lbSearchArea Caption="Suchbereich:"/>
 		<cbSearchArea>
 			<Items>
@@ -12,7 +18,7 @@
 				<Item Index="2" Value='Nur im $ModsFolder$ Ordner suchen'/>
 			</Items>
 		</cbSearchArea>
-		<cbSoundsAndAudio Caption="In Audios suchen"/>
+		<lbAudioSearchNote Caption="Die Suchergebnisse sind möglicherweise eingeschränkt, weil noch nicht alle Audio Namen gefunden wurden."/>
 		<lbStopHint Caption="Um den Suchvorgang abzubrechen drücke ESC"/>
 		<btnExtractResults Caption="Exportergebnisse"/>
 		<btnExtractAll Caption="Alle Dateien exportieren"/>
@@ -28,17 +34,19 @@
 		<btnSaveContent Caption="Inhalt speichern"/>
 		<btnSaveRawContent Caption="Rohdaten speichern"/>
 		<!-- Strings -->
-		<AeroWindow LinesCount='10'>
+		<AeroWindow LinesCount='15'>
 			<StringList>
 				<Item Index='0' Value='Suchen'/>
 				<Item Index='1' Value='Suche abbrechen'/>
 				<Item Index='2' Value='Keine Elemente gefunden'/>
-				<Item Index='3' Value='%D Elemente gefunden'/>
+				<Item Index='3' Value='(%D Elemente gefunden)'/>
 				<Item Index='4' Value='Keine Elemente ausgewählt'/>
 				<Item Index='5' Value='Ausgewählt: %D'/>
 				<Item Index='6' Value="$AppName$ kann Datei nicht öffnen."/>
 				<Item Index='7' Value="Keine Ergebnisse zum Export."/>
 				<Item Index='8' Value="Stoppe bitte die Suche bevor du etwas exportierst."/>
+				<Item Index='9' Value="Dateien: %D, Ordner: %D"/>
+				<Item Index='10' Value="Dateien: %D, Audio Titel : %D"/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>
