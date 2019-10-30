@@ -3,8 +3,14 @@
 	<SearchWindow Caption='Recherche - $AppName$'>
 		<SearchBox BannerText="Rechercher"/>
 		<btnGoSearch Caption="Rechercher"/>
-		<lbSearchOptions Caption="Options de recherche:"/>
-		<lbSearchArea Caption="Zone de recherche:"/>
+		<lbSearchFor Caption="Rechercher :"/>
+		<cbSearchFor>
+			<Items>
+				<Item Index="0" Value='Fichiers et dossiers'/>
+				<Item Index="1" Value='Pistes audio'/>
+			</Items>
+		</cbSearchFor>
+		<lbSearchArea Caption="Zone de recherche :"/>
 		<cbSearchArea>
 			<Items>
 				<Item Index="0" Value='Chercher partout'/>
@@ -12,7 +18,7 @@
 				<Item Index="2" Value='Chercher seulement dans le dossier $ModsFolder$'/>
 			</Items>
 		</cbSearchArea>
-		<cbSoundsAndAudio Caption="Chercher dans les fichiers audio"/>
+		<lbAudioSearchNote Caption="Les résultats de la recherche peuvent être incomplets car toutes les pistes audio n'ont pas été découvertes."/>
 		<lbStopHint Caption="Appuyez sur Échap pour arrêter la recherche"/>
 		<btnExtractResults Caption="Extraire les résultats"/>
 		<btnExtractAll Caption="Extraire tous les fichiers"/>
@@ -28,17 +34,19 @@
 		<btnSaveContent Caption="Sauvegarder le contenu"/>
 		<btnSaveRawContent Caption="Sauvegarder contenu raw"/>
 		<!-- String's -->
-		<AeroWindow LinesCount='10'>
+		<AeroWindow LinesCount='15'>
 			<StringList>
 				<Item Index='0' Value='Rechercher'/>
 				<Item Index='1' Value='Arrêter la recherche'/>
 				<Item Index='2' Value='Aucun fichier trouvé'/>
-				<Item Index='3' Value='%D fichiers trouvé'/>
+				<Item Index='3' Value='(%D fichiers trouvé)'/>
 				<Item Index='4' Value='Aucun fichier sélectionné'/>
 				<Item Index='5' Value='Sélectionnés : %D'/>
 				<Item Index='6' Value="$AppName$ ne peut pas ouvrir ce fichier."/>
 				<Item Index='7' Value="Aucun résultat pour cette extraction."/>
 				<Item Index='8' Value="Arrêtez la recherche avant d'extraire."/>
+				<Item Index='9' Value="Fichiers : %D, Dossiers: %D"/>
+				<Item Index='10' Value="Fichiers : %D, Pistes audio : %D"/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>

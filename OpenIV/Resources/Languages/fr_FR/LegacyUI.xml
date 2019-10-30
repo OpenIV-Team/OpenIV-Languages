@@ -125,7 +125,8 @@
 		<mmFilter Caption="Filtrer"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Apparence"/>
-		<mmGroupBy Caption="Trier par"/>
+		<mmSortBy Caption="Trier par"/>
+		<mmGroupBy Caption="Grouper par"/>
 		<mmGoto Caption="Aller à"/>
 		<!-- Main Menu : View -->
 		<mmvIcon Caption="Icônes"/>
@@ -224,7 +225,7 @@
 				<Item Index="00" Value="Dossier de destination :"/>
 				<Item Index="01" Value="Aperçu"/>
 				<Item Index="02" Value="Aucun fichier ouvert"/>
-				<Item Index="03" Value="(non)"/>
+				<Item Index="03" Value="(aucun)"/>
 				<Item Index="04" Value="Choisissez le type de la nouvelle archive :"/>
 				<Item Index="05" Value="Linéaire"/>
 				<Item Index="06" Value="Hiérarchique"/>
@@ -277,6 +278,8 @@
 				<Item Index="53" Value="Voulez-vous supprimer ce dossier de façon permanente ?"/>
 				<Item Index="54" Value="Supprimer les éléments"/>
 				<Item Index="55" Value="Voulez-vous supprimer ces %d éléments de façon permanente ?"/>
+				<Item Index="56" Value="Croissant"/>
+				<Item Index="57" Value="Décroissant"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -305,19 +308,6 @@
 			</StringList>
 		</AeroWindow>
 	</AdminModeWindow>
-
-	<!-- Web window -->
-
-	<webWindow Caption="$WebName$ - ">
-		<!-- Button's -->
-		<btnClose Caption="Fermer"/>
-		<!-- Strings -->
-		<AeroWindow LinesCount="1">
-			<StringList>
-				<Item Index="0" Value="Accord de licence et politique de confidentialité"/>
-			</StringList>
-		</AeroWindow>
-	</webWindow>
 
 	<!-- Configuration -->
 
