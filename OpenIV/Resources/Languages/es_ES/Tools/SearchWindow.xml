@@ -3,7 +3,13 @@
 	<SearchWindow Caption='$AppName$ - Búsqueda Global'>
 		<SearchBox BannerText="Buscar"/>
 		<btnGoSearch Caption="Buscar"/>
-		<lbSearchOptions Caption="Opciones de busqueda:"/>
+		<lbSearchFor Caption="Buscar por:"/>
+		<cbSearchFor>
+			<Items>
+				<Item Index="0" Value='Archivos y carpetas'/>
+				<Item Index="1" Value='Pistas de audio'/>
+			</Items>
+		</cbSearchFor>
 		<lbSearchArea Caption="Buscar area:"/>
 		<cbSearchArea>
 			<Items>
@@ -12,7 +18,7 @@
 				<Item Index="2" Value='Buscar solo en la carpeta de $ModsFolder$'/>
 			</Items>
 		</cbSearchArea>
-		<cbSoundsAndAudio Caption="Buscar en audio"/>
+		<lbAudioSearchNote Caption="Los resultados de la búsqueda pueden ser limitados porque no todos los nombres de las pistas de audio fueron descubiertos."/>
 		<lbStopHint Caption="Para parar la busqueda presiona ESC"/>
 		<btnExtractResults Caption="Extraer resultados"/>
 		<btnExtractAll Caption="Extraer todos los archivos"/>
@@ -28,17 +34,19 @@
 		<btnSaveContent Caption="Guardar contenido"/>
 		<btnSaveRawContent Caption="Guardar contenido sin procesar"/>
 		<!-- String's -->
-		<AeroWindow LinesCount='10'>
+		<AeroWindow LinesCount='15'>
 			<StringList>
 				<Item Index='0' Value='Buscar'/>
 				<Item Index='1' Value='Parar de buscar'/>
 				<Item Index='2' Value='No hay items encontrados'/>
-				<Item Index='3' Value='Items encontrados: %D'/>
+				<Item Index='3' Value='(Items encontrados: %D)'/>
 				<Item Index='4' Value='No hay items seleccionados'/>
 				<Item Index='5' Value='Seleccionados: %D'/>
 				<Item Index='6' Value="$AppName$ no puede abrir el archivo."/>
 				<Item Index='7' Value="No hay resultados para extraer."/>
 				<Item Index='8' Value="Por favor, para de buscar luego de extraer."/>
+				<Item Index='9' Value="Archivos: %D, Carpetas: %D"/>
+				<Item Index='10' Value="Archivos: %D, Pistas de audio: %D"/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>
