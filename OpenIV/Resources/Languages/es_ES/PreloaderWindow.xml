@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<PreloaderWindow>
 		<WelcomeScreen>
@@ -26,8 +26,8 @@
 				<Lines>
 					<Item Index='00' Value='$AppName$ Términos de uso'/>
 					<Item Index='01' Value='Antes de usar $AppName$ tienes que leer los siguientes términos de uso.'/>
-					<Item Index='02' Value='$WebName$ servicio'/>
-					<Item Index='03' Value='$WebName$ el servicio está hecho con el proposito de intercambiar información con los desarrolladores y los usuarios finales de $AppName$. Si quieres registrate en el servicio, vas a estar habilitado de chequear las actualizaciones de $AppName$ y usar otras funciones adicionales. También $WebName$ el servicio colecta algunas estadísticas de información cuales están destinadas para ayudarnos a mejorar $AppName$ en el camino que el usuario prefiera.'/>
+					<Item Index='02' Value=''/>
+					<Item Index='03' Value=''/>
 					<Item Index='04' Value='Servicio temporalmente indisponible.'/>
 					<Item Index='05' Value='Elige la carpeta de $RageGAME$'/>
 					<Item Index='06' Value='Si no especifica la localización del juego, $AppName$ no puede abrir archivos procedentes de $RageGAME_SHORT$ que no tengan la suficiente información. Por favor introduce la correcta localización del $RageGAME$ instalado.'/>
