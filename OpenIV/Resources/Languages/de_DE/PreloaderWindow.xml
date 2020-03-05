@@ -30,7 +30,7 @@
 					<Item Index='03' Value=''/>
 					<Item Index='04' Value='Service kurzzeitig nicht erreichbar.'/>
 					<Item Index='05' Value='$RageGAME$ - Ordner auswählen'/>
-					<Item Index='06' Value='Ohne das Spielverzeichnis zu bestimmen, kann $AppName$ die $RageGAME_SHORT$ Dateien nicht öffnen, weil es nicht genug Inormationen hat. Bitte gebe unten den richtigen Installationspfad von $RageGAME$ ein.'/>
+					<Item Index='06' Value='Ohne das Spielverzeichnis zu bestimmen, kann $AppName$ die $RageGAME_SHORT$ Dateien nicht öffnen, weil es nicht genug Informationen hat. Bitte gebe unten den richtigen Installationspfad von $RageGAME$ ein.'/>
 					<Item Index='07' Value='$RageGAME$ Spielverzeichnis:'/>
 					<Item Index='08' Value='Fehler: Dieser Ordner existier nicht.'/>
 					<Item Index='09' Value='Erfolgreich: $AppName$ kann mit diesem Ordner arbeiten.'/>

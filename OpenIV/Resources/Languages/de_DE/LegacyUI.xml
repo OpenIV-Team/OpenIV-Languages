@@ -327,6 +327,8 @@
 		<!-- Allgemein -->
 		<tabMain Caption="Allgemein"/>
 		<lbDefaultGame Caption="Standard-Spiel festlegen"/>
+		<cbShowSelectGameDialog Caption='Zeige "Spiel und Platform Auswahl" Fenster beim Start'/>
+		<lbDefaultGame Caption="Standart-Spiel"/>
 		<lbWorkMode Caption="Standard Bearbeitungsmodus"/>
 		<WorkMode>
 			<Items>
