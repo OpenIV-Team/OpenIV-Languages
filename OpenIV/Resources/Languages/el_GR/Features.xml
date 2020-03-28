@@ -136,6 +136,7 @@
 				<Item Index='17' Value="%S(Γραμμή %D): Υπερβολικά οστά σε μία γεωμετρία, δεν μπορούν να χρησιμοποιηθούν πάνω από 48 οστά."/>
 
 				<Item Index='18' Value="%S(Γραμμή %D): %S"/>
+				
 				<!-- Export/Import -->
 				<Item Index='19' Value='Αναφορά εισαγωγής openFormats'/>
 				<Item Index='20' Value='Αναφορά εξαγωγής openFormats'/>

@@ -11,6 +11,7 @@
 		<btnOptions Caption='Ρυθμίσεις'/>
 		<miPlayWhenOpen Caption='Εκκίνηση αναπαραγωγής κατά το άνοιγμα του αρχείου'/>
 		<miAutoPlayNext Caption='Αυτόματη αναπαραγωγή του επόμενου κομματιού'/>
+		<miShowTrackHash Caption='Προβολή τίμης hash του ονόματος του κομματιού'/>
 
 		<!-- Sort -->
 		<btnSort Caption='Ταξινόμηση'/>

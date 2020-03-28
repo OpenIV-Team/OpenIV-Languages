@@ -125,6 +125,7 @@
 		<mmFilter Caption="Φίλτρο"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Διάταξη"/>
+		<mmSortBy Caption="Ταξινόμηση κατά"/>
 		<mmGroupBy Caption="Ομαδοποίηση κατά"/>
 		<mmGoto Caption="Πήγαινε"/>
 		<!-- Main Menu : View -->
@@ -211,7 +212,7 @@
 		<actFilterOnlyThis Caption="Προβολή μόνο αυτού" Hint=""/>
 		<!-- Tree -->
 		<actTreeCopyName Caption="Αντιγραφή ονόματος" Hint=""/>
-		<actTreeCopyAsPath Caption="Αντιγραφή ως διαδρομή" Hint=""/>
+		<actTreeCopyAsPath Caption="Αντιγραφή διαδρομής" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Προβολή στην Εξερεύνηση αρχείων των Windows" Hint=""/>
 		<actTreeCloseArchive Caption="Κλείσιμο αρχειοθήκης" Hint=""/>
 		<actTreeCopyToModsFolder Caption='Αντιγραφή στο φάκελο $ModsFolder$' Hint=""/>
@@ -224,7 +225,7 @@
 				<Item Index="00" Value="Φάκελος προορισμού:"/>
 				<Item Index="01" Value="Προεπισκόπηση"/>
 				<Item Index="02" Value="Κανένα ανοιχτό αρχείο"/>
-				<Item Index="03" Value="(χωρίς)"/>
+				<Item Index="03" Value="(χωρίς επιλογή)"/>
 				<Item Index="04" Value="Επιλογή τύπου της νέας αρχειοθήκης:"/>
 				<Item Index="05" Value="Γραμμική"/>
 				<Item Index="06" Value="Ιεραρχική"/>
@@ -277,6 +278,8 @@
 				<Item Index="53" Value="Είστε σίγουρος ότι θέλετε να διαγράψετε μόνιμα αυτόν τον φάκελο;"/>
 				<Item Index="54" Value="Διαγραφή πολλαπλών στοιχείων"/>
 				<Item Index="55" Value="Είστε σίγουρος ότι θέλετε να διαγράψετε μόνιμα αυτά τα %d στοιχεία;"/>
+				<Item Index="56" Value="Αύξουσα"/>
+				<Item Index="57" Value="Φθίνουσα"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -306,19 +309,6 @@
 		</AeroWindow>
 	</AdminModeWindow>
 
-	<!-- Web window -->
-
-	<webWindow Caption="$WebName$ - ">
-		<!-- Button's -->
-		<btnClose Caption="Κλείσιμο"/>
-		<!-- Strings -->
-		<AeroWindow LinesCount="1">
-			<StringList>
-				<Item Index="0" Value="Όροι χρήσης και Πολιτική απορρήτου"/>
-			</StringList>
-		</AeroWindow>
-	</webWindow>
-
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Ρυθμίσεις">
@@ -334,7 +324,8 @@
 		<ttRageExe Caption="Για να λειτουργήσει το $AppName$, το $RageEncryptionStorage$ πρέπει να βρίσκεται σε αυτόν τον κατάλογο."/>
 		<!-- General -->
 		<tabMain Caption="Γενικά"/>
-		<lbDefaultGame Caption="Επιλογή παιχνιδιού για προεπιλογή"/>
+		<cbShowSelectGameDialog Caption="Επιλογή παιχνιδιού και πλατφόρμας κατά την εκκίνηση"/>
+		<lbDefaultGame Caption="Προεπιλεγμένο παιχνίδι"/>
 		<lbWorkMode Caption="Προεπιλεγμένη λειτουργία"/>
 		<WorkMode>
 			<Items>
@@ -354,6 +345,7 @@
 		<tbFileAssociation Caption="Αλλαγή συσχετισμών αρχείων"/>
 		<cbDisplayExitConfirmationDialog Caption="Προβολή παραθύρου διαλόγου επιβεβαίωσης στην έξοδο"/>
 		<cbStartWithLocationFromLastSession Caption="Εκκίνηση του $AppName$ με προβολή της τελευταίας τοποθεσίας"/>
+		<cbAlwaysOnExtendedContextMenu Caption="Άνοιγμα εκτεταμένου μενού περιβάλλοντος πάντοτε στο κεντρικό παράθυρο"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Φάκελος $ModsFolder$"/>
 		<lbModsFolderText Caption="Σε αυτήν την σελίδα μπορούν να αλλάξουν ρυθμίσεις σχετικές με το φάκελο $ModsFolder$."/>
@@ -388,6 +380,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="Σημείωση: Σιγουρευτείτε ότι το σύστημά σας έχει την δυνατότητα αναπαραγωγής ήχου surround, διαφορετικά δε θα μπορείτε να ακούσετε το μεγαλύτερο μέρος του ηχητικού περιεχομένου."/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="Προβολή διαλόγου επιβεβαίωσης στον Εγκαταστατή πακέτων"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Προεπιλεγμένος τύπος αρχείων υφής"/>
