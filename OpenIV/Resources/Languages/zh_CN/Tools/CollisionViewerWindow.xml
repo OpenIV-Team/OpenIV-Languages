@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<CollisionViewerWindow Caption='$AppName$ 碰撞浏览器'>
+	<CollisionViewerWindow Caption='$AppName$ 碰撞查看器'>
 		<paneDictionary Caption='目录项'/>
 		<paneComposite Caption='复合元素'/>
 		<miLeft Caption='左'/>
@@ -35,13 +35,13 @@
 		   
 要改变渲染选项，使用右侧的选项或下列热键：
 		   
-    F1 - 切换本帮助界面
+    F1 - 切换至本帮助界面
     C - 切换镜头模式
     F - 切换边缘面
     P - 切换显示顶点
     N - 切换显示法线
     G - 切换几何
-    ESC - 关闭本浏览器
+    ESC - 关闭碰撞查看器
 	
     按住H - 临时隐藏HUD
 ]]>

@@ -57,7 +57,7 @@
 		<string name="PROPERTIES_NOT_AVAILABLE">无法编辑"%S"贴图属性。</string>
 
 		<!-- Save changes dialog -->
-		<string name="SAVE_CHANGES_">你想要保存更改吗？</string>
+		<string name="SAVE_CHANGES_">您想要保存更改吗？</string>
 
 		<!-- DirectX 10/11 -->
 		<string name="DX11_NOT_INIT_TITLE">DirectX 11 不可用</string>

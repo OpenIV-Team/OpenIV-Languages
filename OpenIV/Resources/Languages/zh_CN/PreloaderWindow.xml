@@ -12,22 +12,22 @@
 			<btnBackupNext Caption='继续'/>
 			<btnSocialNext Caption='继续'/>
 			<btnSocialYouTube Caption='$AppName$ YouTube 频道'/>
-			<btnSocialTwitter Caption='$AppName$ on Twitter'/>
-			<btnSocial_FB Caption='$AppName$ on Facebook'/>
-			<btnSocial_VK Caption='$AppName$ on VK'/>
+			<btnSocialTwitter Caption='$AppName$ 官方推特'/>
+			<btnSocial_FB Caption='$AppName$ on 官方脸书'/>
+			<btnSocial_VK Caption='$AppName$ on 官方VK'/>
 			<!-- Link's -->
-			<LnkWebLangs Caption='翻译 $AppName$ into 到其他语言'/>
+			<LnkWebLangs Caption='翻译 $AppName$ into 至其他语言'/>
 			<LnkWebEULA Caption='在此阅读许可.'/>
 			<!-- CheckBox's -->
-			<cbAcceptEULA Caption='我已经阅读并同意了 $AppName$ 中许可协议中的条款。'/>
+			<cbAcceptEULA Caption='我已阅读并同意了 $AppName$ 中许可协议中的条款。'/>
 			<!-- Strings -->
 			<StringList SetCount='30'>
 				<Lines>
 					<Item Index='00' Value='$AppName$ 使用条款'/>
-					<Item Index='01' Value='在使用 $AppName$ 前你必须阅读并同意以下使用条款。'/>
-					<Item Index='02' Value='$WebName$ 服务'/>
-					<Item Index='03' Value='$WebName$ 服务是为了在 $AppName$ 的开发者和最终用户之间交换信息而制作的。 如果您在服务中注册，您将能够检查 $AppName$ 的更新并使用其他附加功能。 此外，$WebName$ 服务收集一些统计信息，旨在帮助我们以最终用户喜欢的方式改进 $AppName$。'/>
-					<Item Index='04' Value='服务暂时不可用。'/>
+					<Item Index='01' Value='在使用 $AppName$ 前您必须阅读并同意以下使用条款。'/>
+					<Item Index='02' Value=''/>
+					<Item Index='03' Value=''/>
+					<Item Index='04' Value='该服务暂时不可用。'/>
 					<Item Index='05' Value='选择 $RageGAME$ 目录'/>
 					<Item Index='06' Value='如果没有指定游戏位置，$AppName$ 无法打开 $RageGAME_SHORT$ 文件，因为它没有足够的信息。 请在下面设置已安装的 $RageGAME$ 的正确位置。'/>
 					<Item Index='07' Value='$RageGAME$ 位置:'/>
@@ -43,7 +43,7 @@
 					<Item Index='17' Value="错误：$AppName$ 无法获得处理该文件夹的权限。\n请以管理员权限运行 $AppName$。"/>
 					<Item Index='18' Value='加入 $AppName$ 社区'/>
 					<Item Index='19' Value='$AppName$ - 确认'/>
-					<Item Index='20' Value='配置步骤尚未完成。\n你要退出吗？'/>
+					<Item Index='20' Value='配置步骤尚未完成。\n您确定要退出吗？'/>
 					<Item Index='21' Value='错误：$AppName$ 无权使用 "$RageEncryptionStorage$" 文件。\n您可以设置所需权限或使用管理员权限运行 $AppName$。'/>
 					<Item Index='22' Value="错误: $RageGAME$ 正在运行. 在使用 $AppName$ 请先关闭游戏."/>
 					<Item Index='23' Value="完成 \n已设置为您的游戏目录设置权限。"/>
@@ -61,12 +61,12 @@
 			<lbText Caption='$AppName$ 有一项新的更新可用。在启动 $AppName$ 之前你需要安装该更新。'/>
 			<lbStatus Caption='下载大小: '/>
 			<cbInstallUpdatesAutomatically Caption='自动安装更新'/>
-			<lbCurrentVersion Caption='目前版本号:'/>
+			<lbCurrentVersion Caption='当前版本号:'/>
 			<lbNewVersion Caption='最新版本号:'/>
 			<!-- Strings -->
 			<StringList SetCount='10'>
 				<Lines>
-					<Item Index='0' Value=' Mb'/>
+					<Item Index='0' Value=' MB'/>
 					<Item Index='1' Value='准备下载...'/>
 					<Item Index='2' Value='已下载: %f 总计 %f Mb'/>
 					<Item Index='3' Value='升级中...'/>
@@ -87,7 +87,7 @@
 			<StringList SetCount='20'>
 				<Lines>
 					<Item Index='00' Value='致命应用程序错误'/>
-					<Item Index='01' Value='你将 $AppName$ 与 "$RageEncryptionStorage$" 放在了同一个文件夹，\n请将 $AppName$ 放置于其他文件夹。'/>
+					<Item Index='01' Value='您将 $AppName$ 与 "$RageEncryptionStorage$" 放在了同一个文件夹，\n请将 $AppName$ 放置于其他文件夹。'/>
 					<Item Index='02' Value='变更 $RageGAME$ 文件夹'/>
 					<Item Index='03' Value='出现问题，请变更 $RageGAME$ 文件夹并重新启动 $AppName$。'/>
 					<Item Index='04' Value='错误：该文件夹不存在。'/>
