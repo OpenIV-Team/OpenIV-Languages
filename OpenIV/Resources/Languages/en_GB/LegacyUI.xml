@@ -125,6 +125,7 @@
 		<mmFilter Caption="Filter"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Layout"/>
+		<mmSortBy Caption="Sort by"/>
 		<mmGroupBy Caption="Group by"/>
 		<mmGoto Caption="Go To"/>
 		<!-- Main Menu : View -->
@@ -224,7 +225,7 @@
 				<Item Index="00" Value="Destination folder:"/>
 				<Item Index="01" Value="Preview"/>
 				<Item Index="02" Value="no open files"/>
-				<Item Index="03" Value="(no)"/>
+				<Item Index="03" Value="(None)"/>
 				<Item Index="04" Value="Choose type of a new archive:"/>
 				<Item Index="05" Value="Linear"/>
 				<Item Index="06" Value="Hierarchical"/>
@@ -277,6 +278,8 @@
 				<Item Index="53" Value="Are you sure you want to permanently delete this folder?"/>
 				<Item Index="54" Value="Delete Multiple Items"/>
 				<Item Index="55" Value="Are you sure you want to permanently delete these %d items?"/>
+				<Item Index="56" Value="Ascending"/>
+				<Item Index="57" Value="Descending"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -306,19 +309,6 @@
 		</AeroWindow>
 	</AdminModeWindow>
 
-	<!-- Web window -->
-
-	<webWindow Caption="$WebName$ - ">
-		<!-- Button's -->
-		<btnClose Caption="Close"/>
-		<!-- Strings -->
-		<AeroWindow LinesCount="1">
-			<StringList>
-				<Item Index="0" Value="Terms of Use and Policy of Privacy"/>
-			</StringList>
-		</AeroWindow>
-	</webWindow>
-
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Options">
@@ -334,7 +324,8 @@
 		<ttRageExe Caption="$RageEncryptionStorage$ should be located in this directory for $AppName$ to work"/>
 		<!-- General -->
 		<tabMain Caption="General"/>
-		<lbDefaultGame Caption="Select default game"/>
+		<cbShowSelectGameDialog Caption='Show "Select game and platform" dialog on startup'/>
+		<lbDefaultGame Caption="Default game"/>
 		<lbWorkMode Caption="Default work mode"/>
 		<WorkMode>
 			<Items>

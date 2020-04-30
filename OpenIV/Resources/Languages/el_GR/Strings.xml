@@ -6,7 +6,7 @@
 		<Item Index='02' Value='Αναζήτηση - $AppName$'/>
 		<Item Index='03' Value='Γίνεται αναζήτηση, παρακαλώ περιμένετε...'/>
 		<Item Index='04' Value='Κλείσιμο'/>
-		<Item Index='05' Value=''/>
+		<Item Index='05' Value=' GB'/>
 		<Item Index='06' Value='Ναι'/>
 		<Item Index='07' Value='Όχι'/>
 		<Item Index='08' Value=' bytes'/>
@@ -47,6 +47,7 @@
 		<Item Index='43' Value='Το $AppName$ δεν μπορεί να ανοίξει αυτό το αρχείο γιατί ξεπερνάει τα 256 Megabytes.'/>
 		<Item Index='44' Value='Το $AppName$ δεν μπορεί να δείξει το περιεχόμενο αυτού του αρχείου. Το αρχείο δεν μπορεί να αποθηκευτεί ως XML, κωδικός σφάλματος: %s'/>
 		<Item Index='45' Value='Το $AppName$ δεν μπορεί να ανοίξει αυτό το αρχείο. Κωδικός σφάλματος: %s'/>
+		<Item Index='46' Value='Το $AppName$ δεν μπορεί να ανοίξει το πακέτο OIV μέσα στην αρχειοθήκη του παιχνιδιού.'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="Εκκίνηση $RageGAME_SHORT$" Hint="Εκκίνηση $RageGAME$"/>

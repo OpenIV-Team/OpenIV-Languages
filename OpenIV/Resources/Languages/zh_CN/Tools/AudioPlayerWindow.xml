@@ -4,18 +4,19 @@
 		<!-- Export -->
 		<btnExportAll Caption='提取全部'/>
 		<miExportAllChannelsSeparately Caption='分别导出所有通道'/>
-		<miExportAllAsStereo Caption='将所有多声道导出为立体声 WAV'/>
+		<miExportAllAsStereo Caption='导出所有多声道作为立体声 WAV'/>
 		<miExportAllAsMono Caption='导出所有多声道作为单声道 WAV'/>
 
 		<!-- Options -->
 		<btnOptions Caption='选项'/>
-		<miPlayWhenOpen Caption='打开文件时开始播放'/>
+		<miPlayWhenOpen Caption='打开文件时自动播放'/>
 		<miAutoPlayNext Caption='自动播放下一条音轨'/>
+		<miShowTrackHash Caption='显示音轨名字的哈希值'/>
 
 		<!-- Sort -->
 		<btnSort Caption='排序'/>
-		<miSortByName Caption='以名称排序'/>
-		<miSortByDuration Caption='以时长排序'/>
+		<miSortByName Caption='按名称排序'/>
+		<miSortByDuration Caption='按时长排序'/>
 		<miSortOrderAsc Caption='升序'/>
 		<miSortOrderDesc Caption='降序'/>
 
@@ -23,7 +24,7 @@
 		<miPlay Caption='播放'/>
 		<miCopyName Caption='复制名称'/>
 		<miExport Caption='导出'/>
-		<miExportChannelsSeparately Caption='单独导出频'/>
+		<miExportChannelsSeparately Caption='分开导出每个声道'/>
 		<miExportAsStereo Caption='导出为立体声 WAV'/>
 		<miExportAsMono Caption='导出为单声道 WAV'/>
 

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Translation>
+<?xml version="1.0" encoding="UTF-8"?>
+ <Translation>
 	<AboutWindow3 Caption='Riguardo a $AppName$'/>
 	<RenderUI>
 		<string name="VERSION_LABEL_2">Versione %D.%D (Build %D; Data %S)</string>

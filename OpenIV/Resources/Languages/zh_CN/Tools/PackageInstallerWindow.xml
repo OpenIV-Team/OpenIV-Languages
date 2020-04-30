@@ -8,15 +8,15 @@
 		<string name="INSTALLING">安装中</string>
 		<string name="DESCRIPTION">描述</string>
 		<string name="ADDITIONAL_INFORMATION">详细信息</string>
-		<string name="GREATED_BY">Created by</string>
-		<string name="SUPPORTED_GAMES">Supported games</string>
+		<string name="GREATED_BY">由下列人员创造</string>
+		<string name="SUPPORTED_GAMES">支持的游戏</string>
 		<string name="VERSION">版本</string>
 		<string name="LICENCE">许可</string>
 		<string name="VIEW_LICENCE">查看许可</string>
 		<string name="LEARN_MORE">了解更多</string>
 		<string name="LINK_HOMEPAGE">主页</string>
-		<string name="LINK_FACEBOOK">Facebook</string>
-		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_FACEBOOK">脸书</string>
+		<string name="LINK_TWITTER">推特</string>
 		<string name="LINK_YOUTUBE">YouTube</string>
 
 		<string name="SELECT_CONTENT">选择安装内容</string>
@@ -29,7 +29,15 @@
 		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">不能安装到 $ModsFolder$ 目录，因为 $ModsFolderAsi$ 未安装.</string>
 		<string name="LOCATION_GAME_FOLDER">游戏目录</string>
 		<string name="LOCATION_GAME_FOLDER_TEXT">安装到游戏目录。</string>
-		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">不能安装到游戏目录，因为在 $ModsFolder$ 目录设定已经禁用。</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">不能安装到游戏目录，因为在 $ModsFolder$ 目录设定已经禁用</string>
+
+		<string name="CONFIRM_INSTALLATION_TITLE">确认安装</string>
+		<string name="CONFIRM_INSTALLATION_NOTE">请阅读下方信息并确认安装。</string>
+		<string name="PACKAGE_NAME_">安装包名称:</string>
+		<string name="INSTALL_LOCATION_">安装位置:</string>
+		<string name="GAME_PATH_">游戏路径:</string>
+		<string name="CONFIRM_INSTALLATION_ACTION">确认安装</string>
+		<string name="ALWAYS_SHOW_CONFIRM_INSTALL_DIALOG">总是显示此对话窗口</string>
 
 		<string name="INSTALLATION_SUCCEEDED">安装成功</string>
 		<string name="RUN_GAME">运行$RageGAME$</string>
@@ -46,6 +54,7 @@
 		<string name="ERROR_CODE_UNKNOWN">出现意外，查看日志文件以检查错误。</string>
 		<string name="ERROR_INSTALLATION">出现致命错误，查看日志文件以检查错误。</string>
 		<string name="ERROR_MSXML">电脑未安装MSXML。</string>
+		<string name="ERROR_NO_LOG_FILE">安装器无法创建LOG文件，请重启电脑后再试一次。 如果问题依然存在，则请检查你的杀毒软件。</string>
 		<string name="CHECK_LOG_FILE">查看日志文件以检查错误。</string>
 
 		<string name="OPEN_INSTALLATION_LOG">打开日志</string>
@@ -53,8 +62,9 @@
 
 		<!-- LOADING -->
 		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">自动安装包不是有效的压缩包。</string>
-		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">未知文件格式，必须是 zip 或 oiv 格式。</string>
-		<string name="LOADING_ERROR_FILE_NO_ACCESS">无法访问包文件。 确保其他进程不使用它。</string>
+		<string name="LOADING_ERROR_NOT_SUPPORTED_ZIP_COMPRESSION_METHOD">此ZIP文件不支持此压缩方式。</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">未知文件格式，必须是 ZIP 或 OIV 格式。</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">无法访问文件。 请确保其他后台进程没在使用它。</string>
 		<string name="LOADING_ERROR_FILE_NOT_EXISTS">文件不存在</string>
 		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">打开失败</string>
 
@@ -75,8 +85,9 @@
 
 		<!-- INSTALLING -->
 		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">不能安装到 $RageGAME$. 请在附加信息部分查看支持的游戏列表。</string>
-		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">包存档中缺少某些文件。 请联系包作者。</string>
-		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">某些文件的游戏路径不正确。 请联系包作者。</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">包存档中缺少某些文件。 请联系MOD作者。</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">某些文件的游戏路径不正确。 请联系MOD作者。</string>
+		<string name="INSTALLING_ERROR_ANOTHER_INSTALLER">后台正在进行另一个安装包。 请先等待完成，然后再试一次。</string>
 
 		<!-- Notes -->
 		<string name="INSTALL_NOTE_NO_UNINSTALL">无法自动卸载此程序包。</string>

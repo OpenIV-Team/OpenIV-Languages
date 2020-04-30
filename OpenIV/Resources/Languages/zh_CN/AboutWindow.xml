@@ -20,7 +20,7 @@
 		<string name="JOIN_DISCUSSION">加入 $AppName$ 讨论</string>
 		<string name="SUPPORT_DONATE">捐助 $AppName$</string>
 		<string name="WELCOME_TO_VER">欢迎来到 %S</string>
-		<string name="WATCH_THE_VIDEO">行不行观看关于新版本内容介绍的视频?</string>
+		<string name="WATCH_THE_VIDEO">愿意观看介绍新版本内容的视频吗?</string>
 		<string name="VIDEO_NOTE">您可能会在视频播放之前或期间看到广告。 通过观看此视频，您可以帮助 $AppName$ 获得更多的支持</string>
 		<string name="NO_THANKS">不用谢</string>
 	</RenderUI>

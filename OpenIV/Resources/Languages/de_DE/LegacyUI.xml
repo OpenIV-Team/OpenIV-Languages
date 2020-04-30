@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 
 	<!-- Main window -->
@@ -124,7 +124,8 @@
 		<mmFilter Caption="Filter"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Layout"/>
-		<mmGroupBy Caption="Sortieren nach"/>
+                <mmSortby Caption="Sortieren nach"/>
+		<mmGroupBy Caption="Gruppieren nach"/>
 		<mmGoto Caption="Gehe zu"/>
 		<!-- Main Menu : View -->
 		<mmvIcon Caption="Symbole"/>
@@ -278,6 +279,8 @@
 				<Item Index="53" Value="Bist du dir sicher, dass du diesen Ordner unwiderruflich löschen willst?"/>
 				<Item Index="54" Value="Mehrere Objekte löschen"/>
 				<Item Index="55" Value="Bist du dir sicher, dass du diese %d Objekte unwiderruflich löschen willst?"/>
+                                <Item Index="56" Value="Aufsteigend"/>
+                                <Item Index="57" Value="Absteigend"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -307,18 +310,6 @@
 		</AeroWindow>
 	</AdminModeWindow>
 
-	<!-- Web window -->
-
-	<webWindow Caption="$WebName$ - ">
-		<!-- Button's -->
-		<btnClose Caption="Schließen"/>
-		<!-- Strings -->
-		<AeroWindow LinesCount="1">
-			<StringList>
-				<Item Index="0" Value="Nutzungsbedingungen und Datenschutzerklärung"/>
-			</StringList>
-		</AeroWindow>
-	</webWindow>
 
 	<!-- Configuration -->
 
@@ -336,6 +327,8 @@
 		<!-- Allgemein -->
 		<tabMain Caption="Allgemein"/>
 		<lbDefaultGame Caption="Standard-Spiel festlegen"/>
+		<cbShowSelectGameDialog Caption='Zeige "Spiel und Platform Auswahl" Fenster beim Start'/>
+		<lbDefaultGame Caption="Standart-Spiel"/>
 		<lbWorkMode Caption="Standard Bearbeitungsmodus"/>
 		<WorkMode>
 			<Items>

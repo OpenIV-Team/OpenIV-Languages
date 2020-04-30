@@ -125,6 +125,7 @@
 		<mmFilter Caption='Filtro'/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption='Disposición'/>
+		<mmSortBy Caption="Ordenado por"/>
 		<mmGroupBy Caption='Grupo por'/>
 		<mmGoto Caption='Ir a'/>
 		<!-- Main Menu : View -->
@@ -224,7 +225,7 @@
 				<Item Index='00' Value='Carpeta de destino:'/>
 				<Item Index='01' Value='Vista previa'/>
 				<Item Index='02' Value='No hay archivos abiertos'/>
-				<Item Index='03' Value='(no)'/>
+				<Item Index='03' Value='(ninguno)'/>
 				<Item Index='04' Value='Elige el tipo del nuevo archivo:'/>
 				<Item Index='05' Value='Linear'/>
 				<Item Index='06' Value='Hierarchical'/>
@@ -277,6 +278,8 @@
 				<Item Index="53" Value="¿Estás seguro de que quieres borrar esta carpeta de forma permanente?"/>
 				<Item Index="54" Value="Borrar varios items"/>
 				<Item Index="55" Value="¿Estás seguro de que quieres borrar estos %d items de forma permanente?"/>
+				<Item Index="56" Value="Ascendente"/>
+				<Item Index="57" Value="Descendente"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -306,18 +309,6 @@
 		</AeroWindow>
 	</AdminModeWindow>
 
-	<!-- Web window -->
-
-	<webWindow Caption='$WebName$ - '>
-		<!-- Button's -->
-		<btnClose Caption='Cerrar'/>
-		<!-- Strings -->
-		<AeroWindow LinesCount='1'>
-			<StringList>
-				<Item Index='0' Value='Términos de uso y Política de Privacidad'/>
-			</StringList>
-		</AeroWindow>
-	</webWindow>
 
 	<!-- Configuration -->
 

@@ -59,6 +59,7 @@
 		<string name="WRAP_AROUND">Vai su raggiunta la fine</string>
 		<string name="HIGHLIGHT_RESULTS">Evidenzia risultati</string>
 
+
 		<!-- Dialogs -->
 		<string name="SAVE_CHANGES_TITLE">Vuoi salvare le modifiche?</string>
 		<string name="UNABLE_TO_SAVE_FILE_TITLE">Impossibile salvare il file</string>

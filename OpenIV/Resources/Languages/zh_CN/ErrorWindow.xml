@@ -5,8 +5,8 @@
 		<btnCloseApp Caption='关闭 $AppName$'/>
 		<lbReportHere Caption='到下列链接反馈此错误：'/>
 		<lnkWeb1 Caption='访问官方网站'/>
-		<lnkWeb2 Caption='访问国际支持论坛'/>
-		<lnkWeb3 Caption='访问俄语支持论坛'/>
+		<lnkWeb2 Caption='访问国际求助论坛'/>
+		<lnkWeb3 Caption='访问俄语求助论坛'/>
 		<lbText2 Caption='额外工具'/>
 		<tbCopyInfo Caption='复制错误信息'/>
 		<tbWin7Report Caption='记录步骤以再现问题' Hint=''/>

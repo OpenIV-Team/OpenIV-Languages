@@ -56,7 +56,6 @@
 		<string name="ERROR_NO_LOG_FILE">L'installatore pacchetti non è in grado di creare il file di registro. Riavvia il PC e riprova. Se il problema persiste controlla il tuo software antivirus.</string>
 		<string name="CHECK_LOG_FILE">Controlla il file log per i dettagli d'errore. </string>
 
-
 		<string name="OPEN_INSTALLATION_LOG">Apri registro di installazione </string>
 		<string name="OPEN_LOG_FILE">Apri file di registro</string>
 

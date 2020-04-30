@@ -14,7 +14,7 @@
 		<string name="EXPORT_ALL">Tout exporter</string>
 		<string name="EXPORT_SELECTED">Exporter la sélection</string>
 		<string name="ORIGINAL_SIZE">Taille originale</string>
-		<string name="ALPHA_BACKGROUND">A.P. transparent</string>
+		<string name="ALPHA_BACKGROUND">Arrière-plan transparent</string>
 		<string name="SIZE_">Taille :</string>
 		<string name="SEARCH_TEXTURES">Rechercher les textures</string>
 		<string name="NO_IMAGE_FOUND">Aucune texture n'a été trouvée</string>

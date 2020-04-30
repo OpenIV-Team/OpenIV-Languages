@@ -26,7 +26,7 @@ You can find folder name for your language in [this list](https://github.com/Ope
 The LIP.xml file is metadata file that describes your localization pack.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='291' ID='2057' active="true">
+<LanguageInterfacePack version='400' ID='2057' active="true">
 	<Contributors>
 		<Contributor link="http://openiv.com/">OpenIV Team</Contributor>
 	</Contributors>
@@ -42,20 +42,19 @@ In your localization, you can use the following constants:
 Constant | Value
 -------- | -----
 $AppName$ | OpenIV
-$WebName$ | WebIV
 $ModsFolder$ | "mods"
 $ModsFolderPath$ | mods\
 $ModsFolderAsi$ | OpenIV.ASI
 
 ##### Game specific Constants
-The following constants will be different for each game. In this table, we will show GTA V values as example.
+The following constants will be different for each game:
 
-Constant | Value
--------- | -----
-$RageEncryptionStorage$ | GTA5.exe
-$RageGAME$ | Grand Theft Auto V
-$RageGAME_SHORT$ | GTA V
-$RageGAME_MP$ | GTA Online
+Constant | GTA V | GTA IV | EfLC | Max Payne 3 |
+-------- | ----- | ------ | ---- | ----------- |
+$RageEncryptionStorage$ | GTA5.exe | GTAIV.exe | EFLC.exe | MaxPayne3.exe
+$RageGAME$ | Grand Theft Auto V | Grand Theft Auto IV | Episodes from Liberty City | Max Payne 3
+$RageGAME_SHORT$ | GTA V | GTA IV | EfLC | Max Payne 3
+$RageGAME_MP$ | GTA Online | GTA IV Multiplayer | GTA IV Multiplayer | Max Payne 3 Multiplayer
 
 #### Changes between OpenIV versions
 Every time new OpenIV version released, you probably need to update your localization with new strings and changes. You can find list of changes [here](https://github.com/OpenIV-Team/OpenIV-Languages/commits/Offical-change-log).

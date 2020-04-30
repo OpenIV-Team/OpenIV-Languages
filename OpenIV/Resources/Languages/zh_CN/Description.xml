@@ -13,7 +13,7 @@
 	<type Name="脚本 (text)">
 		<ext>sc</ext>
 	</type>
-	<type Name="Scaleform flash">
+	<type Name="缩放闪光效果">
 		<ext>gfx</ext>
 	</type>
 	<type Name="用户产生内容 (JSON)">
@@ -65,18 +65,18 @@
 	<type Name="名称表">
 		<ext>nametable</ext>
 	</type>
-	<type Name="流">
+	<type Name="流派">
 		<ext>srl</ext>
 	</type>
 	<!-- OpenIV -->
-	<type Name="OpenIV Mod 包">
+	<type Name="OpenIV Mod 安装包">
 		<ext>oiv</ext>
 	</type>
 	<!-- Archives -->
-	<type Name="Rage 包文件">
+	<type Name="Rage 打包文件">
 		<ext>rpf</ext>
 	</type>
-	<type Name="GTA 图像文件">
+	<type Name="GTA IMG打包文件">
 		<ext>img</ext>
 	</type>
 	<type Name="ZIP 压缩文件">
@@ -108,7 +108,7 @@
 	<type Name="TGA 文件">
 		<ext>tga</ext>
 	</type>
-	<type Name="DirectDraw 文件">
+	<type Name="DirectDraw Surface 图像文件">
 		<ext>dds</ext>
 	</type>
 	<type Name="Bink 视频">
@@ -161,7 +161,7 @@
 		<ext>yat</ext>
 		<ext>oat</ext>
 	</type>
-	<type Name="Nav mesh">
+	<type Name="路径导航文件">
 		<ext>xnm</ext>
 		<ext>cnm</ext>
 		<ext>wnm</ext>
@@ -175,140 +175,140 @@
 		<ext>ysi</ext>
 		<ext>osi</ext>
 	</type>
-	<type Name="Volume data">
+	<type Name="体积数据">
 		<ext>xvd</ext>
 		<ext>cvd</ext>
 		<ext>wvd</ext>
 		<ext>yvd</ext>
 		<ext>ovd</ext>
 	</type>
-	<type Name="Terrain collision">
+	<type Name="地形碰撞">
 		<ext>xtb</ext>
 		<ext>ctb</ext>
 		<ext>wtb</ext>
 		<ext>ytb</ext>
 		<ext>otb</ext>
 	</type>
-	<type Name="贴图字典">
+	<type Name="贴图文件">
 		<ext>wtd</ext>
 		<ext>xtd</ext>
 		<ext>ctd</ext>
 		<ext>ytd</ext>
 		<ext>otd</ext>
 	</type>
-	<type Name="动画字典">
+	<type Name="动画文件">
 		<ext>wad</ext>
 		<ext>xad</ext>
 		<ext>cad</ext>
 		<ext>yad</ext>
 		<ext>oad</ext>
 	</type>
-	<type Name="地形字典">
+	<type Name="地形文件">
 		<ext>wbd</ext>
 		<ext>xbd</ext>
 		<ext>cbd</ext>
 		<ext>ybd</ext>
 		<ext>obd</ext>
 	</type>
-	<type Name="绘制字典">
+	<type Name="绘制文件">
 		<ext>wdd</ext>
 		<ext>xdd</ext>
 		<ext>cdd</ext>
 		<ext>ydd</ext>
 		<ext>odd</ext>
 	</type>
-	<type Name="可绘制部件">
+	<type Name="可绘制的模型">
 		<ext>wdr</ext>
 		<ext>xdr</ext>
 		<ext>cdr</ext>
 		<ext>ydr</ext>
 		<ext>odr</ext>
 	</type>
-	<type Name="分段部件">
+	<type Name="分段模型部件">
 		<ext>wft</ext>
 		<ext>xft</ext>
 		<ext>cft</ext>
 		<ext>yft</ext>
 		<ext>oft</ext>
 	</type>
-	<type Name="HTML 部件">
+	<type Name="HTML 网页部件">
 		<ext>whm</ext>
 		<ext>xhm</ext>
 		<ext>chm</ext>
 		<ext>yhm</ext>
 		<ext>ohm</ext>
 	</type>
-	<type Name="Static collision">
+	<type Name="静态碰撞文件">
 		<ext>wbn</ext>
 		<ext>xbn</ext>
 		<ext>cbn</ext>
 		<ext>ybn</ext>
 		<ext>obn</ext>
 	</type>
-	<type Name="Nav mesh">
+	<type Name="路径导航文件">
 		<ext>wnv</ext>
 		<ext>xnv</ext>
 		<ext>cnv</ext>
 		<ext>ynv</ext>
 		<ext>onv</ext>
 	</type>
-	<type Name="Blendshapes">
+	<type Name="混合形状文件">
 		<ext>wbs</ext>
 		<ext>xbs</ext>
 		<ext>cbs</ext>
 		<ext>ybs</ext>
 		<ext>obs</ext>
 	</type>
-	<type Name="Particle effects library">
+	<type Name="粒子效果库">
 		<ext>wpfl</ext>
 		<ext>xpfl</ext>
 		<ext>cpfl</ext>
 		<ext>ypfl</ext>
 		<ext>opfl</ext>
 	</type>
-	<type Name="Vehicles records">
+	<type Name="车辆记录">
 		<ext>xvr</ext>
 		<ext>cvr</ext>
 		<ext>wvr</ext>
 		<ext>yvr</ext>
 		<ext>ovr</ext>
 	</type>
-	<type Name="Ped records">
+	<type Name="行人记录">
 		<ext>xpr</ext>
 		<ext>cpr</ext>
 		<ext>wpr</ext>
 		<ext>ypr</ext>
 		<ext>opr</ext>
 	</type>
-	<type Name="Path node">
+	<type Name="路径模式">
 		<ext>xnd</ext>
 		<ext>cnd</ext>
 		<ext>wnd</ext>
 		<ext>ynd</ext>
 		<ext>ond</ext>
 	</type>
-	<type Name="Clip dictionary">
+	<type Name="剪辑库">
 		<ext>xcd</ext>
 		<ext>ccd</ext>
 		<ext>wcd</ext>
 		<ext>ycd</ext>
 		<ext>ocd</ext>
 	</type>
-	<type Name="Expressions dictionary">
+	<type Name="表达式库">
 		<ext>xed</ext>
 		<ext>ced</ext>
 		<ext>wed</ext>
 		<ext>yed</ext>
 		<ext>oed</ext>
 	</type>
-	<type Name="Blendshapes dictionary">
+	<type Name="混合形状库">
 		<ext>xsd</ext>
 		<ext>csd</ext>
 		<ext>wsd</ext>
 		<ext>ysd</ext>
 		<ext>osd</ext>
 	</type>
-	<type Name="Cloth dictionary">
+	<type Name="布料库">
 		<ext>xld</ext>
 		<ext>cld</ext>
 		<ext>wld</ext>
@@ -319,14 +319,14 @@
 		<ext>wan</ext>
 	</type>
 	<!-- Audio (RAGE) -->
-	<type Name="Audio Wave Container">
+	<type Name="声波装载容器">
 		<ext>awc</ext>
 	</type>
 	<!-- Audio (OpenIV) -->
-	<type Name="Sound Bank">
+	<type Name="音效库">
 		<ext>RAGE_SOUND_BANK</ext>
 	</type>
-	<type Name="Audio File">
+	<type Name="音频文件">
 		<ext>RAGE_AUDIO_FILE</ext>
 	</type>
 	<!-- Executables -->
@@ -336,10 +336,10 @@
 	<type Name="可执行文件 (XBOX 360)">
 		<ext>xex</ext>
 	</type>
-	<type Name="动态连接库">
+	<type Name="动态链接库">
 		<ext>dll</ext>
 	</type>
-	<type Name="ASI 插件 (动态连接库)">
+	<type Name="ASI 插件 (动态链接库)">
 		<ext>asi</ext>
 	</type>
 	<!-- Misc -->
@@ -355,53 +355,53 @@
 	<type Name="材质">
 		<ext>mtl</ext>
 	</type>
-	<type Name="Text Rules">
+	<type Name="文本规则">
 		<ext>tr</ext>
 	</type>
-	<type Name="Cutscene Subtitle">
+	<type Name="过场动画的字幕">
 		<ext>cutsub</ext>
 	</type>
-	<type Name="Texture Conversion Params">
+	<type Name="纹理转换参数">
 		<ext>ctp</ext>
 		<ext>tcp</ext>
 	</type>
-	<type Name="Shader preset">
+	<type Name="着色器预设">
 		<ext>sps</ext>
 	</type>
-	<type Name="GTA text table">
+	<type Name="GTA 对话文本表">
 		<ext>gxt</ext>
 		<ext>gxt2</ext>
 	</type>
-	<type Name="XML text">
+	<type Name="XML 文本">
 		<ext>xml</ext>
 	</type>
-	<type Name="Config text">
+	<type Name="可配置文本参数">
 		<ext>ini</ext>
 	</type>
-	<type Name="Compiled script">
+	<type Name="编译脚本">
 		<ext>sco</ext>
 	</type>
-	<type Name="Item Definition Entries">
+	<type Name="物体定义条目">
 		<ext>ide</ext>
 	</type>
-	<type Name="Item Placement Lists">
+	<type Name="物体位置数据">
 		<ext>ipl</ext>
 	</type>
-	<type Name="Car Recordings">
+	<type Name="汽车记录文件">
 		<ext>rrr</ext>
 	</type>
-	<type Name="Data">
+	<type Name="数据">
 		<ext>dat</ext>
 		<ext>datnew</ext>
 	</type>
-	<type Name="CUT scene">
+	<type Name="过场动画">
 		<ext>cut</ext>
 	</type>
-	<type Name="eXtended Placement Lists">
+	<type Name="扩展位置数据">
 		<ext>xpl</ext>
 		<ext>wpl</ext>
 	</type>
-	<type Name="List">
+	<type Name="列表">
 		<ext>list</ext>
 		<ext>xlist</ext>
 		<ext>lst</ext>
@@ -412,40 +412,40 @@
 	<type Name="xls 表格文件">
 		<ext>xls</ext>
 	</type>
-	<type Name="GTAIV Clip">
+	<type Name="GTAIV 剪辑片段">
 		<ext>cli</ext>
 	</type>
-	<type Name="GTAIV hash pack file">
+	<type Name="GTAIV 哈希包文件">
 		<ext>pak</ext>
 	</type>
-	<type Name="Config">
+	<type Name="配置数据">
 		<ext>cfg</ext>
 	</type>
-	<type Name="GTAIV Clip Thumbs image">
+	<type Name="GTAIV 片段预览图象">
 		<ext>tag</ext>
 	</type>
-	<type Name="Animation">
+	<type Name="动画">
 		<ext>anim</ext>
 	</type>
-	<type Name="Paths">
+	<type Name="路径">
 		<ext>nod</ext>
 	</type>
-	<type Name="Combat information">
+	<type Name="战斗信息">
 		<ext>cmb</ext>
 	</type>
-	<type Name="Ped information">
+	<type Name="行人信息">
 		<ext>ped</ext>
 	</type>
-	<type Name="Zone">
+	<type Name="空间">
 		<ext>zon</ext>
 	</type>
-	<type Name="Compiled shader">
+	<type Name="编译着色器">
 		<ext>fxc</ext>
 	</type>
-	<type Name="Compiled shader (cell/ps3)">
+	<type Name="编译着色器 (CELL/PS3)">
 		<ext>cgx</ext>
 	</type>
-	<type Name="Audio Metadata">
+	<type Name="音频元数据">
 		<ext>DAT4</ext>
 		<ext>DAT10</ext>
 		<ext>DAT11</ext>
@@ -487,23 +487,23 @@
 		<name>config/dlc_2_game.dat</name>
 		<name>config/dlc_2_curves.dat</name>
 	</type>
-	<type Name="批处理文件">
+	<type Name="Windows 批处理文件">
 		<ext>bat</ext>
 	</type>
 	<type Name="Windows 命令文件">
 		<ext>cmd</ext>
 	</type>
-	<type Name="Expressions">
+	<type Name="表达式">
 		<ext>expr</ext>
 	</type>
-	<type Name="Tune">
+	<type Name="音调">
 		<ext>tune</ext>
 	</type>
-	<type Name="Image FX">
+	<type Name="图像效果 FX">
 		<ext>ifx</ext>
 	</type>
 	<!-- Steam -->
-	<type Name="Steam script file">
+	<type Name="Steam 脚本文件">
 		<ext>vdf</ext>
 	</type>
 </Library>

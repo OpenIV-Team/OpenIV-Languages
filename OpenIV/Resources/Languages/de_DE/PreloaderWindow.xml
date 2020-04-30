@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<PreloaderWindow>
 		<WelcomeScreen>
@@ -26,11 +26,11 @@
 				<Lines>
 					<Item Index='00' Value='$AppName$ Nutzungsbedingungen'/>
 					<Item Index='01' Value='Bevor du $AppName$ nutzen kannst, musst du die folgenden Nutzungsbedingungen lesen und ihnen zustimmen.'/>
-					<Item Index='02' Value='$WebName$ - Service'/>
-					<Item Index='03' Value='$WebName$ - Service wurde für den Austausch von Informationen zwischen den Entwicklern und Endebnutzern von $AppName$ erstellt. Wenn du dich bei diesem Service anmeldest, wirst du in der Lage sein, Updates für $AppName$ zu finden und zusätzliche Funktionen zu benutzen. $WebName$ - Service sammelt außerdem einige statistischen Inormationen, die dabei helfen sollen, $AppName$ auf die Weise, die die Nutzer bevorzugen, zu verbessern.'/>
+					<Item Index='02' Value=''/>
+					<Item Index='03' Value=''/>
 					<Item Index='04' Value='Service kurzzeitig nicht erreichbar.'/>
 					<Item Index='05' Value='$RageGAME$ - Ordner auswählen'/>
-					<Item Index='06' Value='Ohne das Spielverzeichnis zu bestimmen, kann $AppName$ die $RageGAME_SHORT$ Dateien nicht öffnen, weil es nicht genug Inormationen hat. Bitte gebe unten den richtigen Installationspfad von $RageGAME$ ein.'/>
+					<Item Index='06' Value='Ohne das Spielverzeichnis zu bestimmen, kann $AppName$ die $RageGAME_SHORT$ Dateien nicht öffnen, weil es nicht genug Informationen hat. Bitte gebe unten den richtigen Installationspfad von $RageGAME$ ein.'/>
 					<Item Index='07' Value='$RageGAME$ Spielverzeichnis:'/>
 					<Item Index='08' Value='Fehler: Dieser Ordner existier nicht.'/>
 					<Item Index='09' Value='Erfolgreich: $AppName$ kann mit diesem Ordner arbeiten.'/>

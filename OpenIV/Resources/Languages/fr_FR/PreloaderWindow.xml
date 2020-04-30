@@ -26,8 +26,8 @@
 				<Lines>
 					<Item Index='00' Value="Termes d'utilisation de $AppName$"/>
 					<Item Index='01' Value="Avant d'utiliser $AppName$, vous devez lire et accepter les termes d'utilisation suivants."/>
-					<Item Index='02' Value='Service $WebName$'/>
-					<Item Index='03' Value="Le service $WebName$ a pour objectif d'échanger des informations entre les développeurs et les utilisateurs de $AppName$. Si vous vous inscrivez à ce service, vous pourrez vérifier les mises à jour de $AppName$ et utiliser des fonctionnalités supplémentaires. Aussi, le service $WebName$ collecte quelques informations utilisées pour aider les développeurs à améliorer $AppName$."/>
+					<Item Index='02' Value=''/>
+					<Item Index='03' Value=''/>
 					<Item Index='04' Value='Service temporairement indisponible.'/>
 					<Item Index='05' Value='Choisissez le répertoire de $RageGAME$'/>
 					<Item Index='06' Value="Sans donner le répertoire du jeu, $AppName$ ne pourra pas ouvrir les fichiers de $RageGAME_SHORT$. Merci de donner le répertoire d'installation de $RageGAME$ ci-dessous."/>

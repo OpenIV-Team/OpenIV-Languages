@@ -3,7 +3,7 @@
 
 	<!-- Favorites -->
 
-	<AddToFavoritesWindow Caption='添加一个收藏'>
+	<AddToFavoritesWindow Caption='添加到收藏'>
 		<Label1 Caption='名称：'/>
 		<Label2 Caption='创建于：'/>
 
@@ -27,7 +27,7 @@
 		<btnRemove Caption='移除'/>
 		<btnClear Caption='清空'/>
 
-		<Label1 Caption='使用拖放来组织你的收藏。'/>
+		<Label1 Caption='使用拖放来管理你的收藏。'/>
 
 		<AeroWindow LinesCount='3'>
 			<StringList>
@@ -43,8 +43,8 @@
 	<DefragmenterWindow Caption='重建 - $AppName$'>
 		<!-- Labels -->
 		<lbDescription Caption="重新整理RPF文件内的文件碎片以优化文件体积"/>
-		<lbNoteSave Caption='你所做的更改已自动保存, 每次编辑后并不用必需重建。'/>
-		<lbNoteRevert Caption='重建不会改变文件内容'/>
+		<lbNoteSave Caption='你所做的更改已自动保存, 不必每次编辑后都重建一次了！'/>
+		<lbNoteRevert Caption='重建(Rebuild) 并不会改变其文件的内容'/>
 		<!-- Actions -->
 		<actClose Caption='关闭'/>
 		<actRebuild Caption='重建'/>
@@ -74,7 +74,7 @@
 
 	<!-- Archive properties -->
 
-	<ArchivePropertiesWindow Caption='RPF 信息'>
+	<ArchivePropertiesWindow Caption='RPF信息'>
 		<!-- Button's -->
 		<btnClose Caption='关闭'/>
 		<!-- Label's -->
@@ -103,7 +103,7 @@
 		<btnOk Caption='确定'/>
 		<tbLeanMore Caption='了解 openFormats'/>
 		<!-- Check box -->
-		<cbProtectMesh Caption='保护网格（以防之后被导出）'/>
+		<cbProtectMesh Caption='保护Mesh网格（以防之后被导出）'/>
 	</openFormatsImportWindow>
 
 	<openFormatsValidatorWindow Caption='$AppName$ - openFormats 验证器'>
@@ -112,7 +112,7 @@
 		<!-- Strings -->
 		<AeroWindow LinesCount='100'>
 			<StringList>
-				<Item Index='0' Value='部分文件未导入，更多信息如下。'/>
+				<Item Index='0' Value='部分文件未被导入，更多信息如下。'/>
 				<!-- Version errors  -->
 				<Item Index='1' Value='%S(Line %D): 不支持的资源版本， actual: "%S" but expected "%D"。'/>
 				<Item Index='2' Value='%S(Line %D): 不支持的格式版本， actual: "%S" but expected "%D"。'/>
@@ -134,7 +134,7 @@
 				<Item Index='14' Value='%S(Line %D)：网格被锁定。'/>
 				<Item Index='15' Value='%S(Line %D)：材料索引超出限制。'/>
 				<Item Index='16' Value="%S(Line %D)：着色器无法被覆盖。"/>		
-				<Item Index='17' Value="%S(Line %D)：单个几何体中骨点过多，你最多只能使用 48 个骨点。"/>
+				<Item Index='17' Value="%S(Line %D)：单个几何体中骨点过多，您最多只能使用 48 个骨点。"/>
 
 				<Item Index='18' Value="%S(Line %D)：%S"/>
 

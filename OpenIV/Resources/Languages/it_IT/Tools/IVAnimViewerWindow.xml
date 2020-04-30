@@ -1,7 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<IVAnimViewerWindow Caption='$AppName$ Visualizzatore Animazioni'>
-
 	</IVAnimViewerWindow>
 	<RenderUI>
 		<string name="START_TITLE">Visulizzatore Animazioni</string>
