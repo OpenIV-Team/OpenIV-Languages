@@ -26,12 +26,12 @@
 				<Lines>
 					<Item Index='00' Value="$AppName$ Termini d'uso"/>
 					<Item Index='01' Value='Prima di usare $AppName$ devi leggere e accettare i seguenti termini.'/>
-					<Item Index='02' Value='$WebName$ servizio'/>
-					<Item Index='03' Value="$WebName$ il servizio è stato creato per migliorare lo scambio di informazioni tra sviluppatori e utenti d $AppName$. Se ti registri per il servizio, puoi verificare gli aggiornamenti di $AppName$ e utilizzare altre funzioni web aggiuntive. Inoltre, il servizio $WebName$ raccoglie alcune informazioni statistiche che ci consentiranno di sviluppare $AppName$ in base alle preferenze dell'utente."/>
+					<Item Index='02' Value=''/>
+					<Item Index='03' Value=''/>
 					<Item Index='04' Value='Servizio temporaneamente non disponibile.'/>
-					<Item Index='05' Value='Specifica il percorso di $RageGAME$'/>
+					<Item Index='05' Value='Specifica la cartella di $RageGAME$'/>
 					<Item Index='06' Value='Se non si specifica la cartella del gioco, $AppName$ non sarà in grado di aprire i file di $RageGAME_SHORT$ in quanto non avrà abbastanza informazioni per farlo. Specifica la cartella in cui è installato $RageGAME$ sotto.'/>
-					<Item Index='07' Value='Percorso di $RageGAME$ selezionato:'/>
+					<Item Index='07' Value='Percorso di $RageGAME$:'/>
 					<Item Index='08' Value='Errore: Questa cartella non esiste.'/>
 					<Item Index='09' Value='Successo: $AppName$ può funzionare con la directory selezionata.'/>
 					<Item Index='10' Value="Errore: la cartella specificata non contiene il file '$RageEncryptionStorage$' richiesto."/>
@@ -56,10 +56,10 @@
 		<UpdateScreen>
 			<!-- Button's -->
 			<btnExit Caption='Esci'/>
-			<btnInstall Caption='SCarica e installa'/>
+			<btnInstall Caption='Scarica e installa'/>
 			<!-- Label's -->
 			<lbTitle Caption='Aggirona $AppName$'/>
-			<lbText Caption="È disponibile un aggiornamento di $AppName$. Devi installare questo aggiornamento, altrimenti non sarai in grado di eseguire $AppName$."/>
+			<lbText Caption="È disponibile un aggiornamento di $AppName$. Devi installare questo aggiornamento, prima di poter avviare $AppName$."/>
 			<lbStatus Caption='Dimensione download: '/>
 			<cbInstallUpdatesAutomatically Caption='Installa aggiornamenti automaticamente'/>
 			<lbCurrentVersion Caption='Tua Versione:'/>
@@ -69,7 +69,7 @@
 				<Lines>
 					<Item Index='0' Value=' Mb'/>
 					<Item Index='1' Value='Preparazione per il download...'/>
-					<Item Index='2' Value='Caricato: %f of %f Mb'/>
+					<Item Index='2' Value='Scaricato: %f di %f Mb'/>
 					<Item Index='3' Value='In aggiornamento...'/>
 					<Item Index='4' Value='Errore di aggiornamento, riprova più tardi..'/>
 					<Item Index='5' Value='%d.%d.%d (Build %d; Data %s)'/>

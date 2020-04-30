@@ -4,8 +4,8 @@
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
-				<Item Index='0' Value='$AppName$ Texture viewer'/>
-				<Item Index='1' Value='$AppName$ Texture editor'/>
+				<Item Index='0' Value='$AppName$ Visualizzatore Texture'/>
+				<Item Index='1' Value='$AppName$ Editor Texture'/>
 			</StringList>
 		</AeroWindow>
 	</TextureEditorWindow>

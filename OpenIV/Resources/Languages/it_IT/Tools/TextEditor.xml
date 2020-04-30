@@ -30,18 +30,19 @@
 		<string name="EXPORT_HTML">Esporta testo formattato (*.html)</string>
 
 		<!-- Ribbon -->
-		<string name="TAB_HOME">🏠</string>
+		<string name="TAB_HOME">H</string>
 		<string name="TAB_SEARCH">Trova</string>
 		<string name="WORD_WRAP">Sposta Parole</string>
 		<string name="SHOW_SPECIAL_CHARS">Mostra caratteri speciali</string>
 		<string name="SEARCH_OPTIONS_MENU">Opzioni di ricerca</string>
-		<string name="SEARCH_BANNER_TEXT">Trova Jetpack</string>
+		<string name="SEARCH_BANNER_TEXT">Trova Jetpack thruster</string>
 		<string name="SEARCH_DOWN">Risultato inferiore</string>
 		<string name="SEARCH_UP">Risultato superiore</string>
 		<string name="SEARCH_ALL">Tutto</string>
 		<string name="SEARCH_ALL_HINT">Trova tutto</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Imposta selezione</string>
 		<string name="GOTO_LINE">Vai alla riga</string>
+		<string name="CHECK_XML_SYNTAX">Controlla sintassi XML</string>														   
 
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Modalità di ricerca</string>
@@ -55,7 +56,7 @@
 		<string name="SEARCH_ON_TYPING">Cerca mentre scrivi</string>
 		<string name="CASE_SENSITIVE">Maiuscole/minuscole</string>
 		<string name="WHOLE_WORDS_ONLY">Solo parole intera</string>
-		<string name="WRAP_AROUND">Torna su raggiunta la fine</string>
+		<string name="WRAP_AROUND">Vai su raggiunta la fine</string>
 		<string name="HIGHLIGHT_RESULTS">Evidenzia risultati</string>
 
 		<!-- Dialogs -->
@@ -66,5 +67,11 @@
 		<string name="GOTO_LINE_PROMT">Inserisci il numero della riga:</string>
 		<string name="GOTO_LINE_NOTE">Digita + o - insieme a un numero per spostarti rispetto alla posizione corrente. Esempio: se digiti +4 e dai inivo, andrai avanti di quattro righe.</string>
 		<string name="GO">Vai</string>
+		<string name="XML_SYNTAX">Sintassi XML</string>
+		<string name="XML_NO_ERROR_DETECTED">Eccellente! Nessun errore rilevato, sintassi corretta.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">Errore XML riscontrato alla riga %D, colonna %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Continua comunque</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignora l'errore e salva il file</string>
+		<string name="XML_BACK_TO_EDITOR">Ritorna nell'editor</string>
 	</RenderUI>
 </Translation>

@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<IVAnimViewerWindow Caption='$AppName$ Animation Viewer'>
+	<IVAnimViewerWindow Caption='$AppName$ Visualizzatore Animazioni'>
 
 	</IVAnimViewerWindow>
 	<RenderUI>
 		<string name="START_TITLE">Visulizzatore Animazioni</string>
-		<string name="START_PED">Animazione pedone</string>
+		<string name="START_PED">Animazioni pedoni</string>
 		<string name="START_MAP">Mappa animazioni</string>
 		<string name="START_CUT">Cut scenes</string>
 		<string name="CHANGE_PED_MODEL">Cambia modello del pedone</string>

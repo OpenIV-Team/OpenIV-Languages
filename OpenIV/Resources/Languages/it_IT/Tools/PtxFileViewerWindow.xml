@@ -9,13 +9,12 @@
 		<string name="HELP_TITLE">Visualizzatore modelli - Aiuto</string>		
 		<text name="HELP_TEXT">
 			<![CDATA[Usa il mouse per guardarti intorno, muoviti usando questi tasti:
-
+ 
     W - vai avanti
     S - Torna indietro
     A - Spostati a sinistra
     D - Vai a destra
 
-    Dal tastierino numerico
     NumPad 8 - Muovi la camera verso l'alto
     NumPad 2 - Muovi la camera verso il basso
     NumPad 4 - Muovi la camera verso sinistra
@@ -33,7 +32,6 @@ Per modificare le opzioni di rendering, utilizza i collegamenti nella parte dest
     F - Mostra/nascondi linee
     P - Mostra/nascondi punti
     G - Mostra/nascondi geometria
-    L - Cambia livello di dettaglio
     ESC - Chiude la finestra del visualizzatore
 
     Tieni premuto H - Per nascondere temporaneamente l'HUD

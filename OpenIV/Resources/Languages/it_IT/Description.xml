@@ -19,7 +19,7 @@
 	<type Name="Contenuto generato dall'utente (JSON)">
 		<ext>ugc</ext>
 	</type>
-	<type Name="Limite di collisione">
+	<type Name="Limite di collisione (bound)">
 		<ext>bnd</ext>
 	</type>
 	<type Name="Metadata (PSO/RSC)">
@@ -384,10 +384,10 @@
 	<type Name="Voci di definizione dell'oggetto">
 		<ext>ide</ext>
 	</type>
-	<type Name="Elenchi di posizioni degli oggetti">
+	<type Name="Elenchi collocazione degli oggetti">
 		<ext>ipl</ext>
 	</type>
-	<type Name="Registrazioni auto">
+	<type Name="Registrazioni automobile">
 		<ext>rrr</ext>
 	</type>
 	<type Name="Data">
@@ -439,7 +439,7 @@
 	<type Name="Zone">
 		<ext>zon</ext>
 	</type>
-	<type Name="Compiled shader(ombreggiature compliate)">
+	<type Name="Compiled shader(ombreggiature compilate)">
 		<ext>fxc</ext>
 	</type>
 	<type Name="Compiled shader (ombreggiature compliate per cell/ps3)">
@@ -447,20 +447,33 @@
 	</type>
 	<type Name="Audio Metadata">
 		<ext>DAT4</ext>
+		<ext>DAT5</ext>
+		<ext>DAT6</ext>
+		<ext>DAT7</ext>
+		<ext>DAT8</ext>
+		<ext>DAT9</ext>
 		<ext>DAT10</ext>
 		<ext>DAT11</ext>
 		<ext>DAT12</ext>
+		<ext>DAT13</ext>
+		<ext>DAT14</ext>
 		<ext>DAT15</ext>
 		<ext>DAT16</ext>
 		<ext>DAT19</ext>
 		<ext>DAT20</ext>
 		<ext>DAT22</ext>
+		<ext>DAT29</ext>
+		<ext>DAT30</ext>
+		<ext>DAT40</ext>
 		<ext>DAT45</ext>
 		<ext>DAT46</ext>
 		<ext>DAT54</ext>
+		<ext>DAT98</ext>
 		<ext>DAT149</ext>
 		<ext>DAT150</ext>
 		<ext>DAT151</ext>
+		<ext>DAT324</ext>
+		<ext>DAT325</ext>
 		<name>config/speech.dat</name>
 		<name>config/categories.dat</name>
 		<name>config/curves.dat</name>

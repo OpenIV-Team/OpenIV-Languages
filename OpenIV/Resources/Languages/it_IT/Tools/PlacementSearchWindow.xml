@@ -30,7 +30,6 @@
     A - Spostati a sinistra
     D - Vai a destra
 
-    Dal tastierino numerico
     NumPad 8 - Muovi la camera verso l'alto
     NumPad 2 - Muovi la camera verso il basso
     NumPad 4 - Muovi la camera verso sinistra
@@ -38,10 +37,10 @@
 
     Tieni premuto SHIFT - per movimenti più veloci
     Tieni premuto CTRL - Per movimenti più lenti
+    
     Usa la rotellina del mouse per lo zoom.
 	
     ESC - Chiudi la finestra di ricerca posizionamento
-	
     Tieni premuto H - Per nascondere temporaneamente l'HUD
 ]]>
 		</text>
