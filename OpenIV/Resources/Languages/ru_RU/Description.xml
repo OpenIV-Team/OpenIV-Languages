@@ -113,6 +113,7 @@
 	</type>
 	<type Name="Bink Video">
 		<ext>bik</ext>
+        <ext>bk2</ext>
 	</type>
 	<type Name="Windows Media Audio/Video file">
 		<ext>wmv</ext>
