@@ -30,7 +30,7 @@
 		<string name="EXPORT_HTML">Esporta testo formattato (*.html)</string>
 
 		<!-- Ribbon -->
-		<string name="TAB_HOME">🏠</string>
+		<string name="TAB_HOME">H</string>
 		<string name="TAB_SEARCH">Trova</string>
 		<string name="WORD_WRAP">Sposta Parole</string>
 		<string name="SHOW_SPECIAL_CHARS">Mostra caratteri speciali</string>
@@ -69,10 +69,10 @@
 		<string name="GOTO_LINE_NOTE">Digita + o - insieme a un numero per spostarti rispetto alla posizione corrente. Esempio: se digiti +4 e dai inivo, andrai avanti di quattro righe.</string>
 		<string name="GO">Vai</string>
 		<string name="XML_SYNTAX">Sintassi XML</string>
-		<string name="XML_NO_ERROR_DETECTED">Bravo/a! Nessun errore rilevato, sintassi corretta.</string>
-		<string name="XML_PARSING_ERROR_AT_LINE">Errore rilevato nella linea %D, colonna %D:</string>
+		<string name="XML_NO_ERROR_DETECTED">Eccellente! Nessun errore rilevato, sintassi corretta.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">Errore XML riscontrato alla riga %D, colonna %D:</string>
 		<string name="XML_CONTINUE_ANYWAY">Continua comunque</string>
-		<string name="XML_IGNORE_AND_SAVE">Ignora errore e salva il file</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignora l'errore e salva il file</string>
 		<string name="XML_BACK_TO_EDITOR">Ritorna nell'editor</string>
 	</RenderUI>
 </Translation>

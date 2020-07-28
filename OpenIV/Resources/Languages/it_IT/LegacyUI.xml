@@ -34,7 +34,7 @@
 				<Item Index="21" Value="[Modalità Editor]"/>
 				<Item Index="22" Value="[Modalità di sola lettura]"/>
 				<Item Index="23" Value="LANG: FREE STRING (23)"/>
-				<Item Index="24" Value="Stai per abilitare la Modalità Editor, tutte le modifiche verranno salvate automaticamente."/>
+				<Item Index="24" Value="Stai per abilitare la Modalità Editor, tutte le modifiche saranno salvate automaticamente."/>
 				<Item Index="25" Value="LANG: FREE STRING (25)"/>
 				<Item Index="26" Value="LANG: FREE STRING (26)"/>
 				<Item Index="27" Value="Tags"/>
@@ -125,6 +125,7 @@
 		<mmFilter Caption="Filtri"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Layout"/>
+		<mmSortBy Caption="Ordina per"/>							   
 		<mmGroupBy Caption="Raggruppa per"/>
 		<mmGoto Caption="Vai a"/>
 		<!-- Main Menu : View -->
@@ -205,13 +206,13 @@
 		<!-- Favorites -->
 		<actAddToFavorites Caption="Aggiungi ai preferiti..." Hint=""/>
 		<actOrganizeFavorites Caption="Organizza preferiti..." Hint=""/>
-		<!-- Filtri -->
+		<!-- Filter -->
 		<actFilterByName Caption="Filtra per nome" Hint=""/>
 		<actFilterByType Caption="Filtra per tipo" Hint=""/>
 		<actFilterOnlyThis Caption="Mostra solo questo" Hint=""/>
 		<!-- Tree -->
 		<actTreeCopyName Caption="Copia nome" Hint=""/>
-		<actTreeCopyAsPath Caption="Copia percorso" Hint=""/>
+		<actTreeCopyPath Caption="Copia percorso" Hint=""/>
 		<actTreeShowInWindowsExplorer Caption="Mostra in Esplora Risorse" Hint=""/>
 		<actTreeCloseArchive Caption="Chiudi archivio" Hint=""/>
 		<actTreeCopyToModsFolder Caption='Copia nella cartella $ModsFolder$' Hint=""/>
@@ -250,7 +251,7 @@
 				<Item Index="26" Value="$AppName$ - aggiungi nuovo tag"/>
 				<Item Index="27" Value="Scrivi un nuovo tag:"/>
 				<Item Index="28" Value="Esporta in %S"/>
-				<Item Index="29" Value="Il file è crittografato, si prega di installare la versione non crittografata del gioco."/>
+				<Item Index="29" Value="Il file è criptato, per favore installa la versione non criptata del gioco."/>
 				<Item Index="30" Value="$AppName$ - il file non esiste"/>
 				<Item Index="31" Value="Errore di apertura del file: %S\nIl file non esiste."/>
 				<Item Index="32" Value="Versione: %D"/>
@@ -277,6 +278,8 @@
 				<Item Index="53" Value="Sei sicuro di voler eliminare definitivamente questa cartella?"/>
 				<Item Index="54" Value="Elimina più elementi"/>
 				<Item Index="55" Value="Sei sicuro di voler eliminare definitivamente questi %d elementi?"/>
+				<Item Index="56" Value="Ascendente"/>
+				<Item Index="57" Value="Discendente"/>
 			</Lines>
 		</Strings>
 	</ActionsModule>
@@ -306,19 +309,6 @@
 		</AeroWindow>
 	</AdminModeWindow>
 
-	<!-- Web window -->
-
-	<webWindow Caption="$WebName$ - ">
-		<!-- Button's -->
-		<btnClose Caption="Chiudi"/>
-		<!-- Strings -->
-		<AeroWindow LinesCount="1">
-			<StringList>
-				<Item Index="0" Value="Termini di utilizzo e politica sulla privacy"/>
-			</StringList>
-		</AeroWindow>
-	</webWindow>
-
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Impostazioni">
@@ -331,10 +321,11 @@
 		<gbGamePath Caption="$RageGAME_SHORT$ cartella"/>
 		<lbCurrentGamePath Caption="Cartella attuale:"/>
 		<tbChangeGame Caption="Cambia cartella"/>
-		<ttRageExe Caption="Affinché $AppName$ funzioni correttamente, la cartella specificata deve contenere $RageEncryptionStorage$"/>
+		<ttRageExe Caption="$RageEncryptionStorage$ deve essere locato in questa cartella affinché $AppName$ funzioni"/>
 		<!-- General -->
 		<tabMain Caption="Generale"/>
-		<lbDefaultGame Caption="Seleziona il gioco predefinito"/>
+		<cbShowSelectGameDialog Caption="Mostra la finestra di dialogo 'Seleziona gioco e piattaforma all'avvio'"/>
+		<lbDefaultGame Caption="Gioco predefinito"/>
 		<lbWorkMode Caption="Modalità di lavoro predefinita"/>
 		<WorkMode>
 			<Items>
@@ -441,7 +432,7 @@
 
 	<!-- EULA Window -->
 
-	<EULAWindow Caption="Licenza per utente finale - $AppName$">
+	<EULAWindow Caption="Contratto di licenza per l'utente - $AppName$">
 		<btnClose Caption="Chiudi"/>
 	</EULAWindow>
 </Translation>

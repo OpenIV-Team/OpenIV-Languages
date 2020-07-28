@@ -31,11 +31,18 @@
 		<string name="LOCATION_GAME_FOLDER_TEXT"> Installa questa mod direttamente nella cartella del gioco</string>
 		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Questo pacchetto non può essere installato nella cartella del gioco perché è disabilitato nelle impostazioni della cartella $ModsFolder$.</string>
 
+		<string name="CONFIRM_INSTALLATION_TITLE">Conferma installazione</string>
+		<string name="CONFIRM_INSTALLATION_NOTE">Per favore rivedi le informazioni di seguito e confermare l'installazione.</string>
+        <string name="PACKAGE_NAME_">Pacchetto:</string>
+		<string name="INSTALL_LOCATION_">Percorso installazione:</string>
+		<string name="GAME_PATH_">Percordo del gioco:</string>
+		<string name="CONFIRM_INSTALLATION_ACTION">Confirm installation</string>
+		<string name="ALWAYS_SHOW_CONFIRM_INSTALL_DIALOG">Always show this dialog</string>
+
 		<string name="INSTALLATION_SUCCEEDED">Installazione riuscita</string>
 		<string name="RUN_GAME">Avvia $RageGAME$</string>
-		<string name="RUN_GAME_TEXT">Avvia il gioco e controlla ciò che hai appena installato</string>
-
-		<string name="INSTALLATION_FAILED">Installazione fallita</string>
+		<string name="RUN_GAME_TEXT">Avvia il gioco e controlla ciò che hai ottenuto</string>
+        <string name="INSTALLATION_FAILED">Installazione fallita</string>
 
 		<string name="LOADING_ERROR_TITLE">Errore durante il caricamento del pacchetto </string>
 		<string name="READING_ERROR_TITLE">Errore nella lettura del file del pacchetto</string>
@@ -46,16 +53,8 @@
 		<string name="ERROR_CODE_UNKNOWN">Qualcosa è successo. Si prega di controllare il file di log per i dettagli di errore</string>
 		<string name="ERROR_INSTALLATION">Si è verificato un errore fatale durante l'installazione. Si prega di controllare il file di log per i dettagli di errore.</string>
 		<string name="ERROR_MSXML">MSXML non è installato. È necessario utilizzare l'Installatore pacchetti. </string>
-		<string name="CHECK_LOG_FILE">Controlla il file di log per i dettagli di errore. </string>
-        <string name="INSTALLING_ERROR_TITLE">Errore di installazione del pacchetto</string>
-
-		<string name="ERROR_GROUP_UNKNOWN">Errore sconosciuto</string>
-		<string name="ERROR_GROUP_FATAL">Errore fatale</string>
-		<string name="ERROR_CODE_UNKNOWN">Qualcosa è successo. Si prega di controllare il file log per i dettagli dell'errore.</string>
-		<string name="ERROR_INSTALLATION">Si è verificato un errore fatale durante l'installazione. Si prega di controllare il file log per i dettagli dell'errore.</string>
-		<string name="ERROR_MSXML">MSXML non è installato. È necessario utilizzare l'Installatore pacchetti.</string>
-		<string name="ERROR_NO_LOG_FILE">L'installatore di pacchetti non è in grado di creare il file di registro. Riavvia il PC e riprova. Se il problema persiste, controlla il tuo software antivirus.</string>
-		<string name="CHECK_LOG_FILE">Controlla il file log per i dettagli dell'errore.</string>
+		<string name="ERROR_NO_LOG_FILE">L'installatore pacchetti non è in grado di creare il file di registro. Riavvia il PC e riprova. Se il problema persiste controlla il tuo software antivirus.</string>
+		<string name="CHECK_LOG_FILE">Controlla il file log per i dettagli d'errore. </string>
 
 		<string name="OPEN_INSTALLATION_LOG">Apri registro di installazione </string>
 		<string name="OPEN_LOG_FILE">Apri file di registro</string>

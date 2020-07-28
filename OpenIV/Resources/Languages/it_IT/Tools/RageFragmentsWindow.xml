@@ -2,10 +2,10 @@
 <Translation> 
 	<RageFragmentsWindow Caption='$AppName$ Visualizzatore modelli'> 
 		<paneHierarchy Caption='Gerarchia'/>
-		<pmiHigh Caption='Alto'/>
-		<pmiMed Caption='Medio'/>
-		<pmiLow Caption='Basso'/>
-		<pmiVLow Caption='Molto basso'/>
+		<pmiHigh Caption='Alto (Alto)'/>
+		<pmiMed Caption='Medio (Medio)'/>
+		<pmiLow Caption='Basso (Basso)'/>
+		<pmiVLow Caption='Molto basso (Mbasso)'/>
 		<miLeft Caption='Sinistra'/>
 		<miRight Caption='Destra'/>
 		<AeroWindow LinesCount='1'>
@@ -30,7 +30,6 @@
     A - Spostati a sinistra
     D - Vai a destra
 
-    Dal tastierino numerico
     NumPad 8 - Muovi la camera verso l'alto
     NumPad 2 - Muovi la camera verso il basso
     NumPad 4 - Muovi la camera verso sinistra

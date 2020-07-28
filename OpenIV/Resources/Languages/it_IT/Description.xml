@@ -19,7 +19,7 @@
 	<type Name="Contenuto generato dall'utente (JSON)">
 		<ext>ugc</ext>
 	</type>
-	<type Name="Limite di collisione">
+	<type Name="Limite di collisione (bound)">
 		<ext>bnd</ext>
 	</type>
 	<type Name="Metadata (PSO/RSC)">
@@ -384,10 +384,10 @@
 	<type Name="Voci di definizione dell'oggetto">
 		<ext>ide</ext>
 	</type>
-	<type Name="Elenchi di posizioni degli oggetti">
+	<type Name="Elenchi collocazione degli oggetti">
 		<ext>ipl</ext>
 	</type>
-	<type Name="Registrazioni auto">
+	<type Name="Registrazioni automobile">
 		<ext>rrr</ext>
 	</type>
 	<type Name="Data">
@@ -439,7 +439,7 @@
 	<type Name="Zone">
 		<ext>zon</ext>
 	</type>
-	<type Name="Compiled shader(ombreggiature compliate)">
+	<type Name="Compiled shader(ombreggiature compilate)">
 		<ext>fxc</ext>
 	</type>
 	<type Name="Compiled shader (ombreggiature compliate per cell/ps3)">
