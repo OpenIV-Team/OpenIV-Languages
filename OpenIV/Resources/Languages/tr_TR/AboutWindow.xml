@@ -2,16 +2,26 @@
 <Translation>
 	<AboutWindow3 Caption='$AppName$ Hakkında'/>
 	<RenderUI>
-		<string name="VERSION_LABEL_2">Yapı %D.%D (Yapı %D; Tarih %S)</string>
-		<string name="VERSION_LABEL_3">Versiyon %D.%D.%D (Yapı %D; Tarih %S)</string>
+		<string name="VERSION_LABEL_2">Sürüm %D.%D (Build %D; Tarih %S)</string>
+		<string name="VERSION_LABEL_3">Sürüm %D.%D.%D (Build %D; Tarih %S)</string>
 		<string name="THE_TEAM">Takım</string>
 		<string name="THIRD_PARTY">Üçüncü parti</string>
-		<string name="THIRD_PARTY_LINE_1">Bu uygulamanın bazı kısımları</string>
-		<string name="THIRD_PARTY_LINE_2">üçüncü yazılım içeriği kullanmaktadır.</string>
+		<string name="THIRD_PARTY_LINE">Bu uygulamanın bazı kısımları üçüncü parti tarafından sunulan bazı kodlar kullanmaktadır.</string>
 		<string name="THANKS_TO">Teşekkürler</string>
 		<string name="ALPHABETICALLY">(alfabetik olarak)</string>
 		<string name="SPECIAL_THANKS_TO">Özel teşekkürlerimiz</string>
 		<string name="LICENSE_TERMS">Yazılım Lisans Koşulları</string>
 		<string name="LOCALIZATION">Çeviri yardımcıları</string>
+		<string name="DEBUG_INFO">Hata ayıklama bilgisi</string>
+		<string name="CLIENT_ID">İstemci No</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">$AppName$ topluluğuna katılın</string>
+		<string name="JOIN_DISCUSSION">$AppName$ tartışmasına katılın</string>
+		<string name="SUPPORT_DONATE">$AppName$&apos;ı destekleyin</string>
+		<string name="WELCOME_TO_VER">%S&apos;a hoşgeldiniz</string>
+		<string name="WATCH_THE_VIDEO">Bu sürümdeki değişiklikleri anlatan bir video izlemek ister misiniz?</string>
+		<string name="VIDEO_NOTE">Videodan önce veya izlerken reklam görebilirsiniz. Bu videoyu izleyerek $AppName$&apos;ı desteklemiş olursunuz.</string>
+		<string name="NO_THANKS">Hayır, teşekkürler</string>
 	</RenderUI>
 </Translation>

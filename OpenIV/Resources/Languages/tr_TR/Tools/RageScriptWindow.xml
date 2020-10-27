@@ -19,8 +19,8 @@
 		<!-- Text menu -->
 		<miCopyText Caption='Kopyala'/>
 		<miFind Caption='Bul...'/>
-		<miSelectAll Caption='Hepsini seç'/>
-		<miCopyAll Caption='Hepsini kopyala'/>
+		<miSelectAll Caption='Tümünü seç'/>
+		<miCopyAll Caption='Tümünü kopyala'/>
 		<!-- Save code menu -->
 		<N4 Caption='Metin olarak kaydet'/>
 		<N5 Caption='HTML olarak kaydet'/>	

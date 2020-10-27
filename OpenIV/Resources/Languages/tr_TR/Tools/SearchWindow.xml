@@ -3,8 +3,14 @@
 	<SearchWindow Caption='Arama - $AppName$'>
 		<SearchBox BannerText="Ara"/>
 		<btnGoSearch Caption="Ara"/>
-		<lbSearchOptions Caption="Arama ayarları:"/>
-		<lbSearchArea Caption="Arama bölgesi:"/>
+		<lbSearchFor Caption="Şunu ara:"/>
+		<cbSearchFor>
+			<Items>
+				<Item Index="0" Value='Dosyalar ve klasörler'/>
+				<Item Index="1" Value='Ses parçaları'/>
+			</Items>
+		</cbSearchFor>
+		<lbSearchArea Caption="Alanı ara:"/>
 		<cbSearchArea>
 			<Items>
 				<Item Index="0" Value='Her yeri ara'/>
@@ -12,33 +18,35 @@
 				<Item Index="2" Value='Sadece $ModsFolder$ klasörünü ara'/>
 			</Items>
 		</cbSearchArea>
-		<cbSoundsAndAudio Caption="Seslerde ara"/>
+		<lbAudioSearchNote Caption="Arama sonuçları sınırlı olabilir çünkü bütün ses parçası isimleri keşfedilmedi."/>
 		<lbStopHint Caption="Aramayı durdurmak için ESC'ye basın"/>
-		<btnExtractResults Caption="Sonuçları çıkart"/>
-		<btnExtractAll Caption="Tüm dosyaları çıkart"/>
-		<btnExtractSelected Caption="Seçilen dosyaları çıkart"/>
+		<btnExtractResults Caption="Sonuçları dışa aktar"/>
+		<btnExtractAll Caption="Tüm dosyaları dışa aktar"/>
+		<btnExtractSelected Caption="Seçilen dosyaları dışa aktar"/>
 		<btnGoTo Caption="Dosyaya git"/>
 		<btnOpenItem Caption="Aç"/>
-		<btnExtractItem Caption="Çıkart"/>
-		<btnExtractSelectedItems Caption="Seçilen dosyaları çıkart"/>
-		<btnExtractAllItems Caption="Tüm dosyaları çıkart"/>
-		<btnSelectAllItems Caption="Hepsini seç"/>
-		<btnCopyName Caption="İsmini kopyala"/>
-		<btnCopyPathName Caption="Yolunu kopyala"/>
+		<btnExtractItem Caption="Dışa aktar"/>
+		<btnExtractSelectedItems Caption="Seçilen dosyaları dışa aktar"/>
+		<btnExtractAllItems Caption="Tüm dosyaları dışa aktar"/>
+		<btnSelectAllItems Caption="Tümünü seç"/>
+		<btnCopyName Caption="İsmi kopyala"/>
+		<btnCopyPathName Caption="Yolu kopyala"/>
 		<btnSaveContent Caption="İçeriği kaydet"/>
-		<btnSaveRawContent Caption="Direkt içeriği kaydet"/>
+		<btnSaveRawContent Caption="Saf içeriği kaydet"/>
 		<!-- String's -->
-		<AeroWindow LinesCount='10'>
+		<AeroWindow LinesCount='15'>
 			<StringList>
 				<Item Index='0' Value='Ara'/>
 				<Item Index='1' Value='Aramayı durdur'/>
 				<Item Index='2' Value='Hiç sonuç bulunamadı'/>
-				<Item Index='3' Value='%D sonuç bulundu'/>
-				<Item Index='4' Value='Seçilmiş sonuç yok'/>
+				<Item Index='3' Value='(%D sonuç bulundu)'/>
+				<Item Index='4' Value='Seçilmiş dosya yok'/>
 				<Item Index='5' Value='Seçilen: %D'/>
 				<Item Index='6' Value="$AppName$ dosyayı açamıyor."/>
-				<Item Index='7' Value="Çıkartmak için sonuç yok."/>
-				<Item Index='8' Value="Çıkartma yapmadan önce lütfen aramayı durdurun."/>
+				<Item Index='7' Value="Dışa aktarılacak için sonuç yok."/>
+				<Item Index='8' Value="Dışa aktarım yapmadan önce lütfen aramayı durdurun."/>
+				<Item Index='9' Value="Dosyalar: %D, Klasörler: %D"/>
+				<Item Index='10' Value="Dosyalar: %D, Ses Parçaları: %D"/>
 			</StringList>
 		</AeroWindow>
 	</SearchWindow>

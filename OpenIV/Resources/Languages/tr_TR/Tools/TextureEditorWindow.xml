@@ -11,30 +11,34 @@
 	</TextureEditorWindow>
 	<RenderUI>
 		<string name="VIEW_">Göster:</string>
-		<string name="EXPORT_ALL">Tüm dokuları çıkart</string>
-		<string name="EXPORT_SELECTED">Seçileni çıkart</string>
-		<string name="ORIGINAL_SIZE">Orjinal boyut</string>
+		<string name="EXPORT_ALL">Tüm dokuları dışa aktar</string>
+		<string name="EXPORT_SELECTED">Seçileni dışa aktar</string>
+		<string name="ORIGINAL_SIZE">Orijinal boyut</string>
 		<string name="ALPHA_BACKGROUND">Saydam arka plan</string>
 		<string name="SIZE_">Boyut:</string>
+		<string name="SEARCH_TEXTURES">Dokuları ara</string>
+		<string name="NO_IMAGE_FOUND">Doku bulunamadı</string>
 
+		<string name="COPY_NAME">İsmi kopyala</string>
+		<string name="EXPORT">Dışa aktar</string>
 		<string name="RENAME">Yeniden adlandır</string>
 		<string name="REPLACE">Değiştir</string>
 		<string name="DELETE">Sil</string>
 		<string name="RENAME_TEXTURE">Dokuyu yeniden adlandır</string>
 		<string name="RENAME_TEXTURE_NAME">Yeni isim girin</string>
-		<string name="RENAME_TEXTURE_ERROR">Bu isimle bir doku zaten mevcut.</string>
+		<string name="RENAME_TEXTURE_ERROR">Bu isimde bir doku zaten mevcut.</string>
 		<string name="NO_IMAGE">Resim yok</string>
 
-		<string name="NO_IMAGE_SELECTED">Seçilmiş resim yok</string>
+		<string name="NO_IMAGE_SELECTED">Resim seçilmedi</string>
 		<string name="WIDTH">Genişlik</string>
 		<string name="HEIGHT">Yükseklik</string>
 		<string name="PIXEL_FORMAT">Piksel Formatı</string>
 		<string name="MIP_MAPS">MipMaps</string>
 
 		<!-- Import dialog -->
-		<string name="CHOOSE_IMPORT_OPTIONS">Alma ayarlarını seçin</string>
+		<string name="CHOOSE_IMPORT_OPTIONS">İçe aktarım ayarlarını seçin</string>
 		<text name="IMPORT_QUALITY_NOTE">
-			<![CDATA[Bu ayarlara DDS dosyalarını alırken göz atılmaz.
+			<![CDATA[DDS dosyaları içe aktarılırken bu ayarlar göz ardı edilir.
 En iyi kalite için DDS dosyalarını kullanın.]]>
 		</text>
 		<string name="AUTO_MIPMAP">MipMap seviyelerini otomatik olarak üret</string>
@@ -65,8 +69,8 @@ En iyi kalite için DDS dosyalarını kullanın.]]>
 			<![CDATA[Mevcut tuşlar:
 			
     Ctrl + Tab - Gösterme modunu değiştir
-    Ctrl + A - Tüm dokuları çıkart
-    Ctrl + S - Seçilen dokuları çıkart
+    Ctrl + A - Tüm dokuları dışa aktar
+    Ctrl + S - Seçilen dokuları dışa aktar
     F1 - Bu yardım kutusunu göster
     ESC - Bu gösterici penceresini kapat
     

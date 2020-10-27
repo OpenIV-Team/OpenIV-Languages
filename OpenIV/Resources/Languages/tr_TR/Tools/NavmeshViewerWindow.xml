@@ -6,7 +6,7 @@
 		<string name="EDGES">Kenarlar:</string>
 		<string name="PORTALS">Portallar:</string>
 		<string name="BOUNDS">Sınırlar:</string>
-		<string name="DISPLAY_BOUNDS">Gösterilen sınırlar:</string>
+		<string name="DISPLAY_BOUNDS">Sınırları göster:</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Fareyi kullanarak etrafa bakının, aşağıdaki tuşlar ile hareket edin:
 			
@@ -24,14 +24,14 @@
     Daha yavaş hareket için CTRL'i basılı tut
     Yakınlaştırmak için fare tekerleğini kullan.
 		   
-Render seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
+Çizim seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
 		   
-    F1 - Bu yardım kutusunu açıp kapatır
-    C - Kamera modunu değiştirir
-    F - Kenarlı yüzleri açıp kapatır
-    P - Noktaların görüntülenmesini açıp kapatır
-    G - Geometriyi açıp kapatır
-    ESC - Bu görüntüleyici penceresini kapatır
+    F1 - Bu yardım kutusunu aç/kapat
+    C - Kamera modunu değiştir
+    F - Kenarlı yüzleri aç/kapat
+    P - Noktaların görüntüle/kapatı
+    G - Geometriyi aç/kapat
+    ESC - Bu görüntüleyici penceresini kapat
 	
     HUD'u geçici olarak gizlemek için H'yi basılı tutun.
 ]]>

@@ -3,7 +3,7 @@
 	<!-- common -->
 	<RenderUI>
 		<!-- help -->
-		<string name="HELP_LINK">Yardun için buraya tıklayın</string>
+		<string name="HELP_LINK">Yardım için buraya tıklayın</string>
 
 		<!-- Common words -->
 		<string name="TRUE">Doğru</string>
@@ -14,8 +14,16 @@
 		<string name="CANCEL">İptal</string>
 		<string name="CLOSE">Kapat</string>
 		<string name="SAVE">Kaydet</string>
-		<string name="IMPORT">Al</string>
+		<string name="IMPORT">İçeri aktar</string>
 		<string name="SEARCH">Ara</string>
+
+		<!-- Context menu -->
+		<string name="COPY_ID">Id&apos;yi kopyala</string>
+		<string name="COPY_NAME">İsmi kopyala</string>
+		<string name="COPY_LINE">Satırı kopyala</string>
+		<string name="COPY_VALUE">Değeri kopyala</string>
+		<string name="COPY_PROPERTIES">Özellikleri kopyala</string>
+		<string name="EXPORT_TEXTURE">Dışa aktar</string>
 
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Kamera modu:</string>
@@ -27,6 +35,7 @@
 		<string name="GEOMETRY">Geometri:</string>		
 		<string name="EDGED_FACES">Kenarlı Yüzler:</string>
 		<string name="DISPLAY_POINTS">Noktaları Göster:</string>
+		<string name="EDGE_COLOR">Kenar rengi:</string>
 
 		<!-- Base information -->
 		<string name="POLYGONS">Poligonlar:</string>
@@ -34,21 +43,21 @@
 
 		<!-- LOD -->
 		<string name="LOD">Detay seviyesi:</string>
-		<string name="LOD_HIGH">Yksk</string>
-		<string name="LOD_MED">Ort</string>
-		<string name="LOD_LOW">Dşk</string>
-		<string name="LOD_VLOW">ÇDşk</string>
+		<string name="LOD_HIGH">Yüksek</string>
+		<string name="LOD_MED">Orta</string>
+		<string name="LOD_LOW">Düşük</string>
+		<string name="LOD_VLOW">Çok Düşük</string>
 
 		<!-- Textures -->
 		<string name="USING_TEXTURES">Kullanılan dokular:</string>
 		<string name="ADD_TEXTURE">[+] Doku ekle</string>
-		<string name="EXPORT_EMBEDDED_TEXTURES">[ Gömülü dokuları çıkart ]</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Gömülü dokuları dışa aktar ]</string>
 		<string name="TO_TEXTURES_VIEWER">[ Gömülü dokuları göster ]</string>
 
 		<!-- Information -->
 		<string name="MORE_INFORMATION">[ Daha fazla bilgi ]</string>
-		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Tüm gömülü dokuları çıkart</string>
-		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Seçilen gömülü dokuları çıkart</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Tüm gömülü dokuları dışa aktar</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Seçilen gömülü dokuları dışa aktar</string>
 		<string name="COUNT_">Sayı: </string>
 		<string name="SELECT_OBJECT">Objeyi seç</string>
 		<string name="COPY_SKELETON_INFO">İskelet bilgisini kopyala</string>
@@ -70,7 +79,7 @@
 		<!-- Columns -->
 		<string name="COLUMN_SPS">SPS</string>
 		<string name="COLUMN_SHADER">Gölgelendirme</string>
-		<string name="COLUMN_PARAMETERS">Parametereler</string>
+		<string name="COLUMN_PARAMETERS">Parametreler</string>
 
 		<string name="COLUMN_NAME">İsim</string>
 		<string name="COLUMN_TYPE">Tip</string>
@@ -80,15 +89,16 @@
 		<string name="COLUMN_INDEX_COUNT">İndeks sayısı</string>
 		<string name="COLUMN_FACE_COUNT">Yüz sayısı</string>
 		<string name="COLUMN_VERTEX_COUNT">Tepe sayısı</string>
+		<string name="COLUMN_TOTAL_">Toplam:</string>
 
 		<!-- Export texture format dialog -->
 		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Lütfen dosya formatını seçin:</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG">Taşınabilir Ağ Grafiği (*.png)</string>
 		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Görüntüleme ve ortak kullanım için en iyi seçim.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_DDS">DirectDraw Yüzeyi (*.dds)</string>
-		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Bu dosyaları daha sonra burada kullanmak istiyorsanız bunu seçin.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Bu dosyaları daha sonra içe aktarmak istiyorsanız bunu seçin.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_JPG">JPEG Resmi (*.jpg)</string>
-		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Çıkartırken kalite kaybolabilir.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Dışa aktarım sırasında kalite düşebilir.</string>
 		<string name="EXPORT_TEXTURE_FORMAT_BMP">Bitmap resmi (*.bmp)</string>
 
 		<!-- Edit -->

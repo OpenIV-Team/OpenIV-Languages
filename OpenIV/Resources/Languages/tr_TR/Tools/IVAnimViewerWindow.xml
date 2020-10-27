@@ -4,19 +4,20 @@
 
 	</IVAnimViewerWindow>
 	<RenderUI>
-		<string name="START_TITLE">Animasyon Göstericisi</string>
+		<string name="START_TITLE">Animasyon göstericisi</string>
 		<string name="START_PED">Yaya animasyonları</string>
 		<string name="START_MAP">Harita animasyonları</string>
 		<string name="START_CUT">Ara sahneler</string>
 		<string name="CHANGE_PED_MODEL">Yaya modelini değiştir</string>
 		<string name="SELECT_PED_MODEL">Yaya modelini seç</string>
-		<string name="LOADING___">yükleniyor...</string>
+		<string name="LOADING___">Yükleniyor...</string>
 		<string name="EMPTY_CUTSCENE">Boş ara sahne</string>
 		<string name="EMPTY_CUTSCENE_MSG">Boş ara sahne açılamadı.</string>
-		<string name="MISSED_ANIMATIONS">Bulunamayan animasyonlar</string>
+		<string name="MISSED_ANIMATIONS">Bulunamayan animasyonlar mevcut</string>
 		<string name="MISSED_ANIMATIONS_MSG">$AppName$ bazı animasyonları yükleyemedi çünkü dosyalar kayıp.</string>
-		<string name="FRAMES_">Kareler: </string>
+		<string name="FRAMES_">Kare: </string>
 		<string name="TIME_SCALE_X">Zaman ölçeği: x</string>
+		<string name="NO_AUDIO_FILE">Ses yok: bu ara sahnenin ses dosyası bulunamadı</string>
 		<!-- help -->
 		<string name="HELP_TITLE">Animasyon Göstericisi - yardım</string>
 		<text name="HELP_TEXT">
