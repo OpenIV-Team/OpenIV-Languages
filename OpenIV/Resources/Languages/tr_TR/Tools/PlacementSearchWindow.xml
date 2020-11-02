@@ -12,7 +12,7 @@
 
 		<string name="SEARCH">Ara</string>
 		<string name="STOP_SEARCH">Aramayı durdur</string>
-		<string name="INCORRECT_HASH">Yanlış hash</string>
+		<string name="INCORRECT_HASH">Geçersiz hash</string>
 		<string name="INCORRECT_HASH_TEXT">"%S" geçerli bir hash değeri değil.</string>
 
 		<string name="FILE_INFORMATION">Dosya bilgisi</string>

@@ -2,7 +2,7 @@
 <Translation>
 	<HashGeneratorWindow Caption='Hash Üreticisi - $AppName$'>
 		<!-- Label's -->
-		<lbOutputFormat Caption='Çıkış formatı:' />
+		<lbOutputFormat Caption='Çıktı formatı:' />
 		<!-- Button's -->
 		<btnLoadFromFile Caption='Dosyadan yükle' />
 		<btnGenerate Caption='Üret' />
