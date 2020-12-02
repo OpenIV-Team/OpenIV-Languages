@@ -46,10 +46,7 @@
 		<Item Index='42' Value='$AppName$ non è in grado di trovare o aprire questo file\nPercorso file: "%s"'/>
 		<Item Index='43' Value='$AppName$ non può aprire questo file perché supera i 256 MB.'/>
 		<Item Index='44' Value='$AppName$ non è in grado di mostrare i contenuti di questo file. Il file non può essere salvato come XML, Codice di errore: %s'/>
-		<Item Index='45' Value='$AppName$ non può aprire questo file . Codice errore: %s'/>
-		<Item Index='46' Value="$AppName$ non è in grado di aprire il pacchetto OIV all'interno dell'archivio del gioco."/>																						 
-	</StringList>
-	<tools>
+		<Item Index='45' Value='$AppName$ non può aprire questo file. Codice errore: %s'/>
 		<item Name="Tools.Common.RunGame" Title="Avvia $RageGAME_SHORT$" Hint="Avvia $RageGAME$"/>
 		<item Name="Tools.Common.Search" Title="Cerca" Hint="Avvia ricerca"/>
 		<item Name="Tools.Common.HashGenerator" Title="Generatore Hash" Hint="Apri generatore hash"/>

@@ -4,16 +4,16 @@
 		<pmiCopyName Caption='İsmi kopyala'/>
 		<pmiCopyHash Caption='Hash&apos;i kopyala'/>
 		<pmiCopyNameAndHash Caption='İsmi ve hash&apos;i kopyala'/>
-		<pmiHigh Caption='Yüksek (Yksk)'/>
-		<pmiMed Caption='Orta (Ort)'/>
-		<pmiLow Caption='Düşük (Dşk)'/>
-		<pmiVLow Caption='Çok düşük (ÇDşk)'/>
+		<pmiHigh Caption='Yüksek'/>
+		<pmiMed Caption='Orta'/>
+		<pmiLow Caption='Düşük'/>
+		<pmiVLow Caption='Çok düşük'/>
 		<miLeft Caption='Sol'/>
 		<miRight Caption='Sağ'/>
 		<miCheckAll Caption='Hepsini işaretle' />
 		<miUncheckAll Caption='Hepsinin işaretini kaldır' />
 		<paneDictionary Caption='Sözlük elemanları'/>
-		<cbMultipleRendering Caption='Birden fazla renderlama'/>
+		<cbMultipleRendering Caption='Birden fazla çizim'/>
 		<AeroWindow LinesCount='1'>
 			<StringList>
 				<Item Index='0' Value='Harici dosyadan yükle'/>
@@ -40,25 +40,25 @@
     Daha yavaş hareket için CTRL'i basılı tut
     Yakınlaştırmak için fare tekerleğini kullan.
 		   
-Ek doku dosyaları eklemek için bu pencerenin sağ altındaki "[+] Add texture" butonuna tıklayın. Dokuyu kaldırmak için ise dokunun yanındaki "[-]" işaretine tıklayın.
+Ek doku dosyaları eklemek için bu pencerenin sağ altındaki "[+] Doku ekle" butonuna tıklayın. Dokuyu kaldırmak için ise dokunun yanındaki "[-]" işaretine tıklayın.
 
-Render seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
+Çizim seçeneklerini değiştirmek için sağ taraftaki linkleri veya aşağıdaki tuşları kullanın:
 		   
-    F1 - Bu yardım kutusunu açıp kapatır
-    F2 - Daha fazla bilgi gösterir
-    C - Kamera modunu değiştirir
-    F - Kenarlı yüzleri açıp kapatır
-    P - Noktaların görüntülenmesini açıp kapatır
-    G - Geometriyi açıp kapatır
-	L - Detay seviyesini değiştirir
-    ESC - Bu görüntüleyici penceresini kapatır
+    F1 - Bu yardım kutusunu aç/kapat
+    F2 - Daha fazla bilgi göster
+    C - Kamera modunu değiştir
+    F - Kenarlı yüzleri aç/kapat
+    P - Noktaların görüntülenme/kapatı
+    G - Geometriyi aç/kapat
+	L - Detay seviyesini değiştir
+    ESC - Bu görüntüleyici penceresini kapat
 	
     HUD'u geçici olarak gizlemek için H'yi basılı tutun.
 ]]>
 		</text>
 		<string name="CHECK_ALL">Hepsini işaretle</string>
 		<string name="UNCHECK_ALL">Hepsinin işaretini kaldır</string>
-		<string name="MULTIPLE_RENDERING">Birden fazla renderlama</string>
+		<string name="MULTIPLE_RENDERING">Birden fazla çizim</string>
 		<string name="BOUND_TYPE">Kenar tipi:</string>
 		<string name="CHILD_COUNT">Alt eleman sayısı:</string>
 	</RenderUI>

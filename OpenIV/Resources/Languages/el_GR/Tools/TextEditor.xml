@@ -42,6 +42,7 @@
 		<string name="SEARCH_ALL_HINT">Εύρεση όλων</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Ορισμός επιλογής</string>
 		<string name="GOTO_LINE">Μετάβαση στη γραμμή</string>
+		<string name="CHECK_XML_SYNTAX">Ελέγξτε τη σύνταξη XML</string>
 
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Λειτουργία εύρεσης</string>
@@ -66,5 +67,11 @@
 		<string name="GOTO_LINE_PROMT">Εισάγετε αριθμό γραμμής:</string>
 		<string name="GOTO_LINE_NOTE">Εισάγετε + ή - για να μετακινηθείτε ανάλογα με την τρέχουσα τοποθεσία. Π.χ: Το +4 θα προχωρήσει 4 γραμμές μπροστά.</string>
 		<string name="GO">Μετάβαση</string>
+		<string name="XML_SYNTAX">Σύνταξη XML</string>
+		<string name="XML_NO_ERROR_DETECTED">Δεν βρέθηκαν σφάλματα.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">Σφάλμα ανάλυσης XML στη γραμμή %D και στήλη %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Συνέχεια οπωσδήποτε.</string>
+		<string name="XML_IGNORE_AND_SAVE">Αγνόηση σφάλματος και αποθήκευση αρχείου.</string>
+		<string name="XML_BACK_TO_EDITOR">Πίσω στον επεξεργαστή</string>
 	</RenderUI>
 </Translation>

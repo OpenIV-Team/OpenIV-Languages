@@ -6,19 +6,19 @@
 		<Item Index='02' Value='搜索 - $AppName$'/>
 		<Item Index='03' Value='搜索中, 请稍候t...'/>
 		<Item Index='04' Value='关闭'/>
-		<Item Index='05' Value=''/>
+		<Item Index='05' Value=' GB'/>
 		<Item Index='06' Value='是'/>
 		<Item Index='07' Value='无'/>
 		<Item Index='08' Value=' B'/>
 		<Item Index='09' Value=' KB'/>
 		<Item Index='10' Value=' MB'/>
 		<Item Index='11' Value='警告, 编辑模式已打开'/>
-		<Item Index='12' Value='编辑模式中,所有操作会自动保存.\n是否继续?'/>
+		<Item Index='12' Value='编辑模式中,所有操作都会被自动保存且不能撤销.\n您是否继续?'/>
 		<Item Index='13' Value='目标文档夹:'/>
 		<Item Index='14' Value='外部应用进程工作中...'/>
 		<Item Index='15' Value='创建新的 %S'/>
 		<Item Index='16' Value='$AppName$ - 信息'/>
-		<Item Index='17' Value='加载文档出错,错误可能的文档是损坏.'/>
+		<Item Index='17' Value='加载文档出错,错误的文档可能是损坏了的.'/>
 		<Item Index='18' Value='$AppName$ - 打开文档时发生错误'/>
 		<Item Index='19' Value='未知文档格式'/>
 		<Item Index='20' Value='%S 版本 %D 不受支持.'/>
@@ -28,7 +28,7 @@
 		<Item Index='24' Value='openFormats - 导入'/>
 		<Item Index='25' Value='未知文档格式扩展名: %S'/>
 		<Item Index='26' Value='$AppName$ - DirectX 错误'/>
-		<Item Index='27' Value='$AppName$ is unable to initalize Direct3D.'/>
+		<Item Index='27' Value='$AppName$ 未能成功初始化Direct3D.'/>
 		<Item Index='28' Value='运行 $RageGAME_SHORT$'/>
 		<Item Index='29' Value="$AppName$ 无法找到关联的 IDE 文档."/>
 		<Item Index='30' Value="$AppName$ 无法打开文档. 以下是可能的原因列表:\n\n拒绝访问. 尝试使用管理员权限运行 $AppName$ .\n另一个进程使用文档. 关闭其他进程,然后重试.\n\n"/>	
@@ -47,28 +47,29 @@
 		<Item Index='43' Value='$AppName$ 不能打开这个文档,因为它大于 256 MB.'/>
 		<Item Index='44' Value='$AppName$ 无法显示此文档的内容. 文档不能保存为XML,错误代码: %s'/>
 		<Item Index='45' Value='$AppName$ 无法打开此文档. 错误码: %s'/>
+		<Item Index='46' Value='$AppName$ 未能成功打开游戏文件内的OIV安装包'/>
 	</StringList>
 	<tools>
 		<item Name="Tools.Common.Search" Title="全局搜索" Hint="进行搜索"/>
 		<item Name="Tools.GTAIV.PlacementSearch" Title="展示位置搜索" Hint="展示位置搜索"/>
 		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="查找位置" Hint="展示位置搜索"/>
-		<item Name="Tools.Common.HashGenerator" Title="哈希生成器" Hint="打开哈希生成器"/>
+		<item Name="Tools.Common.HashGenerator" Title="哈希值生成器" Hint="打开哈希值生成器"/>
 		<item Name="Tools.Common.RunGame" Title="运行 $RageGAME_SHORT$" Hint="运行 $RageGAME$"/>	
 		<item Name="Files.GTAEngine.TextViewer" Title="GXT 查看器" Hint=""/>		
-		<item Name="Files.Resources.TextureEditor" Title="贴图浏览器" Hint=""/>
+		<item Name="Files.Resources.TextureEditor" Title="贴图查看器" Hint=""/>
 		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="贴图编辑器" Hint=""/>				
 		<item Name="Files.Common.AudioPlayer" Title="音频播放器" Hint=""/>	
-		<item Name="Files.Resources.CollisionViewer" Title="Collision 查看器" Hint=""/>
+		<item Name="Files.Resources.CollisionViewer" Title="碰撞查看器" Hint=""/>
 		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD 模型查看器" Hint=""/>
 		<item Name="Files.Resources.FragmentsViewer" Title="WFT 模型查看器" Hint=""/>
-		<item Name="Files.Resources.NavmeshViewer" Title="Nav 网格查看器" Hint=""/>
+		<item Name="Files.Resources.NavmeshViewer" Title="Nav Mesh路径导航查看器" Hint=""/>
 		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="在 IDE 中查找" Hint=""/>
 		<item Name="Tools.GTAIV.AnimViewer" Title="动画查看器" Hint="打开动画查看器"/>
 		<item Name="Tools.Common.PackageInstaller" Title="自动安装包安装器" Hint="打开自动安装包安装器"/>
 		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="导出到 openFormats (.oac)" Hint=""/>
-		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 预览器" Hint=""/>
 		<item Name="Tools.GTAV.ASIManager" Title="必装插件" Hint="ASI 管理器"/>	
-		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="导出 skeleton 到 openFormats (.skel)" Hint=""/>
-		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="编辑内嵌贴图" Hint="编辑内嵌贴图"/>
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="导出骨骼到 openFormats (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="编辑模型的内嵌贴图" Hint="编辑模型的内嵌贴图"/>
 	</tools>
 </GlobalStrings>

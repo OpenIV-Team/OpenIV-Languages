@@ -28,9 +28,9 @@
 		<AeroWindow LinesCount='5'>
 			<StringList>
 				<Item Index='0' Value='Caricamento file SCO...'/>
-				<Item Index='1' Value='[PASSAGGIO 1]'/>
-				<Item Index='2' Value='[PASSAGGIO 2]'/>
-				<Item Index='3' Value='[PASSAGGIO 3]'/>
+				<Item Index='1' Value='[PASSO 1]'/>
+				<Item Index='2' Value='[PASSO 2]'/>
+				<Item Index='3' Value='[PASSO 3]'/>
 				<Item Index='4' Value='Mostra tutto'/>
 			</StringList>
 		</AeroWindow>

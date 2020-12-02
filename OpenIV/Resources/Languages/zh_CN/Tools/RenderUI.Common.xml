@@ -6,8 +6,8 @@
 		<string name="HELP_LINK">点击此处获取帮助</string>
 
 		<!-- Common words -->
-		<string name="TRUE">真</string>
-		<string name="FALSE">假</string>
+		<string name="TRUE">开</string>
+		<string name="FALSE">关</string>
 		<string name="YES">是</string>
 		<string name="NO">否</string>
 		<string name="OK">确定</string>

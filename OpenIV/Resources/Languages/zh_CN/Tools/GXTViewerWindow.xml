@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<GXTViewerWindow Caption='$AppName$ GXT 浏览器'>		
+	<GXTViewerWindow Caption='$AppName$ GXT 预览器'>		
 		<AeroWindow LinesCount='5'>
 			<StringList>
 				<Item Index='0' Value='GXT 表格列表'/>

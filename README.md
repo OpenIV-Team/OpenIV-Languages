@@ -26,7 +26,7 @@ You can find folder name for your language in [this list](https://github.com/Ope
 The LIP.xml file is metadata file that describes your localization pack.
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<LanguageInterfacePack version='320' ID='2057' active="true">
+<LanguageInterfacePack version='400' ID='2057' active="true">
 	<Contributors>
 		<Contributor link="http://openiv.com/">OpenIV Team</Contributor>
 	</Contributors>

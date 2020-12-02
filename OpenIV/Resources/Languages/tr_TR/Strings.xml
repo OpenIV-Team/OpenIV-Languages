@@ -6,56 +6,57 @@
 		<Item Index='02' Value='Ara - $AppName$'/>
 		<Item Index='03' Value='Aranıyor, lütfen bekleyin...'/>
 		<Item Index='04' Value='Kapat'/>
-		<Item Index='05' Value=''/>
+		<Item Index='05' Value=' GB'/>
 		<Item Index='06' Value='Evet'/>
 		<Item Index='07' Value='Hayır'/>
 		<Item Index='08' Value=' bayt'/>
 		<Item Index='09' Value=' KB'/>
 		<Item Index='10' Value=' MB'/>
 		<Item Index='11' Value='Dikkat, düzenleme modundasınız!'/>
-		<Item Index='12' Value='Düzenleme modundayken, yaptığınız her değişiklik otomatik olarak kaydedilir.\nDevam etmek istiyor musun?'/>
+		<Item Index='12' Value='Düzenleme modundayken, yaptığınız her değişiklik otomatik olarak kaydedilir.\nDevam etmek istiyor musunuz?'/>
 		<Item Index='13' Value='Hedef klasör:'/>
 		<Item Index='14' Value='Dış uygulama çalışıyor...'/>
-		<Item Index='15' Value='Yeni %S yapılıyor'/>
+		<Item Index='15' Value='Yeni %S oluşturuluyor'/>
 		<Item Index='16' Value='$AppName$ - Bilgi'/>
-		<Item Index='17' Value='Dosya yüklenemedi, büyük olasılıkla dosya bozuk.'/>
+		<Item Index='17' Value='Dosya yüklenemedi, büyük ihtimal dosya bozuk.'/>
 		<Item Index='18' Value='$AppName$ - Dosyayı açarken hata meydana geldi'/>
 		<Item Index='19' Value='Bilinmeyen dosya türü.'/>
-		<Item Index='20' Value='%S versiyon %D desteklenmemektedir.'/>
-		<Item Index='21' Value="$AppName$ arşiv açılamıyor, sebep:\n"/>
+		<Item Index='20' Value='%S sürüm %D desteklenmemektedir.'/>
+		<Item Index='21' Value="$AppName$ arşivi açamıyor, sebep:\n"/>
 		<Item Index='22' Value='$AppName$ - Arşiv oluştur'/>
 		<Item Index='23' Value="Arşiv ismi boş olamaz."/>
 		<Item Index='24' Value='openFormats - İçeri Aktar'/>
 		<Item Index='25' Value='Bilinmeyen dosya uzantısı: %S'/>
 		<Item Index='26' Value='$AppName$ - DirectX hatası'/>
 		<Item Index='27' Value='$AppName$ Direct3D&apos;yi başlatamıyor.'/>
-		<Item Index='28' Value='$RageGAME_SHORT$ çalıştır'/>
+		<Item Index='28' Value='$RageGAME_SHORT$ oyununu çalıştır'/>
 		<Item Index='29' Value="$AppName$ ilişkilendirilmiş IDE dosyasını bulamadı."/>
-		<Item Index='30' Value="$AppName$ dosyayı açamıyor. Olası sebeplerin listesi:\n\nErişim Engellendi. $AppName$'yi yönetici olarak çalıştırmayı deneyin.\nBaşka bir işlem dosyayı kullanıyor. Diğer programları kapatıp yeniden deneyin.\n\n"/>
+		<Item Index='30' Value="$AppName$ dosyayı açamıyor. Olası sebeplerin listesi:\n\nErişim engellendi. $AppName$'yi yönetici olarak çalıştırmayı deneyin.\nBaşka bir işlem dosyayı kullanıyor. Diğer programları kapatıp yeniden deneyin.\n\n"/>
 		<Item Index='31' Value='Hedef klasör:'/>
 		<Item Index='32' Value='Arşiv açılamadı: Bilinmeyen hata.'/>
 		<Item Index='33' Value='Arşiv açılamadı: Yol bulunamadı.'/>
 		<Item Index='34' Value='Arşiv açılamadı: Erişim engellendi veya başka bir program tarafından kullanılıyor.'/>
-		<Item Index='35' Value='Arşiv açılamadı: Bilinmeyen dosya türü veya dosya bozuk.'/>
+		<Item Index='35' Value='Arşiv açılamadı: Bilinmeyen dosya türü veya arşiv bozuk.'/>
 		<Item Index='36' Value='Arşiv açılamadı: Arşiv bozuk.'/>
 		<Item Index='37' Value='Arşiv açılamadı: Bilinmeyen şifreleme anahtarı, büyük olasılıkla arşiv farklı bir oyun veya platform için tasarlanmış.'/>
-		<Item Index='38' Value='Yeni arşiv yapılamadı.'/>
+		<Item Index='38' Value='Yeni arşiv oluşturulamadı.'/>
 		<Item Index='39' Value='$AppName$ - Ses oynatma aygıtı yok'/>
 		<Item Index='40' Value='Ses oynatılamadı, ses oynatma aygıtı yok.'/>
 		<Item Index='41' Value='$AppName$ bu dosyanın işleyicisini bulamadı.\nDosya yolu: "%s"'/>
 		<Item Index='42' Value='$AppName$ bu dosyayı bulamadı veya açamadı.\nDosya yolu: "%s"'/>
-		<Item Index='43' Value='$AppName$ bu dosyayı açamıyor çünkü dosya 256 Megabayttan daha büyük.'/>
+		<Item Index='43' Value='$AppName$ bu dosyayı açamıyor çünkü dosya 256 MB&apos;dan daha büyük.'/>
 		<Item Index='44' Value='$AppName$ bu dosyanın içeriğini gösteremiyor. Dosya XML olarak kaydedilemiyor, hata kodu: %s'/>
 		<Item Index='45' Value='$AppName$ bu dosyayı açamıyor. Hata kodu: %s'/>
+		<Item Index='46' Value='$AppName$ OIV pakedini oyun arşivi içinde açamaz.'/>
 	</StringList>
 	<tools>
-		<item Name="Tools.Common.RunGame" Title="$RageGAME_SHORT$ çalıştır" Hint="$RageGAME_SHORT$ çalıştır"/>
+		<item Name="Tools.Common.RunGame" Title="$RageGAME_SHORT$ oyununu çalıştır" Hint="$RageGAME_SHORT$ oyununu çalıştır"/>
 		<item Name="Tools.Common.Search" Title="Ara" Hint="Aramayı aç"/>
-		<item Name="Tools.Common.HashGenerator" Title="Hash Generatorü" Hint="Hash generatörünü aç"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Paket kurucusu" Hint="Paket kurucusunu aç"/>
-		<item Name="Tools.GTAIV.PlacementSearch" Title="Yerleştirme arayıcı" Hint="Yerleştirme aramasını aç"/>
-		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Yer bulucu" Hint="Yerleştirme aramasını aç"/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="IDE arayıcı" Hint=""/>
+		<item Name="Tools.Common.HashGenerator" Title="Hash Üreticisi" Hint="Hash üreticisini aç"/>
+		<item Name="Tools.Common.PackageInstaller" Title="Paket yükleyici" Hint="Paket yükleyiciyi aç"/>
+		<item Name="Tools.GTAIV.PlacementSearch" Title="Yerleştirme arayıcı" Hint="Yerleştirme arayıcıyı aç"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Konumu bul" Hint="Yerleştirme arayıcıyı aç"/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="IDE'de bul" Hint=""/>
 		<item Name="Tools.GTAIV.AnimViewer" Title="Animasyon göstericisi" Hint="Animasyon göstericisini aç"/>
 		<item Name="Tools.GTAV.ASIManager" Title="ASI Yönetici" Hint="ASI Yönetici"/>
 		<item Name="Files.Common.AudioPlayer" Title="Ses oynatıcısı" Hint=""/>

@@ -26,8 +26,8 @@
 	<RenderUI>
 		<!-- Export -->
 		<string name="EXPORT">导出</string>
-		<string name="EXPORT_TEXT">导出为txt</string>
-		<string name="EXPORT_HTML">导出为html</string>
+		<string name="EXPORT_TEXT">导出为TXT</string>
+		<string name="EXPORT_HTML">导出为HTML</string>
 
 		<!-- Ribbon -->
 		<string name="TAB_HOME">主页</string>
@@ -42,11 +42,12 @@
 		<string name="SEARCH_ALL_HINT">搜索全部</string>
 		<string name="SEARCH_SET_SELECTION_AREA">设置选区</string>
 		<string name="GOTO_LINE">转至</string>
+		<string name="CHECK_XML_SYNTAX">检查 XML 句法</string>
 
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">搜索模式</string>
 		<string name="SEARCH_MODE_NORMAL">普通</string>
-		<string name="SEARCH_MODE_REGULAR_EXPRESSION">正在表达式</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">固定表达式</string>
 		<string name="SEARCH_MODE_WILDCARD">通配符</string>
 		<string name="SEARCH_AREA">搜索区域</string>
 		<string name="SEARCH_AREA_ENTIRE_SCOPE">整个文件</string>
@@ -66,5 +67,11 @@
 		<string name="GOTO_LINE_PROMT">目标位置:</string>
 		<string name="GOTO_LINE_NOTE">使用 + 或 - 在当前位置为基础进行定位。\n例如: +4 向下四行</string>
 		<string name="GO">定位</string>
+		<string name="XML_SYNTAX">XML 句法</string>
+		<string name="XML_NO_ERROR_DETECTED">未检测到错误</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">第 %D 行, 第 %D 栏的 XML 解析错误 :</string>
+		<string name="XML_CONTINUE_ANYWAY">不管怎样都要继续</string>
+		<string name="XML_IGNORE_AND_SAVE">忽略错误并保存文件</string>
+		<string name="XML_BACK_TO_EDITOR">返回到编辑器</string>	
 	</RenderUI>
 </Translation>

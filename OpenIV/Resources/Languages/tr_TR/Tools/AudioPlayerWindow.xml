@@ -1,29 +1,43 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<AudioPlayerWindow Caption='$AppName$ Ses Yürütücüsü'>
-		<btnExportAll Caption='Hepsini çıkart'/>
-		<btnOptions Caption='Ayarlar'/>
-		<miPlayWhenOpen Caption='Dosya açılınca oynatmaya başlat'/>
-		<miAutoPlayNext Caption='Sonraki dosyayı otomatik olarak oynat'/>
-		<miPlay Caption='Oynat'/>
-		<miExport Caption='Çıkart'/>
-		<miCopyName Caption='İsmi kopyala'/>
-		<miExportAllChannelsSeparately Caption='Tüm kanalları ayrı olarak çıkart'/>
+	<AudioPlayerWindow Caption='$AppName$ Ses Oynatıcısı'>
+		<!-- Export -->
+		<btnExportAll Caption='Tümünü dışa aktar'/>
+		<miExportAllChannelsSeparately Caption='Tüm kanalları ayrı olarak dışar aktar'/>
+		<miExportAllAsStereo Caption='Tüm çoklu kanalları çift kanallı WAV olarak dışa aktar'/>
+		<miExportAllAsMono Caption='Tüm çoklu kanalları tek kanallı WAV olarak dışa aktar'/>
+
+		<!-- Options -->
+		<btnOptions Caption='Seçenekler'/>
+		<miPlayWhenOpen Caption='Dosya açılınca oynatmaya başla'/>
+		<miAutoPlayNext Caption='Sonraki parçayı otomatik olarak oynat'/>
+		<miShowTrackHash Caption='Parça isim hash&apos;ini göster'/>
+
+		<!-- Sort -->
 		<btnSort Caption='Sırala'/>
 		<miSortByName Caption='İsme göre sırala'/>
-		<miSortByDuration Caption='Uzunluğa göre sırala'/>
-		<miSortOrderAsc Caption='Yükselen derecede sırala'/>
-		<miSortOrderDesc Caption='Azalan derecede sırala'/>
+		<miSortByDuration Caption='Uzunluğuna göre sırala'/>
+		<miSortOrderAsc Caption='Küçükten büyüğe sırala'/>
+		<miSortOrderDesc Caption='Büyükten küçüğe sırala'/>
+
+		<!-- Context menu -->
+		<miPlay Caption='Oynat'/>
+		<miCopyName Caption='İsmi kopyala'/>
+		<miExport Caption='Dışa aktar'/>
+		<miExportChannelsSeparately Caption='Kanalları ayrı olarak dışa aktar'/>
+		<miExportAsStereo Caption='Çift kanallı WAV olarak dışa aktar'/>
+		<miExportAsMono Caption='Tek kanallı WAV olarak dışa aktar'/>
+
 		<!-- String's -->
 		<AeroWindow LinesCount='6'>
 			<StringList>
 				<Item Index='0' Value='Hz'/>
-				<Item Index='1' Value='%D eşya, %D dak.'/>
-				<Item Index='2' Value='%D eşya, %D san.'/>
+				<Item Index='1' Value='%D dosya, %D dak.'/>
+				<Item Index='2' Value='%D dosya, %D san.'/>
 				<Item Index='3' Value=''/>
 				<Item Index='4' Value=''/>
 				<Item Index='5' Value=''/>
 			</StringList>
 		</AeroWindow>
-	</AudioPlayerWindow>
+	</AudioPlayerWindow>	
 </Translation>

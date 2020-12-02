@@ -16,11 +16,11 @@
 		<ActionEditCopy Caption="Kopyala"/>
 		<ActionEditPaste Caption="Yapıştır"/>
 		<ActionEditDelete Caption="Sil"/>
-		<ActionEditSelectAll Caption="Hepsini seç"/>
+		<ActionEditSelectAll Caption="Tümünü seç"/>
 		<ActionEditDuplicateLine Caption="Mevcut satırı klonla"/>
 		<ActionEditRemoveLine Caption="Satırı sil"/>
-		<ActionEditUpperCase Caption="BÜYÜK HARFLER"/>
-		<ActionEditLoverCase Caption="küçük harfler"/>
+		<ActionEditUpperCase Caption="BÜYÜK HARF"/>
+		<ActionEditLoverCase Caption="küçük harf"/>
 	</TextEditorWindow>
 
 	<RenderUI>
@@ -35,36 +35,43 @@
 		<string name="WORD_WRAP">Kelimeler</string>
 		<string name="SHOW_SPECIAL_CHARS">Özel karakterleri göster</string>
 		<string name="SEARCH_OPTIONS_MENU">Arama seçenekleri</string>
-		<string name="SEARCH_BANNER_TEXT">Neyi arayayım</string>
+		<string name="SEARCH_BANNER_TEXT">Neyi arayalım</string>
 		<string name="SEARCH_DOWN">Aşağı doğru ara</string>
 		<string name="SEARCH_UP">Yukarı doğru ara</string>
 		<string name="SEARCH_ALL">Hepsi</string>
 		<string name="SEARCH_ALL_HINT">Hepsini ara</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Seçimi değiştir</string>
 		<string name="GOTO_LINE">Satıra git</string>
+		<string name="CHECK_XML_SYNTAX">XML yazımını kontrol et</string>
 
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Arama modu</string>
 		<string name="SEARCH_MODE_NORMAL">Normal</string>
-		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Düzenli İfade</string>
-		<string name="SEARCH_MODE_WILDCARD">Wildcard</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Düzenli ifade</string>
+		<string name="SEARCH_MODE_WILDCARD">Joker karakteri</string>
 		<string name="SEARCH_AREA">Arama alanı</string>
 		<string name="SEARCH_AREA_ENTIRE_SCOPE">Her şey</string>
 		<string name="SEARCH_AREA_IN_SELECTION">Seçim</string>
 		<string name="SEARCH_OPTIONS">Seçenekler</string>
-		<string name="SEARCH_ON_TYPING">Yazı yazıldığında hemen ara</string>
-		<string name="CASE_SENSITIVE">Büyük küçük harf duyarlı</string>
+		<string name="SEARCH_ON_TYPING">Yazı yazılırken ara</string>
+		<string name="CASE_SENSITIVE">Büyük küçük harfe duyarlı ol</string>
 		<string name="WHOLE_WORDS_ONLY">Sadece tam kelimeler</string>
-		<string name="WRAP_AROUND">Araya harflerin girmesine izin ver</string>
+		<string name="WRAP_AROUND">Sayfa sonunda başa dönüp aramaya devam et</string>
 		<string name="HIGHLIGHT_RESULTS">Sonuçları vurgula</string>
 
 		<!-- Dialogs -->
-		<string name="SAVE_CHANGES_TITLE">Değişiklikleri kaydetmek istiyor musunuz?</string>
+		<string name="SAVE_CHANGES_TITLE">Değişiklikleri kaydetmek ister misin?</string>
 		<string name="UNABLE_TO_SAVE_FILE_TITLE">Dosya kaydedilemedi</string>
 		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$ dosya değişikliklerini kaydedemedi, lütfen daha sonra tekrar deneyin.</string>
 		<string name="GOTO_LINE_TITLE">Satıra git...</string>
-		<string name="GOTO_LINE_PROMT">Satır numarası giriniz:</string>
-		<string name="GOTO_LINE_NOTE">+ veya - ile girerek mevcut pozisyona göre gidebilirsiniz. Örneğin +4 yazarsanız mevcut satırın 4 satır aşağısına gidersiniz.</string>
+		<string name="GOTO_LINE_PROMT">Satır numarası girin:</string>
+		<string name="GOTO_LINE_NOTE">Mevcut satıra göre hareket etmek için + veya - kullanabilirsiniz. Örneğin: +4 kullanırsanız 4 satır aşağı gidersiniz.</string>
 		<string name="GO">Git</string>
+		<string name="XML_SYNTAX">XML kuralları</string>
+		<string name="XML_NO_ERROR_DETECTED">Hata bulunamadı.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">%D. satır, %D. sırada XML çözümeleme hatası:</string>
+		<string name="XML_CONTINUE_ANYWAY">Yine de devam et</string>
+		<string name="XML_IGNORE_AND_SAVE">Hataları görmezden gel ve kaydet</string>
+		<string name="XML_BACK_TO_EDITOR">Düzenleyiciye geri dön</string>
 	</RenderUI>
 </Translation>

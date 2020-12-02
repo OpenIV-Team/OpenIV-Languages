@@ -113,6 +113,7 @@
 	</type>
 	<type Name="Video Bink">
 		<ext>bik</ext>
+        <ext>bk2</ext>
 	</type>
 	<type Name="Archivo de Audio/Video de Windows Media">
 		<ext>wmv</ext>

@@ -1,5 +1,5 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<Translation>
+<?xml version="1.0" encoding="UTF-8"?>
+ <Translation>
 	<AboutWindow3 Caption='Riguardo a $AppName$'/>
 	<RenderUI>
 		<string name="VERSION_LABEL_2">Versione %D.%D (Build %D; Data %S)</string>
@@ -21,7 +21,7 @@
 		<string name="SUPPORT_DONATE">Supporta $AppName$</string>
 		<string name="WELCOME_TO_VER">Benvenuto su %S</string>
 		<string name="WATCH_THE_VIDEO">Vorresti guardare un video sulle modifiche e novità di questa versione?</string>
-		<string name="VIDEO_NOTE">Guardando questo video, sosterrai $AppName$. Potresti visualizzare un annuncio pubblicitario prima o durante la riproduzione del video.</string>
+		<string name="VIDEO_NOTE">Potresti visualizzare un annuncio pubblicitario prima o durante la riproduzione del video. Guardando questo video, sosterrai $AppName$. .</string>
 		<string name="NO_THANKS">No grazie</string>
 	</RenderUI>
 </Translation>
