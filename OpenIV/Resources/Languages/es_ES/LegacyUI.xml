@@ -325,7 +325,8 @@
 		<ttRageExe Caption="$RageEncryptionStorage$ debe estar situado en este directorio para que $AppName$ trabaje"/>
 		<!-- General -->
 		<tabMain Caption="General"/>
-		<lbDefaultGame Caption="Seleccionar juego por defecto"/>
+		<cbShowSelectGameDialog Caption='Mostrar la ventana de diálogo "Seleccionar juego y plataforma" al inicio'/>
+		<lbDefaultGame Caption="Juego por defecto"/>
 		<lbWorkMode Caption="Modo de trabajo por defecto"/>
 		<WorkMode>
 			<Items>
