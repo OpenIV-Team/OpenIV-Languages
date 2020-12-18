@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageScriptWindow Caption='SCO ビューア - '>
+		<!-- Button's -->
+		<btnSave Caption='テキストでコードを保存'/>
+		<btnClose Caption='閉じる'/>
+		<btnASMBack Caption='&lt;&lt; 戻る'/>
+		<btnCFList Caption='リストを隠す'/>
+		<btnCodeList Caption='リストを隠す'/>
+		<!-- Tabs -->
+		<tbASM Caption='ASM コード'/>
+		<tbCFASM Caption='Control Flow ASM コード'/>
+		<tbCODE Caption='高水準コード'/>
+		<Label1 Caption='絞り込み:'/>
+		<!-- Menu -->
+		<N1 Caption='指定したアドレスへ移動'/>
+		<N2 Caption='行のコピー'/>
+		<N3 Caption='絞り込み'/>
+		<!-- Text menu -->
+		<miCopyText Caption='コピー'/>
+		<miFind Caption='検索...'/>
+		<miSelectAll Caption='すべて選択'/>
+		<miCopyAll Caption='すべてコピー'/>
+		<!-- Save code menu -->
+		<N4 Caption='テキストで保存'/>
+		<N5 Caption='HTML で保存'/>	
+		<!-- String's -->
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='SCO ファイルを読み込む...'/>
+				<Item Index='1' Value='[STEP1]'/>
+				<Item Index='2' Value='[STEP2]'/>
+				<Item Index='3' Value='[STEP3]'/>
+				<Item Index='4' Value='すべて表示'/>
+			</StringList>
+		</AeroWindow>
+	</RageScriptWindow>
+</Translation>

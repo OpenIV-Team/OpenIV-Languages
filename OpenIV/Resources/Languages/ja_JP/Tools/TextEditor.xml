@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='$AppName$ テキスト ツール'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ テキスト ビューア'/>
+				<Item Index='1' Value='$AppName$ テキスト エディタ'/>
+				<Item Index='2' Value='検索...'/>
+				<Item Index='3' Value='選択範囲を検索...'/>
+			</StringList>
+		</AeroWindow>
+
+		<!-- Editor actions -->
+		<ActionEditCut Caption="切り取り"/>
+		<ActionEditCopy Caption="コピー"/>
+		<ActionEditPaste Caption="貼り付け"/>
+		<ActionEditDelete Caption="削除"/>
+		<ActionEditSelectAll Caption="すべて選択"/>
+		<ActionEditDuplicateLine Caption="行を複製"/>
+		<ActionEditRemoveLine Caption="行を削除"/>
+		<ActionEditUpperCase Caption="大文字"/>
+		<ActionEditLoverCase Caption="小文字"/>
+	</TextEditorWindow>
+
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">出力</string>
+		<string name="EXPORT_TEXT">プレーン テキストで出力 (*.txt)</string>
+		<string name="EXPORT_HTML">フォーマット済みテキストで出力 (*.html)</string>
+
+		<!-- Ribbon -->
+		<string name="TAB_HOME">ホーム</string>
+		<string name="TAB_SEARCH">検索</string>
+		<string name="WORD_WRAP">ワードラップ</string>
+		<string name="SHOW_SPECIAL_CHARS">特殊文字を表示</string>
+		<string name="SEARCH_OPTIONS_MENU">検索オプション</string>
+		<string name="SEARCH_BANNER_TEXT">検索する文字列</string>
+		<string name="SEARCH_DOWN">次を検索</string>
+		<string name="SEARCH_UP">前を検索</string>
+		<string name="SEARCH_ALL">すべて</string>
+		<string name="SEARCH_ALL_HINT">すべて検索</string>
+		<string name="SEARCH_SET_SELECTION_AREA">選択を設定</string>
+		<string name="GOTO_LINE">行へ移動</string>
+		<string name="CHECK_XML_SYNTAX">XML 構文をチェック</string>
+
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">検索モード</string>
+		<string name="SEARCH_MODE_NORMAL">通常</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">正規表現</string>
+		<string name="SEARCH_MODE_WILDCARD">ワイルドカード</string>
+		<string name="SEARCH_AREA">検索範囲</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">スコープ全体</string>
+		<string name="SEARCH_AREA_IN_SELECTION">選択範囲内</string>
+		<string name="SEARCH_OPTIONS">オプション</string>
+		<string name="SEARCH_ON_TYPING">入力中に検索</string>
+		<string name="CASE_SENSITIVE">大文字と小文字を区別する</string>
+		<string name="WHOLE_WORDS_ONLY">単語全体のみ</string>
+		<string name="WRAP_AROUND">包含</string>
+		<string name="HIGHLIGHT_RESULTS">結果をハイライト</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">変更を保存しますか？</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">保存に失敗</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$ はファイルの変更を保存できませんでした。後でまたやり直してください。</string>
+		<string name="GOTO_LINE_TITLE">行へ移動...</string>
+		<string name="GOTO_LINE_PROMT">行番号を入力:</string>
+		<string name="GOTO_LINE_NOTE"> + か - を入力して、行を相対的に移動します。例: +4 と入力して4行先へ移動する。</string>
+		<string name="GO">移動</string>
+		<string name="XML_SYNTAX">XML 構文</string>
+		<string name="XML_NO_ERROR_DETECTED">エラーはありません。</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">%D 行, %D 文字で XML 解析に失敗しました: </string>
+		<string name="XML_CONTINUE_ANYWAY">構わず続ける</string>
+		<string name="XML_IGNORE_AND_SAVE">エラーを無視して保存</string>
+		<string name="XML_BACK_TO_EDITOR">エディタへ戻る</string>
+	</RenderUI>
+</Translation>

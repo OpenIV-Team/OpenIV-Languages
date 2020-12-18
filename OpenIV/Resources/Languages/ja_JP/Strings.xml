@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GlobalStrings>
+	<StringList>
+		<Item Index='00' Value='進捗...'/>
+		<Item Index='01' Value='現在のファイル: '/>
+		<Item Index='02' Value='検索 - $AppName$'/>
+		<Item Index='03' Value='検索中です。お待ちください...'/>
+		<Item Index='04' Value='閉じる'/>
+		<Item Index='05' Value=' GB'/>
+		<Item Index='06' Value='はい'/>
+		<Item Index='07' Value='いいえ'/>
+		<Item Index='08' Value=' bytes'/>
+		<Item Index='09' Value=' KB'/>
+		<Item Index='10' Value=' MB'/>
+		<Item Index='11' Value='注意！編集モードを有効にしようとしています！'/>
+		<Item Index='12' Value='編集モードでは、全ての変更が自動で保存されます。よろしいですか？'/>
+		<Item Index='13' Value='移動先: '/>
+		<Item Index='14' Value='外部アプリケーションが実行中です...'/>
+		<Item Index='15' Value='%S を新規作成'/>
+		<Item Index='16' Value='$AppName$ - 情報'/>
+		<Item Index='17' Value='ファイルの読み込みに失敗しました。ファイルが壊れている可能性があります。'/>
+		<Item Index='18' Value='$AppName$ - ファイルの読み込み時にエラーが発生しました。'/>
+		<Item Index='19' Value='不明なファイル形式です。'/>
+		<Item Index='20' Value='%S のバージョン %D はサポートされていません'/>
+		<Item Index='21' Value="$AppName$ を開けません。理由: \n"/>
+		<Item Index='22' Value='$AppName$ - アーカイブを作成'/>
+		<Item Index='23' Value="アーカイブ名をnullにできません。"/>
+		<Item Index='24' Value='openFormats - インポート'/>
+		<Item Index='25' Value='不明なファイル拡張子: %S'/>
+		<Item Index='26' Value='$AppName$ - DirectX のエラー'/>
+		<Item Index='27' Value='$AppName$ はDirect3D を初期化できません。'/>
+		<Item Index='28' Value='$RageGAME_SHORT$ を実行します'/>
+		<Item Index='29' Value="$AppName$ IDE ファイルの検索ができません。"/>
+		<Item Index='30' Value="$AppName$ を開けません。考えられる理由は次のとおりです。:\n\nアクセスが拒否されました。管理者モードで $AppName$ を実行してください。\n他のプロセスがファイルを使用しています。他のプログラムを閉じてからやり直してください。\n\n"/>
+		<Item Index='31' Value='移動先: '/>
+		<Item Index='32' Value='アーカイブを開けません。未知のエラーです。'/>
+		<Item Index='33' Value='アーカイブを開けません。パスが存在しません。'/>
+		<Item Index='34' Value='アーカイブを開けません。アクセスを拒否されたか、他のプログラムによってファイルを使用されています。'/>
+		<Item Index='35' Value='アーカイブを開けません。不明なファイル形式であるか、アーカイブが壊れています。'/>
+		<Item Index='36' Value='アーカイブを開けません。アーカイブが壊れています。'/>
+		<Item Index='37' Value='アーカイブを開けません。未知の暗号化キーです。別のゲームまたはプラットフォームのアーカイブかもしれません。'/>
+		<Item Index='38' Value='アーカイブを新規作成できません。'/>
+		<Item Index='39' Value='$AppName$ - 音声再生機器がありません。'/>
+		<Item Index='40' Value='音声を再生できません。音声再生機器が見つかりません。'/>
+		<Item Index='41' Value='$AppName$ はファイルへのハンドラを見つけられません。\nファイル名: "%s"'/>
+		<Item Index='42' Value='$AppName$ はファイルが見つけられないか、存在しません。\nファイル名: "%s"'/>
+		<Item Index='43' Value='$AppName$ はファイル サイズが 256MB より大きいため開けません。'/>
+		<Item Index='44' Value='$AppName$ はファイルの内容を表示出来ません。ファイルを XML で保存することはできません。エラーコード: %s'/>
+		<Item Index='45' Value='$AppName$ はこのファイルを開けません。 エラーコード: %s'/>
+		<Item Index='46' Value='$AppName$ はゲーム アーカイブ内に OIV パッケージを展開できません。'/>
+	</StringList>
+	<tools>
+		<item Name="Tools.Common.RunGame" Title="$RageGAME_SHORT$ を起動" Hint="$RageGAME$ を起動"/>
+		<item Name="Tools.Common.Search" Title="検索" Hint="検索を開く"/>
+		<item Name="Tools.Common.HashGenerator" Title="ハッシュ生成器" Hint="ハッシュ生成器を開く"/>
+		<item Name="Tools.Common.PackageInstaller" Title="パッケージ インストーラ" Hint="パッケージ インストーラを開く"/>
+		<item Name="Tools.GTAIV.PlacementSearch" Title="置換" Hint="置換を開く"/>
+		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="場所を検索" Hint="場所を検索を開く"/>
+		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="IDE を検索" Hint=""/>
+		<item Name="Tools.GTAIV.AnimViewer" Title="アニメーション ビューア" Hint="アニメーション ビューアを開く"/>
+		<item Name="Tools.GTAV.ASIManager" Title="ASI マネージャ" Hint="ASI マネージャ"/>
+		<item Name="Files.Common.AudioPlayer" Title="音声プレーヤ" Hint=""/>
+		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="openFormats で出力 (.oac)" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer" Title="GXT ビューア" Hint=""/>
+		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 ビューア" Hint=""/>
+		<item Name="Files.Resources.TextureEditor" Title="テクスチャ ビューア" Hint=""/>
+		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="テクスチャ エディタ" Hint=""/>
+		<item Name="Files.Resources.CollisionViewer" Title="判定 ビューア" Hint=""/>
+		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD モデル ビューア" Hint=""/>
+		<item Name="Files.Resources.FragmentsViewer" Title="WFT モデル ビューア" Hint=""/>
+		<item Name="Files.Resources.NavmeshViewer" Title="Nav Mesh ビューア" Hint=""/>
+		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="openFormats でスケルトンを出力 (.skel)" Hint=""/>
+		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="埋め込みテクスチャを編集" Hint="テクスチャ エディタで埋め込みテクスチャを編集する"/>
+	</tools>
+</GlobalStrings>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='$AppName$ について'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Version %D.%D (Build %D; Date %S)</string>
+		<string name="VERSION_LABEL_3">Version %D.%D.%D (Build %D; Date %S)</string>
+		<string name="THE_TEAM">チーム</string>
+		<string name="THIRD_PARTY">サードパーティ</string>
+		<string name="THIRD_PARTY_LINE">このアプリケーションはサードパーティに提供されたいくつかの機能を使用しています。</string>
+		<string name="THANKS_TO">Thanks to</string>
+		<string name="ALPHABETICALLY">(アルファベット順)</string>
+		<string name="SPECIAL_THANKS_TO">Special thanks to</string>
+		<string name="LICENSE_TERMS">ソフトウェアライセンス条項</string>
+		<string name="LOCALIZATION">翻訳した人たち</string>
+		<string name="DEBUG_INFO">デバッグ情報</string>
+		<string name="CLIENT_ID">クライアントID</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">$AppName$ コミュニティに参加</string>
+		<string name="JOIN_DISCUSSION">$AppName$ ディスカッションに参加</string>
+		<string name="SUPPORT_DONATE">$AppName$ をサポート</string>
+		<string name="WELCOME_TO_VER">%S へようこそ</string>
+		<string name="WATCH_THE_VIDEO">このバージョンの変更についての動画を見ますか？</string>
+		<string name="VIDEO_NOTE">動画の再生前または再生中に広告が表示される場合があります。動画を見ると $AppName$ のサポートになります。</string>
+		<string name="NO_THANKS">結構です</string>
+	</RenderUI>
+</Translation>

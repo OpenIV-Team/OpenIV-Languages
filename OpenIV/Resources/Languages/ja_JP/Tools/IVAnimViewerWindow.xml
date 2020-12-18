@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ アニメーション ビューア'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">アニメーション ビューア</string>
+		<string name="START_PED">Ped アニメーション</string>
+		<string name="START_MAP">Map アニメーション</string>
+		<string name="START_CUT">カットシーン</string>
+		<string name="CHANGE_PED_MODEL">Ped モデルを変更</string>
+		<string name="SELECT_PED_MODEL">Ped モデルを選択</string>
+		<string name="LOADING___">読み込み中...</string>
+		<string name="EMPTY_CUTSCENE">空のカットシーン</string>
+		<string name="EMPTY_CUTSCENE_MSG">空のカットシーンは開けません。</string>
+		<string name="MISSED_ANIMATIONS">欠落したアニメーション</string>
+		<string name="MISSED_ANIMATIONS_MSG">ファイルが欠落しているので、一部のアニメーションは読み込めません。</string>
+		<string name="FRAMES_">フレーム: </string>
+		<string name="TIME_SCALE_X">再生速度: x</string>
+		<string name="NO_AUDIO_FILE">音声なし: カットシーン用の音声ファイルが見つかりません</string>
+		<!-- help -->
+		<string name="HELP_TITLE">アニメーション ビューア - ヘルプ</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ カテゴリを選択し、アニメーションを再生します。 ]]>
+		</text>
+	</RenderUI>
+</Translation>

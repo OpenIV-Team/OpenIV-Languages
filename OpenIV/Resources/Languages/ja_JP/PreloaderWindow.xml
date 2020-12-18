@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PreloaderWindow>
+		<WelcomeScreen>
+			<!-- Button's -->
+			<btnClose Caption='閉じる'/>
+			<btnEULANext Caption='続行'/>
+			<btnWebNext Caption='続行'/>
+			<btnGame Caption='検索中...' Hint='フォルダを選択:'/>
+			<btnGameNext Caption='続行'/>
+			<btnSetPermissions Caption='許可する'/>
+			<btnWindowsNext Caption='続行'/>
+			<btnBackupNext Caption='続行'/>
+			<btnSocialNext Caption='続行'/>
+			<btnSocialYouTube Caption='$AppName$ YouTube チャンネル'/>
+			<btnSocialTwitter Caption='$AppName$ のTwitter アカウント'/>
+			<btnSocial_FB Caption='$AppName$ Facebook ページ'/>
+			<btnSocial_VK Caption='$AppName$ VK ページ'/>
+			<!-- Link's -->
+			<LnkWebLangs Caption='$AppName$ を他の言語で翻訳してください'/>
+			<LnkWebEULA Caption='ライセンスはこちらです。'/>
+			<!-- CheckBox's -->
+			<cbAcceptEULA Caption='私は $AppName$ の利用規約条項を読み、同意します。'/>
+			<!-- Strings -->
+			<StringList SetCount='30'>
+				<Lines>
+					<Item Index='00' Value='$AppName$ の利用規約'/>
+					<Item Index='01' Value='$AppName$ を使用する前に、以下の利用規約に同意する必要があります。'/>
+					<Item Index='02' Value=''/>
+					<Item Index='03' Value=''/>
+					<Item Index='04' Value='サービスは一時的に利用できません。'/>
+					<Item Index='05' Value='$RageGAME$ フォルダを選択'/>
+					<Item Index='06' Value='ゲームの場所を指定しないと、 $AppName$ は十分な情報がないため $RageGAME_SHORT$ ファイルを開くことができません。 $RageGAME$ がインストールされている正しい場所を以下に設定してください。'/>
+					<Item Index='07' Value='$RageGAME$ の場所:'/>
+					<Item Index='08' Value='エラー: そのフォルダは存在しません。'/>
+					<Item Index='09' Value='完了: $AppName$ はそのフォルダで機能します。'/>
+					<Item Index='10' Value="エラー: そのフォルダは '$RageEncryptionStorage$' を含んでいません。"/>
+					<Item Index='11' Value='完了: $RageEncryptionStorage$ バージョン %s\n$AppName$ はそのファイルで動作します。'/>
+					<Item Index='12' Value='バックアップ'/>
+					<Item Index='13' Value='変更前にオリジナルファイルのバックアップを忘れないでください。'/>
+					<Item Index='14' Value='Windows 7'/>
+					<Item Index='15' Value='$AppName$ は Microsoft® Windows 7™ で最高に動作します'/>
+					<Item Index='16' Value='あなたの名前:'/>
+					<Item Index='17' Value="エラー: そのフォルダから $AppName$ にアクセスできません。\n権限を要求するか、管理者モードで $AppName$ を実行してみてください。"/>
+					<Item Index='18' Value='$AppName$ コミュニティに参加'/>
+					<Item Index='19' Value='$AppName$ - 確認'/>
+					<Item Index='20' Value='設定が完了していません。\n終了してよろしいですか？'/>
+					<Item Index='21' Value="エラー: $AppName$ は '$RageEncryptionStorage$' ファイルを変更するためのアクセス権限がありません。\n権限を要求するか、管理者モードで $AppName$ を実行してみてください。"/>
+					<Item Index='22' Value="エラー: $RageGAME$ は実行中です。$AppName$ を使用する前にゲームを終了してください。"/>
+					<Item Index='23' Value="完了しました。\n権限はゲームフォルダに設定されました。"/>
+					<Item Index='24' Value="権限を設定できません。"/>
+					<Item Index='25' Value="エラー: '$RageEncryptionStorage$' ファイル内で暗号化キーを見つけられませんでした。"/>
+				</Lines>
+			</StringList>
+		</WelcomeScreen>
+		<UpdateScreen>
+			<!-- Button's -->
+			<btnExit Caption='終了'/>
+			<btnInstall Caption='ダウンロードしてインストール'/>
+			<!-- Label's -->
+			<lbTitle Caption='$AppName$ のアップデート'/>
+			<lbText Caption='$AppName$ の新バージョンがあります。$AppName$ を開始する前にインストールしてください。'/>
+			<lbStatus Caption='ダウンロード容量: '/>
+			<cbInstallUpdatesAutomatically Caption='アップデートは自動でインストールされます'/>
+			<lbCurrentVersion Caption='現在のバージョン:'/>
+			<lbNewVersion Caption='新しいバージョン:'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='0' Value=' Mb'/>
+					<Item Index='1' Value='ダウンロードの準備中...'/>
+					<Item Index='2' Value='ダウンロード済み: %f of %f Mb'/>
+					<Item Index='3' Value='Updating...'/>
+					<Item Index='4' Value='アップデートに失敗しました。後でまたやり直してください。'/>
+					<Item Index='5' Value='%d.%d.%d (Build %d; Date %s)'/>
+					<Item Index='6' Value='このアップデートにはバグの修正とちょっとした改善が含まれます。'/>
+					<Item Index='7' Value='このアップデートには新機能、バグの修正、UIの変更、大幅な改善が含まれます。'/>
+					<Item Index='8' Value=''/>
+					<Item Index='9' Value=''/>
+				</Lines>
+			</StringList>
+		</UpdateScreen>
+		<ChangeGameScreen>
+			<!-- Button's -->
+			<btnExit Caption='終了'/>
+			<btnContinue Caption='続ける'/>
+			<!-- Strings -->
+			<StringList SetCount='20'>
+				<Lines>
+					<Item Index='00' Value='致命的なアプリケーションのエラー'/>
+					<Item Index='01' Value='$AppName$ を "$RageEncryptionStorage$" ファイルと同じフォルダーに配置しましたが、これは誤りです。\n $AppName$ を別のフォルダーに配置してください。'/>
+					<Item Index='02' Value='$RageGAME$ フォルダを変更'/>
+					<Item Index='03' Value='何かが間違っています。 以下の $RageGAME$ フォルダを変更して $AppName$ を再起動してください。'/>
+					<Item Index='04' Value='エラー: そのフォルダは存在しません。'/>
+					<Item Index='05' Value='完了: $AppName$ はそのフォルダで機能します。'/>
+					<Item Index='06' Value="エラー: そのフォルダは '$RageEncryptionStorage$' を含んでいません。"/>
+					<Item Index='07' Value='完了: $RageEncryptionStorage$ バージョン %s\n$AppName$ はそのファイルで動作します。'/>
+					<Item Index='08' Value='検索'/>
+					<Item Index='09' Value="エラー: そのフォルダから $AppName$ にアクセスできません。\n管理者モードで $AppName$ を実行してみてください。"/>
+					<Item Index='10' Value="エラー: '$RageEncryptionStorage$' ファイル内で暗号化キーを見つけられませんでした。"/>
+				</Lines>
+			</StringList>
+		</ChangeGameScreen>
+	</PreloaderWindow>
+</Translation>

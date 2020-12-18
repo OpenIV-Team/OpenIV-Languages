@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='お気に入りに追加'>
+		<Label1 Caption='名前: '/>
+		<Label2 Caption='作成場所: '/>
+
+		<btnAdd Caption='追加'/>
+		<btnCancel Caption='キャンセル'/>
+		<btnNewFolder Caption='新しいフォルダ'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='お気に入り'/>
+				<Item Index='1' Value='フォルダを新規作成'/>
+				<Item Index='2' Value='フォルダ名: '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='お気に入りを管理 - $AppName$'>
+		<btnSave Caption='保存'/>
+		<btnCancel Caption='キャンセル'/>
+		<btnNewFolder Caption='新しいフォルダ'/>
+		<btnRemove Caption='削除'/>
+		<btnClear Caption='クリア'/>
+
+		<Label1 Caption='ドラッグアンドドロップでお気に入りを管理します。'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='お気に入り'/>
+				<Item Index='1' Value='フォルダを新規作成'/>
+				<Item Index='2' Value='フォルダ名: '/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Archive Defragmenter -->
+
+	<DefragmenterWindow Caption='アーカイブ デフラグツール - $AppName$'>
+		<!-- Labels -->
+		<lbDescription Caption="アーカイブ デフラグツールはアーカイブ内のファイルを統合して、ハードディスク使用量を削減します。"/>
+		<lbNoteSave Caption='全ての変更が保存されました。編集するごとに最適化をする必要はありません。'/>
+		<lbNoteRevert Caption='この最適化機能はアーカイブに加えた変更を元に戻すことはできません。'/>
+		<!-- Actions -->
+		<actClose Caption='閉じる'/>
+		<actRebuild Caption='デフラグ開始'/>
+		<actAddFile Caption='ファイルを追加'/>
+		<actAddFolder Caption='フォルダを追加'/>
+		<actRemoveFile Caption='ファイルを削除'/>
+		<actClear Caption='リストをクリア'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='名前'/>
+				<Item Index='2' Caption='場所'/>
+				<Item Index='3' Caption='種類'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='完了しました。'/>
+				<Item Index='1' Value='アーカイブ デフラグツール - $AppName$'/>
+				<Item Index='2' Value='再構成したアーカイブを開きますか？'/>
+				<Item Index='3' Value='一部のファイルは処理されません。'/>
+			</StringList>
+		</AeroWindow>
+	</DefragmenterWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption='アーカイブ情報'>
+		<!-- Button's -->
+		<btnClose Caption='閉じる'/>
+		<!-- Label's -->
+		<lbType Caption='種類:'/>
+		<lbVersion Caption='バージョン:'/>
+		<lbCount Caption='項目数:'/>
+
+		<lbCGame Caption='現在のゲーム:'/>
+		<lbCPlatform Caption='現在のプラットフォーム:'/>
+
+		<lbCodeModule Caption='モジュール:'/>
+		<lbCMVersion Caption='モジュールのバージョン:'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='openFormats をインポート - $AppName$'>
+		<!-- Label's -->
+		<lbOfFileName Caption='インポートするファイル:'/>
+		<lbOfFiles Caption='インポートするファイル:'/>
+		<lbNewFileName Caption='新しいファイル名:'/>
+		<!-- Button's -->
+		<btnAdd Caption='追加'/>
+		<btnRemove Caption='削除'/>
+		<btnCancel Caption='キャンセル'/>
+		<btnOk Caption='OK'/>
+		<tbLeanMore Caption='openFormats について詳しく知る'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='メッシュを保持 (将来の出力を防ぐ)'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption='openFormats 検証ツール - $AppName$'>
+		<btnClose Caption='閉じる'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value='一部のファイルはインポートされません。詳細をご覧ください。'/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(%D 行目): サポートされていないリソース バージョンです。実際: "%S" ですが "%D" が必要です。'/>
+				<Item Index='2' Value='%S(%D 行目): サポートされていないフォーマット バージョンです。実際: "%S" ですが "%D" が必要です。'/>
+				<!-- Common errors -->
+				<Item Index='3' Value='致命的なエラー: Direct3Dを初期化できません。'/>
+				<Item Index='4' Value='致命的なエラー: ファイル "%S" は見つかりませんでした。'/>
+				<Item Index='5' Value='%S(%D 行目): ファイル "%S" は見つかりませんでした。'/>
+				<Item Index='6' Value='%S(%D 行目): ファイルが壊れています。'/>
+				<Item Index='7' Value='%S(%D 行目): プロパティ "%s" が必要ですが "%s" が見つかりました。'/>
+				<Item Index='8' Value='%S(%D 行目): プロパティ "%s" は見つかりませんでした。'/>
+				<Item Index='9' Value='%S(%D 行目): 必要なパラメータが不足しています。'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(%D 行目): "%S" は不明な判定境界の種類です。'/>
+				<Item Index='11' Value='%S(%D 行目): 判定が大きすぎます。'/>
+				<Item Index='12' Value='%S(%D 行目): 判定が壊れています。'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value='%S(%D 行目): ボーン名がありません。'/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(%D 行目): メッシュがロックされています。'/>
+				<Item Index='15' Value='%S(%D 行目): マテリアルのインデックスが領域外です。'/>
+				<Item Index='16' Value="%S(%D 行目): シェーダがスキニングできませんでした。"/>
+				<Item Index='17' Value="%S(%D 行目): ひとつのジオメトリ内にボーンが多すぎます。48個より多くボーンを使用できません。"/>
+
+				<Item Index='18' Value="%S(%D 行目): %S"/>
+
+				<!-- Export/Import -->
+				<Item Index='19' Value='openFormats のインポート レポート'/>
+				<Item Index='20' Value='openFormats の出力レポート'/>
+				<Item Index='21' Value='一部のファイルは出力されませんでした。詳細をご覧ください。'/>
+
+			</StringList>
+		</AeroWindow>
+	</openFormatsValidatorWindow>
+
+</Translation>

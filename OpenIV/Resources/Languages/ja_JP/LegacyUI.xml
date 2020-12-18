@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Main window -->
+
+	<MainWindow Caption="$AppName$">
+		<FullScreenClose Hint="閉じる"/>
+		<btnSwitchMode Caption="編集モード" hint="編集モードを切り替え (F6)" showhint="True"/>
+		<btnCloseArchive hint="アーカイブを閉じる (Shift + Backspace)" showhint="True"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="80">
+			<StringList>
+				<Item Index="0" Value="名前"/>
+				<Item Index="1" Value="種類"/>
+				<Item Index="2" Value="サイズ"/>
+				<Item Index="3" Value="属性"/>
+				<Item Index="4" Value="圧縮"/>
+				<Item Index="5" Value="編集モード"/>
+				<Item Index="6" Value=""/>
+				<Item Index="7" Value=""/>
+				<Item Index="8" Value="%D 個を表示"/>
+				<Item Index="9" Value="%D 個( %D 個中)"/>
+				<Item Index="10" Value=" 項目"/>
+				<Item Index="11" Value=" bytes"/>
+				<Item Index="12" Value=" KB"/>
+				<Item Index="13" Value=" MB"/>
+				<Item Index="14" Value="進捗..."/>
+				<Item Index="15" Value="現在のファイル: "/>
+				<Item Index="16" Value="未知"/>
+				<Item Index="17" Value="アーカイブは開かれていない"/>
+				<Item Index="18" Value="暗号化済"/>
+				<Item Index="19" Value="アーカイブを読み込み中..."/>
+				<Item Index="20" Value="リソース [バージョン: %D]"/>
+				<Item Index="21" Value="[編集モード]"/>
+				<Item Index="22" Value="[読み込みモード]"/>
+				<Item Index="23" Value="LANG: FREE STRING (23)"/>
+				<Item Index="24" Value="編集モードを有効にしようとしています。すべての変更は自動的に保存されます。"/>
+				<Item Index="25" Value="LANG: FREE STRING (25)"/>
+				<Item Index="26" Value="LANG: FREE STRING (26)"/>
+				<Item Index="27" Value="タグ"/>
+				<Item Index="28" Value="タグを追加"/>
+				<Item Index="29" Value="新しいタグ"/>
+				<Item Index="30" Value="選択されていません"/>
+				<Item Index="31" Value="選択中: %D"/>
+				<Item Index="32" Value="フルスクリーン モード (F11)"/>
+				<Item Index="33" Value="ウィンドウ モード (F11)"/>
+				<Item Index="34" Value="プレビューするファイルを選択してください。"/>
+				<Item Index="35" Value="プレビューなし"/>
+				<Item Index="36" Value="バージョン: %S"/>
+				<Item Index="37" Value="$AppName$ を終了する"/>
+				<Item Index="38" Value="$AppName$ の設定"/>
+				<Item Index="39" Value="ファイルを閉じる"/>
+				<Item Index="40" Value="ピン"/>
+				<Item Index="41" Value="リストから削除"/>
+				<Item Index="42" Value="最近使用したファイル"/>
+				<Item Index="43" Value="外部アプリケーションが実行されています..."/>
+				<Item Index="44" Value="ファイル変更の確認"/>
+				<Item Index="45" Value="ファイル «%S» は変更されています。アーカイブの変更を更新しますか？"/>
+				<Item Index="46" Value="場所"/>
+				<Item Index="47" Value="ビルド"/>
+				<Item Index="48" Value="このアーカイブは空です。"/>
+				<Item Index="49" Value="このフォルダは空です。"/>
+				<Item Index="50" Value="見つかりませんでした。"/>
+				<Item Index="51" Value="エクスプローラで開く"/>
+				<Item Index="52" Value="エクスプローラで検索"/>
+				<Item Index="53" Value="ファイルの場所を開く"/>
+				<Item Index="54" Value="$AppName$ - 場所を開く"/>
+				<Item Index="55" Value="$AppName$ はアーカイブの場所を開けません。"/>
+				<Item Index="56" Value="YouTube チャンネル"/>
+				<Item Index="57" Value="動画のチュートリアル"/>
+				<Item Index="58" Value="極小 (0 - 10 KB)"/>
+				<Item Index="59" Value="小さい (10 - 100 KB)"/>
+				<Item Index="60" Value="中程度 (100 KB - 1 MB)"/>
+				<Item Index="61" Value="大きい (1 - 16 MB)"/>
+				<Item Index="62" Value="かなり大きい (16 - 128 MB)"/>
+				<Item Index="63" Value="巨大 (&gt; 128 MB)"/>
+				<Item Index="64" Value="フォルダ"/>
+				<Item Index="65" Value="フィルタ %s"/>
+				<Item Index="66" Value="$AppName$ - 通知"/>
+				<Item Index="67" Value="オプションから通知をオンにすることができます。"/>
+				<Item Index="68" Value="コピー中..."/>
+				<Item Index="69" Value="$AppName$ - 通知"/>
+				<Item Index="70" Value='"$ModsFolderPath$update\update.rpf" アーカイブ内への変更はすべて失われます。\n本当に実行しますか？'/>
+				<Item Index="71" Value='すべてのアーカイブから "%s" を検索'/>
+				<Item Index="72" Value="本当に $AppName$ を終了しますか？"/>
+			</StringList>
+		</AeroWindow>
+		<!-- Others -->
+		<SearchBox BannerText="フィルタ"/>
+		<!-- Notification: GTA V (ASI) -->
+		<lbGTAVPluginTitle Caption="$RageGAME_SHORT$ 用プラグインのインストール"/>
+		<lbGTAVPluginText Caption="$RageGAME_SHORT$ に ASI Loader と $ModsFolderAsi$ プラグインをインストールする必要があります。でないと、ゲームが改造されたRPF アーカイブを読み込めません。\n改造RPF では $RageGAME_MP$ をプレイしないでください。BAN されますよ。"/>
+		<btnGTAVPluginAction Caption="ASI マネージャ"/>
+		<!-- Notification: copy to mods folder -->
+		<lbNotInModsTitle Caption='$ModsFolder$ フォルダ'/>
+		<lbNotInModsText Caption='現在編集しているアーカイブは $ModsFolder$ フォルダのものではありません。'/>
+		<lbEditModeDisabledDueToModsFolder Caption='このアーカイブでは編集機能が無効になっています。\n$ModsFolder$ フォルダに移動するか、設定で編集を有効にしてください。'/>
+		<btnCopyToMods Caption='$ModsFolder$ へコピー'/>
+		<btnShowInMods Caption='$ModsFolder$ で表示'/>
+		<btnChangeModsFolderSettings Caption="$ModsFolder$ フォルダの設定を変更"/>
+		<!-- Notification: update.rpf -->
+		<lbCopyNewUpdateToModsTitle Caption='$RageGAME$ タイトル アップデート'/>
+		<lbCopyNewUpdateToMods Caption='%ModsFolder% 内の update.rpf は古いバージョンです。新しいバージョンの“update.rpf” を $ModsFolder$ フォルダにコピーしてください。でないとゲームがクラッシュしてしまいます。'/>
+		<btnCopyUpdateToMods Caption='$ModsFolder$ フォルダに新しいバージョンをコピー'/>
+		<!-- Notification: Admin mode -->
+		<lbAdminModeTitle Caption='管理者モード'/>
+		<lbAdminModeText Caption='$AppName$ は管理者モードで実行されています。エクスプローラからのドラッグアンドドロップなどの一部の操作が機能しない場合があります。通常は管理者モードで %AppName% を実行する必要はありません。'/>
+		<btnAdminModeAction Caption='どうすればいいの？'/>
+		<!-- Search tasks -->
+		<taskClearSearchFilter Caption='検索フィルタを解除'/>
+	</MainWindow>
+
+	<ActionsModule>
+		<!-- Main Menu -->
+		<mmFile Caption="ファイル"/>
+		<mmEdit Caption="編集"/>
+		<mmNew Caption="新しい"/>
+		<mmView Caption="表示"/>
+		<mmFavorites Caption="お気に入り"/>
+		<mmTools Caption="ツール"/>
+		<mmHelp Caption="ヘルプ"/>
+		<!-- Main Menu : File -->
+		<mmRecentArchives Caption="最近使用したアーカイブ"/>
+		<!-- Main Menu : Edit -->
+		<mmFilter Caption="フィルタ"/>
+		<!-- Main Menu : View -->
+		<mmLayout Caption="レイアウト"/>
+		<mmSortBy Caption="並べ替え"/>
+		<mmGroupBy Caption="グループ化"/>
+		<mmGoto Caption="移動"/>
+		<!-- Main Menu : View -->
+		<mmvIcon Caption="中アイコン"/>
+		<mmvSmallIcon Caption="小アイコン"/>
+		<mmvList Caption="一覧"/>
+		<mmvDetails Caption="詳細"/>
+		<mmvTile Caption="並べて表示"/>
+		<!-- Main Menu : Help -->
+		<!-- Path menu -->
+		<PMenu0 Caption="パスのコピー"/>
+		<!-- File Action's -->
+		<actCreateArchive Caption="アーカイブを新規作成..." Hint="アーカイブを新規作成します"/>
+		<actOpenGameFolder Caption="ゲームフォルダを開く" Hint="ゲームフォルダを開きます"/>
+		<actOpenArchive Caption="アーカイブを開く..." Hint="存在するアーカイブを開きます"/>
+		<actOpenFolder Caption="フォルダを開く..." Hint="存在するフォルダを開きます"/>
+		<actOpenArchiveProperties Caption="アーカイブのプロパティ" Hint=""/>
+		<actDefragmentation Caption="デフラグツール" Hint="アーカイブ デフラグツール"/>
+		<actEditMode Caption="編集モード" Hint=""/>
+		<actReadMode Caption="読み取りモード" Hint=""/>
+		<actCloseAllArchives Caption="すべてのアーカイブを閉じる" Hint="開かれているすべてのアーカイブを閉じます"/>
+		<actCloseAllFolders Caption="すべてのフォルダを閉じる" Hint="開かれているすべてのフォルダを閉じます"/>
+		<actCloseArchive Caption="アーカイブを閉じる" Hint="現在のアーカイブを閉じます"/>
+		<actExit Caption="終了" Hint="終了します"/>
+		<!-- Edit Action's -->
+		<actOpen Caption="開く" Hint="選択中の項目を開きます"/>
+		<actEditFile Caption="編集" Hint="選択中のファイルを編集します"/>
+		<actViewAsHex Caption="16進で表示..." Hint="16進で表示します"/>
+		<actViewAsText Caption="テキストで表示..." Hint="テキストで表示します"/>
+		<actCopyName Caption="名前のコピー" Hint="選択中のファイル名をコピーします"/>
+		<actCopyPath Caption="パスのコピー" Hint="選択中のファイルの完全なパスをコピーします"/>
+		<actExtract Caption="抽出..." Hint="ファイルを抽出します"/>
+		<actSaveContent Caption="コンテンツの出力" Hint="ファイル コンテンツを出力します"/>
+		<actSaveRawContent Caption="生コンテンツの出力" Hint="ファイルデータをそのまま出力します"/>
+		<actRename Caption="名前の変更" Hint="ファイル名を変更します"/>
+		<actAdd Caption="追加" Hint="新しいファイルを追加します"/>
+		<actReplace Caption="置換" Hint="現在のファイルを別のファイルで置き換えます"/>
+		<actRemove Caption="削除" Hint="現在のファイルを削除します"/>
+		<actExtractAll Caption="すべて抽出..." Hint="すべてのファイルを抽出します"/>
+		<actCopyFileList Caption="ファイル リストをコピー" Hint=""/>
+		<actSelectAll Caption="すべて選択" Hint=""/>
+		<actResourceObjectExplorer Caption="リソース エクスプローラ" Hint=""/>
+		<actShowInWindowsExplorer Caption="エクスプローラで表示" Hint=""/>
+		<actItemAddToFavorites Caption="お気に入りに追加..." Hint=""/>
+		<actCopyToModsFolder Caption='$ModsFolder$ フォルダへコピー' Hint=""/>
+		<actShowInModsFolder Caption='$ModsFolder$ フォルダを表示' Hint=""/>
+		<!-- New menu -->
+		<actMultipleImport Caption="openFormats ファイルのインポート" Hint="複数インポートします"/>
+		<actNewFolder Caption="フォルダ" Hint="フォルダを新規作成します"/>
+		<!-- View Action's -->
+		<actDirectoryTree Caption="階層ツリー" Hint="階層ツリーを表示または隠します"/>
+		<actToolBar Caption="ツールバー" Hint="ツールバーを表示または隠します"/>
+		<actSearchBar Caption="アドレスバーと検索ボックス" Hint="アドレスバーと検索ボックスを表示または隠します"/>
+		<actStatusBar Caption="ステータスバー" Hint="ステータスバー"/>
+		<actLivePreView Caption="プレビュー ウィンドウ" Hint="プレビュー ウィンドウ"/>
+		<actMainMenuBar Caption="メニューバー" Hint="メニューバー"/>
+		<!-- Help Action's -->
+		<actHelpVerifyGame Caption="ゲームファイルの確認や復元の方法..." Hint=""/>
+		<actSocialMedia Caption="$AppName$ コミュニティに参加" Hint=""/>
+		<actForums Caption="$AppName$ ディスカッションに参加" Hint=""/>
+		<actSupportDonate Caption="$AppName$をサポート" Hint=""/>
+		<actGoToWeb Caption="ウェブサイトを開く..." Hint=""/>
+		<actSendFeedback Caption="フィードバックを送信" Hint=""/>
+		<actReportBug Caption="バグを報告" Hint=""/>
+		<actWin7ReportTool Caption="問題を再現するための手順を記録する" Hint=""/>
+		<actAbout Caption="$AppName$ について..." Hint="$AppName$ に関する情報です"/>
+		<!-- Groups Action's -->
+		<actCollapseAll Caption="すべてのグループを折りたたむ" Hint=""/>
+		<actExpandAll Caption="すべてのグループを展開" Hint=""/>
+		<actCollapseGroup Caption="グループを折りたたむ" Hint=""/>
+		<actExpandGroup Caption="グループを展開" Hint=""/>
+		<!-- Tools Action's -->
+		<actConfig Caption="設定..." Hint="設定をします"/>
+		<!-- GoTo Action's -->
+		<actGoBack Caption="戻る" Hint=""/>
+		<actGoForward Caption="進む" Hint=""/>
+		<actGoUP Caption="1階層上へ戻る" Hint=""/>
+		<!-- Favorites -->
+		<actAddToFavorites Caption="お気に入りに追加..." Hint=""/>
+		<actOrganizeFavorites Caption="お気に入りを管理..." Hint=""/>
+		<!-- Filter -->
+		<actFilterByName Caption="名前" Hint=""/>
+		<actFilterByType Caption="種類" Hint=""/>
+		<actFilterOnlyThis Caption="これだけを表示" Hint=""/>
+		<!-- Tree -->
+		<actTreeCopyName Caption="名前のコピー" Hint=""/>
+		<actTreeCopyPath Caption="パスのコピー" Hint=""/>
+		<actTreeShowInWindowsExplorer Caption="エクスプローラで表示" Hint=""/>
+		<actTreeCloseArchive Caption="アーカイブを閉じる" Hint=""/>
+		<actTreeCopyToModsFolder Caption='$ModsFolder$ フォルダへコピー' Hint=""/>
+		<actTreeShowInModsFolder Caption='$ModsFolder$ フォルダで表示' Hint=""/>
+		<actTreeCollapseThis Caption='折りたたむ' Hint=""/>
+		<actTreeCollapseAll Caption='全て折りたたむ' Hint=""/>
+		<!-- Strings -->
+		<Strings SetCount="100">
+			<Lines>
+				<Item Index="00" Value="次のフォルダ:"/>
+				<Item Index="01" Value="前"/>
+				<Item Index="02" Value="ファイルは開かれていません"/>
+				<Item Index="03" Value="(なし)"/>
+				<Item Index="04" Value="新しいアーカイブの種類を選択:"/>
+				<Item Index="05" Value="直線的"/>
+				<Item Index="06" Value="階層的"/>
+				<Item Index="07" Value="名前なし"/>
+				<Item Index="08" Value="タグを追加"/>
+				<Item Index="09" Value="削除"/>
+				<Item Index="10" Value="全てのタグ"/>
+				<Item Index="11" Value="$AppName$ - ファイル名を変更"/>
+				<Item Index="12" Value="新しい名前:"/>
+				<Item Index="13" Value="フォルダを新規作成"/>
+				<Item Index="14" Value="新しいフォルダ:"/>
+				<Item Index="15" Value="$RageGAME_SHORT$ が見つかりません。\n%AppName% の設定で $RageGAME_SHORT$ の場所を指定して下さい。"/>
+				<Item Index="16" Value="$AppName$ - アーカイブ リビルドの確認"/>
+				<Item Index="17" Value="アーカイブ «%S» をリビルドしてよろしいですか？\n この操作には数分かかる場合があります。"/>
+				<Item Index="18" Value="コンテンツを開く"/>
+				<Item Index="19" Value="%S を新規作成"/>
+				<Item Index="20" Value="名前を入力:"/>
+				<Item Index="21" Value="$AppName$ - 実装されていない機能"/>
+				<Item Index="22" Value="この操作を試してみてください: %S\n現在、 $AppName$ はまだ実装されていません。次のバージョンで確認してください。"/>
+				<Item Index="23" Value="$AppName$ - アーカイブのリビルド"/>
+				<Item Index="24" Value="空のアーカイブはリビルドできません。"/>
+				<Item Index="25" Value="そのファイル名は既に存在しています。別の名前を使用してください。"/>
+				<Item Index="26" Value="$AppName$ - タグを追加"/>
+				<Item Index="27" Value="新しいタグを入力:"/>
+				<Item Index="28" Value="%S へ出力"/>
+				<Item Index="29" Value="ファイルは暗号化されています。ゲームの暗号化されていないバージョンをインストールしてください。"/>
+				<Item Index="30" Value="$AppName$ - ファイルは存在しない"/>
+				<Item Index="31" Value="ファイル %S を開くのに失敗しました。\nファイルは存在しません。"/>
+				<Item Index="32" Value="バージョン: %D"/>
+				<Item Index="33" Value="$AppName$ はまだ $RageGAME_SHORT$ のアーカイブを作成することはできません。また後で行ってください。"/>
+				<Item Index="34" Value="次でファイルを開く"/>
+				<Item Index="35" Value="%s ( %s 内)"/>
+				<Item Index="36" Value="%s - %s の検索結果"/>
+				<Item Index="37" Value="%s - %s の検索結果 (%s)"/>
+				<Item Index="38" Value="絞り込み"/>
+				<Item Index="39" Value="$AppName$ - エラー"/>
+				<Item Index="40" Value="ファイルを抽出できません。"/>
+				<Item Index="41" Value="ファイルを追加できません。"/>
+				<Item Index="42" Value="フォルダを作成できません。"/>
+				<Item Index="43" Value="ファイルを削除できません。"/>
+				<Item Index="44" Value="ファイルを置換できません。"/>
+				<Item Index="45" Value="ファイルを新規作成できません。"/>
+				<Item Index="46" Value="名前に無効な文字が含まれています。"/>
+				<Item Index="47" Value="他の名前を指定してください。"/>
+				<Item Index="48" Value="指定したフォルダ名と同じ名前の項目がすでに存在します。"/>
+				<Item Index="49" Value="フォルダを選択"/>
+				<Item Index="50" Value="ファイルを削除"/>
+				<Item Index="51" Value="このファイルを完全に削除しますか？"/>
+				<Item Index="52" Value="フォルダを削除"/>
+				<Item Index="53" Value="このフォルダを完全に削除しますか？"/>
+				<Item Index="54" Value="複数項目の削除"/>
+				<Item Index="55" Value="%d 個の項目を完全に削除しますか？"/>
+				<Item Index="56" Value="昇順"/>
+				<Item Index="57" Value="降順"/>
+			</Lines>
+		</Strings>
+	</ActionsModule>
+
+	<EditModeHelpWindow Caption="編集モード - $AppName$">
+		<!-- Label's -->
+		<lbTitle Caption="編集モード"/>
+		<lbText Caption="ファイルを追加や編集する場合は、編集モードに切り替えてください。\n$AppName$ の設定から編集モードを既定にできます。"/>
+		<lbInfo Caption='"編集モード" ボタンで編集モードを有効にできます。'/>
+		<!-- Button's -->
+		<btnClose Caption="閉じる"/>
+		<cbDoNotShow Caption="このメッセージを再度表示しない"/>
+	</EditModeHelpWindow>
+
+	<AdminModeWindow Caption="管理者モード - $AppName$">
+		<lbText Caption="$AppName$ を管理者モードで実行する意味はありません。 $AppName$ を使用するうえで管理者権限を必要としません。\n\n次のツールを使用すると、ゲームフォルダに必要なすべてのアクセス権限を設定して、管理者権限なしで $AppName$ を再起動できます。"/>
+		<btnSetPermissions Caption="権限を付加するぜ！！"/>
+		<btnClose Caption="閉じる"/>
+		<AeroWindow LinesCount="5">
+			<StringList>
+				<Item Index="0" Value="エラー - $AppName$"/>
+				<Item Index="1" Value="完了しました。\nゲームフォルダに権限が付加されました。"/>
+				<Item Index="2" Value="権限を付加できません。\nエラーコード: "/>
+				<Item Index="3" Value="ゲームフォルダがありません。"/>
+				<Item Index="3" Value="権限設定ツールがありません。 $AppName$ を再インストールしてください。"/>
+			</StringList>
+		</AeroWindow>
+	</AdminModeWindow>
+
+	<!-- Configuration -->
+
+	<ConfigWindow Caption="$AppName$ - 設定">
+		<!-- Languages -->
+		<tabLang Caption="言語"/>
+		<lbLang Caption="インターフェースの言語を選択"/>
+		<LnkWebLangs Caption="$AppName$ を他の言語に翻訳する"/>
+		<!-- Game -->
+		<tabGame Caption="ゲーム"/>
+		<gbGamePath Caption="$RageGAME_SHORT$ ディレクトリ"/>
+		<lbCurrentGamePath Caption="現在のディレクトリ:"/>
+		<tbChangeGame Caption="ディレクトリを変更"/>
+		<ttRageExe Caption="  $AppName$ を使用するには $RageEncryptionStorage$ をこのディレクトリに配置してください"/>
+		<!-- General -->
+		<tabMain Caption="全般"/>
+		<cbShowSelectGameDialog Caption='起動時に「ゲームとプラットフォームを選択」ダイアログを表示する'/>
+		<lbDefaultGame Caption="既定のゲーム"/>
+		<lbWorkMode Caption="既定の動作モード"/>
+		<WorkMode>
+			<Items>
+				<Item Index="0" Value="編集モード"/>
+				<Item Index="1" Value="読み込みモード"/>
+			</Items>
+		</WorkMode>
+		<lbDefTextureFormatGlb Caption="既定のテクスチャ フォーマット"/>
+		<cbAlwaysOpenArchiveAfterRebuild Caption="常にリビルド後にアーカイブを開く"/>
+		<cbMinimizeAtStartGame Caption="ゲーム起動時に $AppName$ を最小化する"/>
+		<cbInstallUpdatesAutomatically Caption="更新を自動的にインストールする"/>
+		<cbDisplayDeleteConfirmationDialog Caption="削除の確認メッセージを表示する"/>
+		<cbUseRecycleBinInsteadDeleteInContentArchives Caption="通常のファイルの場合は削除せずにごみ箱にぶち込む"/>
+		<cbCloseArchivesAtStartGame Caption="ゲーム開始時に開かれているすべてのアーカイブを閉じる"/>
+		<cbClearSearchFilterAfterOpeningArchive Caption='アーカイブを開いたら検索を解除する'/>
+		<cbUseAlternativeWayOfAddingFolders Caption='ドラッグアンドドロップ後にフォルダを追加する別の(古い)方法を使用する'/>
+		<tbFileAssociation Caption="ファイルの関連付けを変更する"/>
+		<cbDisplayExitConfirmationDialog Caption="終了時に確認ダイアログを表示する"/>
+		<cbStartWithLocationFromLastSession Caption="前回終了した場所を開いて $AppName$ を起動する"/>
+		<cbAlwaysOnExtendedContextMenu Caption="メインウィンドウでは常に項目への拡張されたメニューを開く"/>
+		<!-- "mods" folder -->
+		<tabModsFolder Caption="$ModsFolder$ フォルダ"/>
+		<lbModsFolderText Caption="このページでは、 $ModsFolder$ に関する設定を変更できます。"/>
+		<lbModsFolderNote1 Caption="この設定は $ModsFolderAsi$ がインストールされていないので使用できません。"/>
+		<cbShowNotificationWhileEditingArchiveNotInMods Caption='$ModsFolder$ フォルダ以外のアーカイブを編集しようとした時に警告を表示する'/>
+		<cbAllowEditModeOnlyInModsFolder Caption='$ModsFolder$ フォルダ内のアーカイブのみ編集モードを許可する'/>
+		<!-- Tools -->
+		<tabViewers Caption="ツール"/>
+		<lbChooseTheme Caption="テーマを選択"/>
+		<cbAppTheme>
+			<Items>
+				<Item Index="0" Value="ライトテーマ"/>
+				<Item Index="1" Value="ダークテーマ"/>
+			</Items>
+		</cbAppTheme>
+		<lbRenderBackgroundColor Caption="背景色を描画"/>
+		<cbRenderBackgroundColor>
+			<Items>
+				<Item Index="0" Value="既定"/>
+				<Item Index="1" Value="色を選択"/>
+			</Items>
+		</cbRenderBackgroundColor>
+		<lbCameraControl Caption="カメラの制御方法"/>
+		<cbRenderAntialiasing Caption="アンチエイジングを有効にする"/>
+		<lbChooseEditorTheme Caption="テキスト エディタの色"/>
+		<lbMultichannelAudioPlayback Caption="マルチチャンネル音声の再生"/>
+		<cbMultichannelAudioPlayback>
+			<Items>
+				<Item Index="0" Value="モノラル音声として再生"/>
+				<Item Index="1" Value="ステレオ音声として再生"/>
+				<Item Index="2" Value="マルチチャンネル音声として再生"/>
+			</Items>
+		</cbMultichannelAudioPlayback>
+		<lbMultichannelNote Caption="メモ: システムがサラウンド音声を再生できることを確認してください。対応していない場合、ほとんどのオーディオコンテンツが再生できません。"/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="パッケージ インストーラ使用時にインストール確認ダイアログを表示する"/>
+		<!-- openFormats -->
+		<tabFormats Caption="openFormats"/>
+		<lbDefTextureFormat Caption="既定のテクスチャ フォーマット"/>
+		<cbNotExportTextureToFolder Caption="OTD 出力時にフォルダ内のテクスチャを置き換えない"/>
+		<gbModels Caption="モデルのインポート (ODR/ODD/OFT)"/>
+		<cbProtectModels Caption="メッシュの保護を既定で有効にする (後で抽出するのを防げます)"/>
+		<btnSaveShaderInformation Caption="openFormats シェーダ情報を保存する"/>
+		<!-- Misc + old -->
+		<btnClose Caption="閉じる"/>
+		<actAppAdd Caption="追加"/>
+		<actAppEdit Caption="編集"/>
+		<actAppDel Caption="削除"/>
+		<LnkWebApps Caption="$RageGAME_SHORT$ 用の他のツールをダウンロードする"/>
+		<!-- String's -->
+		<AeroWindow LinesCount="10">
+			<StringList>
+				<Item Index="0" Value="フォルダを選択"/>
+				<Item Index="1" Value="最新版に対応した言語"/>
+				<Item Index="2" Value="$AppName$ - 警告"/>
+				<Item Index="3" Value="変更を適用するには $AppName$ を再起動する必要があります。"/>
+				<Item Index="4" Value="更新されていない言語"/>
+			</StringList>
+		</AeroWindow>
+	</ConfigWindow>
+
+	<ConfigAssociationWindow Caption="$AppName$ - 関連付け">
+		<lbTitle Caption="ファイルタイプを $AppName$ に関連付けます"/>
+		<FileTypes>
+			<Columns>
+				<Item Index="0" Caption=""/>
+				<Item Index="1" Caption="種類"/>
+				<Item Index="2" Caption="説明"/>
+				<Item Index="3" Caption="対応しているゲーム"/>
+			</Columns>
+			<Groups>
+				<Item Index="0" Header="パッケージ"/>
+				<Item Index="1" Header="アーカイブ"/>
+				<Item Index="2" Header="リソース"/>
+			</Groups>
+		</FileTypes>
+		<btnApply Caption="適用"/>
+		<btnCancel Caption="キャンセル"/>
+		<AeroWindow LinesCount="0">
+			<StringList>
+				<Item Index="0" Value=""/>
+			</StringList>
+		</AeroWindow>
+	</ConfigAssociationWindow>
+
+	<!-- EULA Window -->
+
+	<EULAWindow Caption="エンドユーザライセンス条項 - $AppName$">
+		<btnClose Caption="閉じる"/>
+	</EULAWindow>
+</Translation>

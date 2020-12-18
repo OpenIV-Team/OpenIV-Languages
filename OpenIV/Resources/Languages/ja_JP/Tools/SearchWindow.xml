@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='検索 - $AppName$'>
+		<SearchBox BannerText="検索"/>
+		<btnGoSearch Caption="検索"/>
+		<lbSearchFor Caption="次を検索:"/>
+		<cbSearchFor>
+			<Items>
+				<Item Index="0" Value='ファイルとフォルダ'/>
+				<Item Index="1" Value='音声トラック'/>
+			</Items>
+		</cbSearchFor>
+		<lbSearchArea Caption="検索範囲:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='すべて検索'/>
+				<Item Index="1" Value="ゲームフォルダのみ検索"/>
+				<Item Index="2" Value='$ModsFolder$ フォルダのみ検索'/>
+			</Items>
+		</cbSearchArea>
+		<lbAudioSearchNote Caption="すべての音声トラックが発見されたわけではないため、検索結果が限られている可能性があります。"/>
+		<lbStopHint Caption="ESCを押して検索を終了する"/>
+		<btnExtractResults Caption="結果を抽出"/>
+		<btnExtractAll Caption="すべてのファイルを抽出"/>
+		<btnExtractSelected Caption="選択中のファイルを抽出"/>
+		<btnGoTo Caption="ファイルへ移動"/>
+		<btnOpenItem Caption="開く"/>
+		<btnExtractItem Caption="抽出"/>
+		<btnExtractSelectedItems Caption="選択中のファイルを抽出"/>
+		<btnExtractAllItems Caption="すべてのファイルを抽出"/>
+		<btnSelectAllItems Caption="すべて選択"/>
+		<btnCopyName Caption="名前のコピー"/>
+		<btnCopyPathName Caption="パスのコピー"/>
+		<btnSaveContent Caption="コンテンツの保存"/>
+		<btnSaveRawContent Caption="生コンテンツの保存"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='15'>
+			<StringList>
+				<Item Index='0' Value='検索'/>
+				<Item Index='1' Value='検索を終了'/>
+				<Item Index='2' Value='見つかりませんでした'/>
+				<Item Index='3' Value='(%D 項目が見つかりました)'/>
+				<Item Index='4' Value='選択していません'/>
+				<Item Index='5' Value='選択中: %D'/>
+				<Item Index='6' Value="$AppName$ はファイルを開けませんでした。"/>
+				<Item Index='7' Value="抽出の結果はありません。"/>
+				<Item Index='8' Value="抽出前に検索を終了してください"/>
+				<Item Index='9' Value="ファイル: %D, フォルダ: %D"/>
+				<Item Index='10' Value="ファイル: %D, 音声トラック: %D"/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GTAIVAnimViewerNoticeDialog Caption='アニメーション ビューア - $AppName$'>
+		<!-- Label's -->
+		<lbTitle Caption='アニメーション ビューア'/>
+		<lbText Caption='アニメーションを見るにはアニメーション ビューアを使用してください。ツール メニューから実行できます。'/>
+		<!-- Button's -->
+		<btnOk Caption='OK'/>
+		<btnRun Caption='アニメーション ビューアを起動'/>
+	</GTAIVAnimViewerNoticeDialog>
+</Translation>

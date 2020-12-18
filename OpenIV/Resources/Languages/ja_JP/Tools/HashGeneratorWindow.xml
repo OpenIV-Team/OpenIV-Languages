@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<HashGeneratorWindow Caption='ハッシュ生成器 - $AppName$'>
+		<!-- Label's -->
+		<lbOutputFormat Caption='出力形式:' />
+		<!-- Button's -->
+		<btnLoadFromFile Caption='ファイルから読み込む' />
+		<btnGenerate Caption='生成' />
+		<btnSaveToFile Caption='ファイルへ保存' />
+		<cbCaseSensitive Caption='大文字と小文字を区別する' />
+		<!-- Panel's -->
+		<pnlLeft Caption='入力' />
+		<pnlRight Caption='出力' />
+	</HashGeneratorWindow>
+</Translation>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='$AppName$ 判定ビューア'>
+		<paneDictionary Caption='辞書エントリ'/>
+		<paneComposite Caption='複合要素'/>
+		<miLeft Caption='左'/>
+		<miRight Caption='右'/>
+		<miCheckAll Caption='すべて選択' />
+		<miUncheckAll Caption='すべて選択解除' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">法線を表示</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">判定の種類</string>
+		<string name="CHILD_COUNT">子要素の数</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">判定ビューア - ヘルプ</string>
+		<text name="HELP_TEXT">
+			<![CDATA[マウスで周りを見回すことができます。移動はキーで行います:
+			
+    W - 前へ移動
+    S - 裏へ移動
+    A - 左へ移動
+    D - 右へ移動
+
+    NumPad 8 - カメラを上へ移動
+    NumPad 2 - カメラを下へ移動
+    NumPad 4 - カメラを左へ移動
+    NumPad 6 - カメラを右へ移動
+
+    Hold SHIFT - 素早く移動
+    Hold CTRL - ゆっくり移動
+    マウスホイールでズームができます。
+		   
+レンダリングオプションを変更するには、右側のリンクまたはこれらのホットキーで行います:
+		   
+    F1 - ヘルプの表示切り替え
+    C - カメラモード切り替え
+    F - 面の縁どり切り替え
+    P - 点の表示切り替え
+    N - 法線切り替え
+    G - ジオメトリ切り替え
+    ESC - ビューアを閉じる
+	
+    Hold H - HUDを一時的に非表示
+]]>
+		</text>
+	</RenderUI>
+</Translation>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='パッケージ インストーラ - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">パッケージ インストーラ</string>
+		<string name="INSTALL">インストール</string>
+		<string name="INSTALLING">インストール中</string>
+		<string name="DESCRIPTION">説明</string>
+		<string name="ADDITIONAL_INFORMATION">追加情報</string>
+		<string name="GREATED_BY">作成者 </string>
+		<string name="SUPPORTED_GAMES">サポートしているゲーム</string>
+		<string name="VERSION">バージョン</string>
+		<string name="LICENCE">ライセンス</string>
+		<string name="VIEW_LICENCE">ライセンスを表示</string>
+		<string name="LEARN_MORE">もっと詳しく</string>
+		<string name="LINK_HOMEPAGE">ホームページ</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">インストールするコンテンツを選択</string>
+		<string name="SELECT_LOCATION">インストールする場所を選択</string>
+		<string name="LOCATION_MODS_FOLDER">$ModsFolder$ フォルダ</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">この Mod を $ModsFolder$ フォルダへインストールする</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">$RageGAME$ 用の $ModsFolder$ ではないため、このパッケージは $ModsFolder$ フォルダへインストールできません。</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">パッケージ形式が $ModsFolder$ に対応していないため、このパッケージは $ModsFolder$ フォルダへインストールできません。</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">RPF アーカイブを変更しないため、このパッケージは $ModsFolder$ フォルダへインストールできません。</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">$ModsFolderAsi$ がインストールされていないため、このパッケージは $ModsFolder$ フォルダへインストールできません。</string>
+		<string name="LOCATION_GAME_FOLDER">ゲームフォルダ</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">この Mod を ゲームフォルダへ直接インストールする</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">$ModsFolder$ フォルダの設定により無効になっているため、このパッケージはゲームフォルダへインストールできません。</string>
+
+		<string name="CONFIRM_INSTALLATION_TITLE">インストールの確認</string>
+		<string name="CONFIRM_INSTALLATION_NOTE">以下の情報を確認してインストールの確認をしてください。</string>
+		<string name="PACKAGE_NAME_">パッケージ: </string>
+		<string name="INSTALL_LOCATION_">インストール場所:</string>
+		<string name="GAME_PATH_">ゲーム フォルダの場所:</string>
+		<string name="CONFIRM_INSTALLATION_ACTION">インストールを開始</string>
+		<string name="ALWAYS_SHOW_CONFIRM_INSTALL_DIALOG">常にインストールの確認ダイアログを表示する</string>
+
+		<string name="INSTALLATION_SUCCEEDED">インストール成功</string>
+		<string name="RUN_GAME">$RageGAME$ を起動</string>
+		<string name="RUN_GAME_TEXT">ゲームを起動して Mod の適用を確認する</string>
+
+		<string name="INSTALLATION_FAILED">インストール失敗</string>
+
+		<string name="LOADING_ERROR_TITLE">パッケージ読み込みエラー</string>
+		<string name="READING_ERROR_TITLE">パッケージ内ファイル読み込みエラー</string>
+		<string name="INSTALLING_ERROR_TITLE">パッケージ インストールエラー</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">不明なエラー</string>
+		<string name="ERROR_GROUP_FATAL">致命的なエラー</string>
+		<string name="ERROR_CODE_UNKNOWN">何かが起こりました。ログファイルからエラーの詳細を確認してください。</string>
+		<string name="ERROR_INSTALLATION">インストール中に致命的なエラーが発生しました。ログファイルからエラーの詳細を確認してください。</string>
+		<string name="ERROR_MSXML">MSXML がインストールされていません。パッケージ インストーラを使用するのに必要です。</string>
+		<string name="ERROR_NO_LOG_FILE">パッケージ インストーラがログ ファイルを作成できませんでした。PC を再起動してから再度試してください。問題が解決しない場合はウイルス対策ソフトを確認してください。</string>
+		<string name="CHECK_LOG_FILE">ログファイルからエラーの詳細を確認してください。</string>
+
+		<string name="OPEN_INSTALLATION_LOG">インストール ログを開く</string>
+		<string name="OPEN_LOG_FILE">ログを開く</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">パッケージ ファイルは有効な ZIP ファイルではありません。</string>
+		<string name="LOADING_ERROR_NOT_SUPPORTED_ZIP_COMPRESSION_METHOD">この ZIP ファイルの圧縮方式はサポートされていません。</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">不明なファイル拡張子です。パッケージ ファイルは .oiv か .zip である必要があります。</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">パッケージ ファイルにアクセスできません。他のプロセスによって使用されていないか確認してください。</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">パッケージ ファイルが存在しません。</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">パッケージ ファイルを開けません。</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">パッケージ内に "assembly.xml" ファイルが見つかりませんでした。$AppName$ パッケージではないか、ファイルが壊れています。</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">"assembly.xml" を読み込めませんでした。ファイルが壊れている可能性があります。</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">"assembly.xml" が不明なフォーマットです。ファイルが壊れている可能性があります。</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">$AppName$ の現在のバージョンではこのパッケージをインストールできません。</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">"assembly.xml" 内に "metadata" タグが見つかりませんでした。ファイルが壊れている可能性があります。</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">"assembly.xml" 内のメタデータ情報が不足しているか壊れています。</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">"assembly.xml" は無効な XML フォーマットであるか壊れています。</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">"assembly.xml" からパッケージIDを読み込めませんでした。</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">"assembly.xml" 内に "colors" タグが見つかりませんでした。ファイルが壊れている可能性があります。</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">"assembly.xml" 内の色情報が不足しているか壊れています。</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">"assembly.xml" 内のコンテンツ情報が不足しているか壊れています。</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">"assembly.xml" 内に "content" タグが見つかりませんでした。ファイルが壊れている可能性があります。</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">パッケージ内に "content" フォルダが見つかりませんでした。$AppName$ パッケージではないか、ファイルが壊れています。</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">このパッケージは $RageGAME$ にインストールできませんでした。追加情報からサポートしているゲーム一覧を確認してください。</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">パッケージ アーカイブ内にいくつかのファイルがありませんでした。パッケージ作者に確認してください。</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">いくつかのファイルのゲーム内パスが正しくありません。パッケージ作者に確認してください。</string>
+		<string name="INSTALLING_ERROR_ANOTHER_INSTALLER">現在、他のパッケージのインストールを実行中です。完了するまで待ってからお試しください。</string>
+
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">このパッケージは自動アンインストールができません。</string>
+
+	</RenderUI>
+</Translation>

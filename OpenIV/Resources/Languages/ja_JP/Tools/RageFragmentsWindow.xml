@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Translation> 
+	<RageFragmentsWindow Caption='$AppName$ モデル ビューア'> 
+		<paneHierarchy Caption='階層'/>
+		<pmiHigh Caption='高い (High)'/>
+		<pmiMed Caption='普通 (Med)'/>
+		<pmiLow Caption='低い (Low)'/>
+		<pmiVLow Caption='カス (VLow)'/>
+		<miLeft Caption='左'/>
+		<miRight Caption='右'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='外部ファイルから読み込む'/>
+			</StringList>
+		</AeroWindow>
+	</RageFragmentsWindow>
+	<RenderUI>
+		<string name="TOGGLE_DAMAGED">ダメージ表現の表示:</string>
+		<string name="HELP_TITLE">モデル ビューア - ヘルプ</string>		
+		<string name="CHECK_ALL">すべて選択</string>
+		<string name="UNCHECK_ALL">すべて選択を解除</string>
+		<string name="ALSO_HIDE_CHILDREN">子要素も隠す</string>
+		<string name="PLAY_FORWARD">再生</string>
+		<string name="PLAY_BACKWARDS">逆再生</string>
+		<text name="HELP_TEXT">
+			<![CDATA[マウスで周りを見回すことができます。移動はキーで行います:
+			
+    W - 前へ移動
+    S - 裏へ移動
+    A - 左へ移動
+    D - 右へ移動
+
+    NumPad 8 - カメラを上へ移動
+    NumPad 2 - カメラを下へ移動
+    NumPad 4 - カメラを左へ移動
+    NumPad 6 - カメラを右へ移動
+
+    Hold SHIFT - 素早く移動
+    Hold CTRL - ゆっくり移動
+    マウスホイールでズームができます。
+	
+テクスチャを追加するには、ウィンドウ右下の "[+] テクスチャを追加" をクリックしてください。削除するには、テクスチャ名の裏の "[-]" をクリックしてください。
+		   
+レンダリングオプションを変更するには、右側のリンクまたはこれらのホットキーで行います:
+		   
+    F1 - ヘルプの表示切り替え
+    C - カメラモード切り替え
+    F - 面の縁どり切り替え
+    P - 点の表示切り替え
+    N - 法線切り替え
+    G - ジオメトリ切り替え
+    ESC - ビューアを閉じる
+	
+    Hold H - HUDを一時的に非表示
+]]>
+		</text>				
+	</RenderUI>
+</Translation>
