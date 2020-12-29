@@ -40,7 +40,7 @@ When you edit existing localization, you must add your name into Contributors se
 For the language icon use the country flag. We use PNG images from [this repository](https://github.com/gosquared/flags).
 You need to use Flat 32x32 PNG icon, you can find it for your language in [this folder](https://github.com/gosquared/flags/tree/master/flags/flags-iso/flat/32).
 
-#### Using constants
+#### Constants
 In your localization, you can use the following constants:
 
 Constant | Value
@@ -53,12 +53,13 @@ $ModsFolderAsi$ | OpenIV.ASI
 ##### Game specific Constants
 The following constants will be different for each game:
 
-Constant | GTA V | GTA IV | EfLC | Max Payne 3 |
+Game / Constant | $RageGAME$ | $RageGAME_SHORT$ | $RageGAME_MP$ | $RageEncryptionStorage$ |
 -------- | ----- | ------ | ---- | ----------- |
-$RageEncryptionStorage$ | GTA5.exe | GTAIV.exe | EFLC.exe | MaxPayne3.exe
-$RageGAME$ | Grand Theft Auto V | Grand Theft Auto IV | Episodes from Liberty City | Max Payne 3
-$RageGAME_SHORT$ | GTA V | GTA IV | EfLC | Max Payne 3
-$RageGAME_MP$ | GTA Online | GTA IV Multiplayer | GTA IV Multiplayer | Max Payne 3 Multiplayer
+**GTA V** | Grand Theft Auto V | GTA V | GTA Online | GTA5.exe |
+**GTA IV** | Grand Theft Auto IV | GTA IV | GTA IV Multiplayer | GTAIV.exe |
+**EfLC** | Episodes from Liberty City | EfLC | GTA IV Multiplayer | EFLC.exe |
+**Max Payne 3** | Max Payne 3 | Max Payne 3 | Max Payne 3 Multiplayer | MaxPayne3.exe |
+**RDR 2** | Red Dead Redemption 2 | RDR 2 | Red Dead Online | RDR2.exe |
 
 #### Changes between OpenIV versions
 Every time new OpenIV version released, you probably need to update your localization with new strings and changes. You can find list of changes [here](https://github.com/OpenIV-Team/OpenIV-Languages/commits/Offical-change-log).
