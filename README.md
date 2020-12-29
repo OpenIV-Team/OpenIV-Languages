@@ -36,6 +36,10 @@ In this file you need to set correct language ID, you can find ID name for your 
 
 When you edit existing localization, you must add your name into Contributors section of this file.
 
+#### Flag
+For the language icon use the country flag. We use PNG images from [this repository](https://github.com/gosquared/flags).
+You need to use Flat 32x32 PNG icon, you can find it for your language in [this folder](https://github.com/gosquared/flags/tree/master/flags/flags-iso/flat/32).
+
 #### Using constants
 In your localization, you can use the following constants:
 
