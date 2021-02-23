@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+
+	<!-- Favorites -->
+
+	<AddToFavoritesWindow Caption='즐겨찾기 추가'>
+		<Label1 Caption='이름:'/>
+		<Label2 Caption='추가된 목록:'/>
+
+		<btnAdd Caption='추가'/>
+		<btnCancel Caption='취소'/>
+		<btnNewFolder Caption='새 폴더'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='즐겨찾기'/>
+				<Item Index='1' Value='새 폴더 만들기'/>
+				<Item Index='2' Value='폴더 이름: '/>
+			</StringList>
+		</AeroWindow>
+	</AddToFavoritesWindow>
+
+	<OrganizeFavoritesWindow Caption='$AppName$ - 즐겨찾기 구성'>
+		<btnSave Caption='저장'/>
+		<btnCancel Caption='취소'/>
+		<btnNewFolder Caption='새 폴더'/>
+		<btnRemove Caption='삭제'/>
+		<btnClear Caption='지우기'/>
+
+		<Label1 Caption='드래그 앤 드롭을 사용하여 즐겨찾기를 구성합니다.'/>
+
+		<AeroWindow LinesCount='3'>
+			<StringList>
+				<Item Index='0' Value='즐겨찾기'/>
+				<Item Index='1' Value='새 폴더 만들기'/>
+				<Item Index='2' Value='폴더 이름: '/>
+			</StringList>
+		</AeroWindow>
+	</OrganizeFavoritesWindow>
+
+	<!-- Archive Defragmenter -->
+
+	<DefragmenterWindow Caption='$AppName$ - 아카이브 조각 모음'>
+		<!-- Labels -->
+		<lbDescription Caption="아카이브 조각 모음은 아카이브 내의 파일을 통합하여 컴퓨터 하드 디스크의 아카이브 크기를 줄입니다."/>
+		<lbNoteSave Caption='모든 변경 사항이 이미 저장되어 있으므로 편집을 할 때마다 조각 모음을 사용할 필요가 없습니다.'/>
+		<lbNoteRevert Caption='조각 모음 기능은 아카이브에서 변경한 내용을 되돌리지 않습니다.'/>
+		<!-- Actions -->
+		<actClose Caption='닫기'/>
+		<actRebuild Caption='조각 모음'/>
+		<actAddFile Caption='파일 추가'/>
+		<actAddFolder Caption='폴더 추가'/>
+		<actRemoveFile Caption='파일 삭제'/>
+		<actClear Caption='목록 지우기'/>
+		<!-- Columns -->
+		<lvFiles>
+			<Columns>
+				<Item Index='0' Caption=''/>
+				<Item Index='1' Caption='이름'/>
+				<Item Index='2' Caption='경로'/>
+				<Item Index='3' Caption='유형'/>
+			</Columns>
+		</lvFiles>
+		<!-- Messages -->
+		<AeroWindow LinesCount='4'>
+			<StringList>
+				<Item Index='0' Value='모두 완료했습니다.'/>
+				<Item Index='1' Value='$AppName$ - 아카이브 조각 모음'/>
+				<Item Index='2' Value='재구성된 아카이브를 여시겠습니까?'/>
+				<Item Index='3' Value='일부 파일이 처리되지 않았습니다.'/>
+			</StringList>
+		</AeroWindow>
+	</DefragmenterWindow>
+
+	<!-- Archive properties -->
+
+	<ArchivePropertiesWindow Caption='아카이브 정보'>
+		<!-- Button's -->
+		<btnClose Caption='닫기'/>
+		<!-- Label's -->
+		<lbType Caption='유형:'/>
+		<lbVersion Caption='버전:'/>
+		<lbCount Caption='항목 수:'/>
+
+		<lbCGame Caption='현재 게임:'/>
+		<lbCPlatform Caption='현재 플랫폼:'/>
+
+		<lbCodeModule Caption='모듈:'/>
+		<lbCMVersion Caption='모듈 버전:'/>
+	</ArchivePropertiesWindow>
+
+	<!-- openFormats -->
+
+	<openFormatsImportWindow Caption='$AppName$ - openFormats 불러오기'>
+		<!-- Label's -->
+		<lbOfFileName Caption='파일 불러오기:'/>
+		<lbOfFiles Caption='파일 불러오기:'/>
+		<lbNewFileName Caption='새 파일 이름:'/>
+		<!-- Button's -->
+		<btnAdd Caption='추가'/>
+		<btnRemove Caption='삭제'/>
+		<btnCancel Caption='취소'/>
+		<btnOk Caption='확인'/>
+		<tbLeanMore Caption='openFormats 파일에 대해 자세히 알아보기'/>
+		<!-- Check box -->
+		<cbProtectMesh Caption='메쉬 보호 (prevent future export)'/>
+	</openFormatsImportWindow>
+
+	<openFormatsValidatorWindow Caption='$AppName$ - openFormats 유효성 검사기'>
+		<btnClose Caption='취소'/>
+		<!-- Strings -->
+		<AeroWindow LinesCount='100'>
+			<StringList>
+				<Item Index='0' Value='일부 파일을 가져 오지 못했습니다. 자세한 내용은 아래에서 확인하세요.'/>
+				<!-- Version errors  -->
+				<Item Index='1' Value='%S(%D 줄): 리소스 버전이 지원되지 않습니다. 실제: "%S"이지만 "%D"가 필요합니다.'/>
+				<Item Index='2' Value='%S(%D 줄): 지원되지 않는 형식 버전입니다. 실제: "%S"이지만 "%D"가 필요합니다.'/>
+				<!-- Common errors -->
+				<Item Index='3' Value='치명적 오류: Direct3D를 초기화 할 수 없습니다.'/>
+				<Item Index='4' Value='치명적 오류: "%S" 파일을 찾을 수 없습니다.'/>
+				<Item Index='5' Value='%S(%D 줄): "%S" 파일을 찾을 수 없습니다.'/>
+				<Item Index='6' Value='%S(%D 줄): 파일이 손상되었습니다.'/>
+				<Item Index='7' Value='%S(%D 줄): "%s" 속성이 필요하지만 "%s"이(가) 발견되었습니다.'/>
+				<Item Index='8' Value='%S(%D 줄): "%s" 속성을 찾을 수 없습니다.'/>
+				<Item Index='9' Value='%S(%D 줄): 실제 매개 변수가 부족합니다.'/>
+				<!-- Collision errors -->
+				<Item Index='10' Value='%S(%D 줄): "%S" 알 수 없는 충돌 바인딩 유형입니다.'/>
+				<Item Index='11' Value='%S(%D 줄): 충돌이 너무 잦습니다.'/>
+				<Item Index='12' Value='%S(%D 줄): 충돌 오류를 일으켰습니다.'/>
+				<!-- Skeleton errors -->
+				<Item Index='13' Value='%S(%D 줄): 골격 이름은 비울 수 없습니다.'/>
+				<!-- Geometry/Graphics/Drawables errors -->
+				<Item Index='14' Value='%S(%D 줄): 메시가 잠겨 있습니다.'/>
+				<Item Index='15' Value='%S(%D 줄): 마테리얼 인덱스가 범위를 벗어났습니다'/>
+				<Item Index='16' Value="%S(%D 줄): 셰이더는 벗길 수 없습니다."/>
+				<Item Index='17' Value="%S(%D 줄): Too many bones in one geometry, you can't use more than 48 bones."/>
+
+				<Item Index='18' Value="%S(%D 줄): %S"/>
+
+				<!-- Export/Import -->
+				<Item Index='19' Value='openFormats import report'/>
+				<Item Index='20' Value='openFormats export report'/>
+				<Item Index='21' Value='일부 파일을 내보내지 않았습니다. 자세한 내용은 아래를 참조하십시오.'/>
+
+			</StringList>
+		</AeroWindow>
+	</openFormatsValidatorWindow>
+
+</Translation>
