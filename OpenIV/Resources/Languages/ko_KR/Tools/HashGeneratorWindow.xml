@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<HashGeneratorWindow Caption='$AppName$ - 해시 생성기'>
+		<!-- Label's -->
+		<lbOutputFormat Caption='출력 형식:' />
+		<!-- Button's -->
+		<btnLoadFromFile Caption='파일에서 로드' />
+		<btnGenerate Caption='생성' />
+		<btnSaveToFile Caption='파일에 저장' />
+		<cbCaseSensitive Caption='대/소문자 구분' />
+		<!-- Panel's -->
+		<pnlLeft Caption='입력:' />
+		<pnlRight Caption='출력:' />    
+	</HashGeneratorWindow>
+</Translation>

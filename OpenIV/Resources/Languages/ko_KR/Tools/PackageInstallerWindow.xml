@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='$AppName$ - 패키지 설치기' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">패키지 설치기</string>
+		<string name="INSTALL">설치</string>
+		<string name="INSTALLING">설치 중</string>
+		<string name="DESCRIPTION">설명</string>
+		<string name="ADDITIONAL_INFORMATION">추가 정보</string>
+		<string name="GREATED_BY">생성자</string>
+		<string name="SUPPORTED_GAMES">지원하는 게임</string>
+		<string name="VERSION">버전</string>
+		<string name="LICENCE">라이선스</string>
+		<string name="VIEW_LICENCE">라이선스 보기</string>
+		<string name="LEARN_MORE">더 보기</string>
+		<string name="LINK_HOMEPAGE">홈페이지</string>
+		<string name="LINK_FACEBOOK">페이스북</string>
+		<string name="LINK_TWITTER">트위터</string>
+		<string name="LINK_YOUTUBE">유튜브</string>
+
+		<string name="SELECT_CONTENT">설치할 컨텐츠 선택</string>
+		<string name="SELECT_LOCATION">설치할 경로 선택</string>
+		<string name="LOCATION_MODS_FOLDER">$ModsFolder$ 폴더</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">이 모드를 $ModsFolder$ 폴더에 설치합니다.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">$ModsFolder$는 현재 게임($RageGAME$)에서 지원되지 않으므로 이 패키지를 $ModsFolder$ 폴더에 설치할 수 없습니다.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">$ModsFolder$가 패키지 형식에서 지원되지 않으므로 이 패키지를 $ModsFolder$ 폴더에 설치할 수 없습니다.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">이 패키지는 RPF 아카이브에 영향을 주지 않으므로 $ModsFolder$ 폴더에 설치할 수 없습니다.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">$ModsFolderAsi$가 설치되어 있지 않으므로 이 패키지를 $ModsFolder$ 폴더에 설치할 수 없습니다.</string>
+		<string name="LOCATION_GAME_FOLDER">게임 폴더</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">이 모드를 게임 폴더에 직접 설치합니다.</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">이 패키지는 $ModsFolder$ 폴더 설정에서 사용할 수 없으므로 게임 폴더에 설치할 수 없습니다.</string>
+
+		<string name="CONFIRM_INSTALLATION_TITLE">설치 확인</string>
+		<string name="CONFIRM_INSTALLATION_NOTE">아래 정보를 검토하고 설치를 확인하십시오.</string>
+		<string name="PACKAGE_NAME_">패키지:</string>
+		<string name="INSTALL_LOCATION_">설치 경로:</string>
+		<string name="GAME_PATH_">게임 경로:</string>
+		<string name="CONFIRM_INSTALLATION_ACTION">설치 확인</string>
+		<string name="ALWAYS_SHOW_CONFIRM_INSTALL_DIALOG">이 대화 상자 항상 표시</string>
+
+		<string name="INSTALLATION_SUCCEEDED">설치 성공</string>
+		<string name="RUN_GAME">$RageGAME$ 실행</string>
+		<string name="RUN_GAME_TEXT">게임 실행 및 방금 얻은 내용 확인</string>
+
+		<string name="INSTALLATION_FAILED">설치하지 못했습니다.</string>
+
+		<string name="LOADING_ERROR_TITLE">패키지 로드 오류</string>
+		<string name="READING_ERROR_TITLE">패키지 파일을 읽는 중 오류 발생</string>
+		<string name="INSTALLING_ERROR_TITLE">패키지 설치 오류</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">알 수 없는 오류</string>
+		<string name="ERROR_GROUP_FATAL">치명적 오류</string>
+		<string name="ERROR_CODE_UNKNOWN">무슨 일이 있었어요. 오류 세부 정보는 로그 파일을 확인하십시오.</string>
+		<string name="ERROR_INSTALLATION">설치하는 동안 치명적인 오류가 발생했습니다. 오류 세부 정보는 로그 파일을 확인하십시오.</string>
+		<string name="ERROR_MSXML">MSXML이 설치되지 않았습니다. 패키지 설치 관리자를 사용해야 합니다.</string>
+		<string name="ERROR_NO_LOG_FILE">패키지 설치 관리자가 로그 파일을 만들 수 없습니다. PC를 다시 시작하고 다시 시도해 보십시오. 문제가 계속되면 백신 소프트웨어를 확인하십시오.</string>
+		<string name="CHECK_LOG_FILE">오류 세부 정보는 로그 파일을 확인하십시오.</string>
+
+		<string name="OPEN_INSTALLATION_LOG">설치 로그 열기</string>
+		<string name="OPEN_LOG_FILE">로그 파일 열기</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">패키지 파일이 올바르지 않습니다.</string>
+		<string name="LOADING_ERROR_NOT_SUPPORTED_ZIP_COMPRESSION_METHOD">이 ZIP 파일의 압축 방법은 지원되지 않습니다.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">알 수 없는 파일 확장명입니다. 패키지 파일은 .oiv 또는 .zip이어야 합니다.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">패키지 파일에 액세스할 수 없습니다. 다른 프로세스에서 사용되지 않는지 확인하십시오.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">패키지 파일이 없습니다.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">패키지 파일을 열 수 없습니다.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">이 패키지에서 "assembly.xml" 파일을 찾을 수 없습니다. 가능한 파일이 $AppName$ 패키지가 아니거나 파일이 손상되었습니다.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">"assembly.xml"을 읽을 수 없습니다. 가능한 파일이 손상되었습니다.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">알 수 없는 형식의 "assembly.xml"이(가) 손상되었습니다.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">이 패키지를 사용자 버전의 $AppName$과(와) 함께 설치할 수 없습니다.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">"assembly.xml"에 "metadata" 태그가 누락되었습니다. 파일이 손상되었을 가능성이 있습니다.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">메타데이터 정보가 "assembly.xml"에서 누락되었거나 손상되었습니다.</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">"assembly.xml"의 XML 형식이 잘못되었거나 손상되었습니다.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">"assembly.xml"에서 패키지 ID를 읽을 수 없습니다.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">"assembly.xml"에 "colors" 태그가 누락되었습니다. 파일이 손상되었을 가능성이 있습니다.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">"assembly.xml"에서 색상 정보가 누락되었거나 손상되었습니다.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">"assembly.xml"에서 내용 정보가 누락되었거나 손상되었습니다.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">"assembly.xml"에 "content" 태그가 누락되었습니다. 가능한 파일이 손상되었습니다.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">이 패키지에서 "content" 폴더를 찾을 수 없습니다. 가능한 파일이 $AppName$ 패키지가 아니거나 파일이 손상되었습니다.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">이 패키지를 $RageGAME$에 설치할 수 없습니다. 추가 정보 섹션에서 지원되는 게임 목록을 확인하십시오.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">패키지 아카이브에 일부 파일이 없습니다. 패키지 작성자에게 문의하십시오.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">일부 파일의 게임 경로가 잘못되었습니다. 패키지 작성자에게 문의하십시오.</string>
+		<string name="INSTALLING_ERROR_ANOTHER_INSTALLER">현재 다른 패키지 설치가 진행 중입니다. 완료될 때까지 기다린 후 다시 시도하십시오.</string>
+
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">이 패키지는 자동으로 제거할 수 없습니다.</string>
+
+	</RenderUI>
+</Translation>

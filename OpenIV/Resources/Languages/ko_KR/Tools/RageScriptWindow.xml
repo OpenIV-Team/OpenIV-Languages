@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageScriptWindow Caption='SCO 뷰어 - '>
+		<!-- Button's -->
+		<btnSave Caption='코드를 텍스트로 저장'/>
+		<btnClose Caption='닫기'/>
+		<btnASMBack Caption='&lt;&lt; Back'/>
+		<btnCFList Caption='목록 숨기기'/>
+		<btnCodeList Caption='목록 숨기기'/>
+		<!-- Tabs -->
+		<tbASM Caption='ASM 코드'/>
+		<tbCFASM Caption='제어 흐름 ASM 코드'/>
+		<tbCODE Caption='고급 코드'/>
+		<Label1 Caption='필터:'/>
+		<!-- Menu -->
+		<N1 Caption='주소로 이동'/>
+		<N2 Caption='줄 복사'/>
+		<N3 Caption='필터링'/>
+		<!-- Text menu -->
+		<miCopyText Caption='복사'/>
+		<miFind Caption='찾기'/>
+		<miSelectAll Caption='모두 선택'/>
+		<miCopyAll Caption='모두 복사'/>
+		<!-- Save code menu -->
+		<N4 Caption='텍스트로 저장'/>
+		<N5 Caption='HTML로 저장'/>	
+		<!-- String's -->
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='SCO 파일을 불러오는 중......'/>
+				<Item Index='1' Value='[1단계]'/>
+				<Item Index='2' Value='[2단계]'/>
+				<Item Index='3' Value='[3단계]'/>
+				<Item Index='4' Value='모두 선택'/>
+			</StringList>
+		</AeroWindow>
+	</RageScriptWindow>
+</Translation>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<GXTViewerWindow Caption='$AppName$ GXT 뷰어'>		
+		<AeroWindow LinesCount='5'>
+			<StringList>
+				<Item Index='0' Value='GXT 테이블 목록'/>
+				<Item Index='1' Value='키'/>
+				<Item Index='2' Value='값'/>
+				<Item Index='3' Value='테이블 수:'/>
+				<Item Index='4' Value=''/>
+			</StringList>
+		</AeroWindow>
+		<btnExport Caption='텍스트 파일로 내보내기'/>
+	</GXTViewerWindow>
+</Translation>

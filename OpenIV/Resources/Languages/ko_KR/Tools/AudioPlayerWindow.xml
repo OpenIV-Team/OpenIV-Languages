@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AudioPlayerWindow Caption='$AppName$ 오디오 플레이어'>
+		<!-- Export -->
+		<btnExportAll Caption='모두 내보내기'/>
+		<miExportAllChannelsSeparately Caption='모든 채널을 개별적으로 내보내기'/>
+		<miExportAllAsStereo Caption='모든 다중 채널을 스테레오 WAV로 내보내기'/>
+		<miExportAllAsMono Caption='모든 다중 채널을 모노 WAV로 내보내기'/>
+
+		<!-- Options -->
+		<btnOptions Caption='옵션'/>
+		<miPlayWhenOpen Caption='파일이 열리면 재생 시작'/>
+		<miAutoPlayNext Caption='다음 트랙 자동 재생'/>
+		<miShowTrackHash Caption='트랙 이름 해시 표시'/>
+
+		<!-- Sort -->
+		<btnSort Caption='정렬'/>
+		<miSortByName Caption='이름순 정렬'/>
+		<miSortByDuration Caption='날짜별 정렬'/>
+		<miSortOrderAsc Caption='오름차순 정렬'/>
+		<miSortOrderDesc Caption='내림차순 정렬'/>
+
+		<!-- Context menu -->
+		<miPlay Caption='재생'/>
+		<miCopyName Caption='이름 복사'/>
+		<miExport Caption='내보내기'/>
+		<miExportChannelsSeparately Caption='채널을 별도로 내보내기'/>
+		<miExportAsStereo Caption='스테레오 WAV로 내보내기'/>
+		<miExportAsMono Caption='모노 WAV로 내보내기'/>
+
+		<!-- String's -->
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Hz'/>
+				<Item Index='1' Value='%D 항목, %D 분.'/>
+				<Item Index='2' Value='%D 항목, %D 초.'/>
+				<Item Index='3' Value=''/>
+				<Item Index='4' Value=''/>
+				<Item Index='5' Value=''/>
+			</StringList>
+		</AeroWindow>
+	</AudioPlayerWindow>	
+</Translation>
