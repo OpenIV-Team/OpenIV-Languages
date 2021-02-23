@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - 응용 프로그램 오류'>
+		<lbWindowTitle Caption="$AppName$ 처리할 수 없는 문제가 발생하여 다시 시작해야 합니다."/>
+		<btnCloseApp Caption='$AppName$ 닫기'/>
+		<lbReportHere Caption='다음 링크를 사용하여 이 오류를 보고하십시오:'/>
+		<lnkWeb1 Caption='공식 사이트 방문'/>
+		<lnkWeb2 Caption='전세계 지원 포럼 방문'/>
+		<lnkWeb3 Caption='러시아 지원 포럼 방문'/>
+		<lbText2 Caption='추가 도구'/>
+		<tbCopyInfo Caption='오류 정보 복사'/>
+		<tbWin7Report Caption='문제를 재현하기 위한 단계를 기록합니다.' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='시간: '/>
+				<Item Index='1' Value='유형: '/>
+				<Item Index='2' Value='메시지: '/>
+				<Item Index='3' Value='추가 정보:'/>
+				<Item Index='4' Value='추가 정보가 누락되었습니다.'/>
+				<Item Index='5' Value='오류 정보가 클립보드에 복사되었습니다.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>
