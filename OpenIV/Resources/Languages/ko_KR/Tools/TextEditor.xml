@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='$AppName$ 텍스트 도구'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ 텍스트 뷰어'/>
+				<Item Index='1' Value='$AppName$ 텍스트 편집기'/>
+				<Item Index='2' Value='찾기'/>
+				<Item Index='3' Value='선택한 항목 찾기'/>
+			</StringList>
+		</AeroWindow>
+
+		<!-- Editor actions -->
+		<ActionEditCut Caption="자르기"/>
+		<ActionEditCopy Caption="복사"/>
+		<ActionEditPaste Caption="붙여넣기"/>
+		<ActionEditDelete Caption="삭제"/>
+		<ActionEditSelectAll Caption="모두 선택"/>
+		<ActionEditDuplicateLine Caption="현재 줄 복사"/>
+		<ActionEditRemoveLine Caption="줄 삭제"/>
+		<ActionEditUpperCase Caption="대문자"/>
+		<ActionEditLoverCase Caption="소문자"/>
+	</TextEditorWindow>
+
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">내보내기</string>
+		<string name="EXPORT_TEXT">일반 텍스트로 내보내기 (*.txt)</string>
+		<string name="EXPORT_HTML">서식 있는 텍스트 내보내기 (*.html)</string>
+
+		<!-- Ribbon -->
+		<string name="TAB_HOME">홈</string>
+		<string name="TAB_SEARCH">검색</string>
+		<string name="WORD_WRAP">자동 줄 바꿈</string>
+		<string name="SHOW_SPECIAL_CHARS">특수 문자 보기</string>
+		<string name="SEARCH_OPTIONS_MENU">검색 옵션</string>
+		<string name="SEARCH_BANNER_TEXT">검색</string>
+		<string name="SEARCH_DOWN">아래로 검색</string>
+		<string name="SEARCH_UP">위로 검색</string>
+		<string name="SEARCH_ALL">모두</string>
+		<string name="SEARCH_ALL_HINT">모두 찾기</string>
+		<string name="SEARCH_SET_SELECTION_AREA">선택한 부분만</string>
+		<string name="GOTO_LINE">해당 줄로 이동</string>
+		<string name="CHECK_XML_SYNTAX">XML 구문 확인</string>
+
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">검색 모드</string>
+		<string name="SEARCH_MODE_NORMAL">보통</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Regular expression</string>
+		<string name="SEARCH_MODE_WILDCARD">Wildcard</string>
+		<string name="SEARCH_AREA">검색영역</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">전체 범위</string>
+		<string name="SEARCH_AREA_IN_SELECTION">선택한 부분만</string>
+		<string name="SEARCH_OPTIONS">옵션</string>
+		<string name="SEARCH_ON_TYPING">입력 시 검색</string>
+		<string name="CASE_SENSITIVE">대소문자 구분</string>
+		<string name="WHOLE_WORDS_ONLY">전체 단어만</string>
+		<string name="WRAP_AROUND">Wrap around</string>
+		<string name="HIGHLIGHT_RESULTS">결과 강조</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">변경 내용을 저장하시겠습니까?</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">파일을 저장할 수 없음</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$은(는) 파일 변경 내용을 저장할 수 없습니다. 나중에 다시 시도하십시오.</string>
+		<string name="GOTO_LINE_TITLE">해당 줄로 이동</string>
+		<string name="GOTO_LINE_PROMT">줄 번호 입력:</string>
+		<string name="GOTO_LINE_NOTE">+ 또는 -를 입력하여 현재 위치를 기준으로 이동합니다. 예: +4는 네 줄 앞으로 이동합니다.</string>
+		<string name="GO">이동</string>
+		<string name="XML_SYNTAX">XML 구문</string>
+		<string name="XML_NO_ERROR_DETECTED">오류가 감지되지 않음.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">%D 줄 XML 구문 분석 오류 col %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">알겠습니다.</string>
+		<string name="XML_IGNORE_AND_SAVE">오류 무시 및 파일 저장</string>
+		<string name="XML_BACK_TO_EDITOR">편집기로 돌아가기</string>
+	</RenderUI>
+</Translation>

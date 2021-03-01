@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<FiveAsiManagerWindow Caption='$AppName$ - ASI 매니저'/>
+	<RenderUI>
+		<string name="TITLE">$RageGAME_SHORT$ - ASI 매니저</string>
+
+		<string name="RPF_NOTE">$RageGAME_SHORT$에 대한 ASI Loader 및 $ModsFolderAsi$ 플러그인을 설치해야 합니다. 그렇지 않으면 게임이 수정된 RPF 아카이브를 인식하지 않습니다.</string>
+		<string name="ONLINE_NOTE">수정된 RPF로 $RageGAME_MP$를 실행하지 마십시오. 계정이 제한됩니다.</string>
+
+		<string name="INSTALL">설치</string>
+		<string name="UPDATE">업데이트</string>
+		<string name="UNINSTALL">제거</string>
+
+		<string name="NOT_INSTALLED">설치되지 않음</string>
+		<string name="UPDATE_REQUIRED">업데이트 필요</string>
+		<string name="INSTALLED">설치됨</string>
+		<string name="DISABLED">비활성화됨</string>
+
+		<string name="ASI_LOADER">ASI Loader</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader는 확장자가 .asi인 사용자 지정 라이브러리를 게임 프로세스에 로드하는 도구입니다.</string>
+
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">이 ASI 플러그인을 사용하면 게임이 수정된 RPF 아카이브를 로드할 수 있습니다. $ModsFolder$ 폴더에 대한 지원도 제공합니다.</string>
+
+		<string name="OPEN_CAMERA_ASI">openCamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">락스타 에디터의 "자유 카메라" 경계 제한을 개선합니다..</string>
+
+		<string name="INSTALLATION_FAILED">설치하지 못했습니다.</string>
+		<string name="INSTALLATION_FAILED_TEXT">설치하지 못했습니다. $AppName$을(를) 다시 시작한 후 다시 시도하십시오.</string>
+
+		<string name="UNINSTALL_FAILED">제거 실패</string>
+		<string name="UNINSTALL_FAILED_TEXT">제거하지 못했습니다. $AppName$을(를) 다시 시작한 후 다시 시도하십시오.</string>
+
+		<string name="MODS_FOLDER_TITLE">$ModsFolder$ 폴더를 생성하시겠습니까?</string>
+		<string name="MODS_FOLDER_TEXT">$ModsFolder$ 폴더를 사용하면 모든 원본 게임 파일을 안전하게 유지할 수 있으며 한 번의 클릭으로 수정된 파일과 원본 파일을 쉽게 전환할 수 있습니다.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">$ModsFolder$ 폴더 외부에서 아카이브를 편집하는 동안 알림을 표시합니다.</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">$ModsFolder$ 폴더 내의 아카이브에 대해서만 편집 모드를 허용합니다.</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">$AppName$ 옵션에서 언제든지 이 설정을 변경할 수 있습니다..</string>
+		<string name="MODS_FOLDER_LEARN_MORE">$ModsFolder$ 폴더에 대해 자세히 알아보십시오.</string>
+	</RenderUI>
+</Translation>

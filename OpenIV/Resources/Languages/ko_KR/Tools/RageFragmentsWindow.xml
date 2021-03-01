@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?> 
+<Translation> 
+	<RageFragmentsWindow Caption='$AppName$ 모델 뷰어'> 
+		<paneHierarchy Caption='계층'/>
+		<pmiHigh Caption='높음 (High)'/>
+		<pmiMed Caption='중간 (Med)'/>
+		<pmiLow Caption='낮음 (Low)'/>
+		<pmiVLow Caption='매우 낮음 (VLow)'/>
+		<miLeft Caption='왼쪽'/>
+		<miRight Caption='오른쪽'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='외부 파일에서 로드'/>
+			</StringList>
+		</AeroWindow>
+	</RageFragmentsWindow>
+	<RenderUI>
+		<string name="TOGGLE_DAMAGED">손상된 뷰어:</string>
+		<string name="HELP_TITLE">모델 뷰어 - 도움말</string>		
+		<string name="CHECK_ALL">모두 선택</string>
+		<string name="UNCHECK_ALL">모든 선택 해제</string>
+		<string name="ALSO_HIDE_CHILDREN">Also hide children</string>
+		<string name="PLAY_FORWARD">앞으로 감기</string>
+		<string name="PLAY_BACKWARDS">뒤로 감기</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Use mouse to look around, move using these keys:
+			
+    W - Move forward
+    S - Move backward
+    A - Move left
+    D - Move right
+
+    NumPad 8 - Move camera up
+    NumPad 2 - Move camera down
+    NumPad 4 - Move camera left
+    NumPad 6 - Move camera right
+
+    Hold SHIFT - For faster movement
+    Hold CTRL - For slow movement
+    Use mouse wheel for zooming.
+	
+For addind additional textures click on "[+] Add texture" link in right-bottom angle of window. To remove texture click on "[-]" link behind texture name.
+
+To change render options use links in right side or these hot keys:
+	
+    F1 - Toggle this help box
+	F2 - Show more information
+    C - Toggle camera mode
+    F - Toggle Edged Faces
+    P - Toggle display points
+    G - Toggle geometry
+    L - Toggle Level of Detail
+    ESC - Close this viewer window
+	
+    Hold H - For temporarily hide HUD
+]]>
+		</text>				
+	</RenderUI>
+</Translation>
