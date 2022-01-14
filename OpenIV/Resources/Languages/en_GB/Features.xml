@@ -24,8 +24,9 @@
 		<btnSave Caption='Save'/>
 		<btnCancel Caption='Cancel'/>
 		<btnNewFolder Caption='New folder'/>
+		<btnRename Caption='Rename'/>
 		<btnRemove Caption='Remove'/>
-		<btnClear Caption='Clear'/>
+		<btnClear Caption='Remove all'/>
 
 		<Label1 Caption='Use drag and drop to organize your favorites.'/>
 

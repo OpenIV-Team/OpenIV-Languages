@@ -1,15 +1,28 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<HashGeneratorWindow Caption='Генератор хешей - $AppName$'>
-		<!-- Label's -->
-		<lbOutputFormat Caption='Выходной формат:' />
-		<!-- Button's -->
-		<btnLoadFromFile Caption='Загрузить с файла' />
-		<btnGenerate Caption='Генерировать' />
-		<btnSaveToFile Caption='Сохранить в файл' />
-		<cbCaseSensitive Caption='Учитывать регистр' />
-		<!-- Panel's -->
-		<pnlLeft Caption='Строки:' />
-		<pnlRight Caption='Хеши:' />    
-	</HashGeneratorWindow>
+    <HashGeneratorWindow Caption='Генератор хешей - $AppName$'>
+        <lbHash Caption='Хэш-алгоритм:' />
+        <AeroWindow LinesCount='3'>
+            <StringList>
+                <Item Index='0' Value='По умолчанию'/>
+                <Item Index='1' Value='Учитывать регистр'/>
+                <Item Index='2' Value='AWC'/>
+            </StringList>
+        </AeroWindow>
+        <lbOutputFormat Caption='Выходной формат:' />
+        <cbOutputFormat>
+            <Items>
+                <Item Index="0" Value="Шестнадцатеричный (Hex)"/>
+                <Item Index="1" Value="Без знака (Unsigned int)"/>
+                <Item Index="2" Value="Cо знаком (Signed int)"/>
+            </Items>
+        </cbOutputFormat>
+        <lbOptions Caption='Параметры:' />
+        <cbAutoGen Caption='Генерировать при вводе' />
+        <pnlLeft Caption='Строки:' />
+        <pnlRight Caption='Хеши:' />
+        <btnLoadFromFile Caption='Загрузить из файла' Hint="Загрузить список входных строк из файла (Ctrl + O)" />
+        <btnGenerate Caption='Генерировать' Hint="Сгенерировать хэши (Ctrl + G)" />
+        <btnSaveToFile Caption='Сохранить в файл' Hint="Сохранить выходной список хэшей в файл (Ctrl + S)" />
+    </HashGeneratorWindow>
 </Translation>

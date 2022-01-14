@@ -1,75 +1,76 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <GlobalStrings>
-	<StringList>
-		<Item Index='00' Value='Процесс извлечения файлов...'/>
-		<Item Index='01' Value='Текущий файл: '/>
-		<Item Index='02' Value='Поиск - $AppName$'/>
-		<Item Index='03' Value='Пожалуйста, подождите, выполняется поиск...'/>
-		<Item Index='04' Value='Закрыть'/>
-		<Item Index='05' Value=' Гб'/>
-		<Item Index='06' Value='Да'/>
-		<Item Index='07' Value='Нет'/>
-		<Item Index='08' Value=' Байт'/>
-		<Item Index='09' Value=' Кб'/>
-		<Item Index='10' Value=' Мб'/>
-		<Item Index='11' Value='Предупреждение режима редактирования'/>
-		<Item Index='12' Value='В режиме редактирования, все изменения будут сохраняться автоматически.\nВы хотите продолжить?'/>
-		<Item Index='13' Value='Выберите папку:'/>
-		<Item Index='14' Value='Работает внешнее приложение...'/>
-		<Item Index='15' Value='Создание файла %S'/>
-		<Item Index='16' Value='$AppName$ - Информация'/>
-		<Item Index='17' Value='Ошибка загрузки файла, возможно файл поврежден.'/>
-		<Item Index='18' Value='$AppName$ - Ошибка открытия файла'/>
-		<Item Index='19' Value='Файл не является архивом или имеет неизвестный формат.'/>
-		<Item Index='20' Value='%S архивы версии %D не поддерживаются.'/>
-		<Item Index='21' Value="$AppName$ не может открыть архив, причина:\n"/>
-		<Item Index='22' Value='$AppName$ - Создание архива'/>
-		<Item Index='23' Value='Имя архива не может быть пустым.'/>
-		<Item Index='24' Value='openFormats - Импорт'/>
-		<Item Index='25' Value='Неизвестное расширение формат файла: %S'/>
-		<Item Index='26' Value='$AppName$ - Ошибка DirectX'/>
-		<Item Index='27' Value='$AppName$ не может инициализировать Direct3D.'/>
-		<Item Index='28' Value='Запустить $RageGAME_SHORT$'/>
-		<Item Index='29' Value="$AppName$ не может найти связанный IDE файл."/>
-		<Item Index='30' Value="$AppName$ не может отрыть файл. Список возможных причин:\n\nДоступ запрещен. Попробуйте запустить $AppName$ с правами администратора.\nФайл используется другим процессом. Закройте другие программы и попробуйте снова.\n\n"/>	
-		<Item Index='31' Value='Выберите папку:'/>
-		<Item Index='32' Value='Невозможно открыть архив: Неизвестная ошибка.'/>
-		<Item Index='33' Value='Невозможно открыть архив: Путь не найден.'/>
-		<Item Index='34' Value='Невозможно открыть архив: Доступ запрещен или файл используется в другой программе.'/>
-		<Item Index='35' Value='Невозможно открыть архив: Неизвестный формат файла или aрхив поврежден.'/>
-		<Item Index='36' Value='Невозможно открыть архив: Архив поврежден.'/>
-		<Item Index='37' Value='Невозможно открыть архив: Неизвестный ключ шифрования, вероятно архив для другуй игры или платформы.'/>
-		<Item Index='38' Value='Невозможно создать новый архив.'/>		
-		<Item Index='39' Value='$AppName$ - Нет устройствa воспроизведения звука'/>
-		<Item Index='40' Value='Не удается воспроизвести звуковой файл. Нет доступного устройства воспроизведения звука.'/>
-		<Item Index='41' Value='$AppName$ не удалось найти обработчик для этого файла.\nПуть к файлу: "%s"'/>
-		<Item Index='42' Value='$AppName$ не удалось найти или открыть этот файл.\nПуть к файлу: "%s"'/>
-		<Item Index='43' Value='Невозможно открыть этот файл, поскольку его размер превышает 256 МБ.'/>
-		<Item Index='44' Value='$AppName$ не удалось показать содержимое этого файла. Файл не может быть сохранён как XML, код ошибки: %s'/>
-		<Item Index='45' Value='$AppName$ не может открыть этот файл. Код ошибки: %s'/>
-		<Item Index='46' Value='$AppName$ не может открыть OIV мод внутри игрового архива.'/>
-	</StringList>
-	<tools>
-		<item Name="Tools.Common.Search" Title="Поиск" Hint="Открыть поиск"/>
-		<item Name="Tools.GTAIV.PlacementSearch" Title="Поиск расположения" Hint="Открыть поиск расположения"/>
-		<item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Найти расположение" Hint="Открыть поиск расположения"/>
-		<item Name="Tools.Common.HashGenerator" Title="Генератор хешей" Hint="Открыть генератор хешей"/>
-		<item Name="Tools.Common.RunGame" Title="Запустить $RageGAME_SHORT$" Hint="Запустить $RageGAME$"/>		
-		<item Name="Files.GTAEngine.TextViewer" Title="GXT viewer" Hint=""/>			
-		<item Name="Files.Resources.TextureEditor" Title="Textures viewer" Hint=""/>
-		<item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Textures editor" Hint=""/>			
-		<item Name="Files.Common.AudioPlayer" Title="Audio player" Hint=""/>	
-		<item Name="Files.Resources.CollisionViewer" Title="Collision viewer" Hint=""/>
-		<item Name="Files.Resources.DrawableViewer" Title="WDR/WDD Models viewer" Hint=""/>
-		<item Name="Files.Resources.FragmentsViewer" Title="WFT Models viewer" Hint=""/>
-		<item Name="Files.Resources.NavmeshViewer" Title="Nav Mesh viewer" Hint=""/>
-		<item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Найти в IDE" Hint=""/>
-		<item Name="Tools.GTAIV.AnimViewer" Title="Animation viewer" Hint="Open animation viewer"/>
-		<item Name="Tools.Common.PackageInstaller" Title="Package Installer" Hint="Open Package Installer"/>
-		<item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Экспорт в openFormats (.oac)" Hint=""/>
-		<item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>	
-		<item Name="Tools.GTAV.ASIManager" Title="ASI Менеджер" Hint="ASI Менеджер"/>
-		<item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Экспорт скелета в openFormats (.skel)" Hint=""/>
-		<item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Редактировать вложенные текстуры" Hint=""/>
-	</tools>
+    <StringList>
+        <Item Index='00' Value='Процесс извлечения файлов...'/>
+        <Item Index='01' Value='Текущий файл: '/>
+        <Item Index='02' Value='Поиск - $AppName$'/>
+        <Item Index='03' Value='Пожалуйста, подождите, выполняется поиск...'/>
+        <Item Index='04' Value='Закрыть'/>
+        <Item Index='05' Value=' Гб'/>
+        <Item Index='06' Value='Да'/>
+        <Item Index='07' Value='Нет'/>
+        <Item Index='08' Value=' Байт'/>
+        <Item Index='09' Value=' Кб'/>
+        <Item Index='10' Value=' Мб'/>
+        <Item Index='11' Value='Предупреждение режима редактирования'/>
+        <Item Index='12' Value='В режиме редактирования, все изменения будут сохраняться автоматически.\nВы хотите продолжить?'/>
+        <Item Index='13' Value='Выберите папку:'/>
+        <Item Index='14' Value='Работает внешнее приложение...'/>
+        <Item Index='15' Value='Создание файла %S'/>
+        <Item Index='16' Value='$AppName$ - Информация'/>
+        <Item Index='17' Value='Ошибка загрузки файла, возможно файл поврежден.'/>
+        <Item Index='18' Value='$AppName$ - Ошибка открытия файла'/>
+        <Item Index='19' Value='Файл не является архивом или имеет неизвестный формат.'/>
+        <Item Index='20' Value='%S архивы версии %D не поддерживаются.'/>
+        <Item Index='21' Value="$AppName$ не может открыть архив, причина:\n"/>
+        <Item Index='22' Value='$AppName$ - Создание архива'/>
+        <Item Index='23' Value='Имя архива не может быть пустым.'/>
+        <Item Index='24' Value='openFormats - Импорт'/>
+        <Item Index='25' Value='Неизвестное расширение формат файла: %S'/>
+        <Item Index='26' Value='$AppName$ - Ошибка DirectX'/>
+        <Item Index='27' Value='$AppName$ не может инициализировать Direct3D.'/>
+        <Item Index='28' Value='Запустить $RageGAME_SHORT$'/>
+        <Item Index='29' Value="$AppName$ не может найти связанный IDE файл."/>
+        <Item Index='30' Value="$AppName$ не может отрыть файл. Список возможных причин:\n\nДоступ запрещен. Попробуйте запустить $AppName$ с правами администратора.\nФайл используется другим процессом. Закройте другие программы и попробуйте снова.\n\n"/>
+        <Item Index='31' Value='Выберите папку:'/>
+        <Item Index='32' Value='Невозможно открыть архив: Неизвестная ошибка.'/>
+        <Item Index='33' Value='Невозможно открыть архив: Путь не найден.'/>
+        <Item Index='34' Value='Невозможно открыть архив: Доступ запрещен или файл используется в другой программе.'/>
+        <Item Index='35' Value='Невозможно открыть архив: Неизвестный формат файла или aрхив поврежден.'/>
+        <Item Index='36' Value='Невозможно открыть архив: Архив поврежден.'/>
+        <Item Index='37' Value='Невозможно открыть архив: Неизвестный ключ шифрования, вероятно архив для другуй игры или платформы.'/>
+        <Item Index='38' Value='Невозможно создать новый архив.'/>
+        <Item Index='39' Value='$AppName$ - Нет устройствa воспроизведения звука'/>
+        <Item Index='40' Value='Не удается воспроизвести звуковой файл. Нет доступного устройства воспроизведения звука.'/>
+        <Item Index='41' Value='$AppName$ не удалось найти обработчик для этого файла.\nПуть к файлу: "%s"'/>
+        <Item Index='42' Value='$AppName$ не удалось найти или открыть этот файл.\nПуть к файлу: "%s"'/>
+        <Item Index='43' Value='Невозможно открыть этот файл, поскольку его размер превышает 256 МБ.'/>
+        <Item Index='44' Value='$AppName$ не удалось показать содержимое этого файла. Файл не может быть сохранён как XML, код ошибки: %s'/>
+        <Item Index='45' Value='$AppName$ не может открыть этот файл. Код ошибки: %s'/>
+        <Item Index='46' Value='$AppName$ не может открыть OIV мод внутри игрового архива.'/>
+    </StringList>
+    <Dictionary/>
+    <tools>
+        <item Name="Tools.Common.RunGame" Title="Запустить $RageGAME_SHORT$" Hint="Запустить $RageGAME$"/>
+        <item Name="Tools.Common.Search" Title="Поиск" Hint="Открыть поиск"/>
+        <item Name="Tools.Common.HashGenerator" Title="Генератор хешей" Hint="Открыть генератор хешей"/>
+        <item Name="Tools.Common.PackageInstaller" Title="Package Installer" Hint="Open Package Installer"/>
+        <item Name="Tools.GTAIV.PlacementSearch" Title="Поиск расположения" Hint="Открыть поиск расположения"/>
+        <item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Найти расположение" Hint="Открыть поиск расположения"/>
+        <item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Найти в IDE" Hint=""/>
+        <item Name="Tools.GTAIV.AnimViewer" Title="Animation viewer" Hint="Open animation viewer"/>
+        <item Name="Tools.GTAV.ASIManager" Title="ASI Менеджер" Hint="ASI Менеджер"/>
+        <item Name="Files.Common.AudioPlayer" Title="Audio player" Hint=""/>
+        <item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Экспорт в openFormats (.oac)" Hint=""/>
+        <item Name="Files.GTAEngine.TextViewer" Title="GXT viewer" Hint=""/>
+        <item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>
+        <item Name="Files.Resources.TextureEditor" Title="Textures viewer" Hint=""/>
+        <item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Textures editor" Hint=""/>
+        <item Name="Files.Resources.CollisionViewer" Title="Collision viewer" Hint=""/>
+        <item Name="Files.Resources.DrawableViewer" Title="WDR/WDD Models viewer" Hint=""/>
+        <item Name="Files.Resources.FragmentsViewer" Title="WFT Models viewer" Hint=""/>
+        <item Name="Files.Resources.NavmeshViewer" Title="Nav Mesh viewer" Hint=""/>
+        <item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Экспорт скелета в openFormats (.skel)" Hint=""/>
+        <item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Редактировать вложенные текстуры" Hint=""/>
+    </tools>
 </GlobalStrings>

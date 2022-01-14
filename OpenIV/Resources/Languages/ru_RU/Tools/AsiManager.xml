@@ -5,7 +5,7 @@
 		<string name="TITLE">GTA V - ASI Менеджер</string>
 
 		<string name="RPF_NOTE">Вам необходимо установить загрузчик ASI и $ModsFolderAsi$ плагин для вашей $RageGAME_SHORT$, иначе игра не будет загружать отредактированные RPF архивы.</string>
-		<string name="ONLINE_NOTE">Не пытайтесь играть в $RageGAME_MP$ с отредактированными RPF архивами, вы будете заблокированы.</string>
+		<string name="ONLINE_NOTE">Использование модификаций в $RageGAME_MP$ не поддерживается и может привести к запрету на онлайн-контент.</string>
 
 		<string name="INSTALL">Установить</string>
 		<string name="UPDATE">Обновить</string>
