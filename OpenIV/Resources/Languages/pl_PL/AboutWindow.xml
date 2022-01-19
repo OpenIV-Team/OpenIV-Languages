@@ -21,7 +21,6 @@
 		<string name="SUPPORT_DONATE">Wesprzyj $AppName$</string>
 		<string name="WELCOME_TO_VER">Witaj w %S</string>
 		<string name="WATCH_THE_VIDEO">Czy chcesz obejrzeć film który przedstawia zmiany w tej wersji?</string>
-		<string name="VIDEO_NOTE">You might see an ad before or during video playback. By watching this video, you will support $AppName$.</string>
 		<string name="VIDEO_NOTE">Możesz zobaczyć reklame przed lub w trakcie odtwarzania wideo. Oglądająć ten film, wesprzesz $AppName$.</string>
 		<string name="NO_THANKS">Nie, dziękuje</string>
 	</RenderUI>
