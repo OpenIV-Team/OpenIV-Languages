@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Wyszukaj - $AppName$'>
+		<SearchBox BannerText="Wyszukaj"/>
+		<btnGoSearch Caption="Wyszukaj"/>
+		<lbSearchFor Caption="Wyszukaj dla:"/>
+		<cbSearchFor>
+			<Items>
+				<Item Index="0" Value='Plików i folderów'/>
+				<Item Index="1" Value='Ścieżek dźwiękowych'/>
+			</Items>
+		</cbSearchFor>
+		<lbSearchArea Caption="Obszar wyszukiwania:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Szukaj wszędzie'/>
+				<Item Index="1" Value="Szukaj tylko w folderze z grą"/>
+				<Item Index="2" Value="Szukaj tylko w folderze $ModsFolder$"/>
+			</Items>
+		</cbSearchArea>
+		<lbAudioSearchNote Caption="Wyniki wyszukiwania mogą być ograniczone, ponieważ nie wszystkie nazwy ścieżek audio zostały wykryte."/>
+		<lbStopHint Caption="Aby zatrzymać wyszukiwanie naciśnij ESC"/>
+		<btnExtractResults Caption="Wyodrębnij wyniki"/>
+		<btnExtractAll Caption="Wyodrębnij wszystkie pliki"/>
+		<btnExtractSelected Caption="Wyodrębnij wybrane pliki"/>
+		<btnGoTo Caption="Przejdź do pliku"/>
+		<btnOpenItem Caption="Otwórz"/>
+		<btnExtractItem Caption="Wyodrębnij"/> 
+		<btnExtractSelectedItems Caption="Wyciągnij wybrane pliki"/>
+		<btnExtractAllItems Caption="Wyciągnij wszystkie pliki"/>
+		<btnSelectAllItems Caption="Wybierz wszystko"/>
+		<btnCopyName Caption="Kopiuj nazwę"/>
+		<btnCopyPathName Caption="Kopiuj ścieżkę"/>
+		<btnSaveContent Caption="Zapisz zawartość"/>
+		<btnSaveRawContent Caption="Zapisz surową zawartość"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='15'>
+			<StringList>
+				<Item Index='0' Value='Wyszukaj'/>
+				<Item Index='1' Value='Zatrzymaj wyszukiwanie'/>
+				<Item Index='2' Value='Nie znaleziono elementów'/>
+				<Item Index='3' Value='(%D znalezionych elementów)'/>
+				<Item Index='4' Value='Brak zaznaczonych elementów'/>
+				<Item Index='5' Value='Zaznaczone: %D'/>
+				<Item Index='6' Value="$AppName$ nie może otworzyć pliku."/>
+				<Item Index='7' Value="Brak wyników dla wyodrębnienia."/>
+				<Item Index='8' Value="Proszę, zatrzymaj wyszukiwanie przed wyodrębnieniem."/>
+				<Item Index='9' Value="Plików: %D, Folderów: %D"/>
+				<Item Index='10' Value="Plików: %D, Ścieżek dźwiękowych: %D"/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

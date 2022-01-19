@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='$AppName$ Text tool'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Przeglądarka tekstu'/>
+				<Item Index='1' Value='$AppName$ Edytor tekstu'/> 
+				<Item Index='2' Value='Znajdź...'/>
+				<Item Index='3' Value='Znajdź wybrane...'/> <Item Index='3' Value='Znajdź wybrane...'/>
+			</StringList>
+		</AeroWindow>
+
+		<!-- Editor actions -->
+		<ActionEditCut Caption="Wytnij"/>
+		<ActionEditCopy Caption="Kopiuj"/>
+		<ActionEditPaste Caption="Wklej"/>
+		<ActionEditDelete Caption="Usuń"/> <ActionEditDelete Caption="Usuń"/>
+		<ActionEditSelectAll Caption="Wybierz wszystko"/>
+		<ActionEditDuplicateLine Caption="Powiel bieżącą linię"/>
+		<ActionEditRemoveLine Caption="Usuń linię"/>
+		<ActionEditUpperCase Caption="UPPERCASE"/> <ActionEditUpperCase Caption="UPPERCASE"/>
+		<ActionEditLoverCase Caption="lovercase"/> <ActionEditUpperCase Caption="UPPERCASE"/>
+	</TextEditorWindow>
+
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">Eksportuj</string>
+		<string name="EXPORT_TEXT">Eksportuj zwykły tekst (*.txt)</string>
+		<string name="EXPORT_HTML">Eksportuj tekst sformatowany (*.html)</string>
+
+		<!-- Ribbon -->
+		<string name="TAB_HOME">Strona główna</string>
+		<string name="TAB_SEARCH">Szukaj</string>
+		<string name="WORD_WRAP">Zawijanie słów</string>
+		<string name="SHOW_SPECIAL_CHARS">Pokazuj znaki specjalne</string>
+		<string name="SEARCH_OPTIONS_MENU">Opcje wyszukiwania</string>
+		<string name="SEARCH_BANNER_TEXT">Znajdź co</string>
+		<string name="SEARCH_DOWN">Szukaj w dół</string>
+		<string name="SEARCH_UP">Szukaj w górę</string>
+		<string name="SEARCH_ALL">Wszystko</string>
+		<string name="SEARCH_ALL_HINT">Znajdź wszystko</string>
+		<string name="SEARCH_SET_SELECTION_AREA">Ustaw wybór</string>
+		<string name="GOTO_LINE">Przejdź do linii</string>
+		<string name="CHECK_XML_SYNTAX">Sprawdź składnię XML</string>
+
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">Tryb wyszukiwania</string>
+		<string name="SEARCH_MODE_NORMAL">Normalny</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Wyrażenie regularne</string>
+		<string name="SEARCH_MODE_WILDCARD">Wildcard</string>
+		<string name="SEARCH_AREA">Obszar wyszukiwania</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">Wewnętrzny zakres</string>
+		<string name="SEARCH_AREA_IN_SELECTION">W selekcji</string>
+		<string name="SEARCH_OPTIONS">Opcje</string>
+		<string name="SEARCH_ON_TYPING">Szukaj po wpisaniu</string>
+		<string name="CASE_SENSITIVE">Wrażliwość na wielkość liter</string>
+		<string name="WHOLE_WORDS_ONLY">Wyłącznie całe słowa</string>
+		<string name="WRAP_AROUND">Zawijaj dookoła</string>
+		<string name="HIGHLIGHT_RESULTS">Wyświetl wyniki</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">Czy chcesz zapisać zmiany? </string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">Nie można zapisać pliku</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$ nie jest w stanie zapisać zmian w pliku, proszę spróbować ponownie później.</string>
+		<string name="GOTO_LINE_TITLE">Przejdź do linii...</string>
+		<string name="GOTO_LINE_PROMT">Wprowadź numer linii:</string>
+		<string name="GOTO_LINE_NOTE">Wprowadź + lub -, aby przesunąć się względem bieżącej lokalizacji. Przykład: +4 spowoduje przesunięcie do przodu o cztery linie.</string>
+		<string name="GO">Przejdź</string>
+		<string name="XML_SYNTAX">Składnia XML</string>
+		<string name="XML_NO_ERROR_DETECTED">Nie wykryto żadnego błędu.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">Błąd parsowania XML w linii %D, kol %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Kontynuuj mimo wszystko</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignoruj błąd i zapisz plik</string>
+		<string name="XML_BACK_TO_EDITOR">Powróć do edytora</string>
+	</RenderUI>
+</Translation>

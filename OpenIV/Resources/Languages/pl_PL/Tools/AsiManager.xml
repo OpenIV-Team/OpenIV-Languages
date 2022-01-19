@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
+	<RenderUI>
+		<string name="TITLE">$RageGAME_SHORT$ - ASI Manager</string>
+
+		<string name="RPF_NOTE">Musisz zainstalować ASI Loader oraz wtyczkę $ModsFolderAsi$ dla $RageGAME_SHORT$, w przeciwnym razie gra nie załaduje zmodyfikowanego archiwum RPF.</string>
+		<string name="ONLINE_NOTE">Używanie modyfikacji w $RageGAME_MP$ nie jest obsługiwane i może skutkować zablokowaniem dostępu do zawartości online.</string>
+
+		<string name="INSTALL">Zainstaluj</string>
+		<string name="UPDATE">Aktualizuj</string>
+		<string name="UNINSTALL">Odinstaluj</string>
+
+		<string name="NOT_INSTALLED">NIE ZAINSTALOWANY</string>
+		<string name="UPDATE_REQUIRED">WYMAGANA AKTUALIZACJA</string>
+		<string name="INSTALLED">ZAINSTALOWANY</string>
+		<string name="DISABLED">WYŁĄCZONY</string>
+
+		<string name="ASI_LOADER">ASI Loader</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader jest narzędziem które pozwala załadować niestandardowe biblioteki z rozszerzeniam .asi do procesu gry.</string>
+
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">Ta wtyczka ASI pozwala twojej grze na załadowanie zmodyfikowanych archiwów RPF. Dodaje ona także wsparcie dla folderu $ModsFolder$.</string>
+
+		<string name="OPEN_CAMERA_ASI">openCamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Ulepsza "wolną kamerę" w Rockstar Editor, usuwając ograniczenia.</string>
+
+		<string name="INSTALLATION_FAILED">Instalacja nie powiodła się</string>
+		<string name="INSTALLATION_FAILED_TEXT">Instalacja nie powiodła się, uruchom ponownie $AppName$ i spróbuj ponownie.</string>
+
+		<string name="UNINSTALL_FAILED">Dezinstalacja nie powiodła się</string>
+		<string name="UNINSTALL_FAILED_TEXT">Dezinstalacja nie powiodła się, uruchom ponownie $AppName$ i spróbuj ponownie..</string>
+
+		<string name="MODS_FOLDER_TITLE">Utworzyć folder $ModsFolder$?</string>
+		<string name="MODS_FOLDER_TEXT">Folder $ModsFolder$ pozwala bezpiecznie zachować wszystkie oryginalne pliki gier i jednym prostym sposobem przełączać się między zmodyfikowaną oraz oryginalną wersją plików.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Pokaż powiadomienie kiedy edytujesz archiwum poza folderem $ModsFolder$</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Zezwól na tryb edycji tylko dla archiwów w folderze $ModsFolder$</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">Możesz zmienić te opcje w dowolnej chwili w ustawieniach $AppName$</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Dowiedz się więcej o folderze $ModsFolder$</string>
+	</RenderUI>
+</Translation>

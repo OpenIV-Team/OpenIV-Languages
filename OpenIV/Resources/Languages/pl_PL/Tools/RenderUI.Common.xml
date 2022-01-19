@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<!-- common -->
+	<RenderUI>
+		<!-- help -->
+		<string name="HELP_LINK">Naciśnij tutaj aby uzyskać pomoc</string>
+
+		<!-- Common words -->
+		<string name="TRUE">Prawda</string>
+		<string name="FALSE">Fałsz</string>
+		<string name="YES">Tak</string>
+		<string name="NO">Nie</string>
+		<string name="OK">Ok</string>
+		<string name="CANCEL">Anuluj</string>
+		<string name="CLOSE">Zamknij</string>
+		<string name="SAVE">Zapisz</string>
+		<string name="IMPORT">Importuj</string>
+		<string name="SEARCH">Wyszukaj</string>
+
+		<!-- Context menu -->
+		<string name="COPY_ID">Kopiuj ID</string>
+		<string name="COPY_NAME">Kopiuj nazwę</string>
+		<string name="COPY_LINE">Kopiuj linię</string>
+		<string name="COPY_VALUE">Kopiuj wartość</string>
+		<string name="COPY_PROPERTIES">Kopiuj właściwości</string>
+		<string name="EXPORT_TEXTURE">Eksportuj</string>
+
+		<!-- Camera -->
+		<string name="CAMERA_MODE">Tryb kamery:</string>
+		<string name="CAMERA_MODE_FREE">Wolna</string>
+		<string name="CAMERA_MODE_AROUND">Wokół</string>
+
+		<!-- Options -->
+		<string name="SHOW_GRID">Wyświetl siatkę:</string>
+		<string name="GEOMETRY">Geometry:</string>		
+		<string name="EDGED_FACES">Edged Faces:</string>
+		<string name="DISPLAY_POINTS">Display Points:</string>
+		<string name="EDGE_COLOR">Edge color:</string>
+
+		<!-- Base information -->
+		<string name="POLYGONS">Polygons:</string>
+		<string name="VERTICES">Vertices:</string>
+
+		<!-- LOD -->
+		<string name="LOD">Poziom szczegółowości:</string>
+		<string name="LOD_HIGH">Wysoki</string>
+		<string name="LOD_MED">Średni</string>
+		<string name="LOD_LOW">Niski</string>
+		<string name="LOD_VLOW">Bardzo niski</string>
+
+		<!-- Textures -->
+		<string name="USING_TEXTURES">Używa tekstur:</string>
+		<string name="ADD_TEXTURE">[+] Dodaj teksturę</string>
+		<string name="EXPORT_EMBEDDED_TEXTURES">[ Eksportuj osadzone tekstury ]</string>
+		<string name="TO_TEXTURES_VIEWER">[ Zobacz osadzone tekstury ]</string>
+
+		<!-- Information -->
+		<string name="MORE_INFORMATION">[ Więcej informacji ]</string>
+		<string name="EXPORT_ALL_EMBEDDED_TEXTURES">Wyeksportuj wszystkie osadzone tekstury</string>
+		<string name="EXPORT_SELECTED_EMBEDDED_TEXTURES">Wyeksportuj wszystkie osadzone tekstury</string>
+		<string name="COUNT_">Ilość: </string>
+		<string name="SELECT_OBJECT">Zaznacz obiekt</string>
+		<string name="COPY_SKELETON_INFO">Kopiuj informacje o szkielecie</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TITLE">Nie można skopiować</string>
+		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Kopiowanie do schowka nie powiodło się.</string>
+
+		<!-- Information tabs -->
+		<string name="INFO_GEOMETRIES">Geometrie</string>
+		<string name="INFO_SKELETON">Szkielet</string>
+		<string name="INFO_SHADERS">Shadery</string>
+		<string name="INFO_TEXTURES">Tekstury</string>
+
+		<!-- Information mesh tabs -->
+		<string name="TAB_LOD_HIGH">Wysokie</string>
+		<string name="TAB_LOD_MED">Śrendie</string>
+		<string name="TAB_LOD_LOW">Niskie</string>
+		<string name="TAB_LOD_VLOW">Bardzo niskie</string>
+
+		<!-- Columns -->
+		<string name="COLUMN_SPS">SPS</string>
+		<string name="COLUMN_SHADER">Shader</string>
+		<string name="COLUMN_PARAMETERS">Parametry</string>
+
+		<string name="COLUMN_NAME">Nazwa</string>
+		<string name="COLUMN_TYPE">Typ</string>
+		<string name="COLUMN_VALUE">Wartość</string>
+
+		<string name="COLUMN_INDEX">Index</string>
+		<string name="COLUMN_INDEX_COUNT">Index сount</string>
+		<string name="COLUMN_FACE_COUNT">Face сount</string>
+		<string name="COLUMN_VERTEX_COUNT">Vertex сount</string>
+		<string name="COLUMN_TOTAL_">Total:</string>
+
+		<!-- Export texture format dialog -->	
+		<string name="EXPORT_TEXTURE_FORMAT_TITLE">Proszę wybrać format pliku:</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG">Portable Network Graphics (*.png)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_PNG_TEXT">Najlepszy wybór do przeglądania oraz ewentualnej edycji.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS">Powierzchnia DirectDraw (*.dds)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_DDS_TEXT">Wybierz to, jeśli chcesz importować te tekstury później.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG">Obraz JPEG (*.jpg)</string>
+		<string name="EXPORT_TEXTURE_FORMAT_JPG_TEXT">Jakość może zostać utracona podczas eksportu.</string>
+		<string name="EXPORT_TEXTURE_FORMAT_BMP">Obraz bitmapowy (*.bmp)</string>
+
+		<!-- Edit -->
+		<string name="UNDO">Wstrzymaj</string>
+		<string name="REDO">Przerób</string>
+		<string name="CUT">Wytnij</string>
+		<string name="COPY">Kopiuj</string>
+		<string name="PASTE">Wklej</string>
+
+	</RenderUI>
+</Translation>
