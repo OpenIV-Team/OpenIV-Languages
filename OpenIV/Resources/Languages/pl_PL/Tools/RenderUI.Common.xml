@@ -28,7 +28,7 @@
 		<!-- Camera -->
 		<string name="CAMERA_MODE">Tryb kamery:</string>
 		<string name="CAMERA_MODE_FREE">Wolna</string>
-		<string name="CAMERA_MODE_AROUND">Wokół</string>
+		<string name="CAMERA_MODE_AROUND">Zablokowana</string>
 
 		<!-- Options -->
 		<string name="SHOW_GRID">Wyświetl siatkę:</string>
@@ -38,11 +38,11 @@
 		<string name="EDGE_COLOR">Edge color:</string>
 
 		<!-- Base information -->
-		<string name="POLYGONS">Polygons:</string>
-		<string name="VERTICES">Vertices:</string>
+		<string name="POLYGONS">Poligony:</string>
+		<string name="VERTICES">Wierzchołki:</string>
 
 		<!-- LOD -->
-		<string name="LOD">Poziom szczegółowości:</string>
+		<string name="LOD">Level of detail:</string>
 		<string name="LOD_HIGH">Wysoki</string>
 		<string name="LOD_MED">Średni</string>
 		<string name="LOD_LOW">Niski</string>
@@ -65,14 +65,14 @@
 		<string name="COPY_TO_CLIPBOARD_FAILED_TEXT">Kopiowanie do schowka nie powiodło się.</string>
 
 		<!-- Information tabs -->
-		<string name="INFO_GEOMETRIES">Geometrie</string>
+		<string name="INFO_GEOMETRIES">Geometria</string>
 		<string name="INFO_SKELETON">Szkielet</string>
-		<string name="INFO_SHADERS">Shadery</string>
+		<string name="INFO_SHADERS">Shader</string>
 		<string name="INFO_TEXTURES">Tekstury</string>
 
 		<!-- Information mesh tabs -->
 		<string name="TAB_LOD_HIGH">Wysokie</string>
-		<string name="TAB_LOD_MED">Śrendie</string>
+		<string name="TAB_LOD_MED">Średnie</string>
 		<string name="TAB_LOD_LOW">Niskie</string>
 		<string name="TAB_LOD_VLOW">Bardzo niskie</string>
 
