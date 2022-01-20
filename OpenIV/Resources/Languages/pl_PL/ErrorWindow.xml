@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Błąd aplikacji'>
+		<lbWindowTitle Caption="$AppName$ napotkał problem z którym nie mogł sobie poradzić,\nteraz musi zostać ponownie uruchomion."/>
+		<btnCloseApp Caption='Zamknij $AppName$'/>
+		<lbReportHere Caption='Proszę zgłosić ten błąd, korzystając z poniższych linków:'/>
+		<lnkWeb1 Caption='Odwiedź oficjalną stronę'/>
+		<lnkWeb2 Caption='Odwiedź międzynarodowe forum pomocy'/>
+		<lnkWeb3 Caption='Odwiedź rosyjskie forum pomocy'/>
+		<lbText2 Caption='Dodatkowe narzędzia'/>
+		<tbCopyInfo Caption='Skopiuj informacje o błędzie'/>
+		<tbWin7Report Caption='Nagraj kroki, aby odtworzyć problem' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Czas: '/>
+				<Item Index='1' Value='Typ: '/>
+				<Item Index='2' Value='Wiadomość: '/>
+				<Item Index='3' Value='Dodatkowe informacje:'/>
+				<Item Index='4' Value='Brak dodatkowych informacji.'/>
+				<Item Index='5' Value='Informacje o błędzie zostały skopiowane do schowka.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

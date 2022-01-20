@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PreloaderWindow>
+		<WelcomeScreen>
+			<!-- Button's -->
+			<btnClose Caption='Zamknij'/>
+			<btnEULANext Caption='Kontynuuj'/>
+			<btnWebNext Caption='Kontynuuj'/>
+			<btnGame Caption='Wyszukaj...' Hint='Wybierz folder:'/>
+			<btnGameNext Caption='Kontynuuj'/>
+			<btnSetPermissions Caption='Zmień uprawnienia'/>
+			<btnWindowsNext Caption='Kontynuuj'/>
+			<btnBackupNext Caption='Kontynuuj'/>
+			<btnSocialNext Caption='Kontynuuj'/>
+			<btnSocialYouTube Caption='$AppName$ na YouTube'/>
+			<btnSocialTwitter Caption='$AppName$ na Twitterze'/>
+			<btnSocial_FB Caption='$AppName$ na Facebooku'/>
+			<btnSocial_VK Caption='$AppName$ na VK'/>
+			<!-- Link's -->
+			<LnkWebLangs Caption='Przetłumacz $AppName$ na inny język'/>
+			<LnkWebEULA Caption='Przeczytaj licencję tutaj.'/>
+			<!-- CheckBox's -->
+			<cbAcceptEULA Caption='Przeczytałem i akceptuję warunki umowy licencyjnej $AppName$.'/>
+			<!-- Strings -->
+			<StringList SetCount='30'>
+				<Lines>
+					<Item Index='00' Value='$AppName$ Warunki użytkowania'/>
+					<Item Index='01' Value='Przed użyciem $AppName$ musisz przeczytać i zaakceptować następujące warunki użytkowania.'/>
+					<Item Index='02' Value=''/>
+					<Item Index='03' Value=''/>
+					<Item Index='04' Value='Usługa tymczasowo niedostępna.'/>
+					<Item Index='05' Value='Wybierz folder z $RageGAME$'/>
+					<Item Index='06' Value='Bez określania lokalizacji gry, $AppName$ nie może otworzyć plików $RageGAME_SHORT$ ponieważ nie miałby wystarczającej ilości informacji. Proszę ustawić pooprawną lokalizację gry $RageGAME$ poniżej.'/>
+					<Item Index='07' Value='Lokalizacja $RageGAME$:'/>
+					<Item Index='08' Value='Błąd: Ten folder nie istnieje.'/>
+					<Item Index='09' Value='Sukces: $AppName$ może teraz działać z tym folderem.'/>
+					<Item Index='10' Value="Błąd: Ten folder nie zawiera pliku „$RageEncryptionStorage$”."/>
+					<Item Index='11' Value='Sukces: $RageEncryptionStorage$, wersja %s\n$AppName$ może działać z tym plikiem.'/>
+					<Item Index='12' Value='Kopie zapasowe'/>
+					<Item Index='13' Value='Nie zapomnij wykonać kopii zapasowej oryginalnych plików przed edycją.'/>
+					<Item Index='14' Value='Windows 7'/>
+					<Item Index='15' Value='$AppName$ najlepiej działa w systemie Microsoft® Windows 7'/>
+					<Item Index='16' Value='Twoja nazwa:'/>
+					<Item Index='17' Value="Błąd: $AppName$ nie ma uprawnień aby działać z tym folderem.\nMożesz ustawić wymagane uprawnienia lub uruchomić $AppName$ z uprawnieniami administratora."/>
+					<Item Index='18' Value='Dołącz do społeczności $AppName$'/>
+					<Item Index='19' Value='$AppName$ - Konfiguracja'/>
+					<Item Index='20' Value='Proces konfiguracji nie został jeszcze zakończony.\nCzy chcesz wyjść?'/>
+					<Item Index='21' Value="Błąd: $AppName$ nie ma uprawnień aby działać z plikiem '$RageEncryptionStorage$'.\nMożesz ustawić wymagane uprawnienia lub uruchomić $AppName$ z uprawnieniami administratora."/>
+					<Item Index='22' Value="Błąd: $RageGAME$ jest uruchomiona. Zamknij grę przed użyciem $AppName$."/>
+					<Item Index='23' Value="Wszystko ukończone.\nUprawnienia dla folderu gry zostały zmienione."/>
+					<Item Index='24' Value="Nie można zmienić uprawnie."/>
+					<Item Index='25' Value="Bląd: Klucz deszyfrujący nie został znaleziony w pliku '$RageEncryptionStorage$'."/>
+				</Lines>
+			</StringList>
+		</WelcomeScreen>
+		<UpdateScreen>
+			<!-- Button's -->
+			<btnExit Caption='Wyjście'/>
+			<btnInstall Caption='Pobierz i zainstaluj'/>
+			<!-- Label's -->
+			<lbTitle Caption='$AppName$ aktualizacja'/>
+			<lbText Caption='Nowa aktualizacja jest dostępna dla $AppName$. Musisz ją zainstalować przed użyciem $AppName$.'/>
+			<lbStatus Caption='Rozmiar aktualizacji: '/>
+			<cbInstallUpdatesAutomatically Caption='Zainstaluj aktualizacje automatycznie'/>
+			<lbCurrentVersion Caption='Twoja wersja:'/>
+			<lbNewVersion Caption='Nowa wersja:'/>
+			<!-- Strings -->
+			<StringList SetCount='10'>
+				<Lines>
+					<Item Index='0' Value=' Mb'/>
+					<Item Index='1' Value='Przygotowywanie do pobrania...'/>
+					<Item Index='2' Value='Pobrano: %f z %f Mb'/>
+					<Item Index='3' Value='Aktualizowanie...'/>
+					<Item Index='4' Value='Błąd aktualizacji, spróbuj ponownie później.'/>
+					<Item Index='5' Value='%d.%d.%d (Build %d; Data %s)'/>
+					<Item Index='6' Value='Ta aktualizacja zawiera poprawki błędów i drobne ulepszenia.'/>
+					<Item Index='7' Value='Ta aktualizacja zawiera nowe funkcje, poprawki błędów, zmiany interfejsu użytkownika i główne ulepszenia.'/>
+					<Item Index='8' Value=''/>
+					<Item Index='9' Value=''/>
+				</Lines>
+			</StringList>
+		</UpdateScreen>
+		<ChangeGameScreen>
+			<!-- Button's -->
+			<btnExit Caption='Wyjście'/>
+			<btnContinue Caption='Kontynnuj'/>
+			<!-- Strings -->
+			<StringList SetCount='20'>
+				<Lines>
+					<Item Index='00' Value='Krytyczny bląd aplikacji'/>
+					<Item Index='01' Value='Umieściłeś $AppName$ w tym samym folderze co plik "$RageEncryptionStorage$", co jest błędne.\nProszę umieścić $AppName$ w oddzielnym folderze.'/>
+					<Item Index='02' Value='Zmień folder $RageGAME$'/>
+					<Item Index='03' Value='Coś poszło nie tak, zmień folder $RageGAME$ poniżej i uruchom ponownie $AppName$.'/>
+					<Item Index='04' Value='Błąd: Ten folder nie istnieje.'/>
+					<Item Index='05' Value='Sukces: $AppName$ może teraz działać z tym folderem.'/>
+					<Item Index='06' Value="Błąd: Ten folder nie zawiera pliku '$RageEncryptionStorage$'."/>
+					<Item Index='07' Value='Sukces: $RageEncryptionStorage$, wersja %s\n$AppName$ może teraz działać z tym plikiem.'/>
+					<Item Index='08' Value='Wyszukaj'/>
+					<Item Index='09' Value="Błąd: $AppName$ nie ma uprawnień aby działać z tym folderem.\Uruchom $AppName$ z uprawneiniami administratora."/>
+					<Item Index='10' Value="Błąd: Klucz deszyfrujacy nie został znaleziony w pliku '$RageEncryptionStorage$'."/>
+				</Lines>
+			</StringList>
+		</ChangeGameScreen>
+	</PreloaderWindow>
+</Translation>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GlobalStrings>
+    <StringList>
+        <Item Index='00' Value='Postęp...'/>
+        <Item Index='01' Value='Aktualny plik: '/>
+        <Item Index='02' Value='Wyszukaj - $AppName$'/>
+        <Item Index='03' Value='Wyszukiwanie, proszę czekac...'/>
+        <Item Index='04' Value='Zamknij'/>
+        <Item Index='05' Value=' GB'/>
+        <Item Index='06' Value='Tak'/>
+        <Item Index='07' Value='Nie'/>
+        <Item Index='08' Value=' bajtów'/>
+        <Item Index='09' Value=' KB'/>
+        <Item Index='10' Value=' MB'/>
+        <Item Index='11' Value='Ostrzeżenie, jesteś w trybie edycji!'/>
+        <Item Index='12' Value='W trybie edycji wszystkie zmiany zostaną automatycznie zapisane.\nCzy chcesz kontynuować?'/>
+        <Item Index='13' Value='Folder docelowy:'/>
+        <Item Index='14' Value='Działa zewnętrzna aplikacja...'/>
+        <Item Index='15' Value='Tworzenie nowego %S'/>
+        <Item Index='16' Value='$AppName$ - Informacja'/>
+        <Item Index='17' Value='Błąd podczas ładowania pliku, prawdopodobnie plik jest uszkodzony.'/>
+        <Item Index='18' Value='$AppName$ - Wystąpił błąd podczas otwierania pliku'/>
+        <Item Index='19' Value='Nieznany format pliku.'/>
+        <Item Index='20' Value='Wersja %S %D nie jest obsługiwana.'/>
+        <Item Index='21' Value="$AppName$ nie może otworzyć archiwum, powód:\n"/>
+        <Item Index='22' Value='$AppName$ - Utwórz archiwum'/>
+        <Item Index='23' Value="Nazwa archiwum nie może być pusta."/>
+        <Item Index='24' Value='openFormats - Importuj'/>
+        <Item Index='25' Value='Nieznane rozszerzenie formatu pliku: %S'/>
+        <Item Index='26' Value='$AppName$ - Błąd DirectX'/>
+        <Item Index='27' Value='$AppName$ nie może zainicjować Direct3D.'/>
+        <Item Index='28' Value='Uruchom $RageGAME_SHORT$'/>
+        <Item Index='29' Value="$AppName$ nie może znaleźć powiązanego pliku IDE."/>
+        <Item Index='30' Value="$AppName$ nie może otworzyć pliku. Oto lista możliwych powodów:\n\nOdmowa dostępu. Spróbuj uruchomić $AppName$ z uprawnieniami administratora.\nInny proces używa pliku. Zamknij inne programy i spróbuj ponownie.\n\n"/>
+        <Item Index='31' Value='Folder docelowy:'/>
+        <Item Index='32' Value='Nie można otworzyć archiwum: Nieznany błąd.'/>
+        <Item Index='33' Value='Nie można otworzyć archiwum: Nie znaleziono ścieżki.'/>
+        <Item Index='34' Value='Nie można otworzyć archiwum: Odmowa dostępu lub plik jest używany w innym programie.'/>
+        <Item Index='35' Value='Nie można otworzyć archiwum: nieznany format pliku lub archiwum jest uszkodzone.'/>
+        <Item Index='36' Value='Nie można otworzyć archiwum: Archiwum jest uszkodzone.'/>
+        <Item Index='37' Value='Nie można otworzyć archiwum: Nieznany klucz szyfrowania, prawdopodobnie archiwum dotyczy innej gry lub platformy.'/>
+        <Item Index='38' Value='Nie można utworzyć nowego archiwum.'/>
+        <Item Index='39' Value='$AppName$ - Brak urządzenia do odtwarzania dźwięku'/>
+        <Item Index='40' Value='Nie można odtworzyć pliku audio. Brak dostępnego urządzenia do odtwarzania dźwięku.'/>
+        <Item Index='41' Value='$AppName$ nie może znaleźć programu obsługi tego pliku.\nŚcieżka pliku: "%s"'/>
+        <Item Index='42' Value='$AppName$ nie może znaleźć lub otworzyć tego pliku.\nŚcieżka pliku: "%s"'/>
+        <Item Index='43' Value='$AppName$ nie może otworzyć tego pliku, ponieważ ma on więcej niż 256 megabajtów.'/>
+        <Item Index='44' Value='$AppName$ nie może wyświetlić zawartości tego pliku. Nie można zapisać pliku jako XML, kod błędu: %s'/>
+        <Item Index='45' Value='$AppName$ nie może otworzyć tego pliku. Kod błędu: %s'/>
+        <Item Index='46' Value='$AppName$ nie może otworzyć pakietu OIV w archiwum gry.'/>
+    </StringList>
+    <Dictionary/>
+    <tools>
+        <item Name="Tools.Common.RunGame" Title="Uruchom $RageGAME_SHORT$" Hint="Uruchom $RageGAME$"/>
+        <item Name="Tools.Common.Search" Title="Wyszukaj" Hint="Otwórz wyszukiwanie"/>
+        <item Name="Tools.Common.HashGenerator" Title="Generator hash" Hint="Otwórz generator hash"/>
+        <item Name="Tools.Common.PackageInstaller" Title="Instalator pakietów" Hint="Otwórz instalator pakietów"/>
+        <item Name="Tools.GTAIV.PlacementSearch" Title="Wyszukiwanie miejsc docelowych" Hint="Wyszukaj miejsce docelowe"/>
+        <item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Znajdź lokalizację" Hint="Wyszukaj miejsce docelowe"/>
+        <item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Znajdź w IDE" Hint=""/>
+        <item Name="Tools.GTAIV.AnimViewer" Title="Przeglądarka animacji" Hint="Otwórz przeglądarke animacji"/>
+        <item Name="Tools.GTAV.ASIManager" Title="Menedżer ASI" Hint="Menedżer ASI"/>
+        <item Name="Files.Common.AudioPlayer" Title="Odtwarzacz audio" Hint=""/>
+        <item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Eksportuj do openFormats (.oac)" Hint=""/>
+        <item Name="Files.GTAEngine.TextViewer" Title="Przeglądarka GXT" Hint=""/>
+        <item Name="Files.GTAEngine.TextViewer2" Title="Przeglądarka GXT2" Hint=""/>
+        <item Name="Files.Resources.TextureEditor" Title="Przeglądarka tekstur" Hint=""/>
+        <item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Edytor tekstur" Hint=""/>
+        <item Name="Files.Resources.CollisionViewer" Title="Przeglądarka kolizji" Hint=""/>
+        <item Name="Files.Resources.DrawableViewer" Title="Przeglądarka modeli WDR/WDD" Hint=""/>
+        <item Name="Files.Resources.FragmentsViewer" Title="Przeglądarka modeli WFT" Hint=""/>
+        <item Name="Files.Resources.NavmeshViewer" Title="Przeglądarka Nav Mesh" Hint=""/>
+        <item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Eksportuj szkielet do openFormats (.skel)" Hint=""/>
+        <item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Edytuj osadzone tekstury" Hint="Edytuj osadzone tekstury"/>
+    </tools>
+</GlobalStrings>

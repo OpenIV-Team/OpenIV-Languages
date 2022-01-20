@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<RageDrawableWindow Caption='$AppName$ Przeglądarka modeli'>
+		<pmiCopyName Caption='Kopiuj nazwę'/>
+		<pmiCopyHash Caption='Kopiuj hash'/>
+		<pmiCopyNameAndHash Caption='Kopiuj nazwę oraz hash'/>
+		<pmiHigh Caption='Wysokie (High)'/>
+		<pmiMed Caption='Średnie (Med)'/>
+		<pmiLow Caption='Niskie (Low)'/>
+		<pmiVLow Caption='Bardzo niskie (VLow)'/>
+		<miLeft Caption='Lewo'/>
+		<miRight Caption='Praow'/>
+		<miCheckAll Caption='Zaznacz wszystko' />
+		<miUncheckAll Caption='Odznacaz wszystko' />
+		<paneDictionary Caption='Dictionary elements'/>
+		<cbMultipleRendering Caption='Multiple Rendering'/>
+		<AeroWindow LinesCount='1'>
+			<StringList>
+				<Item Index='0' Value='Załaduj z pliku zewnętrznego'/>
+			</StringList>
+		</AeroWindow>
+	</RageDrawableWindow>
+	<RenderUI>	
+		<!-- help -->
+		<string name="HELP_TITLE">Przeglądarka modeli - pomoc</string>		
+		<text name="HELP_TEXT">
+			<![CDATA[Użyj myszki aby rozglądać się dookoła, poruszaj się używając klawiszy:
+			
+    W - Do przodu
+    S - Do tyłu
+    A - W lewo
+    D - W prawo
+
+    NumPad 8 - Przesuń kamerę w górę
+    NumPad 2 - Przesuń kamerę w dół
+    NumPad 4 - Przesuń kamerę w lewo
+    NumPad 6 - Przesuń kamerę w prawo
+
+    Przytrzymaj SHIFT - Dla szybszego ruchu
+    Przytrzymaj CTRL - Dla wolniejszego ruchu
+    Użyj kółka myszy do powiększenia.
+
+Aby dodać dodatkowe tekstury kliknij na link "[+] Dodaj teksturę" w prawym dolnym rogu okna. Aby usunąć teksturę kliknij na link "[-]" znajdujący się za nazwą tekstury.
+
+Aby zmienić opcje renderowania użyj linków po prawej stronie lub klawiszy funkcyjnych:
+	
+    F1 - Przełącz pole pomocy
+    F2 - Wyświetl więcej informacji
+    C - Przełącz tryb kamery
+    F - Przełącz edges and faces 
+    P - Przełącz display points
+    N - Przełącz normals
+    G - Przełącz geometry
+    L - Przęłącz Level of Detail
+    ESC - Zamknij to okno
+	
+    Przytrzymaj H - Aby tymczasowo ukryć HUD.
+]]>
+		</text>
+		<string name="CHECK_ALL">Zaznacz wszystko</string>
+		<string name="UNCHECK_ALL">Odznacz wszystko</string>
+		<string name="MULTIPLE_RENDERING">Wielokrotne renderowanie</string>
+		<string name="BOUND_TYPE">Bound type:</string>
+		<string name="CHILD_COUNT">Child count:</string>
+	</RenderUI>
+</Translation>

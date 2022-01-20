@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ Placement Search'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">Wyszukiwanie nazwy</string>
+		<string name="SEARCH_FOR_HASH">Szukaj hash</string>
+
+		<string name="BANNER_TEXT_NAME">Wpisz nazwę modelu</string>
+		<string name="BANNER_TEXT_HASH">Wpisz hash modelu</string>
+
+		<string name="SEARCH">Szukaj</string>
+		<string name="STOP_SEARCH">Zatrzymaj wyszukiwanie</string>
+		<string name="INCORRECT_HASH">Nieprawidłowy hash</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" nie jest poprawną wartością hasha.</string>
+
+		<string name="FILE_INFORMATION">Informacje o pliku</string>
+		<string name="SHOW_DEFINITION">Pokaż definicję w pliku IDE</string>
+		<string name="SHOW_IDE">Pokaż plik IDE</string>
+		<string name="SHOW_ARCHIVE">Pokaż archiwum</string>
+		<string name="SHOW_RESOURCE">Pokaż plik z zasobami</string>
+
+		<string name="HELP_TITLE">Wyszukiwanie miejsc - pomoc</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Użyj myszki aby rozglądać się dookoła, poruszaj się używając klawiszy:
+			
+    W - Do przodu
+    S - Do tyłu
+    A - W lewo
+    D - W prawo
+
+    NumPad 8 - Przesuń kamerę w górę
+    NumPad 2 - Przesuń kamerę w dół
+    NumPad 4 - Przesuń kamerę w lewo
+    NumPad 6 - Przesuń kamerę w prawo
+
+    Przytrzymaj SHIFT - Dla szybszego ruchu
+    Przytrzymaj CTRL - Dla wolniejszego ruchu
+
+    Użyj kółka myszy do powiększenia.
+		   
+    ESC - Zamknij to okno
+    Przytrzymaj H - Aby tymczasowo ukryć HUD.
+]]>
+		</text>
+	</RenderUI>
+</Translation>

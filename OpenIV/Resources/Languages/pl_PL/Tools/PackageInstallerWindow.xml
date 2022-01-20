@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Instalator pakietów - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Instalator pakietów</string>
+		<string name="INSTALL">Zainstaluj</string>
+		<string name="INSTALLING">Instalowanie</string>
+		<string name="DESCRIPTION">Opis</string>
+		<string name="ADDITIONAL_INFORMATION">Dodatkowe informacje</string>
+		<string name="GREATED_BY">Utworzone przez</string>
+		<string name="SUPPORTED_GAMES">Wspierane gry</string>
+		<string name="VERSION">Wersja</string>
+		<string name="LICENCE">Licencja</string>
+		<string name="VIEW_LICENCE">Zobacz licencje</string>
+		<string name="LEARN_MORE">Dowiedz się więcej</string>
+		<string name="LINK_HOMEPAGE">Strona główna</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Wybierz zawartość do zainstalowania</string>
+		<string name="SELECT_LOCATION">Wybierz lokalizacje, w której chcesz zainstalować pakiet</string>
+		<string name="LOCATION_MODS_FOLDER">Folder $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Zainstaluj ten mod w folderze $ModsFolder$</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">Ten pakiet nie może być zainstalowany w folderze $ModsFolder$, ponieważ $ModsFolder$ nie jest obsługiwany przez obecną grę ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">Ten pakiet nie może być zainstalowany w folderze $ModsFolder$ ponieważ $ModsFolder$ nie jest obsługiwany przez format pakietu.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">Ten pakiet nie może być zainstalowany w folderze $ModsFolder$, ponieważ nie ma on wpływu na żadne archiwa RPF.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">Ten pakiet nie może być zainstalowany w folderze $ModsFolder$ ponieważ $ModsFolderAsi$ nie jest zainstalowany.</string>
+		<string name="LOCATION_GAME_FOLDER">Folder z grą</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Zainstaluj ten mod bezpośrednio w folderze z grą</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">Ten pakiet nie może być zainstalowany w folderze z grą, ponieważ jest wyłączony w ustawieniach folderu $ModsFolder$.</string>
+
+		<string name="CONFIRM_INSTALLATION_TITLE">Potwierdź instalację</string>
+		<string name="CONFIRM_INSTALLATION_NOTE">Prosimy o zapoznanie się z poniższymi informacjami i potwierdzenie instalacji.</string>
+		<string name="PACKAGE_NAME_">Pakiet:</string>
+		<string name="INSTALL_LOCATION_">Scieżka instalacji:</string>
+		<string name="GAME_PATH_">Ścieżka z grą:</string>
+		<string name="CONFIRM_INSTALLATION_ACTION">Potwierdź instalacje</string>
+		<string name="ALWAYS_SHOW_CONFIRM_INSTALL_DIALOG">Zawsze wyświetlaj te okno</string>
+
+		<string name="INSTALLATION_SUCCEEDED">Instalacja przebiegła pomyślnie</string>
+		<string name="RUN_GAME">Uruchom $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Uruchom grę i sprawdź co zainstalowałeś</string>
+
+		<string name="INSTALLATION_FAILED">Instalacja nie powiodła się</string>
+
+		<string name="LOADING_ERROR_TITLE">Błąd ładowania pakietu</string>
+		<string name="READING_ERROR_TITLE">Błąd odczytu pliku pakietu</string>
+		<string name="INSTALLING_ERROR_TITLE">Błąd instalacji pakietu</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Nieznany błąd</string>
+		<string name="ERROR_GROUP_FATAL">Błąd krytyczny</string>
+		<string name="ERROR_CODE_UNKNOWN">Coś się stało. Proszę sprawdzić szczegóły błędu w pliku dziennika.</string>
+		<string name="ERROR_INSTALLATION">Podczas instalacji wystąpił fatalny błąd. Proszę sprawdzić plik dziennika w celu uzyskania szczegółów błędu.</string>
+		<string name="ERROR_MSXML">MSXML nie jest zainstalowany. Wymagane jest użycie Instalatora Pakietów.</string>
+		<string name="ERROR_NO_LOG_FILE">Instalator pakietu nie jest w stanie utworzyć pliku dziennika. Zrestartuj swój komputer i spróbuj ponownie. Jeśli problem nadal występuje, sprawdź oprogramowanie antywirusowe.</string>
+		<string name="CHECK_LOG_FILE">Proszę sprawdzić plik dziennika dla szczegółów błędu.</string>
+
+		<string name="OPEN_INSTALLATION_LOG">Otwórz dziennik instalacji</string>
+		<string name="OPEN_LOG_FILE">Otwórz plik dziennika</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Pakiet nie jest prawidłowym plikiem ZIP.</string>
+		<string name="LOADING_ERROR_NOT_SUPPORTED_ZIP_COMPRESSION_METHOD">Metoda kompresji tego pliku ZIP nie jest obsługiwana.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Nieznane rozszerzenie pliku. Plik musi zawierać rozszerzenie .oiv lub .zip.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Nie można uzyskać dostępu do pliku pakietu. Upewnij się, że nie jest on używany przez inny proces.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Plik pakietu nie istnieje.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Nie można otworzyć pliku pakietu.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Nie można znaleźć pliku "assembly.xml" w tym pakiecie. Prawdopodobnie plik nie jest z pakietu $AppName$ lub plik jest uszkodzony.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Nie można odczytać pliku "assembly.xml", prawdopodobnie plik jest uszkodzony.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Nieznany format pliku "assembly.xml", prawdopodobnie plik jest uszkodzony.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">Ten pakiet nie może być zainstalowany z twoją wersją $AppName$.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">Tag "metadata" jest pominięty w "assembly.xml", prawdopodobnie plik jest uszkodzony.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">W pliku "assembly.xml" brakuje informacji o metadanych lub są one uszkodzone.</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">Zespół "assembly.xml" ma nieprawidłowy format XML lub jest uszkodzony.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Nie można odczytać Id pakietu z "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">W pliku "assembly.xml" brakuje tagu "colors", prawdopodobnie plik jest uszkodzony.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">W pliku "assembly.xml" brakuje informacji o kolorach lub są one uszkodzone.</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">Brak lub uszkodzenie informacji o zawartości w "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">W pliku "assembly.xml" brakuje tagu "content", prawdopodobnie plik jest uszkodzony.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Nie można znaleźć folderu "content" w tym pakiecie. Prawdopodobnie plik nie jest pakietem $AppName$ lub plik jest uszkodzony.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">Ten pakiet nie może być zainstalowany w $RageGAME$. Proszę sprawdzić listę obsługiwanych gier w sekcji dodatkowych informacji.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">W archiwum pakietu brakuje niektórych plików. Prosimy o kontakt z autorem pakietu.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Niektóre pliki mają nieprawidłową ścieżkę dostępu do gry. Prosimy o kontakt z autorem pakietu.</string>
+		<string name="INSTALLING_ERROR_ANOTHER_INSTALLER">Aktualnie trwa instalacja innego pakietu. Proszę poczekać na jej zakończenie, zanim spróbujesz ponownie.</string>
+
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">Ten pakiet nie może zostać odinstalowany automatycznie.</string>
+
+	</RenderUI>
+</Translation>
