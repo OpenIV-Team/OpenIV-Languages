@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - Program fejl'>
+		<lbWindowTitle Caption="$AppName$ løb ind i et problem, som den ikke kunne håndtere,\nog er nu nød til at genstartes."/>
+		<btnCloseApp Caption='Luk $AppName$'/>
+		<lbReportHere Caption='Rapporter venligst denne fejl ved at bruge følgende links:'/>
+		<lnkWeb1 Caption='Besøg den officielle side'/>
+		<lnkWeb2 Caption='Besøg internationalt supportforum'/>
+		<lnkWeb3 Caption='Besøg russisk supportforum'/>
+		<lbText2 Caption='Yderligere værktøjer'/>
+		<tbCopyInfo Caption='Kopier fejlinformation'/>
+		<tbWin7Report Caption='Optag trin for at genskabe et problem' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Tid: '/>
+				<Item Index='1' Value='Type: '/>
+				<Item Index='2' Value='Besked: '/>
+				<Item Index='3' Value='Yderligere Information:'/>
+				<Item Index='4' Value='Yderligere oplysninger mangler.'/>
+				<Item Index='5' Value='Fejloplysninger kopieret til udklipsholderen.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

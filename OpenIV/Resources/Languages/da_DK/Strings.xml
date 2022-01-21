@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<GlobalStrings>
+    <StringList>
+        <Item Index='00' Value='Fremskridt...'/>
+        <Item Index='01' Value='Nuværende fil: '/>
+        <Item Index='02' Value='Søg - $AppName$'/>
+        <Item Index='03' Value='Søger, vent venligst...'/>
+        <Item Index='04' Value='Luk'/>
+        <Item Index='05' Value=' GB'/>
+        <Item Index='06' Value='Ja'/>
+        <Item Index='07' Value='Nej'/>
+        <Item Index='08' Value=' bytes'/>
+        <Item Index='09' Value=' KB'/>
+        <Item Index='10' Value=' MB'/>
+        <Item Index='11' Value='Advarsel, du er i redigeringstilstand!'/>
+        <Item Index='12' Value='While in editing mode, all changes will automatically saved.\nDo you want to continue?'/>
+        <Item Index='13' Value='Destination folder:'/>
+        <Item Index='14' Value='External application is working...'/>
+        <Item Index='15' Value='Creating new %S'/>
+        <Item Index='16' Value='$AppName$ - Information'/>
+        <Item Index='17' Value='Error loading file, probable file is corrupt.'/>
+        <Item Index='18' Value='$AppName$ - Error occurred while opening file'/>
+        <Item Index='19' Value='Unknown file format.'/>
+        <Item Index='20' Value='%S version %D is not supported.'/>
+        <Item Index='21' Value="$AppName$ can't open archive, reason:\n"/>
+        <Item Index='22' Value='$AppName$ - Create archive'/>
+        <Item Index='23' Value="Archive name can't be null."/>
+        <Item Index='24' Value='openFormats - Import'/>
+        <Item Index='25' Value='Unknown file format extension: %S'/>
+        <Item Index='26' Value='$AppName$ - DirectX error'/>
+        <Item Index='27' Value='$AppName$ is unable to initialize Direct3D.'/>
+        <Item Index='28' Value='Run $RageGAME_SHORT$'/>
+        <Item Index='29' Value="$AppName$ is unable to locate associated IDE file."/>
+        <Item Index='30' Value="$AppName$ is unable to open file. Here is list of possible reasons:\n\nAccess denied. Try to run $AppName$ with administrator right.\nAnother process uses file. Close other programs and try again.\n\n"/>
+        <Item Index='31' Value='Destination folder:'/>
+        <Item Index='32' Value='Unable to open archive: Unknown error.'/>
+        <Item Index='33' Value='Unable to open archive: Path not found.'/>
+        <Item Index='34' Value='Unable to open archive: Access denied or file is used in another program.'/>
+        <Item Index='35' Value='Unable to open archive: Unknown file format or archive is corrupted.'/>
+        <Item Index='36' Value='Unable to open archive: Archive is corrupted.'/>
+        <Item Index='37' Value='Unable to open archive: Unknown encryption key, probable archive is for different game or platform.'/>
+        <Item Index='38' Value='Unable to create new archive.'/>
+        <Item Index='39' Value='$AppName$ - No audio playback device'/>
+        <Item Index='40' Value='Unable to play audio file. No audio playback device available.'/>
+        <Item Index='41' Value='$AppName$ is unable to find handler for this file.\nFile path: "%s"'/>
+        <Item Index='42' Value='$AppName$ is unable to find or open this file.\nFile path: "%s"'/>
+        <Item Index='43' Value='$AppName$ cannot open this file because it is larger than 256 Megabytes.'/>
+        <Item Index='44' Value='$AppName$ is unable to show content of this file. File can not be saved as XML, error code: %s'/>
+        <Item Index='45' Value='$AppName$ is unable to open this file. Error code: %s'/>
+        <Item Index='46' Value='$AppName$ is unable to open OIV Package inside game archive.'/>
+    </StringList>
+    <Dictionary/>
+    <tools>
+        <item Name="Tools.Common.RunGame" Title="Run $RageGAME_SHORT$" Hint="Run $RageGAME$"/>
+        <item Name="Tools.Common.Search" Title="Search" Hint="Open search"/>
+        <item Name="Tools.Common.HashGenerator" Title="Hash Generator" Hint="Open hash generator"/>
+        <item Name="Tools.Common.PackageInstaller" Title="Package Installer" Hint="Open Package Installer"/>
+        <item Name="Tools.GTAIV.PlacementSearch" Title="Placement search" Hint="Open placement search"/>
+        <item Name="Tools.GTAIV.PlacementSearch.SearchIt" Title="Find location" Hint="Open placement search"/>
+        <item Name="Tools.GTAIV.IDEHelper.FindAndShowIDE" Title="Find in IDE" Hint=""/>
+        <item Name="Tools.GTAIV.AnimViewer" Title="Animation viewer" Hint="Open animation viewer"/>
+        <item Name="Tools.GTAV.ASIManager" Title="ASI Manager" Hint="ASI Manager"/>
+        <item Name="Files.Common.AudioPlayer" Title="Audio player" Hint=""/>
+        <item Name="Files.Common.AudioPlayer.ExportToFormats" Title="Export to openFormats (.oac)" Hint=""/>
+        <item Name="Files.GTAEngine.TextViewer" Title="GXT viewer" Hint=""/>
+        <item Name="Files.GTAEngine.TextViewer2" Title="GXT2 viewer" Hint=""/>
+        <item Name="Files.Resources.TextureEditor" Title="Textures viewer" Hint=""/>
+        <item Name="Files.Resources.TextureEditor.EditExternalFile" Title="Textures editor" Hint=""/>
+        <item Name="Files.Resources.CollisionViewer" Title="Collision viewer" Hint=""/>
+        <item Name="Files.Resources.DrawableViewer" Title="WDR/WDD Models viewer" Hint=""/>
+        <item Name="Files.Resources.FragmentsViewer" Title="WFT Models viewer" Hint=""/>
+        <item Name="Files.Resources.NavmeshViewer" Title="Nav Mesh viewer" Hint=""/>
+        <item Name="Files.Resources.ExportSkeletonDataYFT.Export" Title="Export skeleton to openFormats (.skel)" Hint=""/>
+        <item Name="Files.Resources.EmbeddedTextureEditor.Edit" Title="Edit embedded textures" Hint="Edit with Embedded Texture Editor"/>
+    </tools>
+</GlobalStrings>

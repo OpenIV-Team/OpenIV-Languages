@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='Om $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Version %D.%D (Byg %D; Dato %S)</string>
+		<string name="VERSION_LABEL_3">Version %D.%D.%D (Byg %D; Dato %S)</string>
+		<string name="THE_TEAM">Holdet</string>
+		<string name="THIRD_PARTY">Tredje part</string>
+		<string name="THIRD_PARTY_LINE">Denne applikation bruger nogle dele, som leveres af tredje-part.</string>
+		<string name="THANKS_TO">Tak til</string>
+		<string name="ALPHABETICALLY">(alfabetisk)</string>
+		<string name="SPECIAL_THANKS_TO">Specielt tak til</string>
+		<string name="LICENSE_TERMS">Softwarelicensvilkårene</string>
+		<string name="LOCALIZATION">Lokaliserings-bidragydere</string>
+		<string name="DEBUG_INFO">Fejlfinde information</string>
+		<string name="CLIENT_ID">Klient Id</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">Tilslut $AppName$ fællesskab</string>
+		<string name="JOIN_DISCUSSION">Tilslut $AppName$ discussion</string>
+		<string name="SUPPORT_DONATE">Støt $AppName$</string>
+		<string name="WELCOME_TO_VER">Velkommen til %S</string>
+		<string name="WATCH_THE_VIDEO">Ville du tænke dig at se en video om ændringer i denne version?</string>
+		<string name="VIDEO_NOTE">Det er muligt at du ser en annonce før eller under videoafspilning. Ved at se denne video støtte du $AppName$.</string>
+		<string name="NO_THANKS">Nej tak</string>
+	</RenderUI>
+</Translation>

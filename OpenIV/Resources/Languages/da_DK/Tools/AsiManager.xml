@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<FiveAsiManagerWindow Caption='ASI Manager - $AppName$'/>
+	<RenderUI>
+		<string name="TITLE">$RageGAME_SHORT$ - ASI Manager</string>
+
+		<string name="RPF_NOTE">You need to install ASI Loader and $ModsFolderAsi$ plugin for your $RageGAME_SHORT$, otherwise game will not load modified RPF archive.</string>
+		<string name="ONLINE_NOTE">Use of modifications in the $RageGAME_MP$ is not supported and may result in being banned from online content.</string>
+
+		<string name="INSTALL">Install</string>
+		<string name="UPDATE">Update</string>
+		<string name="UNINSTALL">Uninstall</string>
+
+		<string name="NOT_INSTALLED">NOT INSTALLED</string>
+		<string name="UPDATE_REQUIRED">UPDATE REQUIRED</string>
+		<string name="INSTALLED">INSTALLED</string>
+		<string name="DISABLED">DISABLED</string>
+
+		<string name="ASI_LOADER">ASI Loader</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader is the tool that loads custom libraries with the file extension .asi into the game process.</string>
+
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">This ASI Plugin is allow your game to load modified RPF archives. It is also provides support for $ModsFolder$ folder.</string>
+
+		<string name="OPEN_CAMERA_ASI">openCamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">Enhances "Free Camera" boundary limitations in Rockstar Editor.</string>
+
+		<string name="INSTALLATION_FAILED">The installation failed</string>
+		<string name="INSTALLATION_FAILED_TEXT">The installation failed, restart $AppName$ and try again.</string>
+
+		<string name="UNINSTALL_FAILED">Uninstall failed</string>
+		<string name="UNINSTALL_FAILED_TEXT">Uninstall failed, restart $AppName$ and try again.</string>
+
+		<string name="MODS_FOLDER_TITLE">Create $ModsFolder$ folder?</string>
+		<string name="MODS_FOLDER_TEXT">The $ModsFolder$ folder allows you to keep all your original game files safe and have easiest one click way to switch between modified and original files.</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">Show notification while editing archive outside of $ModsFolder$ folder</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">Allow edit mode only for archives inside $ModsFolder$ folder</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">You can change this settings at any time in $AppName$ options.</string>
+		<string name="MODS_FOLDER_LEARN_MORE">Learn more about $ModsFolder$ folder</string>
+	</RenderUI>
+</Translation>

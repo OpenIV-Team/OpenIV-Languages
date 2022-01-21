@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextEditorWindow Caption='$AppName$ Text tool'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Text viewer'/>
+				<Item Index='1' Value='$AppName$ Text editor'/>
+				<Item Index='2' Value='Find...'/>
+				<Item Index='3' Value='Find selected...'/>
+			</StringList>
+		</AeroWindow>
+
+		<!-- Editor actions -->
+		<ActionEditCut Caption="Cut"/>
+		<ActionEditCopy Caption="Copy"/>
+		<ActionEditPaste Caption="Paste"/>
+		<ActionEditDelete Caption="Delete"/>
+		<ActionEditSelectAll Caption="Select all"/>
+		<ActionEditDuplicateLine Caption="Duplicate Current Line"/>
+		<ActionEditRemoveLine Caption="Remove line"/>
+		<ActionEditUpperCase Caption="UPPERCASE"/>
+		<ActionEditLoverCase Caption="lovercase"/>
+	</TextEditorWindow>
+
+	<RenderUI>
+		<!-- Export -->
+		<string name="EXPORT">Export</string>
+		<string name="EXPORT_TEXT">Export plain text (*.txt)</string>
+		<string name="EXPORT_HTML">Export formatted text (*.html)</string>
+
+		<!-- Ribbon -->
+		<string name="TAB_HOME">Home</string>
+		<string name="TAB_SEARCH">Search</string>
+		<string name="WORD_WRAP">Word wrap</string>
+		<string name="SHOW_SPECIAL_CHARS">Show special characters</string>
+		<string name="SEARCH_OPTIONS_MENU">Search options</string>
+		<string name="SEARCH_BANNER_TEXT">Find what</string>
+		<string name="SEARCH_DOWN">Search down</string>
+		<string name="SEARCH_UP">Search up</string>
+		<string name="SEARCH_ALL">All</string>
+		<string name="SEARCH_ALL_HINT">Find all</string>
+		<string name="SEARCH_SET_SELECTION_AREA">Set selection</string>
+		<string name="GOTO_LINE">Go to line</string>
+		<string name="CHECK_XML_SYNTAX">Check XML syntax</string>
+
+		<!-- Flyouts -->
+		<string name="SEARCH_MODE">Search mode</string>
+		<string name="SEARCH_MODE_NORMAL">Normal</string>
+		<string name="SEARCH_MODE_REGULAR_EXPRESSION">Regular expression</string>
+		<string name="SEARCH_MODE_WILDCARD">Wildcard</string>
+		<string name="SEARCH_AREA">Search area</string>
+		<string name="SEARCH_AREA_ENTIRE_SCOPE">Entire scope</string>
+		<string name="SEARCH_AREA_IN_SELECTION">In selection</string>
+		<string name="SEARCH_OPTIONS">Options</string>
+		<string name="SEARCH_ON_TYPING">Search on typing</string>
+		<string name="CASE_SENSITIVE">Case sensitive</string>
+		<string name="WHOLE_WORDS_ONLY">Whole words only</string>
+		<string name="WRAP_AROUND">Wrap around</string>
+		<string name="HIGHLIGHT_RESULTS">Highlight results</string>
+
+		<!-- Dialogs -->
+		<string name="SAVE_CHANGES_TITLE">Do you want to save changes?</string>
+		<string name="UNABLE_TO_SAVE_FILE_TITLE">Unable to save file</string>
+		<string name="UNABLE_TO_SAVE_FILE_TEXT">$AppName$ is unable to save file changes, please try again later.</string>
+		<string name="GOTO_LINE_TITLE">Go to line...</string>
+		<string name="GOTO_LINE_PROMT">Enter line number:</string>
+		<string name="GOTO_LINE_NOTE">Enter + or - to move relative to the current location. Example: +4 will move forward four lines.</string>
+		<string name="GO">Go</string>
+		<string name="XML_SYNTAX">XML syntax</string>
+		<string name="XML_NO_ERROR_DETECTED">No error detected.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">XML Parsing error at line %D, col %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Continue anyway</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignore error and save the file</string>
+		<string name="XML_BACK_TO_EDITOR">Back to the editor</string>
+	</RenderUI>
+</Translation>
