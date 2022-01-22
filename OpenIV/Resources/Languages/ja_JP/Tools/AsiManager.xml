@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<FiveAsiManagerWindow Caption='ASI マネージャ - $AppName$'/>
+	<RenderUI>
+		<string name="TITLE">$RageGAME_SHORT$ - ASI マネージャ</string>
+
+		<string name="RPF_NOTE">$RageGAME_SHORT$ に ASI Loader と $ModsFolderAsi$ プラグインをインストールする必要があります。でないと、ゲームが改造されたRPF アーカイブを読み込めません。</string>
+		<string name="ONLINE_NOTE">改造RPF では $RageGAME_MP$ をプレイしないでください。BAN されますよ。</string>
+
+		<string name="INSTALL">インストール</string>
+		<string name="UPDATE">更新</string>
+		<string name="UNINSTALL">アンインストール</string>
+
+		<string name="NOT_INSTALLED">インストールされていません</string>
+		<string name="UPDATE_REQUIRED">アップデートが必要です</string>
+		<string name="INSTALLED">インストール済み</string>
+		<string name="DISABLED">無効</string>
+
+		<string name="ASI_LOADER">ASI Loader</string>
+		<string name="ASI_LOADER_DESCRIPTION">ASI Loader はゲームプロセスに改造 .rpf ライブラリを読み込ませるツールです。</string>
+
+		<string name="OPENIV_ASI">$ModsFolderAsi$</string>
+		<string name="OPENIV_ASI_DESCRIPTION">ASI Plugin はゲーム内で改造 RPF アーカイブを読み込ませます。また、 $ModsFolder$ フォルダもサポートします。</string>
+
+		<string name="OPEN_CAMERA_ASI">openCamera</string>
+		<string name="OPEN_CAMERA_ASI_DESCRIPTION">ロックスターエディターの「フリーカメラ」の限界を強化します。</string>
+
+		<string name="INSTALLATION_FAILED">インストール失敗</string>
+		<string name="INSTALLATION_FAILED_TEXT">インストールに失敗しました。 $AppName$ を再起動してやり直してください。</string>
+
+		<string name="UNINSTALL_FAILED">アンインストール失敗</string>
+		<string name="UNINSTALL_FAILED_TEXT">アンインストールに失敗しました。 $AppName$ を再起動してやり直してください。</string>
+
+		<string name="MODS_FOLDER_TITLE">$ModsFolder$ フォルダを作成しますか？</string>
+		<string name="MODS_FOLDER_TEXT">$ModsFolder$ フォルダを使用すると、すべてのオリジナルのゲーム ファイルを安全に保持し、Mod ファイルとオリジナル ファイルを簡単にワンクリックで切り替えることができます。</string>
+		<string name="MODS_FOLDER_EDIT_NOTIFICATION">$ModsFolder$ フォルダ以外のアーカイブを編集しようとした時に警告を表示する</string>
+		<string name="MODS_FOLDER_EDIT_MODE_CHECK">$ModsFolder$ フォルダ内のアーカイブのみ編集モードを許可する</string>
+		<string name="MODS_FOLDER_SETTINGS_NOTE">この設定は $AppName$ の設定でいつでも変更できます。</string>
+		<string name="MODS_FOLDER_LEARN_MORE">$ModsFolder$ フォルダについて詳しく知る</string>
+	</RenderUI>
+</Translation>

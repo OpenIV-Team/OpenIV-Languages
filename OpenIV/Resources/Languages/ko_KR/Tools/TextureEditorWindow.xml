@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='$AppName$ 텍스처 도구'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ 텍스처 뷰어'/>
+				<Item Index='1' Value='$AppName$ 텍스처 편집기'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">보기:</string>
+		<string name="EXPORT_ALL">모든 텍스처 내보내기</string>
+		<string name="EXPORT_SELECTED">내보내기 선택됨</string>
+		<string name="ORIGINAL_SIZE">원래 크기</string>
+		<string name="ALPHA_BACKGROUND">Alpha background</string>
+		<string name="SIZE_">크기:</string>
+		<string name="SEARCH_TEXTURES">텍스처 검색</string>
+		<string name="NO_IMAGE_FOUND">텍스처를 찾을 수 없음</string>
+
+		<string name="COPY_NAME">이름 복사</string>
+		<string name="EXPORT">내보내기</string>
+		<string name="RENAME">이름 바꾸기</string>
+		<string name="REPLACE">바꾸기</string>
+		<string name="DELETE">삭제</string>
+		<string name="RENAME_TEXTURE">텍스처 이름 바꾸기</string>
+		<string name="RENAME_TEXTURE_NAME">새 이름 입력</string>
+		<string name="RENAME_TEXTURE_ERROR">이 이름의 텍스처가 이미 있음</string>
+		<string name="NO_IMAGE">이미지 없음</string>
+
+		<string name="NO_IMAGE_SELECTED">선택된 이미지가 없음</string>
+		<string name="WIDTH">너비</string>
+		<string name="HEIGHT">높이</string>
+		<string name="PIXEL_FORMAT">픽셀 형식</string>
+		<string name="MIP_MAPS">밉맵</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">불러오기 옵션 선택</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Those options will be ignored while importing DDS files.
+Use DDS files for getting best quality.]]>
+		</text>
+		<string name="AUTO_MIPMAP">자동으로 밉맵 수준 생성</string>
+		<string name="TEXTURES_FORMAT">텍스처 형식(압축):</string>
+		<string name="AUTOMATICALLY">자동</string>
+		<string name="IMPORT_ERROR_FILES">다음 파일은 가져오지 않음</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">속성</string>
+		<string name="PROPERTIES_MIPMAP">밉맵 수준:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">픽셀 형식:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Warning:
+Quality can be lost while properties changing.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">"%S" 텍스처 속성을 편집할 수 없습니다.</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">변경 사항을 저장하시겠습니까?</string>
+
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11을 사용할 수 없음</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$은(는) DirectX 11 디바이스를 초기화할 수 없습니다.\n이 파일에는 편집 기능을 사용할 수 없습니다.</string>
+
+		<!-- help -->
+		<string name="HELP_TITLE">텍스처 편집기 - 도움말</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Available hotkeys:
+			
+    Ctrl + Tab - Toggle view mode
+    Ctrl + A - Export all textures
+    Ctrl + S - Export selected textures
+    F1 - Toggle this help box
+    ESC - Close this viewer window
+    
+    Hold H - For temporarily hide HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>

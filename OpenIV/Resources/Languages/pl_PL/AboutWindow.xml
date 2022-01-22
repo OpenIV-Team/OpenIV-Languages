@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='About $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">Wersja %D.%D (Build %D; Data %S)</string>
+		<string name="VERSION_LABEL_3">Wersja %D.%D.%D (Build %D; Data %S)</string>
+		<string name="THE_TEAM">Zespół</string>
+		<string name="THIRD_PARTY">Strona trzecia</string>
+		<string name="THIRD_PARTY_LINE">Ta aplikacja używa niektórych części dostarczonych przez osoby trzecie.</string>
+		<string name="THANKS_TO">Podziękowania dla</string>
+		<string name="ALPHABETICALLY">(alphabetically)</string>
+		<string name="SPECIAL_THANKS_TO">Specjalne podziękowania dla</string>
+		<string name="LICENSE_TERMS">Warunki licencji na oprogramowanie</string>
+		<string name="LOCALIZATION">Współtwórcy lokalizacji</string>
+		<string name="DEBUG_INFO">Informacje debugowania</string>
+		<string name="CLIENT_ID">ID klienta</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">Dołącz do społeczności $AppName$</string>
+		<string name="JOIN_DISCUSSION">Dołącz do dyskusji o $AppName$</string>
+		<string name="SUPPORT_DONATE">Wesprzyj $AppName$</string>
+		<string name="WELCOME_TO_VER">Witaj w %S</string>
+		<string name="WATCH_THE_VIDEO">Czy chcesz obejrzeć film który przedstawia zmiany w tej wersji?</string>
+		<string name="VIDEO_NOTE">Możesz zobaczyć reklame przed lub w trakcie odtwarzania wideo. Oglądająć ten film, wesprzesz $AppName$.</string>
+		<string name="NO_THANKS">Nie, dziękuje</string>
+	</RenderUI>
+</Translation>

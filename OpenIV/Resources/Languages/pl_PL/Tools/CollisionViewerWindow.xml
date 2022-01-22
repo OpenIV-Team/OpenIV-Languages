@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<CollisionViewerWindow Caption='$AppName$ Przeglądarka kolizji'>
+		<paneDictionary Caption='Dictionary entries'/>
+		<paneComposite Caption='Elementy kompozycji'/>
+		<miLeft Caption='Lewo'/>
+		<miRight Caption='Prawo'/>
+		<miCheckAll Caption='Zaznacz wszystko' />
+		<miUncheckAll Caption='Odznacz wszystko' />
+	</CollisionViewerWindow>
+	<RenderUI>
+		<!-- right side -->
+		<string name="SHOW_NORMALS">Pokaż normalne:</string>
+		<!-- left side -->
+		<string name="BOUND_TYPE">Rodzaj kolizji:</string>
+		<string name="CHILD_COUNT">Liczba dzieci:</string>	
+		<!-- help -->
+		<string name="HELP_TITLE">Przeglądarka kolizji - pomoc</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Użyj myszki aby rozglądać się dookoła, poruszaj się używając klawiszy:
+			
+    W - Do przodu
+    S - Do tyłu
+    A - W lewo
+    D - W prawo
+
+    NumPad 8 - Przesuń kamerę w górę
+    NumPad 2 - Przesuń kamerę w dół
+    NumPad 4 - Przesuń kamerę w lewo
+    NumPad 6 - Przesuń kamerę w prawo
+
+    Przytrzymaj SHIFT - Dla szybszego ruchu
+    Przytrzymaj CTRL - Dla wolniejszego ruchu
+    Użyj kółka myszy do powiększenia.
+		   
+Aby zmienić opcje renderowania, użyj linków po prawej stronie lub tych skrótów klawiszowych:
+		   
+    F1 - Przełącz pole pomocy
+    C - Przełącz tryb kamery
+    F - Przełącz edges and faces 
+    P - Przełącz display points
+    N - Przełącz normals
+    G - Przełącz geometry
+    ESC - Zamknij to okno
+	
+    Przytrzymaj H - Aby tymczasowo ukryć HUD.
+]]>
+		</text>
+	</RenderUI>
+</Translation>

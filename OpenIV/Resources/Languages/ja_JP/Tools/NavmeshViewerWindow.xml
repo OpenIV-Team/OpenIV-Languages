@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<NavmeshViewerWindow Caption='$AppName$ Nav メッシュ ビューア' />		
+	<RenderUI>
+		<string name="HELP_TITLE">Nav メッシュ ビューア - ヘルプ</string>
+		<string name="EDGES">辺:</string>
+		<string name="PORTALS">ポータル:</string>
+		<string name="BOUNDS">当たり判定:</string>
+		<string name="DISPLAY_BOUNDS">当たり判定の表示:</string>
+		<text name="HELP_TEXT">
+			<![CDATA[マウスで周りを見回すことができます。移動はキーで行います:
+			
+    W - 前へ移動
+    S - 裏へ移動
+    A - 左へ移動
+    D - 右へ移動
+
+    NumPad 8 - カメラを上へ移動
+    NumPad 2 - カメラを下へ移動
+    NumPad 4 - カメラを左へ移動
+    NumPad 6 - カメラを右へ移動
+
+    Hold SHIFT - 素早く移動
+    Hold CTRL - ゆっくり移動
+    マウスホイールでズームができます
+		   
+レンダリングオプションを変更するには、右側のリンクまたはこれらのホットキーで行います:
+		   
+    F1 - ヘルプの表示切り替え
+    C - カメラモード切り替え
+    F - 面の縁どり切り替え
+    P - 点の表示切り替え
+    N - 法線切り替え
+    G - ジオメトリ切り替え
+    ESC - ビューアを閉じる
+	
+    Hold H - HUDを一時的に非表示
+]]>
+		</text>
+	</RenderUI>
+</Translation>

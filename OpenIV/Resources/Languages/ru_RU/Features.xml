@@ -24,8 +24,9 @@
 		<btnSave Caption='Сохранить'/>
 		<btnCancel Caption='Отмена'/>
 		<btnNewFolder Caption='Создать папку'/>
+        <btnRename Caption='Переименовать'/>
 		<btnRemove Caption='Удалить'/>
-		<btnClear Caption='Очистить'/>
+		<btnClear Caption='Удалить всё'/>
 
 		<Label1 Caption='Используйте перетаскивание организовать ваше избранное.'/>
 

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PlacementSearchWindow Caption='$AppName$ 置換'>
+	</PlacementSearchWindow>
+
+	<RenderUI>
+		<string name="SEARCH_FOR_NAME">名前を検索</string>
+		<string name="SEARCH_FOR_HASH">ハッシュを検索</string>
+
+		<string name="BANNER_TEXT_NAME">名前を入力</string>
+		<string name="BANNER_TEXT_HASH">ハッシュを入力</string>
+
+		<string name="SEARCH">検索</string>
+		<string name="STOP_SEARCH">検索を終了</string>
+		<string name="INCORRECT_HASH">不正なハッシュ値</string>
+		<string name="INCORRECT_HASH_TEXT">"%S" は有効なハッシュ値ではありません。</string>
+
+		<string name="FILE_INFORMATION">ファイル情報</string>
+		<string name="SHOW_DEFINITION">IDE ファイル内の定義を表示</string>
+		<string name="SHOW_IDE">IDE ファイルを表示</string>
+		<string name="SHOW_ARCHIVE">アーカイブを表示</string>
+		<string name="SHOW_RESOURCE">リソース ファイルを表示</string>
+
+		<string name="HELP_TITLE">置換 - ヘルプ</string>
+		<text name="HELP_TEXT">
+			<![CDATA[マウスで周りを見回すことができます。移動はキーで行います:
+			
+    W - 前へ移動
+    S - 裏へ移動
+    A - 左へ移動
+    D - 右へ移動
+
+    NumPad 8 - カメラを上へ移動
+    NumPad 2 - カメラを下へ移動
+    NumPad 4 - カメラを左へ移動
+    NumPad 6 - カメラを右へ移動
+
+    Hold SHIFT - 素早く移動
+    Hold CTRL - ゆっくり移動
+
+    マウスホイールでズームができます。
+	
+    ESC - 置換ウィンドウを閉じる
+    Hold H - HUDを一時的に非表示
+]]>
+		</text>
+	</RenderUI>
+</Translation>

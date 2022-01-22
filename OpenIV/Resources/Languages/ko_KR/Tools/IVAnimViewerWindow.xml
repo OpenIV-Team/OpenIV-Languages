@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ 애니메이션 뷰어'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">애니메이션 뷰어</string>
+		<string name="START_PED">PED 애니메이션</string>
+		<string name="START_MAP">맵 애니메이션</string>
+		<string name="START_CUT">컷 씬</string>
+		<string name="CHANGE_PED_MODEL">PED 모델 변경</string>
+		<string name="SELECT_PED_MODEL">PED 모델 선택</string>
+		<string name="LOADING___">불러오는중...</string>
+		<string name="EMPTY_CUTSCENE">비어있는 컷 씬</string>
+		<string name="EMPTY_CUTSCENE_MSG">빈 컷 씬을 열 수 없습니다.</string>
+		<string name="MISSED_ANIMATIONS">누락된 애니메이션</string>
+		<string name="MISSED_ANIMATIONS_MSG">파일이 누락되었기 때문에 $AppName$에서 일부 애니메이션을 로드할 수 없습니다.</string>
+		<string name="FRAMES_">프레임: </string>
+		<string name="TIME_SCALE_X">시간 척도: x</string>
+		<string name="NO_AUDIO_FILE">소리 없음: 이 컷 장면의 오디오 파일이 없습니다.</string>
+		<!-- help -->
+		<string name="HELP_TITLE">애니메이션 뷰어 - 도움말</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Select category and then play any animation. ]]>
+		</text>
+	</RenderUI>
+</Translation>

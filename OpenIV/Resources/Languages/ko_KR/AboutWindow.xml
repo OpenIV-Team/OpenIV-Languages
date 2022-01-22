@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<AboutWindow3 Caption='About $AppName$'/>
+	<RenderUI>
+		<string name="VERSION_LABEL_2">버전 %D.%D (빌드 %D; 날짜 %S)</string>
+		<string name="VERSION_LABEL_3">버전 %D.%D.%D (빌드 %D; 날짜 %S)</string>
+		<string name="THE_TEAM">The team</string>
+		<string name="THIRD_PARTY">제 3자</string>
+		<string name="THIRD_PARTY_LINE">이 응용 프로그램은 제3자가 제공한 일부 소스를\n사용합니다.</string>
+		<string name="THANKS_TO">고마운 분들</string>
+		<string name="ALPHABETICALLY">(알파벳순으로)</string>
+		<string name="SPECIAL_THANKS_TO">고마운 분들</string>
+		<string name="LICENSE_TERMS">소프트웨어 사용 조건</string>
+		<string name="LOCALIZATION">현지화 기여자</string>
+		<string name="DEBUG_INFO">디버그 정보</string>
+		<string name="CLIENT_ID">클라이언트 아이디</string>
+
+		<!-- Community Dialog -->
+		<string name="JOIN_COMMUNITY">$AppName$ 커뮤니티 가입</string>
+		<string name="JOIN_DISCUSSION">$AppName$ 토론 참여</string>
+		<string name="SUPPORT_DONATE">$AppName$ 지원</string>
+		<string name="WELCOME_TO_VER">%S 환영합니다.</string>
+		<string name="WATCH_THE_VIDEO">이 버전의 변경 사항에 대한 영상을 보시겠습니까?</string>
+		<string name="VIDEO_NOTE">영상 재생 전이나 도중에 광고가 보일 수 있습니다. 이 영상을 보면, 당신은 $AppName$ 에 대해 지원하게 됩니다.</string>
+		<string name="NO_THANKS">안 볼래요</string>
+	</RenderUI>
+</Translation>

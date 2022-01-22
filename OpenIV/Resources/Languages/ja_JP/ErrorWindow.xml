@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<ErrorWindow Caption='$AppName$ - アプリケーション エラー'>
+		<lbWindowTitle Caption="$AppName$ で処理できない問題が発生しました。再起動してください。"/>
+		<btnCloseApp Caption='$AppName$ を終了する'/>
+		<lbReportHere Caption='リンクからエラーの報告をしてください:'/>
+		<lnkWeb1 Caption='オフィシャルサイトを訪問する'/>
+		<lnkWeb2 Caption='国際的サポート フォーラムを訪問する'/>
+		<lnkWeb3 Caption='ロシア サポート フォーラムを訪問する'/>
+		<lbText2 Caption='ツールを追加'/>
+		<tbCopyInfo Caption='エラー情報をコピー'/>
+		<tbWin7Report Caption='問題を再現するための手順を記録する' Hint=''/>
+		<AeroWindow LinesCount='6'>
+			<StringList>
+				<Item Index='0' Value='Time: '/>
+				<Item Index='1' Value='Type: '/>
+				<Item Index='2' Value='Message: '/>
+				<Item Index='3' Value='Additional information:'/>
+				<Item Index='4' Value='Additional information is missing.'/>
+				<Item Index='5' Value='Error information copied to the clipboard.'/>
+			</StringList>
+		</AeroWindow>
+	</ErrorWindow>
+</Translation>

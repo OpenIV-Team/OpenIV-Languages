@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='$AppName$ テクスチャ ツール'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ テクスチャ ビューア'/>
+				<Item Index='1' Value='$AppName$ テクスチャ エディタ'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">表示:</string>
+		<string name="EXPORT_ALL">すべてのテクスチャを出力</string>
+		<string name="EXPORT_SELECTED">選択中のテクスチャを出力</string>
+		<string name="ORIGINAL_SIZE">オリジナルサイズ</string>
+		<string name="ALPHA_BACKGROUND">背景を透過</string>
+		<string name="SIZE_">サイズ</string>
+		<string name="SEARCH_TEXTURES">テクスチャを検索</string>
+		<string name="NO_IMAGE_FOUND">テクスチャは見つかりませんでした。</string>
+
+		<string name="COPY_NAME">名前のコピー</string>
+		<string name="EXPORT">出力</string>
+		<string name="RENAME">名前の変更</string>
+		<string name="REPLACE">置換</string>
+		<string name="DELETE">削除</string>
+		<string name="RENAME_TEXTURE">テクスチャの名前の変更</string>
+		<string name="RENAME_TEXTURE_NAME">新しい名前を入力</string>
+		<string name="RENAME_TEXTURE_ERROR">そのテクスチャ名は既に存在します</string>
+		<string name="NO_IMAGE">画像なし</string>
+
+		<string name="NO_IMAGE_SELECTED">画像は選択されていません</string>
+		<string name="WIDTH">幅</string>
+		<string name="HEIGHT">高さ</string>
+		<string name="PIXEL_FORMAT">ピクセルフォーマット</string>
+		<string name="MIP_MAPS">ミップマップ</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">インポートする設定を選択</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[これらの設定は DDS ファイルをインポートした時は無視されます。
+最高品質にするためには DDS ファイルを使用してください。]]>
+		</text>
+		<string name="AUTO_MIPMAP">自動でミップマップレベルを設定する</string>
+		<string name="TEXTURES_FORMAT">テクスチャ形式 (圧縮):</string>
+		<string name="AUTOMATICALLY">自動</string>
+		<string name="IMPORT_ERROR_FILES">以下のファイルはインポートされません</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">プロパティ</string>
+		<string name="PROPERTIES_MIPMAP">ミップマップレベル:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">ピクセルフォーマット:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[警告:
+プロパティを変更すると品質が低下する場合があります。]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE"> "%S" テクスチャの設定を変更できませんでした。</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">変更を保存しますか？</string>
+
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11 は使用できません</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ は DirectX 11 デバイスを初期化できませんでした。.\nこのファイルを編集できません。</string>
+
+		<!-- help -->
+		<string name="HELP_TITLE">テクスチャ エディタ - ヘルプ</string>
+		<text name="HELP_TEXT">
+			<![CDATA[使用可能なホットキー:
+			
+    Ctrl + Tab - 表示モード切り替え
+    Ctrl + A - すべてのテクスチャを出力
+    Ctrl + S - 選択中のテクスチャを出力
+    F1 - ヘルプの表示切替
+    ESC - ビューアを閉じる
+    
+    Hold H - HUDを一時的に非表示にする
+]]>
+		</text>
+	</RenderUI>
+</Translation>

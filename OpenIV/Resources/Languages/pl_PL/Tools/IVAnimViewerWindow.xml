@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<IVAnimViewerWindow Caption='$AppName$ Przeglądarka animacji'>
+
+	</IVAnimViewerWindow>
+	<RenderUI>
+		<string name="START_TITLE">Przeglądarka animacji</string>
+		<string name="START_PED">Animacje peda</string>
+		<string name="START_MAP">Animacje mapy</string>
+		<string name="START_CUT">Cutsceny</string>
+		<string name="CHANGE_PED_MODEL">Zmień model peda</string>
+		<string name="SELECT_PED_MODEL">Wybierz model peda</string>
+		<string name="LOADING___">ładowanie...</string>
+		<string name="EMPTY_CUTSCENE">Pusta cut-scena</string>
+		<string name="EMPTY_CUTSCENE_MSG">Nie można otworzyć pustej cut-sceny.</string>
+		<string name="MISSED_ANIMATIONS">Brakujące animacje</string>
+		<string name="MISSED_ANIMATIONS_MSG">$AppName$ nie może załadować niektórych animacji, ponieważ brakuje plików.</string>
+		<string name="FRAMES_">Klatki: </string>
+		<string name="TIME_SCALE_X">Skala czasu: x</string>
+		<string name="NO_AUDIO_FILE">Brak dźwięku: brak pliku audio dla tej cutsceny</string>
+		<!-- help -->
+		<string name="HELP_TITLE">Przeglądarka animacji - pomoc</string>
+		<text name="HELP_TEXT">
+			<![CDATA[ Wybierz kategorię, a następnie odtwórz dowolną animację. ]]>
+		</text>
+	</RenderUI>
+</Translation>

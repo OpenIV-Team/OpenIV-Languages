@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='$AppName$ - 검색'>
+		<SearchBox BannerText="검색"/>
+		<btnGoSearch Caption="검색"/>
+		<lbSearchFor Caption="다음을 검색:"/>
+		<cbSearchFor>
+			<Items>
+				<Item Index="0" Value='파일 및 폴더'/>
+				<Item Index="1" Value='오디오 트랙'/>
+			</Items>
+		</cbSearchFor>
+		<lbSearchArea Caption="검색영역:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='모든 곳에서 검색'/>
+				<Item Index="1" Value="게임 폴더에서만 검색"/>
+				<Item Index="2" Value='$ModsFolder$ 폴더에서만 검색'/>
+			</Items>
+		</cbSearchArea>
+		<lbAudioSearchNote Caption="일부 오디오 트랙 이름이 검색되지 않았기 때문에 검색 결과가 제한될 수 있습니다.."/>
+		<lbStopHint Caption="검색을 중지하려면 ESC를 누르십시오."/>
+		<btnExtractResults Caption="결과 내보내기"/>
+		<btnExtractAll Caption="모든 파일 내보내기"/>
+		<btnExtractSelected Caption="선택한 파일 내보내기"/>
+		<btnGoTo Caption="파일로 이동"/>
+		<btnOpenItem Caption="열기"/>
+		<btnExtractItem Caption="내보내기"/>
+		<btnExtractSelectedItems Caption="선택한 파일 내보내기"/>
+		<btnExtractAllItems Caption="모든 파일 내보내기"/>
+		<btnSelectAllItems Caption="모두 선택"/>
+		<btnCopyName Caption="이름 복사"/>
+		<btnCopyPathName Caption="경로 복사"/>
+		<btnSaveContent Caption="콘텐츠 저장"/>
+		<btnSaveRawContent Caption="RAW 콘텐츠 저장"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='15'>
+			<StringList>
+				<Item Index='0' Value='검색'/>
+				<Item Index='1' Value='검색 중단'/>
+				<Item Index='2' Value='항목을 찾을 수 없음'/>
+				<Item Index='3' Value='(발견된 항목 %D)'/>
+				<Item Index='4' Value='선택된 항목 없음'/>
+				<Item Index='5' Value='선택됨: %D'/>
+				<Item Index='6' Value="$AppName$은(는) 파일을 열 수 없습니다."/>
+				<Item Index='7' Value="내보내기 결과가 없습니다."/>
+				<Item Index='8' Value="내보내기 전에 검색을 중지하십시오."/>
+				<Item Index='9' Value="파일: %D, 폴더: %D"/>
+				<Item Index='10' Value="파일: %D, 오디오 트랙: %D"/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>
