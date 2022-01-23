@@ -5,7 +5,7 @@
 		<string name="TITLE">$RageGAME_SHORT$ - ASI Manager</string>
 
 		<string name="RPF_NOTE">Tienes que instalar ASI Loader y el $ModsFolderAsi$ plugin de OpenIV para tu $RageGAME_SHORT$, de lo contrario el juego no cargará archivos RPF modificados.</string>
-		<string name="ONLINE_NOTE">No juegues $RageGAME_MP$ con un RPF modificado, serás baneado.</string>
+		<string name="ONLINE_NOTE">Usar modificaciones en $RageGAME_MP$ no está soportado y puede resultar en ser baneado del contenido en línea.</string>
 
 		<string name="INSTALL">Instalar</string>
 		<string name="UPDATE">Actualizar</string>

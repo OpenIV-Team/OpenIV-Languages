@@ -1,15 +1,32 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
-	<HashGeneratorWindow Caption='Generador de Hash- $AppName$'>
-		<!-- Label's -->
-		<lbOutputFormat Caption='Formato de salida:' />
-		<!-- Button's -->
-		<btnLoadFromFile Caption='Cargar desde Archivo' />
-		<btnGenerate Caption='Generar' />
-		<btnSaveToFile Caption='Guardar a un archivo' />
-		<cbCaseSensitive Caption='Distingue mayúsculas y minúsculas' />
-		<!-- Panel's -->
-		<pnlLeft Caption='Entrada:' />
-		<pnlRight Caption='Salida:' />    
-	</HashGeneratorWindow>
-</Translation>
+    <HashGeneratorWindow Caption='Generador de Hash- $AppName$'>
+        <lbHash Caption='Algoritmo de hash:' />
+        <AeroWindow LinesCount='3'>
+            <StringList>
+                <Item Index='0' Value='Por defecto'/>
+                <Item Index='1' Value='Coincidir mayúsculas con minúsculas'/>
+                <Item Index='2' Value='AWC'/>
+            </StringList>
+        </AeroWindow>
+
+        <lbOutputFormat Caption='Formato de salida:' />
+        <cbOutputFormat>
+            <Items>
+                <Item Index="0" Value="Hexadecimal"/>
+                <Item Index="1" Value="Entero sin signo"/>
+                <Item Index="2" Value="Entero con signo"/>
+            </Items>
+        </cbOutputFormat>
+
+        <lbOptions Caption='Opciones:' />
+        <cbAutoGen Caption='Generar al escribir' />
+
+        <pnlLeft Caption='Entrada:' />
+        <pnlRight Caption='Salida:' />
+
+        <btnLoadFromFile Caption='Cargar desde Archivo' Hint="Cargar las cadenas de texto de entrada desde un archivo (Ctrl + O)" />
+        <btnGenerate Caption='Generar' Hint="Generate hashes (Ctrl + G)" />
+        <btnSaveToFile Caption='Guardar a un archivo' Hint="Guardar la lista de hashes de salida a un archivo (Ctrl + S)" />
+    </HashGeneratorWindow>
+</Translation> 

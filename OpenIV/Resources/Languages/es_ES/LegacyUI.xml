@@ -84,29 +84,32 @@
 				<Item Index="71" Value='Buscar "%s" en todos los archivos'/>
 				<Item Index="72" Value="¿Realmente quieres salir de $AppName$?"/>
 			</StringList>
-		</AeroWindow>
-		<!-- Others -->
+            <StringDictionary>
+                <!-- Notification: Admin mode -->
+                <Item Key="ADMIN_MODE_TITLE" Value="Modo Administrador"/>
+                <Item Key="ADMIN_MODE_TEXT" Value="$AppName$ está funcionando en modo administrador. Algunas características como arrastrar y soltar desde el Explorador de Windows puede que no funcionen. Por lo general, usted no necesita iniciar $AppName$ en modo administrador."/>
+                <Item Key="ADMIN_MODE_ACTION" Value="¿Qué puedo hacer?"/>
+
+                <!-- Notification: "mods" folder V1 -->
+                <Item Key="MODS_FOLDER_V1_TITLE" Value="Instalar plugin para $RageGAME_SHORT$"/>
+                <Item Key="MODS_FOLDER_V1_TEXT" Value="Tienes que instalar ASI Loader y el $ModsFolderAsi$ plugin de OpenIV para tu GTA V, de lo contrario el juego no cargará archivos RPF modificados.\nNo juegues $RageGAME_MP$ con un RPF modificado, serás expulsado."/>
+                <Item Key="MODS_FOLDER_V1_ACTION" Value="ASI Manager"/>
+
+                <!-- Notification: "mods" folder V1 - editing -->
+                <Item Key="MODS_FOLDER_V1_EDITING_TITLE" Value='La carpeta de $ModsFolder$'/>
+                <Item Key="MODS_FOLDER_V1_EDITING_TEXT" Value='TEl archivo que estás editando actualmente no está localizado en la carpeta $ModsFolder$.'/>
+                <Item Key="MODS_FOLDER_V1_EDITING_SETTIGINS" Value='La capacidad de edición ha sido deshabilitada para este archivo.\nDirígete a la carpeta de $ModsFolder$, o habilita la edición en la configuración.'/>
+                <Item Key="COPY_TO_MODS_FOLDER" Value='Copiar a la carpeta $ModsFolder$'/>
+                <Item Key="SHOW_IN_MODS_FOLDER" Value='Mostrar en la carpeta $ModsFolder$'/>
+                <Item Key="CHANGE_MODS_FOLDER_V1_SETTINGS" Value="Cambiar configuraciones de la carpeta de $ModsFolder$"/>
+
+                <!-- Notification: "mods" folder V1 - update.rpf -->
+                <Item Key="MODS_FOLDER_V1_UPDATE_RPF_TITLE" Value='$RageGAME$ Actualización de Título'/>
+                <Item Key="MODS_FOLDER_V1_UPDATE_RPF_TEXT" Value='Tienes una versión desactualizada de update.rpf en tu carpeta de $ModsFolder$. Tienes que copiar la nueva versión de “update.rpf” dentro de tu carpeta de “mods”, de otra manera tu juego posiblemente deje de funcionar.'/>
+                <Item Key="MODS_FOLDER_V1_UPDATE_RPF_ACTION" Value='Copiar nueva versión a la carpeta de $ModsFolder$'/>
+            </StringDictionary>
+        </AeroWindow>
 		<SearchBox BannerText='Buscar'/>		
-		<!-- Notificacion: GTA V (ASI) -->
-		<lbGTAVPluginTitle Caption='Instalar plugin para $RageGAME_SHORT$'/>
-		<lbGTAVPluginText Caption='Tienes que instalar ASI Loader y el $ModsFolderAsi$ plugin de OpenIV para tu GTA V, de lo contrario el juego no cargará archivos RPF modificados.\nNo juegues $RageGAME_MP$ con un RPF modificado, serás baneado.'/>
-		<btnGTAVPluginAction Caption="ASI Manager"/>
-		<!-- Notification: copy to mods folder -->
-		<lbNotInModsTitle Caption='La carpeta de $ModsFolder$'/>
-		<lbNotInModsText Caption='El archivo que estas editando actualmente no está localizado en la carpeta $ModsFolder$.'/>
-		<btnHideThisNotification Caption="Esconder esta notificación."/>
-		<btnCopyToMods Caption='Copiar a la carpeta $ModsFolder$'/>
-		<btnShowInMods Caption='Mostrar en la carpeta $ModsFolder$'/>
-		<btnChangeModsFolderSettings Caption="Cambiar configuraciones de la carpeta de $ModsFolder$"/>
-		<!-- Notification: update.rpf -->
-		<lbCopyNewUpdateToModsTitle Caption='$RageGAME$ Actualización de Título'/>
-		<lbCopyNewUpdateToMods Caption='Tienes una versión desactualizada de update.rpf en tu carpeta de $ModsFolder$. Tienes que copiar la nueva versión de “update.rpf” dentro de tu carpeta de “mods”, de otra manera tu juego posiblemente deje de funcionar.'/>
-		<btnCopyUpdateToMods Caption='Copiar nueva versión a la carpeta de $ModsFolder$'/>
-		<!-- Notification: Admin mode -->
-		<lbAdminModeTitle Caption='Modo Administrador'/>
-		<lbAdminModeText Caption='$AppName$ está funcionando en modo administrador. Algunas características como arrastrar y soltar desde el Explorador de Windows puede que no funcionen. Usualmente, usted no necesita iniciar $AppName$ en modo administrador.'/>
-		<btnAdminModeAction Caption='¿Qué puedo hacer?'/>
-		<!-- Search tasks -->
 		<taskClearSearchFilter Caption='Limpiar filtro de busqueda'/>
 	</MainWindow>	
 
@@ -281,7 +284,10 @@
 				<Item Index="56" Value="Ascendente"/>
 				<Item Index="57" Value="Descendente"/>
 			</Lines>
-		</Strings>
+
+		<Dictionary>
+		</Dictionary>
+	</Strings>
 	</ActionsModule>
 
 	<EditModeHelpWindow Caption='Modo Edición - $AppName$'>

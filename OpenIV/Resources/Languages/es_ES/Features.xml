@@ -25,7 +25,7 @@
 		<btnCancel Caption='Cancelar'/>
 		<btnNewFolder Caption='Nueva carpeta'/>
 		<btnRemove Caption='Quitar'/>
-		<btnClear Caption='Limpiar'/>
+		<btnClear Caption='Remover todos'/>
 
 		<Label1 Caption='Usa arrastrar y soltar para organizar tus favoritos.'/>
 

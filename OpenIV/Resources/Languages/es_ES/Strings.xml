@@ -49,6 +49,7 @@
 		<Item Index='45' Value='$AppName$ es incapaz de abrir este archivo. Código de error: %s'/>
 		<Item Index='46' Value='$AppName$ es incapaz de abrir el Paquete OIV dentro del archivo del juego.'/>
 	</StringList>
+	<Dictionary/>
 	<tools>
 		<item Name="Tools.Common.RunGame" Title="Abrir $RageGAME_SHORT$" Hint="Abrir $RageGAME$"/>
 		<item Name="Tools.Common.Search" Title="Búsqueda Global" Hint="Abrir Búsqueda Global"/>
