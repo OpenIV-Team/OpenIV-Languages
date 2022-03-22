@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<SearchWindow Caption='Search - $AppName$'>
+		<SearchBox BannerText="Search"/>
+		<btnGoSearch Caption="Search"/>
+		<lbSearchFor Caption="Search for:"/>
+		<cbSearchFor>
+			<Items>
+				<Item Index="0" Value='Files and folders'/>
+				<Item Index="1" Value='Audio tracks'/>
+			</Items>
+		</cbSearchFor>
+		<lbSearchArea Caption="Search area:"/>
+		<cbSearchArea>
+			<Items>
+				<Item Index="0" Value='Search everywhere'/>
+				<Item Index="1" Value="Search in game folder only"/>
+				<Item Index="2" Value='Search in $ModsFolder$ folder only'/>
+			</Items>
+		</cbSearchArea>
+		<lbAudioSearchNote Caption="The search results might be limited because not all audio track names were discovered."/>
+		<lbStopHint Caption="To stop searching press ESC"/>
+		<btnExtractResults Caption="Extract results"/>
+		<btnExtractAll Caption="Extract all files"/>
+		<btnExtractSelected Caption="Extract selected files"/>
+		<btnGoTo Caption="Go to file"/>
+		<btnOpenItem Caption="Open"/>
+		<btnExtractItem Caption="Extract"/>
+		<btnExtractSelectedItems Caption="Extract selected files"/>
+		<btnExtractAllItems Caption="Extract all files"/>
+		<btnSelectAllItems Caption="Select all"/>
+		<btnCopyName Caption="Copy name"/>
+		<btnCopyPathName Caption="Copy path"/>
+		<btnSaveContent Caption="Save content"/>
+		<btnSaveRawContent Caption="Save raw content"/>
+		<!-- String's -->
+		<AeroWindow LinesCount='15'>
+			<StringList>
+				<Item Index='0' Value='Search'/>
+				<Item Index='1' Value='Stop search'/>
+				<Item Index='2' Value='No items found'/>
+				<Item Index='3' Value='(%D items found)'/>
+				<Item Index='4' Value='No selected items'/>
+				<Item Index='5' Value='Selected: %D'/>
+				<Item Index='6' Value="$AppName$ can't open file."/>
+				<Item Index='7' Value="No results for extracting."/>
+				<Item Index='8' Value="Please, stop search before extracting."/>
+				<Item Index='9' Value="Files: %D, Folders: %D"/>
+				<Item Index='10' Value="Files: %D, Audio Tracks: %D"/>
+			</StringList>
+		</AeroWindow>
+	</SearchWindow>
+</Translation>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<PackageInstallerWindow2 Caption='Package Installer - $AppName$' />
+
+	<RenderUI>
+		<string name="PACKAGE_INSTALLER">Package installer</string>
+		<string name="INSTALL">Install</string>
+		<string name="INSTALLING">Installing</string>
+		<string name="DESCRIPTION">Description</string>
+		<string name="ADDITIONAL_INFORMATION">Additional information</string>
+		<string name="GREATED_BY">Created by</string>
+		<string name="SUPPORTED_GAMES">Supported games</string>
+		<string name="VERSION">Version</string>
+		<string name="LICENCE">License</string>
+		<string name="VIEW_LICENCE">View license</string>
+		<string name="LEARN_MORE">Learn more</string>
+		<string name="LINK_HOMEPAGE">Homepage</string>
+		<string name="LINK_FACEBOOK">Facebook</string>
+		<string name="LINK_TWITTER">Twitter</string>
+		<string name="LINK_YOUTUBE">YouTube</string>
+
+		<string name="SELECT_CONTENT">Select content to install</string>
+		<string name="SELECT_LOCATION">Select location to install</string>
+		<string name="LOCATION_MODS_FOLDER">$ModsFolder$ folder</string>
+		<string name="LOCATION_MODS_FOLDER_TEXT">Install this mod into $ModsFolder$ folder</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_GAME">This package cannot be installed into $ModsFolder$ folder because $ModsFolder$ does not supported by current game ($RageGAME$).</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE_FORMAT">This package cannot be installed into $ModsFolder$ folder because $ModsFolder$ does not supported by package format.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_SUPPORTED_BY_PACKAGE">This package cannot be installed into $ModsFolder$ folder because it does not affect any RPF archives.</string>
+		<string name="LOCATION_MODS_FOLDER_NOT_INSTALLED">This package cannot be installed into $ModsFolder$ folder because $ModsFolderAsi$ is not installed.</string>
+		<string name="LOCATION_GAME_FOLDER">Game folder</string>
+		<string name="LOCATION_GAME_FOLDER_TEXT">Install this mod directly into the game folder</string>
+		<string name="LOCATION_GAME_FOLDER_NOT_ALLOWED">This package cannot be installed into the game folder because it is disabled in $ModsFolder$ folder settings.</string>
+
+		<string name="CONFIRM_INSTALLATION_TITLE">Confirm installation</string>
+		<string name="CONFIRM_INSTALLATION_NOTE">Please review the information below and confirm installation.</string>
+		<string name="PACKAGE_NAME_">Package:</string>
+		<string name="INSTALL_LOCATION_">Install location:</string>
+		<string name="GAME_PATH_">Game path:</string>
+		<string name="CONFIRM_INSTALLATION_ACTION">Confirm installation</string>
+		<string name="ALWAYS_SHOW_CONFIRM_INSTALL_DIALOG">Always show this dialog</string>
+
+		<string name="INSTALLATION_SUCCEEDED">Installation succeeded</string>
+		<string name="RUN_GAME">Run $RageGAME$</string>
+		<string name="RUN_GAME_TEXT">Run game and check what you just got</string>
+
+		<string name="INSTALLATION_FAILED">The installation failed</string>
+
+		<string name="LOADING_ERROR_TITLE">Error loading package</string>
+		<string name="READING_ERROR_TITLE">Error reading package file</string>
+		<string name="INSTALLING_ERROR_TITLE">Package installation error</string>
+
+		<string name="ERROR_GROUP_UNKNOWN">Unknown error</string>
+		<string name="ERROR_GROUP_FATAL">Fatal error</string>
+		<string name="ERROR_CODE_UNKNOWN">Something happened. Please check log file for error details.</string>
+		<string name="ERROR_INSTALLATION">A fatal error occurred during installation. Please check log file for error details.</string>
+		<string name="ERROR_MSXML">MSXML is not installed. It is required to use Package Installer.</string>
+		<string name="ERROR_NO_LOG_FILE">Package Installer is unable to create log file. Restart your PC and try again. If issue still persist check your antivirus software.</string>
+		<string name="CHECK_LOG_FILE">Please check log file for error details.</string>
+
+		<string name="OPEN_INSTALLATION_LOG">Open installation log</string>
+		<string name="OPEN_LOG_FILE">Open log file</string>
+
+		<!-- LOADING -->
+		<string name="LOADING_ERROR_NOT_VALID_ZIP_FILE">Package file is not valid ZIP file.</string>
+		<string name="LOADING_ERROR_NOT_SUPPORTED_ZIP_COMPRESSION_METHOD">The compression method of this ZIP file is not supported.</string>
+		<string name="LOADING_ERROR_FILE_UNKNOWN_EXTENSION">Unknown file extension. Package file must be .oiv or .zip.</string>
+		<string name="LOADING_ERROR_FILE_NO_ACCESS">Cannot access package file. Make sure it is not used by another process.</string>
+		<string name="LOADING_ERROR_FILE_NOT_EXISTS">Package file does not exist.</string>
+		<string name="LOADING_ERROR_UNABLE_TO_OPEN_FILE">Unable to open package file.</string>
+
+		<!-- READING -->
+		<string name="READING_ERROR_ASSEMBLY_NOT_EXISTS">Unable to find "assembly.xml" file in this package. Probable file is not $AppName$ Package or file corrupted.</string>
+		<string name="READING_ERROR_BAD_ASSEMBLY_XML">Unable to read "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_UNKNOWN_ASSEMBLY_XML">Unknown format of "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_UNSUPPORTED_VERSION">This package can’t be installed with your version of $AppName$.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_NOT_FOUND">The "metadata" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_METADATA_CORRUPTED">The metadata information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_XML_CORRUPTED">The "assembly.xml" have invalid XML format or corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_BAD_PACKAGE_ID">Unable to read package Id from "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_NOT_FOUND">The "colors" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_ASSEMBLY_COLORS_CORRUPTED">The colors information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_CORRUPTED">The content information is missed or corrupted in "assembly.xml".</string>
+		<string name="READING_ERROR_ASSEMBLY_CONTENT_NOT_FOUND">The "content" tag is missed in "assembly.xml", probable file is corrupted.</string>
+		<string name="READING_ERROR_PACKAGE_CONTENT_NOT_FOUND">Unable to find "content" folder in this package. Probable file is not $AppName$ Package or file corrupted.</string>
+
+		<!-- INSTALLING -->
+		<string name="INSTALLING_ERROR_CURRENT_GAME_NOT_SUPPORTED">This package cannot be installed into $RageGAME$. Please check supported games list in additional information section.</string>
+		<string name="INSTALLING_ERROR_MISSING_FILES_IN_PACKAGE">Some files are missing in the package archive. Please contact package author.</string>
+		<string name="INSTALLING_ERROR_INCORRECT_FILE_PATH">Some files have incorrect ingame path. Please contact package author.</string>
+		<string name="INSTALLING_ERROR_ANOTHER_INSTALLER">Another package installation is currently in progress. Please wait for it to finish before trying again.</string>
+
+		<!-- Notes -->
+		<string name="INSTALL_NOTE_NO_UNINSTALL">This package cannot be uninstalled automatically.</string>
+
+	</RenderUI>
+</Translation>

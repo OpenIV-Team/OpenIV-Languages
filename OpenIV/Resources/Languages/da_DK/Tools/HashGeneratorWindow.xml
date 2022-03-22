@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+    <HashGeneratorWindow Caption='Hash Generator - $AppName$'>
+        <lbHash Caption='Hash algorithm:' />
+        <AeroWindow LinesCount='3'>
+            <StringList>
+                <Item Index='0' Value='Default'/>
+                <Item Index='1' Value='Case Sensitive'/>
+                <Item Index='2' Value='AWC'/>
+            </StringList>
+        </AeroWindow>
+        
+        <lbOutputFormat Caption='Output format:' />
+        <cbOutputFormat>
+            <Items>
+                <Item Index="0" Value="Hex"/>
+                <Item Index="1" Value="Unsigned int"/>
+                <Item Index="2" Value="Signed int"/>
+            </Items>
+        </cbOutputFormat>
+        
+        <lbOptions Caption='Options:' />
+        <cbAutoGen Caption='Generate on typing' />
+        
+        <pnlLeft Caption='Input:' />
+        <pnlRight Caption='Output:' />
+        
+        <btnLoadFromFile Caption='Load from File' Hint="Load input strings list from file (Ctrl + O)" />
+        <btnGenerate Caption='Generate' Hint="Generate hashes (Ctrl + G)" />
+        <btnSaveToFile Caption='Save to File' Hint="Save output hash list to file (Ctrl + S)" />
+    </HashGeneratorWindow>
+</Translation>

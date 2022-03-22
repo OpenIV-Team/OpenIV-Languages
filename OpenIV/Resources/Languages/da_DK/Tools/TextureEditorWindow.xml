@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Translation>
+	<TextureEditorWindow Caption='$AppName$ Texture tool'>
+		<!-- String's -->
+		<AeroWindow LinesCount='10'>
+			<StringList>
+				<Item Index='0' Value='$AppName$ Texture viewer'/>
+				<Item Index='1' Value='$AppName$ Texture editor'/>
+			</StringList>
+		</AeroWindow>
+	</TextureEditorWindow>
+	<RenderUI>
+		<string name="VIEW_">View:</string>
+		<string name="EXPORT_ALL">Export all textures</string>
+		<string name="EXPORT_SELECTED">Export selected</string>
+		<string name="ORIGINAL_SIZE">Original size</string>
+		<string name="ALPHA_BACKGROUND">Alpha background</string>
+		<string name="SIZE_">Size:</string>
+		<string name="SEARCH_TEXTURES">Search textures</string>
+		<string name="NO_IMAGE_FOUND">No textures found</string>
+
+		<string name="COPY_NAME">Copy name</string>
+		<string name="EXPORT">Export</string>
+		<string name="RENAME">Rename</string>
+		<string name="REPLACE">Replace</string>
+		<string name="DELETE">Delete</string>
+		<string name="RENAME_TEXTURE">Rename texture</string>
+		<string name="RENAME_TEXTURE_NAME">Enter new name</string>
+		<string name="RENAME_TEXTURE_ERROR">Texture with this name already exist.</string>
+		<string name="NO_IMAGE">No image</string>
+
+		<string name="NO_IMAGE_SELECTED">No image selected</string>
+		<string name="WIDTH">Width</string>
+		<string name="HEIGHT">Height</string>
+		<string name="PIXEL_FORMAT">Pixel Format</string>
+		<string name="MIP_MAPS">MipMaps</string>
+
+		<!-- Import dialog -->
+		<string name="CHOOSE_IMPORT_OPTIONS">Choose import options</string>
+		<text name="IMPORT_QUALITY_NOTE">
+			<![CDATA[Those options will be ignored while importing DDS files.
+Use DDS files for getting best quality.]]>
+		</text>
+		<string name="AUTO_MIPMAP">Automatically generate MipMap levels</string>
+		<string name="TEXTURES_FORMAT">Textures format (compression):</string>
+		<string name="AUTOMATICALLY">Automatically</string>
+		<string name="IMPORT_ERROR_FILES">The following files are not imported</string>
+
+		<!-- Properties dialog -->
+		<string name="PROPERTIES">Properties</string>
+		<string name="PROPERTIES_MIPMAP">MipMap levels:</string>
+		<string name="PROPERTIES_PIXEL_FORMAT">Pixel format:</string>
+		<text name="PROPERTIES_MOTE">
+			<![CDATA[Warning:
+Quality can be lost while properties changing.]]>
+		</text>
+		<string name="PROPERTIES_NOT_AVAILABLE">Unable to edit "%S" texture properties.</string>
+
+		<!-- Save changes dialog -->
+		<string name="SAVE_CHANGES_">Do you want to save changes?</string>
+
+		<!-- DirectX 10/11 -->
+		<string name="DX11_NOT_INIT_TITLE">DirectX 11 is not available</string>
+		<string name="DX11_NOT_INIT_TEXT">$AppName$ is unable to initialize DirectX 11 device.\nEditing features is not available for this file.</string>
+
+		<!-- help -->
+		<string name="HELP_TITLE">Texture editor - help</string>
+		<text name="HELP_TEXT">
+			<![CDATA[Available hotkeys:
+			
+    Ctrl + Tab - Toggle view mode
+    Ctrl + A - Export all textures
+    Ctrl + S - Export selected textures
+    F1 - Toggle this help box
+    ESC - Close this viewer window
+    
+    Hold H - For temporarily hide HUD
+]]>
+		</text>
+	</RenderUI>
+</Translation>
