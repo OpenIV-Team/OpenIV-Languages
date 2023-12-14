@@ -23,9 +23,8 @@
     S - Move indietro
     A - Move sinistra
     D - Move destra
-
-	Dal Tastierino Numerico
-    NumPad 8 - Muovi camera su
+	
+	NumPad 8 - Muovi camera su
     NumPad 2 - Muovi camera giù
     NumPad 4 - Muovi camera sinistra
     NumPad 6 - Muovi camera destra
@@ -36,15 +35,15 @@
 		   
 Per modificare le opzioni di rendering, utilizza i collegamenti nella parte destra o questi tasti di scelta rapida:
 
-     F1 - Apre questa finestra di aiuto
-     C - Cambia il tipo della camera
-     F - Mostra/nascondi bordi dei poligoni
-     P - Mostra/nascondi i punti di visualizzazione
-     N - Mostra/nascondi normali
-     G - Mostra/nascondi la geometria
-     ESC - Chiudi la finestra del visualizzatore
-
-     Tieni premuto H - Per nascondere temporaneamente l'HUD(interfaccia utente)
+	F1 - Apre questa finestra di aiuto
+	C - Cambia il tipo della camera
+	F - Mostra/nascondi bordi dei poligoni
+	P - Mostra/nascondi i punti di visualizzazione
+	N - Mostra/nascondi normali
+	G - Mostra/nascondi la geometria
+	ESC - Chiudi la finestra del visualizzatore
+	
+	Tieni premuto H - Per nascondere temporaneamente l'HUD(interfaccia utente)
 ]]>
 		</text>
 	</RenderUI>

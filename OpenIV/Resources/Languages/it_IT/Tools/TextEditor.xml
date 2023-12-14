@@ -30,7 +30,7 @@
 		<string name="EXPORT_HTML">Esporta testo formattato (*.html)</string>
 
 		<!-- Ribbon -->
-		<string name="TAB_HOME">🏠</string>
+		<string name="TAB_HOME">Home</string>
 		<string name="TAB_SEARCH">Trova</string>
 		<string name="WORD_WRAP">Sposta Parole</string>
 		<string name="SHOW_SPECIAL_CHARS">Mostra caratteri speciali</string>
@@ -42,7 +42,8 @@
 		<string name="SEARCH_ALL_HINT">Trova tutto</string>
 		<string name="SEARCH_SET_SELECTION_AREA">Imposta selezione</string>
 		<string name="GOTO_LINE">Vai alla riga</string>
-
+		<string name="CHECK_XML_SYNTAX">Controlla la sintassi XML</string>												   
+		
 		<!-- Flyouts -->
 		<string name="SEARCH_MODE">Modalità di ricerca</string>
 		<string name="SEARCH_MODE_NORMAL">Normale</string>
@@ -66,5 +67,12 @@
 		<string name="GOTO_LINE_PROMT">Inserisci il numero della riga:</string>
 		<string name="GOTO_LINE_NOTE">Digita + o - insieme a un numero per spostarti rispetto alla posizione corrente. Esempio: se digiti +4 e dai inivo, andrai avanti di quattro righe.</string>
 		<string name="GO">Vai</string>
+		<string name="GO">Vai</string>
+		<string name="XML_SYNTAX">Sintassi XML</string>
+		<string name="XML_NO_ERROR_DETECTED">Nessun errore rilevato.</string>
+		<string name="XML_PARSING_ERROR_AT_LINE">Errore di analisi XML alla riga %D, colonna %D:</string>
+		<string name="XML_CONTINUE_ANYWAY">Continua comunque</string>
+		<string name="XML_IGNORE_AND_SAVE">Ignora l'errore e salva il file</string>
+		<string name="XML_BACK_TO_EDITOR">Torna all'editor</string>
 	</RenderUI>
 </Translation>

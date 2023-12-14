@@ -24,6 +24,7 @@
 		<btnSave Caption='Salva'/>
 		<btnCancel Caption='Elimina'/>
 		<btnNewFolder Caption='Nuova Cartella'/>
+		<btnRename Caption='Rinomina'/>
 		<btnRemove Caption='Rimuovi'/>
 		<btnClear Caption='Pulisci'/>
 

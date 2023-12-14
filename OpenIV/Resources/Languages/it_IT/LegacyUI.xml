@@ -84,31 +84,36 @@
 				<Item Index="71" Value='Cerca "%s" in tutti gli archivi'/>
 				<Item Index="72" Value="Vuoi davvero uscire da $AppName$?"/>
 			</StringList>
-		</AeroWindow>
-		<!-- Others -->
-		<SearchBox BannerText="Filtri"/>
-		<!-- Notification: GTA V (ASI) -->
-		<lbGTAVPluginTitle Caption="Installa plug-in per $RageGAME_SHORT$"/>
-		<lbGTAVPluginText Caption="Devi installare ASI Loader e $ModsFolderAsi$ plugin per $RageGAME_SHORT$, altrimenti il ​​gioco non caricherà l'archivio RPF modificato. \nNon Giocare a $RageGAME_MP$ con RPF modificati, altrimenti verrai bannato."/>
-		<btnGTAVPluginAction Caption="Gestione ASI"/>
-		<!-- Notification: copy to mods folder -->
-		<lbNotInModsTitle Caption='La cartella $ModsFolder$'/>
-		<lbNotInModsText Caption="L'archivio che stai modificando non si trova nella cartella $ModsFolder$."/>
-		<lbEditModeDisabledDueToModsFolder Caption='Le funzionalità di modifica sono state disabilitate per questo archivio.\nNaviga fino alla cartella $ModsFolder$, o consenti la modifica nelle impostazioni.'/>
-		<btnCopyToMods Caption='Copia nella cartella $ModsFolder$'/>
-		<btnShowInMods Caption='Mostra nella cartella $ModsFolder$'/>
-		<btnChangeModsFolderSettings Caption="Cambia le impostazioni della cartella $ModsFolder$"/>
-		<!-- Notification: update.rpf -->
-		<lbCopyNewUpdateToModsTitle Caption='Aggiornamento di $RageGAME$'/>
-		<lbCopyNewUpdateToMods Caption='la versione di update.rpf nella cartella $ModsFolder$ è obsoleta. Devi copiare la nuova versione di"update.rpf" nella tua cartella $ModsFolder$, altrimenti il ​​gioco potrebbe bloccarsi o chiudersi..'/>
-		<btnCopyUpdateToMods Caption='copiare la nuova versione nella cartella $ModsFolder$'/>
-		<!-- Notification: Admin mode -->
-		<lbAdminModeTitle Caption='Modalità amministratore'/>
-		<lbAdminModeText Caption='Il tuo $AppName$ è in esecuzione con i privilegi di amministratore. Alcune funzionalità come il trascinamento della selezione da Esplora file di Windows potrebbero non funzionare. Di solito, non è necessario eseguire $AppName$ con i privilegi di amministratore.'/>
-		<btnAdminModeAction Caption='Cosa posso fare?'/>
-		<!-- Search tasks -->
-		<taskClearSearchFilter Caption='Pulisci i filtri di ricerca'/>
-	</MainWindow>
+
+            <StringDictionary>
+                <!-- Notification: Admin mode -->
+                <Item Key="ADMIN_MODE_TITLE" Value="Modalità amministratore"/>
+                <Item Key="ADMIN_MODE_TEXT" Value="Il tuo $AppName$ è in esecuzione con privilegi di amministratore. Alcune funzionalità come il trascinamento della selezione da Esplora file di Windows potrebbero non funzionare. Di solito, non è necessario eseguire $AppName$ con privilegi di amministratore."/>
+                <Item Key="ADMIN_MODE_ACTION" Value="Cosa posso fare?"/>
+
+                <!-- Notification: "mods" folder V1 -->
+                <Item Key="MODS_FOLDER_V1_TITLE" Value="Installa plugin per $RageGAME_SHORT$"/>
+                <Item Key="MODS_FOLDER_V1_TEXT" Value="Devi installare ASI Loader e il plugin $ModsFolderAsi$ per $RageGAME_SHORT$, altrimenti il gioco non caricherà l'archivio RPF modificato.\nL'uso delle modifiche in $RageGAME_MP$ non è supportato e potrebbe comportare l'esclusione dai contenuti online."/>
+                <Item Key="MODS_FOLDER_V1_ACTION" Value="ASI Manager"/>
+
+                <!-- Notification: "mods" folder V1 - editing -->
+                <Item Key="MODS_FOLDER_V1_EDITING_TITLE" Value='La cartella $ModsFolder$'/>
+                <Item Key="MODS_FOLDER_V1_EDITING_TEXT" Value="L'archivio che stai attualmente modificando non si trova nella cartella $ModsFolder$."/>
+                <Item Key="MODS_FOLDER_V1_EDITING_SETTIGINS" Value='Le funzionalità di modifica sono state disabilitate per questo archivio.\nVai alla cartella $ModsFolder$ o consenti la modifica nelle impostazioni.'/>
+                <Item Key="COPY_TO_MODS_FOLDER" Value='Copia nella cartella $ModsFolder$'/>
+                <Item Key="SHOW_IN_MODS_FOLDER" Value='Mostra nella cartella $ModsFolder$'/>
+                <Item Key="CHANGE_MODS_FOLDER_V1_SETTINGS" Value="Modifica le impostazioni della cartella $ModsFolder$"/>
+
+                <!-- Notification: "mods" folder V1 - update.rpf -->
+                <Item Key="MODS_FOLDER_V1_UPDATE_RPF_TITLE" Value='$RageGAME$ Aggiornamento titolo'/>
+                <Item Key="MODS_FOLDER_V1_UPDATE_RPF_TEXT" Value='Hai una versione obsoleta di update.rpf nella cartella $ModsFolder$. Devi copiare la nuova versione di "update.rpf" nella cartella $ModsFolder$, altrimenti il gioco potrebbe crashare.'/>
+                <Item Key="MODS_FOLDER_V1_UPDATE_RPF_ACTION" Value='Copia la nuova versione nella cartella $ModsFolder$'/>
+            </StringDictionary>
+        </AeroWindow>
+        <!-- Filter -->
+		<SearchBox BannerText="Filtro"/>
+		<taskClearSearchFilter Caption='Cancella filtro di ricerca'/>
+    </MainWindow>
 
 	<ActionsModule>
 		<!-- Main Menu -->
@@ -125,6 +130,7 @@
 		<mmFilter Caption="Filtri"/>
 		<!-- Main Menu : View -->
 		<mmLayout Caption="Layout"/>
+		<mmSortBy Caption="Filtra per"/>
 		<mmGroupBy Caption="Raggruppa per"/>
 		<mmGoto Caption="Vai a"/>
 		<!-- Main Menu : View -->
@@ -277,7 +283,12 @@
 				<Item Index="53" Value="Sei sicuro di voler eliminare definitivamente questa cartella?"/>
 				<Item Index="54" Value="Elimina più elementi"/>
 				<Item Index="55" Value="Sei sicuro di voler eliminare definitivamente questi %d elementi?"/>
+				<Item Index="56" Value="Crescente"/>
+				<Item Index="57" Value="Decrescente"/>
 			</Lines>
+			
+			<Dictionary>
+            </Dictionary>
 		</Strings>
 	</ActionsModule>
 
@@ -306,19 +317,6 @@
 		</AeroWindow>
 	</AdminModeWindow>
 
-	<!-- Web window -->
-
-	<webWindow Caption="$WebName$ - ">
-		<!-- Button's -->
-		<btnClose Caption="Chiudi"/>
-		<!-- Strings -->
-		<AeroWindow LinesCount="1">
-			<StringList>
-				<Item Index="0" Value="Termini di utilizzo e politica sulla privacy"/>
-			</StringList>
-		</AeroWindow>
-	</webWindow>
-
 	<!-- Configuration -->
 
 	<ConfigWindow Caption="$AppName$ - Impostazioni">
@@ -334,6 +332,7 @@
 		<ttRageExe Caption="Affinché $AppName$ funzioni correttamente, la cartella specificata deve contenere $RageEncryptionStorage$"/>
 		<!-- General -->
 		<tabMain Caption="Generale"/>
+		<cbShowSelectGameDialog Caption="Mostra la finestra 'Seleziona il gioco predefinito' all'avvio"/>		
 		<lbDefaultGame Caption="Seleziona il gioco predefinito"/>
 		<lbWorkMode Caption="Modalità di lavoro predefinita"/>
 		<WorkMode>
@@ -354,6 +353,7 @@
 		<tbFileAssociation Caption="Cambia le associazioni dei file"/>
 		<cbDisplayExitConfirmationDialog Caption="Mostra la finestra di dialogo di conferma all'uscita"/>
 		<cbStartWithLocationFromLastSession Caption="Avvia $AppName$ nella posizione dell'ultima sessione"/>
+		<cbAlwaysOnExtendedContextMenu Caption="Apri sempre il menu contestuale esteso per gli elementi nella finestra principale"/>
 		<!-- "mods" folder -->
 		<tabModsFolder Caption="Cartella $ModsFolder$"/>
 		<lbModsFolderText Caption="In questa pagina puoi cambiare le impostazioni relative alla cartella $ModsFolder$ folder."/>
@@ -388,6 +388,7 @@
 			</Items>
 		</cbMultichannelAudioPlayback>
 		<lbMultichannelNote Caption="Nota: assicurati che il tuo sistema sia in grado di riprodurre il suono surround, altrimenti non ascolterai gran parte del contenuto audio."/>
+		<cbPackageInstallerShowConfirmInstallDialog Caption="Mostra la finestra di dialogo di conferma dell'installazione nel programma di installazione del pacchetto"/>
 		<!-- openFormats -->
 		<tabFormats Caption="openFormats"/>
 		<lbDefTextureFormat Caption="Formato file texture predefinito"/>

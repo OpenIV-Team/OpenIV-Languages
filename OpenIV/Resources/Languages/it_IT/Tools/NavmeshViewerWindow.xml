@@ -10,33 +10,30 @@
 		<text name="HELP_TEXT">
 			<![CDATA[Usa il mouse per guardarti intorno, muoviti usando questi tasti:
 
-    W - vai avanti
-    S - Torna indietro
-    A - Spostati a sinistra
-    D - Vai a destra
-
-    Dal tastierino numerico
-    NumPad 8 - Muovi la camera verso l'alto
-    NumPad 2 - Muovi la camera verso il basso
-    NumPad 4 - Muovi la camera verso sinistra
-    NumPad 6 - Muovi la camera verso destra
-
-    Tieni premuto SHIFT - per movimenti più veloci
-    Tieni premuto CTRL - Per movimenti più lenti
-    Usa la rotellina del mouse per lo zoom.
+	W - vai avanti
+	S - Torna indietro
+	A - Spostati a sinistra
+	D - Vai a destra
+	
+	NumPad 8 - Muovi la camera verso l'alto
+	NumPad 2 - Muovi la camera verso il basso
+	NumPad 4 - Muovi la camera verso sinistra
+	NumPad 6 - Muovi la camera verso destra
+	
+	Tieni premuto SHIFT - per movimenti più veloci
+	Tieni premuto CTRL - Per movimenti più lenti
+	Usa la rotellina del mouse per lo zoom.
 
 Per modificare le opzioni di rendering, utilizza i collegamenti nella parte destra o questi tasti di scelta rapida:
 
-    F1 - Apre questa finestra di aiuto
-    F2 - Mostra ulteriori informazioni
-    C - Cambia il tipo della camera
-    F - Mostra/nascondi linee
-    P - Mostra/nascondi punti
-    G - Mostra/nascondi geometria
-    L - Cambia livello di dettaglio
-    ESC - Chiude la finestra del visualizzatore
+	F1 - Mostra/Nascondi questa finestra di aiuto
+    C - Cambia il tipo della camera
+	F - Mostra/nascondi linee
+	P - Mostra/nascondi punti
+	G - Mostra/nascondi geometria
+	ESC - Chiude la finestra del visualizzatore
 
-    Tieni premuto H - Per nascondere temporaneamente l'HUD
+    Tieni premuto H - Per nascondere temporaneamente l'HUD
 ]]>
 		</text>
 	</RenderUI>

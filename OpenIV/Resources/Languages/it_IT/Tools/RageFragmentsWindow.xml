@@ -2,10 +2,10 @@
 <Translation> 
 	<RageFragmentsWindow Caption='$AppName$ Visualizzatore modelli'> 
 		<paneHierarchy Caption='Gerarchia'/>
-		<pmiHigh Caption='Alto'/>
-		<pmiMed Caption='Medio'/>
-		<pmiLow Caption='Basso'/>
-		<pmiVLow Caption='Molto basso'/>
+		<pmiHigh Caption='Alto (Alto)'/>
+		<pmiMed Caption='Medio (Medio)'/>
+		<pmiLow Caption='Basso (Basso)'/>
+		<pmiVLow Caption='Molto basso (Mbasso)'/>
 		<miLeft Caption='Sinistra'/>
 		<miRight Caption='Destra'/>
 		<AeroWindow LinesCount='1'>
@@ -24,36 +24,35 @@
 		<string name="PLAY_BACKWARDS">Riproduci indietro</string>
 		<text name="HELP_TEXT">
 			<![CDATA[Usa il mouse per guardarti intorno, muoviti usando questi tasti:
-
-    W - vai avanti
-    S - Torna indietro
-    A - Spostati a sinistra
-    D - Vai a destra
-
-    Dal tastierino numerico
-    NumPad 8 - Muovi la camera verso l'alto
-    NumPad 2 - Muovi la camera verso il basso
-    NumPad 4 - Muovi la camera verso sinistra
-    NumPad 6 - Muovi la camera verso destra
-
-    Tieni premuto SHIFT - per movimenti più veloci
-    Tieni premuto CTRL - Per movimenti più lenti
-    Usa la rotellina del mouse per lo zoom.
+	
+	W - vai avanti
+	S - Torna indietro
+	A - Spostati a sinistra
+	D - Vai a destra
+	
+	NumPad 8 - Muovi la camera verso l'alto
+	NumPad 2 - Muovi la camera verso il basso
+	NumPad 4 - Muovi la camera verso sinistra
+	NumPad 6 - Muovi la camera verso destra																							
+	
+	Tieni premuto SHIFT - per movimenti più veloci
+	Tieni premuto CTRL - Per movimenti più lenti
+	Usa la rotellina del mouse per lo zoom.
 
 Per aggiungere altre texture clicca su "[+] Aggiungi texture" nell'angolo in basso a destra della finestra. Per rimuoverle clicca su "[-]" vicino al nome della texture.
 
 Per modificare le opzioni di rendering, utilizza i collegamenti nella parte destra o questi tasti di scelta rapida:
 
-    F1 - Apre questa finestra di aiuto
+	F1 - Apre questa finestra di aiuto
     F2 - Mostra ulteriori informazioni
-    C - Cambia il tipo della camera
-    F - Mostra/nascondi linee
-    P - Mostra/nascondi punti
-    G - Mostra/nascondi geometria
-    L - Cambia livello di dettaglio
-    ESC - Chiude la finestra del visualizzatore
+	C - Cambia il tipo della camera
+	F - Mostra/nascondi linee
+	P - Mostra/nascondi punti
+	G - Mostra/nascondi geometria
+	L - Cambia livello di dettaglio
+	ESC - Chiude la finestra del visualizzatore
 
-    Tieni premuto H - Per nascondere temporaneamente l'HUD
+	Tieni premuto H - Per nascondere temporaneamente l'HUD
 ]]>
 		</text>				
 	</RenderUI>

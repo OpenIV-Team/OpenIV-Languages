@@ -4,8 +4,8 @@
 		<!-- String's -->
 		<AeroWindow LinesCount='10'>
 			<StringList>
-				<Item Index='0' Value='$AppName$ Texture viewer'/>
-				<Item Index='1' Value='$AppName$ Texture editor'/>
+				<Item Index='0' Value='$AppName$ Visualizzatore Texture'/>
+				<Item Index='1' Value='$AppName$ Editor Texture'/>
 			</StringList>
 		</AeroWindow>
 	</TextureEditorWindow>
@@ -68,13 +68,13 @@ La qualità può essere persa se si cambiano le proprietà]]>
 		<text name="HELP_TEXT">
 			<![CDATA[Tasti di scelta rapida disponibili:
 
-     Ctrl + Tab: Attiva la modalità di visualizzazione
-     Ctrl + A - Esporta tutte le texture
-     Ctrl + S - Esporta texture selezionate
-     F1 - Apre questa finestra di aiuto
-     ESC - Chiudi questa finestra del visualizzatore
-    
-     Tieni premuto H - Per nascondere temporaneamente l'HUD(interfaccia grafica)
+    Ctrl + Tab - Attiva la modalità di visualizzazione
+    Ctrl + A - Esporta tutte le texture
+    Ctrl + S - Esporta texture selezionate
+    F1 - Apre questa finestra di aiuto
+    ESC - Chiudi questa finestra del visualizzatore
+
+    Tieni premuto H - Per nascondere temporaneamente l'HUD(interfaccia grafica)
 ]]>
 		</text>
 	</RenderUI>
