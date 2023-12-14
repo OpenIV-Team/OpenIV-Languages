@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Translation>
 	<SearchWindow Caption='Cerca - $AppName$'>
-		<SearchBox BannerText="Cerca v_54_lesters_txd.ytd"/>
+		<SearchBox BannerText="Cerca decl_010_u"/>
 		<btnGoSearch Caption="Cerca"/>
 		<lbSearchFor Caption="Cerca per:"/>
 		<cbSearchFor>
